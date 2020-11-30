@@ -83,8 +83,11 @@
 > 새 기능을 추가하기 쉽도록 코드를 '수정' 하는 것이  
 > 그 기능을 가장 빠르게 추가하는 길일 수 있음 안다.
 
+### **오래 걸리는 리팩터링**
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM1NDEzMzI0LDMyNzQzMTY5MCwtNTQ5NT
-Y2NjgyLDQ1NjkyNjgyNywtMTUyNDE1NTc5MCwxOTIzODQ2OTYw
-LC0xNDE1NzY3NTQsLTY0ODI5NDk5MiwyOTg3MDc1NjhdfQ==
+eyJoaXN0b3J5IjpbODg2MTE5ODgzLDUzNTQxMzMyNCwzMjc0Mz
+E2OTAsLTU0OTU2NjY4Miw0NTY5MjY4MjcsLTE1MjQxNTU3OTAs
+MTkyMzg0Njk2MCwtMTQxNTc2NzU0LC02NDgyOTQ5OTIsMjk4Nz
+A3NTY4XX0=
 -->
