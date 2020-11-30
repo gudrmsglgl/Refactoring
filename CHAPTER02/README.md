@@ -72,18 +72,20 @@
 
 
 ### **계획된 리팩터링과 수시로 하는 리팩터링**
+
 > 보기 싫은 코드 -> 리팩토링
 > But! 잘 작성된 코드 -> 수많은 리팩터링
 
 > " 무언가를 수정하려 할 때는 먼저 수정하기 쉽게 정돈하고
 > 그런 다음 쉽게 수정하자 " _켄트 백
 
-뛰어난 개발자는 
-새 기능을 추가하기 쉽도록 코드를 '수정' 하는 것이 
-그 기능을 가장 빠르게 추가하는 길일 수 있음을 안다. 
+> 뛰어난 개발자는  
+> 새 기능을 추가하기 쉽도록 코드를 '수정' 하는 것이  
+> 그 기능을 가장 빠르게 추가하는 길일 수 있음을
+> 안다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI3NDMxNjkwLC01NDk1NjY2ODIsNDU2OT
-I2ODI3LC0xNTI0MTU1NzkwLDE5MjM4NDY5NjAsLTE0MTU3Njc1
-NCwtNjQ4Mjk0OTkyLDI5ODcwNzU2OF19
+eyJoaXN0b3J5IjpbMjcyMzQ2NDA0LDMyNzQzMTY5MCwtNTQ5NT
+Y2NjgyLDQ1NjkyNjgyNywtMTUyNDE1NTc5MCwxOTIzODQ2OTYw
+LC0xNDE1NzY3NTQsLTY0ODI5NDk5MiwyOTg3MDc1NjhdfQ==
 -->
