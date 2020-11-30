@@ -76,10 +76,12 @@
 > But! 잘 작성된 코드 -> 수많은 리팩터링
 
 > " 무언가를 수정하려 할 때는 먼저 수정하기 쉽게 정돈하고
-> 그런 다음 쉽게 수정하자 " _켄트 백 
+> 그런 다음 쉽게 수정하자 " _켄트 백
+
+뛰어난 개발자는 새 기능을 추가하기 쉽도록 코드를 '수정' 하는 것이 그 기능을 가장 빠르게 추가하는 길일 수 있음을 안다. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzODUwNTE3LDQ1NjkyNjgyNywtMTUyND
-E1NTc5MCwxOTIzODQ2OTYwLC0xNDE1NzY3NTQsLTY0ODI5NDk5
-MiwyOTg3MDc1NjhdfQ==
+eyJoaXN0b3J5IjpbLTU0OTU2NjY4Miw0NTY5MjY4MjcsLTE1Mj
+QxNTU3OTAsMTkyMzg0Njk2MCwtMTQxNTc2NzU0LC02NDgyOTQ5
+OTIsMjk4NzA3NTY4XX0=
 -->
