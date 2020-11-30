@@ -17,7 +17,7 @@
 <br>
 
 ## 2.2 두 개의 모자
-### 기능 추가, 리택터링
+### :guardsman: 기능 추가, 리택터링
 * 기능추가
 <br> 기존 코드는 건드리지 않고 새 기능을 추가하기만 한다.
 
@@ -60,6 +60,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTU3Njc1NCwtNjQ4Mjk0OTkyLDI5OD
-cwNzU2OF19
+eyJoaXN0b3J5IjpbLTEzNzI5MTg3OTQsLTE0MTU3Njc1NCwtNj
+Q4Mjk0OTkyLDI5ODcwNzU2OF19
 -->
