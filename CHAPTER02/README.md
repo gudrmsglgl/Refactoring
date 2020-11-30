@@ -75,9 +75,11 @@
 > 보기 싫은 코드 -> 리팩토링
 > But! 잘 작성된 코드 -> 수많은 리팩터링
 
+> 무언가를 수정하려 할 때는 먼저 수정하기 쉽게 정돈하고
+> 그런 다음 쉽게 수정하자
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU2OTI2ODI3LC0xNTI0MTU1NzkwLDE5Mj
-M4NDY5NjAsLTE0MTU3Njc1NCwtNjQ4Mjk0OTkyLDI5ODcwNzU2
-OF19
+eyJoaXN0b3J5IjpbMTM5NTYwMjAwMyw0NTY5MjY4MjcsLTE1Mj
+QxNTU3OTAsMTkyMzg0Njk2MCwtMTQxNTc2NzU0LC02NDgyOTQ5
+OTIsMjk4NzA3NTY4XX0=
 -->
