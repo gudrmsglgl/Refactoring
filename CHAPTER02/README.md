@@ -84,10 +84,10 @@
 > 그 기능을 가장 빠르게 추가하는 길일 수 있음 안다.
 
 ### **오래 걸리는 리팩터링**
-
+주어진 문제를 몇 주에 걸쳐 조금씩 해결하는 편이 효과적 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg2MTE5ODgzLDUzNTQxMzMyNCwzMjc0Mz
-E2OTAsLTU0OTU2NjY4Miw0NTY5MjY4MjcsLTE1MjQxNTU3OTAs
-MTkyMzg0Njk2MCwtMTQxNTc2NzU0LC02NDgyOTQ5OTIsMjk4Nz
-A3NTY4XX0=
+eyJoaXN0b3J5IjpbLTQxMTUwOTI4NCw1MzU0MTMzMjQsMzI3ND
+MxNjkwLC01NDk1NjY2ODIsNDU2OTI2ODI3LC0xNTI0MTU1Nzkw
+LDE5MjM4NDY5NjAsLTE0MTU3Njc1NCwtNjQ4Mjk0OTkyLDI5OD
+cwNzU2OF19
 -->
