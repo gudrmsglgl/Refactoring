@@ -18,10 +18,10 @@
 
 ## 2.2 두 개의 모자
 ### :guardsman: 기능 추가, 리택터링
-* 기능추가
+:on: 기능추가
 <br> 기존 코드는 건드리지 않고 새 기능을 추가하기만 한다.
 
-* 리택터링
+:on: 리택터링
 <br> 기능 추가는 절대 하지 않기로 다짐한 뒤 오로지 코드 재구성에만 전념한다.
 
 > _Tip_. 개발 시 기능추가를 하고 코드를 보며 구조 개선이 필요하다고 생각되면 모자를 바꿔 리택터링 후<br> 코드 구조가 어느 정도 개선되면 다시 모자를 바꿔 기능 추가를 이어간다.  
@@ -60,6 +60,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzI5MTg3OTQsLTE0MTU3Njc1NCwtNj
+eyJoaXN0b3J5IjpbLTIxMjUyMjI4OTIsLTE0MTU3Njc1NCwtNj
 Q4Mjk0OTkyLDI5ODcwNzU2OF19
 -->
