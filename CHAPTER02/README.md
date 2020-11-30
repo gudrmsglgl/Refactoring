@@ -71,9 +71,11 @@
     * 거의 똑같은 함수 여러 개로 작성 -> 매개변수화한 함수
 
 
+### **계획된 리팩터링과 수시로 하는 리팩터링**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjQxNTU3OTAsMTkyMzg0Njk2MCwtMT
-QxNTc2NzU0LC02NDgyOTQ5OTIsMjk4NzA3NTY4XX0=
+eyJoaXN0b3J5IjpbNzcxMjM4Mzk4LC0xNTI0MTU1NzkwLDE5Mj
+M4NDY5NjAsLTE0MTU3Njc1NCwtNjQ4Mjk0OTkyLDI5ODcwNzU2
+OF19
 -->
