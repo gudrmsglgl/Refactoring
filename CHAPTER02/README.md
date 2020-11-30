@@ -72,11 +72,12 @@
 
 
 ### **계획된 리팩터링과 수시로 하는 리팩터링**
-기능을 추가하거나 버그를 잡는 동안 리팩토링
+> 보기 싫은 코드 -> 리팩토링
+> But! 잘 작성된 코드 -> 수많은 리팩터링
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNDIwNzEyNSwtMTUyNDE1NTc5MCwxOT
-IzODQ2OTYwLC0xNDE1NzY3NTQsLTY0ODI5NDk5MiwyOTg3MDc1
-NjhdfQ==
+eyJoaXN0b3J5IjpbNDU2OTI2ODI3LC0xNTI0MTU1NzkwLDE5Mj
+M4NDY5NjAsLTE0MTU3Njc1NCwtNjQ4Mjk0OTkyLDI5ODcwNzU2
+OF19
 -->
