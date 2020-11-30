@@ -55,19 +55,20 @@
 ### **준비를 위한 리팩터링: 기능을 쉽게 추가하게 만들기**
     ex) 함수 매개변수화하기
 ### **이해를 위한 리팩터링: 코드를 이해하기 쉽게 만들기**
-> 초기 단계의 리팩 
+> Ralph johnson: 초기 단계의 리팩터링을 밖을 잘 내다보기 위한 창문 닦기 
 
     * 조건부 로직 구조 이상하지 않은지
     * 함수 이름을 잘못 정해서 파악하는 데 오래 걸리지는 않는지
     * 어떤 역할을 하는지 이해된 변수는 적절한 이름으로 바꿔주고
     * 긴 함수를 잘게 나누기
 
+### **쓰레기 줍기 리팩터링**
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU1ODIwMzg3LDE5MjM4NDY5NjAsLTE0MT
+eyJoaXN0b3J5IjpbNjMxMzczNDExLDE5MjM4NDY5NjAsLTE0MT
 U3Njc1NCwtNjQ4Mjk0OTkyLDI5ODcwNzU2OF19
 -->
