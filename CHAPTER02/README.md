@@ -2,7 +2,7 @@
 [리택터링 정의](#2.1-리택터링-정의) <br>
 [두 개의 모자](#2.2-두-개의-모자) <br>
 [리팩터링하는 이유](#2.3-리팩터링하는-이유) <br>
-[언제 리팩터링해야 할까](#2.4-언제-리팩터링해야-할까?)
+[언제 리팩터링해야 할까](##2.4-언제-리팩터링해야-할까?)
 <br><br>
 ## 2.1 리팩터링 정의
 > **리택터링**: [명사] 소프트웨어의 겉보기 동작은 그대로 유지한 채, 코드를 <u>**이해하고 수정하기 쉽도록**</u> <br> 내부 구조를 변경하는 기법
@@ -84,9 +84,9 @@
 > 그 기능을 가장 빠르게 추가하는 길일 수 있음 안다.
 
 ### **오래 걸리는 리팩터링**
-주어진 문제를 몇 주에 걸쳐 조금씩 해결하는 편이 효과적 
+> 주어진 문제를 몇 주에 걸쳐 조금씩 해결하는 편이 효과적 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMTUwOTI4NCw1MzU0MTMzMjQsMzI3ND
+eyJoaXN0b3J5IjpbLTE4MjI1NTk3MSw1MzU0MTMzMjQsMzI3ND
 MxNjkwLC01NDk1NjY2ODIsNDU2OTI2ODI3LC0xNTI0MTU1Nzkw
 LDE5MjM4NDY5NjAsLTE0MTU3Njc1NCwtNjQ4Mjk0OTkyLDI5OD
 cwNzU2OF19
