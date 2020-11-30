@@ -64,6 +64,9 @@
 
 ### **쓰레기 줍기 리팩터링**
 
+> 간단히 수정할 수 있는 것은 즉시 고치고, 
+> 시간이 좀 걸리는 일은 짧은 메모만 남긴 다음, 하던 일을 끝내고 처리 
+
     * 로직이 쓸데없이 복잡
     * 거의 똑같은 함수 여러 개로 작성 -> 매개변수화한 함수
 
@@ -71,6 +74,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTI0Nzg2ODksMTkyMzg0Njk2MCwtMT
+eyJoaXN0b3J5IjpbLTE1MjQxNTU3OTAsMTkyMzg0Njk2MCwtMT
 QxNTc2NzU0LC02NDgyOTQ5OTIsMjk4NzA3NTY4XX0=
 -->
