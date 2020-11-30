@@ -81,11 +81,10 @@
 
 > 뛰어난 개발자는  
 > 새 기능을 추가하기 쉽도록 코드를 '수정' 하는 것이  
-> 그 기능을 가장 빠르게 추가하는 길일 수 있음을
-> 안다.
+> 그 기능을 가장 빠르게 추가하는 길일 수 있음 안다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcyMzQ2NDA0LDMyNzQzMTY5MCwtNTQ5NT
+eyJoaXN0b3J5IjpbNTM1NDEzMzI0LDMyNzQzMTY5MCwtNTQ5NT
 Y2NjgyLDQ1NjkyNjgyNywtMTUyNDE1NTc5MCwxOTIzODQ2OTYw
 LC0xNDE1NzY3NTQsLTY0ODI5NDk5MiwyOTg3MDc1NjhdfQ==
 -->
