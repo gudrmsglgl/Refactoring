@@ -37,7 +37,7 @@
     코드의 목적이 더 잘 드러나게, 의도를 명확하게 전달하도록 개선할 수 있다.
 
 ### :three: **리택터링하면 버그를 쉽게 찾을 수 있다**
-### **리팩터링하면 프로그래밍 속도를 높일 수 있다**
+### :four: **리팩터링하면 프로그래밍 속도를 높일 수 있다**
     * 리팩터링하면 코드 개발 속도를 높일 수 있다.
     * 코드가 명확하면 버그를 만들 가능성도 줄고 버그를 만들더라도 디버깅하기 훨씬 쉽다.
     * 지구력 가설
@@ -60,6 +60,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzM3NDAwMTIsLTY0ODI5NDk5MiwyOT
-g3MDc1NjhdfQ==
+eyJoaXN0b3J5IjpbMjA5MDYwNDgwOCwtNjQ4Mjk0OTkyLDI5OD
+cwNzU2OF19
 -->
