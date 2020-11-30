@@ -64,11 +64,13 @@
 
 ### **쓰레기 줍기 리팩터링**
 
+    * 로직이 쓸데없이 복잡
+    * 거의 똑같은 함수 여러 개로 작성 -> 매개변수화한 함수
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMxMzczNDExLDE5MjM4NDY5NjAsLTE0MT
-U3Njc1NCwtNjQ4Mjk0OTkyLDI5ODcwNzU2OF19
+eyJoaXN0b3J5IjpbLTIwMTI0Nzg2ODksMTkyMzg0Njk2MCwtMT
+QxNTc2NzU0LC02NDgyOTQ5OTIsMjk4NzA3NTY4XX0=
 -->
