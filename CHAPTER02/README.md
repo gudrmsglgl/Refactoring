@@ -85,9 +85,13 @@
 
 ### **오래 걸리는 리팩터링**
 > 주어진 문제를 몇 주에 걸쳐 조금씩 해결하는 편이 효과적 
+
+### **코드 리뷰에 리팩터링 활용하기**
+> 작성자와 나란히 앉아서 코드를 훑어가면서 리팩터링 하는 것
+> -> 짝 프로그래밍
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzA4NTc2NzAsNTM1NDEzMzI0LDMyNz
-QzMTY5MCwtNTQ5NTY2NjgyLDQ1NjkyNjgyNywtMTUyNDE1NTc5
-MCwxOTIzODQ2OTYwLC0xNDE1NzY3NTQsLTY0ODI5NDk5MiwyOT
-g3MDc1NjhdfQ==
+eyJoaXN0b3J5IjpbLTE5MTMyOTM3NTIsLTE3NzA4NTc2NzAsNT
+M1NDEzMzI0LDMyNzQzMTY5MCwtNTQ5NTY2NjgyLDQ1NjkyNjgy
+NywtMTUyNDE1NTc5MCwxOTIzODQ2OTYwLC0xNDE1NzY3NTQsLT
+Y0ODI5NDk5MiwyOTg3MDc1NjhdfQ==
 -->
