@@ -75,11 +75,11 @@
 > 보기 싫은 코드 -> 리팩토링
 > But! 잘 작성된 코드 -> 수많은 리팩터링
 
-> 무언가를 수정하려 할 때는 먼저 수정하기 쉽게 정돈하고
-> 그런 다음 쉽게 수정하자
+> " 무언가를 수정하려 할 때는 먼저 수정하기 쉽게 정돈하고
+> 그런 다음 쉽게 수정하자 " _켄트 백 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NTYwMjAwMyw0NTY5MjY4MjcsLTE1Mj
-QxNTU3OTAsMTkyMzg0Njk2MCwtMTQxNTc2NzU0LC02NDgyOTQ5
-OTIsMjk4NzA3NTY4XX0=
+eyJoaXN0b3J5IjpbMTgzODUwNTE3LDQ1NjkyNjgyNywtMTUyND
+E1NTc5MCwxOTIzODQ2OTYwLC0xNDE1NzY3NTQsLTY0ODI5NDk5
+MiwyOTg3MDc1NjhdfQ==
 -->
