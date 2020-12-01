@@ -3,7 +3,7 @@
 [두 개의 모자](#id-section2)<br>
 [리팩터링하는 이유](#id-section3)<br>
 [언제 리팩터링해야 할까](#id-section4)<br>
-[리팩터링 시 고려할 문제](#id-section5)
+[리팩터링 시 고려할 문제](#id-section5)<br>
 [리팩터링, 아키텍처, 애그니(YAGNI)](#id-section6)
 <br><br>
 <div id='id-section1'/>
@@ -166,7 +166,7 @@
 
 ## 2.6 리팩터링, 아키텍처, 애그니(YAGNI)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MjE1OTQyOSw5MzM1MTY5OTksLTgxOD
+eyJoaXN0b3J5IjpbLTYyMTg4NTgzMyw5MzM1MTY5OTksLTgxOD
 I1MTE1OCwyMTMzNTEwNjY0LDc2ODA2MzI4NywtMTU4MDU5ODcw
 NiwxODE3MTU5OCwxMDExNDE2MjI3LC0yMzA4NDQ2MjQsLTUzMD
 kyMjI3NiwtMTM5Mjg4OTk2OCwtMzYwODU0ODYsLTExMzk3Nzgy
