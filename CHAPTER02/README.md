@@ -146,9 +146,11 @@
     * 테스트가 실패한다면 가장 최근에 통과한 버전에서 무엇이 달라졌는지 살펴볼 수 있음
     * 리택터링 과정에서 버그 생길 위험이 크다는 불안감 해소
 
+### :shipit: **레거시 코드**
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0ODQxNTQ4LDIxMzM1MTA2NjQsNzY4MD
-YzMjg3LC0xNTgwNTk4NzA2LDE4MTcxNTk4LDEwMTE0MTYyMjcs
-LTIzMDg0NDYyNCwtNTMwOTIyMjc2LC0xMzkyODg5OTY4LC0zNj
-A4NTQ4NiwtMTEzOTc3ODI2NSwtMTE1NzEwMzc3MF19
+eyJoaXN0b3J5IjpbLTgxODI1MTE1OCwyMTMzNTEwNjY0LDc2OD
+A2MzI4NywtMTU4MDU5ODcwNiwxODE3MTU5OCwxMDExNDE2MjI3
+LC0yMzA4NDQ2MjQsLTUzMDkyMjI3NiwtMTM5Mjg4OTk2OCwtMz
+YwODU0ODYsLTExMzk3NzgyNjUsLTExNTcxMDM3NzBdfQ==
 -->
