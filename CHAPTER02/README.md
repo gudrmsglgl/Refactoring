@@ -172,18 +172,16 @@
 
     * 향후 변경에 유연하게 대처할 수 있는 유연성 메커니즘을 소프트웨어에 심어두는 것.
     * 함수를 정의하다 보면 범용적으로 사용할 수 있겠다는 생각들 때 → 예상 시나리오에 대응하기 위한 매개변수(유연성 메너니즘)추가.
-    `:`
-
-🚷 주의점
+	🚷 주의점
     * 매개변수를 생각나는 대로 추가 → 복잡
-    * 
+    * 요구사항이 당초 예상과 다르게 바뀔 때나 내가 설계한 메ㅓ니즘 자체 결함 있을 수 있음 
      
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE2NzUzNDc3LC0xMzA5NDc4MTg3LC0xNj
-QxOTE3OTk2LDcyMzIyNzUxLC0zMjMzNjU4MiwtNjIxODg1ODMz
-LDkzMzUxNjk5OSwtODE4MjUxMTU4LDIxMzM1MTA2NjQsNzY4MD
-YzMjg3LC0xNTgwNTk4NzA2LDE4MTcxNTk4LDEwMTE0MTYyMjcs
-LTIzMDg0NDYyNCwtNTMwOTIyMjc2LC0xMzkyODg5OTY4LC0zNj
-A4NTQ4NiwtMTEzOTc3ODI2NSwtMTE1NzEwMzc3MF19
+eyJoaXN0b3J5IjpbLTExODE3OTcyNjcsLTEzMDk0NzgxODcsLT
+E2NDE5MTc5OTYsNzIzMjI3NTEsLTMyMzM2NTgyLC02MjE4ODU4
+MzMsOTMzNTE2OTk5LC04MTgyNTExNTgsMjEzMzUxMDY2NCw3Nj
+gwNjMyODcsLTE1ODA1OTg3MDYsMTgxNzE1OTgsMTAxMTQxNjIy
+NywtMjMwODQ0NjI0LC01MzA5MjIyNzYsLTEzOTI4ODk5NjgsLT
+M2MDg1NDg2LC0xMTM5Nzc4MjY1LC0xMTU3MTAzNzcwXX0=
 -->
