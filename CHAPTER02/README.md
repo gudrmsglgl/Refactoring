@@ -135,9 +135,11 @@
 
     * 리팩터링 효과적
     * 새 기능 추가도 훨씬 안전하게 진행 → 실수로 만든 버그를 빠르게 제거
+    * 테스트가 실패한다면 가장 최근에 통과한 버전에서 무엇이 달라졌는지 살펴볼 수 있음
+    * 리택터링 과정에서 버그 생길 위험이 크다는 불안감 해소
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMTQxNjIyNywtMjMwODQ0NjI0LC01Mz
-A5MjIyNzYsLTEzOTI4ODk5NjgsLTM2MDg1NDg2LC0xMTM5Nzc4
-MjY1LC0xMTU3MTAzNzcwXX0=
+eyJoaXN0b3J5IjpbMTgxNzE1OTgsMTAxMTQxNjIyNywtMjMwOD
+Q0NjI0LC01MzA5MjIyNzYsLTEzOTI4ODk5NjgsLTM2MDg1NDg2
+LC0xMTM5Nzc4MjY1LC0xMTU3MTAzNzcwXX0=
 -->
