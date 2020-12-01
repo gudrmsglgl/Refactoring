@@ -123,8 +123,12 @@
     -> 완료되지 않은 기능이 시스템 전체를 망치지 않도록 해야 한다.
 
   :question: **기능별 브랜치 사용**  
-ㅁㄴㅇㄹ
+
+    브랜치를 자주 통합할 수 있다면 문제가 발생할 가능성을 크게 줄일 수 있다.
+    CI를 적용하는 이들도 기능별 브랜치를 많이 사용(단, 마스터와 통합하는 작업 매일)
+    ㄴㅁㄹ 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NzYyOTU0OSwtMTM5Mjg4OTk2OCwtMz
-YwODU0ODYsLTExMzk3NzgyNjUsLTExNTcxMDM3NzBdfQ==
+eyJoaXN0b3J5IjpbLTcxNjEzODIwLC0xMzkyODg5OTY4LC0zNj
+A4NTQ4NiwtMTEzOTc3ODI2NSwtMTE1NzEwMzc3MF19
 -->
