@@ -102,6 +102,7 @@
     * 외부 API 다루듯 호출해서 쓰는 코드
     * 처음부터 새로 작성하는 게 쉬울 때 
 <br>
+<div id='id-section5'/>
 
 ## 2.5 리팩터링 시 고려할 문제
 ### :shipit: **새 기능 개발 속도 저하**
@@ -146,7 +147,7 @@
     * 리택터링 과정에서 버그 생길 위험이 크다는 불안감 해소
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzczMzI3MDM2LDIxMzM1MTA2NjQsNzY4MD
+eyJoaXN0b3J5IjpbMTk0ODQxNTQ4LDIxMzM1MTA2NjQsNzY4MD
 YzMjg3LC0xNTgwNTk4NzA2LDE4MTcxNTk4LDEwMTE0MTYyMjcs
 LTIzMDg0NDYyNCwtNTMwOTIyMjc2LC0xMzkyODg5OTY4LC0zNj
 A4NTQ4NiwtMTEzOTc3ODI2NSwtMTE1NzEwMzc3MF19
