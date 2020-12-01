@@ -115,6 +115,7 @@
     
 
   
+
 🙆 **브랜치 관리**
 
 	기능별 브랜치의 통합 주기를 2~3일 단위로 짧게 관리 혹은 더 짧게 (CI, TBD)
@@ -123,13 +124,14 @@
     각 기능을 끌 수 있는 기능 토글(feature flag)을 적용하여 
     -> 완료되지 않은 기능이 시스템 전체를 망치지 않도록 해야 한다.
 
-  :question: **기능별 브랜치 사용**  
+#####  :question: **기능별 브랜치 사용**  
 
     브랜치를 자주 통합할 수 있다면 문제가 발생할 가능성을 크게 줄일 수 있다.
     CI를 적용하는 이들도 기능별 브랜치를 많이 사용(단, 마스터와 통합하는 작업 매일)
     
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMDkyMjI3NiwtMTM5Mjg4OTk2OCwtMz
-YwODU0ODYsLTExMzk3NzgyNjUsLTExNTcxMDM3NzBdfQ==
+eyJoaXN0b3J5IjpbODgzNjM0OTM5LC01MzA5MjIyNzYsLTEzOT
+I4ODk5NjgsLTM2MDg1NDg2LC0xMTM5Nzc4MjY1LC0xMTU3MTAz
+NzcwXX0=
 -->
