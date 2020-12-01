@@ -1,10 +1,10 @@
 # 리팩터링 원칙
-[리택터링 정의](#2.1-리택터링-정의) <br>
+[리택터링 정의](#2.1) <br>
 [두 개의 모자](#2.2-두-개의-모자) <br>
 [리팩터링하는 이유](#2.3-리팩터링하는-이유) <br>
 [언제 리팩터링해야 할까](#2.4-언제-리팩터링해야-할까?)
 <br><br>
-## 2.1 리팩터링 정의
+## 2.1 리팩터링 정의<a name="2.1"></a>
 > **리택터링**: [명사] 소프트웨어의 겉보기 동작은 그대로 유지한 채, 코드를 <u>**이해하고 수정하기 쉽도록**</u> <br> 내부 구조를 변경하는 기법
 
 > **리택터링**: [동사] 소프트웨어의 겉보기 동작은 그대로 유지한 채, <u>**여러 가지 리팩터링 기법을 적용**</u>해서 <br>소프트웨어를 재구성하다.
@@ -139,7 +139,8 @@
     * 리택터링 과정에서 버그 생길 위험이 크다는 불안감 해소
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNzE1OTgsMTAxMTQxNjIyNywtMjMwOD
-Q0NjI0LC01MzA5MjIyNzYsLTEzOTI4ODk5NjgsLTM2MDg1NDg2
-LC0xMTM5Nzc4MjY1LC0xMTU3MTAzNzcwXX0=
+eyJoaXN0b3J5IjpbMTgwOTYwNzM1NywxODE3MTU5OCwxMDExND
+E2MjI3LC0yMzA4NDQ2MjQsLTUzMDkyMjI3NiwtMTM5Mjg4OTk2
+OCwtMzYwODU0ODYsLTExMzk3NzgyNjUsLTExNTcxMDM3NzBdfQ
+==
 -->
