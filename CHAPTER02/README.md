@@ -121,8 +121,9 @@
     거대한 기능을 잘게 쪼개는 법을 배우고, 
     각 기능을 끌 수 있는 기능 토글(feature flag)을 적용하여 
     -> 완료되지 않은 기능이 시스템 전체를 망치지 않도록 해야 한다.
-    
+
+  기능별 브랜치 사용 :question:  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTI4ODk5NjgsLTM2MDg1NDg2LC0xMT
-M5Nzc4MjY1LC0xMTU3MTAzNzcwXX0=
+eyJoaXN0b3J5IjpbMjA2MDYyNTQxMCwtMTM5Mjg4OTk2OCwtMz
+YwODU0ODYsLTExMzk3NzgyNjUsLTExNTcxMDM3NzBdfQ==
 -->
