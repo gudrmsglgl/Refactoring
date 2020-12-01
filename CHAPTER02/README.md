@@ -166,19 +166,19 @@
 
 ## 2.6 리팩터링, 아키텍처, 애그니(YAGNI)
 
-###  :arrows_counterclockwise: 아키텍처
 > 리팩터링이 아키텍처에 미치는 실질적인 효과는 요구사항 변화에 자연스럽게 대응하도록 코드 베이스를 잘 설계해준다는 데 있다.
 
-아키텍처 설계 시
+:pushpin:&nbsp;**아키텍처 설계 시**
 
-    향후 변경에 유연하게 대처할 수 있는 유연성 메커니즘을 소프트웨어에 심어두는 것.
-    ㄴㅁㅇㄹ 
+    * 향후 변경에 유연하게 대처할 수 있는 유연성 메커니즘을 소프트웨어에 심어두는 것.
+    * 
+     
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDE5MTc5OTYsNzIzMjI3NTEsLTMyMz
-M2NTgyLC02MjE4ODU4MzMsOTMzNTE2OTk5LC04MTgyNTExNTgs
-MjEzMzUxMDY2NCw3NjgwNjMyODcsLTE1ODA1OTg3MDYsMTgxNz
-E1OTgsMTAxMTQxNjIyNywtMjMwODQ0NjI0LC01MzA5MjIyNzYs
-LTEzOTI4ODk5NjgsLTM2MDg1NDg2LC0xMTM5Nzc4MjY1LC0xMT
-U3MTAzNzcwXX0=
+eyJoaXN0b3J5IjpbLTE5MzgzMTgxNTUsLTE2NDE5MTc5OTYsNz
+IzMjI3NTEsLTMyMzM2NTgyLC02MjE4ODU4MzMsOTMzNTE2OTk5
+LC04MTgyNTExNTgsMjEzMzUxMDY2NCw3NjgwNjMyODcsLTE1OD
+A1OTg3MDYsMTgxNzE1OTgsMTAxMTQxNjIyNywtMjMwODQ0NjI0
+LC01MzA5MjIyNzYsLTEzOTI4ODk5NjgsLTM2MDg1NDg2LC0xMT
+M5Nzc4MjY1LC0xMTU3MTAzNzcwXX0=
 -->
