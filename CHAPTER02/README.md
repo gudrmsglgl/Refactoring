@@ -165,10 +165,14 @@
 <div id='id-section6'/>
 
 ## 2.6 리팩터링, 아키텍처, 애그니(YAGNI)
+
+리팩터링 아키텍처
+리팩터링이 아키텍처에 미치는 실질적인 효과는 요구사항 변화에 자연스럽게 대응하도록 코드 베이스를 잘 설계해준다는 데 있다.
+코딩 전에 아키텍처를 확정지으려 할 때의 대표적인 문제는 소프트웨어 요구사항을 사전에 모두 파악해야 한다는 것.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMTg4NTgzMyw5MzM1MTY5OTksLTgxOD
-I1MTE1OCwyMTMzNTEwNjY0LDc2ODA2MzI4NywtMTU4MDU5ODcw
-NiwxODE3MTU5OCwxMDExNDE2MjI3LC0yMzA4NDQ2MjQsLTUzMD
-kyMjI3NiwtMTM5Mjg4OTk2OCwtMzYwODU0ODYsLTExMzk3Nzgy
-NjUsLTExNTcxMDM3NzBdfQ==
+eyJoaXN0b3J5IjpbLTMyMzM2NTgyLC02MjE4ODU4MzMsOTMzNT
+E2OTk5LC04MTgyNTExNTgsMjEzMzUxMDY2NCw3NjgwNjMyODcs
+LTE1ODA1OTg3MDYsMTgxNzE1OTgsMTAxMTQxNjIyNywtMjMwOD
+Q0NjI0LC01MzA5MjIyNzYsLTEzOTI4ODk5NjgsLTM2MDg1NDg2
+LC0xMTM5Nzc4MjY1LC0xMTU3MTAzNzcwXX0=
 -->
