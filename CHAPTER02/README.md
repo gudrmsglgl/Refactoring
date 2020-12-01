@@ -89,9 +89,20 @@
 ### **코드 리뷰에 리팩터링 활용하기**
 > 작성자와 나란히 앉아서 코드를 훑어가면서 리팩터링 하는 것
 > -> pair programming
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MDMzNjY5NywtMTc3MDg1NzY3MCw1Mz
-U0MTMzMjQsMzI3NDMxNjkwLC01NDk1NjY2ODIsNDU2OTI2ODI3
-LC0xNTI0MTU1NzkwLDE5MjM4NDY5NjAsLTE0MTU3Njc1NCwtNj
-Q4Mjk0OTkyLDI5ODcwNzU2OF19
--->
+
+### **리팩터링하지 말아야 할 때**
+    * 지저분한 코드를 발견해도 굳이 수정할 필요가 없을 때
+    * 외부 API 다루듯 호출해서 쓰는 코드
+    * 처음부터 새로 작성하는 게 쉬울 때 
+
+## 2.5 리팩터링 시 고려할 문제
+### :shipit: **새 기능 개발 속도 저하**
+> 리팩터링의 궁극적인 목적은 개발 속도를 높여서, 더 적은 노력으로 더 많은 가치를 창출한는 것이다.
+
+>건강한 코드의 위력을 충분히 경험해보지 않고서는<br>
+코드베이스가 건강할 때와 허약할 때의 생산성 차이를 체감하기 어렵다.
+
+> 생각의 오류<br>
+'클린코드' 나  '바람직한 엔지니어링 습관' 처럼 도덕적인 이유로 정당화하는 것.<br>
+:no_good: 코드 베이스를 예쁘게 꾸미는 데 있지 않다.<br>
+:ok_woman: 오로지 경제적인 이유, 개발 기간을 단축, 기능 추가 시간을 줄이고, 버그 수정 시간을 줄여준다. 
