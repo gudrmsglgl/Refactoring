@@ -134,10 +134,10 @@
 #####  :white_check_mark: &nbsp;자가 테스트 코드
 
     * 리팩터링 효과적
-    * 새 기능 추가도 훨씬 안전하게 진행
+    * 새 기능 추가도 훨씬 안전하게 진행 실수로 만든 버그를 빠르게 제거
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzIzOTEwNzUsLTIzMDg0NDYyNCwtNT
-MwOTIyMjc2LC0xMzkyODg5OTY4LC0zNjA4NTQ4NiwtMTEzOTc3
-ODI2NSwtMTE1NzEwMzc3MF19
+eyJoaXN0b3J5IjpbMjExMzcyODI3NywtMjMwODQ0NjI0LC01Mz
+A5MjIyNzYsLTEzOTI4ODk5NjgsLTM2MDg1NDg2LC0xMTM5Nzc4
+MjY1LC0xMTU3MTAzNzcwXX0=
 -->
