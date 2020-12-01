@@ -174,14 +174,15 @@
     * 함수를 정의하다 보면 범용적으로 사용할 수 있겠다는 생각들 때 → 예상 시나리오에 대응하기 위한 매개변수(유연성 메너니즘)추가.
 	🚷 주의점
     * 매개변수를 생각나는 대로 추가 → 복잡
-    * 요구사항이 당초 예상과 다르게 바뀔 때나 내가 설계한 메ㅓ니즘 자체 결함 있을 수 있음 
+    * 요구사항이 당초 예상과 다르게 바뀔 때
+    * 내가 설계한 메커니즘 자체 결함 있을 수 있음 
      
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODE3OTcyNjcsLTEzMDk0NzgxODcsLT
-E2NDE5MTc5OTYsNzIzMjI3NTEsLTMyMzM2NTgyLC02MjE4ODU4
-MzMsOTMzNTE2OTk5LC04MTgyNTExNTgsMjEzMzUxMDY2NCw3Nj
-gwNjMyODcsLTE1ODA1OTg3MDYsMTgxNzE1OTgsMTAxMTQxNjIy
-NywtMjMwODQ0NjI0LC01MzA5MjIyNzYsLTEzOTI4ODk5NjgsLT
-M2MDg1NDg2LC0xMTM5Nzc4MjY1LC0xMTU3MTAzNzcwXX0=
+eyJoaXN0b3J5IjpbLTY5OTU0Njg4NCwtMTMwOTQ3ODE4NywtMT
+Y0MTkxNzk5Niw3MjMyMjc1MSwtMzIzMzY1ODIsLTYyMTg4NTgz
+Myw5MzM1MTY5OTksLTgxODI1MTE1OCwyMTMzNTEwNjY0LDc2OD
+A2MzI4NywtMTU4MDU5ODcwNiwxODE3MTU5OCwxMDExNDE2MjI3
+LC0yMzA4NDQ2MjQsLTUzMDkyMjI3NiwtMTM5Mjg4OTk2OCwtMz
+YwODU0ODYsLTExMzk3NzgyNjUsLTExNTcxMDM3NzBdfQ==
 -->
