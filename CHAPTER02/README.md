@@ -1,10 +1,12 @@
 # 리팩터링 원칙
-[리택터링 정의](#2.1) <br>
-[두 개의 모자](#2.2-두-개의-모자) <br>
-[리팩터링하는 이유](#2.3-리팩터링하는-이유) <br>
+[리택터링 정의](#id-section1) <br>
+[두 개의 모자](#id-section2) <br>
+[리팩터링하는 이유](#id-section3) <br>
 [언제 리팩터링해야 할까](#id-section4)
 <br><br>
-## 2.1 리팩터링 정의 <a name="2.1"></a>
+<div id='id-section1'/>
+
+## 2.1 리팩터링 정의 
 > **리택터링**: [명사] 소프트웨어의 겉보기 동작은 그대로 유지한 채, 코드를 <u>**이해하고 수정하기 쉽도록**</u> <br> 내부 구조를 변경하는 기법
 
 > **리택터링**: [동사] 소프트웨어의 겉보기 동작은 그대로 유지한 채, <u>**여러 가지 리팩터링 기법을 적용**</u>해서 <br>소프트웨어를 재구성하다.
@@ -15,6 +17,7 @@
     * 잘게 나눔으로써 작업을 더 빨리 처리할 수 있고, 디버깅 시간 축소 
     * 리팩터링의 목적은 코드를 이해하고 수정하기 쉽게 만드는 것
 <br>
+<div id='id-section2'/>
 
 ## 2.2 두 개의 모자
 ### :guardsman: 기능 추가, 리택터링
@@ -29,6 +32,7 @@
 > _Tip_. 개발 시 기능추가를 하고 코드를 보며 구조 개선이 필요하다고 생각되면 모자를 바꿔 리택터링 후<br> 코드 구조가 어느 정도 개선되면 다시 모자를 바꿔 기능 추가를 이어간다.  
 
 <br>
+<div id='id-section3'/>
 
 ## 2.3 리팩터링하는 이유
 ### :one: **리팩터링하면 소프트웨어 설계가 좋아진다**
@@ -141,8 +145,8 @@
     * 리택터링 과정에서 버그 생길 위험이 크다는 불안감 해소
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY4MDYzMjg3LC0xNTgwNTk4NzA2LDE4MT
-cxNTk4LDEwMTE0MTYyMjcsLTIzMDg0NDYyNCwtNTMwOTIyMjc2
-LC0xMzkyODg5OTY4LC0zNjA4NTQ4NiwtMTEzOTc3ODI2NSwtMT
-E1NzEwMzc3MF19
+eyJoaXN0b3J5IjpbMjEzMzUxMDY2NCw3NjgwNjMyODcsLTE1OD
+A1OTg3MDYsMTgxNzE1OTgsMTAxMTQxNjIyNywtMjMwODQ0NjI0
+LC01MzA5MjIyNzYsLTEzOTI4ODk5NjgsLTM2MDg1NDg2LC0xMT
+M5Nzc4MjY1LC0xMTU3MTAzNzcwXX0=
 -->
