@@ -116,7 +116,7 @@
 
   
 
-🙆 **브랜치 관리**
+##### 🙆  **브랜치 관리**
 
 	기능별 브랜치의 통합 주기를 2~3일 단위로 짧게 관리 혹은 더 짧게 (CI, TBD)
     마스터를 건강하게 유지하고, 
@@ -131,7 +131,7 @@
     
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgzNjM0OTM5LC01MzA5MjIyNzYsLTEzOT
+eyJoaXN0b3J5IjpbMTcwNjIzNDkyLC01MzA5MjIyNzYsLTEzOT
 I4ODk5NjgsLTM2MDg1NDg2LC0xMTM5Nzc4MjY1LC0xMTU3MTAz
 NzcwXX0=
 -->
