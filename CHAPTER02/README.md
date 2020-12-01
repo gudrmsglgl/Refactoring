@@ -112,9 +112,9 @@
     * 독립 브랜치로 작업하는 기간이 길어질수록 작업 결과를 마스터로 통합하기가 어려워진다.
     * 머지가 복잡해지는 문제는 기능별 브랜치들이 독립적으로 개발되는 기간이 길어질수록 기하급수적으로 늘어난다.
     * 기능별 브랜치의 통합 주기를 2~3일 단위로 짧게 관리 혹은 더 짧게 (CI, TBD)
-    * 마스터를 건강하게 유지하고, 거대한 기능을 잘게 쪼개는 법을 배우고, 각 기능을 ㄱ
+    🙆 마스터를 건강하게 유지하고, 거대한 기능을 잘게 쪼개는 법을 배우고, 각 기능을 끌 수 있는 기능 토글(feature flag)을 적용하여 완료되지 않은 기능이 시스템 전체를 망치지 않도록 해야 한다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NDM0MjgwMCwtMzYwODU0ODYsLTExMz
-k3NzgyNjUsLTExNTcxMDM3NzBdfQ==
+eyJoaXN0b3J5IjpbLTE3OTUyMzY4MjcsLTM2MDg1NDg2LC0xMT
+M5Nzc4MjY1LC0xMTU3MTAzNzcwXX0=
 -->
