@@ -150,7 +150,7 @@
 
 > 대규모 레거시 시스템을 테스트 코드 없이 명료하게 리팩터링하기는 어렵다.
 
-테스트코드
+#####  :no_entry_sign:&nbsp; 테스트코드
 
     * 테스트 코드 보강
     * 프로그램에서 테스트를 추가할 틈새를 찾아서 시스템을 테스트
@@ -159,9 +159,9 @@
     
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjY1MDQ2ODcsLTgxODI1MTE1OCwyMT
-MzNTEwNjY0LDc2ODA2MzI4NywtMTU4MDU5ODcwNiwxODE3MTU5
-OCwxMDExNDE2MjI3LC0yMzA4NDQ2MjQsLTUzMDkyMjI3NiwtMT
-M5Mjg4OTk2OCwtMzYwODU0ODYsLTExMzk3NzgyNjUsLTExNTcx
-MDM3NzBdfQ==
+eyJoaXN0b3J5IjpbMTAzMjc2MjgyMCwtODE4MjUxMTU4LDIxMz
+M1MTA2NjQsNzY4MDYzMjg3LC0xNTgwNTk4NzA2LDE4MTcxNTk4
+LDEwMTE0MTYyMjcsLTIzMDg0NDYyNCwtNTMwOTIyMjc2LC0xMz
+kyODg5OTY4LC0zNjA4NTQ4NiwtMTEzOTc3ODI2NSwtMTE1NzEw
+Mzc3MF19
 -->
