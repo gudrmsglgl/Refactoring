@@ -116,7 +116,7 @@
 
   
 
-##### :ok_woman: **브랜치 관리**
+##### :ok_woman: &nbsp;**브랜치 관리**
 
 	기능별 브랜치의 통합 주기를 2~3일 단위로 짧게 관리 혹은 더 짧게 (CI, TBD)
     마스터를 건강하게 유지하고, 
@@ -124,19 +124,19 @@
     각 기능을 끌 수 있는 기능 토글(feature flag)을 적용하여 
     -> 완료되지 않은 기능이 시스템 전체를 망치지 않도록 해야 한다.
 
-#####  :question: **기능별 브랜치 사용**  
+#####  :question: &nbsp;**기능별 브랜치 사용**  
 
     브랜치를 자주 통합할 수 있다면 문제가 발생할 가능성을 크게 줄일 수 있다.
     CI를 적용하는 이들도 기능별 브랜치를 많이 사용(단, 마스터와 통합하는 작업 매일)
     
 ### :shipit: **테스팅**
 
-#####  :white_check_mark:  **`&nbsp;`**자가 테스트 코드
+#####  :white_check_mark: &nbsp;자가 테스트 코드
 
-    는 리팩터링을 할 수 있게 해줄 뿐만 아니라, 새 기능 추가도 훨씬 안전하게 진행할 수 있음
+    리팩터링을 할 수 있게 해줄 뿐만 아니라, 새 기능 추가도 훨씬 안전하게 진행할 수 있음
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTQ3Mzk2MzgsLTIzMDg0NDYyNCwtNT
-MwOTIyMjc2LC0xMzkyODg5OTY4LC0zNjA4NTQ4NiwtMTEzOTc3
-ODI2NSwtMTE1NzEwMzc3MF19
+eyJoaXN0b3J5IjpbLTU3NDgwMzQ2LC0yMzA4NDQ2MjQsLTUzMD
+kyMjI3NiwtMTM5Mjg4OTk2OCwtMzYwODU0ODYsLTExMzk3Nzgy
+NjUsLTExNTcxMDM3NzBdfQ==
 -->
