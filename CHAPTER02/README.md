@@ -46,7 +46,8 @@
       :내부 설계에 심혈을 기울이면 소프트웨어의 지구력이 높아져서 빠르게 개발할 수 있는 상태를 더 오래 지속할 수 있다
 
 <br>
-
+<div id='id-section1'/>
+```
 ## 2.4 언제 리팩터링해야 할까? <a name="2.4"></a>
 > **3의 법칙**
 <br>1. 그냥한다
@@ -139,8 +140,8 @@
     * 리택터링 과정에서 버그 생길 위험이 크다는 불안감 해소
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODA1OTg3MDYsMTgxNzE1OTgsMTAxMT
-QxNjIyNywtMjMwODQ0NjI0LC01MzA5MjIyNzYsLTEzOTI4ODk5
-NjgsLTM2MDg1NDg2LC0xMTM5Nzc4MjY1LC0xMTU3MTAzNzcwXX
-0=
+eyJoaXN0b3J5IjpbLTEzODQxNDQ1NiwtMTU4MDU5ODcwNiwxOD
+E3MTU5OCwxMDExNDE2MjI3LC0yMzA4NDQ2MjQsLTUzMDkyMjI3
+NiwtMTM5Mjg4OTk2OCwtMzYwODU0ODYsLTExMzk3NzgyNjUsLT
+ExNTcxMDM3NzBdfQ==
 -->
