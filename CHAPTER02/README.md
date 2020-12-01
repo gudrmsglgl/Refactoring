@@ -3,6 +3,7 @@
 [두 개의 모자](#id-section2) <br>
 [리팩터링하는 이유](#id-section3) <br>
 [언제 리팩터링해야 할까](#id-section4)
+[리팩터링 시 고려할 문제](#id-section5)
 <br><br>
 <div id='id-section1'/>
 
@@ -145,8 +146,8 @@
     * 리택터링 과정에서 버그 생길 위험이 크다는 불안감 해소
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMzUxMDY2NCw3NjgwNjMyODcsLTE1OD
-A1OTg3MDYsMTgxNzE1OTgsMTAxMTQxNjIyNywtMjMwODQ0NjI0
-LC01MzA5MjIyNzYsLTEzOTI4ODk5NjgsLTM2MDg1NDg2LC0xMT
-M5Nzc4MjY1LC0xMTU3MTAzNzcwXX0=
+eyJoaXN0b3J5IjpbMTQwMDc5ODg5NiwyMTMzNTEwNjY0LDc2OD
+A2MzI4NywtMTU4MDU5ODcwNiwxODE3MTU5OCwxMDExNDE2MjI3
+LC0yMzA4NDQ2MjQsLTUzMDkyMjI3NiwtMTM5Mjg4OTk2OCwtMz
+YwODU0ODYsLTExMzk3NzgyNjUsLTExNTcxMDM3NzBdfQ==
 -->
