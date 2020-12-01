@@ -129,9 +129,10 @@
     브랜치를 자주 통합할 수 있다면 문제가 발생할 가능성을 크게 줄일 수 있다.
     CI를 적용하는 이들도 기능별 브랜치를 많이 사용(단, 마스터와 통합하는 작업 매일)
     
+### :shipit: **테스팅**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMDg0NDYyNCwtNTMwOTIyMjc2LC0xMz
-kyODg5OTY4LC0zNjA4NTQ4NiwtMTEzOTc3ODI2NSwtMTE1NzEw
-Mzc3MF19
+eyJoaXN0b3J5IjpbLTg5NTA4MTkyNSwtMjMwODQ0NjI0LC01Mz
+A5MjIyNzYsLTEzOTI4ODk5NjgsLTM2MDg1NDg2LC0xMTM5Nzc4
+MjY1LC0xMTU3MTAzNzcwXX0=
 -->
