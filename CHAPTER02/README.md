@@ -108,9 +108,11 @@
 :ok_woman: 오로지 경제적인 이유, 개발 기간을 단축, 기능 추가 시간을 줄이고, 버그 수정 시간을 줄여준다. 
 
 ### :shipit: **브랜치**
-독립 브랜치로 작업하는 기간이 길어질수록 작업 결과를 마스터로 통합하기가 어려워진다.
-머지가 복잡해진
+
+    * 독립 브랜치로 작업하는 기간이 길어질수록 작업 결과를 마스터로 통합하기가 어려워진다.
+    * 머지가 복잡해지는 문제는 기능별 브랜치들이 독립적으로 개발되는 기간이 길어질수록 기하급수적으로 늘어난다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjE4ODA4NjEsLTExMzk3NzgyNjUsLT
-ExNTcxMDM3NzBdfQ==
+eyJoaXN0b3J5IjpbMTI5MTg1OTgwMiwtMTEzOTc3ODI2NSwtMT
+E1NzEwMzc3MF19
 -->
