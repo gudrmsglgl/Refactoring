@@ -150,15 +150,18 @@
 
 > 대규모 레거시 시스템을 테스트 코드 없이 명료하게 리팩터링하기는 어렵다.
 
+테스트코드
+
     * 테스트 코드 보강
     * 프로그램에서 테스트를 추가할 틈새를 찾아서 시스템을 테스트
     * 이러한 틈새를 만들 때 리팩터링이 활용된다.
-    * 테스트 없이 짆
+    * 테스트 없이 진행하기 때문에 상당히 위험하지만 문제를 해결하기 위해서라면 감내해야 할 위험.
+    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1ODgxNzQ4LC04MTgyNTExNTgsMjEzMz
-UxMDY2NCw3NjgwNjMyODcsLTE1ODA1OTg3MDYsMTgxNzE1OTgs
-MTAxMTQxNjIyNywtMjMwODQ0NjI0LC01MzA5MjIyNzYsLTEzOT
-I4ODk5NjgsLTM2MDg1NDg2LC0xMTM5Nzc4MjY1LC0xMTU3MTAz
-NzcwXX0=
+eyJoaXN0b3J5IjpbLTE1MjY1MDQ2ODcsLTgxODI1MTE1OCwyMT
+MzNTEwNjY0LDc2ODA2MzI4NywtMTU4MDU5ODcwNiwxODE3MTU5
+OCwxMDExNDE2MjI3LC0yMzA4NDQ2MjQsLTUzMDkyMjI3NiwtMT
+M5Mjg4OTk2OCwtMzYwODU0ODYsLTExMzk3NzgyNjUsLTExNTcx
+MDM3NzBdfQ==
 -->
