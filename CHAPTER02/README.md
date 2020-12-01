@@ -4,6 +4,7 @@
 [리팩터링하는 이유](#id-section3)<br>
 [언제 리팩터링해야 할까](#id-section4)<br>
 [리팩터링 시 고려할 문제](#id-section5)
+[리팩터링, 아키텍처, 애그니(YAGNI)](#id-section6)
 <br><br>
 <div id='id-section1'/>
 
@@ -159,10 +160,15 @@
 ##### :o: &nbsp;테스트코드
 	* 서로 관련된 부분끼리 나눠서 하나씩 공략.
 	* 레거시 시스템의 규모가 크다면 자주 보는 부분을 더 많이 리팩터링
+
+<br>
+<div id='id-section6'/>
+
+## 2.6 리팩터링, 아키텍처, 애그니(YAGNI)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMzNTE2OTk5LC04MTgyNTExNTgsMjEzMz
-UxMDY2NCw3NjgwNjMyODcsLTE1ODA1OTg3MDYsMTgxNzE1OTgs
-MTAxMTQxNjIyNywtMjMwODQ0NjI0LC01MzA5MjIyNzYsLTEzOT
-I4ODk5NjgsLTM2MDg1NDg2LC0xMTM5Nzc4MjY1LC0xMTU3MTAz
-NzcwXX0=
+eyJoaXN0b3J5IjpbMTg0MjE1OTQyOSw5MzM1MTY5OTksLTgxOD
+I1MTE1OCwyMTMzNTEwNjY0LDc2ODA2MzI4NywtMTU4MDU5ODcw
+NiwxODE3MTU5OCwxMDExNDE2MjI3LC0yMzA4NDQ2MjQsLTUzMD
+kyMjI3NiwtMTM5Mjg4OTk2OCwtMzYwODU0ODYsLTExMzk3Nzgy
+NjUsLTExNTcxMDM3NzBdfQ==
 -->
