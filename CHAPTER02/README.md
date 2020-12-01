@@ -109,8 +109,8 @@
 
 ### :shipit: **브랜치**
 독립 브랜치로 작업하는 기간이 길어질수록 작업 결과를 마스터로 통합하기가 어려워진다.
-
+머지가 복잡해진
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzk3NzgyNjUsLTExNTcxMDM3NzBdfQ
-==
+eyJoaXN0b3J5IjpbLTExMjE4ODA4NjEsLTExMzk3NzgyNjUsLT
+ExNTcxMDM3NzBdfQ==
 -->
