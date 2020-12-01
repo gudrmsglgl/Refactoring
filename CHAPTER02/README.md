@@ -114,7 +114,7 @@
     
 
   
-🙆
+🙆 **브랜치 관리**
 
 	기능별 브랜치의 통합 주기를 2~3일 단위로 짧게 관리 혹은 더 짧게 (CI, TBD)
     마스터를 건강하게 유지하고, 
@@ -123,6 +123,6 @@
     -> 완료되지 않은 기능이 시스템 전체를 망치지 않도록 해야 한다.
     
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTcyOTc1NTgsLTM2MDg1NDg2LC0xMT
+eyJoaXN0b3J5IjpbLTEzOTI4ODk5NjgsLTM2MDg1NDg2LC0xMT
 M5Nzc4MjY1LC0xMTU3MTAzNzcwXX0=
 -->
