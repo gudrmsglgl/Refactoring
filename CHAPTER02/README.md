@@ -94,6 +94,7 @@
     * 지저분한 코드를 발견해도 굳이 수정할 필요가 없을 때
     * 외부 API 다루듯 호출해서 쓰는 코드
     * 처음부터 새로 작성하는 게 쉬울 때 
+<br>
 
 ## 2.5 리팩터링 시 고려할 문제
 ### :shipit: **새 기능 개발 속도 저하**
@@ -129,6 +130,6 @@
     
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMjg1NjY2NCwtMTM5Mjg4OTk2OCwtMz
+eyJoaXN0b3J5IjpbLTUzMDkyMjI3NiwtMTM5Mjg4OTk2OCwtMz
 YwODU0ODYsLTExMzk3NzgyNjUsLTExNTcxMDM3NzBdfQ==
 -->
