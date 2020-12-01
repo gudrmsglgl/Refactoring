@@ -156,9 +156,10 @@
     * 이러한 틈새를 만들 때 리팩터링이 활용된다.
     * 테스트 없이 진행하기 때문에 상당히 위험하지만 문제를 해결하기 위해서라면 감내해야 할 위험.
     
-
+##### :o: &nbsp;테스트코드
+	tj
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcwNTkzNDk0LC04MTgyNTExNTgsMjEzMz
+eyJoaXN0b3J5IjpbOTE2Njc2NzU0LC04MTgyNTExNTgsMjEzMz
 UxMDY2NCw3NjgwNjMyODcsLTE1ODA1OTg3MDYsMTgxNzE1OTgs
 MTAxMTQxNjIyNywtMjMwODQ0NjI0LC01MzA5MjIyNzYsLTEzOT
 I4ODk5NjgsLTM2MDg1NDg2LC0xMTM5Nzc4MjY1LC0xMTU3MTAz
