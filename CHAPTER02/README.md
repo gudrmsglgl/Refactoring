@@ -131,12 +131,12 @@
     
 ### :shipit: **테스팅**
 
-자가 테스트 코드
+#####  :white_check_mark:`자가 테스트 코드
 
     는 리팩터링을 할 수 있게 해줄 뿐만 아니라, 새 기능 추가도 훨씬 안전하게 진행할 수 있음
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMDQ4NTQ1MywtMjMwODQ0NjI0LC01Mz
+eyJoaXN0b3J5IjpbLTEwNTQxMDAyNiwtMjMwODQ0NjI0LC01Mz
 A5MjIyNzYsLTEzOTI4ODk5NjgsLTM2MDg1NDg2LC0xMTM5Nzc4
 MjY1LC0xMTU3MTAzNzcwXX0=
 -->
