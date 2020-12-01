@@ -169,12 +169,11 @@
 ### 리팩터링 :arrows_counterclockwise: 아키텍처
 > 리팩터링이 아키텍처에 미치는 실질적인 효과는 요구사항 변화에 자연스럽게 대응하도록 코드 베이스를 잘 설계해준다는 데 있다.
 
-코딩 전에 아키텍처를 확정지으려 할 때의 대표적인 문제는 소프트웨어 요구사항을 사전에 모두 파악해야 한다는 것.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMjMxMjAyMCwtMzIzMzY1ODIsLTYyMT
-g4NTgzMyw5MzM1MTY5OTksLTgxODI1MTE1OCwyMTMzNTEwNjY0
-LDc2ODA2MzI4NywtMTU4MDU5ODcwNiwxODE3MTU5OCwxMDExND
-E2MjI3LC0yMzA4NDQ2MjQsLTUzMDkyMjI3NiwtMTM5Mjg4OTk2
-OCwtMzYwODU0ODYsLTExMzk3NzgyNjUsLTExNTcxMDM3NzBdfQ
-==
+eyJoaXN0b3J5IjpbLTI1MDMxMDgsLTMyMzM2NTgyLC02MjE4OD
+U4MzMsOTMzNTE2OTk5LC04MTgyNTExNTgsMjEzMzUxMDY2NCw3
+NjgwNjMyODcsLTE1ODA1OTg3MDYsMTgxNzE1OTgsMTAxMTQxNj
+IyNywtMjMwODQ0NjI0LC01MzA5MjIyNzYsLTEzOTI4ODk5Njgs
+LTM2MDg1NDg2LC0xMTM5Nzc4MjY1LC0xMTU3MTAzNzcwXX0=
 -->
