@@ -133,10 +133,11 @@
 
 #####  :white_check_mark: &nbsp;자가 테스트 코드
 
-    리팩터링을 할 수 있게 해줄 뿐만 아니라, 새 기능 추가도 훨씬 안전하게 진행할 수 있음
+    * 리팩터링 효과적
+    * 새 기능 추가도 훨씬 안전하게 진행
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NDgwMzQ2LC0yMzA4NDQ2MjQsLTUzMD
-kyMjI3NiwtMTM5Mjg4OTk2OCwtMzYwODU0ODYsLTExMzk3Nzgy
-NjUsLTExNTcxMDM3NzBdfQ==
+eyJoaXN0b3J5IjpbLTEzNzIzOTEwNzUsLTIzMDg0NDYyNCwtNT
+MwOTIyMjc2LC0xMzkyODg5OTY4LC0zNjA4NTQ4NiwtMTEzOTc3
+ODI2NSwtMTE1NzEwMzc3MF19
 -->
