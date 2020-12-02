@@ -179,9 +179,12 @@
 
      
 
-	:point_up_2:&nbsp;**리팩터링 활용**
+
+    :point_up_2:&nbsp;리팩터링 활용
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA4Mzk1OTM3LDE0NDYwNDMxNTUsLTEzMD
+eyJoaXN0b3J5IjpbMjY1MjkyMDg3LDE0NDYwNDMxNTUsLTEzMD
 k0NzgxODcsLTE2NDE5MTc5OTYsNzIzMjI3NTEsLTMyMzM2NTgy
 LC02MjE4ODU4MzMsOTMzNTE2OTk5LC04MTgyNTExNTgsMjEzMz
 UxMDY2NCw3NjgwNjMyODcsLTE1ODA1OTg3MDYsMTgxNzE1OTgs
