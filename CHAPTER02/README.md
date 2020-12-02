@@ -183,15 +183,16 @@
 	* 그저 현재까지 파악한 요구사항만을 해결하는 소프트웨어를 구축
 	* 단 이 요구를 멋지게 해결하도록 설계
 	* 사용자의 요구사항을 더 잘 이해하게 되면 아키텍처도 그에 맞게 리팩터링해서 바꿈
-	ex.
-	  --(작고 멋진 이름의 함수) 소프트웨어의 복잡도에 지장을 주지 않는 메커니즘은 마음껏 추가
-	 복잡도를 높일 수 있는 유연성 메커니즘은 반드시 검증을 거친 후에 추가.
+	
+	------------------------------------------------------------------
+	(작고 멋진 이름의 함수) 소프트웨어의 복잡도에 지장을 주지 않는 메커니즘은 마음껏 추가
+	  --복잡도를 높일 수 있는 유연성 메커니즘은 반드시 검증을 거친 후에 추가.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NjAwMTYwMCwxNDQ2MDQzMTU1LC0xMz
-A5NDc4MTg3LC0xNjQxOTE3OTk2LDcyMzIyNzUxLC0zMjMzNjU4
-MiwtNjIxODg1ODMzLDkzMzUxNjk5OSwtODE4MjUxMTU4LDIxMz
-M1MTA2NjQsNzY4MDYzMjg3LC0xNTgwNTk4NzA2LDE4MTcxNTk4
-LDEwMTE0MTYyMjcsLTIzMDg0NDYyNCwtNTMwOTIyMjc2LC0xMz
-kyODg5OTY4LC0zNjA4NTQ4NiwtMTEzOTc3ODI2NSwtMTE1NzEw
-Mzc3MF19
+eyJoaXN0b3J5IjpbMzA2NzAxMzU1LDE0NDYwNDMxNTUsLTEzMD
+k0NzgxODcsLTE2NDE5MTc5OTYsNzIzMjI3NTEsLTMyMzM2NTgy
+LC02MjE4ODU4MzMsOTMzNTE2OTk5LC04MTgyNTExNTgsMjEzMz
+UxMDY2NCw3NjgwNjMyODcsLTE1ODA1OTg3MDYsMTgxNzE1OTgs
+MTAxMTQxNjIyNywtMjMwODQ0NjI0LC01MzA5MjIyNzYsLTEzOT
+I4ODk5NjgsLTM2MDg1NDg2LC0xMTM5Nzc4MjY1LC0xMTU3MTAz
+NzcwXX0=
 -->
