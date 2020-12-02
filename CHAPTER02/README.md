@@ -231,8 +231,10 @@
 
 ### :mask: 직관적인 설계 vs 성능
 
+> 소프트웨어를 빠르게 만드는 비결은, 먼저 튜닝하기 쉽게 만들고 나서 원하는 속도가 나게끔 튜닝하는 것.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NDkzOTA5MywtMTc3NDMwOTcxNywtMT
+eyJoaXN0b3J5IjpbMTQ4MDkwNDA0OCwtMTc3NDMwOTcxNywtMT
 E1ODc0MjUzLDIwMzE5NjEzMTEsMTE0Nzk1NjQ0OSw3MDA5NjA2
 NiwxNjQwNDU0MjAxLC0xMTE5NjQ4Mjc0LC0xNjM4ODUwNzk1LD
 EzMDY2MDE4MjMsMTc2MjU2NjEyNywtMTkzOTUxNTQ0MywzNzM3
