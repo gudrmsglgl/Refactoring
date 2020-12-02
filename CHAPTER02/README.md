@@ -202,14 +202,15 @@
     리팩터링 등의 개성이 강하면서 상호 의존하는 기법들을 하나로 묶은 프로세스 
 
 ### <img src="https://image.flaticon.com/icons/png/512/2784/2784065.png" width="25" height="28"/>  Agile
-> 제대로 적용하려면 리팩터링에 대한 팀의 역량과 열정이 뒷받침되어 프로세스 전반에 리팩터링이 자연스럽게 스며들도록 해야 한다.
+> 제대로 적용하려면 리팩터링에 대한 팀의 역량과 열정이 뒷받침되어 프로세스 전반에 
+> 리팩터링이 자연스럽게 스며들도록 해야 한다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNjMzNzYxNiwzNzM3NTg4MzQsLTgyNj
-gwNDYzNSwtODMzNjY4NzU1LC04MzM2Njg3NTUsNDEyOTQ5MTEs
-MzU1MDE4NDEzLC04NTA4Mzk2NjIsLTEzMzAzNzk4MjEsMzg4NT
-QwNTIyLDE4OTMxNDU5OTksLTg3MTc2ODEzNywtNzk4MjEzMDY4
-LDE1ODIyMzk3MjUsLTE2NTUyNDY0MjIsLTE2NTI1MDQyMDYsLT
-EwMzk5MTI4MjEsMTQ0NjA0MzE1NSwtMTMwOTQ3ODE4NywtMTY0
-MTkxNzk5Nl19
+eyJoaXN0b3J5IjpbNTUwNTAzODM2LDM3Mzc1ODgzNCwtODI2OD
+A0NjM1LC04MzM2Njg3NTUsLTgzMzY2ODc1NSw0MTI5NDkxMSwz
+NTUwMTg0MTMsLTg1MDgzOTY2MiwtMTMzMDM3OTgyMSwzODg1ND
+A1MjIsMTg5MzE0NTk5OSwtODcxNzY4MTM3LC03OTgyMTMwNjgs
+MTU4MjIzOTcyNSwtMTY1NTI0NjQyMiwtMTY1MjUwNDIwNiwtMT
+AzOTkxMjgyMSwxNDQ2MDQzMTU1LC0xMzA5NDc4MTg3LC0xNjQx
+OTE3OTk2XX0=
 -->
