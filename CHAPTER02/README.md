@@ -185,10 +185,6 @@
 	* 사용자의 요구사항을 더 잘 이해하게 되면 아키텍처도 그에 맞게 리팩터링해서 바꿈
 
 💁&nbsp;&nbsp;**이렇게 해보세요**
-> 이런식으로 설계하는 방식을 
-> 간결한 설계(simple design), 점진적 설계(incremental design
-
-
 
     👏 (작고 멋진 이름의 함수) 소프트웨어의 복잡도에 지장을 주지 않는 메커니즘은 마음껏 추가
     🙏 (복잡도를 높일 수 있는 유연성 메커니즘) 반드시 검증을 거친 후에 추가.
@@ -196,9 +192,12 @@
        호출하는 측에서 **항상 같은 값을 넘기는 매개변수는** 
        매개변수 목록에 넣지 않고 
        매개변수를 추가해야 할 시점이 오면(함수 매개 변수화하기)로 해결한다
+> #### 이런식으로 설계하는 방식을 
+> 간결한 설계(simple design), 점진적 설계(incremental design) 
+> YAGNI("you aren't going to need it")
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNzE0Nzk2MCwxNTgyMjM5NzI1LC0xNj
+eyJoaXN0b3J5IjpbLTY0OTg0Mzc0MCwxNTgyMjM5NzI1LC0xNj
 U1MjQ2NDIyLC0xNjUyNTA0MjA2LC0xMDM5OTEyODIxLDE0NDYw
 NDMxNTUsLTEzMDk0NzgxODcsLTE2NDE5MTc5OTYsNzIzMjI3NT
 EsLTMyMzM2NTgyLC02MjE4ODU4MzMsOTMzNTE2OTk5LC04MTgy
