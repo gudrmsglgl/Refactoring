@@ -186,9 +186,9 @@
 	
 	------------------------------------------------------------------
 	(작고 멋진 이름의 함수) 소프트웨어의 복잡도에 지장을 주지 않는 메커니즘은 마음껏 추가
-	  --복잡도를 높일 수 있는 유연성 메커니즘은 반드시 검증을 거친 후에 추가.
+	복잡도를 높일 수 있는 유연성 메커니즘은 반드시 검증을 거친 후에 추가.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA2NzAxMzU1LDE0NDYwNDMxNTUsLTEzMD
+eyJoaXN0b3J5IjpbODk2Nzg0OTcxLDE0NDYwNDMxNTUsLTEzMD
 k0NzgxODcsLTE2NDE5MTc5OTYsNzIzMjI3NTEsLTMyMzM2NTgy
 LC02MjE4ODU4MzMsOTMzNTE2OTk5LC04MTgyNTExNTgsMjEzMz
 UxMDY2NCw3NjgwNjMyODcsLTE1ODA1OTg3MDYsMTgxNzE1OTgs
