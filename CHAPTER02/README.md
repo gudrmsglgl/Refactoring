@@ -233,8 +233,9 @@
 
 > 소프트웨어를 빠르게 만드는 비결은, 먼저 튜닝하기 쉽게 만들고 나서 원하는 속도가 나게끔 튜닝하는 것.
 
+### :ear: 빠른 소프트웨어를 작성하는 방법 세 가지
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MDkwNDA0OCwtMTc3NDMwOTcxNywtMT
+eyJoaXN0b3J5IjpbLTI0MzYyMTg4OSwtMTc3NDMwOTcxNywtMT
 E1ODc0MjUzLDIwMzE5NjEzMTEsMTE0Nzk1NjQ0OSw3MDA5NjA2
 NiwxNjQwNDU0MjAxLC0xMTE5NjQ4Mjc0LC0xNjM4ODUwNzk1LD
 EzMDY2MDE4MjMsMTc2MjU2NjEyNywtMTkzOTUxNTQ0MywzNzM3
