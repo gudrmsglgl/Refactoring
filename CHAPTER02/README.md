@@ -175,20 +175,14 @@
 	🚷 [유연성 메커니즘의 주의점]
     * 매개변수를 생각나는 대로 추가 → 복잡
     * 요구사항이 당초 예상과 다르게 바뀔 때
-    * 내가 설계한 메커니즘 자체 결함 있을 수 있음 
-
-     
-
-
-    :point_up_2:&nbsp;리팩터링 활용
-
-
+    * 내가 설계한 메커니즘 자체 결함 있을 수 있음
+	👆 [**리팩터링 활용 시]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY1MjkyMDg3LDE0NDYwNDMxNTUsLTEzMD
-k0NzgxODcsLTE2NDE5MTc5OTYsNzIzMjI3NTEsLTMyMzM2NTgy
-LC02MjE4ODU4MzMsOTMzNTE2OTk5LC04MTgyNTExNTgsMjEzMz
-UxMDY2NCw3NjgwNjMyODcsLTE1ODA1OTg3MDYsMTgxNzE1OTgs
-MTAxMTQxNjIyNywtMjMwODQ0NjI0LC01MzA5MjIyNzYsLTEzOT
-I4ODk5NjgsLTM2MDg1NDg2LC0xMTM5Nzc4MjY1LC0xMTU3MTAz
-NzcwXX0=
+eyJoaXN0b3J5IjpbMjEwOTYxNzk1NSwxNDQ2MDQzMTU1LC0xMz
+A5NDc4MTg3LC0xNjQxOTE3OTk2LDcyMzIyNzUxLC0zMjMzNjU4
+MiwtNjIxODg1ODMzLDkzMzUxNjk5OSwtODE4MjUxMTU4LDIxMz
+M1MTA2NjQsNzY4MDYzMjg3LC0xNTgwNTk4NzA2LDE4MTcxNTk4
+LDEwMTE0MTYyMjcsLTIzMDg0NDYyNCwtNTMwOTIyMjc2LC0xMz
+kyODg5OTY4LC0zNjA4NTQ4NiwtMTEzOTc3ODI2NSwtMTE1NzEw
+Mzc3MF19
 -->
