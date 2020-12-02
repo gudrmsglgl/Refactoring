@@ -209,13 +209,14 @@
     * 프로그래밍 도중 발생한 오류를 확실히 걸러내는 테스트를 자동으로 수행할 수 있어야 한다.
     * 팀으로 개발하면서 리팩터링을 하려면 🚧 {각 팀원이 다른 사람의 작업을 방해하지 않으면서}🚧 언제든지 리팩터링할 수 있어야 한다.
 
-    지속적 통합을 권장
-    * 각자가 수행한 리팩터링 결과를 빠르게 동료와 공유할 수 있다. 
+    자가 테스트 코드, 지속적 통합, 리팩터링
+    * 지속적 통합은 각자가 수행한 리팩터링 결과를 빠르게 동료와 공유할 수 있다. 
     * 자가 테스트 코드, 지속적 통합, 리팩터링이라는 세기법은 서로 강력한 상승효과 발휘.
-    * 수 많은 유연성 메커니즘을 갖춘 시스템보다는 단순한 시스템이 변경하기 훨씬
+    * 수 많은 유연성 메커니즘을 갖춘 시스템보다는 단순한 시스템이 변경하기 훨씬 쉽다. 
+    * 세 가지 실천법을 잘 조화시키면 요구사항 변화에 재빠르게 대응하고 안정적인 선순환 구조를 코드베이스에 심을 수 있다. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjkxODAwNjUsLTExMTk2NDgyNzQsLT
+eyJoaXN0b3J5IjpbLTE5MTIxOTkxODAsLTExMTk2NDgyNzQsLT
 E2Mzg4NTA3OTUsMTMwNjYwMTgyMywxNzYyNTY2MTI3LC0xOTM5
 NTE1NDQzLDM3Mzc1ODgzNCwtODI2ODA0NjM1LC04MzM2Njg3NT
 UsLTgzMzY2ODc1NSw0MTI5NDkxMSwzNTUwMTg0MTMsLTg1MDgz
