@@ -205,10 +205,10 @@
 > 제대로 적용하려면 리팩터링에 대한 팀의 역량과 열정이 뒷받침되어 프로세스 전반에 
 > 리팩터링이 자연스럽게 스며들도록 해야 한다.
 
-    리팩토링
+    리팩토링의 첫 번째 토대 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTYyODE4OTQsMzczNzU4ODM0LC04Mj
+eyJoaXN0b3J5IjpbLTE5Mzk1MTU0NDMsMzczNzU4ODM0LC04Mj
 Y4MDQ2MzUsLTgzMzY2ODc1NSwtODMzNjY4NzU1LDQxMjk0OTEx
 LDM1NTAxODQxMywtODUwODM5NjYyLC0xMzMwMzc5ODIxLDM4OD
 U0MDUyMiwxODkzMTQ1OTk5LC04NzE3NjgxMzcsLTc5ODIxMzA2
