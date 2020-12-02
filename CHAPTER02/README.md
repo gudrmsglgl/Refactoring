@@ -197,9 +197,9 @@
 ## 2.7 리팩터링과 소프트웨어 개발 프로세스
 
 애자일 방법론
-
+제대로 적용하려면 리팩터링에 대한 팀의 역량과 열정이 뒷받침되어 프로세스 전반에 리팩터링이 자연스럽게 스며들도록 해야 한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgwNzU3MjQ1LDE4OTMxNDU5OTksLTg3MT
+eyJoaXN0b3J5IjpbMzg4NTQwNTIyLDE4OTMxNDU5OTksLTg3MT
 c2ODEzNywtNzk4MjEzMDY4LDE1ODIyMzk3MjUsLTE2NTUyNDY0
 MjIsLTE2NTI1MDQyMDYsLTEwMzk5MTI4MjEsMTQ0NjA0MzE1NS
 wtMTMwOTQ3ODE4NywtMTY0MTkxNzk5Niw3MjMyMjc1MSwtMzIz
