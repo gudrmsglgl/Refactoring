@@ -37,15 +37,15 @@
 <div id='id-section3'/>
 
 ## 2.3 리팩터링하는 이유
-### :one: **리팩터링하면 소프트웨어 설계가 좋아진다**
+### :one: **&nbsp;리팩터링하면 소프트웨어 설계가 좋아진다**
     중복 코드 제거
     * 설계 개선 작업의 중요한 한 축을 차지    
     * 모든 코드가 언제나 고유한 일을 수행함을 보장
-### :two: **리팩터링하면 소프트웨어를 이해하기 쉬워진다**
+### :two: **&nbsp;리팩터링하면 소프트웨어를 이해하기 쉬워진다**
     코드의 목적이 더 잘 드러나게, 의도를 명확하게 전달하도록 개선할 수 있다.
 
-### :three: **리택터링하면 버그를 쉽게 찾을 수 있다**
-### :four: **리팩터링하면 프로그래밍 속도를 높일 수 있다**
+### :three: **&nbsp;리택터링하면 버그를 쉽게 찾을 수 있다**
+### :four: **&nbsp;리팩터링하면 프로그래밍 속도를 높일 수 있다**
     * 리팩터링하면 코드 개발 속도를 높일 수 있다.
     * 코드가 명확하면 버그를 만들 가능성도 줄고 버그를 만들더라도 디버깅하기 훨씬 쉽다.
     * 지구력 가설
@@ -194,11 +194,11 @@
        매개변수를 추가해야 할 시점이 오면(함수 매개 변수화하기)로 해결한다
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MjIzOTcyNSwtMTY1NTI0NjQyMiwtMT
-Y1MjUwNDIwNiwtMTAzOTkxMjgyMSwxNDQ2MDQzMTU1LC0xMzA5
-NDc4MTg3LC0xNjQxOTE3OTk2LDcyMzIyNzUxLC0zMjMzNjU4Mi
-wtNjIxODg1ODMzLDkzMzUxNjk5OSwtODE4MjUxMTU4LDIxMzM1
-MTA2NjQsNzY4MDYzMjg3LC0xNTgwNTk4NzA2LDE4MTcxNTk4LD
-EwMTE0MTYyMjcsLTIzMDg0NDYyNCwtNTMwOTIyMjc2LC0xMzky
-ODg5OTY4XX0=
+eyJoaXN0b3J5IjpbOTgyNDc3MTcsMTU4MjIzOTcyNSwtMTY1NT
+I0NjQyMiwtMTY1MjUwNDIwNiwtMTAzOTkxMjgyMSwxNDQ2MDQz
+MTU1LC0xMzA5NDc4MTg3LC0xNjQxOTE3OTk2LDcyMzIyNzUxLC
+0zMjMzNjU4MiwtNjIxODg1ODMzLDkzMzUxNjk5OSwtODE4MjUx
+MTU4LDIxMzM1MTA2NjQsNzY4MDYzMjg3LC0xNTgwNTk4NzA2LD
+E4MTcxNTk4LDEwMTE0MTYyMjcsLTIzMDg0NDYyNCwtNTMwOTIy
+Mjc2XX0=
 -->
