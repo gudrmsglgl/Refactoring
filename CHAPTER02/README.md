@@ -201,13 +201,14 @@
     자가 테스트 코드, 
     리팩터링 등의 개성이 강하면서 상호 의존하는 기법들을 하나로 묶은 프로세스 
 
+![enter image description here](https://www.seguetech.com/wp-content/uploads/2015/08/segue-blog-segue-blog-problems-adopting-agile-development.png)
 제대로 적용하려면 리팩터링에 대한 팀의 역량과 열정이 뒷받침되어 프로세스 전반에 리팩터링이 자연스럽게 스며들도록 해야 한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMzY2ODc1NSwzNTUwMTg0MTMsLTg1MD
-gzOTY2MiwtMTMzMDM3OTgyMSwzODg1NDA1MjIsMTg5MzE0NTk5
-OSwtODcxNzY4MTM3LC03OTgyMTMwNjgsMTU4MjIzOTcyNSwtMT
-Y1NTI0NjQyMiwtMTY1MjUwNDIwNiwtMTAzOTkxMjgyMSwxNDQ2
-MDQzMTU1LC0xMzA5NDc4MTg3LC0xNjQxOTE3OTk2LDcyMzIyNz
-UxLC0zMjMzNjU4MiwtNjIxODg1ODMzLDkzMzUxNjk5OSwtODE4
-MjUxMTU4XX0=
+eyJoaXN0b3J5IjpbLTE5NDgxMzM5OTEsLTgzMzY2ODc1NSwzNT
+UwMTg0MTMsLTg1MDgzOTY2MiwtMTMzMDM3OTgyMSwzODg1NDA1
+MjIsMTg5MzE0NTk5OSwtODcxNzY4MTM3LC03OTgyMTMwNjgsMT
+U4MjIzOTcyNSwtMTY1NTI0NjQyMiwtMTY1MjUwNDIwNiwtMTAz
+OTkxMjgyMSwxNDQ2MDQzMTU1LC0xMzA5NDc4MTg3LC0xNjQxOT
+E3OTk2LDcyMzIyNzUxLC0zMjMzNjU4MiwtNjIxODg1ODMzLDkz
+MzUxNjk5OV19
 -->
