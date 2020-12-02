@@ -214,11 +214,14 @@
     * 자가 테스트 코드, 지속적 통합, 리팩터링이라는 세기법은 서로 강력한 상승효과 발휘.
     * 수 많은 유연성 메커니즘을 갖춘 시스템보다는 단순한 시스템이 변경하기 훨씬 쉽다. 
     * 세 가지 실천법을 잘 조화시키면 요구사항 변화에 재빠르게 대응하고 안정적인 선순환 구조를 코드베이스에 심을 수 있다. 
+	
 	지속적 배포
+	* 소프트웨어를 언제든 릴리스할 수 있는 상태 유지.
+	* 위험요소도 줄이고, 비즈니스 요구에 맞춰 릴리스 일정을 계획할 수 있다. 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NTc1NDI4OCwtMTExOTY0ODI3NCwtMT
+eyJoaXN0b3J5IjpbMTY0MDQ1NDIwMSwtMTExOTY0ODI3NCwtMT
 YzODg1MDc5NSwxMzA2NjAxODIzLDE3NjI1NjYxMjcsLTE5Mzk1
 MTU0NDMsMzczNzU4ODM0LC04MjY4MDQ2MzUsLTgzMzY2ODc1NS
 wtODMzNjY4NzU1LDQxMjk0OTExLDM1NTAxODQxMywtODUwODM5
