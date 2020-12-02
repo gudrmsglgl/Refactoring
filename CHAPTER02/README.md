@@ -210,14 +210,15 @@
     * 팀으로 개발하면서 리팩터링을 하려면 🚧 {각 팀원이 다른 사람의 작업을 방해하지 않으면서}🚧 언제든지 리팩터링할 수 있어야 한다.
 
     지속적 통합을 권장
-    * 각자가 수행한 리팩터링 결과를 빠르게 동료와 공유할 수 있다.
+    * 각자가 수행한 리팩터링 결과를 빠르게 동료와 공유할 수 있다. 
+    * 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTk2NDgyNzQsLTE2Mzg4NTA3OTUsMT
-MwNjYwMTgyMywxNzYyNTY2MTI3LC0xOTM5NTE1NDQzLDM3Mzc1
-ODgzNCwtODI2ODA0NjM1LC04MzM2Njg3NTUsLTgzMzY2ODc1NS
-w0MTI5NDkxMSwzNTUwMTg0MTMsLTg1MDgzOTY2MiwtMTMzMDM3
-OTgyMSwzODg1NDA1MjIsMTg5MzE0NTk5OSwtODcxNzY4MTM3LC
-03OTgyMTMwNjgsMTU4MjIzOTcyNSwtMTY1NTI0NjQyMiwtMTY1
-MjUwNDIwNl19
+eyJoaXN0b3J5IjpbLTEzMTkzMDk5OTAsLTExMTk2NDgyNzQsLT
+E2Mzg4NTA3OTUsMTMwNjYwMTgyMywxNzYyNTY2MTI3LC0xOTM5
+NTE1NDQzLDM3Mzc1ODgzNCwtODI2ODA0NjM1LC04MzM2Njg3NT
+UsLTgzMzY2ODc1NSw0MTI5NDkxMSwzNTUwMTg0MTMsLTg1MDgz
+OTY2MiwtMTMzMDM3OTgyMSwzODg1NDA1MjIsMTg5MzE0NTk5OS
+wtODcxNzY4MTM3LC03OTgyMTMwNjgsMTU4MjIzOTcyNSwtMTY1
+NTI0NjQyMl19
 -->
