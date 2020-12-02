@@ -185,11 +185,11 @@
 	* 사용자의 요구사항을 더 잘 이해하게 되면 아키텍처도 그에 맞게 리팩터링해서 바꿈
 	
 	------------------------------------------------------------------
-	(작고 멋진 이름의 함수) 소프트웨어의 복잡도에 지장을 주지 않는 메커니즘은 마음껏 추가
+	👏 (작고 멋진 이름의 함수) 소프트웨어의 복잡도에 지장을 주지 않는 메커니즘은 마음껏 추가
 	복잡도를 높일 수 있는 유연성 메커니즘은 반드시 검증을 거친 후에 추가.
-	호출하는 측에서 항상 같은 값을 넘기는 매개변수는 매개변수 목록에 넣지 않고 매개변수를 추가해야 할 시점이 오면 함수 매개변수화하기로 해결한다
+	(함수 매개변수화하기) 호출하는 측에서 항상 같은 값을 넘기는 매개변수는 매개변수 목록에 넣지 않고 매개변수를 추가해야 할 시점이 오면 함수 매개변수화하기로 해결한다
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2ODA0NjA4NiwxNDQ2MDQzMTU1LC0xMz
+eyJoaXN0b3J5IjpbMTM3NjIwNDc1MywxNDQ2MDQzMTU1LC0xMz
 A5NDc4MTg3LC0xNjQxOTE3OTk2LDcyMzIyNzUxLC0zMjMzNjU4
 MiwtNjIxODg1ODMzLDkzMzUxNjk5OSwtODE4MjUxMTU4LDIxMz
 M1MTA2NjQsNzY4MDYzMjg3LC0xNTgwNTk4NzA2LDE4MTcxNTk4
