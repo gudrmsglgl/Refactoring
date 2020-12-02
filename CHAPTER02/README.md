@@ -192,10 +192,10 @@
        호출하는 측에서 **항상 같은 값을 넘기는 매개변수는** 
        매개변수 목록에 넣지 않고 
        매개변수를 추가해야 할 시점이 오면(함수 매개 변수화하기)로 해결한다
-> ###### 이런식으로 설계하는 방식을 간결한 설계(simple design), 점진적 설계(incremental design) , YAGNI("you aren't going to need it") YAGNI는 아키텍처를 고려하지 말라는 뜻이 아니며, 아키텍처와 설계를 개발 프로세스에 녹이는 또 다른 방식이며, 리팩터링의 뒷받침 없이는 효과를 볼 수 없다
+> ###### 이런식으로 설계하는 방식을 간결한 설계(simple design), 점진적 설계(incremental design) , YAGNI("you aren't going to need it") <br>YAGNI는 아키텍처를 고려하지 말라는 뜻이 아니며, 아키텍처와 설계를 개발 프로세스에 녹이는 또 다른 방식이며, 리팩터링의 뒷받침 없이는 효과를 볼 수 없다
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MjYyMDU4MiwxNTgyMjM5NzI1LC0xNj
+eyJoaXN0b3J5IjpbLTc5ODIxMzA2OCwxNTgyMjM5NzI1LC0xNj
 U1MjQ2NDIyLC0xNjUyNTA0MjA2LC0xMDM5OTEyODIxLDE0NDYw
 NDMxNTUsLTEzMDk0NzgxODcsLTE2NDE5MTc5OTYsNzIzMjI3NT
 EsLTMyMzM2NTgyLC02MjE4ODU4MzMsOTMzNTE2OTk5LC04MTgy
