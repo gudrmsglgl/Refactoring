@@ -176,9 +176,11 @@
     * 매개변수를 생각나는 대로 추가 → 복잡
     * 요구사항이 당초 예상과 다르게 바뀔 때
     * 내가 설계한 메커니즘 자체 결함 있을 수 있음
-	👆 [**리팩터링 활용 시]
+	👆 [리팩터링 활용 시]
+	* 어느 부분에 유연성이 필요하고 변화에 잘 대응할 수 있을지 추측 x
+	* 그저 현재까지 파악한 요구사항만을 해결하는 소프트웨어를 구축
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwOTYxNzk1NSwxNDQ2MDQzMTU1LC0xMz
+eyJoaXN0b3J5IjpbMTc3MDg4MDYxMywxNDQ2MDQzMTU1LC0xMz
 A5NDc4MTg3LC0xNjQxOTE3OTk2LDcyMzIyNzUxLC0zMjMzNjU4
 MiwtNjIxODg1ODMzLDkzMzUxNjk5OSwtODE4MjUxMTU4LDIxMz
 M1MTA2NjQsNzY4MDYzMjg3LC0xNTgwNTk4NzA2LDE4MTcxNTk4
