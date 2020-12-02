@@ -192,16 +192,15 @@
        호출하는 측에서 **항상 같은 값을 넘기는 매개변수는** 
        매개변수 목록에 넣지 않고 
        매개변수를 추가해야 할 시점이 오면(함수 매개 변수화하기)로 해결한다
-> #### 이런식으로 설계하는 방식을 
-> 간결한 설계(simple design), 점진적 설계(incremental design) 
-> YAGNI("you aren't going to need it")
+> ###### 이런식으로 설계하는 방식을 간결한 설계(simple design), 점진적 설계(incremental design) , YAGNI("you aren't going to need it")
+> ###### 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0OTg0Mzc0MCwxNTgyMjM5NzI1LC0xNj
-U1MjQ2NDIyLC0xNjUyNTA0MjA2LC0xMDM5OTEyODIxLDE0NDYw
-NDMxNTUsLTEzMDk0NzgxODcsLTE2NDE5MTc5OTYsNzIzMjI3NT
-EsLTMyMzM2NTgyLC02MjE4ODU4MzMsOTMzNTE2OTk5LC04MTgy
-NTExNTgsMjEzMzUxMDY2NCw3NjgwNjMyODcsLTE1ODA1OTg3MD
-YsMTgxNzE1OTgsMTAxMTQxNjIyNywtMjMwODQ0NjI0LC01MzA5
-MjIyNzZdfQ==
+eyJoaXN0b3J5IjpbLTE0NDE0NTM5MDgsMTU4MjIzOTcyNSwtMT
+Y1NTI0NjQyMiwtMTY1MjUwNDIwNiwtMTAzOTkxMjgyMSwxNDQ2
+MDQzMTU1LC0xMzA5NDc4MTg3LC0xNjQxOTE3OTk2LDcyMzIyNz
+UxLC0zMjMzNjU4MiwtNjIxODg1ODMzLDkzMzUxNjk5OSwtODE4
+MjUxMTU4LDIxMzM1MTA2NjQsNzY4MDYzMjg3LC0xNTgwNTk4Nz
+A2LDE4MTcxNTk4LDEwMTE0MTYyMjcsLTIzMDg0NDYyNCwtNTMw
+OTIyMjc2XX0=
 -->
