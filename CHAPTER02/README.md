@@ -200,10 +200,10 @@
     지속적 통합, 
     자가 테스트 코드, 
     리팩터링 등의 개성이 강하면서 상호 의존하는 기법들을 하나로 묶은 프로세스 
-<img src="https://image.flaticon.com/icons/png/512/2784/2784065.png" width="25" height="25"/> ###**애자일**
+#####  <img src="https://image.flaticon.com/icons/png/512/2784/2784065.png" width="25" height="20"/> **애자일**
 제대로 적용하려면 리팩터링에 대한 팀의 역량과 열정이 뒷받침되어 프로세스 전반에 리팩터링이 자연스럽게 스며들도록 해야 한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTAzMTAwNzksLTgyNjgwNDYzNSwtOD
+eyJoaXN0b3J5IjpbLTE5OTg2MTE2MTAsLTgyNjgwNDYzNSwtOD
 MzNjY4NzU1LC04MzM2Njg3NTUsNDEyOTQ5MTEsMzU1MDE4NDEz
 LC04NTA4Mzk2NjIsLTEzMzAzNzk4MjEsMzg4NTQwNTIyLDE4OT
 MxNDU5OTksLTg3MTc2ODEzNywtNzk4MjEzMDY4LDE1ODIyMzk3
