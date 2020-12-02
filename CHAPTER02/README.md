@@ -201,13 +201,13 @@
     자가 테스트 코드, 
     리팩터링 등의 개성이 강하면서 상호 의존하는 기법들을 하나로 묶은 프로세스 
 
-![enter image description here](Icons%20made%20by%20%3Ca%20href=%22http://www.freepik.com/%22%20title=%22Freepik%22%3EFreepik%3C/a%3E%20from%20%3Ca%20href=%22https://www.flaticon.com/%22%20title=%22Flaticon%22%3E%20www.flaticon.com%3C/a%3E)제대로 적용하려면 리팩터링에 대한 팀의 역량과 열정이 뒷받침되어 프로세스 전반에 리팩터링이 자연스럽게 스며들도록 해야 한다.
+제대로 적용하려면 리팩터링에 대한 팀의 역량과 열정이 뒷받침되어 프로세스 전반에 리팩터링이 자연스럽게 스며들도록 해야 한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ4Njk5MzkxLC04MzM2Njg3NTUsNDEyOT
-Q5MTEsLTgzMzY2ODc1NSwzNTUwMTg0MTMsLTg1MDgzOTY2Miwt
-MTMzMDM3OTgyMSwzODg1NDA1MjIsMTg5MzE0NTk5OSwtODcxNz
-Y4MTM3LC03OTgyMTMwNjgsMTU4MjIzOTcyNSwtMTY1NTI0NjQy
-MiwtMTY1MjUwNDIwNiwtMTAzOTkxMjgyMSwxNDQ2MDQzMTU1LC
-0xMzA5NDc4MTg3LC0xNjQxOTE3OTk2LDcyMzIyNzUxLC0zMjMz
-NjU4Ml19
+eyJoaXN0b3J5IjpbLTgzMzY2ODc1NSwtODMzNjY4NzU1LDQxMj
+k0OTExLC04MzM2Njg3NTUsMzU1MDE4NDEzLC04NTA4Mzk2NjIs
+LTEzMzAzNzk4MjEsMzg4NTQwNTIyLDE4OTMxNDU5OTksLTg3MT
+c2ODEzNywtNzk4MjEzMDY4LDE1ODIyMzk3MjUsLTE2NTUyNDY0
+MjIsLTE2NTI1MDQyMDYsLTEwMzk5MTI4MjEsMTQ0NjA0MzE1NS
+wtMTMwOTQ3ODE4NywtMTY0MTkxNzk5Niw3MjMyMjc1MSwtMzIz
+MzY1ODJdfQ==
 -->
