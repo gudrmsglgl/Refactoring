@@ -5,7 +5,7 @@
 [언제 리팩터링해야 할까](#id-section4)<br>
 [리팩터링 시 고려할 문제](#id-section5)<br>
 [리팩터링, 아키텍처, 애그니(YAGNI)](#id-section6)<br>
-[리팩터링, 아키텍처, 애그니(YAGNI)](#id-section6)
+[리팩터링과 소프트웨어 개발 프로세스](#id-section7)
 
 <br><br>
 <div id='id-section1'/>
@@ -226,11 +226,11 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NzY2NTk0LDIwMzE5NjEzMTEsMTE0Nz
-k1NjQ0OSw3MDA5NjA2NiwxNjQwNDU0MjAxLC0xMTE5NjQ4Mjc0
-LC0xNjM4ODUwNzk1LDEzMDY2MDE4MjMsMTc2MjU2NjEyNywtMT
-kzOTUxNTQ0MywzNzM3NTg4MzQsLTgyNjgwNDYzNSwtODMzNjY4
-NzU1LC04MzM2Njg3NTUsNDEyOTQ5MTEsMzU1MDE4NDEzLC04NT
-A4Mzk2NjIsLTEzMzAzNzk4MjEsMzg4NTQwNTIyLDE4OTMxNDU5
-OTldfQ==
+eyJoaXN0b3J5IjpbLTExNTg3NDI1MywyMDMxOTYxMzExLDExND
+c5NTY0NDksNzAwOTYwNjYsMTY0MDQ1NDIwMSwtMTExOTY0ODI3
+NCwtMTYzODg1MDc5NSwxMzA2NjAxODIzLDE3NjI1NjYxMjcsLT
+E5Mzk1MTU0NDMsMzczNzU4ODM0LC04MjY4MDQ2MzUsLTgzMzY2
+ODc1NSwtODMzNjY4NzU1LDQxMjk0OTExLDM1NTAxODQxMywtOD
+UwODM5NjYyLC0xMzMwMzc5ODIxLDM4ODU0MDUyMiwxODkzMTQ1
+OTk5XX0=
 -->
