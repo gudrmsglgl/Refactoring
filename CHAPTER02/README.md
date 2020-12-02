@@ -235,19 +235,22 @@
 
 ### :ear: 빠른 소프트웨어를 작성하는 방법 세 가지
 
-    시간 예산 분배 방식
+    1.시간 예산 분배 방식
     * 가장 엄격한 방법, 하드 리얼타임 시스템에서 많이 사용
     * 설계를 여러 컴포넌트로 나눠서 컴포넌트마다 자원(시간과 공간) 예산을 할당.
     * 컴포넌트는 할당된 자원 예산을 초과할 수 없다.
     * 엄격한 시간 엄수를 강조.
-    * ⭕️ 심장 박동 조율기(늦게 도착하면 안 되는 시스템),🚫 사내 정보 ㅅ
+    ⭕️ 심장 박동 조율기(늦게 도착하면 안 되는 시스템),🚫 사내 정보 시스템
+	
+	2.끊임없이 관심을 기울인다.
+	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc0OTc4NjMxLC00NDU3ODAwMzIsLTE3Nz
-QzMDk3MTcsLTExNTg3NDI1MywyMDMxOTYxMzExLDExNDc5NTY0
-NDksNzAwOTYwNjYsMTY0MDQ1NDIwMSwtMTExOTY0ODI3NCwtMT
-YzODg1MDc5NSwxMzA2NjAxODIzLDE3NjI1NjYxMjcsLTE5Mzk1
-MTU0NDMsMzczNzU4ODM0LC04MjY4MDQ2MzUsLTgzMzY2ODc1NS
-wtODMzNjY4NzU1LDQxMjk0OTExLDM1NTAxODQxMywtODUwODM5
-NjYyXX0=
+eyJoaXN0b3J5IjpbLTE4NDI2OTY5NzUsLTQ0NTc4MDAzMiwtMT
+c3NDMwOTcxNywtMTE1ODc0MjUzLDIwMzE5NjEzMTEsMTE0Nzk1
+NjQ0OSw3MDA5NjA2NiwxNjQwNDU0MjAxLC0xMTE5NjQ4Mjc0LC
+0xNjM4ODUwNzk1LDEzMDY2MDE4MjMsMTc2MjU2NjEyNywtMTkz
+OTUxNTQ0MywzNzM3NTg4MzQsLTgyNjgwNDYzNSwtODMzNjY4Nz
+U1LC04MzM2Njg3NTUsNDEyOTQ5MTEsMzU1MDE4NDEzLC04NTA4
+Mzk2NjJdfQ==
 -->
