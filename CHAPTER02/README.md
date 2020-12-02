@@ -207,14 +207,14 @@
 
     * 리팩토링의 첫 번째 토대는 자가 테스트 코드다. 
     * 프로그래밍 도중 발생한 오류를 확실히 걸러내는 테스트를 자동으로 수행할 수 있어야 한다.
-    * 팀으로 개발하면서 리팩터링을 하려면 각 팀원이 다른 사람의 작업을 방해하지 않으면서 언제든지 리팩터링할 수 있어야 한다.
+    * 팀으로 개발하면서 리팩터링을 하려면 ❗각 팀원이 다른 사람의 작업을 방해하지 않으면서❗언제든지 리팩터링할 수 있어야 한다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mzg4NTA3OTUsMTMwNjYwMTgyMywxNz
-YyNTY2MTI3LC0xOTM5NTE1NDQzLDM3Mzc1ODgzNCwtODI2ODA0
-NjM1LC04MzM2Njg3NTUsLTgzMzY2ODc1NSw0MTI5NDkxMSwzNT
-UwMTg0MTMsLTg1MDgzOTY2MiwtMTMzMDM3OTgyMSwzODg1NDA1
-MjIsMTg5MzE0NTk5OSwtODcxNzY4MTM3LC03OTgyMTMwNjgsMT
-U4MjIzOTcyNSwtMTY1NTI0NjQyMiwtMTY1MjUwNDIwNiwtMTAz
-OTkxMjgyMV19
+eyJoaXN0b3J5IjpbNTYzNzk2ODQ3LC0xNjM4ODUwNzk1LDEzMD
+Y2MDE4MjMsMTc2MjU2NjEyNywtMTkzOTUxNTQ0MywzNzM3NTg4
+MzQsLTgyNjgwNDYzNSwtODMzNjY4NzU1LC04MzM2Njg3NTUsND
+EyOTQ5MTEsMzU1MDE4NDEzLC04NTA4Mzk2NjIsLTEzMzAzNzk4
+MjEsMzg4NTQwNTIyLDE4OTMxNDU5OTksLTg3MTc2ODEzNywtNz
+k4MjEzMDY4LDE1ODIyMzk3MjUsLTE2NTUyNDY0MjIsLTE2NTI1
+MDQyMDZdfQ==
 -->
