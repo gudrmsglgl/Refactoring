@@ -200,11 +200,11 @@
     지속적 통합, 
     자가 테스트 코드, 
     리팩터링 등의 개성이 강하면서 상호 의존하는 기법들을 하나로 묶은 프로세스 
-
+![enter image description here](https://image.flaticon.com/icons/png/512/2784/2784065.png)
 제대로 적용하려면 리팩터링에 대한 팀의 역량과 열정이 뒷받침되어 프로세스 전반에 리팩터링이 자연스럽게 스며들도록 해야 한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMzY2ODc1NSwtODMzNjY4NzU1LDQxMj
-k0OTExLC04MzM2Njg3NTUsMzU1MDE4NDEzLC04NTA4Mzk2NjIs
+eyJoaXN0b3J5IjpbLTgyNjgwNDYzNSwtODMzNjY4NzU1LC04Mz
+M2Njg3NTUsNDEyOTQ5MTEsMzU1MDE4NDEzLC04NTA4Mzk2NjIs
 LTEzMzAzNzk4MjEsMzg4NTQwNTIyLDE4OTMxNDU5OTksLTg3MT
 c2ODEzNywtNzk4MjEzMDY4LDE1ODIyMzk3MjUsLTE2NTUyNDY0
 MjIsLTE2NTI1MDQyMDYsLTEwMzk5MTI4MjEsMTQ0NjA0MzE1NS
