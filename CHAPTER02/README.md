@@ -214,13 +214,15 @@
     * 자가 테스트 코드, 지속적 통합, 리팩터링이라는 세기법은 서로 강력한 상승효과 발휘.
     * 수 많은 유연성 메커니즘을 갖춘 시스템보다는 단순한 시스템이 변경하기 훨씬 쉽다. 
     * 세 가지 실천법을 잘 조화시키면 요구사항 변화에 재빠르게 대응하고 안정적인 선순환 구조를 코드베이스에 심을 수 있다. 
+	지속적 배포
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTIxOTkxODAsLTExMTk2NDgyNzQsLT
-E2Mzg4NTA3OTUsMTMwNjYwMTgyMywxNzYyNTY2MTI3LC0xOTM5
-NTE1NDQzLDM3Mzc1ODgzNCwtODI2ODA0NjM1LC04MzM2Njg3NT
-UsLTgzMzY2ODc1NSw0MTI5NDkxMSwzNTUwMTg0MTMsLTg1MDgz
-OTY2MiwtMTMzMDM3OTgyMSwzODg1NDA1MjIsMTg5MzE0NTk5OS
-wtODcxNzY4MTM3LC03OTgyMTMwNjgsMTU4MjIzOTcyNSwtMTY1
-NTI0NjQyMl19
+eyJoaXN0b3J5IjpbMTg4NTc1NDI4OCwtMTExOTY0ODI3NCwtMT
+YzODg1MDc5NSwxMzA2NjAxODIzLDE3NjI1NjYxMjcsLTE5Mzk1
+MTU0NDMsMzczNzU4ODM0LC04MjY4MDQ2MzUsLTgzMzY2ODc1NS
+wtODMzNjY4NzU1LDQxMjk0OTExLDM1NTAxODQxMywtODUwODM5
+NjYyLC0xMzMwMzc5ODIxLDM4ODU0MDUyMiwxODkzMTQ1OTk5LC
+04NzE3NjgxMzcsLTc5ODIxMzA2OCwxNTgyMjM5NzI1LC0xNjU1
+MjQ2NDIyXX0=
 -->
