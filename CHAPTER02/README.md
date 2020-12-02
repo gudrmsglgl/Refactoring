@@ -186,15 +186,16 @@
 
 💁&nbsp;**이렇게 해보세요**
 
-👏 (작고 멋진 이름의 함수) 소프트웨어의 복잡도에 지장을 주지 않는 메커니즘은 마음껏 추가
-🙏 (복잡도를 높일 수 있는 유연성 메커니즘) 반드시 검증을 거친 후에 추가.
-💫 (함수 매개변수화하기) 호출하는 측에서 항상 같은 값을 넘기는 매개변수는 매개변수 목록에 넣지 않고 매개변수를 추가해야 할 시점이 오면 함수 매개변수화하기로 해결한다
+    👏 (작고 멋진 이름의 함수) 소프트웨어의 복잡도에 지장을 주지 않는 메커니즘은 마음껏 추가
+    🙏 (복잡도를 높일 수 있는 유연성 메커니즘) 반드시 검증을 거친 후에 추가.
+    💫 (함수 매개변수화하기) 호출하는 측에서 항상 같은 값을 넘기는 매개변수는 매개변수 목록에 넣지 않고 매개변수를 추가해야 할 시점이 오면 함수 매개변수화하기로 해결한다
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMTM3ODUzMSwxNDQ2MDQzMTU1LC0xMz
-A5NDc4MTg3LC0xNjQxOTE3OTk2LDcyMzIyNzUxLC0zMjMzNjU4
-MiwtNjIxODg1ODMzLDkzMzUxNjk5OSwtODE4MjUxMTU4LDIxMz
-M1MTA2NjQsNzY4MDYzMjg3LC0xNTgwNTk4NzA2LDE4MTcxNTk4
-LDEwMTE0MTYyMjcsLTIzMDg0NDYyNCwtNTMwOTIyMjc2LC0xMz
-kyODg5OTY4LC0zNjA4NTQ4NiwtMTEzOTc3ODI2NSwtMTE1NzEw
-Mzc3MF19
+eyJoaXN0b3J5IjpbLTEwMzk5MTI4MjEsMTQ0NjA0MzE1NSwtMT
+MwOTQ3ODE4NywtMTY0MTkxNzk5Niw3MjMyMjc1MSwtMzIzMzY1
+ODIsLTYyMTg4NTgzMyw5MzM1MTY5OTksLTgxODI1MTE1OCwyMT
+MzNTEwNjY0LDc2ODA2MzI4NywtMTU4MDU5ODcwNiwxODE3MTU5
+OCwxMDExNDE2MjI3LC0yMzA4NDQ2MjQsLTUzMDkyMjI3NiwtMT
+M5Mjg4OTk2OCwtMzYwODU0ODYsLTExMzk3NzgyNjUsLTExNTcx
+MDM3NzBdfQ==
 -->
