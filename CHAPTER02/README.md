@@ -194,12 +194,14 @@
        매개변수를 추가해야 할 시점이 오면(함수 매개 변수화하기)로 해결한다
 > ###### 이런식으로 설계하는 방식을 간결한 설계(simple design), 점진적 설계(incremental design) , YAGNI("you aren't going to need it") <br>YAGNI는 아키텍처를 고려하지 말라는 뜻이 아니며, 아키텍처와 설계를 개발 프로세스에 녹이는 또 다른 방식이며, 리팩터링의 뒷받침 없이는 효과를 볼 수 없다
 
+## 2.7 리팩터링과 소프트웨어 개발 프로세스
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5ODIxMzA2OCwxNTgyMjM5NzI1LC0xNj
-U1MjQ2NDIyLC0xNjUyNTA0MjA2LC0xMDM5OTEyODIxLDE0NDYw
-NDMxNTUsLTEzMDk0NzgxODcsLTE2NDE5MTc5OTYsNzIzMjI3NT
-EsLTMyMzM2NTgyLC02MjE4ODU4MzMsOTMzNTE2OTk5LC04MTgy
-NTExNTgsMjEzMzUxMDY2NCw3NjgwNjMyODcsLTE1ODA1OTg3MD
-YsMTgxNzE1OTgsMTAxMTQxNjIyNywtMjMwODQ0NjI0LC01MzA5
-MjIyNzZdfQ==
+eyJoaXN0b3J5IjpbLTg3MTc2ODEzNywtNzk4MjEzMDY4LDE1OD
+IyMzk3MjUsLTE2NTUyNDY0MjIsLTE2NTI1MDQyMDYsLTEwMzk5
+MTI4MjEsMTQ0NjA0MzE1NSwtMTMwOTQ3ODE4NywtMTY0MTkxNz
+k5Niw3MjMyMjc1MSwtMzIzMzY1ODIsLTYyMTg4NTgzMyw5MzM1
+MTY5OTksLTgxODI1MTE1OCwyMTMzNTEwNjY0LDc2ODA2MzI4Ny
+wtMTU4MDU5ODcwNiwxODE3MTU5OCwxMDExNDE2MjI3LC0yMzA4
+NDQ2MjRdfQ==
 -->
