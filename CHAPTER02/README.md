@@ -201,15 +201,15 @@
     자가 테스트 코드, 
     리팩터링 등의 개성이 강하면서 상호 의존하는 기법들을 하나로 묶은 프로세스 
 
-##### <img src="https://image.flaticon.com/icons/png/512/2784/2784065.png" width="25" height="28"/>  Agile
+### <img src="https://image.flaticon.com/icons/png/512/2784/2784065.png" width="25" height="28"/>  Agile
+> 제대로 적용하려면 리팩터링에 대한 팀의 역량과 열정이 뒷받침되어 프로세스 전반에 리팩터링이 자연스럽게 스며들도록 해야 한다.
 
-제대로 적용하려면 리팩터링에 대한 팀의 역량과 열정이 뒷받침되어 프로세스 전반에 리팩터링이 자연스럽게 스며들도록 해야 한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzczNzU4ODM0LC04MjY4MDQ2MzUsLTgzMz
-Y2ODc1NSwtODMzNjY4NzU1LDQxMjk0OTExLDM1NTAxODQxMywt
-ODUwODM5NjYyLC0xMzMwMzc5ODIxLDM4ODU0MDUyMiwxODkzMT
-Q1OTk5LC04NzE3NjgxMzcsLTc5ODIxMzA2OCwxNTgyMjM5NzI1
-LC0xNjU1MjQ2NDIyLC0xNjUyNTA0MjA2LC0xMDM5OTEyODIxLD
-E0NDYwNDMxNTUsLTEzMDk0NzgxODcsLTE2NDE5MTc5OTYsNzIz
-MjI3NTFdfQ==
+eyJoaXN0b3J5IjpbMTczNjMzNzYxNiwzNzM3NTg4MzQsLTgyNj
+gwNDYzNSwtODMzNjY4NzU1LC04MzM2Njg3NTUsNDEyOTQ5MTEs
+MzU1MDE4NDEzLC04NTA4Mzk2NjIsLTEzMzAzNzk4MjEsMzg4NT
+QwNTIyLDE4OTMxNDU5OTksLTg3MTc2ODEzNywtNzk4MjEzMDY4
+LDE1ODIyMzk3MjUsLTE2NTUyNDY0MjIsLTE2NTI1MDQyMDYsLT
+EwMzk5MTI4MjEsMTQ0NjA0MzE1NSwtMTMwOTQ3ODE4NywtMTY0
+MTkxNzk5Nl19
 -->
