@@ -113,9 +113,9 @@
 코드베이스가 건강할 때와 허약할 때의 생산성 차이를 체감하기 어렵다.
 
 > 생각의 오류<br>
-'클린코드' 나  '바람직한 엔지니어링 습관' 처럼 도덕적인 이유로 정당화하는 것.<br>
-:no_good: 코드 베이스를 예쁘게 꾸미는 데 있지 않다.<br>
-:ok_woman: 오로지 경제적인 이유, 개발 기간을 단축, 기능 추가 시간을 줄이고, 버그 수정 시간을 줄여준다. 
+:no_good:&nbsp;&nbsp;'클린코드' 나  '바람직한 엔지니어링 습관' 처럼 도덕적인 이유로 정당화하는 것.<br>
+:no_good:&nbsp;&nbsp;코드 베이스를 예쁘게 꾸미는 데 있지 않다.<br>
+:ok_woman:&nbsp;&nbsp;오로지 경제적인 이유, 개발 기간을 단축, 기능 추가 시간을 줄이고, 버그 수정 시간을 줄여준다. 
 
 ### :shipit: **브랜치**
 
@@ -194,11 +194,11 @@
        매개변수를 추가해야 할 시점이 오면(함수 매개 변수화하기)로 해결한다
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTUyNDY0MjIsLTE2NTI1MDQyMDYsLT
-EwMzk5MTI4MjEsMTQ0NjA0MzE1NSwtMTMwOTQ3ODE4NywtMTY0
-MTkxNzk5Niw3MjMyMjc1MSwtMzIzMzY1ODIsLTYyMTg4NTgzMy
-w5MzM1MTY5OTksLTgxODI1MTE1OCwyMTMzNTEwNjY0LDc2ODA2
-MzI4NywtMTU4MDU5ODcwNiwxODE3MTU5OCwxMDExNDE2MjI3LC
-0yMzA4NDQ2MjQsLTUzMDkyMjI3NiwtMTM5Mjg4OTk2OCwtMzYw
-ODU0ODZdfQ==
+eyJoaXN0b3J5IjpbMTU4MjIzOTcyNSwtMTY1NTI0NjQyMiwtMT
+Y1MjUwNDIwNiwtMTAzOTkxMjgyMSwxNDQ2MDQzMTU1LC0xMzA5
+NDc4MTg3LC0xNjQxOTE3OTk2LDcyMzIyNzUxLC0zMjMzNjU4Mi
+wtNjIxODg1ODMzLDkzMzUxNjk5OSwtODE4MjUxMTU4LDIxMzM1
+MTA2NjQsNzY4MDYzMjg3LC0xNTgwNTk4NzA2LDE4MTcxNTk4LD
+EwMTE0MTYyMjcsLTIzMDg0NDYyNCwtNTMwOTIyMjc2LC0xMzky
+ODg5OTY4XX0=
 -->
