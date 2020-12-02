@@ -229,9 +229,10 @@
 
 ## 2.8 리팩터링과 성능
 
-### 직관적인 설계 vs 성능
+### :mask: 직관적인 설계 vs 성능
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxODI5NTc5OSwtMTc3NDMwOTcxNywtMT
+eyJoaXN0b3J5IjpbMjA0NDkzOTA5MywtMTc3NDMwOTcxNywtMT
 E1ODc0MjUzLDIwMzE5NjEzMTEsMTE0Nzk1NjQ0OSw3MDA5NjA2
 NiwxNjQwNDU0MjAxLC0xMTE5NjQ4Mjc0LC0xNjM4ODUwNzk1LD
 EzMDY2MDE4MjMsMTc2MjU2NjEyNywtMTkzOTUxNTQ0MywzNzM3
