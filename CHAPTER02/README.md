@@ -204,7 +204,7 @@
 ### <img src="https://image.flaticon.com/icons/png/512/2784/2784065.png" width="25" height="28"/>  Agile
 > 제대로 적용하려면 리팩터링에 대한 팀의 역량과 열정이 뒷받침되어 프로세스 전반에 
 > 리팩터링이 자연스럽게 스며들도록 해야 한다.<br>
-> 🔜 견고한 기술적 토대를 갖추면 좋은 아이디어를 프로덕션 코드로 반영하는 시간 단축
+> 🔜  견고한 기술적 토대를 갖추면 좋은 아이디어를 프로덕션 코드로 반영하는 시간 단축
 
     * 리팩토링의 첫 번째 토대는 자가 테스트 코드다. 
     * 프로그래밍 도중 발생한 오류를 확실히 걸러내는 테스트를 자동으로 수행할 수 있어야 한다.
@@ -222,7 +222,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NjczMTc1NywyMDMxOTYxMzExLDExND
+eyJoaXN0b3J5IjpbLTcxNzQxOTkyMSwyMDMxOTYxMzExLDExND
 c5NTY0NDksNzAwOTYwNjYsMTY0MDQ1NDIwMSwtMTExOTY0ODI3
 NCwtMTYzODg1MDc5NSwxMzA2NjAxODIzLDE3NjI1NjYxMjcsLT
 E5Mzk1MTU0NDMsMzczNzU4ODM0LC04MjY4MDQ2MzUsLTgzMzY2
