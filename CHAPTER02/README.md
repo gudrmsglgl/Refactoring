@@ -234,8 +234,14 @@
 > 소프트웨어를 빠르게 만드는 비결은, 먼저 튜닝하기 쉽게 만들고 나서 원하는 속도가 나게끔 튜닝하는 것.
 
 ### :ear: 빠른 소프트웨어를 작성하는 방법 세 가지
+
+    시간 예산 분배 방식
+    * 가장 엄격한 방법, 하드 리얼타임 시스템에서 많이 사용
+    * 설계를 여러 컴포넌트로 나눠서 컴포넌트마다 자원(시간과 공간) 예산을 할당.
+    * 컴포넌트는 할당된 자원 예산을 초과할 수 없다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MzYyMTg4OSwtMTc3NDMwOTcxNywtMT
+eyJoaXN0b3J5IjpbLTQ0NTc4MDAzMiwtMTc3NDMwOTcxNywtMT
 E1ODc0MjUzLDIwMzE5NjEzMTEsMTE0Nzk1NjQ0OSw3MDA5NjA2
 NiwxNjQwNDU0MjAxLC0xMTE5NjQ4Mjc0LC0xNjM4ODUwNzk1LD
 EzMDY2MDE4MjMsMTc2MjU2NjEyNywtMTkzOTUxNTQ0MywzNzM3
