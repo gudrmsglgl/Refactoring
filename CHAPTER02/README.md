@@ -243,10 +243,10 @@
     ⭕️ 심장 박동 조율기(늦게 도착하면 안 되는 시스템),🚫 사내 정보 시스템
 	
 	2.끊임없이 관심을 기울인다.
-	3.
+	3.의도적으로 성능 최적화에 돌입하기 전까지는 성능에 신경 쓰지 않고 코드를 다루기 쉽게 만드는데 집중한다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTc5Mjc0LC0xODQyNjk2OTc1LC00ND
+eyJoaXN0b3J5IjpbNjc4MTEzNjI1LC0xODQyNjk2OTc1LC00ND
 U3ODAwMzIsLTE3NzQzMDk3MTcsLTExNTg3NDI1MywyMDMxOTYx
 MzExLDExNDc5NTY0NDksNzAwOTYwNjYsMTY0MDQ1NDIwMSwtMT
 ExOTY0ODI3NCwtMTYzODg1MDc5NSwxMzA2NjAxODIzLDE3NjI1
