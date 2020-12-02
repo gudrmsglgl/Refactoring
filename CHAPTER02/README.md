@@ -196,16 +196,16 @@
 
 ## 2.7 리팩터링과 소프트웨어 개발 프로세스
 
-##### :pushpin:&nbsp;&nbsp;**익스트림 프로그래밍XP**
+##### :pushpin:&nbsp;&nbsp;**익스트림 프로그래밍XP (애자일 방법론 중 하나)**
     지속적 통합, 자가 테스트 코드, 리팩터링 등의 개성이 강하면서 상호 의존하는 기법들을 하나로 묶은 프로세스 
 
 제대로 적용하려면 리팩터링에 대한 팀의 역량과 열정이 뒷받침되어 프로세스 전반에 리팩터링이 자연스럽게 스며들도록 해야 한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0ODg5NDg0OSwtODUwODM5NjYyLC0xMz
-MwMzc5ODIxLDM4ODU0MDUyMiwxODkzMTQ1OTk5LC04NzE3Njgx
-MzcsLTc5ODIxMzA2OCwxNTgyMjM5NzI1LC0xNjU1MjQ2NDIyLC
-0xNjUyNTA0MjA2LC0xMDM5OTEyODIxLDE0NDYwNDMxNTUsLTEz
-MDk0NzgxODcsLTE2NDE5MTc5OTYsNzIzMjI3NTEsLTMyMzM2NT
-gyLC02MjE4ODU4MzMsOTMzNTE2OTk5LC04MTgyNTExNTgsMjEz
-MzUxMDY2NF19
+eyJoaXN0b3J5IjpbMzU1MDE4NDEzLC04NTA4Mzk2NjIsLTEzMz
+AzNzk4MjEsMzg4NTQwNTIyLDE4OTMxNDU5OTksLTg3MTc2ODEz
+NywtNzk4MjEzMDY4LDE1ODIyMzk3MjUsLTE2NTUyNDY0MjIsLT
+E2NTI1MDQyMDYsLTEwMzk5MTI4MjEsMTQ0NjA0MzE1NSwtMTMw
+OTQ3ODE4NywtMTY0MTkxNzk5Niw3MjMyMjc1MSwtMzIzMzY1OD
+IsLTYyMTg4NTgzMyw5MzM1MTY5OTksLTgxODI1MTE1OCwyMTMz
+NTEwNjY0XX0=
 -->
