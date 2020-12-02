@@ -204,7 +204,7 @@
 ### <img src="https://image.flaticon.com/icons/png/512/2784/2784065.png" width="25" height="28"/>  Agile
 > 제대로 적용하려면 리팩터링에 대한 팀의 역량과 열정이 뒷받침되어 프로세스 전반에 
 > 리팩터링이 자연스럽게 스며들도록 해야 한다.
-> ☺️  
+> 🔗
 
     * 리팩토링의 첫 번째 토대는 자가 테스트 코드다. 
     * 프로그래밍 도중 발생한 오류를 확실히 걸러내는 테스트를 자동으로 수행할 수 있어야 한다.
@@ -222,11 +222,11 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAwOTYwNjYsMTY0MDQ1NDIwMSwtMTExOT
-Y0ODI3NCwtMTYzODg1MDc5NSwxMzA2NjAxODIzLDE3NjI1NjYx
-MjcsLTE5Mzk1MTU0NDMsMzczNzU4ODM0LC04MjY4MDQ2MzUsLT
-gzMzY2ODc1NSwtODMzNjY4NzU1LDQxMjk0OTExLDM1NTAxODQx
-MywtODUwODM5NjYyLC0xMzMwMzc5ODIxLDM4ODU0MDUyMiwxOD
-kzMTQ1OTk5LC04NzE3NjgxMzcsLTc5ODIxMzA2OCwxNTgyMjM5
-NzI1XX0=
+eyJoaXN0b3J5IjpbMTkwMzk0OTE1OSw3MDA5NjA2NiwxNjQwND
+U0MjAxLC0xMTE5NjQ4Mjc0LC0xNjM4ODUwNzk1LDEzMDY2MDE4
+MjMsMTc2MjU2NjEyNywtMTkzOTUxNTQ0MywzNzM3NTg4MzQsLT
+gyNjgwNDYzNSwtODMzNjY4NzU1LC04MzM2Njg3NTUsNDEyOTQ5
+MTEsMzU1MDE4NDEzLC04NTA4Mzk2NjIsLTEzMzAzNzk4MjEsMz
+g4NTQwNTIyLDE4OTMxNDU5OTksLTg3MTc2ODEzNywtNzk4MjEz
+MDY4XX0=
 -->
