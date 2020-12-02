@@ -168,7 +168,7 @@
 
 > 리팩터링이 아키텍처에 미치는 실질적인 효과는 요구사항 변화에 자연스럽게 대응하도록 코드 베이스를 잘 설계해준다는 데 있다.
 
-:pushpin:&nbsp;**아키텍처 설계 시**
+:pushpin:&nbsp;&nbsp;**아키텍처 설계 시**
 
     * 향후 변경에 유연하게 대처할 수 있는 유연성 메커니즘을 소프트웨어에 심어두는 것.
     * 함수를 정의하다 보면 범용적으로 사용할 수 있겠다는 생각들 때 → 예상 시나리오에 대응하기 위한 매개변수(유연성 메너니즘)추가.
@@ -184,7 +184,7 @@
 	* 단 이 요구를 멋지게 해결하도록 설계
 	* 사용자의 요구사항을 더 잘 이해하게 되면 아키텍처도 그에 맞게 리팩터링해서 바꿈
 
-💁&nbsp;**이렇게 해보세요**
+💁&nbsp;&nbsp;**이렇게 해보세요**
 
     👏 (작고 멋진 이름의 함수) 소프트웨어의 복잡도에 지장을 주지 않는 메커니즘은 마음껏 추가
     🙏 (복잡도를 높일 수 있는 유연성 메커니즘) 반드시 검증을 거친 후에 추가.
@@ -194,11 +194,11 @@
        매개변수를 추가해야 할 시점이 오면(함수 매개 변수화하기)로 해결한다
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTI1MDQyMDYsLTEwMzk5MTI4MjEsMT
-Q0NjA0MzE1NSwtMTMwOTQ3ODE4NywtMTY0MTkxNzk5Niw3MjMy
-Mjc1MSwtMzIzMzY1ODIsLTYyMTg4NTgzMyw5MzM1MTY5OTksLT
-gxODI1MTE1OCwyMTMzNTEwNjY0LDc2ODA2MzI4NywtMTU4MDU5
-ODcwNiwxODE3MTU5OCwxMDExNDE2MjI3LC0yMzA4NDQ2MjQsLT
-UzMDkyMjI3NiwtMTM5Mjg4OTk2OCwtMzYwODU0ODYsLTExMzk3
-NzgyNjVdfQ==
+eyJoaXN0b3J5IjpbLTE2NTUyNDY0MjIsLTE2NTI1MDQyMDYsLT
+EwMzk5MTI4MjEsMTQ0NjA0MzE1NSwtMTMwOTQ3ODE4NywtMTY0
+MTkxNzk5Niw3MjMyMjc1MSwtMzIzMzY1ODIsLTYyMTg4NTgzMy
+w5MzM1MTY5OTksLTgxODI1MTE1OCwyMTMzNTEwNjY0LDc2ODA2
+MzI4NywtMTU4MDU5ODcwNiwxODE3MTU5OCwxMDExNDE2MjI3LC
+0yMzA4NDQ2MjQsLTUzMDkyMjI3NiwtMTM5Mjg4OTk2OCwtMzYw
+ODU0ODZdfQ==
 -->
