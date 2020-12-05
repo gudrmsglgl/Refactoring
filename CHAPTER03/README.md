@@ -194,15 +194,16 @@
 > 코드를 변경할 때마다 자잘하게 수정해야 하는 클래스가 많을 때 풍긴다.
 
 |  | 뒤엉킨변경  | 산탄총 수술 |
+|----------|:-------------:|------:|
 |원인| 맥락을 잘 구분하지 못함 |
 | 해법(원리) |  |
 | 밸상 과정(현상) |  |
 | 해법(실제 행동) |  |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIzMjUwMjQyLC0xMjU2ODE2ODIxLC01Mj
-Q3NjM3ODgsLTY1MDg2NDgxMSwxNjM4OTkzNTQwLC0zNjU5OTk2
-MDksLTEzMDAyMTkzODIsODQ4NDAyNzI0LDI5OTY5MTg4MCw3Mj
-A1NzQ0MzQsODY3NzkxNDYxLDk0NTgxNTAzOCwxODY1MjY2OTMy
-LDIwNzM3NDM1OTUsLTIwNzcyMzQwMjksLTEwOTAxNjkxODksLT
-Q2NzM5NzUwOCw1NzQyNTg3MzQsLTE1NzAzODY3MDFdfQ==
+eyJoaXN0b3J5IjpbMjEyNzU4NDU4NywtMTI1NjgxNjgyMSwtNT
+I0NzYzNzg4LC02NTA4NjQ4MTEsMTYzODk5MzU0MCwtMzY1OTk5
+NjA5LC0xMzAwMjE5MzgyLDg0ODQwMjcyNCwyOTk2OTE4ODAsNz
+IwNTc0NDM0LDg2Nzc5MTQ2MSw5NDU4MTUwMzgsMTg2NTI2Njkz
+MiwyMDczNzQzNTk1LC0yMDc3MjM0MDI5LC0xMDkwMTY5MTg5LC
+00NjczOTc1MDgsNTc0MjU4NzM0LC0xNTcwMzg2NzAxXX0=
 -->
