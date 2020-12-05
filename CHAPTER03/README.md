@@ -191,10 +191,13 @@
 
 ## 3.8 산탄총 수술 Shotgun Surgery
 
-> 코드를 변경할 때마다 자잘하게 수정해야 하는 클래스가 많을 때 풍긴다
+> 코드를 변경할 때마다 자잘하게 수정해야 하는 클래스가 많을 때 풍긴다.
+|  | 뒤엉킨변경  | 산탄총  |
+|--|--|
+|  |  |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMTg1MjI3NiwtMTI1NjgxNjgyMSwtNT
+eyJoaXN0b3J5IjpbLTc0MDA0NDQwMywtMTI1NjgxNjgyMSwtNT
 I0NzYzNzg4LC02NTA4NjQ4MTEsMTYzODk5MzU0MCwtMzY1OTk5
 NjA5LC0xMzAwMjE5MzgyLDg0ODQwMjcyNCwyOTk2OTE4ODAsNz
 IwNTc0NDM0LDg2Nzc5MTQ2MSw5NDU4MTUwMzgsMTg2NTI2Njkz
