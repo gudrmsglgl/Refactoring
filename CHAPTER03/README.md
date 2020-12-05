@@ -200,14 +200,30 @@
 | 밸상 과정(현상) | 한 코드에 섞여 들어감 | 여러 코드에 흩뿌려짐 |
 | 해법(실제 행동) | 맥락별로 분리 | 맥락별로 모음 
 
-
+<table>
+  <tr>
+    <th></th>
+    <th>뒤엉킨변경</th>
+    <th>산탄총 수술</th>
+  </tr>
+  <tr>
+    <td>원인</td>
+    <td>맥락을 잘 구분하지 못함</td>
+    <td>내용</td>
+  </tr>
+  <tr>
+    <td>내용</td>
+    <td>내용</td>
+    <td>내용</td>
+  </tr>
+</table>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjc0MzU2NTAsMTQ0MTUzMTI1MCwtOT
-k5MDA5NDg5LC0yMzE2NTIzNjEsLTEyNTY4MTY4MjEsLTUyNDc2
-Mzc4OCwtNjUwODY0ODExLDE2Mzg5OTM1NDAsLTM2NTk5OTYwOS
-wtMTMwMDIxOTM4Miw4NDg0MDI3MjQsMjk5NjkxODgwLDcyMDU3
-NDQzNCw4Njc3OTE0NjEsOTQ1ODE1MDM4LDE4NjUyNjY5MzIsMj
-A3Mzc0MzU5NSwtMjA3NzIzNDAyOSwtMTA5MDE2OTE4OSwtNDY3
-Mzk3NTA4XX0=
+eyJoaXN0b3J5IjpbLTgxMDk2NzIwMywxNDQxNTMxMjUwLC05OT
+kwMDk0ODksLTIzMTY1MjM2MSwtMTI1NjgxNjgyMSwtNTI0NzYz
+Nzg4LC02NTA4NjQ4MTEsMTYzODk5MzU0MCwtMzY1OTk5NjA5LC
+0xMzAwMjE5MzgyLDg0ODQwMjcyNCwyOTk2OTE4ODAsNzIwNTc0
+NDM0LDg2Nzc5MTQ2MSw5NDU4MTUwMzgsMTg2NTI2NjkzMiwyMD
+czNzQzNTk1LC0yMDc3MjM0MDI5LC0xMDkwMTY5MTg5LC00Njcz
+OTc1MDhdfQ==
 -->
