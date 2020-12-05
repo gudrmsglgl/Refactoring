@@ -177,10 +177,13 @@
     * 단계 쪼개기
      - 데이터베이스에서 데이터를 가져와서 금융 상품 로직에서 처리해야 하는 일처럼 순차적으로 실행되는 게 자연스러운 맥락일 때
      - 다음 맥락에 필요한 데이터를 특정한 데이터 구조에 담아 전달하게 하는 식으로 단계를 분리
-     - 
+    
+    * 함수 옮기기
+      - 전체 처리 과정 곳곳에서 각기 다른 맥락의 함수를 호출하는 빈도가 높다면
+      - 각 맥락에 해당하는 적당한 모듈을 만들어서 관련 함수를 모은다. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTA3NDQ4MjksLTUyNDc2Mzc4OCwtNj
+eyJoaXN0b3J5IjpbLTEwNDk0MDY3NzQsLTUyNDc2Mzc4OCwtNj
 UwODY0ODExLDE2Mzg5OTM1NDAsLTM2NTk5OTYwOSwtMTMwMDIx
 OTM4Miw4NDg0MDI3MjQsMjk5NjkxODgwLDcyMDU3NDQzNCw4Nj
 c3OTE0NjEsOTQ1ODE1MDM4LDE4NjUyNjY5MzIsMjA3Mzc0MzU5
