@@ -223,14 +223,16 @@
     * 비슷한 데이터를 다루는 함수가 많다면 -> 여러 함수를 클래스로 묶기 적용
     * 데이터 구조를 변환하거나 보강하는 함수들에는 -> 여러 함수를 변환 함수로 묶기
     * 이렇게 묶은 함수들의 출력 결과를 묶어서 다음 단계의 로직으로 전달할 수 있다면 -> 단계 쪼개기 적용
+    * 어설프게 분리된 로직을 -> 함수 인라인하기나 클래스 인라인하기 -> 하나로 합치는 것도 좋은 방법
+    * 메서드나 글래스가 비대해지지만, 나중에 추출하기 리팩터링으로 더 좋은 형태로 분리할 수 있다.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU3ODQ3NjI1LDY4NzEzOTA0MywtMjcxMz
-EwOTY5LC0xNzczMTUwODIwLC0xMzkyMTExNDY1LDE0NDE1MzEy
-NTAsLTk5OTAwOTQ4OSwtMjMxNjUyMzYxLC0xMjU2ODE2ODIxLC
-01MjQ3NjM3ODgsLTY1MDg2NDgxMSwxNjM4OTkzNTQwLC0zNjU5
-OTk2MDksLTEzMDAyMTkzODIsODQ4NDAyNzI0LDI5OTY5MTg4MC
-w3MjA1NzQ0MzQsODY3NzkxNDYxLDk0NTgxNTAzOCwxODY1MjY2
-OTMyXX0=
+eyJoaXN0b3J5IjpbMTc4MDczODkyLDU1Nzg0NzYyNSw2ODcxMz
+kwNDMsLTI3MTMxMDk2OSwtMTc3MzE1MDgyMCwtMTM5MjExMTQ2
+NSwxNDQxNTMxMjUwLC05OTkwMDk0ODksLTIzMTY1MjM2MSwtMT
+I1NjgxNjgyMSwtNTI0NzYzNzg4LC02NTA4NjQ4MTEsMTYzODk5
+MzU0MCwtMzY1OTk5NjA5LC0xMzAwMjE5MzgyLDg0ODQwMjcyNC
+wyOTk2OTE4ODAsNzIwNTc0NDM0LDg2Nzc5MTQ2MSw5NDU4MTUw
+MzhdfQ==
 -->
