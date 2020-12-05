@@ -143,12 +143,16 @@
 	  - 독립 변수에 저장하게 하여 값 갱신이 문제를 일으킬 여지를 없앤다.	
     
     💡 문장 슬라이드하기 와 함수 추출하기
-      - 
+      - 무언가를 갱신하는 코드로부터 부작용이 없는 코드를 분리
+    
+    💡 질의 함수와 변경 함수 분리하기
+      - API 를 만들 때 
        
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY3ODQ5NDQyLDE2Mzg5OTM1NDAsLTM2NT
-k5OTYwOSwtMTMwMDIxOTM4Miw4NDg0MDI3MjQsMjk5NjkxODgw
-LDcyMDU3NDQzNCw4Njc3OTE0NjEsOTQ1ODE1MDM4LDE4NjUyNj
-Y5MzIsMjA3Mzc0MzU5NSwtMjA3NzIzNDAyOSwtMTA5MDE2OTE4
-OSwtNDY3Mzk3NTA4LDU3NDI1ODczNCwtMTU3MDM4NjcwMV19
+eyJoaXN0b3J5IjpbMTE0NjIzMTE2MywxNjM4OTkzNTQwLC0zNj
+U5OTk2MDksLTEzMDAyMTkzODIsODQ4NDAyNzI0LDI5OTY5MTg4
+MCw3MjA1NzQ0MzQsODY3NzkxNDYxLDk0NTgxNTAzOCwxODY1Mj
+Y2OTMyLDIwNzM3NDM1OTUsLTIwNzcyMzQwMjksLTEwOTAxNjkx
+ODksLTQ2NzM5NzUwOCw1NzQyNTg3MzQsLTE1NzAzODY3MDFdfQ
+==
 -->
