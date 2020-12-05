@@ -220,10 +220,11 @@
 </table>
 
     * 이럴 때는 함께 변경되는 대상들을 함수 옮기기와 필드 옮기기로 모두 한 모듈에 묶어두면 좋다.
+    * 비슷한 데이터를 다루는 함수가 많다면 -> 여러 함수를 클래스로 묶기 적용
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MDU1NTkwMSw2ODcxMzkwNDMsLTI3MT
+eyJoaXN0b3J5IjpbLTk3NDM3MzcxNSw2ODcxMzkwNDMsLTI3MT
 MxMDk2OSwtMTc3MzE1MDgyMCwtMTM5MjExMTQ2NSwxNDQxNTMx
 MjUwLC05OTkwMDk0ODksLTIzMTY1MjM2MSwtMTI1NjgxNjgyMS
 wtNTI0NzYzNzg4LC02NTA4NjQ4MTEsMTYzODk5MzU0MCwtMzY1
