@@ -46,10 +46,10 @@
 ##### :pushpin:&nbsp;&nbsp;함수 추출하기
 >함수 본문에서 따로 묶어 배내면 좋은 코드 덩어리를 찾아 새로운 함수로 만드는 것.
 
-##### &nbsp;&nbsp;&nbsp;⚠️&nbsp;&nbsp;~~매개변수와 임시 변수를 많이 사용~~한다면 **추출 작업에 방해**가 된다. 
+##### ⚠️&nbsp;&nbsp;~~매개변수와 임시 변수를 많이 사용~~한다면 **추출 작업에 방해**가 된다. 
     🙆‍♀️ 임시 변수를 ➰ 질의 함수로
-
+	🙆‍♀️ 임시 변수를 ➰ 질의 함수로
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ2MDI4NTc2LC00NjczOTc1MDgsNTc0Mj
-U4NzM0LC0xNTcwMzg2NzAxXX0=
+eyJoaXN0b3J5IjpbLTE4MTI2NjQxOTUsLTQ2NzM5NzUwOCw1Nz
+QyNTg3MzQsLTE1NzAzODY3MDFdfQ==
 -->
