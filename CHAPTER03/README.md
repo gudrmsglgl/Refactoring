@@ -61,7 +61,9 @@
       - 거대한 switch문을 구성하는 case문마다 함수 추출하기를 적용, 각 case의 본문을 함수 호출문 하나로 바꾼다.
       - 같은 조건을 기준으로 나뉘는 switch문이 여러 개
 		-> 조건문을 다형성으로 바꾸기 적용
+	  - 반복문도 그 안의 코드와 함께 추출해서 독립된 함수로 만든다.
+	  - 추출한 반복문 코드에 적합한 이름이 떠오르지 않는다면 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkzNzE3OTM5LC00NjczOTc1MDgsNTc0Mj
+eyJoaXN0b3J5IjpbMjYxMjIyOTIzLC00NjczOTc1MDgsNTc0Mj
 U4NzM0LC0xNTcwMzg2NzAxXX0=
 -->
