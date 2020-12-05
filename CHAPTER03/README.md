@@ -107,10 +107,11 @@
 	😨 전역 데이터는 코드베이스 어디에서든 건드릴 수 있고 값을 누가 바꿨는지 찾아낼 메커니즘이 없다는게 문제.
 	😨 전역 데이터의 대표적인 형태는 전역 변수지만 클래스 변수와 싱글톤에서도 같은 문제가 발생한다.
 
+#### 💊 전역 변수 방지
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NTE2OTU4NSw4Njc3OTE0NjEsOTQ1OD
-E1MDM4LDE4NjUyNjY5MzIsMjA3Mzc0MzU5NSwtMjA3NzIzNDAy
-OSwtMTA5MDE2OTE4OSwtNDY3Mzk3NTA4LDU3NDI1ODczNCwtMT
-U3MDM4NjcwMV19
+eyJoaXN0b3J5IjpbNzIwNTc0NDM0LDg2Nzc5MTQ2MSw5NDU4MT
+UwMzgsMTg2NTI2NjkzMiwyMDczNzQzNTk1LC0yMDc3MjM0MDI5
+LC0xMDkwMTY5MTg5LC00NjczOTc1MDgsNTc0MjU4NzM0LC0xNT
+cwMzg2NzAxXX0=
 -->
