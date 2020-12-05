@@ -32,8 +32,9 @@
 ## 3.3 긴 함수 Long Function
 > 코드를 이해하고, 공유하고, 선택하기 쉬워진다는 장점은 함수를 짧게 구성할 때 나오는 것.
 
-### :black_nib: 짧은 함수
+### :black_nib: 짧은 함수 
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIyMTE4NDYzXX0=
+eyJoaXN0b3J5IjpbLTE5MTc2MjkzNDVdfQ==
 -->
