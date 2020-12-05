@@ -175,13 +175,15 @@
 #### 🙆‍♀️&nbsp;&nbsp;단일 원칙 지키기 예
 
     * 단계 쪼개기
-     - 데이터베이스에
+     - 데이터베이스에서 데이터를 가져와서 금융 상품 로직에서 처리해야 하는 일처럼 순차적으로 실행되는 게 자연스러운 맥락일 때
+     - 다음 맥락에 필요한 데이터를 특정한 데이터 구조에 담아 전달하게 하는 식으로 단계를 분리
+     - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2Mzc3MTYzMywtNTI0NzYzNzg4LC02NT
-A4NjQ4MTEsMTYzODk5MzU0MCwtMzY1OTk5NjA5LC0xMzAwMjE5
-MzgyLDg0ODQwMjcyNCwyOTk2OTE4ODAsNzIwNTc0NDM0LDg2Nz
-c5MTQ2MSw5NDU4MTUwMzgsMTg2NTI2NjkzMiwyMDczNzQzNTk1
-LC0yMDc3MjM0MDI5LC0xMDkwMTY5MTg5LC00NjczOTc1MDgsNT
-c0MjU4NzM0LC0xNTcwMzg2NzAxXX0=
+eyJoaXN0b3J5IjpbLTE1OTA3NDQ4MjksLTUyNDc2Mzc4OCwtNj
+UwODY0ODExLDE2Mzg5OTM1NDAsLTM2NTk5OTYwOSwtMTMwMDIx
+OTM4Miw4NDg0MDI3MjQsMjk5NjkxODgwLDcyMDU3NDQzNCw4Nj
+c3OTE0NjEsOTQ1ODE1MDM4LDE4NjUyNjY5MzIsMjA3Mzc0MzU5
+NSwtMjA3NzIzNDAyOSwtMTA5MDE2OTE4OSwtNDY3Mzk3NTA4LD
+U3NDI1ODczNCwtMTU3MDM4NjcwMV19
 -->
