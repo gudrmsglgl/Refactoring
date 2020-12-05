@@ -108,18 +108,18 @@
 > "**전역 데이터가 아주 조금만 있더라도 <u>캡슐화하는 것</u>이  <br>
 > 소프트웨어가 진화하는 데 따른 변화에 대처할 수 있다.**"
 
-#### ⚠️ 전역 변수의 문제점
+#### ⚠️ &nbsp;&nbsp;전역 변수의 문제점
 	😨 전역 데이터는 코드베이스 어디에서든 건드릴 수 있고 값을 누가 바꿨는지 찾아낼 메커니즘이 없다는게 문제.
 	😨 전역 데이터의 대표적인 형태는 전역 변수지만 클래스 변수와 싱글톤에서도 같은 문제가 발생한다.
 
-#### 💊 전역 변수 방지
+#### 💊 &nbsp;&nbsp;전역 변수 방지
 
     🙆‍♀️ 변수 캡슐화
     * 다른 코드에서 오염시킬 가능성이 있는 데이터를 발견할 때마다 이 기법을 적용
     * 이런 데이터를 함수로 감싸는 것만으로도 데이터를 수정하는 부분을 쉽게 찾을 수 있고 접근을 통제할 수 있게 된다.
     * 접근자 함수들을 클래스나 모듈에 접어넣고 그 안에서만 사용할 수 있도록 접근 범위를 최소로 줄이는 것도 좋다.
 
-#### ⚠️ 전역 데이터가 가변 mutable
+#### ⚠️ &nbsp;&nbsp;전역 데이터가 가변 mutable
 
     * 다루기 까다롭다.
     * 프로그램이 구동된 후에는 값이 바뀌지 않는다고 보장할 수 있는 전역 데이터는 그나마 안전한 편이다.
@@ -135,7 +135,7 @@
 	  데이터를 변경하려면 반드시 (원래 데이터는 그대로 둔 채) 변경하려는 값에 
 	  해당하는 복사본을 만들어서 반환한다는 개념을 기본으로 삼고 있다.
 
-#### 💊 무분별한 데이터 수정에 따른 위험을 줄이는 방법
+#### 💊 &nbsp;&nbsp;무분별한 데이터 수정에 따른 위험을 줄이는 방법
 
     💡 변수 캡슐화하기
       - 정해놓은 함수를 거쳐야만 값을 수정할 수 있도록 하면 값이 어떻게 수정되는지 
@@ -186,10 +186,10 @@
       - 모듈이 클래스라면 (클래스 추출하기)가 맥락별 분리 방법을 잘 안내해 준다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMjE4MzIxMSwtNTI0NzYzNzg4LC02NT
-A4NjQ4MTEsMTYzODk5MzU0MCwtMzY1OTk5NjA5LC0xMzAwMjE5
-MzgyLDg0ODQwMjcyNCwyOTk2OTE4ODAsNzIwNTc0NDM0LDg2Nz
-c5MTQ2MSw5NDU4MTUwMzgsMTg2NTI2NjkzMiwyMDczNzQzNTk1
-LC0yMDc3MjM0MDI5LC0xMDkwMTY5MTg5LC00NjczOTc1MDgsNT
-c0MjU4NzM0LC0xNTcwMzg2NzAxXX0=
+eyJoaXN0b3J5IjpbLTEyNTY4MTY4MjEsLTUyNDc2Mzc4OCwtNj
+UwODY0ODExLDE2Mzg5OTM1NDAsLTM2NTk5OTYwOSwtMTMwMDIx
+OTM4Miw4NDg0MDI3MjQsMjk5NjkxODgwLDcyMDU3NDQzNCw4Nj
+c3OTE0NjEsOTQ1ODE1MDM4LDE4NjUyNjY5MzIsMjA3Mzc0MzU5
+NSwtMjA3NzIzNDAyOSwtMTA5MDE2OTE4OSwtNDY3Mzk3NTA4LD
+U3NDI1ODczNCwtMTU3MDM4NjcwMV19
 -->
