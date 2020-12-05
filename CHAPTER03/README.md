@@ -44,9 +44,12 @@
     * 핵심은 함수의 길이가 아닌, 함수의 목적(의도)과 구현 코드의 괴리가 얼마나 큰가.
     * 즉, '무엇을 하는지'를 코드가 잘 설명해주지 못할수록 함수로 만드는게 유리.
 ##### :pushpin:&nbsp;&nbsp;함수 추출하기
-	ㄴㅁㅇㄹ
+>함수 본문에서 따로 묶어 배내면 좋은 코드 덩어리를 찾아 새로운 함수로 만드는 것.
+
+	* 매개변수와 임시 변수를 많이 사용한다면 추출 작업에 방해가 된다. 
+	* 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMjI4NzI3OSw1NzQyNTg3MzQsLTE1Nz
-AzODY3MDFdfQ==
+eyJoaXN0b3J5IjpbNDU2Nzk0NzY1LDU3NDI1ODczNCwtMTU3MD
+M4NjcwMV19
 -->
