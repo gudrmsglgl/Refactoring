@@ -52,11 +52,14 @@
     🙆‍♀️ 이렇게 적용해도 여전히 임시 변수와 매개변수가 너무 많다면 ➰ 함수를 명령으로 바꾸기
 ##### :mag_right:&nbsp;&nbsp;&nbsp;추출할 코드 덩어리 찾는 방법
 
-    * 주석을 참고
+    💡 주석을 참고
       - 주석이 설명하는 코드와 함계 함수로 빼내고, 함수 이름은 주석 내용을 토대로 짓는다.
       - 코드가 단 한줄이라도 따로 설명할 필요가 있다면 함수로 추출하는게 좋다.
-
+    
+    💡 조건문 반복문 
+      - 조건문 분해하기로 대응
+      - 거대한 switch문을 구성하는 case문마다 함수 추출하기를 적용, 각 case의 본문을 함수 호출문 하나로 바꾼다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxOTAxMjQ5NiwtNDY3Mzk3NTA4LDU3ND
+eyJoaXN0b3J5IjpbLTE1MjMyOTM3OCwtNDY3Mzk3NTA4LDU3ND
 I1ODczNCwtMTU3MDM4NjcwMV19
 -->
