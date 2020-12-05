@@ -2,7 +2,7 @@
 [기이한 이름](#id-section1)<br>
 [중복 코드](#id-section2)<br>
 [긴 함수](#id-section3)<br>
-
+[긴 매개변수 목록](#id-section4)<br>
 <div id='id-section1'/>
 
 ## 3.1 기이한 이름 Mysterious Name
@@ -64,7 +64,13 @@
 	  - 반복문도 그 안의 코드와 함께 추출해서 독립된 함수로 만든다.
 	  - 추출한 반복문 코드에 적합한 이름이 떠오르지 않는다면 다른 두 가지 작업이 섞여 있기 때문 
 	    -> 과감히 반복문 쪼개기를 적용해서 작업을 분리
+
+<br>
+<div id='id-section4'/>
+
+## 3.4 긴 매개변수 목록 Long Parameter List
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTAxNjkxODksLTQ2NzM5NzUwOCw1Nz
-QyNTg3MzQsLTE1NzAzODY3MDFdfQ==
+eyJoaXN0b3J5IjpbLTEzODE3NzAxMzksLTEwOTAxNjkxODksLT
+Q2NzM5NzUwOCw1NzQyNTg3MzQsLTE1NzAzODY3MDFdfQ==
 -->
