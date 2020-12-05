@@ -194,13 +194,13 @@
 > 코드를 변경할 때마다 자잘하게 수정해야 하는 클래스가 많을 때 풍긴다.
 
 |  | 뒤엉킨변경  | 산탄총 수술 |
-|----------|:-------------:|------:|
+|----------|:-------------:|:------:|
 |원인| 맥락을 잘 구분하지 못함 || 
 | 해법(원리) | 맥락을 명확히 구분 ||
 | 밸상 과정(현상) | 한 코드에 섞여 들어감 | 여러 코드에 흩뿌려짐 |
-| 해법(실제 행동) |  |
+| 해법(실제 행동) | 맥락별로 분리 | 맥락별로 모음 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NzExMzU4NCwtOTk5MDA5NDg5LC0yMz
+eyJoaXN0b3J5IjpbMTQ0MTUzMTI1MCwtOTk5MDA5NDg5LC0yMz
 E2NTIzNjEsLTEyNTY4MTY4MjEsLTUyNDc2Mzc4OCwtNjUwODY0
 ODExLDE2Mzg5OTM1NDAsLTM2NTk5OTYwOSwtMTMwMDIxOTM4Mi
 w4NDg0MDI3MjQsMjk5NjkxODgwLDcyMDU3NDQzNCw4Njc3OTE0
