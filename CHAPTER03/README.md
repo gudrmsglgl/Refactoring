@@ -195,12 +195,12 @@
 
 |  | 뒤엉킨변경  | 산탄총 수술 |
 |----------|:-------------:|------:|
-|원인| 맥락을 잘 구분하지 못함 
+|원인| 맥락을 잘 구분하지 못함| | 
 | 해법(원리) |  |
 | 밸상 과정(현상) |  |
 | 해법(실제 행동) |  |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NzU3MDk3OSwtMTI1NjgxNjgyMSwtNT
+eyJoaXN0b3J5IjpbLTIzMTY1MjM2MSwtMTI1NjgxNjgyMSwtNT
 I0NzYzNzg4LC02NTA4NjQ4MTEsMTYzODk5MzU0MCwtMzY1OTk5
 NjA5LC0xMzAwMjE5MzgyLDg0ODQwMjcyNCwyOTk2OTE4ODAsNz
 IwNTc0NDM0LDg2Nzc5MTQ2MSw5NDU4MTUwMzgsMTg2NTI2Njkz
