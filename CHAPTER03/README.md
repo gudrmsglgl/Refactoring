@@ -170,9 +170,11 @@
 #### ⚠️&nbsp;&nbsp;뒤엉킨 변경
 
     * 단일 책임 원칙(Single Responsiblity Principle)이 제대로 지켜지지 않을 때 나타남.
+    * 즉 하나의 모듈이 서로 다른 이유들로 인해 여러 가지 방식으로 변경되는 일이 많을 때 발생한다.
+    * 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NzM2Njk0NSwtNTI0NzYzNzg4LC02NT
+eyJoaXN0b3J5IjpbMTY0NDM1MDQ5MiwtNTI0NzYzNzg4LC02NT
 A4NjQ4MTEsMTYzODk5MzU0MCwtMzY1OTk5NjA5LC0xMzAwMjE5
 MzgyLDg0ODQwMjcyNCwyOTk2OTE4ODAsNzIwNTc0NDM0LDg2Nz
 c5MTQ2MSw5NDU4MTUwMzgsMTg2NTI2NjkzMiwyMDczNzQzNTk1
