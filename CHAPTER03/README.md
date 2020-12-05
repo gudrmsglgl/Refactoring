@@ -6,6 +6,7 @@
 [전역 데이터](#id-section5)<br>
 [가변 데이터](#id-section6)<br>
 [뒤엉킨 변경](#id-section7)<br>
+[산탄총 수술](#id-section8)<br>
 
 
 <div id='id-section1'/>
@@ -186,14 +187,15 @@
       - 모듈이 클래스라면 (클래스 추출하기)가 맥락별 분리 방법을 잘 안내해 준다.
 
 <br>
-<div id='id-section7'/>
+<div id='id-section8'/>
 
-## 3.7 뒤엉킨 변경 Divergent Change
+## 3.8 산탄총 수술 Shotgun Surgery
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTczMzM2ODcsLTEyNTY4MTY4MjEsLT
-UyNDc2Mzc4OCwtNjUwODY0ODExLDE2Mzg5OTM1NDAsLTM2NTk5
-OTYwOSwtMTMwMDIxOTM4Miw4NDg0MDI3MjQsMjk5NjkxODgwLD
-cyMDU3NDQzNCw4Njc3OTE0NjEsOTQ1ODE1MDM4LDE4NjUyNjY5
-MzIsMjA3Mzc0MzU5NSwtMjA3NzIzNDAyOSwtMTA5MDE2OTE4OS
-wtNDY3Mzk3NTA4LDU3NDI1ODczNCwtMTU3MDM4NjcwMV19
+eyJoaXN0b3J5IjpbNjQ1Nzk1ODc3LC0xMjU2ODE2ODIxLC01Mj
+Q3NjM3ODgsLTY1MDg2NDgxMSwxNjM4OTkzNTQwLC0zNjU5OTk2
+MDksLTEzMDAyMTkzODIsODQ4NDAyNzI0LDI5OTY5MTg4MCw3Mj
+A1NzQ0MzQsODY3NzkxNDYxLDk0NTgxNTAzOCwxODY1MjY2OTMy
+LDIwNzM3NDM1OTUsLTIwNzcyMzQwMjksLTEwOTAxNjkxODksLT
+Q2NzM5NzUwOCw1NzQyNTg3MzQsLTE1NzAzODY3MDFdfQ==
 -->
