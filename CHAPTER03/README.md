@@ -128,10 +128,12 @@
 	* 코드의 다른 곳에서는 다른 값을 기대한다는 사실을 인식하지 못한 채 수정해버리면 
 	프로그램이 오작동한다. 
 	* 이 문제가 아주 드문 조건에서만 발생한다면 원인을 알아내기가 매우 어렵다.
-	* 데이터는 절대 변하지 않고, 데이터를 변경하려면 반드시 (원래 데이터는 그대로 둔 채) 변경하려는 값에
+	* 데이터는 절대 변하지 않고, 
+	  데이터를 변경하려면 반드시 (원래 데이터는 그대로 둔 채) 변경하려는 값에 
+	  해당하는 복사본을 만들어서 반환한다는 개념을 기본으로 삼고 있다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NTg2MzA1MywtMTMwMDIxOTM4Miw4ND
+eyJoaXN0b3J5IjpbLTM2NTk5OTYwOSwtMTMwMDIxOTM4Miw4ND
 g0MDI3MjQsMjk5NjkxODgwLDcyMDU3NDQzNCw4Njc3OTE0NjEs
 OTQ1ODE1MDM4LDE4NjUyNjY5MzIsMjA3Mzc0MzU5NSwtMjA3Nz
 IzNDAyOSwtMTA5MDE2OTE4OSwtNDY3Mzk3NTA4LDU3NDI1ODcz
