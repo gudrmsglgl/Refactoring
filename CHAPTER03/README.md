@@ -150,12 +150,16 @@
       
     💡 세터 제거하기 
       - 세터를 호출하는 클라이언트를 찾는 것만으로도 변수의 유효범위를 줄이는 데 도움
+    
+    💡 여러 함수를 클래스로 묶기나 여러 함수를 변수로 묶기
+      - 변수를 갱신하는 코드들의 유효범위를 (클래스나 변환tr
  
        
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTExMjA0MzYzLDE2Mzg5OTM1NDAsLTM2NT
-k5OTYwOSwtMTMwMDIxOTM4Miw4NDg0MDI3MjQsMjk5NjkxODgw
-LDcyMDU3NDQzNCw4Njc3OTE0NjEsOTQ1ODE1MDM4LDE4NjUyNj
-Y5MzIsMjA3Mzc0MzU5NSwtMjA3NzIzNDAyOSwtMTA5MDE2OTE4
-OSwtNDY3Mzk3NTA4LDU3NDI1ODczNCwtMTU3MDM4NjcwMV19
+eyJoaXN0b3J5IjpbLTEyMDA2Mjc1MTEsMTYzODk5MzU0MCwtMz
+Y1OTk5NjA5LC0xMzAwMjE5MzgyLDg0ODQwMjcyNCwyOTk2OTE4
+ODAsNzIwNTc0NDM0LDg2Nzc5MTQ2MSw5NDU4MTUwMzgsMTg2NT
+I2NjkzMiwyMDczNzQzNTk1LC0yMDc3MjM0MDI5LC0xMDkwMTY5
+MTg5LC00NjczOTc1MDgsNTc0MjU4NzM0LC0xNTcwMzg2NzAxXX
+0=
 -->
