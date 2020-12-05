@@ -157,13 +157,17 @@
     💡 참조를 값으로 바꾸기
 	  - 구조체처럼 내부 필드에 데이터를 담고 있는 변수일 때
 	  - 내부 필드를 직접 수정하지 말고 구조체를 통째로 교체하는 편이 낫다. 
- 
-       
+<br>
+<div id='id-section7'/>
+
+## 3.7 뒤엉킨 변경 Divergent Change
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MDg2NDgxMSwxNjM4OTkzNTQwLC0zNj
-U5OTk2MDksLTEzMDAyMTkzODIsODQ4NDAyNzI0LDI5OTY5MTg4
-MCw3MjA1NzQ0MzQsODY3NzkxNDYxLDk0NTgxNTAzOCwxODY1Mj
-Y2OTMyLDIwNzM3NDM1OTUsLTIwNzcyMzQwMjksLTEwOTAxNjkx
-ODksLTQ2NzM5NzUwOCw1NzQyNTg3MzQsLTE1NzAzODY3MDFdfQ
-==
+eyJoaXN0b3J5IjpbLTM1NDI2ODM4OSwtNjUwODY0ODExLDE2Mz
+g5OTM1NDAsLTM2NTk5OTYwOSwtMTMwMDIxOTM4Miw4NDg0MDI3
+MjQsMjk5NjkxODgwLDcyMDU3NDQzNCw4Njc3OTE0NjEsOTQ1OD
+E1MDM4LDE4NjUyNjY5MzIsMjA3Mzc0MzU5NSwtMjA3NzIzNDAy
+OSwtMTA5MDE2OTE4OSwtNDY3Mzk3NTA4LDU3NDI1ODczNCwtMT
+U3MDM4NjcwMV19
 -->
