@@ -53,10 +53,10 @@
 ##### :mag_right:&nbsp;&nbsp;&nbsp;추출할 코드 덩어리 찾는 방법
 
     * 주석을 참고
-    * 주석이 설명하는 코드와 함계 함수로 빼내고, 함수 이름은 주석 내용을 토대로 짓는다.
-    * 코드가 단 한줄이라도 따로 설명할 필요가 있다면 함수로 추출하는게 좋다.
+      - 주석이 설명하는 코드와 함계 함수로 빼내고, 함수 이름은 주석 내용을 토대로 짓는다.
+      - 코드가 단 한줄이라도 따로 설명할 필요가 있다면 함수로 추출하는게 좋다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUwNTU0MjI0LC00NjczOTc1MDgsNTc0Mj
-U4NzM0LC0xNTcwMzg2NzAxXX0=
+eyJoaXN0b3J5IjpbMTAxOTAxMjQ5NiwtNDY3Mzk3NTA4LDU3ND
+I1ODczNCwtMTU3MDM4NjcwMV19
 -->
