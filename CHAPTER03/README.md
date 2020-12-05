@@ -182,10 +182,11 @@
       - 전체 처리 과정 곳곳에서 각기 다른 맥락의 함수를 호출하는 빈도가 높다면
       - 각 맥락에 해당하는 적당한 모듈을 만들어서 관련 함수를 모은다.
       - 그러면 처리 과정이 맥락별로 구분된다.
-      - 이 때 여러 맥락의 일에 관여하는 숨가 
+      - 이 때 여러 맥락의 일에 관여하는 함수가 있다면 옮기기 전에 (함수 추출하기)부터 수행한다. 
+      - 모듈이 클래스라면 (클래스 추출하기)가 맥락별 분리 방법을 잘 안내해 준다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNTExMTY3OSwtNTI0NzYzNzg4LC02NT
+eyJoaXN0b3J5IjpbMTcxMjE4MzIxMSwtNTI0NzYzNzg4LC02NT
 A4NjQ4MTEsMTYzODk5MzU0MCwtMzY1OTk5NjA5LC0xMzAwMjE5
 MzgyLDg0ODQwMjcyNCwyOTk2OTE4ODAsNzIwNTc0NDM0LDg2Nz
 c5MTQ2MSw5NDU4MTUwMzgsMTg2NTI2NjkzMiwyMDczNzQzNTk1
