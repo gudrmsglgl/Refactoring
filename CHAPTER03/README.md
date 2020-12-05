@@ -42,8 +42,8 @@
     * 원래 코드보다 길어지더라도 함수로 뽑는다.
     * 단, 함수 이름에 코드의 목적을 드러내야 한다. 
     * 핵심은 함수의 길이가 아닌, 함수의 목적(의도)과 구현 코드의 괴리가 얼마나 큰가.
+    * 즉, '무엇을 하는지'를 코드가 잘 설명해주지 못할수록 함수로 만드는게 유리.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDM2Nzc4NzMsLTE1NzAzODY3MDFdfQ
-==
+eyJoaXN0b3J5IjpbNTc0MjU4NzM0LC0xNTcwMzg2NzAxXX0=
 -->
