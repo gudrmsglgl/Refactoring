@@ -193,7 +193,7 @@
 
 > 코드를 변경할 때마다 자잘하게 수정해야 하는 클래스가 많을 때 풍긴다.
 
-<table>
+<table style="text-align: center;">
   <tr>
     <th></th>
     <th>뒤엉킨변경</th>
@@ -201,7 +201,7 @@
   </tr>
   <tr>
     <td>원인</td>
-    <td colspan="2" **style="text-align: center;>맥락을 잘 구분하지 못함</td>
+    <td colspan="2">맥락을 잘 구분하지 못함</td>
   </tr>
   <tr>
     <td>해법(원리)</td>
@@ -220,7 +220,7 @@
 </table>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NjU0OTU4NSwxNDQxNTMxMjUwLC05OT
+eyJoaXN0b3J5IjpbLTU3NzU5NzEwOSwxNDQxNTMxMjUwLC05OT
 kwMDk0ODksLTIzMTY1MjM2MSwtMTI1NjgxNjgyMSwtNTI0NzYz
 Nzg4LC02NTA4NjQ4MTEsMTYzODk5MzU0MCwtMzY1OTk5NjA5LC
 0xMzAwMjE5MzgyLDg0ODQwMjcyNCwyOTk2OTE4ODAsNzIwNTc0
