@@ -192,13 +192,14 @@
 ## 3.8 산탄총 수술 Shotgun Surgery
 
 > 코드를 변경할 때마다 자잘하게 수정해야 하는 클래스가 많을 때 풍긴다.
+
 |  | 뒤엉킨변경  | 산탄총 수술 |
 |원인|--|
 | 해법(원리) |  |
 | 밸상 과정(현상) |  |
-| 밸상 과정(현상) |  |
+| 해법(실제 행동) |  |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk1MTgzOTA1LC0xMjU2ODE2ODIxLC01Mj
+eyJoaXN0b3J5IjpbLTgxNTI0OTczLC0xMjU2ODE2ODIxLC01Mj
 Q3NjM3ODgsLTY1MDg2NDgxMSwxNjM4OTkzNTQwLC0zNjU5OTk2
 MDksLTEzMDAyMTkzODIsODQ4NDAyNzI0LDI5OTY5MTg4MCw3Mj
 A1NzQ0MzQsODY3NzkxNDYxLDk0NTgxNTAzOCwxODY1MjY2OTMy
