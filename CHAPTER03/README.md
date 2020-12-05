@@ -76,11 +76,12 @@
 
 ### :cyclone: 긴 매개변수 처리
 
-    다른 매개변수에서 값을 얻어올 수 있는 매개변수 -> 매개변수를 질의 함수로 바꾸기
+    ⚠️ 다른 매개변수에서 값을 얻어올 수 있는 매개변수 
+    매개변수를 질의 함수로 바꾸기
     사용 중인 데이터 구조에서 값들을 뽑아 각각을 별개의 매개변수로 전달하는 코드 -> 객체 통쨰로 넘기기 적용해서 원본 데이터 구조를 그대로 전달
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM2NDEwNTMsLTIwNzcyMzQwMjksLTEwOT
-AxNjkxODksLTQ2NzM5NzUwOCw1NzQyNTg3MzQsLTE1NzAzODY3
-MDFdfQ==
+eyJoaXN0b3J5IjpbLTIwNzU4NjM4NDMsLTIwNzcyMzQwMjksLT
+EwOTAxNjkxODksLTQ2NzM5NzUwOCw1NzQyNTg3MzQsLTE1NzAz
+ODY3MDFdfQ==
 -->
