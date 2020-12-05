@@ -59,7 +59,9 @@
     💡 조건문 반복문 
       - 조건문 분해하기로 대응
       - 거대한 switch문을 구성하는 case문마다 함수 추출하기를 적용, 각 case의 본문을 함수 호출문 하나로 바꾼다.
+      - 같은 조건을 기준으로 나뉘는 switch문이 여러 개
+		-> 조건문을 다형성으로 바꾸기 적용
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjMyOTM3OCwtNDY3Mzk3NTA4LDU3ND
-I1ODczNCwtMTU3MDM4NjcwMV19
+eyJoaXN0b3J5IjpbODkzNzE3OTM5LC00NjczOTc1MDgsNTc0Mj
+U4NzM0LC0xNTcwMzg2NzAxXX0=
 -->
