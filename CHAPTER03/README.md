@@ -195,12 +195,12 @@
 
 |  | 뒤엉킨변경  | 산탄총 수술 |
 |----------|:-------------:|:------:|
-원인|  맥락을 잘 구분하지 못함  || 
+|원인|  맥락을 잘 구분하지 못함  || 
 | 해법(원리) | 맥락을 명확히 구분 ||
 | 밸상 과정(현상) | 한 코드에 섞여 들어감 | 여러 코드에 흩뿌려짐 |
 | 해법(실제 행동) | 맥락별로 분리 | 맥락별로 모음 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNDA1NTcyLDE0NDE1MzEyNTAsLTk5OT
+eyJoaXN0b3J5IjpbMzQ4MTgwNTk2LDE0NDE1MzEyNTAsLTk5OT
 AwOTQ4OSwtMjMxNjUyMzYxLC0xMjU2ODE2ODIxLC01MjQ3NjM3
 ODgsLTY1MDg2NDgxMSwxNjM4OTkzNTQwLC0zNjU5OTk2MDksLT
 EzMDAyMTkzODIsODQ4NDAyNzI0LDI5OTY5MTg4MCw3MjA1NzQ0
