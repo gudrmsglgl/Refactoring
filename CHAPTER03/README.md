@@ -4,6 +4,9 @@
 [긴 함수](#id-section3)<br>
 [긴 매개변수 목록](#id-section4)<br>
 [전역 데이터](#id-section5)<br>
+[가변 데이터](#id-section6)<br>
+[뒤엉킨 변경](#id-section7)<br>
+
 
 <div id='id-section1'/>
 
@@ -164,7 +167,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NDI2ODM4OSwtNjUwODY0ODExLDE2Mz
+eyJoaXN0b3J5IjpbLTUyNDc2Mzc4OCwtNjUwODY0ODExLDE2Mz
 g5OTM1NDAsLTM2NTk5OTYwOSwtMTMwMDIxOTM4Miw4NDg0MDI3
 MjQsMjk5NjkxODgwLDcyMDU3NDQzNCw4Njc3OTE0NjEsOTQ1OD
 E1MDM4LDE4NjUyNjY5MzIsMjA3Mzc0MzU5NSwtMjA3NzIzNDAy
