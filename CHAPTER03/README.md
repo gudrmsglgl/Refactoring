@@ -180,13 +180,15 @@
     
     * 함수 옮기기
       - 전체 처리 과정 곳곳에서 각기 다른 맥락의 함수를 호출하는 빈도가 높다면
-      - 각 맥락에 해당하는 적당한 모듈을 만들어서 관련 함수를 모은다. 
+      - 각 맥락에 해당하는 적당한 모듈을 만들어서 관련 함수를 모은다.
+      - 그러면 처리 과정이 맥락별로 구분된다.
+      - 이 때 여러 맥락의 일에 관여하는 숨가 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDk0MDY3NzQsLTUyNDc2Mzc4OCwtNj
-UwODY0ODExLDE2Mzg5OTM1NDAsLTM2NTk5OTYwOSwtMTMwMDIx
-OTM4Miw4NDg0MDI3MjQsMjk5NjkxODgwLDcyMDU3NDQzNCw4Nj
-c3OTE0NjEsOTQ1ODE1MDM4LDE4NjUyNjY5MzIsMjA3Mzc0MzU5
-NSwtMjA3NzIzNDAyOSwtMTA5MDE2OTE4OSwtNDY3Mzk3NTA4LD
-U3NDI1ODczNCwtMTU3MDM4NjcwMV19
+eyJoaXN0b3J5IjpbMTEyNTExMTY3OSwtNTI0NzYzNzg4LC02NT
+A4NjQ4MTEsMTYzODk5MzU0MCwtMzY1OTk5NjA5LC0xMzAwMjE5
+MzgyLDg0ODQwMjcyNCwyOTk2OTE4ODAsNzIwNTc0NDM0LDg2Nz
+c5MTQ2MSw5NDU4MTUwMzgsMTg2NTI2NjkzMiwyMDczNzQzNTk1
+LC0yMDc3MjM0MDI5LC0xMDkwMTY5MTg5LC00NjczOTc1MDgsNT
+c0MjU4NzM0LC0xNTcwMzg2NzAxXX0=
 -->
