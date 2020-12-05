@@ -165,10 +165,12 @@
 
 ## 3.7 뒤엉킨 변경 Divergent Change
 > 코드를 수정할 때는 시스템에서 고쳐야 할 딱 한 군데를 찾아서 그 부분만 수정할 수 있기를 바란다. <br>
-> 이렇게 할 수 없다면 (
+> 이렇게 할 수 없다면 (서로 밀접한 악취인) **뒤엉킨 변경과 산탄총 수술중 하나가** 풍긴다.
+
+#### 💊&nbsp; 뒤엉킨 변경
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NTcwMTQxOCwtNTI0NzYzNzg4LC02NT
+eyJoaXN0b3J5IjpbMTMxMTczODA1NywtNTI0NzYzNzg4LC02NT
 A4NjQ4MTEsMTYzODk5MzU0MCwtMzY1OTk5NjA5LC0xMzAwMjE5
 MzgyLDg0ODQwMjcyNCwyOTk2OTE4ODAsNzIwNTc0NDM0LDg2Nz
 c5MTQ2MSw5NDU4MTUwMzgsMTg2NTI2NjkzMiwyMDczNzQzNTk1
