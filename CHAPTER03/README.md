@@ -49,9 +49,8 @@
 ##### ⚠️&nbsp;&nbsp;~~매개변수와 임시 변수를 많이 사용~~한다면 **추출 작업에 방해**가 된다. 
     🙆‍♀️ 임시 변수를 ➰ 질의 함수로
     🙆‍♀️ 매개변수의 수 ➰ 매개변수 객체 만들기, 객체 통쟤로 넘기기로 줄임.
-    🙆‍♀️ 
- 
+    🙆‍♀️ 이렇게 적용해도 여전히 임시 변수와 매개변수가 너무 많다면 ➰ 함수를 명령으로 바꾸기
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMDc3OTc1OSwtNDY3Mzk3NTA4LDU3ND
-I1ODczNCwtMTU3MDM4NjcwMV19
+eyJoaXN0b3J5IjpbLTE5ODMwNzc1OTYsLTQ2NzM5NzUwOCw1Nz
+QyNTg3MzQsLTE1NzAzODY3MDFdfQ==
 -->
