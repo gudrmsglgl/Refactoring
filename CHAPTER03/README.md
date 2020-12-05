@@ -112,10 +112,10 @@
     🙆‍♀️ 변수 캡슐화
     * 다른 코드에서 오염시킬 가능성이 있는 데이터를 발견할 때마다 이 기법을 적용
     * 이런 데이터를 함수로 감싸는 것만으로도 데이터를 수정하는 부분을 쉽게 찾을 수 있고 접근을 통제할 수 있게 된다.
-    * 
+    * 접근자 함수들을 클래스나 모듈에 접어넣고 그 안에서만 사용할 수 있도록 접근 범위를 최소로 줄이는 것도 좋다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk5NjkxODgwLDcyMDU3NDQzNCw4Njc3OT
-E0NjEsOTQ1ODE1MDM4LDE4NjUyNjY5MzIsMjA3Mzc0MzU5NSwt
-MjA3NzIzNDAyOSwtMTA5MDE2OTE4OSwtNDY3Mzk3NTA4LDU3ND
-I1ODczNCwtMTU3MDM4NjcwMV19
+eyJoaXN0b3J5IjpbODQ4NDAyNzI0LDI5OTY5MTg4MCw3MjA1Nz
+Q0MzQsODY3NzkxNDYxLDk0NTgxNTAzOCwxODY1MjY2OTMyLDIw
+NzM3NDM1OTUsLTIwNzcyMzQwMjksLTEwOTAxNjkxODksLTQ2Nz
+M5NzUwOCw1NzQyNTg3MzQsLTE1NzAzODY3MDFdfQ==
 -->
