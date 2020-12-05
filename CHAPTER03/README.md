@@ -121,10 +121,16 @@
     * 다루기 까다롭다.
     * 프로그램이 구동된 후에는 값이 바뀌지 않는다고 보장할 수 있는 전역 데이터는 그나마 안전한 편이다.
 
+<br>
+<div id='id-section6'/>
+
+## 3.6 가변 데이터 Mutable Data
+코드의 다른 곳에서는 다른 값을 기대한다는 사실을 인식하지 못한 채 수정해버리면 
+프로그램이 오작동한다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAxOTA2ODc2LC0xMzAwMjE5MzgyLDg0OD
-QwMjcyNCwyOTk2OTE4ODAsNzIwNTc0NDM0LDg2Nzc5MTQ2MSw5
-NDU4MTUwMzgsMTg2NTI2NjkzMiwyMDczNzQzNTk1LC0yMDc3Mj
-M0MDI5LC0xMDkwMTY5MTg5LC00NjczOTc1MDgsNTc0MjU4NzM0
-LC0xNTcwMzg2NzAxXX0=
+eyJoaXN0b3J5IjpbMjAzODc2NDMxNiwtMTMwMDIxOTM4Miw4ND
+g0MDI3MjQsMjk5NjkxODgwLDcyMDU3NDQzNCw4Njc3OTE0NjEs
+OTQ1ODE1MDM4LDE4NjUyNjY5MzIsMjA3Mzc0MzU5NSwtMjA3Nz
+IzNDAyOSwtMTA5MDE2OTE4OSwtNDY3Mzk3NTA4LDU3NDI1ODcz
+NCwtMTU3MDM4NjcwMV19
 -->
