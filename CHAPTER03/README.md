@@ -135,12 +135,14 @@
 #### 💊 무분별한 데이터 수정에 따른 위험을 줄이는 방법
 
     💡 변수 캡슐화하기
-      - 정해놓은 함수를 거쳐야만 값을 수정할 수 있도록 하면 값이 어떻게 수정되는지 감시하거나 코드를 개선하기 쉽다.
+      - 정해놓은 함수를 거쳐야만 값을 수정할 수 있도록 하면 값이 어떻게 수정되는지 
+        감시하거나 코드를 개선하기 쉽다.
 	
 	💡 변수 쪼개기
-	
+	  - 하나의 변수에 용도가 다른 값들을 저장하느라 값을 갱신하는 경우
+	  - 독립 변수에 저장하게 하여 값 갱신이 문제를 일으킬 여지를 없앤다.	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2OTY4OTUyMCwtMzY1OTk5NjA5LC0xMz
+eyJoaXN0b3J5IjpbMTYzODk5MzU0MCwtMzY1OTk5NjA5LC0xMz
 AwMjE5MzgyLDg0ODQwMjcyNCwyOTk2OTE4ODAsNzIwNTc0NDM0
 LDg2Nzc5MTQ2MSw5NDU4MTUwMzgsMTg2NTI2NjkzMiwyMDczNz
 QzNTk1LC0yMDc3MjM0MDI5LC0xMDkwMTY5MTg5LC00NjczOTc1
