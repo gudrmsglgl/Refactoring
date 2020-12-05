@@ -172,14 +172,16 @@
     * 단일 책임 원칙(Single Responsiblity Principle)이 제대로 지켜지지 않을 때 나타남.
     * 즉 하나의 모듈이 서로 다른 이유들로 인해 여러 가지 방식으로 변경되는 일이 많을 때 발생한다.
 
+#### 🙆‍♀️&nbsp;&nbsp;단일 원칙 지키기 예
 
-    
+    * 단계 쪼개기
+     - 데이터베이스에
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDcwMjgzNzAsLTUyNDc2Mzc4OCwtNj
-UwODY0ODExLDE2Mzg5OTM1NDAsLTM2NTk5OTYwOSwtMTMwMDIx
-OTM4Miw4NDg0MDI3MjQsMjk5NjkxODgwLDcyMDU3NDQzNCw4Nj
-c3OTE0NjEsOTQ1ODE1MDM4LDE4NjUyNjY5MzIsMjA3Mzc0MzU5
-NSwtMjA3NzIzNDAyOSwtMTA5MDE2OTE4OSwtNDY3Mzk3NTA4LD
-U3NDI1ODczNCwtMTU3MDM4NjcwMV19
+eyJoaXN0b3J5IjpbMTg2Mzc3MTYzMywtNTI0NzYzNzg4LC02NT
+A4NjQ4MTEsMTYzODk5MzU0MCwtMzY1OTk5NjA5LC0xMzAwMjE5
+MzgyLDg0ODQwMjcyNCwyOTk2OTE4ODAsNzIwNTc0NDM0LDg2Nz
+c5MTQ2MSw5NDU4MTUwMzgsMTg2NTI2NjkzMiwyMDczNzQzNTk1
+LC0yMDc3MjM0MDI5LC0xMDkwMTY5MTg5LC00NjczOTc1MDgsNT
+c0MjU4NzM0LC0xNTcwMzg2NzAxXX0=
 -->
