@@ -92,11 +92,11 @@
     ↪️ 매개변수 객체 만들기로 하나로 묶기
     
     ⚠️ 여러 개의 함수가 특정 매개변수들의 값을 공통으로 사용할 때 
-    ↪️ 매개변수 객체 만들기로 하나로 묶기
+    ↪️ 여러 함수를 클래스로 묶기
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyOTczNjA0NSwyMDczNzQzNTk1LC0yMD
+eyJoaXN0b3J5IjpbMTg2NTI2NjkzMiwyMDczNzQzNTk1LC0yMD
 c3MjM0MDI5LC0xMDkwMTY5MTg5LC00NjczOTc1MDgsNTc0MjU4
 NzM0LC0xNTcwMzg2NzAxXX0=
 -->
