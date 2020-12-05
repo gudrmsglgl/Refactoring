@@ -38,8 +38,12 @@
     * 함수를 쪼개야 한다.
     * 주석을 달아야 할 만한 부분은 무조건 함수로 만든다.
     * 그 함수 본문에는 원래 주석으로 설명하려던 코드가 담기고
-    * 함수 이름은 동작 방식이 아닌 '의도(intension)' 드러낙
+    * 함수 이름은 동작 방식이 아닌 '의도(intension)' 드러나게 짓는다.
+    * 원래 코드보다 길어지더라도 함수로 뽑는다.
+    * 단, 함수 이름에 코드의 목적을 드러내야 한다. 
+    * 핵심은 함수의 길이가 아닌, 함수의 목적(의도)과 구현 코드의 괴리가 얼마나 큰가.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNzY2OTkwNCwtMTU3MDM4NjcwMV19
+eyJoaXN0b3J5IjpbLTEwMDM2Nzc4NzMsLTE1NzAzODY3MDFdfQ
+==
 -->
