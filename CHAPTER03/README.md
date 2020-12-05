@@ -221,14 +221,16 @@
 
     * 이럴 때는 함께 변경되는 대상들을 함수 옮기기와 필드 옮기기로 모두 한 모듈에 묶어두면 좋다.
     * 비슷한 데이터를 다루는 함수가 많다면 -> 여러 함수를 클래스로 묶기 적용
+    * 데이터 구조를 변환하거나 보강하는 함수들에는 -> 여러 함수를 변환 함수로 묶기
+    * 이렇게 묶은 함수들의 출력 결과를 묶어서 다음 단계의 로직으로 전달할 수 있다면 -> 단계 쪼개기 적용
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NDM3MzcxNSw2ODcxMzkwNDMsLTI3MT
-MxMDk2OSwtMTc3MzE1MDgyMCwtMTM5MjExMTQ2NSwxNDQxNTMx
-MjUwLC05OTkwMDk0ODksLTIzMTY1MjM2MSwtMTI1NjgxNjgyMS
-wtNTI0NzYzNzg4LC02NTA4NjQ4MTEsMTYzODk5MzU0MCwtMzY1
-OTk5NjA5LC0xMzAwMjE5MzgyLDg0ODQwMjcyNCwyOTk2OTE4OD
-AsNzIwNTc0NDM0LDg2Nzc5MTQ2MSw5NDU4MTUwMzgsMTg2NTI2
-NjkzMl19
+eyJoaXN0b3J5IjpbNTU3ODQ3NjI1LDY4NzEzOTA0MywtMjcxMz
+EwOTY5LC0xNzczMTUwODIwLC0xMzkyMTExNDY1LDE0NDE1MzEy
+NTAsLTk5OTAwOTQ4OSwtMjMxNjUyMzYxLC0xMjU2ODE2ODIxLC
+01MjQ3NjM3ODgsLTY1MDg2NDgxMSwxNjM4OTkzNTQwLC0zNjU5
+OTk2MDksLTEzMDAyMTkzODIsODQ4NDAyNzI0LDI5OTY5MTg4MC
+w3MjA1NzQ0MzQsODY3NzkxNDYxLDk0NTgxNTAzOCwxODY1MjY2
+OTMyXX0=
 -->
