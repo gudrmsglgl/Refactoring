@@ -132,10 +132,15 @@
 	  데이터를 변경하려면 반드시 (원래 데이터는 그대로 둔 채) 변경하려는 값에 
 	  해당하는 복사본을 만들어서 반환한다는 개념을 기본으로 삼고 있다.
 
+#### 💊 무분별한 데이터 수정에 따른 위험을 줄이는 방법
+
+    변수 캡슐화하기
+    정해놓은 함수를 거쳐야만 값을 수정할 수 있도록 하면 값이 어떻게 수정되는지 감시하거나 코드를 개선하기 쉽다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NTk5OTYwOSwtMTMwMDIxOTM4Miw4ND
-g0MDI3MjQsMjk5NjkxODgwLDcyMDU3NDQzNCw4Njc3OTE0NjEs
-OTQ1ODE1MDM4LDE4NjUyNjY5MzIsMjA3Mzc0MzU5NSwtMjA3Nz
-IzNDAyOSwtMTA5MDE2OTE4OSwtNDY3Mzk3NTA4LDU3NDI1ODcz
-NCwtMTU3MDM4NjcwMV19
+eyJoaXN0b3J5IjpbLTMyMTk4MjgzMywtMzY1OTk5NjA5LC0xMz
+AwMjE5MzgyLDg0ODQwMjcyNCwyOTk2OTE4ODAsNzIwNTc0NDM0
+LDg2Nzc5MTQ2MSw5NDU4MTUwMzgsMTg2NTI2NjkzMiwyMDczNz
+QzNTk1LC0yMDc3MjM0MDI5LC0xMDkwMTY5MTg5LC00NjczOTc1
+MDgsNTc0MjU4NzM0LC0xNTcwMzg2NzAxXX0=
 -->
