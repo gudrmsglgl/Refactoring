@@ -3,6 +3,8 @@
 [중복 코드](#id-section2)<br>
 [긴 함수](#id-section3)<br>
 [긴 매개변수 목록](#id-section4)<br>
+[전역 데이터](#id-section5)<br>
+
 <div id='id-section1'/>
 
 ## 3.1 기이한 이름 Mysterious Name
@@ -94,8 +96,15 @@
     ⚠️ 여러 개의 함수가 특정 매개변수들의 값을 공통으로 사용할 때 
     ↪️ 여러 함수를 클래스로 묶기를 이용하여 공통 값들을 클래스의 필드로 정의
 
+<br>
+<div id='id-section5'/>
+
+## 3.5 전역 데이터 Global Data
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ1ODE1MDM4LDE4NjUyNjY5MzIsMjA3Mz
-c0MzU5NSwtMjA3NzIzNDAyOSwtMTA5MDE2OTE4OSwtNDY3Mzk3
-NTA4LDU3NDI1ODczNCwtMTU3MDM4NjcwMV19
+eyJoaXN0b3J5IjpbODY3NzkxNDYxLDk0NTgxNTAzOCwxODY1Mj
+Y2OTMyLDIwNzM3NDM1OTUsLTIwNzcyMzQwMjksLTEwOTAxNjkx
+ODksLTQ2NzM5NzUwOCw1NzQyNTg3MzQsLTE1NzAzODY3MDFdfQ
+==
 -->
