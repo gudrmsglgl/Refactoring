@@ -33,8 +33,8 @@
 > 코드를 이해하고, 공유하고, 선택하기 쉬워진다는 장점은 함수를 짧게 구성할 때 나오는 것.
 
 ### :black_nib: 짧은 함수 
-##### :pencil2:&nbsp;좋은 이름
+##### :pencil2:&nbsp;&nbsp;좋은 이름
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMDk2MTAxOCwtMTU3MDM4NjcwMV19
+eyJoaXN0b3J5IjpbMjAwODc1OTMyNiwtMTU3MDM4NjcwMV19
 -->
