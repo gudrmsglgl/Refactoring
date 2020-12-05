@@ -81,9 +81,15 @@
     
     ⚠️ 사용 중인 데이터 구조에서 값들을 뽑아 각각을 별개의 매개변수로 전달하는 코드
     ↪️ 객체 통쨰로 넘기기 적용해서 원본 데이터 구조를 그대로 전달
+    
+    ⚠️ 항상 함께 전달되는 매개변수
+    ↪️ 매개변수 객체 만들기로 하나로 묶기
+
+    ⚠️ 함수 동작 방식을 정하는 플래그 역할의 매개변수
+    ↪️ 플래그 인수 제거하기로 없애기
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODQ2NzU5OTcsLTIwNzcyMzQwMjksLT
-EwOTAxNjkxODksLTQ2NzM5NzUwOCw1NzQyNTg3MzQsLTE1NzAz
-ODY3MDFdfQ==
+eyJoaXN0b3J5IjpbLTUyOTM3NjY1NiwtMjA3NzIzNDAyOSwtMT
+A5MDE2OTE4OSwtNDY3Mzk3NTA4LDU3NDI1ODczNCwtMTU3MDM4
+NjcwMV19
 -->
