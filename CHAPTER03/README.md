@@ -100,11 +100,12 @@
 <div id='id-section5'/>
 
 ## 3.5 전역 데이터 Global Data
-
+> 전역 데이터를 주의해야 한다는 말은 개발 초창기부터 들었던 말.
+> "우리가 겪을 수 있는 악취 중 가장 지독한 축에 속함"
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY3NzkxNDYxLDk0NTgxNTAzOCwxODY1Mj
-Y2OTMyLDIwNzM3NDM1OTUsLTIwNzcyMzQwMjksLTEwOTAxNjkx
-ODksLTQ2NzM5NzUwOCw1NzQyNTg3MzQsLTE1NzAzODY3MDFdfQ
-==
+eyJoaXN0b3J5IjpbLTE2MDI2MDc4MTcsODY3NzkxNDYxLDk0NT
+gxNTAzOCwxODY1MjY2OTMyLDIwNzM3NDM1OTUsLTIwNzcyMzQw
+MjksLTEwOTAxNjkxODksLTQ2NzM5NzUwOCw1NzQyNTg3MzQsLT
+E1NzAzODY3MDFdfQ==
 -->
