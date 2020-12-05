@@ -62,8 +62,9 @@
       - 같은 조건을 기준으로 나뉘는 switch문이 여러 개
 		-> 조건문을 다형성으로 바꾸기 적용
 	  - 반복문도 그 안의 코드와 함께 추출해서 독립된 함수로 만든다.
-	  - 추출한 반복문 코드에 적합한 이름이 떠오르지 않는다면 
+	  - 추출한 반복문 코드에 적합한 이름이 떠오르지 않는다면 다른 두 가지 작업이 섞여 있기 때문 
+	    -> 과감히 반복문 쪼개기를 적용해서 작업을 분리
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYxMjIyOTIzLC00NjczOTc1MDgsNTc0Mj
-U4NzM0LC0xNTcwMzg2NzAxXX0=
+eyJoaXN0b3J5IjpbMTcyNDA5NDA1OSwtNDY3Mzk3NTA4LDU3ND
+I1ODczNCwtMTU3MDM4NjcwMV19
 -->
