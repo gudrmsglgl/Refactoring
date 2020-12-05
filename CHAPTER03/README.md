@@ -33,7 +33,7 @@
 > 코드를 이해하고, 공유하고, 선택하기 쉬워진다는 장점은 함수를 짧게 구성할 때 나오는 것.
 
 ### :black_nib: 짧은 함수 
-##### :pencil2:&nbsp;&nbsp;좋은 이름
+##### :pushpin:&nbsp;&nbsp;좋은 이름
 
     * 함수를 쪼개야 한다.
     * 주석을 달아야 할 만한 부분은 무조건 함수로 만든다.
@@ -43,7 +43,10 @@
     * 단, 함수 이름에 코드의 목적을 드러내야 한다. 
     * 핵심은 함수의 길이가 아닌, 함수의 목적(의도)과 구현 코드의 괴리가 얼마나 큰가.
     * 즉, '무엇을 하는지'를 코드가 잘 설명해주지 못할수록 함수로 만드는게 유리.
+##### :pushpin:&nbsp;&nbsp;함수 추출하기
+	ㄴㅁㅇㄹ
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc0MjU4NzM0LC0xNTcwMzg2NzAxXX0=
+eyJoaXN0b3J5IjpbLTYxMjI4NzI3OSw1NzQyNTg3MzQsLTE1Nz
+AzODY3MDFdfQ==
 -->
