@@ -146,13 +146,16 @@
       - 무언가를 갱신하는 코드로부터 부작용이 없는 코드를 분리
     
     💡 질의 함수와 변경 함수 분리하기
-      - API 를 만들 때 
+      - API 를 만들 때
+      
+    💡 세터 제거하기 
+      - 세터를 호출하는 클라이언트를 찾는 것만으로도 변수의 유효범위를 줄이는 데 도움
+ 
        
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NjIzMTE2MywxNjM4OTkzNTQwLC0zNj
-U5OTk2MDksLTEzMDAyMTkzODIsODQ4NDAyNzI0LDI5OTY5MTg4
-MCw3MjA1NzQ0MzQsODY3NzkxNDYxLDk0NTgxNTAzOCwxODY1Mj
-Y2OTMyLDIwNzM3NDM1OTUsLTIwNzcyMzQwMjksLTEwOTAxNjkx
-ODksLTQ2NzM5NzUwOCw1NzQyNTg3MzQsLTE1NzAzODY3MDFdfQ
-==
+eyJoaXN0b3J5IjpbOTExMjA0MzYzLDE2Mzg5OTM1NDAsLTM2NT
+k5OTYwOSwtMTMwMDIxOTM4Miw4NDg0MDI3MjQsMjk5NjkxODgw
+LDcyMDU3NDQzNCw4Njc3OTE0NjEsOTQ1ODE1MDM4LDE4NjUyNj
+Y5MzIsMjA3Mzc0MzU5NSwtMjA3NzIzNDAyOSwtMTA5MDE2OTE4
+OSwtNDY3Mzk3NTA4LDU3NDI1ODczNCwtMTU3MDM4NjcwMV19
 -->
