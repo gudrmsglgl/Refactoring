@@ -74,9 +74,10 @@
 > -> 전역 데이터가 늘어나는 사태를 막을 수 있기 때문에 예전에는 합리적인 방식.
 > 하지만 **매개변수 목록이 길어지면 그 자체로 이해하기 어려울 때가 많았다.** 
 
-
+긴 매개변수 처리
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzcyMzQwMjksLTEwOTAxNjkxODksLT
-Q2NzM5NzUwOCw1NzQyNTg3MzQsLTE1NzAzODY3MDFdfQ==
+eyJoaXN0b3J5IjpbOTEwOTYzNTg5LC0yMDc3MjM0MDI5LC0xMD
+kwMTY5MTg5LC00NjczOTc1MDgsNTc0MjU4NzM0LC0xNTcwMzg2
+NzAxXX0=
 -->
