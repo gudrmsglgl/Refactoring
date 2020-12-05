@@ -113,9 +113,17 @@
     * 다른 코드에서 오염시킬 가능성이 있는 데이터를 발견할 때마다 이 기법을 적용
     * 이런 데이터를 함수로 감싸는 것만으로도 데이터를 수정하는 부분을 쉽게 찾을 수 있고 접근을 통제할 수 있게 된다.
     * 접근자 함수들을 클래스나 모듈에 접어넣고 그 안에서만 사용할 수 있도록 접근 범위를 최소로 줄이는 것도 좋다.
+
+#### ⚠️ 전역 데이터가 가변 mutable
+
+    * 다루기 까다롭다.
+    * 프로그램이 구동된 후에는 값이 바뀌지 않는다고 보장할 수 있는 전역 데이터는 그나마 안전한 편이다.
+    * 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ4NDAyNzI0LDI5OTY5MTg4MCw3MjA1Nz
-Q0MzQsODY3NzkxNDYxLDk0NTgxNTAzOCwxODY1MjY2OTMyLDIw
-NzM3NDM1OTUsLTIwNzcyMzQwMjksLTEwOTAxNjkxODksLTQ2Nz
-M5NzUwOCw1NzQyNTg3MzQsLTE1NzAzODY3MDFdfQ==
+eyJoaXN0b3J5IjpbMTM3OTg1MjIsODQ4NDAyNzI0LDI5OTY5MT
+g4MCw3MjA1NzQ0MzQsODY3NzkxNDYxLDk0NTgxNTAzOCwxODY1
+MjY2OTMyLDIwNzM3NDM1OTUsLTIwNzcyMzQwMjksLTEwOTAxNj
+kxODksLTQ2NzM5NzUwOCw1NzQyNTg3MzQsLTE1NzAzODY3MDFd
+fQ==
 -->
