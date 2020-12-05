@@ -156,14 +156,14 @@
     
     💡 참조를 값으로 바꾸기
 	  - 구조체처럼 내부 필드에 데이터를 담고 있는 변수일 때
-	  - 내부 필드를 직접 수정하지 말고 구조체를 통째로 교체하는 편이 낫다.      
+	  - 내부 필드를 직접 수정하지 말고 구조체를 통째로 교체하는 편이 낫다. 
  
        
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODA4NDAwNjUsMTYzODk5MzU0MCwtMz
-Y1OTk5NjA5LC0xMzAwMjE5MzgyLDg0ODQwMjcyNCwyOTk2OTE4
-ODAsNzIwNTc0NDM0LDg2Nzc5MTQ2MSw5NDU4MTUwMzgsMTg2NT
-I2NjkzMiwyMDczNzQzNTk1LC0yMDc3MjM0MDI5LC0xMDkwMTY5
-MTg5LC00NjczOTc1MDgsNTc0MjU4NzM0LC0xNTcwMzg2NzAxXX
-0=
+eyJoaXN0b3J5IjpbLTY1MDg2NDgxMSwxNjM4OTkzNTQwLC0zNj
+U5OTk2MDksLTEzMDAyMTkzODIsODQ4NDAyNzI0LDI5OTY5MTg4
+MCw3MjA1NzQ0MzQsODY3NzkxNDYxLDk0NTgxNTAzOCwxODY1Mj
+Y2OTMyLDIwNzM3NDM1OTUsLTIwNzcyMzQwMjksLTEwOTAxNjkx
+ODksLTQ2NzM5NzUwOCw1NzQyNTg3MzQsLTE1NzAzODY3MDFdfQ
+==
 -->
