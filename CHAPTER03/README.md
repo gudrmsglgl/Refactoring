@@ -109,11 +109,12 @@
 
 #### 💊 전역 변수 방지
 
-    변수 캡슐화하기
-
+    🙆‍♀️ 변수 캡슐화
+    * 다른 코드에서 오염시킬 가능성이 있는 데이터를 발견할 때마다 이 기법을 적용
+    * 이런 이터를 함수로 감싸는 것만으로도 데이터를 수정하는 부분을 쉽게 찾을 수 있고 접근을 통제할 수 있게 된다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ0OTAxNDE3LDcyMDU3NDQzNCw4Njc3OT
-E0NjEsOTQ1ODE1MDM4LDE4NjUyNjY5MzIsMjA3Mzc0MzU5NSwt
-MjA3NzIzNDAyOSwtMTA5MDE2OTE4OSwtNDY3Mzk3NTA4LDU3ND
-I1ODczNCwtMTU3MDM4NjcwMV19
+eyJoaXN0b3J5IjpbMjAyNDY1NjI3MCw3MjA1NzQ0MzQsODY3Nz
+kxNDYxLDk0NTgxNTAzOCwxODY1MjY2OTMyLDIwNzM3NDM1OTUs
+LTIwNzcyMzQwMjksLTEwOTAxNjkxODksLTQ2NzM5NzUwOCw1Nz
+QyNTg3MzQsLTE1NzAzODY3MDFdfQ==
 -->
