@@ -104,9 +104,9 @@
 > "우리가 겪을 수 있는 악취 중 가장 지독한 축에 속함"
 
 #### :fearful: 전역 데이터는 코드베이스 어디에서든 건드릴 수 있고 값을 누가 바꿨는지 찾아낼 메커니즘이 없다는게 문제.
-
+#### :fearful: 전역 데이터의 대표적인 형태는 전역 변수지만 클래스 변수와 싱ㄱ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MjI4NjQyMSw4Njc3OTE0NjEsOTQ1OD
+eyJoaXN0b3J5IjpbMTQ4ODAyNDk5Niw4Njc3OTE0NjEsOTQ1OD
 E1MDM4LDE4NjUyNjY5MzIsMjA3Mzc0MzU5NSwtMjA3NzIzNDAy
 OSwtMTA5MDE2OTE4OSwtNDY3Mzk3NTA4LDU3NDI1ODczNCwtMT
 U3MDM4NjcwMV19
