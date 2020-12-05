@@ -141,10 +141,14 @@
 	💡 변수 쪼개기
 	  - 하나의 변수에 용도가 다른 값들을 저장하느라 값을 갱신하는 경우
 	  - 독립 변수에 저장하게 하여 값 갱신이 문제를 일으킬 여지를 없앤다.	
+    
+    💡 문장 슬라이드하기 와 함수 추출하기
+      - 
+       
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzODk5MzU0MCwtMzY1OTk5NjA5LC0xMz
-AwMjE5MzgyLDg0ODQwMjcyNCwyOTk2OTE4ODAsNzIwNTc0NDM0
-LDg2Nzc5MTQ2MSw5NDU4MTUwMzgsMTg2NTI2NjkzMiwyMDczNz
-QzNTk1LC0yMDc3MjM0MDI5LC0xMDkwMTY5MTg5LC00NjczOTc1
-MDgsNTc0MjU4NzM0LC0xNTcwMzg2NzAxXX0=
+eyJoaXN0b3J5IjpbODY3ODQ5NDQyLDE2Mzg5OTM1NDAsLTM2NT
+k5OTYwOSwtMTMwMDIxOTM4Miw4NDg0MDI3MjQsMjk5NjkxODgw
+LDcyMDU3NDQzNCw4Njc3OTE0NjEsOTQ1ODE1MDM4LDE4NjUyNj
+Y5MzIsMjA3Mzc0MzU5NSwtMjA3NzIzNDAyOSwtMTA5MDE2OTE4
+OSwtNDY3Mzk3NTA4LDU3NDI1ODczNCwtMTU3MDM4NjcwMV19
 -->
