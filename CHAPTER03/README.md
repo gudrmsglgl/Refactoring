@@ -102,6 +102,7 @@
 ## 3.5 전역 데이터 Global Data
 > 전역 데이터를 주의해야 한다는 말은 개발 초창기부터 들었던 말.
 > "우리가 겪을 수 있는 악취 중 가장 지독한 축에 속함"
+> 
 
 #### ⚠️ 전역 변수의 문제점
 	😨 전역 데이터는 코드베이스 어디에서든 건드릴 수 있고 값을 누가 바꿨는지 찾아낼 메커니즘이 없다는게 문제.
@@ -118,12 +119,11 @@
 
     * 다루기 까다롭다.
     * 프로그램이 구동된 후에는 값이 바뀌지 않는다고 보장할 수 있는 전역 데이터는 그나마 안전한 편이다.
-    * 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3OTg1MjIsODQ4NDAyNzI0LDI5OTY5MT
-g4MCw3MjA1NzQ0MzQsODY3NzkxNDYxLDk0NTgxNTAzOCwxODY1
-MjY2OTMyLDIwNzM3NDM1OTUsLTIwNzcyMzQwMjksLTEwOTAxNj
-kxODksLTQ2NzM5NzUwOCw1NzQyNTg3MzQsLTE1NzAzODY3MDFd
-fQ==
+eyJoaXN0b3J5IjpbLTExNzc0Mzg3MDYsODQ4NDAyNzI0LDI5OT
+Y5MTg4MCw3MjA1NzQ0MzQsODY3NzkxNDYxLDk0NTgxNTAzOCwx
+ODY1MjY2OTMyLDIwNzM3NDM1OTUsLTIwNzcyMzQwMjksLTEwOT
+AxNjkxODksLTQ2NzM5NzUwOCw1NzQyNTg3MzQsLTE1NzAzODY3
+MDFdfQ==
 -->
