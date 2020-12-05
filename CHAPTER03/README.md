@@ -73,7 +73,7 @@
 ## 3.4 긴 매개변수 목록 Long Parameter List
 
 > 함수에 필요한 것들을 모조기 매개변수로 전달 
-> -> 전역 데이터가 늘어나는 사태를 막을 수 있기 때문에 예전에는 합리적인 방식.
+> -> 전역 데이터가 늘어나는 사태를 막을 수 있기 때문에 예전에는 합리적인 방식.<br>
 > 하지만 **매개변수 목록이 길어지면 그 자체로 이해하기 어려울 때가 많았다.** 
 
 ### :cyclone: 긴 매개변수 처리
@@ -122,9 +122,9 @@
     * 프로그램이 구동된 후에는 값이 바뀌지 않는다고 보장할 수 있는 전역 데이터는 그나마 안전한 편이다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDAyMTkzODIsODQ4NDAyNzI0LDI5OT
-Y5MTg4MCw3MjA1NzQ0MzQsODY3NzkxNDYxLDk0NTgxNTAzOCwx
-ODY1MjY2OTMyLDIwNzM3NDM1OTUsLTIwNzcyMzQwMjksLTEwOT
-AxNjkxODksLTQ2NzM5NzUwOCw1NzQyNTg3MzQsLTE1NzAzODY3
-MDFdfQ==
+eyJoaXN0b3J5IjpbNzAxOTA2ODc2LC0xMzAwMjE5MzgyLDg0OD
+QwMjcyNCwyOTk2OTE4ODAsNzIwNTc0NDM0LDg2Nzc5MTQ2MSw5
+NDU4MTUwMzgsMTg2NTI2NjkzMiwyMDczNzQzNTk1LC0yMDc3Mj
+M0MDI5LC0xMDkwMTY5MTg5LC00NjczOTc1MDgsNTc0MjU4NzM0
+LC0xNTcwMzg2NzAxXX0=
 -->
