@@ -50,9 +50,11 @@
     🙆‍♀️ 임시 변수를 ➰ 질의 함수로
     🙆‍♀️ 매개변수의 수 ➰ 매개변수 객체 만들기, 객체 통쟤로 넘기기로 줄임.
     🙆‍♀️ 이렇게 적용해도 여전히 임시 변수와 매개변수가 너무 많다면 ➰ 함수를 명령으로 바꾸기
-##### :mag_right:&nbsp;&nbsp;추출할 코드 덩어리 찾는 방법
+##### :mag_right:&nbsp;&nbsp;&nbsp;추출할 코드 덩어리 찾는 방법
+
+    * 주석을 참고
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MjA4MTk0NiwtNDY3Mzk3NTA4LDU3ND
+eyJoaXN0b3J5IjpbLTc3NDYzNjc3NywtNDY3Mzk3NTA4LDU3ND
 I1ODczNCwtMTU3MDM4NjcwMV19
 -->
