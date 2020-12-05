@@ -155,12 +155,12 @@
       - 변수를 갱신하는 코드들의 유효범위를 (클래스나 변환transform) 제한한다.
     
     💡 참조를 값으로 바꾸기
-	  - 
-      - 내부 필드를 직접 수정하지 말고 구조체를 통째로 교체하는 편이 낫다.      
+	  - 구조체처럼 내부 필드에 데이터를 담고 있는 변수일 때
+	  - 내부 필드를 직접 수정하지 말고 구조체를 통째로 교체하는 편이 낫다.      
  
        
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjI0Nzk5NTUsMTYzODk5MzU0MCwtMz
+eyJoaXN0b3J5IjpbLTE4ODA4NDAwNjUsMTYzODk5MzU0MCwtMz
 Y1OTk5NjA5LC0xMzAwMjE5MzgyLDg0ODQwMjcyNCwyOTk2OTE4
 ODAsNzIwNTc0NDM0LDg2Nzc5MTQ2MSw5NDU4MTUwMzgsMTg2NT
 I2NjkzMiwyMDczNzQzNTk1LC0yMDc3MjM0MDI5LC0xMDkwMTY5
