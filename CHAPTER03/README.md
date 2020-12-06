@@ -231,10 +231,16 @@
 
 ## 3.9 기능 편애 Feature Envy
  
- #### ⚠️&nbsp;&nbsp;프로그램 모듈화
+ #### 🔗&nbsp;&nbsp;프로그램 모듈화
+ 
+
+    코드를 여러 영역으로 나눈 뒤
+    영역 안에서 이뤄지는 상호작용은 최대한 늘리고 
+    영역 사이에서 이뤄지는 상호작용은 최솔
+
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDI4NTk1MTYsLTEyNjgzMjMzNiwxNz
+eyJoaXN0b3J5IjpbLTE2MDQ2NTMzNDksLTEyNjgzMjMzNiwxNz
 gwNzM4OTIsNTU3ODQ3NjI1LDY4NzEzOTA0MywtMjcxMzEwOTY5
 LC0xNzczMTUwODIwLC0xMzkyMTExNDY1LDE0NDE1MzEyNTAsLT
 k5OTAwOTQ4OSwtMjMxNjUyMzYxLC0xMjU2ODE2ODIxLC01MjQ3
