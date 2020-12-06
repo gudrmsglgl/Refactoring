@@ -249,13 +249,13 @@
 	 - [x] 데이터 근처로 옮기기(함수 옮기기)<br>
  
  - 함수의 일부에서만 기능을 편애 <br>
- - [x] 그부분만 독립 함수로 빼낸 다음 (함수 호출하기) 
- - [x] 원하는 모듈로 보내준다 (함수 옮기기)
+	 - [x] 그부분만 독립 함수로 빼낸 다음 (함수 호출하기) 
+	 - [x] 원하는 모듈로 보내준다 (함수 옮기기)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1OTk5Njk4NywtMTkwMzM2MDYzMSwtMT
+eyJoaXN0b3J5IjpbLTQ1MTcxMDI3NywtMTkwMzM2MDYzMSwtMT
 I2ODMyMzM2LDE3ODA3Mzg5Miw1NTc4NDc2MjUsNjg3MTM5MDQz
 LC0yNzEzMTA5NjksLTE3NzMxNTA4MjAsLTEzOTIxMTE0NjUsMT
 Q0MTUzMTI1MCwtOTk5MDA5NDg5LC0yMzE2NTIzNjEsLTEyNTY4
