@@ -269,14 +269,16 @@
 
  - 필드 형태의 데이터 뭉치를 찾아서 **클래스 추출**하기로 하나의 객체로 묶기
  - 다음은 메서드 시그니처에 있는 데이터 뭉치 차례
- - 먼저 **매개변수 객체 만들기**나 **객체 통째로 넘기기**를   적용해서 매개변수 수를 줄여본다.
+ - 먼저 **매개변수 객체 만들기**나 **객체 통째로 넘기기**를   적용해서 매개변수 수를 줄여본다. 
+ --> 메서드 호출이 간결해질 것.
+ - List item
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMDk0MzM3MywtNDUxNzEwMjc3LC0xOT
-AzMzYwNjMxLC0xMjY4MzIzMzYsMTc4MDczODkyLDU1Nzg0NzYy
-NSw2ODcxMzkwNDMsLTI3MTMxMDk2OSwtMTc3MzE1MDgyMCwtMT
-M5MjExMTQ2NSwxNDQxNTMxMjUwLC05OTkwMDk0ODksLTIzMTY1
-MjM2MSwtMTI1NjgxNjgyMSwtNTI0NzYzNzg4LC02NTA4NjQ4MT
-EsMTYzODk5MzU0MCwtMzY1OTk5NjA5LC0xMzAwMjE5MzgyLDg0
-ODQwMjcyNF19
+eyJoaXN0b3J5IjpbNjU3MTk1NzI4LDEzMTA5NDMzNzMsLTQ1MT
+cxMDI3NywtMTkwMzM2MDYzMSwtMTI2ODMyMzM2LDE3ODA3Mzg5
+Miw1NTc4NDc2MjUsNjg3MTM5MDQzLC0yNzEzMTA5NjksLTE3Nz
+MxNTA4MjAsLTEzOTIxMTE0NjUsMTQ0MTUzMTI1MCwtOTk5MDA5
+NDg5LC0yMzE2NTIzNjEsLTEyNTY4MTY4MjEsLTUyNDc2Mzc4OC
+wtNjUwODY0ODExLDE2Mzg5OTM1NDAsLTM2NTk5OTYwOSwtMTMw
+MDIxOTM4Ml19
 -->
