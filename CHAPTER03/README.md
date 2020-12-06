@@ -226,13 +226,19 @@
     * 어설프게 분리된 로직을 -> 함수 인라인하기나 클래스 인라인하기 -> 하나로 합치는 것도 좋은 방법
     * 메서드나 글래스가 비대해지지만, 나중에 추출하기 리팩터링으로 더 좋은 형태로 분리할 수 있다.
 
+<br>
+<div id='id-section9'/>
+
+## 3.9 기능 편애 Feature Envy
+ 
+ #### ⚠️&nbsp;&nbsp;프로그램 모듈화
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MDczODkyLDU1Nzg0NzYyNSw2ODcxMz
-kwNDMsLTI3MTMxMDk2OSwtMTc3MzE1MDgyMCwtMTM5MjExMTQ2
-NSwxNDQxNTMxMjUwLC05OTkwMDk0ODksLTIzMTY1MjM2MSwtMT
-I1NjgxNjgyMSwtNTI0NzYzNzg4LC02NTA4NjQ4MTEsMTYzODk5
-MzU0MCwtMzY1OTk5NjA5LC0xMzAwMjE5MzgyLDg0ODQwMjcyNC
-wyOTk2OTE4ODAsNzIwNTc0NDM0LDg2Nzc5MTQ2MSw5NDU4MTUw
-MzhdfQ==
+eyJoaXN0b3J5IjpbLTEyNjgzMjMzNiwxNzgwNzM4OTIsNTU3OD
+Q3NjI1LDY4NzEzOTA0MywtMjcxMzEwOTY5LC0xNzczMTUwODIw
+LC0xMzkyMTExNDY1LDE0NDE1MzEyNTAsLTk5OTAwOTQ4OSwtMj
+MxNjUyMzYxLC0xMjU2ODE2ODIxLC01MjQ3NjM3ODgsLTY1MDg2
+NDgxMSwxNjM4OTkzNTQwLC0zNjU5OTk2MDksLTEzMDAyMTkzOD
+IsODQ4NDAyNzI0LDI5OTY5MTg4MCw3MjA1NzQ0MzQsODY3Nzkx
+NDYxXX0=
 -->
