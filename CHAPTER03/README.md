@@ -245,14 +245,15 @@
  #### 👀&nbsp;&nbsp;기능 편애
  
 
- - 실행 과정에서 외부 객체의 게터 메서드 대여섯 개를 호출하도록 작성된 함수 -> 데이터 근처로 옮기기(함수 옮기기)
+ - 실행 과정에서 외부 객체의 게터 메서드 대여섯 개를 호출하도록 작성된 함수 -> 🙆‍♀️ 데이터 근처로 옮기기(함수 옮기기)
+ - 함수의 일부에서만 기능을 편애 -> 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTM1NTQ5NDMsLTE5MDMzNjA2MzEsLT
-EyNjgzMjMzNiwxNzgwNzM4OTIsNTU3ODQ3NjI1LDY4NzEzOTA0
-MywtMjcxMzEwOTY5LC0xNzczMTUwODIwLC0xMzkyMTExNDY1LD
-E0NDE1MzEyNTAsLTk5OTAwOTQ4OSwtMjMxNjUyMzYxLC0xMjU2
-ODE2ODIxLC01MjQ3NjM3ODgsLTY1MDg2NDgxMSwxNjM4OTkzNT
-QwLC0zNjU5OTk2MDksLTEzMDAyMTkzODIsODQ4NDAyNzI0LDI5
-OTY5MTg4MF19
+eyJoaXN0b3J5IjpbODYzNDg3MjkzLC0xOTAzMzYwNjMxLC0xMj
+Y4MzIzMzYsMTc4MDczODkyLDU1Nzg0NzYyNSw2ODcxMzkwNDMs
+LTI3MTMxMDk2OSwtMTc3MzE1MDgyMCwtMTM5MjExMTQ2NSwxND
+QxNTMxMjUwLC05OTkwMDk0ODksLTIzMTY1MjM2MSwtMTI1Njgx
+NjgyMSwtNTI0NzYzNzg4LC02NTA4NjQ4MTEsMTYzODk5MzU0MC
+wtMzY1OTk5NjA5LC0xMzAwMjE5MzgyLDg0ODQwMjcyNCwyOTk2
+OTE4ODBdfQ==
 -->
