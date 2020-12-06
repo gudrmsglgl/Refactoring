@@ -271,7 +271,8 @@
  - 다음은 메서드 시그니처에 있는 데이터 뭉치 차례
  - 먼저 **매개변수 객체 만들기**나 **객체 통째로 넘기기**를   적용해서 매개변수 수를 줄여본다. 
  --> 메서드 호출이 간결해질 것.
- - 클래스를 이용하면 
+ - 클래스를 이용하면 좋은 향기를 흩뿌릴 기회가 생긴다.
+ - 클래스를 옮기면 좋을 동작은 없는지 살펴본다.
 
  
  #### ❓&nbsp;&nbsp;데이터 뭉치 판별
@@ -280,7 +281,7 @@
  - 그랬을 때 나머지 데이터만으로는 의미가 없다면 객체로 환생하길 갈망하는 데이터 뭉치.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMjIzNDEzNSwtODgzOTA2MjU5LDEzMT
+eyJoaXN0b3J5IjpbLTk3Nzg4NjUzMywtODgzOTA2MjU5LDEzMT
 A5NDMzNzMsLTQ1MTcxMDI3NywtMTkwMzM2MDYzMSwtMTI2ODMy
 MzM2LDE3ODA3Mzg5Miw1NTc4NDc2MjUsNjg3MTM5MDQzLC0yNz
 EzMTA5NjksLTE3NzMxNTA4MjAsLTEzOTIxMTE0NjUsMTQ0MTUz
