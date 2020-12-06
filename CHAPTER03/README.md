@@ -231,20 +231,24 @@
 
 ## 3.9 기능 편애 Feature Envy
  
+
+> 흔히 어떤 함수가 자기가 속한 모듈의 함수나 데이터보다<br>
+> ekfms ahebfdml gk
+
  #### 🔗&nbsp;&nbsp;프로그램 모듈화
  
 
     코드를 여러 영역으로 나눈 뒤
     영역 안에서 이뤄지는 상호작용은 최대한 늘리고 
-    영역 사이에서 이뤄지는 상호작용은 최솔
+    영역 사이에서 이뤄지는 상호작용은 최소로 줄이는데 주력.
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDQ2NTMzNDksLTEyNjgzMjMzNiwxNz
-gwNzM4OTIsNTU3ODQ3NjI1LDY4NzEzOTA0MywtMjcxMzEwOTY5
-LC0xNzczMTUwODIwLC0xMzkyMTExNDY1LDE0NDE1MzEyNTAsLT
-k5OTAwOTQ4OSwtMjMxNjUyMzYxLC0xMjU2ODE2ODIxLC01MjQ3
-NjM3ODgsLTY1MDg2NDgxMSwxNjM4OTkzNTQwLC0zNjU5OTk2MD
-ksLTEzMDAyMTkzODIsODQ4NDAyNzI0LDI5OTY5MTg4MCw3MjA1
-NzQ0MzRdfQ==
+eyJoaXN0b3J5IjpbMjg2OTM1OTg2LC0xMjY4MzIzMzYsMTc4MD
+czODkyLDU1Nzg0NzYyNSw2ODcxMzkwNDMsLTI3MTMxMDk2OSwt
+MTc3MzE1MDgyMCwtMTM5MjExMTQ2NSwxNDQxNTMxMjUwLC05OT
+kwMDk0ODksLTIzMTY1MjM2MSwtMTI1NjgxNjgyMSwtNTI0NzYz
+Nzg4LC02NTA4NjQ4MTEsMTYzODk5MzU0MCwtMzY1OTk5NjA5LC
+0xMzAwMjE5MzgyLDg0ODQwMjcyNCwyOTk2OTE4ODAsNzIwNTc0
+NDM0XX0=
 -->
