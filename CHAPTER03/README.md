@@ -253,15 +253,16 @@
 	 - [x] 그부분만 독립 함수로 빼낸 다음 (함수 호출하기) 
 	 - [x] 원하는 모듈로 보내준다 (함수 옮기기)
 
- - 함수의 일부에서만 기능을 편애 <br>
-
+ - 어디로 옮길지 명확하게 드러나지 않을 때, 함수가 사용하는 모듈이 다양할 때 <br>
+	 - [x] 가장 많은 데이터를 포함한 모듈로 옮긴다.
+	 - [x] 함수 추출하기로 함수를 여러 조각으로 나눈 후 각각을 적합한 모듈로 옮기면 더 쉽게 해결
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA4MDgxODAwLC00NTE3MTAyNzcsLTE5MD
-MzNjA2MzEsLTEyNjgzMjMzNiwxNzgwNzM4OTIsNTU3ODQ3NjI1
-LDY4NzEzOTA0MywtMjcxMzEwOTY5LC0xNzczMTUwODIwLC0xMz
-kyMTExNDY1LDE0NDE1MzEyNTAsLTk5OTAwOTQ4OSwtMjMxNjUy
-MzYxLC0xMjU2ODE2ODIxLC01MjQ3NjM3ODgsLTY1MDg2NDgxMS
-wxNjM4OTkzNTQwLC0zNjU5OTk2MDksLTEzMDAyMTkzODIsODQ4
-NDAyNzI0XX0=
+eyJoaXN0b3J5IjpbMTg3OTM1MzYwNCwtNDUxNzEwMjc3LC0xOT
+AzMzYwNjMxLC0xMjY4MzIzMzYsMTc4MDczODkyLDU1Nzg0NzYy
+NSw2ODcxMzkwNDMsLTI3MTMxMDk2OSwtMTc3MzE1MDgyMCwtMT
+M5MjExMTQ2NSwxNDQxNTMxMjUwLC05OTkwMDk0ODksLTIzMTY1
+MjM2MSwtMTI1NjgxNjgyMSwtNTI0NzYzNzg4LC02NTA4NjQ4MT
+EsMTYzODk5MzU0MCwtMzY1OTk5NjA5LC0xMzAwMjE5MzgyLDg0
+ODQwMjcyNF19
 -->
