@@ -285,14 +285,14 @@
 ## 3.11 기본형 집착 Primitive Obsession
 
  - **기본형을 객체로 바꾸기**
- - 기본형으로 표현된 코드가 조건부 동작을 제어하는 타입 코드로 쓰였다면 **타입 코드를 서브클래스로 바꾸기**
+ - 기본형으로 표현된 코드가 조건부 동작을 제어하는 타입 코드로 쓰였다면 **타입 코드를 서브클래스로 바꾸기** 와 조건부 로직을 다형으로 바꾸기를 차례로 적용한다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMDc2ODc1MSwtOTc3ODg2NTMzLC04OD
-M5MDYyNTksMTMxMDk0MzM3MywtNDUxNzEwMjc3LC0xOTAzMzYw
-NjMxLC0xMjY4MzIzMzYsMTc4MDczODkyLDU1Nzg0NzYyNSw2OD
-cxMzkwNDMsLTI3MTMxMDk2OSwtMTc3MzE1MDgyMCwtMTM5MjEx
-MTQ2NSwxNDQxNTMxMjUwLC05OTkwMDk0ODksLTIzMTY1MjM2MS
-wtMTI1NjgxNjgyMSwtNTI0NzYzNzg4LC02NTA4NjQ4MTEsMTYz
-ODk5MzU0MF19
+eyJoaXN0b3J5IjpbMzkyNDMyNzI1LC05Nzc4ODY1MzMsLTg4Mz
+kwNjI1OSwxMzEwOTQzMzczLC00NTE3MTAyNzcsLTE5MDMzNjA2
+MzEsLTEyNjgzMjMzNiwxNzgwNzM4OTIsNTU3ODQ3NjI1LDY4Nz
+EzOTA0MywtMjcxMzEwOTY5LC0xNzczMTUwODIwLC0xMzkyMTEx
+NDY1LDE0NDE1MzEyNTAsLTk5OTAwOTQ4OSwtMjMxNjUyMzYxLC
+0xMjU2ODE2ODIxLC01MjQ3NjM3ODgsLTY1MDg2NDgxMSwxNjM4
+OTkzNTQwXX0=
 -->
