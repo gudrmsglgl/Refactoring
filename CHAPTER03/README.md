@@ -284,11 +284,11 @@
 
 ## 3.11 기본형 집착 Primitive Obsession
 
- - 기본형을 객체로 바꾸기
- - 기본형
+ - **기본형을 객체로 바꾸기**
+ - 기본형으로 표현된 코드가 조건부 동작을 제어하는 타입 코드로 쓰였다면 **타입 코드를 서브클래스로 바꾸기**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMTgxOTY1NSwtOTc3ODg2NTMzLC04OD
+eyJoaXN0b3J5IjpbLTQxMDc2ODc1MSwtOTc3ODg2NTMzLC04OD
 M5MDYyNTksMTMxMDk0MzM3MywtNDUxNzEwMjc3LC0xOTAzMzYw
 NjMxLC0xMjY4MzIzMzYsMTc4MDczODkyLDU1Nzg0NzYyNSw2OD
 cxMzkwNDMsLTI3MTMxMDk2OSwtMTc3MzE1MDgyMCwtMTM5MjEx
