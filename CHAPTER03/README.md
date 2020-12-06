@@ -8,6 +8,7 @@
 [뒤엉킨 변경](#id-section7)<br>
 [산탄총 수술](#id-section8)<br>
 [기능 편애](#id-section9)<br>
+[데이터 뭉치](#id-section10)<br>
 
 
 <div id='id-section1'/>
@@ -256,9 +257,14 @@
  - 어디로 옮길지 명확하게 드러나지 않을 때, 함수가 사용하는 모듈이 다양할 때 <br>
 	 - [x] 가장 많은 데이터를 포함한 모듈로 옮긴다.
 	 - [x] 함수 추출하기로 함수를 여러 조각으로 나눈 후 각각을 적합한 모듈로 옮기면 더 쉽게 해결
+ 
+<br>
+<div id='id-section2'/>
+
+## 3.10 데이터 뭉치 Data Clumps
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3OTM1MzYwNCwtNDUxNzEwMjc3LC0xOT
+eyJoaXN0b3J5IjpbMTI1NDkyNTkxMSwtNDUxNzEwMjc3LC0xOT
 AzMzYwNjMxLC0xMjY4MzIzMzYsMTc4MDczODkyLDU1Nzg0NzYy
 NSw2ODcxMzkwNDMsLTI3MTMxMDk2OSwtMTc3MzE1MDgyMCwtMT
 M5MjExMTQ2NSwxNDQxNTMxMjUwLC05OTkwMDk0ODksLTIzMTY1
