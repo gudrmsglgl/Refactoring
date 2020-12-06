@@ -253,10 +253,11 @@
 	 - [x] 그부분만 독립 함수로 빼낸 다음 (함수 호출하기) 
 	 - [x] 원하는 모듈로 보내준다 (함수 옮기기)
 
+ - 함수의 일부에서만 기능을 편애 <br>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAxNjAzNDkyLC00NTE3MTAyNzcsLTE5MD
+eyJoaXN0b3J5IjpbNzA4MDgxODAwLC00NTE3MTAyNzcsLTE5MD
 MzNjA2MzEsLTEyNjgzMjMzNiwxNzgwNzM4OTIsNTU3ODQ3NjI1
 LDY4NzEzOTA0MywtMjcxMzEwOTY5LC0xNzczMTUwODIwLC0xMz
 kyMTExNDY1LDE0NDE1MzEyNTAsLTk5OTAwOTQ4OSwtMjMxNjUy
