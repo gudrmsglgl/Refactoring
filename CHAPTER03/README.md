@@ -272,10 +272,10 @@
  - 먼저 **매개변수 객체 만들기**나 **객체 통째로 넘기기**를   적용해서 매개변수 수를 줄여본다. 
  --> 메서드 호출이 간결해질 것.
  
- #### 💼&nbsp;&nbsp;데이터 보금자리 만들기
+ #### ❓&nbsp;&nbsp;데이터 뭉치 판
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzUwNTU4MzEsMTMxMDk0MzM3MywtND
+eyJoaXN0b3J5IjpbLTE3MjIwMTU2OTAsMTMxMDk0MzM3MywtND
 UxNzEwMjc3LC0xOTAzMzYwNjMxLC0xMjY4MzIzMzYsMTc4MDcz
 ODkyLDU1Nzg0NzYyNSw2ODcxMzkwNDMsLTI3MTMxMDk2OSwtMT
 c3MzE1MDgyMCwtMTM5MjExMTQ2NSwxNDQxNTMxMjUwLC05OTkw
