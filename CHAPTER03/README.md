@@ -259,12 +259,13 @@
 	 - [x] 함수 추출하기로 함수를 여러 조각으로 나눈 후 각각을 적합한 모듈로 옮기면 더 쉽게 해결
  
 <br>
-<div id='id-section2'/>
+<div id='id-section10'/>
 
 ## 3.10 데이터 뭉치 Data Clumps
-
+> 데이터 항목들은 서로 어울려 노는 걸 좋아한다.<br>
+> 이렇게 몰려다니는 데이터 뭉치는 보금자리를 따로 마련해줘야 마땅하다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NDkyNTkxMSwtNDUxNzEwMjc3LC0xOT
+eyJoaXN0b3J5IjpbLTIwNDUyNjcxNiwtNDUxNzEwMjc3LC0xOT
 AzMzYwNjMxLC0xMjY4MzIzMzYsMTc4MDczODkyLDU1Nzg0NzYy
 NSw2ODcxMzkwNDMsLTI3MTMxMDk2OSwtMTc3MzE1MDgyMCwtMT
 M5MjExMTQ2NSwxNDQxNTMxMjUwLC05OTkwMDk0ODksLTIzMTY1
