@@ -247,13 +247,13 @@
 
  - 실행 과정에서 외부 객체의 게터 메서드 대여섯 개를 호출하도록 작성된 함수 <br>
  - [x] 데이터 근처로 옮기기(함수 옮기기)
-
- 
-
- - 함수의 일부에서만 기능을 편애 -> 🙆‍♀️ 그부분만 독립 함수로 빼낸 다음 (함수 호출하기) 원하는 모듈로 보내준다(함수 옮기기)
+ <br>
+ - 함수의 일부에서만 기능을 편애 <br>
+ - [x] 그부분만 독립 함수로 빼낸 다음 (함수 호출하기) 
+ - [x] 원하는 모듈로 보내준다 (함수 옮기기)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDYyODE4NTMsLTE5MDMzNjA2MzEsLT
+eyJoaXN0b3J5IjpbLTEzNDU0NDg0ODUsLTE5MDMzNjA2MzEsLT
 EyNjgzMjMzNiwxNzgwNzM4OTIsNTU3ODQ3NjI1LDY4NzEzOTA0
 MywtMjcxMzEwOTY5LC0xNzczMTUwODIwLC0xMzkyMTExNDY1LD
 E0NDE1MzEyNTAsLTk5OTAwOTQ4OSwtMjMxNjUyMzYxLC0xMjU2
