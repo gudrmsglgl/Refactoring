@@ -419,13 +419,13 @@
 
 #### 💊 거대한 클래스 리팩토링 
 
-- 클래스 추출하기 
+- **클래스 추출하기** 
 
 	   필드를 일부를 따로 묶는다.
 	   같은 컴포넌트에 모아두는 것이 합당해 보이는 필드들을 선택.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NzA0NjIzNywyMDM4NjA2ODIxLC01MT
+eyJoaXN0b3J5IjpbMjA3NTIwODkyNSwyMDM4NjA2ODIxLC01MT
 gwNTE5MTUsLTgzMzAzNjUzNCw5OTIwOTM0MTMsLTcwMTQ3OTE5
 OCw4ODQwNTIxMjksODYyMTc3MDMsLTc0MzQyMDMzMiwxMDU5Mj
 gwMDc1LDE3MDE2NjMwNDYsLTkxNTcwNDA4OSwzMTQ5NTE2MDgs
