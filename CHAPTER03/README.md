@@ -367,12 +367,12 @@
 	-> 위임 숨기기
 	managerName = aPerson.department.managerName // 관리자 객체(manager) 숨김
 	managerName = aPerson.manager.name // 부서 객체(department)의 존재를 숨김
-	managerName = aPerson.department.
+	managerName = aPerson.managerName // 부서 객체와 관리자 객체 모두의 존재를 숨김
 	
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA1NTA1MjAyLDk5MjA5MzQxMywtNzAxND
+eyJoaXN0b3J5IjpbMzIzMTk4Njg4LDk5MjA5MzQxMywtNzAxND
 c5MTk4LDg4NDA1MjEyOSw4NjIxNzcwMywtNzQzNDIwMzMyLDEw
 NTkyODAwNzUsMTcwMTY2MzA0NiwtOTE1NzA0MDg5LDMxNDk1MT
 YwOCwtODk3MjA0NDIsMTE1Mjg5NDMwOCwtOTc3ODg2NTMzLC04
