@@ -12,6 +12,8 @@
 [기본형 집착](#id-section11)<br>
 [반복되는 switch문](#id-section12)<br>
 [반복문](#id-section13)<br>
+[성의 없는 요소](#id-section14)<br>
+[추측성 일반화](#id-section15)<br>
 
 
 <div id='id-section1'/>
@@ -320,12 +322,17 @@
 > **함수 인라인**, **클래스 인라인**으로 처리
 > 상속을 사용했다면 **계층 합치기**를 적용
 
+<br>
+<div id='id-section15'/>
+
+## 3.15 추측성 일반화 Speculative Generality
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1OTI4MDA3NSwxNzAxNjYzMDQ2LC05MT
-U3MDQwODksMzE0OTUxNjA4LC04OTcyMDQ0MiwxMTUyODk0MzA4
-LC05Nzc4ODY1MzMsLTg4MzkwNjI1OSwxMzEwOTQzMzczLC00NT
-E3MTAyNzcsLTE5MDMzNjA2MzEsLTEyNjgzMjMzNiwxNzgwNzM4
-OTIsNTU3ODQ3NjI1LDY4NzEzOTA0MywtMjcxMzEwOTY5LC0xNz
-czMTUwODIwLC0xMzkyMTExNDY1LDE0NDE1MzEyNTAsLTk5OTAw
-OTQ4OV19
+eyJoaXN0b3J5IjpbLTE2MTEwMDY1MiwxMDU5MjgwMDc1LDE3MD
+E2NjMwNDYsLTkxNTcwNDA4OSwzMTQ5NTE2MDgsLTg5NzIwNDQy
+LDExNTI4OTQzMDgsLTk3Nzg4NjUzMywtODgzOTA2MjU5LDEzMT
+A5NDMzNzMsLTQ1MTcxMDI3NywtMTkwMzM2MDYzMSwtMTI2ODMy
+MzM2LDE3ODA3Mzg5Miw1NTc4NDc2MjUsNjg3MTM5MDQzLC0yNz
+EzMTA5NjksLTE3NzMxNTA4MjAsLTEzOTIxMTE0NjUsMTQ0MTUz
+MTI1MF19
 -->
