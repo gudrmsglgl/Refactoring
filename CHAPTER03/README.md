@@ -424,13 +424,15 @@
 	   필드를 일부를 따로 묶는다.
 	   같은 컴포넌트에 모아두는 것이 합당해 보이는 필드들을 선택.
 	   한 클래스 안에서 접두어나 접미어가 같은 필드들이 함께 추출할 후보.
+	   분리한 컴포넌트를 원래 클래스와 상속 관계로 만드는 게 좋다면(클래스 추출하기보다는)
+	   슈퍼클래스 추출하기나 (실질적으로 서브클래스 추출하기에 해당하는) 타입 코드를 서브클래스로 바꾸기로 적용하는 편이 더 쉽다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NTY0NjIwMCwyMDc1MjA4OTI1LDIwMz
-g2MDY4MjEsLTUxODA1MTkxNSwtODMzMDM2NTM0LDk5MjA5MzQx
-MywtNzAxNDc5MTk4LDg4NDA1MjEyOSw4NjIxNzcwMywtNzQzND
-IwMzMyLDEwNTkyODAwNzUsMTcwMTY2MzA0NiwtOTE1NzA0MDg5
-LDMxNDk1MTYwOCwtODk3MjA0NDIsMTE1Mjg5NDMwOCwtOTc3OD
-g2NTMzLC04ODM5MDYyNTksMTMxMDk0MzM3MywtNDUxNzEwMjc3
+eyJoaXN0b3J5IjpbLTUwMDEyOTMwMSwxMjQ1NjQ2MjAwLDIwNz
+UyMDg5MjUsMjAzODYwNjgyMSwtNTE4MDUxOTE1LC04MzMwMzY1
+MzQsOTkyMDkzNDEzLC03MDE0NzkxOTgsODg0MDUyMTI5LDg2Mj
+E3NzAzLC03NDM0MjAzMzIsMTA1OTI4MDA3NSwxNzAxNjYzMDQ2
+LC05MTU3MDQwODksMzE0OTUxNjA4LC04OTcyMDQ0MiwxMTUyOD
+k0MzA4LC05Nzc4ODY1MzMsLTg4MzkwNjI1OSwxMzEwOTQzMzcz
 XX0=
 -->
