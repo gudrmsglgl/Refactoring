@@ -9,6 +9,7 @@
 [산탄총 수술](#id-section8)<br>
 [기능 편애](#id-section9)<br>
 [데이터 뭉치](#id-section10)<br>
+[기본형 집착](#id-section11)<br>
 
 
 <div id='id-section1'/>
@@ -291,11 +292,11 @@
  -> **클래스 추출하기**와 **매개변수 객체 만들기**를 이용
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE0OTUxNjA4LC04OTcyMDQ0MiwxMTUyOD
-k0MzA4LC05Nzc4ODY1MzMsLTg4MzkwNjI1OSwxMzEwOTQzMzcz
-LC00NTE3MTAyNzcsLTE5MDMzNjA2MzEsLTEyNjgzMjMzNiwxNz
-gwNzM4OTIsNTU3ODQ3NjI1LDY4NzEzOTA0MywtMjcxMzEwOTY5
-LC0xNzczMTUwODIwLC0xMzkyMTExNDY1LDE0NDE1MzEyNTAsLT
-k5OTAwOTQ4OSwtMjMxNjUyMzYxLC0xMjU2ODE2ODIxLC01MjQ3
-NjM3ODhdfQ==
+eyJoaXN0b3J5IjpbLTgzMTU0MTgyOCwzMTQ5NTE2MDgsLTg5Nz
+IwNDQyLDExNTI4OTQzMDgsLTk3Nzg4NjUzMywtODgzOTA2MjU5
+LDEzMTA5NDMzNzMsLTQ1MTcxMDI3NywtMTkwMzM2MDYzMSwtMT
+I2ODMyMzM2LDE3ODA3Mzg5Miw1NTc4NDc2MjUsNjg3MTM5MDQz
+LC0yNzEzMTA5NjksLTE3NzMxNTA4MjAsLTEzOTIxMTE0NjUsMT
+Q0MTUzMTI1MCwtOTk5MDA5NDg5LC0yMzE2NTIzNjEsLTEyNTY4
+MTY4MjFdfQ==
 -->
