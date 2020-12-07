@@ -17,7 +17,7 @@
 [임시 필드](#id-section16)<br>
 [메세지체인](#id-section17)<br>
 [중재자](#id-section18)<br>
-[내부자 거래]
+[내부자 거래](#id-section19)<br>
 
 
 <div id='id-section1'/>
@@ -398,8 +398,9 @@
 <div id='id-section19'/>
 
 ## 3.19 내부자 거래 Insider Trading
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNTExODI1NywtNTE4MDUxOTE1LC04Mz
+eyJoaXN0b3J5IjpbMTk3OTAwMzU0MCwtNTE4MDUxOTE1LC04Mz
 MwMzY1MzQsOTkyMDkzNDEzLC03MDE0NzkxOTgsODg0MDUyMTI5
 LDg2MjE3NzAzLC03NDM0MjAzMzIsMTA1OTI4MDA3NSwxNzAxNj
 YzMDQ2LC05MTU3MDQwODksMzE0OTUxNjA4LC04OTcyMDQ0Miwx
