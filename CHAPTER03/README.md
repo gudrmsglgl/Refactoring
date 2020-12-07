@@ -341,13 +341,14 @@
 
 - 덩그러니 떨어져 있는 필드들을 발견 -> **클래스 추출하기**로 제 살 곳을 찾아준다.
 - 그런 다음 **함수 옮기기**로 임시 필드들과 관련된 코드를 모조리 새 클래스에 몰아 넣는다.
-- 임시 필드들이 유효한지를 확인한 후 동작하는 조건부 로직이 있을 수 있는데, 
+- 임시 필드들이 유효한지를 확인한 후 동작하는 조건부 로직이 있을 수 있는데 <br>
+**특이 케이스 추가하기**로 필드들이 유효하지 않을 때를 위한 대안 클래스를 만들어 제거
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzEzMTk1MDcsODg0MDUyMTI5LDg2Mj
-E3NzAzLC03NDM0MjAzMzIsMTA1OTI4MDA3NSwxNzAxNjYzMDQ2
-LC05MTU3MDQwODksMzE0OTUxNjA4LC04OTcyMDQ0MiwxMTUyOD
-k0MzA4LC05Nzc4ODY1MzMsLTg4MzkwNjI1OSwxMzEwOTQzMzcz
-LC00NTE3MTAyNzcsLTE5MDMzNjA2MzEsLTEyNjgzMjMzNiwxNz
-gwNzM4OTIsNTU3ODQ3NjI1LDY4NzEzOTA0MywtMjcxMzEwOTY5
-XX0=
+eyJoaXN0b3J5IjpbLTcwMTQ3OTE5OCw4ODQwNTIxMjksODYyMT
+c3MDMsLTc0MzQyMDMzMiwxMDU5MjgwMDc1LDE3MDE2NjMwNDYs
+LTkxNTcwNDA4OSwzMTQ5NTE2MDgsLTg5NzIwNDQyLDExNTI4OT
+QzMDgsLTk3Nzg4NjUzMywtODgzOTA2MjU5LDEzMTA5NDMzNzMs
+LTQ1MTcxMDI3NywtMTkwMzM2MDYzMSwtMTI2ODMyMzM2LDE3OD
+A3Mzg5Miw1NTc4NDc2MjUsNjg3MTM5MDQzLC0yNzEzMTA5Njld
+fQ==
 -->
