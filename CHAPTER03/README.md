@@ -354,8 +354,14 @@
 
 #### 💊 위임 숨기기
 
+    1. 최종 결과 객체가 어떻게 쓰이는지 살펴본다.
+    
+    * 함수 추출하기
+      : 결과 객체를 사용하는 코드 일부를 따로 빼냄
+      
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNjE3MDMyNiwtNzAxNDc5MTk4LDg4ND
+eyJoaXN0b3J5IjpbLTgxNTUxMTI5NCwtNzAxNDc5MTk4LDg4ND
 A1MjEyOSw4NjIxNzcwMywtNzQzNDIwMzMyLDEwNTkyODAwNzUs
 MTcwMTY2MzA0NiwtOTE1NzA0MDg5LDMxNDk1MTYwOCwtODk3Mj
 A0NDIsMTE1Mjg5NDMwOCwtOTc3ODg2NTMzLC04ODM5MDYyNTks
