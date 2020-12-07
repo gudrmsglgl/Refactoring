@@ -299,13 +299,15 @@
 > 코드에 등장하는 switch문은 모조리<br>
 > **조건부 로직을 다형성으로 바꾸기**로 없애야 할 대상이라고 주장한다.
 
+ - 똑같은 조건부 로직이 여러 곳에서 반복해 등장하는 코드에 집중.
+ - 중복된 switch문이 문제가 되는 이유는 조건절을 하나 추가할 때마다 다른 switch문들도 모두 찾아서 함께 수정해야 하기 때문.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjU4MDc3MDUsMzE0OTUxNjA4LC04OT
-cyMDQ0MiwxMTUyODk0MzA4LC05Nzc4ODY1MzMsLTg4MzkwNjI1
-OSwxMzEwOTQzMzczLC00NTE3MTAyNzcsLTE5MDMzNjA2MzEsLT
-EyNjgzMjMzNiwxNzgwNzM4OTIsNTU3ODQ3NjI1LDY4NzEzOTA0
-MywtMjcxMzEwOTY5LC0xNzczMTUwODIwLC0xMzkyMTExNDY1LD
-E0NDE1MzEyNTAsLTk5OTAwOTQ4OSwtMjMxNjUyMzYxLC0xMjU2
-ODE2ODIxXX0=
+eyJoaXN0b3J5IjpbLTkxNTcwNDA4OSwzMTQ5NTE2MDgsLTg5Nz
+IwNDQyLDExNTI4OTQzMDgsLTk3Nzg4NjUzMywtODgzOTA2MjU5
+LDEzMTA5NDMzNzMsLTQ1MTcxMDI3NywtMTkwMzM2MDYzMSwtMT
+I2ODMyMzM2LDE3ODA3Mzg5Miw1NTc4NDc2MjUsNjg3MTM5MDQz
+LC0yNzEzMTA5NjksLTE3NzMxNTA4MjAsLTEzOTIxMTE0NjUsMT
+Q0MTUzMTI1MCwtOTk5MDA5NDg5LC0yMzE2NTIzNjEsLTEyNTY4
+MTY4MjFdfQ==
 -->
