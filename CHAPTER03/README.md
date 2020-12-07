@@ -407,12 +407,17 @@
 - 여러 모듈이 같은 관심사를 공유 <br>-> 공통 부분을 정식으로 처리하는 제3의 모듈을 새로 만들거나<br> or -> 위임 숨기기를 이용하여 다른 모듈이 중간자 역할을 하게 만든다.
 
 - 상속 구조에서 자식 클래스가 부모 품을 떠나야 할 때 <br> -> **서브클래스를 위임으로 바꾸기**나 **슈퍼클래스를 위임으로 바꾸기**를 활용
+
+<br>
+<div id='id-section20'/>
+
+## 3.20 거대한 클래스 Lar
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzODYwNjgyMSwtNTE4MDUxOTE1LC04Mz
-MwMzY1MzQsOTkyMDkzNDEzLC03MDE0NzkxOTgsODg0MDUyMTI5
-LDg2MjE3NzAzLC03NDM0MjAzMzIsMTA1OTI4MDA3NSwxNzAxNj
-YzMDQ2LC05MTU3MDQwODksMzE0OTUxNjA4LC04OTcyMDQ0Miwx
-MTUyODk0MzA4LC05Nzc4ODY1MzMsLTg4MzkwNjI1OSwxMzEwOT
-QzMzczLC00NTE3MTAyNzcsLTE5MDMzNjA2MzEsLTEyNjgzMjMz
-Nl19
+eyJoaXN0b3J5IjpbMTM3MDc5NDEyNiwyMDM4NjA2ODIxLC01MT
+gwNTE5MTUsLTgzMzAzNjUzNCw5OTIwOTM0MTMsLTcwMTQ3OTE5
+OCw4ODQwNTIxMjksODYyMTc3MDMsLTc0MzQyMDMzMiwxMDU5Mj
+gwMDc1LDE3MDE2NjMwNDYsLTkxNTcwNDA4OSwzMTQ5NTE2MDgs
+LTg5NzIwNDQyLDExNTI4OTQzMDgsLTk3Nzg4NjUzMywtODgzOT
+A2MjU5LDEzMTA5NDMzNzMsLTQ1MTcxMDI3NywtMTkwMzM2MDYz
+MV19
 -->
