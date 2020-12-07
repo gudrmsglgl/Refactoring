@@ -14,6 +14,9 @@
 [반복문](#id-section13)<br>
 [성의 없는 요소](#id-section14)<br>
 [추측성 일반화](#id-section15)<br>
+[임시 필드](#id-section16)<br>
+[메세지체인](#id-section17)<br>
+
 
 
 <div id='id-section1'/>
@@ -388,11 +391,11 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMzAzNjUzNCw5OTIwOTM0MTMsLTcwMT
-Q3OTE5OCw4ODQwNTIxMjksODYyMTc3MDMsLTc0MzQyMDMzMiwx
-MDU5MjgwMDc1LDE3MDE2NjMwNDYsLTkxNTcwNDA4OSwzMTQ5NT
-E2MDgsLTg5NzIwNDQyLDExNTI4OTQzMDgsLTk3Nzg4NjUzMywt
-ODgzOTA2MjU5LDEzMTA5NDMzNzMsLTQ1MTcxMDI3NywtMTkwMz
-M2MDYzMSwtMTI2ODMyMzM2LDE3ODA3Mzg5Miw1NTc4NDc2MjVd
-fQ==
+eyJoaXN0b3J5IjpbLTUxODA1MTkxNSwtODMzMDM2NTM0LDk5Mj
+A5MzQxMywtNzAxNDc5MTk4LDg4NDA1MjEyOSw4NjIxNzcwMywt
+NzQzNDIwMzMyLDEwNTkyODAwNzUsMTcwMTY2MzA0NiwtOTE1Nz
+A0MDg5LDMxNDk1MTYwOCwtODk3MjA0NDIsMTE1Mjg5NDMwOCwt
+OTc3ODg2NTMzLC04ODM5MDYyNTksMTMxMDk0MzM3MywtNDUxNz
+EwMjc3LC0xOTAzMzYwNjMxLC0xMjY4MzIzMzYsMTc4MDczODky
+XX0=
 -->
