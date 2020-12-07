@@ -327,8 +327,11 @@
 
 ## 3.15 추측성 일반화 Speculative Generality
 
+> 이 냄새는 '나중에 필요할 거야' 라는 생각으로 당장은 필요 없는 모든 종류의 후킹<br>
+> 포인트와 특이 케이스 처리 로직을 작성해둔 코드에서 풍긴다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTEwMDY1MiwxMDU5MjgwMDc1LDE3MD
+eyJoaXN0b3J5IjpbLTc0MzQyMDMzMiwxMDU5MjgwMDc1LDE3MD
 E2NjMwNDYsLTkxNTcwNDA4OSwzMTQ5NTE2MDgsLTg5NzIwNDQy
 LDExNTI4OTQzMDgsLTk3Nzg4NjUzMywtODgzOTA2MjU5LDEzMT
 A5NDMzNzMsLTQ1MTcxMDI3NywtMTkwMzM2MDYzMSwtMTI2ODMy
