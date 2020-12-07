@@ -330,12 +330,14 @@
 > 이 냄새는 '나중에 필요할 거야' 라는 생각으로 당장은 필요 없는 모든 종류의 후킹<br>
 > 포인트와 특이 케이스 처리 로직을 작성해둔 코드에서 풍긴다.
 
+- 하는 일이 거의 없는 추상 클래스 -> **계층 합치기** 
+- 본문에서 사용되지 않는 매개변수 -> **함수 인라인**하기나 **클래스 인라인**하기로 삭제.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MzQyMDMzMiwxMDU5MjgwMDc1LDE3MD
-E2NjMwNDYsLTkxNTcwNDA4OSwzMTQ5NTE2MDgsLTg5NzIwNDQy
-LDExNTI4OTQzMDgsLTk3Nzg4NjUzMywtODgzOTA2MjU5LDEzMT
-A5NDMzNzMsLTQ1MTcxMDI3NywtMTkwMzM2MDYzMSwtMTI2ODMy
-MzM2LDE3ODA3Mzg5Miw1NTc4NDc2MjUsNjg3MTM5MDQzLC0yNz
-EzMTA5NjksLTE3NzMxNTA4MjAsLTEzOTIxMTE0NjUsMTQ0MTUz
-MTI1MF19
+eyJoaXN0b3J5IjpbODYyMTc3MDMsLTc0MzQyMDMzMiwxMDU5Mj
+gwMDc1LDE3MDE2NjMwNDYsLTkxNTcwNDA4OSwzMTQ5NTE2MDgs
+LTg5NzIwNDQyLDExNTI4OTQzMDgsLTk3Nzg4NjUzMywtODgzOT
+A2MjU5LDEzMTA5NDMzNzMsLTQ1MTcxMDI3NywtMTkwMzM2MDYz
+MSwtMTI2ODMyMzM2LDE3ODA3Mzg5Miw1NTc4NDc2MjUsNjg3MT
+M5MDQzLC0yNzEzMTA5NjksLTE3NzMxNTA4MjAsLTEzOTIxMTE0
+NjVdfQ==
 -->
