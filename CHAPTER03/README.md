@@ -377,7 +377,11 @@
 			report = '${managerName}께
 			${aPerson.name} 님의 작업 로그
 			...'
-			con 
+			
+			console.log(report)
+	여기서 보고서 생성 로직을 함수로 추출한 다음 적당한 모듈로 옮기면 체인의 존재가 감춰짐.
+	console.log(reportAutoGenerator.rep			
+ 			 
 
 
 	
@@ -385,7 +389,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMTUwMjE2NCw5OTIwOTM0MTMsLTcwMT
+eyJoaXN0b3J5IjpbLTM2Njg5NjkzMyw5OTIwOTM0MTMsLTcwMT
 Q3OTE5OCw4ODQwNTIxMjksODYyMTc3MDMsLTc0MzQyMDMzMiwx
 MDU5MjgwMDc1LDE3MDE2NjMwNDYsLTkxNTcwNDA4OSwzMTQ5NT
 E2MDgsLTg5NzIwNDQyLDExNTI4OTQzMDgsLTk3Nzg4NjUzMywt
