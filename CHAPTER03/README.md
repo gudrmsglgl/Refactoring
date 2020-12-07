@@ -10,6 +10,7 @@
 [기능 편애](#id-section9)<br>
 [데이터 뭉치](#id-section10)<br>
 [기본형 집착](#id-section11)<br>
+[반복되는 switch문](#id-section12)<br>
 
 
 <div id='id-section1'/>
@@ -290,13 +291,16 @@
 **타입 코드를 서브클래스로 바꾸기** 와 **조건부 로직을 다형으로 바꾸기**를 차례로 적용한다.
  - 자주 함께 몰려다니는 기본형 그룹도 데이터 뭉치<br>
  -> **클래스 추출하기**와 **매개변수 객체 만들기**를 이용
+<br>
+<div id='id-section12'/>
 
+## 3.12 반복되는 switchㅁ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMTU0MTgyOCwzMTQ5NTE2MDgsLTg5Nz
-IwNDQyLDExNTI4OTQzMDgsLTk3Nzg4NjUzMywtODgzOTA2MjU5
-LDEzMTA5NDMzNzMsLTQ1MTcxMDI3NywtMTkwMzM2MDYzMSwtMT
-I2ODMyMzM2LDE3ODA3Mzg5Miw1NTc4NDc2MjUsNjg3MTM5MDQz
-LC0yNzEzMTA5NjksLTE3NzMxNTA4MjAsLTEzOTIxMTE0NjUsMT
-Q0MTUzMTI1MCwtOTk5MDA5NDg5LC0yMzE2NTIzNjEsLTEyNTY4
-MTY4MjFdfQ==
+eyJoaXN0b3J5IjpbODU0MjA3NzMsMzE0OTUxNjA4LC04OTcyMD
+Q0MiwxMTUyODk0MzA4LC05Nzc4ODY1MzMsLTg4MzkwNjI1OSwx
+MzEwOTQzMzczLC00NTE3MTAyNzcsLTE5MDMzNjA2MzEsLTEyNj
+gzMjMzNiwxNzgwNzM4OTIsNTU3ODQ3NjI1LDY4NzEzOTA0Mywt
+MjcxMzEwOTY5LC0xNzczMTUwODIwLC0xMzkyMTExNDY1LDE0ND
+E1MzEyNTAsLTk5OTAwOTQ4OSwtMjMxNjUyMzYxLC0xMjU2ODE2
+ODIxXX0=
 -->
