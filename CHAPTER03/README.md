@@ -18,7 +18,7 @@
 [메세지체인](#id-section17)<br>
 [중재자](#id-section18)<br>
 [내부자 거래](#id-section19)<br>
-
+[거대한 클래스](#id-section20)<br>
 
 <div id='id-section1'/>
 
@@ -411,13 +411,15 @@
 <br>
 <div id='id-section20'/>
 
-## 3.20 거대한 클래스 Lar
+## 3.20 거대한 클래스 Large Class
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MDc5NDEyNiwyMDM4NjA2ODIxLC01MT
-gwNTE5MTUsLTgzMzAzNjUzNCw5OTIwOTM0MTMsLTcwMTQ3OTE5
-OCw4ODQwNTIxMjksODYyMTc3MDMsLTc0MzQyMDMzMiwxMDU5Mj
-gwMDc1LDE3MDE2NjMwNDYsLTkxNTcwNDA4OSwzMTQ5NTE2MDgs
-LTg5NzIwNDQyLDExNTI4OTQzMDgsLTk3Nzg4NjUzMywtODgzOT
-A2MjU5LDEzMTA5NDMzNzMsLTQ1MTcxMDI3NywtMTkwMzM2MDYz
-MV19
+eyJoaXN0b3J5IjpbLTEzODkxODk4MzMsMjAzODYwNjgyMSwtNT
+E4MDUxOTE1LC04MzMwMzY1MzQsOTkyMDkzNDEzLC03MDE0Nzkx
+OTgsODg0MDUyMTI5LDg2MjE3NzAzLC03NDM0MjAzMzIsMTA1OT
+I4MDA3NSwxNzAxNjYzMDQ2LC05MTU3MDQwODksMzE0OTUxNjA4
+LC04OTcyMDQ0MiwxMTUyODk0MzA4LC05Nzc4ODY1MzMsLTg4Mz
+kwNjI1OSwxMzEwOTQzMzczLC00NTE3MTAyNzcsLTE5MDMzNjA2
+MzFdfQ==
 -->
