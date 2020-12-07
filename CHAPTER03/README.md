@@ -416,8 +416,15 @@
 #### ⚠️ 문제점
 	너무 많은 일을 하려다 보면 필드 수가 상당히 늘어남.
 	클래스에 필드가 너무 많으면 중복 코드가 생기기 쉽다.
+
+#### 💊 거대한 클래스 리팩토링 
+- 클래스 추출하기 
+  
+
+    enter code here
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNjcyNDI4LDIwMzg2MDY4MjEsLTUxOD
+eyJoaXN0b3J5IjpbMTI4NzYwMzQxLDIwMzg2MDY4MjEsLTUxOD
 A1MTkxNSwtODMzMDM2NTM0LDk5MjA5MzQxMywtNzAxNDc5MTk4
 LDg4NDA1MjEyOSw4NjIxNzcwMywtNzQzNDIwMzMyLDEwNTkyOD
 AwNzUsMTcwMTY2MzA0NiwtOTE1NzA0MDg5LDMxNDk1MTYwOCwt
