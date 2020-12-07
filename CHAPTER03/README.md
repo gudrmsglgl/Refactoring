@@ -402,11 +402,11 @@
 > 일이 돌아가게 하려면 거래가 이뤄질 수 밖에 없지만<br>
 > 그 양을 최소로 줄이고 모두 투명하게 처리해야 한다.
 
-- 은밀히 데이터를 주고받는 모듈들이 있다면 **함수 옮기기**와 **필드 옮기기**로 떼어놓아서 <br>사적으로 처리하는 부분을 줄인다.
-- 여러 모듈이 같은 관심사를 공유 -> 공통 부분을 정식으로 처리하는 제3의 모듈을 새로 
+- 은밀히 데이터를 주고받는 모듈들이 있을 때 <br> **함수 옮기기**와 **필드 옮기기**로 떼어놓아서 <br>사적으로 처리하는 부분을 줄인다.
+- 여러 모듈이 같은 관심사를 공유 <br>-> 공통 부분을 정식으로 처리하는 제3의 모듈을 새로 만들거나<br> or -> 위임 숨기기를 이용하여 다른 모듈이 중간자 역할을 하게 만든다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxODI2NjM1NSwtNTE4MDUxOTE1LC04Mz
+eyJoaXN0b3J5IjpbMTEyOTAwMTY5OCwtNTE4MDUxOTE1LC04Mz
 MwMzY1MzQsOTkyMDkzNDEzLC03MDE0NzkxOTgsODg0MDUyMTI5
 LDg2MjE3NzAzLC03NDM0MjAzMzIsMTA1OTI4MDA3NSwxNzAxNj
 YzMDQ2LC05MTU3MDQwODksMzE0OTUxNjA4LC04OTcyMDQ0Miwx
