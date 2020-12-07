@@ -419,12 +419,11 @@
 
 #### 💊 거대한 클래스 리팩토링 
 - 클래스 추출하기 
-  
 
-    enter code here
+    enter code hㅇㄴㄹere
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NzYwMzQxLDIwMzg2MDY4MjEsLTUxOD
+eyJoaXN0b3J5IjpbNjczODIxNDE3LDIwMzg2MDY4MjEsLTUxOD
 A1MTkxNSwtODMzMDM2NTM0LDk5MjA5MzQxMywtNzAxNDc5MTk4
 LDg4NDA1MjEyOSw4NjIxNzcwMywtNzQzNDIwMzMyLDEwNTkyOD
 AwNzUsMTcwMTY2MzA0NiwtOTE1NzA0MDg5LDMxNDk1MTYwOCwt
