@@ -356,16 +356,18 @@
 
     1. 최종 결과 객체가 어떻게 쓰이는지 살펴본다.
     
-    * 함수 추출하기
+    2. 함수 추출하기
       : 결과 객체를 사용하는 코드 일부를 따로 빼냄
-      
+    
+    3. 함수 옮기기
+	  : 체인을 숨길 수 있는지 살펴본다.  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNTUxMTI5NCwtNzAxNDc5MTk4LDg4ND
-A1MjEyOSw4NjIxNzcwMywtNzQzNDIwMzMyLDEwNTkyODAwNzUs
-MTcwMTY2MzA0NiwtOTE1NzA0MDg5LDMxNDk1MTYwOCwtODk3Mj
-A0NDIsMTE1Mjg5NDMwOCwtOTc3ODg2NTMzLC04ODM5MDYyNTks
-MTMxMDk0MzM3MywtNDUxNzEwMjc3LC0xOTAzMzYwNjMxLC0xMj
-Y4MzIzMzYsMTc4MDczODkyLDU1Nzg0NzYyNSw2ODcxMzkwNDNd
-fQ==
+eyJoaXN0b3J5IjpbOTkyMDkzNDEzLC03MDE0NzkxOTgsODg0MD
+UyMTI5LDg2MjE3NzAzLC03NDM0MjAzMzIsMTA1OTI4MDA3NSwx
+NzAxNjYzMDQ2LC05MTU3MDQwODksMzE0OTUxNjA4LC04OTcyMD
+Q0MiwxMTUyODk0MzA4LC05Nzc4ODY1MzMsLTg4MzkwNjI1OSwx
+MzEwOTQzMzczLC00NTE3MTAyNzcsLTE5MDMzNjA2MzEsLTEyNj
+gzMjMzNiwxNzgwNzM4OTIsNTU3ODQ3NjI1LDY4NzEzOTA0M119
+
 -->
