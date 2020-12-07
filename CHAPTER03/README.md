@@ -399,8 +399,13 @@
 
 ## 3.19 내부자 거래 Insider Trading
 
+> 일이 돌아가게 하려면 거래가 이뤄질 수 밖에 없지만<br>
+> 그 양을 최소로 줄이고 모두 투명하게 처리해야 한다.
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3OTAwMzU0MCwtNTE4MDUxOTE1LC04Mz
+eyJoaXN0b3J5IjpbMTIyNzE1NDczNCwtNTE4MDUxOTE1LC04Mz
 MwMzY1MzQsOTkyMDkzNDEzLC03MDE0NzkxOTgsODg0MDUyMTI5
 LDg2MjE3NzAzLC03NDM0MjAzMzIsMTA1OTI4MDA3NSwxNzAxNj
 YzMDQ2LC05MTU3MDQwODksMzE0OTUxNjA4LC04OTcyMDQ0Miwx
