@@ -343,12 +343,21 @@
 - 그런 다음 **함수 옮기기**로 임시 필드들과 관련된 코드를 모조리 새 클래스에 몰아 넣는다.
 - 임시 필드들이 유효한지를 확인한 후 동작하는 조건부 로직이 있을 수 있는데 <br>
 **특이 케이스 추가하기**로 필드들이 유효하지 않을 때를 위한 대안 클래스를 만들어 제거
+
+<br>
+<div id='id-section17'/>
+
+## 3.17 메세지 체인 Message Chains
+
+> 한 객체(A)를 통해 다른 객체(B)를 얻은 뒤 B 객체에 또 다른 객체(C)를 요청하는 식<br>
+> 다른 객체를 요청하는 작업
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMTQ3OTE5OCw4ODQwNTIxMjksODYyMT
-c3MDMsLTc0MzQyMDMzMiwxMDU5MjgwMDc1LDE3MDE2NjMwNDYs
-LTkxNTcwNDA4OSwzMTQ5NTE2MDgsLTg5NzIwNDQyLDExNTI4OT
-QzMDgsLTk3Nzg4NjUzMywtODgzOTA2MjU5LDEzMTA5NDMzNzMs
-LTQ1MTcxMDI3NywtMTkwMzM2MDYzMSwtMTI2ODMyMzM2LDE3OD
-A3Mzg5Miw1NTc4NDc2MjUsNjg3MTM5MDQzLC0yNzEzMTA5Njld
+eyJoaXN0b3J5IjpbMjAxMzMwMjc2NiwtNzAxNDc5MTk4LDg4ND
+A1MjEyOSw4NjIxNzcwMywtNzQzNDIwMzMyLDEwNTkyODAwNzUs
+MTcwMTY2MzA0NiwtOTE1NzA0MDg5LDMxNDk1MTYwOCwtODk3Mj
+A0NDIsMTE1Mjg5NDMwOCwtOTc3ODg2NTMzLC04ODM5MDYyNTks
+MTMxMDk0MzM3MywtNDUxNzEwMjc3LC0xOTAzMzYwNjMxLC0xMj
+Y4MzIzMzYsMTc4MDczODkyLDU1Nzg0NzYyNSw2ODcxMzkwNDNd
 fQ==
 -->
