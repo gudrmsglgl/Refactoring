@@ -16,6 +16,7 @@
 [추측성 일반화](#id-section15)<br>
 [임시 필드](#id-section16)<br>
 [메세지체인](#id-section17)<br>
+[중재자](#id-section18)<br>
 
 
 
@@ -384,18 +385,19 @@
 	여기서 보고서 생성 로직을 함수로 추출한 다음 적당한 모듈로 옮기면 체인의 존재가 감춰짐.
 	console.log(reportAutoGenerator.report(aPerson));			
  			 
+<br>
+<div id='id-section18'/>
 
+## 3.18 중재자 Middle man
 
-	
-	
-
+> 클래스가 제공하는 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxODA1MTkxNSwtODMzMDM2NTM0LDk5Mj
-A5MzQxMywtNzAxNDc5MTk4LDg4NDA1MjEyOSw4NjIxNzcwMywt
-NzQzNDIwMzMyLDEwNTkyODAwNzUsMTcwMTY2MzA0NiwtOTE1Nz
-A0MDg5LDMxNDk1MTYwOCwtODk3MjA0NDIsMTE1Mjg5NDMwOCwt
-OTc3ODg2NTMzLC04ODM5MDYyNTksMTMxMDk0MzM3MywtNDUxNz
-EwMjc3LC0xOTAzMzYwNjMxLC0xMjY4MzIzMzYsMTc4MDczODky
+eyJoaXN0b3J5IjpbODczMTQ5OTQ3LC01MTgwNTE5MTUsLTgzMz
+AzNjUzNCw5OTIwOTM0MTMsLTcwMTQ3OTE5OCw4ODQwNTIxMjks
+ODYyMTc3MDMsLTc0MzQyMDMzMiwxMDU5MjgwMDc1LDE3MDE2Nj
+MwNDYsLTkxNTcwNDA4OSwzMTQ5NTE2MDgsLTg5NzIwNDQyLDEx
+NTI4OTQzMDgsLTk3Nzg4NjUzMywtODgzOTA2MjU5LDEzMTA5ND
+MzNzMsLTQ1MTcxMDI3NywtMTkwMzM2MDYzMSwtMTI2ODMyMzM2
 XX0=
 -->
