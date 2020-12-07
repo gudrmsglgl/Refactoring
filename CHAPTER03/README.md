@@ -350,10 +350,10 @@
 ## 3.17 메세지 체인 Message Chains
 
 > 한 객체(A)를 통해 다른 객체(B)를 얻은 뒤 B 객체에 또 다른 객체(C)를 요청하는 식<br>
-> 다른 객체를 요청하는 작업
+> 다른 객체를 요청하는 작업이 연쇄적으로 이어지는 코드.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMzMwMjc2NiwtNzAxNDc5MTk4LDg4ND
+eyJoaXN0b3J5IjpbMTM4MDY3ODc0MSwtNzAxNDc5MTk4LDg4ND
 A1MjEyOSw4NjIxNzcwMywtNzQzNDIwMzMyLDEwNTkyODAwNzUs
 MTcwMTY2MzA0NiwtOTE1NzA0MDg5LDMxNDk1MTYwOCwtODk3Mj
 A0NDIsMTE1Mjg5NDMwOCwtOTc3ODg2NTMzLC04ODM5MDYyNTks
