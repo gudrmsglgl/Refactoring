@@ -307,8 +307,11 @@
 
 ## 3.13 반복문 Loops
 
+> 반복문을 파이프라인으로 바꾸기를 적용해서 반복문을 제거할 수 있게 됐다.
+> 필터filter나 맵map 같은 파이프라인 연산을 사용
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDU0MTM5NTMsLTkxNTcwNDA4OSwzMT
+eyJoaXN0b3J5IjpbLTE3NzM5MDA2MzQsLTkxNTcwNDA4OSwzMT
 Q5NTE2MDgsLTg5NzIwNDQyLDExNTI4OTQzMDgsLTk3Nzg4NjUz
 MywtODgzOTA2MjU5LDEzMTA5NDMzNzMsLTQ1MTcxMDI3NywtMT
 kwMzM2MDYzMSwtMTI2ODMyMzM2LDE3ODA3Mzg5Miw1NTc4NDc2
