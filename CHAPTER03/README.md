@@ -372,7 +372,12 @@
 	
 	이 체인의 최종 결과 객체는 name이 반환하는 부서장의 이름이다. 
 	
-	managerName = aPerson.department.manager.name;
+			managerName = aPerson.department.manager.name;
+			
+			report = '${managerName}께
+			${aPerson.name} 님의 작업 로그
+			...'
+			con 
 
 
 	
@@ -380,7 +385,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3ODI2MjM3NCw5OTIwOTM0MTMsLTcwMT
+eyJoaXN0b3J5IjpbLTczMTUwMjE2NCw5OTIwOTM0MTMsLTcwMT
 Q3OTE5OCw4ODQwNTIxMjksODYyMTc3MDMsLTc0MzQyMDMzMiwx
 MDU5MjgwMDc1LDE3MDE2NjMwNDYsLTkxNTcwNDA4OSwzMTQ5NT
 E2MDgsLTg5NzIwNDQyLDExNTI4OTQzMDgsLTk3Nzg4NjUzMywt
