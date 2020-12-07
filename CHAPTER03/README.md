@@ -287,15 +287,15 @@
  - **기본형을 객체로 바꾸기**
  - 기본형으로 표현된 코드가 조건부 동작을 제어하는 타입 코드로 쓰였다면<br>
 **타입 코드를 서브클래스로 바꾸기** 와 **조건부 로직을 다형으로 바꾸기**를 차례로 적용한다.
- - 자주 함께 몰려다니는 기본형 그룹도 데이터 뭉치
+ - 자주 함께 몰려다니는 기본형 그룹도 데이터 뭉치<br>
  -> **클래스 추출하기**와 **매개변수 객체 만들기**를 이용
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NzIwNDQyLDExNTI4OTQzMDgsLTk3Nz
-g4NjUzMywtODgzOTA2MjU5LDEzMTA5NDMzNzMsLTQ1MTcxMDI3
-NywtMTkwMzM2MDYzMSwtMTI2ODMyMzM2LDE3ODA3Mzg5Miw1NT
-c4NDc2MjUsNjg3MTM5MDQzLC0yNzEzMTA5NjksLTE3NzMxNTA4
-MjAsLTEzOTIxMTE0NjUsMTQ0MTUzMTI1MCwtOTk5MDA5NDg5LC
-0yMzE2NTIzNjEsLTEyNTY4MTY4MjEsLTUyNDc2Mzc4OCwtNjUw
-ODY0ODExXX0=
+eyJoaXN0b3J5IjpbMzE0OTUxNjA4LC04OTcyMDQ0MiwxMTUyOD
+k0MzA4LC05Nzc4ODY1MzMsLTg4MzkwNjI1OSwxMzEwOTQzMzcz
+LC00NTE3MTAyNzcsLTE5MDMzNjA2MzEsLTEyNjgzMjMzNiwxNz
+gwNzM4OTIsNTU3ODQ3NjI1LDY4NzEzOTA0MywtMjcxMzEwOTY5
+LC0xNzczMTUwODIwLC0xMzkyMTExNDY1LDE0NDE1MzEyNTAsLT
+k5OTAwOTQ4OSwtMjMxNjUyMzYxLC0xMjU2ODE2ODIxLC01MjQ3
+NjM3ODhdfQ==
 -->
