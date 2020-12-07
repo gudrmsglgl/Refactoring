@@ -333,12 +333,19 @@
 - 하는 일이 거의 없는 추상 클래스 -> **계층 합치기** 
 - 쓸데없이 위임하는 코드 -> **함수 인라인**하기나 **클래스 인라인**하기로 삭제.
 - 본문에서 사용되지 않는 매개변수 -> **함수 선언 바꾸기**로 없앤다.
+
+<br>
+<div id='id-section16'/>
+
+## 3.16 임시 필드 Temporary Field
+
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg0MDUyMTI5LDg2MjE3NzAzLC03NDM0Mj
-AzMzIsMTA1OTI4MDA3NSwxNzAxNjYzMDQ2LC05MTU3MDQwODks
-MzE0OTUxNjA4LC04OTcyMDQ0MiwxMTUyODk0MzA4LC05Nzc4OD
-Y1MzMsLTg4MzkwNjI1OSwxMzEwOTQzMzczLC00NTE3MTAyNzcs
-LTE5MDMzNjA2MzEsLTEyNjgzMjMzNiwxNzgwNzM4OTIsNTU3OD
-Q3NjI1LDY4NzEzOTA0MywtMjcxMzEwOTY5LC0xNzczMTUwODIw
-XX0=
+eyJoaXN0b3J5IjpbMTEwOTMzODE4Nyw4ODQwNTIxMjksODYyMT
+c3MDMsLTc0MzQyMDMzMiwxMDU5MjgwMDc1LDE3MDE2NjMwNDYs
+LTkxNTcwNDA4OSwzMTQ5NTE2MDgsLTg5NzIwNDQyLDExNTI4OT
+QzMDgsLTk3Nzg4NjUzMywtODgzOTA2MjU5LDEzMTA5NDMzNzMs
+LTQ1MTcxMDI3NywtMTkwMzM2MDYzMSwtMTI2ODMyMzM2LDE3OD
+A3Mzg5Miw1NTc4NDc2MjUsNjg3MTM5MDQzLC0yNzEzMTA5Njld
+fQ==
 -->
