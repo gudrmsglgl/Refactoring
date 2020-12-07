@@ -366,16 +366,17 @@
 	managerName = aPerson.department.manager.name;
 	-> 위임 숨기기
 	managerName = aPerson.department.managerName // 관리자 객체(manager) 숨김
+	managerName = aPerson.manager.name // 부서 객체(department)의 존재를 숨김
 	managerName = aPerson.department.
 	
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NzQ0ODM2Myw5OTIwOTM0MTMsLTcwMT
-Q3OTE5OCw4ODQwNTIxMjksODYyMTc3MDMsLTc0MzQyMDMzMiwx
-MDU5MjgwMDc1LDE3MDE2NjMwNDYsLTkxNTcwNDA4OSwzMTQ5NT
-E2MDgsLTg5NzIwNDQyLDExNTI4OTQzMDgsLTk3Nzg4NjUzMywt
-ODgzOTA2MjU5LDEzMTA5NDMzNzMsLTQ1MTcxMDI3NywtMTkwMz
-M2MDYzMSwtMTI2ODMyMzM2LDE3ODA3Mzg5Miw1NTc4NDc2MjVd
-fQ==
+eyJoaXN0b3J5IjpbNzA1NTA1MjAyLDk5MjA5MzQxMywtNzAxND
+c5MTk4LDg4NDA1MjEyOSw4NjIxNzcwMywtNzQzNDIwMzMyLDEw
+NTkyODAwNzUsMTcwMTY2MzA0NiwtOTE1NzA0MDg5LDMxNDk1MT
+YwOCwtODk3MjA0NDIsMTE1Mjg5NDMwOCwtOTc3ODg2NTMzLC04
+ODM5MDYyNTksMTMxMDk0MzM3MywtNDUxNzEwMjc3LC0xOTAzMz
+YwNjMxLC0xMjY4MzIzMzYsMTc4MDczODkyLDU1Nzg0NzYyNV19
+
 -->
