@@ -17,7 +17,7 @@
 [임시 필드](#id-section16)<br>
 [메세지체인](#id-section17)<br>
 [중재자](#id-section18)<br>
-
+[내부자 거래]
 
 
 <div id='id-section1'/>
@@ -390,14 +390,20 @@
 
 ## 3.18 중재자 Middle man
 
-> 클래스가 제공하는 
+> 클래스가 제공하는 메서드 중 절반에 다른 클래스에 구현을 위임하고 있을 때 <br>
+> **중개자 제거하기**를 활용 <br>
+> 실제로 일을 하는 객체와 직접 소통하게 하자.
 
+<br>
+<div id='id-section19'/>
+
+## 3.19 내부자 거래 Insider Trading
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODczMTQ5OTQ3LC01MTgwNTE5MTUsLTgzMz
-AzNjUzNCw5OTIwOTM0MTMsLTcwMTQ3OTE5OCw4ODQwNTIxMjks
-ODYyMTc3MDMsLTc0MzQyMDMzMiwxMDU5MjgwMDc1LDE3MDE2Nj
-MwNDYsLTkxNTcwNDA4OSwzMTQ5NTE2MDgsLTg5NzIwNDQyLDEx
-NTI4OTQzMDgsLTk3Nzg4NjUzMywtODgzOTA2MjU5LDEzMTA5ND
-MzNzMsLTQ1MTcxMDI3NywtMTkwMzM2MDYzMSwtMTI2ODMyMzM2
-XX0=
+eyJoaXN0b3J5IjpbMTcyNTExODI1NywtNTE4MDUxOTE1LC04Mz
+MwMzY1MzQsOTkyMDkzNDEzLC03MDE0NzkxOTgsODg0MDUyMTI5
+LDg2MjE3NzAzLC03NDM0MjAzMzIsMTA1OTI4MDA3NSwxNzAxNj
+YzMDQ2LC05MTU3MDQwODksMzE0OTUxNjA4LC04OTcyMDQ0Miwx
+MTUyODk0MzA4LC05Nzc4ODY1MzMsLTg4MzkwNjI1OSwxMzEwOT
+QzMzczLC00NTE3MTAyNzcsLTE5MDMzNjA2MzEsLTEyNjgzMjMz
+Nl19
 -->
