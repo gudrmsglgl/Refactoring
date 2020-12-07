@@ -353,34 +353,38 @@
 > 다른 객체를 요청하는 작업이 연쇄적으로 이어지는 코드.
 
 #### 💊 위임 숨기기
-
-    1. 최종 결과 객체가 어떻게 쓰이는지 살펴본다.
+1. 최종 결과 객체가 어떻게 쓰이는지 살펴본다.
     
     2. 함수 추출하기
       : 결과 객체를 사용하는 코드 일부를 따로 빼냄
     
     3. 함수 옮기기
 	  : 체인을 숨길 수 있는지 살펴본다.  
+
+
+
+ 
 	
-	code
-	 
-	managerName = aPerson.department.manager.name;
-	-> 💊 위임 숨기기
-	managerName = aPerson.department.managerName // 관리자 객체(manager) 숨김
-	managerName = aPerson.manager.name // 부서 객체(department)의 존재를 숨김
-	managerName = aPerson.managerName // 부서 객체와 관리자 객체 모두의 존재를 숨김
-	
-	이 체인의 최종 결과 객체는 name이 반환하는 부서장의 이름이다. 
-	
-			managerName = aPerson.department.manager.name;
-			
-			report = '${managerName}께
-			${aPerson.name} 님의 작업 로그
-			...'
-			
-			console.log(report)
-	여기서 보고서 생성 로직을 함수로 추출한 다음 적당한 모듈로 옮기면 체인의 존재가 감춰짐.
-	console.log(reportAutoGenerator.rep			
+
+    managerName = aPerson.department.manager.name;
+    	-> 💊 위임 숨기기
+    	managerName = aPerson.department.managerName // 관리자 객체(manager) 숨김
+    	managerName = aPerson.manager.name // 부서 객체(department)의 존재를 숨김
+    	managerName = aPerson.managerName // 부서 객체와 관리자 객체 모두의 존재를 숨김
+    	
+    	이 체인의 최종 결과 객체는 name이 반환하는 부서장의 이름이다. 
+    	
+    			managerName = aPerson.department.manager.name;
+    			
+    			report = '${managerName}께
+    			${aPerson.name} 님의 작업 로그
+    			...'
+    			
+    			console.log(report)
+    	
+    	여기서 보고서 생성 로직을 함수로 추출한 다음 적당한 모듈로 옮기면 체인의 존재가 감춰짐.
+    	console.log(reportAutoGenerator.report(aPerson));			
+
  			 
 
 
@@ -389,11 +393,11 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2Njg5NjkzMyw5OTIwOTM0MTMsLTcwMT
-Q3OTE5OCw4ODQwNTIxMjksODYyMTc3MDMsLTc0MzQyMDMzMiwx
-MDU5MjgwMDc1LDE3MDE2NjMwNDYsLTkxNTcwNDA4OSwzMTQ5NT
-E2MDgsLTg5NzIwNDQyLDExNTI4OTQzMDgsLTk3Nzg4NjUzMywt
-ODgzOTA2MjU5LDEzMTA5NDMzNzMsLTQ1MTcxMDI3NywtMTkwMz
-M2MDYzMSwtMTI2ODMyMzM2LDE3ODA3Mzg5Miw1NTc4NDc2MjVd
-fQ==
+eyJoaXN0b3J5IjpbLTE3MTU0MzQ2NzIsOTkyMDkzNDEzLC03MD
+E0NzkxOTgsODg0MDUyMTI5LDg2MjE3NzAzLC03NDM0MjAzMzIs
+MTA1OTI4MDA3NSwxNzAxNjYzMDQ2LC05MTU3MDQwODksMzE0OT
+UxNjA4LC04OTcyMDQ0MiwxMTUyODk0MzA4LC05Nzc4ODY1MzMs
+LTg4MzkwNjI1OSwxMzEwOTQzMzczLC00NTE3MTAyNzcsLTE5MD
+MzNjA2MzEsLTEyNjgzMjMzNiwxNzgwNzM4OTIsNTU3ODQ3NjI1
+XX0=
 -->
