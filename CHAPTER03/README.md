@@ -450,9 +450,13 @@
 - 부족할 때는 **함수 옮기기**를 이용하여 인터페이스가 같아질 때까지 필요한 동작들을 클래스 안으로 밀어 넣는다.
 - 대안 클래스들 사이에 중복 코드가 생기면 **슈퍼클래스 추출**하기 적용 고려
 
+<br>
+<div id='id-section22'/>
 
+## 3.22 데이터 클래스 Data Class
+- 다른 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNDgyOTA3NSwtNDM1NTU4ODk1LC0xNT
+eyJoaXN0b3J5IjpbMTg2NDIxOTMxOCwtNDM1NTU4ODk1LC0xNT
 gxODE0ODk1LDk1MTc1NjIzOCwtNzA2MTY5NDQxLDIxNDIzMjcy
 NjMsLTIwMTI2NTU3NDksMTI0NTY0NjIwMCwyMDc1MjA4OTI1LD
 IwMzg2MDY4MjEsLTUxODA1MTkxNSwtODMzMDM2NTM0LDk5MjA5
