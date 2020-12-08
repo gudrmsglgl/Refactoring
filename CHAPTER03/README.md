@@ -430,13 +430,12 @@
 
 - **중복 제거** 
 
-    
-
-* 상당량의 로직이 똑같은 메서드 다섯 개가 있다면 각각의 공통 부분을 작은 메서드들로 뽑아내자.
+		상당량의 로직이 똑같은 메서드 다섯 개가 있다면 각각의 공통 부분을 작은 메서드들로 뽑아내자.`
 
  
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMzQxODYwMywyMTQyMzI3MjYzLC0yMD
+eyJoaXN0b3J5IjpbLTcwNjE2OTQ0MSwyMTQyMzI3MjYzLC0yMD
 EyNjU1NzQ5LDEyNDU2NDYyMDAsMjA3NTIwODkyNSwyMDM4NjA2
 ODIxLC01MTgwNTE5MTUsLTgzMzAzNjUzNCw5OTIwOTM0MTMsLT
 cwMTQ3OTE5OCw4ODQwNTIxMjksODYyMTc3MDMsLTc0MzQyMDMz
