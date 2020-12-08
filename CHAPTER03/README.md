@@ -430,18 +430,24 @@
 
 - **중복 제거** 
 
-		상당량의 로직이 똑같은 메서드 다섯 개가 있다면 각각의 공통 부분을 작은 메서드들로 뽑아내자.`
+		* 상당량의 로직이 똑같은 메서드 다섯 개가 있다면 각각의 공통 부분을 작은 메서드들로 뽑아내자.`
 
  - **거대 클래스 이용 패턴을 파악** 
-`클라이언트들이 거대 클래스의 특정 기능 그룹만 주로 사용하는지 살핀다.`
+
+	    * 클라이언트들이 거대 클래스의 특정 기능 그룹만 주로 사용하는지 살핀다.
+	    * 이때 각각의 기능 그룹이 개별 클래스로 추출될 후보.
+	    * 유효한 기능 그룹을 찾았다면 아래와 같
+		    - 클래스 추출하기
+		    - 슈퍼클래스 추출하기
+		    - 타입 코드를 서브클래스로 바꾸기 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU3NTExNzE5LDk1MTc1NjIzOCwtNzA2MT
-Y5NDQxLDIxNDIzMjcyNjMsLTIwMTI2NTU3NDksMTI0NTY0NjIw
-MCwyMDc1MjA4OTI1LDIwMzg2MDY4MjEsLTUxODA1MTkxNSwtOD
-MzMDM2NTM0LDk5MjA5MzQxMywtNzAxNDc5MTk4LDg4NDA1MjEy
-OSw4NjIxNzcwMywtNzQzNDIwMzMyLDEwNTkyODAwNzUsMTcwMT
-Y2MzA0NiwtOTE1NzA0MDg5LDMxNDk1MTYwOCwtODk3MjA0NDJd
-fQ==
+eyJoaXN0b3J5IjpbMTE5MzMxMzcwMiw5NTE3NTYyMzgsLTcwNj
+E2OTQ0MSwyMTQyMzI3MjYzLC0yMDEyNjU1NzQ5LDEyNDU2NDYy
+MDAsMjA3NTIwODkyNSwyMDM4NjA2ODIxLC01MTgwNTE5MTUsLT
+gzMzAzNjUzNCw5OTIwOTM0MTMsLTcwMTQ3OTE5OCw4ODQwNTIx
+MjksODYyMTc3MDMsLTc0MzQyMDMzMiwxMDU5MjgwMDc1LDE3MD
+E2NjMwNDYsLTkxNTcwNDA4OSwzMTQ5NTE2MDgsLTg5NzIwNDQy
+XX0=
 -->
