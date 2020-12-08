@@ -436,18 +436,18 @@
 
 	    * 클라이언트들이 거대 클래스의 특정 기능 그룹만 주로 사용하는지 살핀다.
 	    * 이때 각각의 기능 그룹이 개별 클래스로 추출될 후보.
-	    * 유효한 기능 그룹을 찾았다면 아래와 같
+	    * 유효한 기능 그룹을 찾았다면 아래의 것을 활용하여 여러 클래스로 분리
 		    - 클래스 추출하기
 		    - 슈퍼클래스 추출하기
 		    - 타입 코드를 서브클래스로 바꾸기 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MzMxMzcwMiw5NTE3NTYyMzgsLTcwNj
-E2OTQ0MSwyMTQyMzI3MjYzLC0yMDEyNjU1NzQ5LDEyNDU2NDYy
-MDAsMjA3NTIwODkyNSwyMDM4NjA2ODIxLC01MTgwNTE5MTUsLT
-gzMzAzNjUzNCw5OTIwOTM0MTMsLTcwMTQ3OTE5OCw4ODQwNTIx
-MjksODYyMTc3MDMsLTc0MzQyMDMzMiwxMDU5MjgwMDc1LDE3MD
-E2NjMwNDYsLTkxNTcwNDA4OSwzMTQ5NTE2MDgsLTg5NzIwNDQy
-XX0=
+eyJoaXN0b3J5IjpbLTE1ODE4MTQ4OTUsOTUxNzU2MjM4LC03MD
+YxNjk0NDEsMjE0MjMyNzI2MywtMjAxMjY1NTc0OSwxMjQ1NjQ2
+MjAwLDIwNzUyMDg5MjUsMjAzODYwNjgyMSwtNTE4MDUxOTE1LC
+04MzMwMzY1MzQsOTkyMDkzNDEzLC03MDE0NzkxOTgsODg0MDUy
+MTI5LDg2MjE3NzAzLC03NDM0MjAzMzIsMTA1OTI4MDA3NSwxNz
+AxNjYzMDQ2LC05MTU3MDQwODksMzE0OTUxNjA4LC04OTcyMDQ0
+Ml19
 -->
