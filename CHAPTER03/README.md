@@ -19,6 +19,7 @@
 [중재자](#id-section18)<br>
 [내부자 거래](#id-section19)<br>
 [거대한 클래스](#id-section20)<br>
+[서로 다른 인터페이스의 대안 클래스들](#id-section21)<br>
 
 <div id='id-section1'/>
 
@@ -356,7 +357,7 @@
 > 한 객체(A)를 통해 다른 객체(B)를 얻은 뒤 B 객체에 또 다른 객체(C)를 요청하는 식<br>
 > 다른 객체를 요청하는 작업이 연쇄적으로 이어지는 코드.
 
-#### 💊 위임 숨기기
+#### 💊&nbsp;&nbsp;위임 숨기기
 
     1. 최종 결과 객체가 어떻게 쓰이는지 살펴본다.
     
@@ -413,11 +414,11 @@
 
 ## 3.20 거대한 클래스 Large Class
 
-#### ⚠️ 문제점
+#### ⚠️&nbsp;&nbsp;문제점
 	너무 많은 일을 하려다 보면 필드 수가 상당히 늘어남.
 	클래스에 필드가 너무 많으면 중복 코드가 생기기 쉽다.
 
-#### 💊 거대한 클래스 리팩토링 
+#### 💊&nbsp;&nbsp;거대한 클래스 리팩토링 
 
 - **클래스 추출하기** 
 
@@ -441,13 +442,16 @@
 		    - 슈퍼클래스 추출하기
 		    - 타입 코드를 서브클래스로 바꾸기 
 
+<br>
+<div id='id-section21'/>
 
+## 3.21 서로 다른 인터페이스의 대안 클래스들
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODE4MTQ4OTUsOTUxNzU2MjM4LC03MD
-YxNjk0NDEsMjE0MjMyNzI2MywtMjAxMjY1NTc0OSwxMjQ1NjQ2
-MjAwLDIwNzUyMDg5MjUsMjAzODYwNjgyMSwtNTE4MDUxOTE1LC
-04MzMwMzY1MzQsOTkyMDkzNDEzLC03MDE0NzkxOTgsODg0MDUy
-MTI5LDg2MjE3NzAzLC03NDM0MjAzMzIsMTA1OTI4MDA3NSwxNz
-AxNjYzMDQ2LC05MTU3MDQwODksMzE0OTUxNjA4LC04OTcyMDQ0
-Ml19
+eyJoaXN0b3J5IjpbLTE4MzA0Mzc4NywtMTU4MTgxNDg5NSw5NT
+E3NTYyMzgsLTcwNjE2OTQ0MSwyMTQyMzI3MjYzLC0yMDEyNjU1
+NzQ5LDEyNDU2NDYyMDAsMjA3NTIwODkyNSwyMDM4NjA2ODIxLC
+01MTgwNTE5MTUsLTgzMzAzNjUzNCw5OTIwOTM0MTMsLTcwMTQ3
+OTE5OCw4ODQwNTIxMjksODYyMTc3MDMsLTc0MzQyMDMzMiwxMD
+U5MjgwMDc1LDE3MDE2NjMwNDYsLTkxNTcwNDA4OSwzMTQ5NTE2
+MDhdfQ==
 -->
