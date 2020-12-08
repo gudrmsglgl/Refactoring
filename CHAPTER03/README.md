@@ -456,15 +456,15 @@
 ## 3.22 데이터 클래스 Data Class
 - 다른 클래스가 너무 깊이까지 함부로 다룰 때가 많다.
 - public 필드가 있다면 **레코드 캡슐화하기**
-- 다른 클래스 메서드 -> 데이터 클래스의 게터나 세터를 사용
+- 다른 클래스 메서드 -> 데이터 클래스의 게터나 세터를 사용할 때 <br>  함수 옮기기로 데이터 클래스로 옮길 수 있는지 
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY4NDI4NTcxLC00MzU1NTg4OTUsLTE1OD
-E4MTQ4OTUsOTUxNzU2MjM4LC03MDYxNjk0NDEsMjE0MjMyNzI2
-MywtMjAxMjY1NTc0OSwxMjQ1NjQ2MjAwLDIwNzUyMDg5MjUsMj
-AzODYwNjgyMSwtNTE4MDUxOTE1LC04MzMwMzY1MzQsOTkyMDkz
-NDEzLC03MDE0NzkxOTgsODg0MDUyMTI5LDg2MjE3NzAzLC03ND
-M0MjAzMzIsMTA1OTI4MDA3NSwxNzAxNjYzMDQ2LC05MTU3MDQw
-ODldfQ==
+eyJoaXN0b3J5IjpbMjU5NzYyODEsLTQzNTU1ODg5NSwtMTU4MT
+gxNDg5NSw5NTE3NTYyMzgsLTcwNjE2OTQ0MSwyMTQyMzI3MjYz
+LC0yMDEyNjU1NzQ5LDEyNDU2NDYyMDAsMjA3NTIwODkyNSwyMD
+M4NjA2ODIxLC01MTgwNTE5MTUsLTgzMzAzNjUzNCw5OTIwOTM0
+MTMsLTcwMTQ3OTE5OCw4ODQwNTIxMjksODYyMTc3MDMsLTc0Mz
+QyMDMzMiwxMDU5MjgwMDc1LDE3MDE2NjMwNDYsLTkxNTcwNDA4
+OV19
 -->
