@@ -20,6 +20,9 @@
 [내부자 거래](#id-section19)<br>
 [거대한 클래스](#id-section20)<br>
 [서로 다른 인터페이스의 대안 클래스들](#id-section21)<br>
+[데이터 클래스](#id-section22)<br>
+[주석](#id-section24)<br>
+
 
 <div id='id-section1'/>
 
@@ -459,13 +462,16 @@
 - 다른 클래스 메서드 -> 데이터 클래스의 게터나 세터를 사용할 때 <br> 📍 함수 옮기기로 데이터 클래스로 옮길 수 있는지<br> 📍 메서드를 통째로 옮기기 어렵다면 함수 추출하기를 이용해서 부분만 별도 메서드로 뽑아내기 
 - 불변 필드는 굳이 캡슐화할 필요가 없고, 불변 데이터로부터 나오는 정보는 필드 자체를 공개해도 된다. 
 
+<br>
+<div id='id-section24'/>
 
+## 3.24 주석 Comments
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDkzNTU5OTEsLTQzNTU1ODg5NSwtMT
-U4MTgxNDg5NSw5NTE3NTYyMzgsLTcwNjE2OTQ0MSwyMTQyMzI3
-MjYzLC0yMDEyNjU1NzQ5LDEyNDU2NDYyMDAsMjA3NTIwODkyNS
-wyMDM4NjA2ODIxLC01MTgwNTE5MTUsLTgzMzAzNjUzNCw5OTIw
-OTM0MTMsLTcwMTQ3OTE5OCw4ODQwNTIxMjksODYyMTc3MDMsLT
-c0MzQyMDMzMiwxMDU5MjgwMDc1LDE3MDE2NjMwNDYsLTkxNTcw
-NDA4OV19
+eyJoaXN0b3J5IjpbLTE4OTA5MzAzNDUsLTE4NDkzNTU5OTEsLT
+QzNTU1ODg5NSwtMTU4MTgxNDg5NSw5NTE3NTYyMzgsLTcwNjE2
+OTQ0MSwyMTQyMzI3MjYzLC0yMDEyNjU1NzQ5LDEyNDU2NDYyMD
+AsMjA3NTIwODkyNSwyMDM4NjA2ODIxLC01MTgwNTE5MTUsLTgz
+MzAzNjUzNCw5OTIwOTM0MTMsLTcwMTQ3OTE5OCw4ODQwNTIxMj
+ksODYyMTc3MDMsLTc0MzQyMDMzMiwxMDU5MjgwMDc1LDE3MDE2
+NjMwNDZdfQ==
 -->
