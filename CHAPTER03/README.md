@@ -446,13 +446,15 @@
 <div id='id-section21'/>
 
 ## 3.21 서로 다른 인터페이스의 대안 클래스들
-- 함수 선언 바구기
+- **함수 선언 바꾸기**로 메서드 시그니처를 일치시킨다
+- 부족할 때는 **함수 옮기기**를 이용하여 인터페이스가 같아질 때까지 필요한 동작들을 클래스 안으로 밀어 넣는다.
+- 대안 클래스들 사이에 중복 코드가 생기면 **슈퍼클래스 추출**하기 적용 고려
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg3MTI0NzA4LC0xNTgxODE0ODk1LDk1MT
-c1NjIzOCwtNzA2MTY5NDQxLDIxNDIzMjcyNjMsLTIwMTI2NTU3
-NDksMTI0NTY0NjIwMCwyMDc1MjA4OTI1LDIwMzg2MDY4MjEsLT
-UxODA1MTkxNSwtODMzMDM2NTM0LDk5MjA5MzQxMywtNzAxNDc5
-MTk4LDg4NDA1MjEyOSw4NjIxNzcwMywtNzQzNDIwMzMyLDEwNT
-kyODAwNzUsMTcwMTY2MzA0NiwtOTE1NzA0MDg5LDMxNDk1MTYw
-OF19
+eyJoaXN0b3J5IjpbLTQzNTU1ODg5NSwtMTU4MTgxNDg5NSw5NT
+E3NTYyMzgsLTcwNjE2OTQ0MSwyMTQyMzI3MjYzLC0yMDEyNjU1
+NzQ5LDEyNDU2NDYyMDAsMjA3NTIwODkyNSwyMDM4NjA2ODIxLC
+01MTgwNTE5MTUsLTgzMzAzNjUzNCw5OTIwOTM0MTMsLTcwMTQ3
+OTE5OCw4ODQwNTIxMjksODYyMTc3MDMsLTc0MzQyMDMzMiwxMD
+U5MjgwMDc1LDE3MDE2NjMwNDYsLTkxNTcwNDA4OSwzMTQ5NTE2
+MDhdfQ==
 -->
