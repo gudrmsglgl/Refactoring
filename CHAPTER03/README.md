@@ -466,12 +466,20 @@
 <div id='id-section24'/>
 
 ## 3.24 주석 Comments
+
+> 주석은 악취가 아닌 향기를 입힌다.<br>
+> 문제는 주석을 탈취제처럼 사용하는 데 있다. <br>
+> 주석이 장황하게 달린 원인이 코드를 잘못 작성했기 때문인 경우가 의외로 많다.
+> 주석을 남겨야겠다는 생각이 들면, 가장 먼저 주석이 필요 없는 콛
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTA5MzAzNDUsLTE4NDkzNTU5OTEsLT
-QzNTU1ODg5NSwtMTU4MTgxNDg5NSw5NTE3NTYyMzgsLTcwNjE2
-OTQ0MSwyMTQyMzI3MjYzLC0yMDEyNjU1NzQ5LDEyNDU2NDYyMD
-AsMjA3NTIwODkyNSwyMDM4NjA2ODIxLC01MTgwNTE5MTUsLTgz
-MzAzNjUzNCw5OTIwOTM0MTMsLTcwMTQ3OTE5OCw4ODQwNTIxMj
-ksODYyMTc3MDMsLTc0MzQyMDMzMiwxMDU5MjgwMDc1LDE3MDE2
-NjMwNDZdfQ==
+eyJoaXN0b3J5IjpbLTk1MjcwNTY2MCwtMTg5MDkzMDM0NSwtMT
+g0OTM1NTk5MSwtNDM1NTU4ODk1LC0xNTgxODE0ODk1LDk1MTc1
+NjIzOCwtNzA2MTY5NDQxLDIxNDIzMjcyNjMsLTIwMTI2NTU3ND
+ksMTI0NTY0NjIwMCwyMDc1MjA4OTI1LDIwMzg2MDY4MjEsLTUx
+ODA1MTkxNSwtODMzMDM2NTM0LDk5MjA5MzQxMywtNzAxNDc5MT
+k4LDg4NDA1MjEyOSw4NjIxNzcwMywtNzQzNDIwMzMyLDEwNTky
+ODAwNzVdfQ==
 -->
