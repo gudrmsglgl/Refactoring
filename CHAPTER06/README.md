@@ -94,9 +94,16 @@ fun printDetail(invoice: Invoice, outstanding: Int){
 <div id='id-section2'/>
 
 ## 6.2 함수 인라인하기 Inline Function
+```kotlin
+fun getRating(driver: Driver): Int{
+	retrun moreThanFiveLateDeliveries(driver) ? 2: 1
+}
 
+fun moreThanFiveLateDeliveries(driver: Driver)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NDc2Mjk5OCw0NTU5ODc4NDEsMjA2Mj
-MzODIzNywxODUzNTYxMTIwLDEyMjY2MTIyNjYsLTExMDA5MDI3
-OTEsLTE2NjA1OTY4MTAsLTE0ODU1MzgyMDVdfQ==
+eyJoaXN0b3J5IjpbLTY1MDM5ODE1OCwxNjQ0NzYyOTk4LDQ1NT
+k4Nzg0MSwyMDYyMzM4MjM3LDE4NTM1NjExMjAsMTIyNjYxMjI2
+NiwtMTEwMDkwMjc5MSwtMTY2MDU5NjgxMCwtMTQ4NTUzODIwNV
+19
 -->
