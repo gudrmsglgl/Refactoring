@@ -53,8 +53,10 @@ fun printDetail(invoice: Invoice, outstanding: Int){
 ### 🔎 &nbsp;&nbsp;코드를 독립된 함수로 묶어야 할 때
 - 길이를 기준
  : 한 화면을 넘어가면 안 된다
--  
+- 재사용성 기준
+: 두 번 이상 사용될 코드는 함수로 만들고, 한 번만 쓰이는 코드는 인라인 상태로 놔두는 것.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM3MTMxOTMyLC0xNjYwNTk2ODEwLC0xND
-g1NTM4MjA1XX0=
+eyJoaXN0b3J5IjpbMTIwMDc2MzU3NiwtMTY2MDU5NjgxMCwtMT
+Q4NTUzODIwNV19
 -->
