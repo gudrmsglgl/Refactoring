@@ -2,7 +2,7 @@
 [함수 추출하기](#id-section1)<br>
 [함수 인라인하기](#id-section2)<br>
 [변수 추출하기](#id-section3)<br>
-
+[변수 인라인하기](#id-section4)<br>
 
 ### 저수준 리팩터링
 - **추출**은 결국 이름 짓기이며, 코드 이해도가 높아지다 보면 이름을 바꿔야 할 때가 많다.
@@ -250,7 +250,7 @@ return anOrder.basePrice > 1000
 ⑥ 변수 선언문과 대입문을 지운다.<br>
 ⑦ 테스트한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzczNjUwODEsMTc0OTk4MTA5OSwxMz
+eyJoaXN0b3J5IjpbLTIwNTM3MTUxMTAsMTc0OTk4MTA5OSwxMz
 Y4ODczMjQ5LC03NzM0MTc0NDIsMTkyODgxMTM4MCwxNzEzNzE5
 NDU5LC0xMTE2MjY4NTY4LDIyNTE5MTI2NSwxMDE5ODc4NDg0LC
 0yNDAwNDcwMiwxNjc4MTI1ODIwLC0xNTU1ODg4MzExLC00MTM1
