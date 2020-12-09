@@ -82,10 +82,10 @@ fun printDetail(invoice: Invoice, outstanding: Int){
 -> 추출한 코드 안에서 값이 바뀌는 변수 중에서 값으로 전달되는 것들은 주의해서 처리.
    이런 변수가 하나뿐이라면 추출한 코드를 질의 함수로 취급해서 그 결과(반환 값)을 해당 변수에 대입
 -> 때로는 추출한 코드에서 값을 수정하는 지역 변수가 너무 많을 수 있다. 
-   이럴 때는 함수 추출을 멈추고, 변수 쪼개기가 임시 변수를 질의 함수로 바꾸기와 같      
+   이럴 때는 함수 추출을 멈추고, 변수 쪼개기가 임시 변수를 질의 함수로 바꾸기와 같은 다른 리팩터링 적용해서 변수를 사용하는 코드를 단순하게 바꿔본다. 그런 다음 함수 추출을 다시 시도.      
 ```
  ④ ⑤ ⑥ ⑦ ⑧ ⑨ ⑩ ⑪
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NzIyMzksLTExMDA5MDI3OTEsLTE2Nj
-A1OTY4MTAsLTE0ODU1MzgyMDVdfQ==
+eyJoaXN0b3J5IjpbMTIyNjYxMjI2NiwtMTEwMDkwMjc5MSwtMT
+Y2MDU5NjgxMCwtMTQ4NTUzODIwNV19
 -->
