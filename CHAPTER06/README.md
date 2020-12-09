@@ -67,7 +67,7 @@ fun printDetail(invoice: Invoice, outstanding: Int){
 : 두 번 이상 사용될 코드는 함수로 만들고, 한 번만 쓰이는 코드는 인라인 상태로 놔두는 것.
 <br>
 
-### 📍 &nbsp;&nbsp;함수 추출 절차
+### 📍 &nbsp;&nbsp;절차
 ① 함수를 새로 만들고 목적을 잘 드러내는 이름을 붙인다 ('어떻게' 아닌 '무엇을' 하는지가 드러나게)
 ```
 * 대상 코드가 매우 간던하더라도 함수로 뽑아서 목적이 더 잘 드러나는 이름을 붙일 수 있다면 추출한다.
@@ -117,10 +117,15 @@ fun getRating(driver: Driver): Int{
 - 함수 본문 코드를 이름만큼 깔끔하게 리팩터링할 때
 - 리팩터링 과정에서 잘못 추출된 함수들도 다시 인라인
 - 간접 호출을 너무 과하게 쓰는 코드
-- 다른 함수로 단순히 위임하기만 하는 함수들이 너무 많아서 위임 관계가 복잡하게 얽혀 
+- 다른 함수로 단순히 위임하기만 하는 함수들이 너무 많아서 위임 관계가 복잡하게 얽힌 경우
+
+<br>
+
+### 📍 &nbsp;&nbsp;절차
+① 다형 메서드(polymorphic method)인지 확인.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTA5NzY4ODgsLTQxMzU0NjY2OCwxNj
-Q0NzYyOTk4LDQ1NTk4Nzg0MSwyMDYyMzM4MjM3LDE4NTM1NjEx
-MjAsMTIyNjYxMjI2NiwtMTEwMDkwMjc5MSwtMTY2MDU5NjgxMC
-wtMTQ4NTUzODIwNV19
+eyJoaXN0b3J5IjpbMTc5Njg1MDkyMiwtNDEzNTQ2NjY4LDE2ND
+Q3NjI5OTgsNDU1OTg3ODQxLDIwNjIzMzgyMzcsMTg1MzU2MTEy
+MCwxMjI2NjEyMjY2LC0xMTAwOTAyNzkxLC0xNjYwNTk2ODEwLC
+0xNDg1NTM4MjA1XX0=
 -->
