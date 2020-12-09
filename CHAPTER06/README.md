@@ -51,7 +51,7 @@ fun printDetail(invoice: Invoice, outstanding: Int){
 ```
 
 ### 🔎 &nbsp;&nbsp;코드를 독립된 함수로 묶어야 할 때
-- 📌 목적과 구현을 분리
+- 📌 **목적과 구현을 분리**
 ```
   * 코드를 보고 무슨 일을 하는지 파악하는 데 한참이 걸린다면 함수로 추출
    '무슨 일'에 걸맞는 이름을 짓는다.
@@ -62,6 +62,6 @@ fun printDetail(invoice: Invoice, outstanding: Int){
 : 두 번 이상 사용될 코드는 함수로 만들고, 한 번만 쓰이는 코드는 인라인 상태로 놔두는 것.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzY3MTY2NjIsLTE2NjA1OTY4MTAsLT
-E0ODU1MzgyMDVdfQ==
+eyJoaXN0b3J5IjpbMTM5NDMzMTE0NiwtMTY2MDU5NjgxMCwtMT
+Q4NTUzODIwNV19
 -->
