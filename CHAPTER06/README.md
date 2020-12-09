@@ -66,9 +66,12 @@ fun printDetail(invoice: Invoice, outstanding: Int){
 <br>
 
 ### 📍 &nbsp;&nbsp;함수 추출 절차
-① 
+① 함수를 새로 만들고 목적을 잘 드러내는 이름을 붙인다 ('어떻게' 아닌 '무엇을' 하는지가 드러나게)
 
+```
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzOTk1Njg0MCwtMTY2MDU5NjgxMCwtMT
+eyJoaXN0b3J5IjpbMTI2MjQ0NTM5NCwtMTY2MDU5NjgxMCwtMT
 Q4NTUzODIwNV19
 -->
