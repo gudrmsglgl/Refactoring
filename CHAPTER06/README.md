@@ -87,10 +87,10 @@ fun printDetail(invoice: Invoice, outstanding: Int){
  ④ 변수를 다 처리했다면 컴파일한다.
  ⑤ 원본 함수에서 추출한 코드 부분을 새로 만든 함수를 호출하는 문장으로 바꾼다 (즉, 추출한 함수로 일을 위임)
  ⑥ 테스트한다.
- ⑦ 다른 코드에 방금 추출한 것과 똑같거나 비슷한 코드가 없는지 살핀다. 있다면 방금 추출한 새 함수를 호춣
- ⑧ ⑨ ⑩ ⑪
+ ⑦ 다른 코드에 방금 추출한 것과 똑같거나 비슷한 코드가 없는지 살핀다. 있다면 방금 추출한 새 함수를 호출하도록 바꿀지 검토한다. (인라인 코드를 함수 호출로 바꾸기)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYzNTg3NjE0LDE4NTM1NjExMjAsMTIyNj
-YxMjI2NiwtMTEwMDkwMjc5MSwtMTY2MDU5NjgxMCwtMTQ4NTUz
-ODIwNV19
+eyJoaXN0b3J5IjpbMTg1NzQ1NjQ0NSwxODUzNTYxMTIwLDEyMj
+Y2MTIyNjYsLTExMDA5MDI3OTEsLTE2NjA1OTY4MTAsLTE0ODU1
+MzgyMDVdfQ==
 -->
