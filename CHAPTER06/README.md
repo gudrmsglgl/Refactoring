@@ -1,5 +1,6 @@
 # 기본적인 리팩터링
 [함수 추출하기](#id-section1)<br>
+[함수 인라인하기](#id-section2)<br>
 
 
 ### 저수준 리팩터링
@@ -112,7 +113,7 @@ fun getRating(driver: Driver): Int{
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MDAxMDI2OSwxNjQ0NzYyOTk4LDQ1NT
+eyJoaXN0b3J5IjpbLTQxMzU0NjY2OCwxNjQ0NzYyOTk4LDQ1NT
 k4Nzg0MSwyMDYyMzM4MjM3LDE4NTM1NjExMjAsMTIyNjYxMjI2
 NiwtMTEwMDkwMjc5MSwtMTY2MDU5NjgxMCwtMTQ4NTUzODIwNV
 19
