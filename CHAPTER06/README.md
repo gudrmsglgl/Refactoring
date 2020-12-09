@@ -73,7 +73,11 @@ fun printDetail(invoice: Invoice, outstanding: Int){
 * 추출하는 과정에서 좋은 이름이 떠오를 수도 있으니 처음부터 최선의 이름부터 짓고 시작할 필요 없다.
 * 함수로 추출해서 사용해보고 효과가 크지 않다면 다시 원래 상태로 인라인해도 된다.
 ```
+② 추출할 코드를 원본 함수에서 복사하여 새 함수에 붙여넣는다.
+③ 추출한 코드 중 원본 함수의 지역 변수를 참조하거나 추출한 함수의 유효범위를 벗어나는 변수는 없는지 검사한다. 있다면 매개변수로 전달한다.
+
+ ④ ⑤ ⑥ ⑦ ⑧ ⑨ ⑩ ⑪
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDA5MDI3OTEsLTE2NjA1OTY4MTAsLT
-E0ODU1MzgyMDVdfQ==
+eyJoaXN0b3J5IjpbMTIwNDk2Mjk1MCwtMTEwMDkwMjc5MSwtMT
+Y2MDU5NjgxMCwtMTQ4NTUzODIwNV19
 -->
