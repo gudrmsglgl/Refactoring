@@ -226,17 +226,16 @@ class Order{
 val basePrice = anOrder.basePrice
 return (basePrice > 1000)
 ```
-**🔻**
+**🔻 변수 인라인**
 ```kotlin
-val basePrice = anOrder.basePrice
-return (basePrice > 1000)
+return anOrder.basePrice > 1000
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDk4MzkxNjIsLTc3MzQxNzQ0MiwxOT
-I4ODExMzgwLDE3MTM3MTk0NTksLTExMTYyNjg1NjgsMjI1MTkx
-MjY1LDEwMTk4Nzg0ODQsLTI0MDA0NzAyLDE2NzgxMjU4MjAsLT
-E1NTU4ODgzMTEsLTQxMzU0NjY2OCwxNjQ0NzYyOTk4LDQ1NTk4
-Nzg0MSwyMDYyMzM4MjM3LDE4NTM1NjExMjAsMTIyNjYxMjI2Ni
-wtMTEwMDkwMjc5MSwtMTY2MDU5NjgxMCwtMTQ4NTUzODIwNV19
+eyJoaXN0b3J5IjpbMTM2ODg3MzI0OSwtNzczNDE3NDQyLDE5Mj
+g4MTEzODAsMTcxMzcxOTQ1OSwtMTExNjI2ODU2OCwyMjUxOTEy
+NjUsMTAxOTg3ODQ4NCwtMjQwMDQ3MDIsMTY3ODEyNTgyMCwtMT
+U1NTg4ODMxMSwtNDEzNTQ2NjY4LDE2NDQ3NjI5OTgsNDU1OTg3
+ODQxLDIwNjIzMzgyMzcsMTg1MzU2MTEyMCwxMjI2NjEyMjY2LC
+0xMTAwOTAyNzkxLC0xNjYwNTk2ODEwLC0xNDg1NTM4MjA1XX0=
 
 -->
