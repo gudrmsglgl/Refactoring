@@ -50,7 +50,7 @@ fun printDetail(invoice: Invoice, outstanding: Int){
 }
 ```
 
-
+🔎 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTQ4OTk1MThdfQ==
+eyJoaXN0b3J5IjpbLTE0ODU1MzgyMDVdfQ==
 -->
