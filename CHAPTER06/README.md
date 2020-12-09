@@ -135,10 +135,18 @@ fun getRating(driver: Driver): Int{
 ```
 ⑤ 함수 정의(원래 함수)를 삭제한다.
 
+<br>
+<div id='id-section3'/>
 
+## 6.3 변수 추출하기 Extract Variable
+```kotlin
+fun getRating(driver: Driver): Int{
+	retrun (driver.numberOfLateDeliveries > 5) ? 2: 1
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTU4ODgzMTEsLTQxMzU0NjY2OCwxNj
-Q0NzYyOTk4LDQ1NTk4Nzg0MSwyMDYyMzM4MjM3LDE4NTM1NjEx
-MjAsMTIyNjYxMjI2NiwtMTEwMDkwMjc5MSwtMTY2MDU5NjgxMC
-wtMTQ4NTUzODIwNV19
+eyJoaXN0b3J5IjpbLTIwMTU3NTU3NzQsLTE1NTU4ODgzMTEsLT
+QxMzU0NjY2OCwxNjQ0NzYyOTk4LDQ1NTk4Nzg0MSwyMDYyMzM4
+MjM3LDE4NTM1NjExMjAsMTIyNjYxMjI2NiwtMTEwMDkwMjc5MS
+wtMTY2MDU5NjgxMCwtMTQ4NTUzODIwNV19
 -->
