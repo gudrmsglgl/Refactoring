@@ -162,10 +162,12 @@ return basePrice - quantityDiscount + shipping
 	- 이름이 들어갈 문맥을 살피자.
 	- 현재 함수 안에서만 의미가 있다면 변수로 추출
 	- ~~함수를 벗어난~~ **넓은 문맥**에서까지 의미가 된다면 그 **넓은 범위에서 통용**되는 이름
+	- 변수가 아닌 (주로) 함수로 추출해야 한다.
+	- 이름이 통용되는 문맥을 넓히면 다른 코드에서 사용할 수 있기 때문에 같은 표
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI1MTkxMjY1LDEwMTk4Nzg0ODQsLTI0MD
-A0NzAyLDE2NzgxMjU4MjAsLTE1NTU4ODgzMTEsLTQxMzU0NjY2
-OCwxNjQ0NzYyOTk4LDQ1NTk4Nzg0MSwyMDYyMzM4MjM3LDE4NT
-M1NjExMjAsMTIyNjYxMjI2NiwtMTEwMDkwMjc5MSwtMTY2MDU5
-NjgxMCwtMTQ4NTUzODIwNV19
+eyJoaXN0b3J5IjpbLTc3MjE4MDU5OCwyMjUxOTEyNjUsMTAxOT
+g3ODQ4NCwtMjQwMDQ3MDIsMTY3ODEyNTgyMCwtMTU1NTg4ODMx
+MSwtNDEzNTQ2NjY4LDE2NDQ3NjI5OTgsNDU1OTg3ODQxLDIwNj
+IzMzgyMzcsMTg1MzU2MTEyMCwxMjI2NjEyMjY2LC0xMTAwOTAy
+NzkxLC0xNjYwNTk2ODEwLC0xNDg1NTM4MjA1XX0=
 -->
