@@ -144,9 +144,15 @@ return order.quantity * order.itemPrice -
 	Math.max(0, order.quantity - 500) * order.itemPrice * 0.05 +
 	Math.min(order.quantity * order.itemPrice * 0.1, 100)
 ```
+**🔻&nbsp;&nbsp;변수 추출**
+```kotlin
+val basePrice = order.quantity * order.itemPrice
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3ODEyNTgyMCwtMTU1NTg4ODMxMSwtND
-EzNTQ2NjY4LDE2NDQ3NjI5OTgsNDU1OTg3ODQxLDIwNjIzMzgy
-MzcsMTg1MzU2MTEyMCwxMjI2NjEyMjY2LC0xMTAwOTAyNzkxLC
-0xNjYwNTk2ODEwLC0xNDg1NTM4MjA1XX0=
+eyJoaXN0b3J5IjpbLTEwNjM1NDMxMTQsMTY3ODEyNTgyMCwtMT
+U1NTg4ODMxMSwtNDEzNTQ2NjY4LDE2NDQ3NjI5OTgsNDU1OTg3
+ODQxLDIwNjIzMzgyMzcsMTg1MzU2MTEyMCwxMjI2NjEyMjY2LC
+0xMTAwOTAyNzkxLC0xNjYwNTk2ODEwLC0xNDg1NTM4MjA1XX0=
+
 -->
