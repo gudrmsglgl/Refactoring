@@ -49,6 +49,7 @@ fun printDetail(invoice: Invoice, outstanding: Int){
 	println("채무액: ${outstanding}")
 }
 ```
+<br>
 
 ### 🔎 &nbsp;&nbsp;코드를 독립된 함수로 묶어야 할 때
  &nbsp;&nbsp;&nbsp;&nbsp;📌&nbsp;&nbsp;**목적과 구현을 분리**
@@ -90,7 +91,7 @@ fun printDetail(invoice: Invoice, outstanding: Int){
  ⑦ 다른 코드에 방금 추출한 것과 똑같거나 비슷한 코드가 없는지 살핀다. 있다면 방금 추출한 새 함수를 호출하도록 바꿀지 검토한다. (인라인 코드를 함수 호출로 바꾸기)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MjMzODIzNywxODUzNTYxMTIwLDEyMj
-Y2MTIyNjYsLTExMDA5MDI3OTEsLTE2NjA1OTY4MTAsLTE0ODU1
-MzgyMDVdfQ==
+eyJoaXN0b3J5IjpbNDU1OTg3ODQxLDIwNjIzMzgyMzcsMTg1Mz
+U2MTEyMCwxMjI2NjEyMjY2LC0xMTAwOTAyNzkxLC0xNjYwNTk2
+ODEwLC0xNDg1NTM4MjA1XX0=
 -->
