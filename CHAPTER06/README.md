@@ -239,17 +239,17 @@ return anOrder.basePrice > 1000
 <br>
 
 ### 📍 &nbsp;&nbsp;절차
-① 대입문ㅇ<br>
-② 불변 변수를 하나 선언하고 이름을 붙일 표현식의 복제본을 대입<br>
+① 대입문의 우변(표현식)에서 부작용이 생기지 않는지 확인<br>
+② 변수가 불변으로 선언되지 않았다면 불변으로 만든 후 테스트한다.<br>
 ③ 원본 표현식을 새로 만든 변수로 교체<br>
 ④ 테스트한다. <br>
 ⑤ 표현식을 여러 곳에서 사용한다면 각각을 새로 만든 변수로 교체. 교체할 때마다 테스트
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgyNzk0MTkwLDEzNjg4NzMyNDksLTc3Mz
-QxNzQ0MiwxOTI4ODExMzgwLDE3MTM3MTk0NTksLTExMTYyNjg1
-NjgsMjI1MTkxMjY1LDEwMTk4Nzg0ODQsLTI0MDA0NzAyLDE2Nz
-gxMjU4MjAsLTE1NTU4ODgzMTEsLTQxMzU0NjY2OCwxNjQ0NzYy
-OTk4LDQ1NTk4Nzg0MSwyMDYyMzM4MjM3LDE4NTM1NjExMjAsMT
-IyNjYxMjI2NiwtMTEwMDkwMjc5MSwtMTY2MDU5NjgxMCwtMTQ4
-NTUzODIwNV19
+eyJoaXN0b3J5IjpbMTc0OTk4MTA5OSwxMzY4ODczMjQ5LC03Nz
+M0MTc0NDIsMTkyODgxMTM4MCwxNzEzNzE5NDU5LC0xMTE2MjY4
+NTY4LDIyNTE5MTI2NSwxMDE5ODc4NDg0LC0yNDAwNDcwMiwxNj
+c4MTI1ODIwLC0xNTU1ODg4MzExLC00MTM1NDY2NjgsMTY0NDc2
+Mjk5OCw0NTU5ODc4NDEsMjA2MjMzODIzNywxODUzNTYxMTIwLD
+EyMjY2MTIyNjYsLTExMDA5MDI3OTEsLTE2NjA1OTY4MTAsLTE0
+ODU1MzgyMDVdfQ==
 -->
