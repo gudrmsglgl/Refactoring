@@ -71,9 +71,9 @@ fun printDetail(invoice: Invoice, outstanding: Int){
 	* 대상 코드가 매우 간던하더라도 함수로 뽑아서 목적이 더 잘 드러나는 이름을 붙일 수 있다면 추출한다.
 	* 이름이 떠오르지 않는다면 함수로 추출하면 안 되는 신호.
 	* 추출하는 과정에서 좋은 이름이 떠오를 수도 있으니 처음부터 최선의 이름부터 짓고 시작할 필요 없다.
-	* 
+	* 함수로 추출해서 사용해보고 효과가 크지 않다면 다시 원래 상태로 인라인해도 된다.
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NzQ3MzUwOSwtMTY2MDU5NjgxMCwtMT
-Q4NTUzODIwNV19
+eyJoaXN0b3J5IjpbLTE2MTY0MzM3ODMsLTE2NjA1OTY4MTAsLT
+E0ODU1MzgyMDVdfQ==
 -->
