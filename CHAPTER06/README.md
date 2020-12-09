@@ -36,6 +36,17 @@ fun printOwing(val invoice){
 	println("채무액: ${outstanding}")
 }
 ```
+
+```kotlin
+fun printOwing(val invoice){
+	printBanner()
+	val outstanding = calculateOutstanding()
+	
+	// 세부 사항 출력 
+	println("고객명: ${invoice.customer}")
+	println("채무액: ${outstanding}")
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNTA0ODQ5MF19
+eyJoaXN0b3J5IjpbMTY3Mjk2NDg1XX0=
 -->
