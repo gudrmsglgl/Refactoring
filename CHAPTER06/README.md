@@ -27,7 +27,7 @@
 ## 6.1 함수 추출하기
 
 ```kotlin
-fun printOwing(val invoice){
+fun printOwing(invoice: Invoice){
 	printBanner()
 	val outstanding = calculateOutstanding()
 	
@@ -36,9 +36,9 @@ fun printOwing(val invoice){
 	println("채무액: ${outstanding}")
 }
 ```
-
+**함수 추출 후**
 ```kotlin
-fun printOwing(val invoice){
+fun printOwing(invoice: Invoice){
 	printBanner()
 	val outstanding = calculateOutstanding()
 	
@@ -46,7 +46,9 @@ fun printOwing(val invoice){
 	println("고객명: ${invoice.customer}")
 	println("채무액: ${outstanding}")
 }
+
+fun printDetail()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3Mjk2NDg1XX0=
+eyJoaXN0b3J5IjpbNjk5MTA4MTg3XX0=
 -->
