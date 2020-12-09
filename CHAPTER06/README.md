@@ -75,9 +75,14 @@ fun printDetail(invoice: Invoice, outstanding: Int){
 ```
 ② 추출할 코드를 원본 함수에서 복사하여 새 함수에 붙여넣는다.
 ③ 추출한 코드 중 원본 함수의 지역 변수를 참조하거나 추출한 함수의 유효범위를 벗어나는 변수는 없는지 검사한다. 있다면 매개변수로 전달한다.
-
+```
+-> 함수에는 지역 변수와 매개변수가 있기 마련. 
+   가장 일반적인 처리 방법은 이런 변수 모두를 인수로 전달.
+-> 추출한 코드에서만 사용하는 변수가 추출한 함수 밖에 선언되어 있다면 추출한 함수 안에서 선언 하도록 수정
+   
+```
  ④ ⑤ ⑥ ⑦ ⑧ ⑨ ⑩ ⑪
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNDk2Mjk1MCwtMTEwMDkwMjc5MSwtMT
-Y2MDU5NjgxMCwtMTQ4NTUzODIwNV19
+eyJoaXN0b3J5IjpbLTE2NDA4Nzk0MDIsLTExMDA5MDI3OTEsLT
+E2NjA1OTY4MTAsLTE0ODU1MzgyMDVdfQ==
 -->
