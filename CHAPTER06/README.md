@@ -166,8 +166,12 @@ return basePrice - quantityDiscount + shipping
 		- 이름이 통용되는 문맥을 넓히면 다른 코드에서 사용할 수 있기 때문에 같은 표현식을 중복해서 작성하지 않아도 됨
 		- 중복이 적으면서 의도가 잘 드러나는 코드를 작성 
 ```kotlin
-class Order(record: Record){
-
+class Order{
+	val data
+	constructor(record: Record){
+		this.data = record
+	}
+	
 }
 
 ```
@@ -180,10 +184,10 @@ class Order(record: Record){
 ④ 테스트한다. <br>
 ⑤ 표현식을 여러 곳에서 사용한다면 각각을 새로 만든 변수로 교체. 교체할 때마다 테스트
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyOTQyODQ1MCwtMTExNjI2ODU2OCwyMj
-UxOTEyNjUsMTAxOTg3ODQ4NCwtMjQwMDQ3MDIsMTY3ODEyNTgy
-MCwtMTU1NTg4ODMxMSwtNDEzNTQ2NjY4LDE2NDQ3NjI5OTgsND
-U1OTg3ODQxLDIwNjIzMzgyMzcsMTg1MzU2MTEyMCwxMjI2NjEy
-MjY2LC0xMTAwOTAyNzkxLC0xNjYwNTk2ODEwLC0xNDg1NTM4Mj
-A1XX0=
+eyJoaXN0b3J5IjpbLTEwNjgwODU2OTcsLTExMTYyNjg1NjgsMj
+I1MTkxMjY1LDEwMTk4Nzg0ODQsLTI0MDA0NzAyLDE2NzgxMjU4
+MjAsLTE1NTU4ODgzMTEsLTQxMzU0NjY2OCwxNjQ0NzYyOTk4LD
+Q1NTk4Nzg0MSwyMDYyMzM4MjM3LDE4NTM1NjExMjAsMTIyNjYx
+MjI2NiwtMTEwMDkwMjc5MSwtMTY2MDU5NjgxMCwtMTQ4NTUzOD
+IwNV19
 -->
