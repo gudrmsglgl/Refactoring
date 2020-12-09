@@ -165,9 +165,12 @@ return basePrice - quantityDiscount + shipping
 		- 변수가 아닌 (주로) 함수로 추출해야 한다.
 		- 이름이 통용되는 문맥을 넓히면 다른 코드에서 사용할 수 있기 때문에 같은 표현식을 중복해서 작성하지 않아도 됨
 		- 중복이 적으면서 의도가 잘 드러나는 코드를 작성 
-		``` kotlin
-	class Order{}	
-	```
+```kotlin
+class Order(record: Record){
+
+}
+
+```
 <br>
 
 ### 📍 &nbsp;&nbsp;절차
@@ -177,10 +180,10 @@ return basePrice - quantityDiscount + shipping
 ④ 테스트한다. <br>
 ⑤ 표현식을 여러 곳에서 사용한다면 각각을 새로 만든 변수로 교체. 교체할 때마다 테스트
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc1MjgxMjI3LC0xMTE2MjY4NTY4LDIyNT
-E5MTI2NSwxMDE5ODc4NDg0LC0yNDAwNDcwMiwxNjc4MTI1ODIw
-LC0xNTU1ODg4MzExLC00MTM1NDY2NjgsMTY0NDc2Mjk5OCw0NT
-U5ODc4NDEsMjA2MjMzODIzNywxODUzNTYxMTIwLDEyMjY2MTIy
-NjYsLTExMDA5MDI3OTEsLTE2NjA1OTY4MTAsLTE0ODU1MzgyMD
-VdfQ==
+eyJoaXN0b3J5IjpbMTUyOTQyODQ1MCwtMTExNjI2ODU2OCwyMj
+UxOTEyNjUsMTAxOTg3ODQ4NCwtMjQwMDQ3MDIsMTY3ODEyNTgy
+MCwtMTU1NTg4ODMxMSwtNDEzNTQ2NjY4LDE2NDQ3NjI5OTgsND
+U1OTg3ODQxLDIwNjIzMzgyMzcsMTg1MzU2MTEyMCwxMjI2NjEy
+MjY2LC0xMTAwOTAyNzkxLC0xNjYwNTk2ODEwLC0xNDg1NTM4Mj
+A1XX0=
 -->
