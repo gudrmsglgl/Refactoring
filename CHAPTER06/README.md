@@ -168,6 +168,13 @@ return basePrice - quantityDiscount + shipping
 ```kotlin
 class Order{
 	val data
+	val quantity
+		get() = this.data.quantity
+	val itemPrice
+		get() = this.data.itemPrice
+	val price
+		get() = 
+				
 	constructor(record: Record){
 		this.data = record
 	}
@@ -184,10 +191,10 @@ class Order{
 ④ 테스트한다. <br>
 ⑤ 표현식을 여러 곳에서 사용한다면 각각을 새로 만든 변수로 교체. 교체할 때마다 테스트
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjgwODU2OTcsLTExMTYyNjg1NjgsMj
-I1MTkxMjY1LDEwMTk4Nzg0ODQsLTI0MDA0NzAyLDE2NzgxMjU4
-MjAsLTE1NTU4ODgzMTEsLTQxMzU0NjY2OCwxNjQ0NzYyOTk4LD
-Q1NTk4Nzg0MSwyMDYyMzM4MjM3LDE4NTM1NjExMjAsMTIyNjYx
-MjI2NiwtMTEwMDkwMjc5MSwtMTY2MDU5NjgxMCwtMTQ4NTUzOD
-IwNV19
+eyJoaXN0b3J5IjpbLTQ4MDEzMDcwMSwtMTExNjI2ODU2OCwyMj
+UxOTEyNjUsMTAxOTg3ODQ4NCwtMjQwMDQ3MDIsMTY3ODEyNTgy
+MCwtMTU1NTg4ODMxMSwtNDEzNTQ2NjY4LDE2NDQ3NjI5OTgsND
+U1OTg3ODQxLDIwNjIzMzgyMzcsMTg1MzU2MTEyMCwxMjI2NjEy
+MjY2LC0xMTAwOTAyNzkxLC0xNjYwNTk2ODEwLC0xNDg1NTM4Mj
+A1XX0=
 -->
