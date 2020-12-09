@@ -154,11 +154,12 @@ return basePrice - quantityDiscount + shipping
 ```
 
 ### 🔎 &nbsp;&nbsp;변수 추출할 때 
-
+- 표현식이 너무 복잡한 경우
+	- 이럴 때 지역 변수 활용 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxOTg3ODQ4NCwtMjQwMDQ3MDIsMTY3OD
-EyNTgyMCwtMTU1NTg4ODMxMSwtNDEzNTQ2NjY4LDE2NDQ3NjI5
-OTgsNDU1OTg3ODQxLDIwNjIzMzgyMzcsMTg1MzU2MTEyMCwxMj
-I2NjEyMjY2LC0xMTAwOTAyNzkxLC0xNjYwNTk2ODEwLC0xNDg1
-NTM4MjA1XX0=
+eyJoaXN0b3J5IjpbMTE0MTI2NzE3MiwxMDE5ODc4NDg0LC0yND
+AwNDcwMiwxNjc4MTI1ODIwLC0xNTU1ODg4MzExLC00MTM1NDY2
+NjgsMTY0NDc2Mjk5OCw0NTU5ODc4NDEsMjA2MjMzODIzNywxOD
+UzNTYxMTIwLDEyMjY2MTIyNjYsLTExMDA5MDI3OTEsLTE2NjA1
+OTY4MTAsLTE0ODU1MzgyMDVdfQ==
 -->
