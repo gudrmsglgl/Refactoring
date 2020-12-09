@@ -32,9 +32,10 @@ fun printOwing(val invoice){
 	val outstanding = calculateOutstanding()
 	
 	// 세부 사항 출력 
-	println("고객명: ${invo}")
+	println("고객명: ${invoice.customer}")
+	println("채무액: ${outstanding}")
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTczMDI1NF19
+eyJoaXN0b3J5IjpbLTUzNTA0ODQ5MF19
 -->
