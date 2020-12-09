@@ -24,7 +24,7 @@
 <br>
 <div id='id-section1'/>
 
-## 6.1 함수 추출하기
+## 6.1 함수 추출하기 Extract Function
 
 ```kotlin
 fun printOwing(invoice: Invoice){
@@ -93,9 +93,10 @@ fun printDetail(invoice: Invoice, outstanding: Int){
 <br>
 <div id='id-section2'/>
 
-## 6.2 함수 추출하기
+## 6.2 함수 인라인하기 Inline Function
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAxOTk2MjEyLDQ1NTk4Nzg0MSwyMDYyMz
-M4MjM3LDE4NTM1NjExMjAsMTIyNjYxMjI2NiwtMTEwMDkwMjc5
-MSwtMTY2MDU5NjgxMCwtMTQ4NTUzODIwNV19
+eyJoaXN0b3J5IjpbMTY0NDc2Mjk5OCw0NTU5ODc4NDEsMjA2Mj
+MzODIzNywxODUzNTYxMTIwLDEyMjY2MTIyNjYsLTExMDA5MDI3
+OTEsLTE2NjA1OTY4MTAsLTE0ODU1MzgyMDVdfQ==
 -->
