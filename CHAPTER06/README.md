@@ -174,8 +174,8 @@ class Order{
 		get() = this.data.itemPrice
 	val price
 		get() = this.quantity * this.itemPrice - 
-		Math.max(0, order.quantity - 500) * order.itemPrice * 0.05 +
-		Math.min(order.quantity * order.itemPrice * 0.1, 100)
+		Math.max(0, this.quantity - 500) * this.itemPrice * 0.05 +
+		Math.min(this.quantity * this.itemPrice * 0.1, 100)
 				
 	constructor(record: Record){
 		this.data = record
@@ -195,11 +195,11 @@ class Order{
 	val basePrice
 		get() = this.quantity * this.itemPrice
 	val quantityDiscount
-		get() = Math.max(0, this.quantity - 500) * this.itemPrice * 0.05	
+		get() = Math.max(0, this.quantity - 500) * this.itemPrice * 0.05
+	val shipping
+		get() = Math.min(this.quantity * this.itemPrice * 0.1, 100)	
 	val price
-		get() = this.quantity * this.itemPrice - 
-		Math.max(0, order.quantity - 500) * order.itemPrice * 0.05 +
-		Math.min(order.quantity * order.itemPrice * 0.1, 100)
+		get() = this.basePrice - this.quantityDiscount + this.shipping
 				
 	constructor(record: Record){
 		this.data = record
@@ -216,10 +216,10 @@ class Order{
 ④ 테스트한다. <br>
 ⑤ 표현식을 여러 곳에서 사용한다면 각각을 새로 만든 변수로 교체. 교체할 때마다 테스트
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMzcxOTQ1OSwtMTExNjI2ODU2OCwyMj
-UxOTEyNjUsMTAxOTg3ODQ4NCwtMjQwMDQ3MDIsMTY3ODEyNTgy
-MCwtMTU1NTg4ODMxMSwtNDEzNTQ2NjY4LDE2NDQ3NjI5OTgsND
-U1OTg3ODQxLDIwNjIzMzgyMzcsMTg1MzU2MTEyMCwxMjI2NjEy
-MjY2LC0xMTAwOTAyNzkxLC0xNjYwNTk2ODEwLC0xNDg1NTM4Mj
-A1XX0=
+eyJoaXN0b3J5IjpbMTkyODgxMTM4MCwxNzEzNzE5NDU5LC0xMT
+E2MjY4NTY4LDIyNTE5MTI2NSwxMDE5ODc4NDg0LC0yNDAwNDcw
+MiwxNjc4MTI1ODIwLC0xNTU1ODg4MzExLC00MTM1NDY2NjgsMT
+Y0NDc2Mjk5OCw0NTU5ODc4NDEsMjA2MjMzODIzNywxODUzNTYx
+MTIwLDEyMjY2MTIyNjYsLTExMDA5MDI3OTEsLTE2NjA1OTY4MT
+AsLTE0ODU1MzgyMDVdfQ==
 -->
