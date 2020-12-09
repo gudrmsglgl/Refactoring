@@ -173,14 +173,34 @@ class Order{
 	val itemPrice
 		get() = this.data.itemPrice
 	val price
-		get() = 
+		get() = this.quantity * this.itemPrice - 
+		Math.max(0, order.quantity - 500) * order.itemPrice * 0.05 +
+		Math.min(order.quantity * order.itemPrice * 0.1, 100)
 				
 	constructor(record: Record){
 		this.data = record
 	}
 	
 }
+```
 
+```kotlin
+class Order{
+	val data
+	val quantity
+		get() = this.data.quantity
+	val itemPrice
+		get() = this.data.itemPrice
+	val price
+		get() = this.quantity * this.itemPrice - 
+		Math.max(0, order.quantity - 500) * order.itemPrice * 0.05 +
+		Math.min(order.quantity * order.itemPrice * 0.1, 100)
+				
+	constructor(record: Record){
+		this.data = record
+	}
+	
+}
 ```
 <br>
 
@@ -191,10 +211,10 @@ class Order{
 ④ 테스트한다. <br>
 ⑤ 표현식을 여러 곳에서 사용한다면 각각을 새로 만든 변수로 교체. 교체할 때마다 테스트
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MDEzMDcwMSwtMTExNjI2ODU2OCwyMj
-UxOTEyNjUsMTAxOTg3ODQ4NCwtMjQwMDQ3MDIsMTY3ODEyNTgy
-MCwtMTU1NTg4ODMxMSwtNDEzNTQ2NjY4LDE2NDQ3NjI5OTgsND
-U1OTg3ODQxLDIwNjIzMzgyMzcsMTg1MzU2MTEyMCwxMjI2NjEy
-MjY2LC0xMTAwOTAyNzkxLC0xNjYwNTk2ODEwLC0xNDg1NTM4Mj
-A1XX0=
+eyJoaXN0b3J5IjpbOTk4OTM3NDYyLC0xMTE2MjY4NTY4LDIyNT
+E5MTI2NSwxMDE5ODc4NDg0LC0yNDAwNDcwMiwxNjc4MTI1ODIw
+LC0xNTU1ODg4MzExLC00MTM1NDY2NjgsMTY0NDc2Mjk5OCw0NT
+U5ODc4NDEsMjA2MjMzODIzNywxODUzNTYxMTIwLDEyMjY2MTIy
+NjYsLTExMDA5MDI3OTEsLTE2NjA1OTY4MTAsLTE0ODU1MzgyMD
+VdfQ==
 -->
