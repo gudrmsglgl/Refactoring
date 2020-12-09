@@ -105,20 +105,15 @@ fun moreThanFiveLateDeliveries(driver: Driver): Int {
 ```
 **🔻&nbsp;&nbsp;함수 인라인**
 ```kotlin
-fun printOwing(invoice: Invoice){
-	printBanner()
-	val outstanding = calculateOutstanding()
-	printDetail(invoice, outstanding)
-}
-
-fun printDetail(invoice: Invoice, outstanding: Int){
-	println("고객명: ${invoice.customer}")
-	println("채무액: ${outstanding}")
+fun getRating(driver: Driver): Int{
+	retrun (driver.numberOfLateDeliveries > 5) ? 2: 1
 }
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEyMTAyNjEwLDE2NDQ3NjI5OTgsNDU1OT
-g3ODQxLDIwNjIzMzgyMzcsMTg1MzU2MTEyMCwxMjI2NjEyMjY2
-LC0xMTAwOTAyNzkxLC0xNjYwNTk2ODEwLC0xNDg1NTM4MjA1XX
-0=
+eyJoaXN0b3J5IjpbLTc3MDAxMDI2OSwxNjQ0NzYyOTk4LDQ1NT
+k4Nzg0MSwyMDYyMzM4MjM3LDE4NTM1NjExMjAsMTIyNjYxMjI2
+NiwtMTEwMDkwMjc5MSwtMTY2MDU5NjgxMCwtMTQ4NTUzODIwNV
+19
 -->
