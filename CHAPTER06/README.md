@@ -90,8 +90,12 @@ fun printDetail(invoice: Invoice, outstanding: Int){
  ⑥ 테스트한다.<br>
  ⑦ 다른 코드에 방금 추출한 것과 똑같거나 비슷한 코드가 없는지 살핀다. 있다면 방금 추출한 새 함수를 호출하도록 바꿀지 검토한다. (인라인 코드를 함수 호출로 바꾸기)
 
+<br>
+<div id='id-section2'/>
+
+## 6.2 함수 추출하기
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU1OTg3ODQxLDIwNjIzMzgyMzcsMTg1Mz
-U2MTEyMCwxMjI2NjEyMjY2LC0xMTAwOTAyNzkxLC0xNjYwNTk2
-ODEwLC0xNDg1NTM4MjA1XX0=
+eyJoaXN0b3J5IjpbOTAxOTk2MjEyLDQ1NTk4Nzg0MSwyMDYyMz
+M4MjM3LDE4NTM1NjExMjAsMTIyNjYxMjI2NiwtMTEwMDkwMjc5
+MSwtMTY2MDU5NjgxMCwtMTQ4NTUzODIwNV19
 -->
