@@ -113,12 +113,14 @@ fun getRating(driver: Driver): Int{
 <br>
 
 ### 🔎 &nbsp;&nbsp;함수를 인라인 할 때 
-
-
-
+- 함수 본문이 이름만큼 명확한 경우
+- 함수 본문 코드를 이름만큼 깔끔하게 리팩터링할 때
+- 리팩터링 과정에서 잘못 추출된 함수들도 다시 인라인
+- 간접 호출을 너무 과하게 쓰는 코드
+- 다른 함수로 단순히 위임하기만 하는 함수들이 너무 많아서 위임 관계가 복잡하게 얽혀 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc5ODYxMTIsLTQxMzU0NjY2OCwxNjQ0Nz
-YyOTk4LDQ1NTk4Nzg0MSwyMDYyMzM4MjM3LDE4NTM1NjExMjAs
-MTIyNjYxMjI2NiwtMTEwMDkwMjc5MSwtMTY2MDU5NjgxMCwtMT
-Q4NTUzODIwNV19
+eyJoaXN0b3J5IjpbLTEyNTA5NzY4ODgsLTQxMzU0NjY2OCwxNj
+Q0NzYyOTk4LDQ1NTk4Nzg0MSwyMDYyMzM4MjM3LDE4NTM1NjEx
+MjAsMTIyNjYxMjI2NiwtMTEwMDkwMjc5MSwtMTY2MDU5NjgxMC
+wtMTQ4NTUzODIwNV19
 -->
