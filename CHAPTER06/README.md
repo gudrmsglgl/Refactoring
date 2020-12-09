@@ -36,12 +36,12 @@ fun printOwing(invoice: Invoice){
 	println("채무액: ${outstanding}")
 }
 ```
-**함수 추출 후**
+**🔻&nbsp;&nbsp;함수 추출 후**
 ```kotlin
 fun printOwing(invoice: Invoice){
 	printBanner()
 	val outstanding = calculateOutstanding()
-	printDetail()
+	printDetail(invoice, outstanding)
 }
 
 fun printDetail(invoice: Invoice, outstanding: Int){
@@ -50,5 +50,5 @@ fun printDetail(invoice: Invoice, outstanding: Int){
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NDA5NjY3OV19
+eyJoaXN0b3J5IjpbMTU4NDk2MzU1OF19
 -->
