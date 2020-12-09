@@ -1,6 +1,7 @@
 # 기본적인 리팩터링
 [함수 추출하기](#id-section1)<br>
 [함수 인라인하기](#id-section2)<br>
+[변수 추출하기](#id-section3)<br>
 
 
 ### 저수준 리팩터링
@@ -149,12 +150,12 @@ return order.quantity * order.itemPrice -
 val basePrice = order.quantity * order.itemPrice
 val quantityDiscount = Math.max(0, order.quantity - 500) * order.itemPrice * 0.05
 val shipping = Math.min(basePrice * 0.1, 100)
-return basePrice = 
+return basePrice - quantityDiscount + shipping
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYwMDk1OTUsMTY3ODEyNTgyMCwtMTU1NT
-g4ODMxMSwtNDEzNTQ2NjY4LDE2NDQ3NjI5OTgsNDU1OTg3ODQx
-LDIwNjIzMzgyMzcsMTg1MzU2MTEyMCwxMjI2NjEyMjY2LC0xMT
-AwOTAyNzkxLC0xNjYwNTk2ODEwLC0xNDg1NTM4MjA1XX0=
+eyJoaXN0b3J5IjpbLTI0MDA0NzAyLDE2NzgxMjU4MjAsLTE1NT
+U4ODgzMTEsLTQxMzU0NjY2OCwxNjQ0NzYyOTk4LDQ1NTk4Nzg0
+MSwyMDYyMzM4MjM3LDE4NTM1NjExMjAsMTIyNjYxMjI2NiwtMT
+EwMDkwMjc5MSwtMTY2MDU5NjgxMCwtMTQ4NTUzODIwNV19
 -->
