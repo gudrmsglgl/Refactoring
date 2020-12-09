@@ -55,6 +55,8 @@ fun printDetail(invoice: Invoice, outstanding: Int){
 ```
   * 코드를 보고 무슨 일을 하는지 파악하는 데 한참이 걸린다면 함수로 추출
    '무슨 일'에 걸맞는 이름을 짓는다.
+  * 함수를 아주 짧게, 단 몇 줄만 담도록 작성하는 습관 
+  * 5~6줄 이상  
 ```
 - 길이를 기준
  : 한 화면을 넘어가면 안 된다
@@ -62,6 +64,6 @@ fun printDetail(invoice: Invoice, outstanding: Int){
 : 두 번 이상 사용될 코드는 함수로 만들고, 한 번만 쓰이는 코드는 인라인 상태로 놔두는 것.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MDU4MTk4NSwtMTY2MDU5NjgxMCwtMT
+eyJoaXN0b3J5IjpbLTQwNjA3OTAyMSwtMTY2MDU5NjgxMCwtMT
 Q4NTUzODIwNV19
 -->
