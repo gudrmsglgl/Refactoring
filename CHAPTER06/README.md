@@ -49,6 +49,8 @@ fun printDetail(invoice: Invoice, outstanding: Int){
 	println("채무액: ${outstanding}")
 }
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NDk2MzU1OF19
+eyJoaXN0b3J5IjpbLTEzOTQ4OTk1MThdfQ==
 -->
