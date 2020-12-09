@@ -24,7 +24,16 @@
 <br>
 <div id='id-section1'/>
 
-## 함수 추출
+## 6.1 함수 추출하기
+
+    enter code here
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MDgyMzIxMF19
+eyJkaXNjdXNzaW9ucyI6eyJPMk1GaGl4RjJCbWxLbnRIIjp7In
+N0YXJ0Ijo1MjAsImVuZCI6NTM1LCJ0ZXh0IjoiZW50ZXIgY29k
+ZSBoZXJlIn19LCJjb21tZW50cyI6eyJpMGhpbzF3akxJZG42UF
+FrIjp7ImRpc2N1c3Npb25JZCI6Ik8yTUZoaXhGMkJtbEtudEgi
+LCJzdWIiOiJnaDoxNjUzNzk3NyIsInRleHQiOiJrb3RsaW4iLC
+JjcmVhdGVkIjoxNjA3NDk1NDA5MzQ0fX0sImhpc3RvcnkiOlst
+MzEzMzA4MTkyXX0=
 -->
