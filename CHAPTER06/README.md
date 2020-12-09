@@ -63,11 +63,11 @@ fun printDetail(invoice: Invoice, outstanding: Int){
  : 한 화면을 넘어가면 안 된다
 - 재사용성 기준
 : 두 번 이상 사용될 코드는 함수로 만들고, 한 번만 쓰이는 코드는 인라인 상태로 놔두는 것.
-
+<br>
 ### 📍 &nbsp;&nbsp;함수 추출 절차
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTgxMjY1NTYsLTE2NjA1OTY4MTAsLT
-E0ODU1MzgyMDVdfQ==
+eyJoaXN0b3J5IjpbNDYxNTE4Njc4LC0xNjYwNTk2ODEwLC0xND
+g1NTM4MjA1XX0=
 -->
