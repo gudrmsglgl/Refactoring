@@ -215,11 +215,21 @@ class Order{
 ③ 원본 표현식을 새로 만든 변수로 교체<br>
 ④ 테스트한다. <br>
 ⑤ 표현식을 여러 곳에서 사용한다면 각각을 새로 만든 변수로 교체. 교체할 때마다 테스트
+
+
+<br>
+<div id='id-section4'/>
+
+## 6.4 변수 인라인하기 Inline Variable
+
+```kotlin
+val basePrice = anOrder.basePrice
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyODgxMTM4MCwxNzEzNzE5NDU5LC0xMT
-E2MjY4NTY4LDIyNTE5MTI2NSwxMDE5ODc4NDg0LC0yNDAwNDcw
-MiwxNjc4MTI1ODIwLC0xNTU1ODg4MzExLC00MTM1NDY2NjgsMT
-Y0NDc2Mjk5OCw0NTU5ODc4NDEsMjA2MjMzODIzNywxODUzNTYx
-MTIwLDEyMjY2MTIyNjYsLTExMDA5MDI3OTEsLTE2NjA1OTY4MT
-AsLTE0ODU1MzgyMDVdfQ==
+eyJoaXN0b3J5IjpbLTk5MjQ0Njc4NCwxOTI4ODExMzgwLDE3MT
+M3MTk0NTksLTExMTYyNjg1NjgsMjI1MTkxMjY1LDEwMTk4Nzg0
+ODQsLTI0MDA0NzAyLDE2NzgxMjU4MjAsLTE1NTU4ODgzMTEsLT
+QxMzU0NjY2OCwxNjQ0NzYyOTk4LDQ1NTk4Nzg0MSwyMDYyMzM4
+MjM3LDE4NTM1NjExMjAsMTIyNjYxMjI2NiwtMTEwMDkwMjc5MS
+wtMTY2MDU5NjgxMCwtMTQ4NTUzODIwNV19
 -->
