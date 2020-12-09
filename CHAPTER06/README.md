@@ -183,7 +183,7 @@ class Order{
 	
 }
 ```
-**🔻&nbsp;&nbsp;이름이 가격을 계산하는 price() 메서드의 범위를 넘어 클래스 전체 적용<br> &nbsp-> 변수추출x, 함수추출o**
+**🔻&nbsp;&nbsp;이름이 가격을 계산하는 price() 메서드의 범위를 넘어 클래스 전체 적용<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-> 변수추출x, 함수추출o**
 
 ```kotlin
 class Order{
@@ -192,6 +192,10 @@ class Order{
 		get() = this.data.quantity
 	val itemPrice
 		get() = this.data.itemPrice
+	val basePrice
+		get() = this.quantity * this.itemPrice
+	val quantityDiscount
+		get() = 	
 	val price
 		get() = this.quantity * this.itemPrice - 
 		Math.max(0, order.quantity - 500) * order.itemPrice * 0.05 +
@@ -212,10 +216,10 @@ class Order{
 ④ 테스트한다. <br>
 ⑤ 표현식을 여러 곳에서 사용한다면 각각을 새로 만든 변수로 교체. 교체할 때마다 테스트
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MTk2MTczMiwtMTExNjI2ODU2OCwyMj
-UxOTEyNjUsMTAxOTg3ODQ4NCwtMjQwMDQ3MDIsMTY3ODEyNTgy
-MCwtMTU1NTg4ODMxMSwtNDEzNTQ2NjY4LDE2NDQ3NjI5OTgsND
-U1OTg3ODQxLDIwNjIzMzgyMzcsMTg1MzU2MTEyMCwxMjI2NjEy
-MjY2LC0xMTAwOTAyNzkxLC0xNjYwNTk2ODEwLC0xNDg1NTM4Mj
-A1XX0=
+eyJoaXN0b3J5IjpbNzgxNzM1MTM2LC0xMTE2MjY4NTY4LDIyNT
+E5MTI2NSwxMDE5ODc4NDg0LC0yNDAwNDcwMiwxNjc4MTI1ODIw
+LC0xNTU1ODg4MzExLC00MTM1NDY2NjgsMTY0NDc2Mjk5OCw0NT
+U5ODc4NDEsMjA2MjMzODIzNywxODUzNTYxMTIwLDEyMjY2MTIy
+NjYsLTExMDA5MDI3OTEsLTE2NjA1OTY4MTAsLTE0ODU1MzgyMD
+VdfQ==
 -->
