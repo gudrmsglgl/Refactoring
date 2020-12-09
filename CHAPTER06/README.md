@@ -241,15 +241,18 @@ return anOrder.basePrice > 1000
 ### 📍 &nbsp;&nbsp;절차
 ① 대입문의 우변(표현식)에서 부작용이 생기지 않는지 확인<br>
 ② 변수가 불변으로 선언되지 않았다면 불변으로 만든 후 테스트한다.<br>
+```
+-> 이렇게 하면 변수에 값이 단 한번만 대입되는지 확인할 수 있다.
+```
 ③ 원본 표현식을 새로 만든 변수로 교체<br>
 ④ 테스트한다. <br>
 ⑤ 표현식을 여러 곳에서 사용한다면 각각을 새로 만든 변수로 교체. 교체할 때마다 테스트
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0OTk4MTA5OSwxMzY4ODczMjQ5LC03Nz
-M0MTc0NDIsMTkyODgxMTM4MCwxNzEzNzE5NDU5LC0xMTE2MjY4
-NTY4LDIyNTE5MTI2NSwxMDE5ODc4NDg0LC0yNDAwNDcwMiwxNj
-c4MTI1ODIwLC0xNTU1ODg4MzExLC00MTM1NDY2NjgsMTY0NDc2
-Mjk5OCw0NTU5ODc4NDEsMjA2MjMzODIzNywxODUzNTYxMTIwLD
-EyMjY2MTIyNjYsLTExMDA5MDI3OTEsLTE2NjA1OTY4MTAsLTE0
-ODU1MzgyMDVdfQ==
+eyJoaXN0b3J5IjpbMTY0MTc3ODc4NywxNzQ5OTgxMDk5LDEzNj
+g4NzMyNDksLTc3MzQxNzQ0MiwxOTI4ODExMzgwLDE3MTM3MTk0
+NTksLTExMTYyNjg1NjgsMjI1MTkxMjY1LDEwMTk4Nzg0ODQsLT
+I0MDA0NzAyLDE2NzgxMjU4MjAsLTE1NTU4ODgzMTEsLTQxMzU0
+NjY2OCwxNjQ0NzYyOTk4LDQ1NTk4Nzg0MSwyMDYyMzM4MjM3LD
+E4NTM1NjExMjAsMTIyNjYxMjI2NiwtMTEwMDkwMjc5MSwtMTY2
+MDU5NjgxMF19
 -->
