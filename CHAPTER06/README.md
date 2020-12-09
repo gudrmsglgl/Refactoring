@@ -161,10 +161,11 @@ return basePrice - quantityDiscount + shipping
 - 변수 추출은 곧 이름을 붙이고 싶다.
 	- 이름이 들어갈 문맥을 살피자.
 	- 현재 함수 안에서만 의미가 있다면 변수로 추출
+	- ~~함수를 벗어난~~ **넓은 문맥**에서까지 의미가 된다면 그 **넓은 범위에서 통용**되는 이름
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NDQ5MDIyMiwxMDE5ODc4NDg0LC0yND
-AwNDcwMiwxNjc4MTI1ODIwLC0xNTU1ODg4MzExLC00MTM1NDY2
-NjgsMTY0NDc2Mjk5OCw0NTU5ODc4NDEsMjA2MjMzODIzNywxOD
-UzNTYxMTIwLDEyMjY2MTIyNjYsLTExMDA5MDI3OTEsLTE2NjA1
-OTY4MTAsLTE0ODU1MzgyMDVdfQ==
+eyJoaXN0b3J5IjpbMjI1MTkxMjY1LDEwMTk4Nzg0ODQsLTI0MD
+A0NzAyLDE2NzgxMjU4MjAsLTE1NTU4ODgzMTEsLTQxMzU0NjY2
+OCwxNjQ0NzYyOTk4LDQ1NTk4Nzg0MSwyMDYyMzM4MjM3LDE4NT
+M1NjExMjAsMTIyNjYxMjI2NiwtMTEwMDkwMjc5MSwtMTY2MDU5
+NjgxMCwtMTQ4NTUzODIwNV19
 -->
