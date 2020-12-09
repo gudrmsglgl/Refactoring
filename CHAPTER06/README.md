@@ -50,7 +50,8 @@ fun printDetail(invoice: Invoice, outstanding: Int){
 }
 ```
 
-🔎 
+### 🔎  코드를 독립된 함수로 묶어야 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODU1MzgyMDVdfQ==
+eyJoaXN0b3J5IjpbLTE2NjA1OTY4MTAsLTE0ODU1MzgyMDVdfQ
+==
 -->
