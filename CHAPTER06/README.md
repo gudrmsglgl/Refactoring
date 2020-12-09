@@ -244,15 +244,17 @@ return anOrder.basePrice > 1000
 ```
 -> 이렇게 하면 변수에 값이 단 한번만 대입되는지 확인할 수 있다.
 ```
-③ 원본 표현식을 새로 만든 변수로 교체<br>
+③ 이 변수를 가장 처음 사용하는 코드를 찾아서 대입문 우변의 코드로 바꾼다.<br>
 ④ 테스트한다. <br>
-⑤ 표현식을 여러 곳에서 사용한다면 각각을 새로 만든 변수로 교체. 교체할 때마다 테스트
+⑤ 변수를 사용하는 부분을 모두 교체할 때까지 이 과정을 반복한다.<br>
+⑥ 변수 선언문과 대입문을 지운다.<br>
+⑦ 테스트한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MTc3ODc4NywxNzQ5OTgxMDk5LDEzNj
-g4NzMyNDksLTc3MzQxNzQ0MiwxOTI4ODExMzgwLDE3MTM3MTk0
-NTksLTExMTYyNjg1NjgsMjI1MTkxMjY1LDEwMTk4Nzg0ODQsLT
-I0MDA0NzAyLDE2NzgxMjU4MjAsLTE1NTU4ODgzMTEsLTQxMzU0
-NjY2OCwxNjQ0NzYyOTk4LDQ1NTk4Nzg0MSwyMDYyMzM4MjM3LD
-E4NTM1NjExMjAsMTIyNjYxMjI2NiwtMTEwMDkwMjc5MSwtMTY2
-MDU5NjgxMF19
+eyJoaXN0b3J5IjpbLTE2NzczNjUwODEsMTc0OTk4MTA5OSwxMz
+Y4ODczMjQ5LC03NzM0MTc0NDIsMTkyODgxMTM4MCwxNzEzNzE5
+NDU5LC0xMTE2MjY4NTY4LDIyNTE5MTI2NSwxMDE5ODc4NDg0LC
+0yNDAwNDcwMiwxNjc4MTI1ODIwLC0xNTU1ODg4MzExLC00MTM1
+NDY2NjgsMTY0NDc2Mjk5OCw0NTU5ODc4NDEsMjA2MjMzODIzNy
+wxODUzNTYxMTIwLDEyMjY2MTIyNjYsLTExMDA5MDI3OTEsLTE2
+NjA1OTY4MTBdfQ==
 -->
