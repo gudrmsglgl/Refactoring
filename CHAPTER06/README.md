@@ -172,11 +172,11 @@ return basePrice - quantityDiscount + shipping
 ② 불변 변수를 하나 선언하고 이름을 붙일 표현식의 복제본을 대입<br>
 ③ 원본 표현식을 새로 만든 변수로 교체<br>
 ④ 테스트한다. <br>
-⑤ 표현식을 여러 곳에서 사용한다면 각각을 새로 만든 변수로 교체. 교체할 때마다 
+⑤ 표현식을 여러 곳에서 사용한다면 각각을 새로 만든 변수로 교체. 교체할 때마다 테스트
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3OTQ5NjA3NiwyMjUxOTEyNjUsMTAxOT
-g3ODQ4NCwtMjQwMDQ3MDIsMTY3ODEyNTgyMCwtMTU1NTg4ODMx
-MSwtNDEzNTQ2NjY4LDE2NDQ3NjI5OTgsNDU1OTg3ODQxLDIwNj
-IzMzgyMzcsMTg1MzU2MTEyMCwxMjI2NjEyMjY2LC0xMTAwOTAy
-NzkxLC0xNjYwNTk2ODEwLC0xNDg1NTM4MjA1XX0=
+eyJoaXN0b3J5IjpbLTExMTYyNjg1NjgsMjI1MTkxMjY1LDEwMT
+k4Nzg0ODQsLTI0MDA0NzAyLDE2NzgxMjU4MjAsLTE1NTU4ODgz
+MTEsLTQxMzU0NjY2OCwxNjQ0NzYyOTk4LDQ1NTk4Nzg0MSwyMD
+YyMzM4MjM3LDE4NTM1NjExMjAsMTIyNjYxMjI2NiwtMTEwMDkw
+Mjc5MSwtMTY2MDU5NjgxMCwtMTQ4NTUzODIwNV19
 -->
