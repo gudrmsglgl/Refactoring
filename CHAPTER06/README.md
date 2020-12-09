@@ -224,9 +224,11 @@ class Order{
 
 ```kotlin
 val basePrice = anOrder.basePrice
+return (basePrice > 1000)
 ```
+**🔻**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MjQ0Njc4NCwxOTI4ODExMzgwLDE3MT
+eyJoaXN0b3J5IjpbLTc3MzQxNzQ0MiwxOTI4ODExMzgwLDE3MT
 M3MTk0NTksLTExMTYyNjg1NjgsMjI1MTkxMjY1LDEwMTk4Nzg0
 ODQsLTI0MDA0NzAyLDE2NzgxMjU4MjAsLTE1NTU4ODgzMTEsLT
 QxMzU0NjY2OCwxNjQ0NzYyOTk4LDQ1NTk4Nzg0MSwyMDYyMzM4
