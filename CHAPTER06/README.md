@@ -230,12 +230,17 @@ return (basePrice > 1000)
 ```kotlin
 return anOrder.basePrice > 1000
 ```
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2ODg3MzI0OSwtNzczNDE3NDQyLDE5Mj
-g4MTEzODAsMTcxMzcxOTQ1OSwtMTExNjI2ODU2OCwyMjUxOTEy
-NjUsMTAxOTg3ODQ4NCwtMjQwMDQ3MDIsMTY3ODEyNTgyMCwtMT
-U1NTg4ODMxMSwtNDEzNTQ2NjY4LDE2NDQ3NjI5OTgsNDU1OTg3
-ODQxLDIwNjIzMzgyMzcsMTg1MzU2MTEyMCwxMjI2NjEyMjY2LC
-0xMTAwOTAyNzkxLC0xNjYwNTk2ODEwLC0xNDg1NTM4MjA1XX0=
+<br>
 
+### 🔎 &nbsp;&nbsp;변수를 인라인 할 때 
+- 원래 표현식과 다를 바 없을 때 
+- 변수가 주변 코드를 리팩터링하는 데 방해될 때 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTQwNDU3OTkzOSwxMzY4ODczMjQ5LC03Nz
+M0MTc0NDIsMTkyODgxMTM4MCwxNzEzNzE5NDU5LC0xMTE2MjY4
+NTY4LDIyNTE5MTI2NSwxMDE5ODc4NDg0LC0yNDAwNDcwMiwxNj
+c4MTI1ODIwLC0xNTU1ODg4MzExLC00MTM1NDY2NjgsMTY0NDc2
+Mjk5OCw0NTU5ODc4NDEsMjA2MjMzODIzNywxODUzNTYxMTIwLD
+EyMjY2MTIyNjYsLTExMDA5MDI3OTEsLTE2NjA1OTY4MTAsLTE0
+ODU1MzgyMDVdfQ==
 -->
