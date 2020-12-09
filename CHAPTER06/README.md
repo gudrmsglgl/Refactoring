@@ -153,9 +153,12 @@ val shipping = Math.min(basePrice * 0.1, 100)
 return basePrice - quantityDiscount + shipping
 ```
 
+### 🔎 &nbsp;&nbsp;변수 추출할 때 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MDA0NzAyLDE2NzgxMjU4MjAsLTE1NT
-U4ODgzMTEsLTQxMzU0NjY2OCwxNjQ0NzYyOTk4LDQ1NTk4Nzg0
-MSwyMDYyMzM4MjM3LDE4NTM1NjExMjAsMTIyNjYxMjI2NiwtMT
-EwMDkwMjc5MSwtMTY2MDU5NjgxMCwtMTQ4NTUzODIwNV19
+eyJoaXN0b3J5IjpbMTAxOTg3ODQ4NCwtMjQwMDQ3MDIsMTY3OD
+EyNTgyMCwtMTU1NTg4ODMxMSwtNDEzNTQ2NjY4LDE2NDQ3NjI5
+OTgsNDU1OTg3ODQxLDIwNjIzMzgyMzcsMTg1MzU2MTEyMCwxMj
+I2NjEyMjY2LC0xMTAwOTAyNzkxLC0xNjYwNTk2ODEwLC0xNDg1
+NTM4MjA1XX0=
 -->
