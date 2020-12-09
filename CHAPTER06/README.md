@@ -66,9 +66,9 @@ fun printDetail(invoice: Invoice, outstanding: Int){
 <br>
 
 ### 📍 &nbsp;&nbsp;함수 추출 절차
-
+① 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NTk3ODQ4LC0xNjYwNTk2ODEwLC0xND
-g1NTM4MjA1XX0=
+eyJoaXN0b3J5IjpbMTYzOTk1Njg0MCwtMTY2MDU5NjgxMCwtMT
+Q4NTUzODIwNV19
 -->
