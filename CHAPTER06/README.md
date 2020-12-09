@@ -140,13 +140,13 @@ fun getRating(driver: Driver): Int{
 
 ## 6.3 변수 추출하기 Extract Variable
 ```kotlin
-fun getRating(driver: Driver): Int{
-	retrun (driver.numberOfLateDeliveries > 5) ? 2: 1
-}
+return order.quantity * order.itemPrice -
+	Math.max(0, order.quantity - 500) * order.itemPrice * 0.05 +
+	Math.min(order.quantity * order.itemPrice * 0.1, 100)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTU3NTU3NzQsLTE1NTU4ODgzMTEsLT
-QxMzU0NjY2OCwxNjQ0NzYyOTk4LDQ1NTk4Nzg0MSwyMDYyMzM4
-MjM3LDE4NTM1NjExMjAsMTIyNjYxMjI2NiwtMTEwMDkwMjc5MS
-wtMTY2MDU5NjgxMCwtMTQ4NTUzODIwNV19
+eyJoaXN0b3J5IjpbMTY3ODEyNTgyMCwtMTU1NTg4ODMxMSwtND
+EzNTQ2NjY4LDE2NDQ3NjI5OTgsNDU1OTg3ODQxLDIwNjIzMzgy
+MzcsMTg1MzU2MTEyMCwxMjI2NjEyMjY2LC0xMTAwOTAyNzkxLC
+0xNjYwNTk2ODEwLC0xNDg1NTM4MjA1XX0=
 -->
