@@ -236,12 +236,20 @@ return anOrder.basePrice > 1000
 - 원래 표현식과 다를 바 없을 때 
 - 변수가 주변 코드를 리팩터링하는 데 방해될 때 
 
+<br>
+
+### 📍 &nbsp;&nbsp;절차
+① 대입문ㅇ<br>
+② 불변 변수를 하나 선언하고 이름을 붙일 표현식의 복제본을 대입<br>
+③ 원본 표현식을 새로 만든 변수로 교체<br>
+④ 테스트한다. <br>
+⑤ 표현식을 여러 곳에서 사용한다면 각각을 새로 만든 변수로 교체. 교체할 때마다 테스트
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzk3OTExNTEsMTM2ODg3MzI0OSwtNz
-czNDE3NDQyLDE5Mjg4MTEzODAsMTcxMzcxOTQ1OSwtMTExNjI2
-ODU2OCwyMjUxOTEyNjUsMTAxOTg3ODQ4NCwtMjQwMDQ3MDIsMT
-Y3ODEyNTgyMCwtMTU1NTg4ODMxMSwtNDEzNTQ2NjY4LDE2NDQ3
-NjI5OTgsNDU1OTg3ODQxLDIwNjIzMzgyMzcsMTg1MzU2MTEyMC
-wxMjI2NjEyMjY2LC0xMTAwOTAyNzkxLC0xNjYwNTk2ODEwLC0x
-NDg1NTM4MjA1XX0=
+eyJoaXN0b3J5IjpbNzgyNzk0MTkwLDEzNjg4NzMyNDksLTc3Mz
+QxNzQ0MiwxOTI4ODExMzgwLDE3MTM3MTk0NTksLTExMTYyNjg1
+NjgsMjI1MTkxMjY1LDEwMTk4Nzg0ODQsLTI0MDA0NzAyLDE2Nz
+gxMjU4MjAsLTE1NTU4ODgzMTEsLTQxMzU0NjY2OCwxNjQ0NzYy
+OTk4LDQ1NTk4Nzg0MSwyMDYyMzM4MjM3LDE4NTM1NjExMjAsMT
+IyNjYxMjI2NiwtMTEwMDkwMjc5MSwtMTY2MDU5NjgxMCwtMTQ4
+NTUzODIwNV19
 -->
