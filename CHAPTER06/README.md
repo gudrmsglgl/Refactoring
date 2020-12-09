@@ -156,8 +156,13 @@ return basePrice - quantityDiscount + shipping
 ### 🔎 &nbsp;&nbsp;변수 추출할 때 
 - 표현식이 너무 복잡한 경우
 	- 이럴 때 지역 변수 활용 
+	- 코드의 목적 훨씬 명확하게 드러낼 수 있음
+	- 디버깅에도 도움이 됨. (중단점 지정, 상태 출력 문장 추가 가능)
+- 변수 추출은 곧 이름을 붙이고 싶다.
+	- 이름이 들어갈 문맥을 살피자.
+	- 현재 함수 안에서만 의미가 있다면 변수로 추출
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MTI2NzE3MiwxMDE5ODc4NDg0LC0yND
+eyJoaXN0b3J5IjpbLTQ4NDQ5MDIyMiwxMDE5ODc4NDg0LC0yND
 AwNDcwMiwxNjc4MTI1ODIwLC0xNTU1ODg4MzExLC00MTM1NDY2
 NjgsMTY0NDc2Mjk5OCw0NTU5ODc4NDEsMjA2MjMzODIzNywxOD
 UzNTYxMTIwLDEyMjY2MTIyNjYsLTExMDA5MDI3OTEsLTE2NjA1
