@@ -84,8 +84,9 @@ fun printDetail(invoice: Invoice, outstanding: Int){
 -> 때로는 추출한 코드에서 값을 수정하는 지역 변수가 너무 많을 수 있다. 
    이럴 때는 함수 추출을 멈추고, 변수 쪼개기가 임시 변수를 질의 함수로 바꾸기와 같은 다른 리팩터링 적용해서 변수를 사용하는 코드를 단순하게 바꿔본다. 그런 다음 함수 추출을 다시 시도.      
 ```
- ④ ⑤ ⑥ ⑦ ⑧ ⑨ ⑩ ⑪
+ ④ 변수를 다 처리했다면 컴파일한다.
+ ⑤ ⑥ ⑦ ⑧ ⑨ ⑩ ⑪
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNjYxMjI2NiwtMTEwMDkwMjc5MSwtMT
-Y2MDU5NjgxMCwtMTQ4NTUzODIwNV19
+eyJoaXN0b3J5IjpbMTg1MzU2MTEyMCwxMjI2NjEyMjY2LC0xMT
+AwOTAyNzkxLC0xNjYwNTk2ODEwLC0xNDg1NTM4MjA1XX0=
 -->
