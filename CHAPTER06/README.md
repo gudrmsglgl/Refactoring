@@ -168,11 +168,15 @@ return basePrice - quantityDiscount + shipping
 <br>
 
 ### 📍 &nbsp;&nbsp;절차
-
+① 추출하려는 표현식에 부작용은 없는지 확인<br>
+② 불변 변수를 하나 선언하고 이름을 붙일 표현식의 복제본을 대입<br>
+③ 원본 표현식을 새로 만든 변수로 교체<br>
+④ 테스트한다. <br>
+⑤ 표현식을 여러 곳에서 사용한다면 각각을 새로 만든 변수로 교체. 교체할 때마다 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMjg3NTI4LDIyNTE5MTI2NSwxMDE5OD
-c4NDg0LC0yNDAwNDcwMiwxNjc4MTI1ODIwLC0xNTU1ODg4MzEx
-LC00MTM1NDY2NjgsMTY0NDc2Mjk5OCw0NTU5ODc4NDEsMjA2Mj
-MzODIzNywxODUzNTYxMTIwLDEyMjY2MTIyNjYsLTExMDA5MDI3
-OTEsLTE2NjA1OTY4MTAsLTE0ODU1MzgyMDVdfQ==
+eyJoaXN0b3J5IjpbMTQ3OTQ5NjA3NiwyMjUxOTEyNjUsMTAxOT
+g3ODQ4NCwtMjQwMDQ3MDIsMTY3ODEyNTgyMCwtMTU1NTg4ODMx
+MSwtNDEzNTQ2NjY4LDE2NDQ3NjI5OTgsNDU1OTg3ODQxLDIwNj
+IzMzgyMzcsMTg1MzU2MTEyMCwxMjI2NjEyMjY2LC0xMTAwOTAy
+NzkxLC0xNjYwNTk2ODEwLC0xNDg1NTM4MjA1XX0=
 -->
