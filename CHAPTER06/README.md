@@ -85,8 +85,12 @@ fun printDetail(invoice: Invoice, outstanding: Int){
    이럴 때는 함수 추출을 멈추고, 변수 쪼개기가 임시 변수를 질의 함수로 바꾸기와 같은 다른 리팩터링 적용해서 변수를 사용하는 코드를 단순하게 바꿔본다. 그런 다음 함수 추출을 다시 시도.      
 ```
  ④ 변수를 다 처리했다면 컴파일한다.
- ⑤ ⑥ ⑦ ⑧ ⑨ ⑩ ⑪
+ ⑤ 원본 함수에서 추출한 코드 부분을 새로 만든 함수를 호출하는 문장으로 바꾼다 (즉, 추출한 함수로 일을 위임)
+ ⑥ 테스트한다.
+ ⑦ 다른 코드에 방금 추출한 것과 똑같거나 비슷한 코드가 없는지 살핀다. 있다면 방금 추출한 새 함수를 호춣
+ ⑧ ⑨ ⑩ ⑪
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MzU2MTEyMCwxMjI2NjEyMjY2LC0xMT
-AwOTAyNzkxLC0xNjYwNTk2ODEwLC0xNDg1NTM4MjA1XX0=
+eyJoaXN0b3J5IjpbODYzNTg3NjE0LDE4NTM1NjExMjAsMTIyNj
+YxMjI2NiwtMTEwMDkwMjc5MSwtMTY2MDU5NjgxMCwtMTQ4NTUz
+ODIwNV19
 -->
