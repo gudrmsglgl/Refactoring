@@ -128,11 +128,16 @@ fun getRating(driver: Driver): Int{
 ```
 ② 인라인할 함수를 호출하는 곳을 모두 찾는다.<br>
 ③ 각 호출문을 함수 본문으로 교체한다.<br>
-④ 
-⑤ ⑥ ⑦
+④ 하나씩 교체할 때마다 테스트한다.<br>
+```
+-> 인라인 작업을 한 번에 처리할 필요는 없다.
+인라인하기가 까다로운 부분이 있다면 일단 남겨두고 여유가 생길 때마다 틈틈이 처리한다.
+```
+⑤ 함수 정의(원래 함수)를 삭제한다.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzUyMjk3NDYsLTQxMzU0NjY2OCwxNj
+eyJoaXN0b3J5IjpbLTE1NTU4ODgzMTEsLTQxMzU0NjY2OCwxNj
 Q0NzYyOTk4LDQ1NTk4Nzg0MSwyMDYyMzM4MjM3LDE4NTM1NjEx
 MjAsMTIyNjYxMjI2NiwtMTEwMDkwMjc5MSwtMTY2MDU5NjgxMC
 wtMTQ4NTUzODIwNV19
