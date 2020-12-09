@@ -110,11 +110,15 @@ fun getRating(driver: Driver): Int{
 	retrun (driver.numberOfLateDeliveries > 5) ? 2: 1
 }
 ```
+<br>
+
+### 🔎 &nbsp;&nbsp;함수를 인라인 할 때 
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMzU0NjY2OCwxNjQ0NzYyOTk4LDQ1NT
-k4Nzg0MSwyMDYyMzM4MjM3LDE4NTM1NjExMjAsMTIyNjYxMjI2
-NiwtMTEwMDkwMjc5MSwtMTY2MDU5NjgxMCwtMTQ4NTUzODIwNV
-19
+eyJoaXN0b3J5IjpbNzc5ODYxMTIsLTQxMzU0NjY2OCwxNjQ0Nz
+YyOTk4LDQ1NTk4Nzg0MSwyMDYyMzM4MjM3LDE4NTM1NjExMjAs
+MTIyNjYxMjI2NiwtMTEwMDkwMjc5MSwtMTY2MDU5NjgxMCwtMT
+Q4NTUzODIwNV19
 -->
