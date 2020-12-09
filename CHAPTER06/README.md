@@ -67,11 +67,13 @@ fun printDetail(invoice: Invoice, outstanding: Int){
 
 ### 📍 &nbsp;&nbsp;함수 추출 절차
 ① 함수를 새로 만들고 목적을 잘 드러내는 이름을 붙인다 ('어떻게' 아닌 '무엇을' 하는지가 드러나게)
-
 ```
-
+	* 대상 코드가 매우 간던하더라도 함수로 뽑아서 목적이 더 잘 드러나는 이름을 붙일 수 있다면 추출한다.
+	* 이름이 떠오르지 않는다면 함수로 추출하면 안 되는 신호.
+	* 추출하는 과정에서 좋은 이름이 떠오를 수도 있으니 처음부터 최선의 이름부터 짓고 시작할 필요 없다.
+	* 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MjQ0NTM5NCwtMTY2MDU5NjgxMCwtMT
+eyJoaXN0b3J5IjpbMTk5NzQ3MzUwOSwtMTY2MDU5NjgxMCwtMT
 Q4NTUzODIwNV19
 -->
