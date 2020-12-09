@@ -123,9 +123,17 @@ fun getRating(driver: Driver): Int{
 
 ### 📍 &nbsp;&nbsp;절차
 ① 다형 메서드(polymorphic method)인지 확인.
+```
+-> 서브클래스에서 오버라이드하는 메서드는 인라인하면 안 된다.
+```
+② 인라인할 함수를 호출하는 곳을 모두 찾는다.<br>
+③ 각 호출문을 함수 본문으로 교체한다.<br>
+④ 
+⑤ ⑥ ⑦
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5Njg1MDkyMiwtNDEzNTQ2NjY4LDE2ND
-Q3NjI5OTgsNDU1OTg3ODQxLDIwNjIzMzgyMzcsMTg1MzU2MTEy
-MCwxMjI2NjEyMjY2LC0xMTAwOTAyNzkxLC0xNjYwNTk2ODEwLC
-0xNDg1NTM4MjA1XX0=
+eyJoaXN0b3J5IjpbLTEyMzUyMjk3NDYsLTQxMzU0NjY2OCwxNj
+Q0NzYyOTk4LDQ1NTk4Nzg0MSwyMDYyMzM4MjM3LDE4NTM1NjEx
+MjAsMTIyNjYxMjI2NiwtMTEwMDkwMjc5MSwtMTY2MDU5NjgxMC
+wtMTQ4NTUzODIwNV19
 -->
