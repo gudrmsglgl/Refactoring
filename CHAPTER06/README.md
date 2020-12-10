@@ -285,14 +285,14 @@ fun circumference(radius: Float){...}
 ```
 * 함수가 외부 세계와 어우러지는 방식을 정의
 * 다른 모듈과의 결합(coupling)을 제거
-* 매개변수 올바르게 선택하는 것은 정답이 없고 어떻게 연결하는 것이 더 나은지 더 잘 이해하게 될 때마다 그에 맞게 코드를 
+* 매개변수 올바르게 선택하는 것은 정답이 없고 어떻게 연결하는 것이 더 나은지 더 잘 이해하게 될 때마다 그에 맞게 코드를 개선할 수 있도록 함수 선언 바꾸기 친숙해져야 한다.
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NzY0NDQ3MywtMjQzNTg2ODAwLC0yMD
-UzNzE1MTEwLDE3NDk5ODEwOTksMTM2ODg3MzI0OSwtNzczNDE3
-NDQyLDE5Mjg4MTEzODAsMTcxMzcxOTQ1OSwtMTExNjI2ODU2OC
-wyMjUxOTEyNjUsMTAxOTg3ODQ4NCwtMjQwMDQ3MDIsMTY3ODEy
-NTgyMCwtMTU1NTg4ODMxMSwtNDEzNTQ2NjY4LDE2NDQ3NjI5OT
-gsNDU1OTg3ODQxLDIwNjIzMzgyMzcsMTg1MzU2MTEyMCwxMjI2
-NjEyMjY2XX0=
+eyJoaXN0b3J5IjpbLTExNjA2Mzg1OTcsLTI0MzU4NjgwMCwtMj
+A1MzcxNTExMCwxNzQ5OTgxMDk5LDEzNjg4NzMyNDksLTc3MzQx
+NzQ0MiwxOTI4ODExMzgwLDE3MTM3MTk0NTksLTExMTYyNjg1Nj
+gsMjI1MTkxMjY1LDEwMTk4Nzg0ODQsLTI0MDA0NzAyLDE2Nzgx
+MjU4MjAsLTE1NTU4ODgzMTEsLTQxMzU0NjY2OCwxNjQ0NzYyOT
+k4LDQ1NTk4Nzg0MSwyMDYyMzM4MjM3LDE4NTM1NjExMjAsMTIy
+NjYxMjI2Nl19
 -->
