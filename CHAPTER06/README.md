@@ -371,11 +371,17 @@ fun xxNewinNewEngland(stateCode): Boolean{
 return ["MA","CT","ME","VT","NH","RI"].includes(stateCode)
 }
 ```
-**🔻 함수 인라인 -> 기존 함**
+**🔻 함수 인라인 -> 기존 함수 호출문을 새 함수 호출문으로 교체**
+```kotlin
+fun inNewEngland(customer: Customer): Boolean{
+	return ["MA","CT","ME","VT","NH","RI"].includes(customer.address.state)
+}
 
+val newEnglanders = someCustomers.filter{c -> inNewEngland(c)}
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NTk3Mzk1MSwtMjEwMTk3MDY5MSwxNz
+eyJoaXN0b3J5IjpbMjAxNDI3MDQxMSwtMjEwMTk3MDY5MSwxNz
 gyMDA0NTEyLDIxMTg0NzQyMTMsLTEzOTc5MjEyMDUsLTI0MzU4
 NjgwMCwtMjA1MzcxNTExMCwxNzQ5OTgxMDk5LDEzNjg4NzMyND
 ksLTc3MzQxNzQ0MiwxOTI4ODExMzgwLDE3MTM3MTk0NTksLTEx
