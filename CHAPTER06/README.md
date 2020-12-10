@@ -318,14 +318,25 @@ fun addReservation(customer: Customer){
 	this._reservations.push(customer)
 }
 ```
-**🔻 요구사항: 예약 시 우선순위 큐를 지원하는 새로운 *
+**🔻 요구사항: 예약 시 우선순위 큐를 지원하는 새로운 요구**
+② 함수 본문을 새로운 함수로 추출한다.
+```kotlin
+// Book 클래스..
+fun addReservation(customer: Customer){
+	this._reservations.push(customer)
+}
+
+fun zz_addReservation(customer: Customer){
+	this._reservations.push(customer)
+}
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc4OTY1OTI2LC0xMzk3OTIxMjA1LC0yND
-M1ODY4MDAsLTIwNTM3MTUxMTAsMTc0OTk4MTA5OSwxMzY4ODcz
-MjQ5LC03NzM0MTc0NDIsMTkyODgxMTM4MCwxNzEzNzE5NDU5LC
-0xMTE2MjY4NTY4LDIyNTE5MTI2NSwxMDE5ODc4NDg0LC0yNDAw
-NDcwMiwxNjc4MTI1ODIwLC0xNTU1ODg4MzExLC00MTM1NDY2Nj
-gsMTY0NDc2Mjk5OCw0NTU5ODc4NDEsMjA2MjMzODIzNywxODUz
-NTYxMTIwXX0=
+eyJoaXN0b3J5IjpbMTg3MTIxMjE1MiwtMTM5NzkyMTIwNSwtMj
+QzNTg2ODAwLC0yMDUzNzE1MTEwLDE3NDk5ODEwOTksMTM2ODg3
+MzI0OSwtNzczNDE3NDQyLDE5Mjg4MTEzODAsMTcxMzcxOTQ1OS
+wtMTExNjI2ODU2OCwyMjUxOTEyNjUsMTAxOTg3ODQ4NCwtMjQw
+MDQ3MDIsMTY3ODEyNTgyMCwtMTU1NTg4ODMxMSwtNDEzNTQ2Nj
+Y4LDE2NDQ3NjI5OTgsNDU1OTg3ODQxLDIwNjIzMzgyMzcsMTg1
+MzU2MTEyMF19
 -->
