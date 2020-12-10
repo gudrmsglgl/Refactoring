@@ -303,19 +303,19 @@ fun circumference(radius: Float){...}
 ① 이어지는 추출 단계를 수월하게 만들어야 한다면 함수의 본문을 적절히 리팩터링.<br>
 ② 함수 본문을 새로운 함수로 추출한다.<br>
 ```
--> 새로 만들 함수 이름이 기존 함수와 같다면 일단 검색하기 쉬운 이름
+-> 새로 만들 함수 이름이 기존 함수와 같다면 일단 검색하기 쉬운 이름을 임시로 붙여둔다.
 ```
-③ 이 변수를 가장 처음 사용하는 코드를 찾아서 대입문 우변의 코드로 바꾼다.<br>
+③ 추출한 함수에 매개변수를 추가해야 한다면 '간단한 절차'를 따라 추가.<br>
 ④ 테스트한다. <br>
-⑤ 변수를 사용하는 부분을 모두 교체할 때까지 이 과정을 반복한다.<br>
-⑥ 변수 선언문과 대입문을 지운다.<br>
+⑤ 기존 함수를 인라인한다. <br>
+⑥ 이름을 임시로 붙여뒀다면 함수 선언 바꾸기를 한 번 더 적용해서 원래 이름으로 되돌린다.<br>
 ⑦ 테스트한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NDM5OTI5MiwtMjQzNTg2ODAwLC0yMD
-UzNzE1MTEwLDE3NDk5ODEwOTksMTM2ODg3MzI0OSwtNzczNDE3
-NDQyLDE5Mjg4MTEzODAsMTcxMzcxOTQ1OSwtMTExNjI2ODU2OC
-wyMjUxOTEyNjUsMTAxOTg3ODQ4NCwtMjQwMDQ3MDIsMTY3ODEy
-NTgyMCwtMTU1NTg4ODMxMSwtNDEzNTQ2NjY4LDE2NDQ3NjI5OT
-gsNDU1OTg3ODQxLDIwNjIzMzgyMzcsMTg1MzU2MTEyMCwxMjI2
-NjEyMjY2XX0=
+eyJoaXN0b3J5IjpbLTEzOTc5MjEyMDUsLTI0MzU4NjgwMCwtMj
+A1MzcxNTExMCwxNzQ5OTgxMDk5LDEzNjg4NzMyNDksLTc3MzQx
+NzQ0MiwxOTI4ODExMzgwLDE3MTM3MTk0NTksLTExMTYyNjg1Nj
+gsMjI1MTkxMjY1LDEwMTk4Nzg0ODQsLTI0MDA0NzAyLDE2Nzgx
+MjU4MjAsLTE1NTU4ODgzMTEsLTQxMzU0NjY2OCwxNjQ0NzYyOT
+k4LDQ1NTk4Nzg0MSwyMDYyMzM4MjM3LDE4NTM1NjExMjAsMTIy
+NjYxMjI2Nl19
 -->
