@@ -285,9 +285,10 @@ fun circumference(radius: Float){...}
 ```
 * 함수가 외부 세계와 어우러지는 방식을 정의
 * 다른 모듈과의 결합(coupling)을 제거
+* 매개변수 올바르게 선택하는 것은 정답이 없고 어떻게 연결하는 것이 더 나은지 더 잘 이해하게 될 때마다 그에 맞게 코드를 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MDcxMTA3MSwtMjQzNTg2ODAwLC0yMD
+eyJoaXN0b3J5IjpbLTQ3NzY0NDQ3MywtMjQzNTg2ODAwLC0yMD
 UzNzE1MTEwLDE3NDk5ODEwOTksMTM2ODg3MzI0OSwtNzczNDE3
 NDQyLDE5Mjg4MTEzODAsMTcxMzcxOTQ1OSwtMTExNjI2ODU2OC
 wyMjUxOTEyNjUsMTAxOTg3ODQ4NCwtMjQwMDQ3MDIsMTY3ODEy
