@@ -360,13 +360,22 @@ fun inNewEngland(customer: Customer): Boolean{
 val newEnglanders = someCustomers.filter{c -> inNewEngland(c)}
 ```
 
+```kotlin
+fun inNewEngland(customer: Customer): Boolean{
+	val stateCode = customer.address.state
+	return ["MA","CT","ME","VT","NH","RI"].includes(customer.address.state)
+}
+
+val newEnglanders = someCustomers.filter{c -> inNewEngland(c)}
+```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDE5NzA2OTEsMTc4MjAwNDUxMiwyMT
-E4NDc0MjEzLC0xMzk3OTIxMjA1LC0yNDM1ODY4MDAsLTIwNTM3
-MTUxMTAsMTc0OTk4MTA5OSwxMzY4ODczMjQ5LC03NzM0MTc0ND
-IsMTkyODgxMTM4MCwxNzEzNzE5NDU5LC0xMTE2MjY4NTY4LDIy
-NTE5MTI2NSwxMDE5ODc4NDg0LC0yNDAwNDcwMiwxNjc4MTI1OD
-IwLC0xNTU1ODg4MzExLC00MTM1NDY2NjgsMTY0NDc2Mjk5OCw0
-NTU5ODc4NDFdfQ==
+eyJoaXN0b3J5IjpbLTU5MTc4MTM4MiwtMjEwMTk3MDY5MSwxNz
+gyMDA0NTEyLDIxMTg0NzQyMTMsLTEzOTc5MjEyMDUsLTI0MzU4
+NjgwMCwtMjA1MzcxNTExMCwxNzQ5OTgxMDk5LDEzNjg4NzMyND
+ksLTc3MzQxNzQ0MiwxOTI4ODExMzgwLDE3MTM3MTk0NTksLTEx
+MTYyNjg1NjgsMjI1MTkxMjY1LDEwMTk4Nzg0ODQsLTI0MDA0Nz
+AyLDE2NzgxMjU4MjAsLTE1NTU4ODgzMTEsLTQxMzU0NjY2OCwx
+NjQ0NzYyOTk4XX0=
 -->
