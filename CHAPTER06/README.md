@@ -310,8 +310,8 @@ fun circumference(radius: Float){...}
 ⑤ 기존 함수를 인라인한다. <br>
 ⑥ 이름을 임시로 붙여뒀다면 함수 선언 바꾸기를 한 번 더 적용해서 원래 이름으로 되돌린다.<br>
 ⑦ 테스트한다.
-
-**ex: 매개변수 추가하기**
+<br>
+**ex: 매개변수 추가하기**<br>
 **요구사항: 예약 시 우선순위 큐를 지원하는 새로운 요구**
 
 ```kotlin
@@ -346,11 +346,11 @@ fun zz_addReservation(customer: Customer, isPriority: Boolean){
 ⑤ 기존 함수를 인라인한다. <br>
 ⑥ 다 고쳤다면 새 함수의 이름을 기존 함수의 이름으로 바꾼다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MjAwNDUxMiwyMTE4NDc0MjEzLC0xMz
-k3OTIxMjA1LC0yNDM1ODY4MDAsLTIwNTM3MTUxMTAsMTc0OTk4
-MTA5OSwxMzY4ODczMjQ5LC03NzM0MTc0NDIsMTkyODgxMTM4MC
-wxNzEzNzE5NDU5LC0xMTE2MjY4NTY4LDIyNTE5MTI2NSwxMDE5
-ODc4NDg0LC0yNDAwNDcwMiwxNjc4MTI1ODIwLC0xNTU1ODg4Mz
-ExLC00MTM1NDY2NjgsMTY0NDc2Mjk5OCw0NTU5ODc4NDEsMjA2
-MjMzODIzN119
+eyJoaXN0b3J5IjpbLTY5NDA5NjAsMTc4MjAwNDUxMiwyMTE4ND
+c0MjEzLC0xMzk3OTIxMjA1LC0yNDM1ODY4MDAsLTIwNTM3MTUx
+MTAsMTc0OTk4MTA5OSwxMzY4ODczMjQ5LC03NzM0MTc0NDIsMT
+kyODgxMTM4MCwxNzEzNzE5NDU5LC0xMTE2MjY4NTY4LDIyNTE5
+MTI2NSwxMDE5ODc4NDg0LC0yNDAwNDcwMiwxNjc4MTI1ODIwLC
+0xNTU1ODg4MzExLC00MTM1NDY2NjgsMTY0NDc2Mjk5OCw0NTU5
+ODc4NDFdfQ==
 -->
