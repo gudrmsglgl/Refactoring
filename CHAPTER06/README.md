@@ -3,6 +3,8 @@
 [함수 인라인하기](#id-section2)<br>
 [변수 추출하기](#id-section3)<br>
 [변수 인라인하기](#id-section4)<br>
+[함수 선언 바꾸기](#id-section5)<br>
+
 
 ### 저수준 리팩터링
 - **추출**은 결국 이름 짓기이며, 코드 이해도가 높아지다 보면 이름을 바꿔야 할 때가 많다.
@@ -254,13 +256,20 @@ return anOrder.basePrice > 1000
 <div id='id-section5'/>
 
 ## 6.5 함수 선언 바꾸기 Change Function Declaration
-
+```kotlin
+fun circum(radius: Float){...}
+```
+**🔻 함수 선언 바꾸기**
+```kotlin
+fun circumference(radius: Float){...}
+```
+<br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MTc1NzU4OSwtMjA1MzcxNTExMCwxNz
-Q5OTgxMDk5LDEzNjg4NzMyNDksLTc3MzQxNzQ0MiwxOTI4ODEx
-MzgwLDE3MTM3MTk0NTksLTExMTYyNjg1NjgsMjI1MTkxMjY1LD
-EwMTk4Nzg0ODQsLTI0MDA0NzAyLDE2NzgxMjU4MjAsLTE1NTU4
-ODgzMTEsLTQxMzU0NjY2OCwxNjQ0NzYyOTk4LDQ1NTk4Nzg0MS
-wyMDYyMzM4MjM3LDE4NTM1NjExMjAsMTIyNjYxMjI2NiwtMTEw
-MDkwMjc5MV19
+eyJoaXN0b3J5IjpbLTEwNzE2MDc4MDcsLTIwNTM3MTUxMTAsMT
+c0OTk4MTA5OSwxMzY4ODczMjQ5LC03NzM0MTc0NDIsMTkyODgx
+MTM4MCwxNzEzNzE5NDU5LC0xMTE2MjY4NTY4LDIyNTE5MTI2NS
+wxMDE5ODc4NDg0LC0yNDAwNDcwMiwxNjc4MTI1ODIwLC0xNTU1
+ODg4MzExLC00MTM1NDY2NjgsMTY0NDc2Mjk5OCw0NTU5ODc4ND
+EsMjA2MjMzODIzNywxODUzNTYxMTIwLDEyMjY2MTIyNjYsLTEx
+MDA5MDI3OTFdfQ==
 -->
