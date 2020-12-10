@@ -353,14 +353,16 @@ fun zz_addReservation(customer: Customer, isPriority: Boolean){
 **요구사항: 고객이 뉴잉글랜드에 살고 있는지 확인하는 함수**
 
 ```kotlin
-fun isNewEngland(customer: Customer){
-	return 
+fun isNewEngland(customer: Customer): Boolean{
+	return ["MA","CT","ME","VT","NH","RI"].includes(customer.address.state)
 }
+
+val newEnglanders
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNDczNzk5MSwxNzgyMDA0NTEyLDIxMT
+eyJoaXN0b3J5IjpbLTQ2MjUzNTA5NCwxNzgyMDA0NTEyLDIxMT
 g0NzQyMTMsLTEzOTc5MjEyMDUsLTI0MzU4NjgwMCwtMjA1Mzcx
 NTExMCwxNzQ5OTgxMDk5LDEzNjg4NzMyNDksLTc3MzQxNzQ0Mi
 wxOTI4ODExMzgwLDE3MTM3MTk0NTksLTExMTYyNjg1NjgsMjI1
