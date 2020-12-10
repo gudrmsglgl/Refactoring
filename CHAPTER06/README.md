@@ -277,17 +277,20 @@ fun circumference(radius: Float){...}
 >  :  주석을 이용해 함수의 목적을 설명해보는 것. 그러다 보면 주석이 멋진 이름으로 바뀌어 되돌아올 때가 있다.
 
 ```
-	* 이름이 좋으면 함수의 구현 코드를 살펴볼 필요 없이 호출물만 보고 무슨 일을 하는지 파악 가능
-	* 잘못된 함수를 발견하면 더 나은 이름이 떠오르는 즉시 바꾸자.
-	* 나중에 그 코드를 다시 볼 때 무슨 일을 하는지 '또' 고민하지 않게 됨.
+* 이름이 좋으면 함수의 구현 코드를 살펴볼 필요 없이 호출물만 보고 무슨 일을 하는지 파악 가능
+* 잘못된 함수를 발견하면 더 나은 이름이 떠오르는 즉시 바꾸자.
+* 나중에 그 코드를 다시 볼 때 무슨 일을 하는지 '또' 고민하지 않게 됨.
 ```
-
+- 매개변수 
+```
+* 함수가 외부 ㅅ
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MzU4NjgwMCwtMjA1MzcxNTExMCwxNz
-Q5OTgxMDk5LDEzNjg4NzMyNDksLTc3MzQxNzQ0MiwxOTI4ODEx
-MzgwLDE3MTM3MTk0NTksLTExMTYyNjg1NjgsMjI1MTkxMjY1LD
-EwMTk4Nzg0ODQsLTI0MDA0NzAyLDE2NzgxMjU4MjAsLTE1NTU4
-ODgzMTEsLTQxMzU0NjY2OCwxNjQ0NzYyOTk4LDQ1NTk4Nzg0MS
-wyMDYyMzM4MjM3LDE4NTM1NjExMjAsMTIyNjYxMjI2NiwtMTEw
-MDkwMjc5MV19
+eyJoaXN0b3J5IjpbMTEwMDQwMDQ1MiwtMjQzNTg2ODAwLC0yMD
+UzNzE1MTEwLDE3NDk5ODEwOTksMTM2ODg3MzI0OSwtNzczNDE3
+NDQyLDE5Mjg4MTEzODAsMTcxMzcxOTQ1OSwtMTExNjI2ODU2OC
+wyMjUxOTEyNjUsMTAxOTg3ODQ4NCwtMjQwMDQ3MDIsMTY3ODEy
+NTgyMCwtMTU1NTg4ODMxMSwtNDEzNTQ2NjY4LDE2NDQ3NjI5OT
+gsNDU1OTg3ODQxLDIwNjIzMzgyMzcsMTg1MzU2MTEyMCwxMjI2
+NjEyMjY2XX0=
 -->
