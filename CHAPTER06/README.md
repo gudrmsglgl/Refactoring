@@ -394,9 +394,9 @@ val newEnglanders = someCustomers.filter{c -> inNewEngland(c.address.state)}
 - 유효범위가 넓어질수록 다루기 어려워짐 -> 전역 데이터의 골칫거리 이유
 - 접근할 수 있는 범위가 넓은 데이터를 옮길 때
 	- 그 데이터로의 접근을 독점하는 함수를 만드는 식으로 캡슐화하는 것이 가장 좋은 방법
-	- 
+	- 데이터 재구성이라는 어려운 작업을 함수 재구성이라는 더 단순한 작업으로 변환되는 것.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MDUwNDg2MiwtNDczODE4MTUwLC0xOD
+eyJoaXN0b3J5IjpbMTg4NzY0MDI0MSwtNDczODE4MTUwLC0xOD
 k1ODgwNTg3LC0yMTAxOTcwNjkxLDE3ODIwMDQ1MTIsMjExODQ3
 NDIxMywtMTM5NzkyMTIwNSwtMjQzNTg2ODAwLC0yMDUzNzE1MT
 EwLDE3NDk5ODEwOTksMTM2ODg3MzI0OSwtNzczNDE3NDQyLDE5
