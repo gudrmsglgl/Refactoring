@@ -310,12 +310,18 @@ fun circumference(radius: Float){...}
 ⑤ 기존 함수를 인라인한다. <br>
 ⑥ 이름을 임시로 붙여뒀다면 함수 선언 바꾸기를 한 번 더 적용해서 원래 이름으로 되돌린다.<br>
 ⑦ 테스트한다.
+
+**ex: 매개변수 추가하기**
+```kotlin
+// Book 클래스..
+fun addReservation(customer){
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTc5MjEyMDUsLTI0MzU4NjgwMCwtMj
-A1MzcxNTExMCwxNzQ5OTgxMDk5LDEzNjg4NzMyNDksLTc3MzQx
-NzQ0MiwxOTI4ODExMzgwLDE3MTM3MTk0NTksLTExMTYyNjg1Nj
-gsMjI1MTkxMjY1LDEwMTk4Nzg0ODQsLTI0MDA0NzAyLDE2Nzgx
-MjU4MjAsLTE1NTU4ODgzMTEsLTQxMzU0NjY2OCwxNjQ0NzYyOT
-k4LDQ1NTk4Nzg0MSwyMDYyMzM4MjM3LDE4NTM1NjExMjAsMTIy
-NjYxMjI2Nl19
+eyJoaXN0b3J5IjpbODE4NzQ4ODIyLC0xMzk3OTIxMjA1LC0yND
+M1ODY4MDAsLTIwNTM3MTUxMTAsMTc0OTk4MTA5OSwxMzY4ODcz
+MjQ5LC03NzM0MTc0NDIsMTkyODgxMTM4MCwxNzEzNzE5NDU5LC
+0xMTE2MjY4NTY4LDIyNTE5MTI2NSwxMDE5ODc4NDg0LC0yNDAw
+NDcwMiwxNjc4MTI1ODIwLC0xNTU1ODg4MzExLC00MTM1NDY2Nj
+gsMTY0NDc2Mjk5OCw0NTU5ODc4NDEsMjA2MjMzODIzNywxODUz
+NTYxMTIwXX0=
 -->
