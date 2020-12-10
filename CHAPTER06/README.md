@@ -312,7 +312,7 @@ fun circumference(radius: Float){...}
 ⑦ 테스트한다.
 <br>
 
-**ex: 매개변수 추가하기**<br>
+### **ex) 매개변수 추가하기**<br>
 **요구사항: 예약 시 우선순위 큐를 지원하는 새로운 요구**
 
 ```kotlin
@@ -346,8 +346,13 @@ fun zz_addReservation(customer: Customer, isPriority: Boolean){
 ```
 ⑤ 기존 함수를 인라인한다. <br>
 ⑥ 다 고쳤다면 새 함수의 이름을 기존 함수의 이름으로 바꾼다.
+
+<br>
+
+### **ex) 매개변수를 속성으로 바꾸기**<br>
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjI4NTg0NDYsMTc4MjAwNDUxMiwyMT
+eyJoaXN0b3J5IjpbLTEzNTczMjYwMjUsMTc4MjAwNDUxMiwyMT
 E4NDc0MjEzLC0xMzk3OTIxMjA1LC0yNDM1ODY4MDAsLTIwNTM3
 MTUxMTAsMTc0OTk4MTA5OSwxMzY4ODczMjQ5LC03NzM0MTc0ND
 IsMTkyODgxMTM4MCwxNzEzNzE5NDU5LC0xMTE2MjY4NTY4LDIy
