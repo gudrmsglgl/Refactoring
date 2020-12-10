@@ -371,15 +371,15 @@ fun xxNewinNewEngland(stateCode): Boolean{
 return ["MA","CT","ME","VT","NH","RI"].includes(stateCode)
 }
 ```
-**🔻 함수 인라인 -> 기존 함수의 본문을 호**
+**🔻 함수 인라인 -> 기존 함**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQxMTA5MTIzLC0yMTAxOTcwNjkxLDE3OD
-IwMDQ1MTIsMjExODQ3NDIxMywtMTM5NzkyMTIwNSwtMjQzNTg2
-ODAwLC0yMDUzNzE1MTEwLDE3NDk5ODEwOTksMTM2ODg3MzI0OS
-wtNzczNDE3NDQyLDE5Mjg4MTEzODAsMTcxMzcxOTQ1OSwtMTEx
-NjI2ODU2OCwyMjUxOTEyNjUsMTAxOTg3ODQ4NCwtMjQwMDQ3MD
-IsMTY3ODEyNTgyMCwtMTU1NTg4ODMxMSwtNDEzNTQ2NjY4LDE2
-NDQ3NjI5OThdfQ==
+eyJoaXN0b3J5IjpbMTU5NTk3Mzk1MSwtMjEwMTk3MDY5MSwxNz
+gyMDA0NTEyLDIxMTg0NzQyMTMsLTEzOTc5MjEyMDUsLTI0MzU4
+NjgwMCwtMjA1MzcxNTExMCwxNzQ5OTgxMDk5LDEzNjg4NzMyND
+ksLTc3MzQxNzQ0MiwxOTI4ODExMzgwLDE3MTM3MTk0NTksLTEx
+MTYyNjg1NjgsMjI1MTkxMjY1LDEwMTk4Nzg0ODQsLTI0MDA0Nz
+AyLDE2NzgxMjU4MjAsLTE1NTU4ODgzMTEsLTQxMzU0NjY2OCwx
+NjQ0NzYyOTk4XX0=
 -->
