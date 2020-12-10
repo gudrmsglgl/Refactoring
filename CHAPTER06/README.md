@@ -391,13 +391,16 @@ val newEnglanders = someCustomers.filter{c -> inNewEngland(c.address.state)}
 
 ## 6.6 변수 캡슐화하기 Encapsulate Variable
 
-유효
+- 유효범위가 넓어질수록 다루기 어려워짐 -> 전역 데이터의 골칫거리 이유
+- 접근할 수 있는 범위가 넓은 데이터를 옮길 때
+	- 그 데이터로의 접근을 독점하는 함수를 만드는 식으로 캡슐화하는 것이 가장 좋은 방법
+	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTAyNDIxNzYsLTQ3MzgxODE1MCwtMT
-g5NTg4MDU4NywtMjEwMTk3MDY5MSwxNzgyMDA0NTEyLDIxMTg0
-NzQyMTMsLTEzOTc5MjEyMDUsLTI0MzU4NjgwMCwtMjA1MzcxNT
-ExMCwxNzQ5OTgxMDk5LDEzNjg4NzMyNDksLTc3MzQxNzQ0Miwx
-OTI4ODExMzgwLDE3MTM3MTk0NTksLTExMTYyNjg1NjgsMjI1MT
-kxMjY1LDEwMTk4Nzg0ODQsLTI0MDA0NzAyLDE2NzgxMjU4MjAs
-LTE1NTU4ODgzMTFdfQ==
+eyJoaXN0b3J5IjpbLTk1MDUwNDg2MiwtNDczODE4MTUwLC0xOD
+k1ODgwNTg3LC0yMTAxOTcwNjkxLDE3ODIwMDQ1MTIsMjExODQ3
+NDIxMywtMTM5NzkyMTIwNSwtMjQzNTg2ODAwLC0yMDUzNzE1MT
+EwLDE3NDk5ODEwOTksMTM2ODg3MzI0OSwtNzczNDE3NDQyLDE5
+Mjg4MTEzODAsMTcxMzcxOTQ1OSwtMTExNjI2ODU2OCwyMjUxOT
+EyNjUsMTAxOTg3ODQ4NCwtMjQwMDQ3MDIsMTY3ODEyNTgyMCwt
+MTU1NTg4ODMxMV19
 -->
