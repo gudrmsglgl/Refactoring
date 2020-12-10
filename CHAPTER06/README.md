@@ -363,7 +363,11 @@ val newEnglanders = someCustomers.filter{c -> inNewEngland(c)}
 ```kotlin
 fun inNewEngland(customer: Customer): Boolean{
 	val stateCode = customer.address.state
-	return ["MA","CT","ME","VT","NH","RI"].includes(customer.address.state)
+	return xxNewinNewEngland(stateCode)
+}
+
+fun xxNewinNewEngland(stateCode): Boolean{
+return ["MA","CT","ME","VT","NH","RI"].includes(stateCode)
 }
 
 val newEnglanders = someCustomers.filter{c -> inNewEngland(c)}
@@ -371,7 +375,7 @@ val newEnglanders = someCustomers.filter{c -> inNewEngland(c)}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MTc4MTM4MiwtMjEwMTk3MDY5MSwxNz
+eyJoaXN0b3J5IjpbLTM1NjUxMjkwNCwtMjEwMTk3MDY5MSwxNz
 gyMDA0NTEyLDIxMTg0NzQyMTMsLTEzOTc5MjEyMDUsLTI0MzU4
 NjgwMCwtMjA1MzcxNTExMCwxNzQ5OTgxMDk5LDEzNjg4NzMyND
 ksLTc3MzQxNzQ0MiwxOTI4ODExMzgwLDE3MTM3MTk0NTksLTEx
