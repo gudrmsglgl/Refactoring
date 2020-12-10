@@ -4,7 +4,7 @@
 [변수 추출하기](#id-section3)<br>
 [변수 인라인하기](#id-section4)<br>
 [함수 선언 바꾸기](#id-section5)<br>
-
+[변수 캡슐화하기](#id-section6)<br>
 
 ### 저수준 리팩터링
 - **추출**은 결국 이름 짓기이며, 코드 이해도가 높아지다 보면 이름을 바꿔야 할 때가 많다.
@@ -413,11 +413,11 @@ val newEnglanders = someCustomers.filter{c -> inNewEngland(c.address.state)}
 ⑤ 테스트한다. <br>
 ⑥ 변수 값이 레코드라면 레코드 캡슐화하기를 적용할지 고려.<br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMDIxOTE1NSwxMzM0OTYzOTAxLC00Nz
-M4MTgxNTAsLTE4OTU4ODA1ODcsLTIxMDE5NzA2OTEsMTc4MjAw
-NDUxMiwyMTE4NDc0MjEzLC0xMzk3OTIxMjA1LC0yNDM1ODY4MD
-AsLTIwNTM3MTUxMTAsMTc0OTk4MTA5OSwxMzY4ODczMjQ5LC03
-NzM0MTc0NDIsMTkyODgxMTM4MCwxNzEzNzE5NDU5LC0xMTE2Mj
-Y4NTY4LDIyNTE5MTI2NSwxMDE5ODc4NDg0LC0yNDAwNDcwMiwx
-Njc4MTI1ODIwXX0=
+eyJoaXN0b3J5IjpbLTEwMTI5Mzk0MDUsMTMzNDk2MzkwMSwtND
+czODE4MTUwLC0xODk1ODgwNTg3LC0yMTAxOTcwNjkxLDE3ODIw
+MDQ1MTIsMjExODQ3NDIxMywtMTM5NzkyMTIwNSwtMjQzNTg2OD
+AwLC0yMDUzNzE1MTEwLDE3NDk5ODEwOTksMTM2ODg3MzI0OSwt
+NzczNDE3NDQyLDE5Mjg4MTEzODAsMTcxMzcxOTQ1OSwtMTExNj
+I2ODU2OCwyMjUxOTEyNjUsMTAxOTg3ODQ4NCwtMjQwMDQ3MDIs
+MTY3ODEyNTgyMF19
 -->
