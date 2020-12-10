@@ -339,15 +339,16 @@ fun addReservation(customer: Customer){
 }
 
 fun zz_addReservation(customer: Customer, isPriority: Boolean){
+	assert(isPriority == true || isPriority == false) // 호출하는 곳에서 새로 추가한 매개변수를 실제로 사용하는지 확인
 	this._reservations.push(customer)
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzM2MTM5MTgsLTEzOTc5MjEyMDUsLT
-I0MzU4NjgwMCwtMjA1MzcxNTExMCwxNzQ5OTgxMDk5LDEzNjg4
-NzMyNDksLTc3MzQxNzQ0MiwxOTI4ODExMzgwLDE3MTM3MTk0NT
-ksLTExMTYyNjg1NjgsMjI1MTkxMjY1LDEwMTk4Nzg0ODQsLTI0
-MDA0NzAyLDE2NzgxMjU4MjAsLTE1NTU4ODgzMTEsLTQxMzU0Nj
-Y2OCwxNjQ0NzYyOTk4LDQ1NTk4Nzg0MSwyMDYyMzM4MjM3LDE4
-NTM1NjExMjBdfQ==
+eyJoaXN0b3J5IjpbMjExODQ3NDIxMywtMTM5NzkyMTIwNSwtMj
+QzNTg2ODAwLC0yMDUzNzE1MTEwLDE3NDk5ODEwOTksMTM2ODg3
+MzI0OSwtNzczNDE3NDQyLDE5Mjg4MTEzODAsMTcxMzcxOTQ1OS
+wtMTExNjI2ODU2OCwyMjUxOTEyNjUsMTAxOTg3ODQ4NCwtMjQw
+MDQ3MDIsMTY3ODEyNTgyMCwtMTU1NTg4ODMxMSwtNDEzNTQ2Nj
+Y4LDE2NDQ3NjI5OTgsNDU1OTg3ODQxLDIwNjIzMzgyMzcsMTg1
+MzU2MTEyMF19
 -->
