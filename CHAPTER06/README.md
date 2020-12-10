@@ -367,7 +367,7 @@ fun inNewEngland(customer: Customer): Boolean{
 	return xxNewinNewEngland(stateCode)
 }
 
-fun xxNewinNewEngland(stateCode): Boolean{
+fun xxNewinNewEngland(stateCode: StateCode): Boolean{
 return ["MA","CT","ME","VT","NH","RI"].includes(stateCode)
 }
 ```
@@ -377,15 +377,16 @@ val newEnglanders = someCustomers.filter{c -> xxNewinNewEngland(c.address.state)
 ```
 **🔻 함수 선언 바꾸기 -> 새 함수의 이름을 기존 함수의 이름으로 바꾼다.**
 ```kotlin
-fun inNewEngland(customer: Customer): Boolean{
-	return ["MA","CT","ME","VT","NH","RI"].includes(customer.address.state)
+// ch
+fun inNewEngland(stateCode: StateCode): Boolean{
+	return ["MA","CT","ME","VT","NH","RI"].includes(stateCode)
 }
 
 // 호출문 
-val newEnglanders = someCustomers.filter{c -> inNewEngland(c)}
+val newEnglanders = someCustomers.filter{c -> inNewEngland(c.address.state)}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMzI3MjE3OCwtMjEwMTk3MDY5MSwxNz
+eyJoaXN0b3J5IjpbMTU0NjI0ODg0MSwtMjEwMTk3MDY5MSwxNz
 gyMDA0NTEyLDIxMTg0NzQyMTMsLTEzOTc5MjEyMDUsLTI0MzU4
 NjgwMCwtMjA1MzcxNTExMCwxNzQ5OTgxMDk5LDEzNjg4NzMyND
 ksLTc3MzQxNzQ0MiwxOTI4ODExMzgwLDE3MTM3MTk0NTksLTEx
