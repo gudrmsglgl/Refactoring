@@ -318,18 +318,18 @@ fun circumference(radius: Float){...}
 ```kotlin
 // Book 클래스..
 fun addReservation(customer: Customer){
-	this._reservations.push(customer)
+   this._reservations.push(customer)
 }
 ```
 ② 함수 본문을 새로운 함수로 추출한다.
 ```kotlin
 // Book 클래스..
 fun addReservation(customer: Customer){
-	this._reservations.push(customer)
+   this._reservations.push(customer)
 }
 
 fun zz_addReservation(customer: Customer){
-	this._reservations.push(customer)
+   this._reservations.push(customer)
 }
 ```
 ③ 새 함수의 선언문과 호출문에 원하는 매개변수를 추가한다.
@@ -386,11 +386,11 @@ fun inNewEngland(stateCode: StateCode): Boolean{
 val newEnglanders = someCustomers.filter{c -> inNewEngland(c.address.state)}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNTY2OTA4OSwtMjEwMTk3MDY5MSwxNz
-gyMDA0NTEyLDIxMTg0NzQyMTMsLTEzOTc5MjEyMDUsLTI0MzU4
-NjgwMCwtMjA1MzcxNTExMCwxNzQ5OTgxMDk5LDEzNjg4NzMyND
-ksLTc3MzQxNzQ0MiwxOTI4ODExMzgwLDE3MTM3MTk0NTksLTEx
-MTYyNjg1NjgsMjI1MTkxMjY1LDEwMTk4Nzg0ODQsLTI0MDA0Nz
-AyLDE2NzgxMjU4MjAsLTE1NTU4ODgzMTEsLTQxMzU0NjY2OCwx
-NjQ0NzYyOTk4XX0=
+eyJoaXN0b3J5IjpbLTEyOTY3NzAxNDUsLTIxMDE5NzA2OTEsMT
+c4MjAwNDUxMiwyMTE4NDc0MjEzLC0xMzk3OTIxMjA1LC0yNDM1
+ODY4MDAsLTIwNTM3MTUxMTAsMTc0OTk4MTA5OSwxMzY4ODczMj
+Q5LC03NzM0MTc0NDIsMTkyODgxMTM4MCwxNzEzNzE5NDU5LC0x
+MTE2MjY4NTY4LDIyNTE5MTI2NSwxMDE5ODc4NDg0LC0yNDAwND
+cwMiwxNjc4MTI1ODIwLC0xNTU1ODg4MzExLC00MTM1NDY2Njgs
+MTY0NDc2Mjk5OF19
 -->
