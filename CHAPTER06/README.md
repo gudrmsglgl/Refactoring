@@ -406,11 +406,14 @@ val newEnglanders = someCustomers.filter{c -> inNewEngland(c.address.state)}
 ① 변수로의 접근과 갱신을 전담하는 캡슐화 함수들을 만든다.<br>
 ② 정적 검사를 수행한다.<br>
 ③ 변수를 직접 참조하던 부분을 모두 적절한 캡슐화 함수 호출로 바꾼다. 하나씩 바꿀 때마다 테스트한다.<br>
-④ 테스트한다. <br>
-⑤ 기존 함수를 인라인한다. <br>
-⑥ 이름을 임시로 붙여뒀다면 함수 선언 바꾸기를 한 번 더 적용해서 원래 이름으로 되돌린다.<br>
+④ 변수의 접근 범위를 제한한다. <br>
+```
+-> 변수로의 직접 접근을 막을 수 없을 때도 있다. 그럴 때는 변수 이름을 바꿔서 테스트해보면 해당 변수를 참조하는 곳을 쉽게 찾아낼 수 있다.
+```
+⑤ 테스트한다. <br>
+⑥ 변수 값이 레코드라면 레코드 캡슐화하기를 적용할지 고려.<br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MzIxNDM2OCwxMzM0OTYzOTAxLC00Nz
+eyJoaXN0b3J5IjpbMTUxMDIxOTE1NSwxMzM0OTYzOTAxLC00Nz
 M4MTgxNTAsLTE4OTU4ODA1ODcsLTIxMDE5NzA2OTEsMTc4MjAw
 NDUxMiwyMTE4NDc0MjEzLC0xMzk3OTIxMjA1LC0yNDM1ODY4MD
 AsLTIwNTM3MTUxMTAsMTc0OTk4MTA5OSwxMzY4ODczMjQ5LC03
