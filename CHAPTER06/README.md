@@ -336,12 +336,12 @@ fun zz_addReservation(customer: Customer){
 ```kotlin
 // Book 클래스..
 fun addReservation(customer: Customer){
-	this.zz_addReservation(customer, false)
+   this.zz_addReservation(customer, false)
 }
 
 fun zz_addReservation(customer: Customer, isPriority: Boolean){
-	assert(isPriority == true || isPriority == false) // 호출하는 곳에서 새로 추가한 매개변수를 실제로 사용하는지 확인
-	this._reservations.push(customer)
+   assert(isPriority == true || isPriority == false) // 호출하는 곳에서 새로 추가한 매개변수를 실제로 사용하는지 확인
+   this._reservations.push(customer)
 }
 ```
 ⑤ 기존 함수를 인라인한다. <br>
@@ -354,7 +354,7 @@ fun zz_addReservation(customer: Customer, isPriority: Boolean){
 
 ```kotlin
 fun inNewEngland(customer: Customer): Boolean{
-	return ["MA","CT","ME","VT","NH","RI"].includes(customer.address.state)
+   return ["MA","CT","ME","VT","NH","RI"].includes(customer.address.state)
 }
 
 val newEnglanders = someCustomers.filter{c -> inNewEngland(c)}
@@ -363,12 +363,12 @@ val newEnglanders = someCustomers.filter{c -> inNewEngland(c)}
 
 ```kotlin
 fun inNewEngland(customer: Customer): Boolean{
-	val stateCode = customer.address.state
-	return xxNewinNewEngland(stateCode)
+   val stateCode = customer.address.state
+   return xxNewinNewEngland(stateCode)
 }
 
 fun xxNewinNewEngland(stateCode: StateCode): Boolean{
-return ["MA","CT","ME","VT","NH","RI"].includes(stateCode)
+   return ["MA","CT","ME","VT","NH","RI"].includes(stateCode)
 }
 ```
 **🔻 함수 인라인 -> 기존 함수 호출문을 새 함수 호출문으로 교체**
@@ -379,14 +379,14 @@ val newEnglanders = someCustomers.filter{c -> xxNewinNewEngland(c.address.state)
 ```kotlin
 // 최상위
 fun inNewEngland(stateCode: StateCode): Boolean{
-	return ["MA","CT","ME","VT","NH","RI"].includes(stateCode)
+   return ["MA","CT","ME","VT","NH","RI"].includes(stateCode)
 }
 
 // 호출문 
 val newEnglanders = someCustomers.filter{c -> inNewEngland(c.address.state)}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTY3NzAxNDUsLTIxMDE5NzA2OTEsMT
+eyJoaXN0b3J5IjpbLTE4OTU4ODA1ODcsLTIxMDE5NzA2OTEsMT
 c4MjAwNDUxMiwyMTE4NDc0MjEzLC0xMzk3OTIxMjA1LC0yNDM1
 ODY4MDAsLTIwNTM3MTUxMTAsMTc0OTk4MTA5OSwxMzY4ODczMj
 Q5LC03NzM0MTc0NDIsMTkyODgxMTM4MCwxNzEzNzE5NDU5LC0x
