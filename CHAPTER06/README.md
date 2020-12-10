@@ -312,13 +312,14 @@ fun circumference(radius: Float){...}
 ⑦ 테스트한다.
 
 **ex: 매개변수 추가하기**
+**요구사항: 예약 시 우선순위 큐를 지원하는 새로운 요구**
+
 ```kotlin
 // Book 클래스..
 fun addReservation(customer: Customer){
 	this._reservations.push(customer)
 }
 ```
-**🔻 요구사항: 예약 시 우선순위 큐를 지원하는 새로운 요구**
 ② 함수 본문을 새로운 함수로 추출한다.
 ```kotlin
 // Book 클래스..
@@ -330,13 +331,23 @@ fun zz_addReservation(customer: Customer){
 	this._reservations.push(customer)
 }
 ```
+③ 새 함수의 선언문과 호출문에 원하는 매개변수를 추가한다.
+```kotlin
+// Book 클래스..
+fun addReservation(customer: Customer){
+	this._reservations.push(customer)
+}
 
+fun zz_addReservation(customer: Customer, isPriority: Boolean){
+	this._reservations.push(customer)
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MTIxMjE1MiwtMTM5NzkyMTIwNSwtMj
-QzNTg2ODAwLC0yMDUzNzE1MTEwLDE3NDk5ODEwOTksMTM2ODg3
-MzI0OSwtNzczNDE3NDQyLDE5Mjg4MTEzODAsMTcxMzcxOTQ1OS
-wtMTExNjI2ODU2OCwyMjUxOTEyNjUsMTAxOTg3ODQ4NCwtMjQw
-MDQ3MDIsMTY3ODEyNTgyMCwtMTU1NTg4ODMxMSwtNDEzNTQ2Nj
-Y4LDE2NDQ3NjI5OTgsNDU1OTg3ODQxLDIwNjIzMzgyMzcsMTg1
-MzU2MTEyMF19
+eyJoaXN0b3J5IjpbLTE3NTM2NzM4MDcsLTEzOTc5MjEyMDUsLT
+I0MzU4NjgwMCwtMjA1MzcxNTExMCwxNzQ5OTgxMDk5LDEzNjg4
+NzMyNDksLTc3MzQxNzQ0MiwxOTI4ODExMzgwLDE3MTM3MTk0NT
+ksLTExMTYyNjg1NjgsMjI1MTkxMjY1LDEwMTk4Nzg0ODQsLTI0
+MDA0NzAyLDE2NzgxMjU4MjAsLTE1NTU4ODgzMTEsLTQxMzU0Nj
+Y2OCwxNjQ0NzYyOTk4LDQ1NTk4Nzg0MSwyMDYyMzM4MjM3LDE4
+NTM1NjExMjBdfQ==
 -->
