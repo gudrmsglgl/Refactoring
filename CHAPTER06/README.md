@@ -268,14 +268,15 @@ fun circumference(radius: Float){...}
 ### 📐 &nbsp;&nbsp;함수 선언
 - 프로그램을 작은 부분으로 나누는 주된 수단
 - 소프트웨어 시스템의 구성 요소를 조립하는 연결부 역할
-- 잘 정의하면 새로운 부분을 추가ㄱ
+- 잘 정의하면 새로운 부분을 추가가 쉬움, 잘못 정의하면 지속적인 방해 요인, 동작을 파악하기 어려워지고 요구사항이 바뀔 때 적절히 수정하기 어렵게 한다.
+- 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NjM2ODQwLC0yMDUzNzE1MTEwLDE3ND
-k5ODEwOTksMTM2ODg3MzI0OSwtNzczNDE3NDQyLDE5Mjg4MTEz
-ODAsMTcxMzcxOTQ1OSwtMTExNjI2ODU2OCwyMjUxOTEyNjUsMT
-AxOTg3ODQ4NCwtMjQwMDQ3MDIsMTY3ODEyNTgyMCwtMTU1NTg4
-ODMxMSwtNDEzNTQ2NjY4LDE2NDQ3NjI5OTgsNDU1OTg3ODQxLD
-IwNjIzMzgyMzcsMTg1MzU2MTEyMCwxMjI2NjEyMjY2LC0xMTAw
-OTAyNzkxXX0=
+eyJoaXN0b3J5IjpbMTY0NTY3ODA5NiwtMjA1MzcxNTExMCwxNz
+Q5OTgxMDk5LDEzNjg4NzMyNDksLTc3MzQxNzQ0MiwxOTI4ODEx
+MzgwLDE3MTM3MTk0NTksLTExMTYyNjg1NjgsMjI1MTkxMjY1LD
+EwMTk4Nzg0ODQsLTI0MDA0NzAyLDE2NzgxMjU4MjAsLTE1NTU4
+ODgzMTEsLTQxMzU0NjY2OCwxNjQ0NzYyOTk4LDQ1NTk4Nzg0MS
+wyMDYyMzM4MjM3LDE4NTM1NjExMjAsMTIyNjYxMjI2NiwtMTEw
+MDkwMjc5MV19
 -->
