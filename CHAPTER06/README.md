@@ -375,10 +375,17 @@ return ["MA","CT","ME","VT","NH","RI"].includes(stateCode)
 ```kotlin
 val newEnglanders = someCustomers.filter{c -> xxNewinNewEngland(c.address.state)}
 ```
-**🔻 함수 선언 바꾸기 -> 기존 함수 호출문을 새 함수 호출문으로 교체**
+**🔻 함수 선언 바꾸기 -> 새 함수의 이름을 기존 함수의 이름으로 바꾼다.**
+```kotlin
+fun inNewEngland(customer: Customer): Boolean{
+	return ["MA","CT","ME","VT","NH","RI"].includes(customer.address.state)
+}
 
+// 호출문 
+val newEnglanders = someCustomers.filter{c -> inNewEngland(c)}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMDE1NTQ2NiwtMjEwMTk3MDY5MSwxNz
+eyJoaXN0b3J5IjpbLTUwMzI3MjE3OCwtMjEwMTk3MDY5MSwxNz
 gyMDA0NTEyLDIxMTg0NzQyMTMsLTEzOTc5MjEyMDUsLTI0MzU4
 NjgwMCwtMjA1MzcxNTExMCwxNzQ5OTgxMDk5LDEzNjg4NzMyND
 ksLTc3MzQxNzQ0MiwxOTI4ODExMzgwLDE3MTM3MTk0NTksLTEx
