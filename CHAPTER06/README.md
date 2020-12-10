@@ -283,10 +283,11 @@ fun circumference(radius: Float){...}
 ```
 - 매개변수 
 ```
-* 함수가 외부 ㅅ
+* 함수가 외부 세계와 어우러지는 방식을 정의
+* 다른 모듈과의 결합(coupling)을 제거
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMDQwMDQ1MiwtMjQzNTg2ODAwLC0yMD
+eyJoaXN0b3J5IjpbLTI5MDcxMTA3MSwtMjQzNTg2ODAwLC0yMD
 UzNzE1MTEwLDE3NDk5ODEwOTksMTM2ODg3MzI0OSwtNzczNDE3
 NDQyLDE5Mjg4MTEzODAsMTcxMzcxOTQ1OSwtMTExNjI2ODU2OC
 wyMjUxOTEyNjUsMTAxOTg3ODQ4NCwtMjQwMDQ3MDIsMTY3ODEy
