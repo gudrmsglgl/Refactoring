@@ -403,9 +403,14 @@ val newEnglanders = someCustomers.filter{c -> inNewEngland(c.address.state)}
 <br>
 
 ### 📍 &nbsp;&nbsp;절차
-
+① 변수로의 접근과 갱신을 전담하는 캡슐화 함수들을 만든다.<br>
+② 정적 검사를 수행한다.<br>
+③ 변수를 직접 참조하던 부분을 모두 적절한 캡슐화 함수 호출로 바꾼다. 하나씩 바꿀 때마다 테스트한다.<br>
+④ 테스트한다. <br>
+⑤ 기존 함수를 인라인한다. <br>
+⑥ 이름을 임시로 붙여뒀다면 함수 선언 바꾸기를 한 번 더 적용해서 원래 이름으로 되돌린다.<br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTEyMDA4MSwxMzM0OTYzOTAxLC00Nz
+eyJoaXN0b3J5IjpbLTQ4MzIxNDM2OCwxMzM0OTYzOTAxLC00Nz
 M4MTgxNTAsLTE4OTU4ODA1ODcsLTIxMDE5NzA2OTEsMTc4MjAw
 NDUxMiwyMTE4NDc0MjEzLC0xMzk3OTIxMjA1LC0yNDM1ODY4MD
 AsLTIwNTM3MTUxMTAsMTc0OTk4MTA5OSwxMzY4ODczMjQ5LC03
