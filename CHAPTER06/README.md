@@ -335,7 +335,7 @@ fun zz_addReservation(customer: Customer){
 ```kotlin
 // Book 클래스..
 fun addReservation(customer: Customer){
-	this._reservations.push(customer)
+	this.zz_addReservation(customer, false)
 }
 
 fun zz_addReservation(customer: Customer, isPriority: Boolean){
@@ -343,7 +343,7 @@ fun zz_addReservation(customer: Customer, isPriority: Boolean){
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTM2NzM4MDcsLTEzOTc5MjEyMDUsLT
+eyJoaXN0b3J5IjpbLTE0NzM2MTM5MTgsLTEzOTc5MjEyMDUsLT
 I0MzU4NjgwMCwtMjA1MzcxNTExMCwxNzQ5OTgxMDk5LDEzNjg4
 NzMyNDksLTc3MzQxNzQ0MiwxOTI4ODExMzgwLDE3MTM3MTk0NT
 ksLTExMTYyNjg1NjgsMjI1MTkxMjY1LDEwMTk4Nzg0ODQsLTI0
