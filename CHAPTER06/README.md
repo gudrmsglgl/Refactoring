@@ -350,13 +350,21 @@ fun zz_addReservation(customer: Customer, isPriority: Boolean){
 <br>
 
 ### **ex) 매개변수를 속성으로 바꾸기**<br>
+**요구사항: 고객이 뉴잉글랜드에 살고 있는지 확인하는 함수**
+
+```kotlin
+fun isNewEngland(customer: Customer){
+	return 
+}
+```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTczMjYwMjUsMTc4MjAwNDUxMiwyMT
-E4NDc0MjEzLC0xMzk3OTIxMjA1LC0yNDM1ODY4MDAsLTIwNTM3
-MTUxMTAsMTc0OTk4MTA5OSwxMzY4ODczMjQ5LC03NzM0MTc0ND
-IsMTkyODgxMTM4MCwxNzEzNzE5NDU5LC0xMTE2MjY4NTY4LDIy
-NTE5MTI2NSwxMDE5ODc4NDg0LC0yNDAwNDcwMiwxNjc4MTI1OD
-IwLC0xNTU1ODg4MzExLC00MTM1NDY2NjgsMTY0NDc2Mjk5OCw0
-NTU5ODc4NDFdfQ==
+eyJoaXN0b3J5IjpbMTIyNDczNzk5MSwxNzgyMDA0NTEyLDIxMT
+g0NzQyMTMsLTEzOTc5MjEyMDUsLTI0MzU4NjgwMCwtMjA1Mzcx
+NTExMCwxNzQ5OTgxMDk5LDEzNjg4NzMyNDksLTc3MzQxNzQ0Mi
+wxOTI4ODExMzgwLDE3MTM3MTk0NTksLTExMTYyNjg1NjgsMjI1
+MTkxMjY1LDEwMTk4Nzg0ODQsLTI0MDA0NzAyLDE2NzgxMjU4Mj
+AsLTE1NTU4ODgzMTEsLTQxMzU0NjY2OCwxNjQ0NzYyOTk4LDQ1
+NTk4Nzg0MV19
 -->
