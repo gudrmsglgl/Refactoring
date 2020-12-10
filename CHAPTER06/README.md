@@ -397,13 +397,14 @@ val newEnglanders = someCustomers.filter{c -> inNewEngland(c.address.state)}
 	- 데이터 재구성이라는 어려운 작업을 함수 재구성이라는 더 단순한 작업으로 변환되는 것.
 - 데이터를 변경하고 사용하는 코드를 감시하기 때문에 **데이터 변경 전 검증이나 변경 후 추가 로직을 쉽게** 끼워 넣을 수 있다. 
 - 자주 사용하는 데이터에 대한 결합도가 높아지는 일을 막을 수 있다.
-- private 유지 -> 가시 범위 제한
+- private 유지(필드 캡슐화하기) -> 가시 범위 제한
+- 불변 데이터는 가변 데이터보다 캡슐화할 이유가 적다. 데이터를 변경될 일이 없어서 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODM0OTQzMjksMTMzNDk2MzkwMSwtND
-czODE4MTUwLC0xODk1ODgwNTg3LC0yMTAxOTcwNjkxLDE3ODIw
-MDQ1MTIsMjExODQ3NDIxMywtMTM5NzkyMTIwNSwtMjQzNTg2OD
-AwLC0yMDUzNzE1MTEwLDE3NDk5ODEwOTksMTM2ODg3MzI0OSwt
-NzczNDE3NDQyLDE5Mjg4MTEzODAsMTcxMzcxOTQ1OSwtMTExNj
-I2ODU2OCwyMjUxOTEyNjUsMTAxOTg3ODQ4NCwtMjQwMDQ3MDIs
-MTY3ODEyNTgyMF19
+eyJoaXN0b3J5IjpbLTYxMDM4NTk5MywxMzM0OTYzOTAxLC00Nz
+M4MTgxNTAsLTE4OTU4ODA1ODcsLTIxMDE5NzA2OTEsMTc4MjAw
+NDUxMiwyMTE4NDc0MjEzLC0xMzk3OTIxMjA1LC0yNDM1ODY4MD
+AsLTIwNTM3MTUxMTAsMTc0OTk4MTA5OSwxMzY4ODczMjQ5LC03
+NzM0MTc0NDIsMTkyODgxMTM4MCwxNzEzNzE5NDU5LC0xMTE2Mj
+Y4NTY4LDIyNTE5MTI2NSwxMDE5ODc4NDg0LC0yNDAwNDcwMiwx
+Njc4MTI1ODIwXX0=
 -->
