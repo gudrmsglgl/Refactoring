@@ -291,12 +291,12 @@ fun circumference(radius: Float){...}
 <br>
 
 ### 📍 &nbsp;&nbsp;간단한 절차
-① 매개변수를 제거하려거든 먼저 함수 본문에서 제거 대상 매개변수를 참조하는 곳은 없는지 확인.<br>
+① 매개변수를 제거하려거든 먼저 **⚠️ 함수 본문에서 제거 대상 매개변수를 참조하는 곳**은 없는지 확인.<br>
 ② 메서드 선언을 원하는 형태로 바꾼다.<br>
 ③ 기존 메서드 선언을 참조하는 부분을 모두 찾아서 바뀐 형태로 수정.<br>
 ④ 테스트한다. <br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMTM0MDk1OCwtMjQzNTg2ODAwLC0yMD
+eyJoaXN0b3J5IjpbMTY5MDkwOTU5MSwtMjQzNTg2ODAwLC0yMD
 UzNzE1MTEwLDE3NDk5ODEwOTksMTM2ODg3MzI0OSwtNzczNDE3
 NDQyLDE5Mjg4MTEzODAsMTcxMzcxOTQ1OSwtMTExNjI2ODU2OC
 wyMjUxOTEyNjUsMTAxOTg3ODQ4NCwtMjQwMDQ3MDIsMTY3ODEy
