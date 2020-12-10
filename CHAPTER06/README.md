@@ -395,10 +395,10 @@ val newEnglanders = someCustomers.filter{c -> inNewEngland(c.address.state)}
 - 접근할 수 있는 범위가 넓은 데이터를 옮길 때
 	- 그 데이터로의 **💫 접근을 독점하는 함수를 만드는 식으로 캡슐화**하는 것이 가장 좋은 방법
 	- 데이터 재구성이라는 어려운 작업을 함수 재구성이라는 더 단순한 작업으로 변환되는 것.
-- 데이터를 변경하고 사용하는 코드를 감시하기 때문에 
+- 데이터를 변경하고 사용하는 코드를 감시하기 때문에 **데이터 변경 전 검증이나 변경 후 추가 로직을 쉽게** 끼워 넣을 수 있다. 
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MjA0ODY3MywtNDczODE4MTUwLC0xOD
+eyJoaXN0b3J5IjpbMTMzNDk2MzkwMSwtNDczODE4MTUwLC0xOD
 k1ODgwNTg3LC0yMTAxOTcwNjkxLDE3ODIwMDQ1MTIsMjExODQ3
 NDIxMywtMTM5NzkyMTIwNSwtMjQzNTg2ODAwLC0yMDUzNzE1MT
 EwLDE3NDk5ODEwOTksMTM2ODg3MzI0OSwtNzczNDE3NDQyLDE5
