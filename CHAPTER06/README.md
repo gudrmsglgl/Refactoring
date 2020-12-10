@@ -314,10 +314,14 @@ fun circumference(radius: Float){...}
 **ex: 매개변수 추가하기**
 ```kotlin
 // Book 클래스..
-fun addReservation(customer){
+fun addReservation(customer: Customer){
+	this._reservations.push(customer)
+}
 ```
+**🔻 요구사항: 예약 시 우선순위 큐를 지원하는 새로운 *
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE4NzQ4ODIyLC0xMzk3OTIxMjA1LC0yND
+eyJoaXN0b3J5IjpbNDc4OTY1OTI2LC0xMzk3OTIxMjA1LC0yND
 M1ODY4MDAsLTIwNTM3MTUxMTAsMTc0OTk4MTA5OSwxMzY4ODcz
 MjQ5LC03NzM0MTc0NDIsMTkyODgxMTM4MCwxNzEzNzE5NDU5LC
 0xMTE2MjY4NTY4LDIyNTE5MTI2NSwxMDE5ODc4NDg0LC0yNDAw
