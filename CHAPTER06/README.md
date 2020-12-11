@@ -542,6 +542,7 @@ fun amountOverdue(dateRange: DateRange){...}
 &#10102; 
 </div>
 
+<span style="color:red">some **This is Red Bold.** text</span>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❶   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ➊
@@ -554,7 +555,7 @@ fun amountOverdue(dateRange: DateRange){...}
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❶
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MjI2ODM3NSwtMjEwMDcwNTkyNSwxNT
+eyJoaXN0b3J5IjpbLTgwMjA1MTA0MSwtMjEwMDcwNTkyNSwxNT
 A0NTQ0MDg3LDUxMDYyNjEwMiw1NTY2ODAzMTQsLTE4ODI2NDc4
 MzYsLTIwMTQwNTg0ODMsMjAzNzA1ODc0Nyw1NTE0NTgyNDIsMT
 Q1NzY0NDcyMiwtNDk0NzI1NzM2LDEzNzQ2Nzc4MDIsLTYyODQ0
