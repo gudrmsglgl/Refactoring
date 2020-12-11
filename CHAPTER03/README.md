@@ -475,17 +475,19 @@
 > "주석을 남겨야겠다는 생각이 들면, 가장 먼저 주석이 필요 없는 코드로 리팩토링해본다."
 
 - 주석을 남기고 싶다면 
-- 	 - [x] 함수 추출하기를 적용
-- 추출이 되어있는 함수임에도 여전히 설명이 필요하다면 함수 선언 바꾸기로 이름을 바꿔본다.
-- 시스템이 동작하기 위한 선행조건을 명시하고 싶다면 어서션 추가하기가 대기하고 잇다.
+	 - [x] 함수 추출하기를 적용
+- 추출이 되어있는 함수임에도 여전히 설명이 필요하다면
+	 - [x] 함수 선언 바꾸기로 이름을 바꿔본다.
+- 시스템이 동작하기 위한 선행조건을 명시하고 싶다면
+	 - [x] 어서션 추가하기
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NjgxNjE0Myw1NzQwNjgxNDcsMjA3Nj
-g2NTg0Myw3OTcwNzU3LC0xODkwOTMwMzQ1LC0xODQ5MzU1OTkx
-LC00MzU1NTg4OTUsLTE1ODE4MTQ4OTUsOTUxNzU2MjM4LC03MD
-YxNjk0NDEsMjE0MjMyNzI2MywtMjAxMjY1NTc0OSwxMjQ1NjQ2
-MjAwLDIwNzUyMDg5MjUsMjAzODYwNjgyMSwtNTE4MDUxOTE1LC
-04MzMwMzY1MzQsOTkyMDkzNDEzLC03MDE0NzkxOTgsODg0MDUy
-MTI5XX0=
+eyJoaXN0b3J5IjpbLTE1NTA0ODA5NDEsNTc0MDY4MTQ3LDIwNz
+Y4NjU4NDMsNzk3MDc1NywtMTg5MDkzMDM0NSwtMTg0OTM1NTk5
+MSwtNDM1NTU4ODk1LC0xNTgxODE0ODk1LDk1MTc1NjIzOCwtNz
+A2MTY5NDQxLDIxNDIzMjcyNjMsLTIwMTI2NTU3NDksMTI0NTY0
+NjIwMCwyMDc1MjA4OTI1LDIwMzg2MDY4MjEsLTUxODA1MTkxNS
+wtODMzMDM2NTM0LDk5MjA5MzQxMywtNzAxNDc5MTk4LDg4NDA1
+MjEyOV19
 -->
