@@ -37,25 +37,25 @@
 
 ```kotlin
 fun printOwing(invoice: Invoice){
-	printBanner()
-	val outstanding = calculateOutstanding()
+   printBanner()
+   val outstanding = calculateOutstanding()
 	
-	// 세부 사항 출력 
-	println("고객명: ${invoice.customer}")
-	println("채무액: ${outstanding}")
+   // 세부 사항 출력 
+   println("고객명: ${invoice.customer}")
+   println("채무액: ${outstanding}")
 }
 ```
 **🔻&nbsp;&nbsp;함수 추출 후**
 ```kotlin
 fun printOwing(invoice: Invoice){
-	printBanner()
-	val outstanding = calculateOutstanding()
-	printDetail(invoice, outstanding)
+   printBanner()
+   val outstanding = calculateOutstanding()
+   printDetail(invoice, outstanding)
 }
 
 fun printDetail(invoice: Invoice, outstanding: Int){
-	println("고객명: ${invoice.customer}")
-	println("채무액: ${outstanding}")
+   println("고객명: ${invoice.customer}")
+   println("채무액: ${outstanding}")
 }
 ```
 <br>
@@ -104,17 +104,17 @@ fun printDetail(invoice: Invoice, outstanding: Int){
 ## 6.2 함수 인라인하기 Inline Function
 ```kotlin
 fun getRating(driver: Driver): Int{
-	retrun moreThanFiveLateDeliveries(driver) ? 2: 1
+   retrun moreThanFiveLateDeliveries(driver) ? 2: 1
 }
 
 fun moreThanFiveLateDeliveries(driver: Driver): Int {
-	return driver.numberOfLateDeliveries > 5
+   return driver.numberOfLateDeliveries > 5
 }
 ```
 **🔻&nbsp;&nbsp;함수 인라인**
 ```kotlin
 fun getRating(driver: Driver): Int{
-	retrun (driver.numberOfLateDeliveries > 5) ? 2: 1
+   retrun (driver.numberOfLateDeliveries > 5) ? 2: 1
 }
 ```
 <br>
@@ -198,11 +198,11 @@ class Order{
 
 ```kotlin
 class Order{
-	val data
-	val quantity
-		get() = this.data.quantity
-	val itemPrice
-		get() = this.data.itemPrice
+   val data
+   val quantity
+      get() = this.data.quantity 
+   val itemPrice
+      get() = this.data.itemPrice
 	val basePrice
 		get() = this.quantity * this.itemPrice
 	val quantityDiscount
@@ -527,11 +527,11 @@ fun amountOverdue(dateRange: DateRange){...}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNzA1ODc0Nyw1NTE0NTgyNDIsMTQ1Nz
-Y0NDcyMiwtNDk0NzI1NzM2LDEzNzQ2Nzc4MDIsLTYyODQ0NzAw
-OCwyNjk2MjQyOSwtNTA5ODI2ODAyLC0xNzQxNzEyNTQsLTk3ND
-g5MjYxNSwtMjQ0Mzc4OTEyLDQ2NDQ5ODU4LDIwNDYzMzE5ODAs
-LTE4NjkwODEyMTYsLTI5MDc4MDUyOCwtMTAxMjkzOTQwNSwxMz
-M0OTYzOTAxLC00NzM4MTgxNTAsLTE4OTU4ODA1ODcsLTIxMDE5
-NzA2OTFdfQ==
+eyJoaXN0b3J5IjpbNDUxNjk5MzIzLDIwMzcwNTg3NDcsNTUxND
+U4MjQyLDE0NTc2NDQ3MjIsLTQ5NDcyNTczNiwxMzc0Njc3ODAy
+LC02Mjg0NDcwMDgsMjY5NjI0MjksLTUwOTgyNjgwMiwtMTc0MT
+cxMjU0LC05NzQ4OTI2MTUsLTI0NDM3ODkxMiw0NjQ0OTg1OCwy
+MDQ2MzMxOTgwLC0xODY5MDgxMjE2LC0yOTA3ODA1MjgsLTEwMT
+I5Mzk0MDUsMTMzNDk2MzkwMSwtNDczODE4MTUwLC0xODk1ODgw
+NTg3XX0=
 -->
