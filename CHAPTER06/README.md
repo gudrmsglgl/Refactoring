@@ -442,7 +442,7 @@ private var defaultOwner = "마틴 파울러"  // 👈 가시 범위 제한
 fun getDefaultOwner() = this.defaultOwner
 fun setDefaultOwner(arg: String){this.defaultOwner = arg}
 ``` 
-
+🙆‍♀️ Kotlin set&get
 
 ```kotlin
 private var _defaultOwner = "마틴 파울러"
@@ -454,7 +454,7 @@ var defaultOwner: String
 ``` 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODY1MjU3MTEsLTI0NDM3ODkxMiw0Nj
+eyJoaXN0b3J5IjpbLTE0MDgzNDMxMTksLTI0NDM3ODkxMiw0Nj
 Q0OTg1OCwyMDQ2MzMxOTgwLC0xODY5MDgxMjE2LC0yOTA3ODA1
 MjgsLTEwMTI5Mzk0MDUsMTMzNDk2MzkwMSwtNDczODE4MTUwLC
 0xODk1ODgwNTg3LC0yMTAxOTcwNjkxLDE3ODIwMDQ1MTIsMjEx
