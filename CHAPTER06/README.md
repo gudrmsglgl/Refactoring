@@ -539,11 +539,14 @@ fun amountOverdue(dateRange: DateRange){...}
 ### 📍 &nbsp;&nbsp;절차
 
 <div style="font-size:x-large"> 
-&#10102; 
+
 </div>
 
 <span style="color:red">some **This is Red Bold.** text</span>
 
+<font color='red' size='12'>&#10102;
+<font color='black' size='12'>이렇게 </font>
+</font>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❶   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ➊
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❶
@@ -555,11 +558,11 @@ fun amountOverdue(dateRange: DateRange){...}
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❶
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMjA1MTA0MSwtMjEwMDcwNTkyNSwxNT
-A0NTQ0MDg3LDUxMDYyNjEwMiw1NTY2ODAzMTQsLTE4ODI2NDc4
-MzYsLTIwMTQwNTg0ODMsMjAzNzA1ODc0Nyw1NTE0NTgyNDIsMT
-Q1NzY0NDcyMiwtNDk0NzI1NzM2LDEzNzQ2Nzc4MDIsLTYyODQ0
-NzAwOCwyNjk2MjQyOSwtNTA5ODI2ODAyLC0xNzQxNzEyNTQsLT
-k3NDg5MjYxNSwtMjQ0Mzc4OTEyLDQ2NDQ5ODU4LDIwNDYzMzE5
-ODBdfQ==
+eyJoaXN0b3J5IjpbLTE3MjA2OTE1NzQsLTgwMjA1MTA0MSwtMj
+EwMDcwNTkyNSwxNTA0NTQ0MDg3LDUxMDYyNjEwMiw1NTY2ODAz
+MTQsLTE4ODI2NDc4MzYsLTIwMTQwNTg0ODMsMjAzNzA1ODc0Ny
+w1NTE0NTgyNDIsMTQ1NzY0NDcyMiwtNDk0NzI1NzM2LDEzNzQ2
+Nzc4MDIsLTYyODQ0NzAwOCwyNjk2MjQyOSwtNTA5ODI2ODAyLC
+0xNzQxNzEyNTQsLTk3NDg5MjYxNSwtMjQ0Mzc4OTEyLDQ2NDQ5
+ODU4XX0=
 -->
