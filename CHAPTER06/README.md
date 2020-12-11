@@ -317,9 +317,9 @@ fun circumference(radius: Float){...}
 ```
 &emsp;⓷ 추출한 함수에 매개변수를 추가해야 한다면 '간단한 절차'를 따라 추가.<br>
 &emsp;⓸ 테스트한다. <br>
-&emsp;⓹<br>⑤ 기존 함수를 인라인한다. <br>
-&emsp;⓺<br>⑥ 이름을 임시로 붙여뒀다면 함수 선언 바꾸기를 한 번 더 적용해서 원래 이름으로 되돌린다.<br>
-&emsp;⓻<br>⑦ 테스트한다.
+&emsp;⓹ 기존 함수를 인라인한다. <br>
+&emsp;⓺ 이름을 임시로 붙여뒀다면 함수 선언 바꾸기를 한 번 더 적용해서 원래 이름으로 되돌린다.<br>
+&emsp;⓻ 테스트한다.
 
 <br>
 
@@ -555,11 +555,11 @@ fun amountOverdue(dateRange: DateRange){...}
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDQ2NDUxMTcsMTQ2MzcyMDg3OSwtMT
-Y5ODQ2MDcxNiwtNDE2NTA4NTY1LC0yNzg4OTkwOTMsMTExNDUy
-MTcxMywtNDI3Nzk2MjM5LC04MTk3MTAzOCwtODAyMDUxMDQxLC
-0yMTAwNzA1OTI1LDE1MDQ1NDQwODcsNTEwNjI2MTAyLDU1NjY4
-MDMxNCwtMTg4MjY0NzgzNiwtMjAxNDA1ODQ4MywyMDM3MDU4Nz
-Q3LDU1MTQ1ODI0MiwxNDU3NjQ0NzIyLC00OTQ3MjU3MzYsMTM3
-NDY3NzgwMl19
+eyJoaXN0b3J5IjpbNjQ1ODQ4MTcwLDE0NjM3MjA4NzksLTE2OT
+g0NjA3MTYsLTQxNjUwODU2NSwtMjc4ODk5MDkzLDExMTQ1MjE3
+MTMsLTQyNzc5NjIzOSwtODE5NzEwMzgsLTgwMjA1MTA0MSwtMj
+EwMDcwNTkyNSwxNTA0NTQ0MDg3LDUxMDYyNjEwMiw1NTY2ODAz
+MTQsLTE4ODI2NDc4MzYsLTIwMTQwNTg0ODMsMjAzNzA1ODc0Ny
+w1NTE0NTgyNDIsMTQ1NzY0NDcyMiwtNDk0NzI1NzM2LDEzNzQ2
+Nzc4MDJdfQ==
 -->
