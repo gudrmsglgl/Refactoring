@@ -440,8 +440,8 @@
 	    - [x] 타입 코드를 서브클래스로 바꾸기로 적용하는 편이 더 쉽다.
 
 - **중복 제거** 
-
-		* 상당량의 로직이 똑같은 메서드 다섯 개가 있다면 각각의 공통 부분을 작은 메서드들로 뽑아내자.`
+	- 상당량의 로직이 똑같은 메서드 다섯 개가 있다면 
+	- [x] 각각의 공통 부분을 작은 메서드들로 뽑아내자.`
 
  - **거대 클래스 이용 패턴을 파악** 
 
@@ -491,11 +491,11 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNDk5MzI4OSw5NDg4MDMyNjksNDA1MD
-M2NDcyLC0xMDk4NDgyNzE2LDU3NDA2ODE0NywyMDc2ODY1ODQz
-LDc5NzA3NTcsLTE4OTA5MzAzNDUsLTE4NDkzNTU5OTEsLTQzNT
-U1ODg5NSwtMTU4MTgxNDg5NSw5NTE3NTYyMzgsLTcwNjE2OTQ0
-MSwyMTQyMzI3MjYzLC0yMDEyNjU1NzQ5LDEyNDU2NDYyMDAsMj
-A3NTIwODkyNSwyMDM4NjA2ODIxLC01MTgwNTE5MTUsLTgzMzAz
-NjUzNF19
+eyJoaXN0b3J5IjpbLTE2Nzg1NDU0MjcsOTQ4ODAzMjY5LDQwNT
+AzNjQ3MiwtMTA5ODQ4MjcxNiw1NzQwNjgxNDcsMjA3Njg2NTg0
+Myw3OTcwNzU3LC0xODkwOTMwMzQ1LC0xODQ5MzU1OTkxLC00Mz
+U1NTg4OTUsLTE1ODE4MTQ4OTUsOTUxNzU2MjM4LC03MDYxNjk0
+NDEsMjE0MjMyNzI2MywtMjAxMjY1NTc0OSwxMjQ1NjQ2MjAwLD
+IwNzUyMDg5MjUsMjAzODYwNjgyMSwtNTE4MDUxOTE1LC04MzMw
+MzY1MzRdfQ==
 -->
