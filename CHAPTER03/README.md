@@ -289,8 +289,8 @@
  	 - [x] **매개변수 객체 만들기**나 **객체 통째로 넘기기**를   적용해서 매개변수 수를 줄여본다.
  	 - [x] 👍 메서드 호출이 간결해질 것.
 
- - [x] 클래스를 이용하면 좋은 향기를 흩뿌릴 기회가 생긴다.
- - [x] 클래스를 옮기면 좋을 동작은 없는지 살펴본다.
+ -  클래스를 이용하면 좋은 향기를 흩뿌릴 기회가 생긴다.
+ -  클래스를 옮기면 좋을 동작은 없는지 살펴본다.
 
  
  #### ❓&nbsp;&nbsp;데이터 뭉치 판별
@@ -515,7 +515,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgyMjgzMzUyLDE5NDczODI5NDQsNTU0Mz
+eyJoaXN0b3J5IjpbMjY3NDAzMDIwLDE5NDczODI5NDQsNTU0Mz
 E0MzYsMTIzNDIwMzkyLDE1MTkxNTQ3MTcsLTUzNzkzOTM4NSwy
 OTAwNzc3ODEsNDM4MzY5NDI5LC0xNjc4NTQ1NDI3LDk0ODgwMz
 I2OSw0MDUwMzY0NzIsLTEwOTg0ODI3MTYsNTc0MDY4MTQ3LDIw
