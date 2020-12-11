@@ -434,14 +434,14 @@ defaultOwner = "레베카 파손스"
 private var _defaultOwner = "마틴 파울러"  or   private var defaultOwner = "마틴 파울러"
 
 var defaultOwner: String			fun getDefaultOwner() = this.defaultOwner
-   set(value){				fun setDefaultOwner(arg: String){this.defaultOwner = arg}	
+   set(value){						fun setDefaultOwner(arg: String){this.defaultOwner = arg}	
       this._defaultOwner = value
    }
    get() = this._defaultOwner
 ``` 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMjQ2MjA4MywtMjQ0Mzc4OTEyLDQ2ND
+eyJoaXN0b3J5IjpbLTIxNDczNTE0OSwtMjQ0Mzc4OTEyLDQ2ND
 Q5ODU4LDIwNDYzMzE5ODAsLTE4NjkwODEyMTYsLTI5MDc4MDUy
 OCwtMTAxMjkzOTQwNSwxMzM0OTYzOTAxLC00NzM4MTgxNTAsLT
 E4OTU4ODA1ODcsLTIxMDE5NzA2OTEsMTc4MjAwNDUxMiwyMTE4
