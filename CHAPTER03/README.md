@@ -99,20 +99,20 @@
 
 ### :cyclone: 긴 매개변수 처리
 
-    ⚠️ 다른 매개변수에서 값을 얻어올 수 있는 매개변수 
-    ↪️ 매개변수를 질의 함수로 바꾸기
-    
-    ⚠️ 사용 중인 데이터 구조에서 값들을 뽑아 각각을 별개의 매개변수로 전달하는 코드
-    ↪️ 객체 통쨰로 넘기기 적용해서 원본 데이터 구조를 그대로 전달
-    
-    ⚠️ 항상 함께 전달되는 매개변수
-    ↪️ 매개변수 객체 만들기로 하나로 묶기
+  -  다른 매개변수에서 값을 얻어올 수 있는 매개변수 
+	  - [x] 매개변수를 질의 함수로 바꾸기
 
-    ⚠️ 함수 동작 방식을 정하는 플래그 역할의 매개변수
-    ↪️ 플래그 인수 제거하기로 없애기
+  - 사용 중인 데이터 구조에서 값들을 뽑아 각각을 별개의 매개변수로 전달하는 코드
+	  - [x] 객체 통쨰로 넘기기 적용해서 원본 데이터 구조를 그대로 전달
+    
+   - 항상 함께 전달되는 매개변수
+	  - [x] 매개변수 객체 만들기로 하나로 묶기
 
-    ⚠️ 항상 함께 전달되는 매개변수
-    ↪️ 매개변수 객체 만들기로 하나로 묶기
+   - 함수 동작 방식을 정하는 플래그 역할의 매개변수
+	  - [x] 플래그 인수 제거하기로 없애기
+
+  - 항상 함께 전달되는 매개변수
+	  - [x] 매개변수 객체 만들기로 하나로 묶기
     
     ⚠️ 여러 개의 함수가 특정 매개변수들의 값을 공통으로 사용할 때 
     ↪️ 여러 함수를 클래스로 묶기를 이용하여 공통 값들을 클래스의 필드로 정의
@@ -526,11 +526,11 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDg0MzYwOSwxNTQzMzc2MDk2LDE5ND
-czODI5NDQsNTU0MzE0MzYsMTIzNDIwMzkyLDE1MTkxNTQ3MTcs
-LTUzNzkzOTM4NSwyOTAwNzc3ODEsNDM4MzY5NDI5LC0xNjc4NT
-Q1NDI3LDk0ODgwMzI2OSw0MDUwMzY0NzIsLTEwOTg0ODI3MTYs
-NTc0MDY4MTQ3LDIwNzY4NjU4NDMsNzk3MDc1NywtMTg5MDkzMD
-M0NSwtMTg0OTM1NTk5MSwtNDM1NTU4ODk1LC0xNTgxODE0ODk1
-XX0=
+eyJoaXN0b3J5IjpbLTIyNTE0NjAzOSwtMTQwODQzNjA5LDE1ND
+MzNzYwOTYsMTk0NzM4Mjk0NCw1NTQzMTQzNiwxMjM0MjAzOTIs
+MTUxOTE1NDcxNywtNTM3OTM5Mzg1LDI5MDA3Nzc4MSw0MzgzNj
+k0MjksLTE2Nzg1NDU0MjcsOTQ4ODAzMjY5LDQwNTAzNjQ3Miwt
+MTA5ODQ4MjcxNiw1NzQwNjgxNDcsMjA3Njg2NTg0Myw3OTcwNz
+U3LC0xODkwOTMwMzQ1LC0xODQ5MzU1OTkxLC00MzU1NTg4OTVd
+fQ==
 -->
