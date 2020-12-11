@@ -426,12 +426,16 @@ spaceship.owner = defaultOwner
 defaultOwner = "레베카 파손스"
 ```
 **🔻 1. 기본적인 캡슐화를 위해 가장 먼저 데이터를 읽고 쓰는 함수 정의**
+```kotlin
+var defaultOwner = "마틴 파울러"
+	
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTczNzgyNSwtMjkwNzgwNTI4LC0xMD
-EyOTM5NDA1LDEzMzQ5NjM5MDEsLTQ3MzgxODE1MCwtMTg5NTg4
-MDU4NywtMjEwMTk3MDY5MSwxNzgyMDA0NTEyLDIxMTg0NzQyMT
-MsLTEzOTc5MjEyMDUsLTI0MzU4NjgwMCwtMjA1MzcxNTExMCwx
-NzQ5OTgxMDk5LDEzNjg4NzMyNDksLTc3MzQxNzQ0MiwxOTI4OD
-ExMzgwLDE3MTM3MTk0NTksLTExMTYyNjg1NjgsMjI1MTkxMjY1
-LDEwMTk4Nzg0ODRdfQ==
+eyJoaXN0b3J5IjpbLTE4NjkwODEyMTYsLTI5MDc4MDUyOCwtMT
+AxMjkzOTQwNSwxMzM0OTYzOTAxLC00NzM4MTgxNTAsLTE4OTU4
+ODA1ODcsLTIxMDE5NzA2OTEsMTc4MjAwNDUxMiwyMTE4NDc0Mj
+EzLC0xMzk3OTIxMjA1LC0yNDM1ODY4MDAsLTIwNTM3MTUxMTAs
+MTc0OTk4MTA5OSwxMzY4ODczMjQ5LC03NzM0MTc0NDIsMTkyOD
+gxMTM4MCwxNzEzNzE5NDU5LC0xMTE2MjY4NTY4LDIyNTE5MTI2
+NSwxMDE5ODc4NDg0XX0=
 -->
