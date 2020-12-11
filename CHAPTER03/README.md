@@ -463,7 +463,8 @@
 - public 필드가 있다면 
 	 - [x] **레코드 캡슐화하기**
 - 다른 클래스 메서드 -> 데이터 클래스의 게터나 세터를 사용할 때 
-	 - [x] 함수 옮기기로 데이터 클래스로 옮길 수 있는지<br> 📍 메서드를 통째로 옮기기 어렵다면 함수 추출하기를 이용해서 부분만 별도 메서드로 뽑아내기 
+	 - [x] 함수 옮기기로 **데이터 클래스로 옮길 수 있는지**<br> 
+	 - [x] 메서드를 통째로 옮기기 어렵다면 **함수 추출하기를 이용해서 부분만 별도 메서드**로 뽑아내기 
 - 불변 필드는 굳이 캡슐화할 필요가 없고, 불변 데이터로부터 나오는 정보는 필드 자체를 공개해도 된다. 
 
 <br>
@@ -485,11 +486,11 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2Njk0ODQ1Nyw1NzQwNjgxNDcsMjA3Nj
-g2NTg0Myw3OTcwNzU3LC0xODkwOTMwMzQ1LC0xODQ5MzU1OTkx
-LC00MzU1NTg4OTUsLTE1ODE4MTQ4OTUsOTUxNzU2MjM4LC03MD
-YxNjk0NDEsMjE0MjMyNzI2MywtMjAxMjY1NTc0OSwxMjQ1NjQ2
-MjAwLDIwNzUyMDg5MjUsMjAzODYwNjgyMSwtNTE4MDUxOTE1LC
-04MzMwMzY1MzQsOTkyMDkzNDEzLC03MDE0NzkxOTgsODg0MDUy
-MTI5XX0=
+eyJoaXN0b3J5IjpbNTMwMzYwMjcyLDU3NDA2ODE0NywyMDc2OD
+Y1ODQzLDc5NzA3NTcsLTE4OTA5MzAzNDUsLTE4NDkzNTU5OTEs
+LTQzNTU1ODg5NSwtMTU4MTgxNDg5NSw5NTE3NTYyMzgsLTcwNj
+E2OTQ0MSwyMTQyMzI3MjYzLC0yMDEyNjU1NzQ5LDEyNDU2NDYy
+MDAsMjA3NTIwODkyNSwyMDM4NjA2ODIxLC01MTgwNTE5MTUsLT
+gzMzAzNjUzNCw5OTIwOTM0MTMsLTcwMTQ3OTE5OCw4ODQwNTIx
+MjldfQ==
 -->
