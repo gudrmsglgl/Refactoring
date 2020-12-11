@@ -429,9 +429,9 @@
 	너무 많은 일을 하려다 보면 필드 수가 상당히 늘어남.
 	클래스에 필드가 너무 많으면 중복 코드가 생기기 쉽다.
 
-#### 💊&nbsp;&nbsp;거대한 클래스 리팩토링 
+### 💊&nbsp;&nbsp;거대한 클래스 리팩토링 
 
-### **클래스 추출하기** 
+#### **클래스 추출하기** 
 - [x] 필드를 일부를 따로 묶는다.
 - [x] 같은 컴포넌트에 모아두는 것이 합당해 보이는 필드들을 선택.
 - [x] 한 클래스 안에서 접두어나 접미어가 같은 필드들이 함께 추출할 후보.
@@ -439,9 +439,9 @@
 	  - [x] 슈퍼클래스 추출하기나 (실질적으로 서브클래스 추출하기에 해당하는) 
 	   - [x] 타입 코드를 서브클래스로 바꾸기로 적용하는 편이 더 쉽다.
 
-- **중복 제거** 
+#### **중복 제거** 
 - 상당량의 로직이 똑같은 메서드 다섯 개가 있다면 
-	  - [x] 각각의 공통 부분을 작은 메서드들로 뽑아내자.
+	- [x] 각각의 공통 부분을 작은 메서드들로 뽑아내자.
 
  - **거대 클래스 이용 패턴을 파악** 
 
@@ -491,7 +491,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMjE3NTk4NywtMTY3ODU0NTQyNyw5ND
+eyJoaXN0b3J5IjpbMTg4MjkwMTg2NCwtMTY3ODU0NTQyNyw5ND
 g4MDMyNjksNDA1MDM2NDcyLC0xMDk4NDgyNzE2LDU3NDA2ODE0
 NywyMDc2ODY1ODQzLDc5NzA3NTcsLTE4OTA5MzAzNDUsLTE4ND
 kzNTU5OTEsLTQzNTU1ODg5NSwtMTU4MTgxNDg5NSw5NTE3NTYy
