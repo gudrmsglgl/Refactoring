@@ -178,20 +178,19 @@ return basePrice - quantityDiscount + shipping
 
 ```kotlin
 class Order{
-	val data
-	val quantity
-		get() = this.data.quantity
-	val itemPrice
-		get() = this.data.itemPrice
-	val price
-		get() = this.quantity * this.itemPrice - 
-		Math.max(0, this.quantity - 500) * this.itemPrice * 0.05 +
-		Math.min(this.quantity * this.itemPrice * 0.1, 100)
+   val data
+   val quantity
+      get() = this.data.quantity
+   val itemPrice
+      get() = this.data.itemPrice
+   val price
+      get() = this.quantity * this.itemPrice - 
+      Math.max(0, this.quantity - 500) * this.itemPrice * 0.05 +
+      Math.min(this.quantity * this.itemPrice * 0.1, 100)
 				
-	constructor(record: Record){
-		this.data = record
-	}
-	
+   constructor(record: Record){
+      this.data = record
+   }
 }
 ```
 **🔻&nbsp;&nbsp;이름이 가격을 계산하는 price() 메서드의 범위를 넘어 클래스 전체 적용<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-> 변수추출x, 함수추출o**
@@ -526,11 +525,11 @@ fun amountOverdue(dateRange: DateRange){...}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NTczNzcxMywyMDM3MDU4NzQ3LDU1MT
-Q1ODI0MiwxNDU3NjQ0NzIyLC00OTQ3MjU3MzYsMTM3NDY3Nzgw
-MiwtNjI4NDQ3MDA4LDI2OTYyNDI5LC01MDk4MjY4MDIsLTE3ND
-E3MTI1NCwtOTc0ODkyNjE1LC0yNDQzNzg5MTIsNDY0NDk4NTgs
-MjA0NjMzMTk4MCwtMTg2OTA4MTIxNiwtMjkwNzgwNTI4LC0xMD
-EyOTM5NDA1LDEzMzQ5NjM5MDEsLTQ3MzgxODE1MCwtMTg5NTg4
-MDU4N119
+eyJoaXN0b3J5IjpbLTIwMTQwNTg0ODMsMjAzNzA1ODc0Nyw1NT
+E0NTgyNDIsMTQ1NzY0NDcyMiwtNDk0NzI1NzM2LDEzNzQ2Nzc4
+MDIsLTYyODQ0NzAwOCwyNjk2MjQyOSwtNTA5ODI2ODAyLC0xNz
+QxNzEyNTQsLTk3NDg5MjYxNSwtMjQ0Mzc4OTEyLDQ2NDQ5ODU4
+LDIwNDYzMzE5ODAsLTE4NjkwODEyMTYsLTI5MDc4MDUyOCwtMT
+AxMjkzOTQwNSwxMzM0OTYzOTAxLC00NzM4MTgxNTAsLTE4OTU4
+ODA1ODddfQ==
 -->
