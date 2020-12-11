@@ -274,12 +274,14 @@ fun circumference(radius: Float){...}
 ```
 <br>
 
-### 📐 &nbsp;&nbsp;함수 선언
+### 함수 선언
 - 프로그램을 작은 부분으로 나누는 주된 수단
 - 소프트웨어 시스템의 구성 요소를 조립하는 연결부 역할
 - 잘 정의하면 새로운 부분을 추가가 쉬움, 잘못 정의하면 지속적인 방해 요인, 동작을 파악하기 어려워지고 요구사항이 바뀔 때 적절히 수정하기 어렵게 한다.
 
-#### 💫 &nbsp;&nbsp;중요한 것
+<br>
+
+### 💫 &nbsp;&nbsp;중요한 것
 - 함수 이름
 
 > 💡 좋은 이름을 떠올리는데 효과적인 방법<br>
@@ -525,11 +527,11 @@ fun amountOverdue(dateRange: DateRange){...}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUxNDU4MjQyLDE0NTc2NDQ3MjIsLTQ5ND
-cyNTczNiwxMzc0Njc3ODAyLC02Mjg0NDcwMDgsMjY5NjI0Mjks
-LTUwOTgyNjgwMiwtMTc0MTcxMjU0LC05NzQ4OTI2MTUsLTI0ND
-M3ODkxMiw0NjQ0OTg1OCwyMDQ2MzMxOTgwLC0xODY5MDgxMjE2
-LC0yOTA3ODA1MjgsLTEwMTI5Mzk0MDUsMTMzNDk2MzkwMSwtND
-czODE4MTUwLC0xODk1ODgwNTg3LC0yMTAxOTcwNjkxLDE3ODIw
-MDQ1MTJdfQ==
+eyJoaXN0b3J5IjpbMTIxODYwNzM5NCw1NTE0NTgyNDIsMTQ1Nz
+Y0NDcyMiwtNDk0NzI1NzM2LDEzNzQ2Nzc4MDIsLTYyODQ0NzAw
+OCwyNjk2MjQyOSwtNTA5ODI2ODAyLC0xNzQxNzEyNTQsLTk3ND
+g5MjYxNSwtMjQ0Mzc4OTEyLDQ2NDQ5ODU4LDIwNDYzMzE5ODAs
+LTE4NjkwODEyMTYsLTI5MDc4MDUyOCwtMTAxMjkzOTQwNSwxMz
+M0OTYzOTAxLC00NzM4MTgxNTAsLTE4OTU4ODA1ODcsLTIxMDE5
+NzA2OTFdfQ==
 -->
