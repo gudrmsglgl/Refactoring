@@ -470,19 +470,21 @@ var defaultOwner: String
 ```kotlin
 val a = height * width
 ```
-**🔻 함수 추출**
+**🔻 변수 이름 바꾸기**
 
 ```kotlin
-fun inNewEngland(customer: Customer): Boolean{
-   val stateCode = customer.address.state
-   return xxNewinNewEngland(stateCode)
-}
+val area = height * width
+```
+
+- 명확한 프로그래밍의 핵심 이름짓기.
+- 변수는 프로그래머가 하려는 일에 관해 많은 것을 설명해준다. ( 단, 이름을 잘 지었을 때 )
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ4NDI5MzMzLC01MDk4MjY4MDIsLTE3ND
-E3MTI1NCwtOTc0ODkyNjE1LC0yNDQzNzg5MTIsNDY0NDk4NTgs
-MjA0NjMzMTk4MCwtMTg2OTA4MTIxNiwtMjkwNzgwNTI4LC0xMD
-EyOTM5NDA1LDEzMzQ5NjM5MDEsLTQ3MzgxODE1MCwtMTg5NTg4
-MDU4NywtMjEwMTk3MDY5MSwxNzgyMDA0NTEyLDIxMTg0NzQyMT
-MsLTEzOTc5MjEyMDUsLTI0MzU4NjgwMCwtMjA1MzcxNTExMCwx
-NzQ5OTgxMDk5XX0=
+eyJoaXN0b3J5IjpbMTg4NjI3Mzc3NiwtNTA5ODI2ODAyLC0xNz
+QxNzEyNTQsLTk3NDg5MjYxNSwtMjQ0Mzc4OTEyLDQ2NDQ5ODU4
+LDIwNDYzMzE5ODAsLTE4NjkwODEyMTYsLTI5MDc4MDUyOCwtMT
+AxMjkzOTQwNSwxMzM0OTYzOTAxLC00NzM4MTgxNTAsLTE4OTU4
+ODA1ODcsLTIxMDE5NzA2OTEsMTc4MjAwNDUxMiwyMTE4NDc0Mj
+EzLC0xMzk3OTIxMjA1LC0yNDM1ODY4MDAsLTIwNTM3MTUxMTAs
+MTc0OTk4MTA5OV19
 -->
