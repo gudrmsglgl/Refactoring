@@ -414,14 +414,14 @@ val newEnglanders = someCustomers.filter{c -> inNewEngland(c.address.state)}
 <br>
 
 ### 📍 &nbsp;&nbsp;절차
-① 변수로의 접근과 갱신을 전담하는 캡슐화 함수들을 만든다.<br>
-② 정적 검사를 수행한다.<br>
-③ 변수를 직접 참조하던 부분을 모두 적절한 캡슐화 함수 호출로 바꾼다. 하나씩 바꿀 때마다 테스트한다.<br>
-④ 변수의 접근 범위를 제한한다. <br>
+&emsp;⓵ 변수로의 접근과 갱신을 전담하는 캡슐화 함수들을 만든다.<br>
+&emsp;⓶ 정적 검사를 수행한다.<br>
+&emsp;⓷ 변수를 직접 참조하던 부분을 모두 적절한 캡슐화 함수 호출로 바꾼다. 하나씩 바꿀 때마다 테스트한다.<br>
+&emsp;⓸ 변수의 접근 범위를 제한한다. <br>
 ```
 -> 변수로의 직접 접근을 막을 수 없을 때도 있다. 그럴 때는 변수 이름을 바꿔서 테스트해보면 해당 변수를 참조하는 곳을 쉽게 찾아낼 수 있다.
 ```
-⑤ 테스트한다. <br>
+&emsp;⓹ 테스트한다. <br>
 ⑥ 변수 값이 레코드라면 레코드 캡슐화하기를 적용할지 고려.<br>
 
 <br>
@@ -555,11 +555,11 @@ fun amountOverdue(dateRange: DateRange){...}
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MzcyMDg3OSwtMTY5ODQ2MDcxNiwtND
-E2NTA4NTY1LC0yNzg4OTkwOTMsMTExNDUyMTcxMywtNDI3Nzk2
-MjM5LC04MTk3MTAzOCwtODAyMDUxMDQxLC0yMTAwNzA1OTI1LD
-E1MDQ1NDQwODcsNTEwNjI2MTAyLDU1NjY4MDMxNCwtMTg4MjY0
-NzgzNiwtMjAxNDA1ODQ4MywyMDM3MDU4NzQ3LDU1MTQ1ODI0Mi
-wxNDU3NjQ0NzIyLC00OTQ3MjU3MzYsMTM3NDY3NzgwMiwtNjI4
-NDQ3MDA4XX0=
+eyJoaXN0b3J5IjpbLTIwMzQxNzA2ODgsMTQ2MzcyMDg3OSwtMT
+Y5ODQ2MDcxNiwtNDE2NTA4NTY1LC0yNzg4OTkwOTMsMTExNDUy
+MTcxMywtNDI3Nzk2MjM5LC04MTk3MTAzOCwtODAyMDUxMDQxLC
+0yMTAwNzA1OTI1LDE1MDQ1NDQwODcsNTEwNjI2MTAyLDU1NjY4
+MDMxNCwtMTg4MjY0NzgzNiwtMjAxNDA1ODQ4MywyMDM3MDU4Nz
+Q3LDU1MTQ1ODI0MiwxNDU3NjQ0NzIyLC00OTQ3MjU3MzYsMTM3
+NDY3NzgwMl19
 -->
