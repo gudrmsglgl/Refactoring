@@ -155,9 +155,11 @@
 
 #### 💊 &nbsp;&nbsp;무분별한 데이터 수정에 따른 위험을 줄이는 방법
 
-    💡 변수 캡슐화하기
-      - 정해놓은 함수를 거쳐야만 값을 수정할 수 있도록 하면 값이 어떻게 수정되는지 
-        감시하거나 코드를 개선하기 쉽다.
+   - [x] 변수 캡슐화하기
+```
+정해놓은 함수를 거쳐야만 값을 수정할 수 있도록 하면 값이 어떻게 수정되는지 
+감시하거나 코드를 개선하기 쉽다.
+   ```
 	
 	💡 변수 쪼개기
 	  - 하나의 변수에 용도가 다른 값들을 저장하느라 값을 갱신하는 경우
@@ -516,11 +518,11 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MzM3NjA5NiwxOTQ3MzgyOTQ0LDU1ND
-MxNDM2LDEyMzQyMDM5MiwxNTE5MTU0NzE3LC01Mzc5MzkzODUs
-MjkwMDc3NzgxLDQzODM2OTQyOSwtMTY3ODU0NTQyNyw5NDg4MD
-MyNjksNDA1MDM2NDcyLC0xMDk4NDgyNzE2LDU3NDA2ODE0Nywy
-MDc2ODY1ODQzLDc5NzA3NTcsLTE4OTA5MzAzNDUsLTE4NDkzNT
-U5OTEsLTQzNTU1ODg5NSwtMTU4MTgxNDg5NSw5NTE3NTYyMzhd
-fQ==
+eyJoaXN0b3J5IjpbLTI4MjE3NjQwMCwxNTQzMzc2MDk2LDE5ND
+czODI5NDQsNTU0MzE0MzYsMTIzNDIwMzkyLDE1MTkxNTQ3MTcs
+LTUzNzkzOTM4NSwyOTAwNzc3ODEsNDM4MzY5NDI5LC0xNjc4NT
+Q1NDI3LDk0ODgwMzI2OSw0MDUwMzY0NzIsLTEwOTg0ODI3MTYs
+NTc0MDY4MTQ3LDIwNzY4NjU4NDMsNzk3MDc1NywtMTg5MDkzMD
+M0NSwtMTg0OTM1NTk5MSwtNDM1NTU4ODk1LC0xNTgxODE0ODk1
+XX0=
 -->
