@@ -452,6 +452,7 @@ var defaultOwner: String
    }
    get() = this._defaultOwner
 ``` 
+<br>
 
 ### 💊 &nbsp;&nbsp;값 캡슐화하기
 - 기본 캡슐화 기법은 데이터 항목을 참조하는 부분만 캡슐화한다.
@@ -460,11 +461,11 @@ var defaultOwner: String
 	- 값을 바꿀 수 없게 만드는 것.
 	- 게터가 데이터의 복제본을 반환하도록 수정
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDE3MTI1NCwtOTc0ODkyNjE1LC0yND
-QzNzg5MTIsNDY0NDk4NTgsMjA0NjMzMTk4MCwtMTg2OTA4MTIx
-NiwtMjkwNzgwNTI4LC0xMDEyOTM5NDA1LDEzMzQ5NjM5MDEsLT
-Q3MzgxODE1MCwtMTg5NTg4MDU4NywtMjEwMTk3MDY5MSwxNzgy
-MDA0NTEyLDIxMTg0NzQyMTMsLTEzOTc5MjEyMDUsLTI0MzU4Nj
-gwMCwtMjA1MzcxNTExMCwxNzQ5OTgxMDk5LDEzNjg4NzMyNDks
-LTc3MzQxNzQ0Ml19
+eyJoaXN0b3J5IjpbLTUwOTgyNjgwMiwtMTc0MTcxMjU0LC05Nz
+Q4OTI2MTUsLTI0NDM3ODkxMiw0NjQ0OTg1OCwyMDQ2MzMxOTgw
+LC0xODY5MDgxMjE2LC0yOTA3ODA1MjgsLTEwMTI5Mzk0MDUsMT
+MzNDk2MzkwMSwtNDczODE4MTUwLC0xODk1ODgwNTg3LC0yMTAx
+OTcwNjkxLDE3ODIwMDQ1MTIsMjExODQ3NDIxMywtMTM5NzkyMT
+IwNSwtMjQzNTg2ODAwLC0yMDUzNzE1MTEwLDE3NDk5ODEwOTks
+MTM2ODg3MzI0OV19
 -->
