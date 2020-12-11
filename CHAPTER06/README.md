@@ -437,6 +437,7 @@ fun setDefaultOwner(arg: String){this.defaultOwner = arg}
 spaceship.owner = getDefaultOwner()
 setDefaultOwner("레베카 파슨스")
 ``` 
+
 <div id='id-section6-ex1'/>
 
 **4. 모든 참조를 수정했다면 변수의 가시 범위를 제한한다.** 
@@ -465,7 +466,7 @@ var defaultOwner: String
 	- 게터가 데이터의 복제본을 반환하도록 수정
 
 <br>
-<div id='id-section5'/>
+<div id='id-section7'/>
 
 ## 6.7 변수 이름 바꾸기 Rename Variable
 ```kotlin
@@ -494,11 +495,11 @@ val area = height * width
 👉 &nbsp;&nbsp;[캡슐화로 처리](id-section6-ex1)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjA1MjcyMTIsLTUwOTgyNjgwMiwtMT
-c0MTcxMjU0LC05NzQ4OTI2MTUsLTI0NDM3ODkxMiw0NjQ0OTg1
-OCwyMDQ2MzMxOTgwLC0xODY5MDgxMjE2LC0yOTA3ODA1MjgsLT
-EwMTI5Mzk0MDUsMTMzNDk2MzkwMSwtNDczODE4MTUwLC0xODk1
-ODgwNTg3LC0yMTAxOTcwNjkxLDE3ODIwMDQ1MTIsMjExODQ3ND
-IxMywtMTM5NzkyMTIwNSwtMjQzNTg2ODAwLC0yMDUzNzE1MTEw
-LDE3NDk5ODEwOTldfQ==
+eyJoaXN0b3J5IjpbNjA4NDQ5OTU2LC01MDk4MjY4MDIsLTE3ND
+E3MTI1NCwtOTc0ODkyNjE1LC0yNDQzNzg5MTIsNDY0NDk4NTgs
+MjA0NjMzMTk4MCwtMTg2OTA4MTIxNiwtMjkwNzgwNTI4LC0xMD
+EyOTM5NDA1LDEzMzQ5NjM5MDEsLTQ3MzgxODE1MCwtMTg5NTg4
+MDU4NywtMjEwMTk3MDY5MSwxNzgyMDA0NTEyLDIxMTg0NzQyMT
+MsLTEzOTc5MjEyMDUsLTI0MzU4NjgwMCwtMjA1MzcxNTExMCwx
+NzQ5OTgxMDk5XX0=
 -->
