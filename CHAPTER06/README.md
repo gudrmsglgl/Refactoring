@@ -502,19 +502,23 @@ val area = height * width
 
 ## 6.8 매개변수 객체 만들기 Introduce Parameter Object
 ```kotlin
-fun amountInvoiced()
+fun amountInvoiced(startDate: String, endDate: String){...}
+fun amountReceived(startDate: String, endDate: String){...}
+fun amountOverdue(startDate: String, endDate: String){...}
 ```
-**🔻 변수 이름 바꾸기**
+**🔻 매개변수 객체 만들기**
 
 ```kotlin
-val area = height * width
+fun amountInvoiced(dateRange: ){...}
+fun amountReceived(startDate: String, endDate: String){...}
+fun amountOverdue(startDate: String, endDate: String){...}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2Njg4NDIyOSwyNjk2MjQyOSwtNTA5OD
-I2ODAyLC0xNzQxNzEyNTQsLTk3NDg5MjYxNSwtMjQ0Mzc4OTEy
-LDQ2NDQ5ODU4LDIwNDYzMzE5ODAsLTE4NjkwODEyMTYsLTI5MD
-c4MDUyOCwtMTAxMjkzOTQwNSwxMzM0OTYzOTAxLC00NzM4MTgx
-NTAsLTE4OTU4ODA1ODcsLTIxMDE5NzA2OTEsMTc4MjAwNDUxMi
-wyMTE4NDc0MjEzLC0xMzk3OTIxMjA1LC0yNDM1ODY4MDAsLTIw
-NTM3MTUxMTBdfQ==
+eyJoaXN0b3J5IjpbLTEyODU1OTE5OTcsMjY5NjI0MjksLTUwOT
+gyNjgwMiwtMTc0MTcxMjU0LC05NzQ4OTI2MTUsLTI0NDM3ODkx
+Miw0NjQ0OTg1OCwyMDQ2MzMxOTgwLC0xODY5MDgxMjE2LC0yOT
+A3ODA1MjgsLTEwMTI5Mzk0MDUsMTMzNDk2MzkwMSwtNDczODE4
+MTUwLC0xODk1ODgwNTg3LC0yMTAxOTcwNjkxLDE3ODIwMDQ1MT
+IsMjExODQ3NDIxMywtMTM5NzkyMTIwNSwtMjQzNTg2ODAwLC0y
+MDUzNzE1MTEwXX0=
 -->
