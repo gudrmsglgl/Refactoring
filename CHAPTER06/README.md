@@ -5,6 +5,8 @@
 [변수 인라인하기](#id-section4)<br>
 [함수 선언 바꾸기](#id-section5)<br>
 [변수 캡슐화하기](#id-section6)<br>
+[변수 이름 바꾸기](#id-section7)<br>
+
 
 ### 저수준 리팩터링
 - **추출**은 결국 이름 짓기이며, 코드 이해도가 높아지다 보면 이름을 바꿔야 할 때가 많다.
@@ -460,12 +462,27 @@ var defaultOwner: String
 - 두 가지 방법
 	- 값을 바꿀 수 없게 만드는 것.
 	- 게터가 데이터의 복제본을 반환하도록 수정
+
+<br>
+<div id='id-section5'/>
+
+## 6.7 변수 이름 바꾸기 Rename Variable
+```kotlin
+val a = height * width
+```
+**🔻 함수 추출**
+
+```kotlin
+fun inNewEngland(customer: Customer): Boolean{
+   val stateCode = customer.address.state
+   return xxNewinNewEngland(stateCode)
+}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwOTgyNjgwMiwtMTc0MTcxMjU0LC05Nz
-Q4OTI2MTUsLTI0NDM3ODkxMiw0NjQ0OTg1OCwyMDQ2MzMxOTgw
-LC0xODY5MDgxMjE2LC0yOTA3ODA1MjgsLTEwMTI5Mzk0MDUsMT
-MzNDk2MzkwMSwtNDczODE4MTUwLC0xODk1ODgwNTg3LC0yMTAx
-OTcwNjkxLDE3ODIwMDQ1MTIsMjExODQ3NDIxMywtMTM5NzkyMT
-IwNSwtMjQzNTg2ODAwLC0yMDUzNzE1MTEwLDE3NDk5ODEwOTks
-MTM2ODg3MzI0OV19
+eyJoaXN0b3J5IjpbMjQ4NDI5MzMzLC01MDk4MjY4MDIsLTE3ND
+E3MTI1NCwtOTc0ODkyNjE1LC0yNDQzNzg5MTIsNDY0NDk4NTgs
+MjA0NjMzMTk4MCwtMTg2OTA4MTIxNiwtMjkwNzgwNTI4LC0xMD
+EyOTM5NDA1LDEzMzQ5NjM5MDEsLTQ3MzgxODE1MCwtMTg5NTg4
+MDU4NywtMjEwMTk3MDY5MSwxNzgyMDA0NTEyLDIxMTg0NzQyMT
+MsLTEzOTc5MjEyMDUsLTI0MzU4NjgwMCwtMjA1MzcxNTExMCwx
+NzQ5OTgxMDk5XX0=
 -->
