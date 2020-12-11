@@ -349,7 +349,8 @@
 
 ## 3.16 임시 필드 Temporary Field
 
-- 덩그러니 떨어져 있는 필드들을 발견 -> **클래스 추출하기**로 제 살 곳을 찾아준다.
+- 덩그러니 떨어져 있는 필드들을 발견 
+	- [x] 💫 **클래스 추출하기**로 제 살 곳을 찾아준다.
 - 그런 다음 **함수 옮기기**로 임시 필드들과 관련된 코드를 모조리 새 클래스에 몰아 넣는다.
 - 임시 필드들이 유효한지를 확인한 후 동작하는 조건부 로직이 있을 수 있는데 <br>
 **특이 케이스 추가하기**로 필드들이 유효하지 않을 때를 위한 대안 클래스를 만들어 제거
@@ -490,11 +491,11 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MzM0OTAzNywxNTE5MTU0NzE3LC01Mz
-c5MzkzODUsMjkwMDc3NzgxLDQzODM2OTQyOSwtMTY3ODU0NTQy
-Nyw5NDg4MDMyNjksNDA1MDM2NDcyLC0xMDk4NDgyNzE2LDU3ND
-A2ODE0NywyMDc2ODY1ODQzLDc5NzA3NTcsLTE4OTA5MzAzNDUs
-LTE4NDkzNTU5OTEsLTQzNTU1ODg5NSwtMTU4MTgxNDg5NSw5NT
-E3NTYyMzgsLTcwNjE2OTQ0MSwyMTQyMzI3MjYzLC0yMDEyNjU1
-NzQ5XX0=
+eyJoaXN0b3J5IjpbNzU1NjA2ODM1LDE1MTkxNTQ3MTcsLTUzNz
+kzOTM4NSwyOTAwNzc3ODEsNDM4MzY5NDI5LC0xNjc4NTQ1NDI3
+LDk0ODgwMzI2OSw0MDUwMzY0NzIsLTEwOTg0ODI3MTYsNTc0MD
+Y4MTQ3LDIwNzY4NjU4NDMsNzk3MDc1NywtMTg5MDkzMDM0NSwt
+MTg0OTM1NTk5MSwtNDM1NTU4ODk1LC0xNTgxODE0ODk1LDk1MT
+c1NjIzOCwtNzA2MTY5NDQxLDIxNDIzMjcyNjMsLTIwMTI2NTU3
+NDldfQ==
 -->
