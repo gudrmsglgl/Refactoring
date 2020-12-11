@@ -465,7 +465,6 @@
 - 다른 클래스 메서드 -> 데이터 클래스의 게터나 세터를 사용할 때 
 	 - [x] 함수 옮기기로 **데이터 클래스로 옮길 수 있는지**
 	 - [x] 메서드를 통째로 옮기기 어렵다면 **함수 추출하기를 이용해서 부분만 별도 메서드**로 뽑아내기 
-
 - 불변 필드는 굳이 캡슐화할 필요가 없고, 불변 데이터로부터 나오는 정보는 필드 자체를 공개해도 된다. 
 
 <br>
@@ -487,11 +486,11 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MzI5MzYyMiwtMTA5ODQ4MjcxNiw1Nz
-QwNjgxNDcsMjA3Njg2NTg0Myw3OTcwNzU3LC0xODkwOTMwMzQ1
-LC0xODQ5MzU1OTkxLC00MzU1NTg4OTUsLTE1ODE4MTQ4OTUsOT
-UxNzU2MjM4LC03MDYxNjk0NDEsMjE0MjMyNzI2MywtMjAxMjY1
-NTc0OSwxMjQ1NjQ2MjAwLDIwNzUyMDg5MjUsMjAzODYwNjgyMS
-wtNTE4MDUxOTE1LC04MzMwMzY1MzQsOTkyMDkzNDEzLC03MDE0
-NzkxOThdfQ==
+eyJoaXN0b3J5IjpbNDA1MDM2NDcyLC0xMDk4NDgyNzE2LDU3ND
+A2ODE0NywyMDc2ODY1ODQzLDc5NzA3NTcsLTE4OTA5MzAzNDUs
+LTE4NDkzNTU5OTEsLTQzNTU1ODg5NSwtMTU4MTgxNDg5NSw5NT
+E3NTYyMzgsLTcwNjE2OTQ0MSwyMTQyMzI3MjYzLC0yMDEyNjU1
+NzQ5LDEyNDU2NDYyMDAsMjA3NTIwODkyNSwyMDM4NjA2ODIxLC
+01MTgwNTE5MTUsLTgzMzAzNjUzNCw5OTIwOTM0MTMsLTcwMTQ3
+OTE5OF19
 -->
