@@ -474,17 +474,18 @@
 > 주석이 장황하게 달린 원인이 코드를 잘못 작성했기 때문인 경우가 의외로 많다.<br>
 > "주석을 남겨야겠다는 생각이 들면, 가장 먼저 주석이 필요 없는 코드로 리팩토링해본다."
 
-- 주석을 남기고 싶다면 함수 추출하기를 적용
+- 주석을 남기고 싶다면 
+- 	 - [x] 함수 추출하기를 적용
 - 추출이 되어있는 함수임에도 여전히 설명이 필요하다면 함수 선언 바꾸기로 이름을 바꿔본다.
 - 시스템이 동작하기 위한 선행조건을 명시하고 싶다면 어서션 추가하기가 대기하고 잇다.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc0MDY4MTQ3LDIwNzY4NjU4NDMsNzk3MD
-c1NywtMTg5MDkzMDM0NSwtMTg0OTM1NTk5MSwtNDM1NTU4ODk1
-LC0xNTgxODE0ODk1LDk1MTc1NjIzOCwtNzA2MTY5NDQxLDIxND
-IzMjcyNjMsLTIwMTI2NTU3NDksMTI0NTY0NjIwMCwyMDc1MjA4
-OTI1LDIwMzg2MDY4MjEsLTUxODA1MTkxNSwtODMzMDM2NTM0LD
-k5MjA5MzQxMywtNzAxNDc5MTk4LDg4NDA1MjEyOSw4NjIxNzcw
-M119
+eyJoaXN0b3J5IjpbMjE0NjgxNjE0Myw1NzQwNjgxNDcsMjA3Nj
+g2NTg0Myw3OTcwNzU3LC0xODkwOTMwMzQ1LC0xODQ5MzU1OTkx
+LC00MzU1NTg4OTUsLTE1ODE4MTQ4OTUsOTUxNzU2MjM4LC03MD
+YxNjk0NDEsMjE0MjMyNzI2MywtMjAxMjY1NTc0OSwxMjQ1NjQ2
+MjAwLDIwNzUyMDg5MjUsMjAzODYwNjgyMSwtNTE4MDUxOTE1LC
+04MzMwMzY1MzQsOTkyMDkzNDEzLC03MDE0NzkxOTgsODg0MDUy
+MTI5XX0=
 -->
