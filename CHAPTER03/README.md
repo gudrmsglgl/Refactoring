@@ -36,6 +36,8 @@
 ## 3.2 중복 코드 Duplicated Code
 
 ### 중복 코드의 예
+#### 😩 &nbsp;한 클래스에 딸린 두 메서드가 똑같은 표현식을 사용하는 경우
+#### ⚡ &nbsp;한 클래스에 딸린 두 메서드가 똑같은 표현식을 사용하는 경우
 
     * 한 클래스에 딸린 두 메서드가 똑같은 표현식을 사용하는 경우
     -> 함수 추출하기 
@@ -478,11 +480,11 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk3MDc1NywtMTg5MDkzMDM0NSwtMTg0OT
-M1NTk5MSwtNDM1NTU4ODk1LC0xNTgxODE0ODk1LDk1MTc1NjIz
-OCwtNzA2MTY5NDQxLDIxNDIzMjcyNjMsLTIwMTI2NTU3NDksMT
-I0NTY0NjIwMCwyMDc1MjA4OTI1LDIwMzg2MDY4MjEsLTUxODA1
-MTkxNSwtODMzMDM2NTM0LDk5MjA5MzQxMywtNzAxNDc5MTk4LD
-g4NDA1MjEyOSw4NjIxNzcwMywtNzQzNDIwMzMyLDEwNTkyODAw
-NzVdfQ==
+eyJoaXN0b3J5IjpbMTM2MDg0NTU0Niw3OTcwNzU3LC0xODkwOT
+MwMzQ1LC0xODQ5MzU1OTkxLC00MzU1NTg4OTUsLTE1ODE4MTQ4
+OTUsOTUxNzU2MjM4LC03MDYxNjk0NDEsMjE0MjMyNzI2MywtMj
+AxMjY1NTc0OSwxMjQ1NjQ2MjAwLDIwNzUyMDg5MjUsMjAzODYw
+NjgyMSwtNTE4MDUxOTE1LC04MzMwMzY1MzQsOTkyMDkzNDEzLC
+03MDE0NzkxOTgsODg0MDUyMTI5LDg2MjE3NzAzLC03NDM0MjAz
+MzJdfQ==
 -->
