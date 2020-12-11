@@ -441,7 +441,7 @@
 
 - **중복 제거** 
 	- 상당량의 로직이 똑같은 메서드 다섯 개가 있다면 
-	 - [x] 각각의 공통 부분을 작은 메서드들로 뽑아내자.`
+		- [x] 각각의 공통 부분을 작은 메서드들로 뽑아내자.`
 
  - **거대 클래스 이용 패턴을 파악** 
 
@@ -491,7 +491,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyODE5MDQ0NSwtMTY3ODU0NTQyNyw5ND
+eyJoaXN0b3J5IjpbLTYxMDc4NjQ3NSwtMTY3ODU0NTQyNyw5ND
 g4MDMyNjksNDA1MDM2NDcyLC0xMDk4NDgyNzE2LDU3NDA2ODE0
 NywyMDc2ODY1ODQzLDc5NzA3NTcsLTE4OTA5MzAzNDUsLTE4ND
 kzNTU5OTEsLTQzNTU1ODg5NSwtMTU4MTgxNDg5NSw5NTE3NTYy
