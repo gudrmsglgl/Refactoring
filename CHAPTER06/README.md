@@ -540,11 +540,10 @@ fun amountOverdue(dateRange: DateRange){...}
 
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⓵</br>  
+&emsp;&emsp;&emsp;⓵</br>  
 
-<span style="color:#d3d3d3">#d3d3d3</span>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⓶</br>  
+&nbsp;&nbsp;⓶</br>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⓷</br>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⓸</br>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⓹</br>  
@@ -554,11 +553,11 @@ fun amountOverdue(dateRange: DateRange){...}
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzU1MzkyNDcsMTExNDUyMTcxMywtND
-I3Nzk2MjM5LC04MTk3MTAzOCwtODAyMDUxMDQxLC0yMTAwNzA1
-OTI1LDE1MDQ1NDQwODcsNTEwNjI2MTAyLDU1NjY4MDMxNCwtMT
-g4MjY0NzgzNiwtMjAxNDA1ODQ4MywyMDM3MDU4NzQ3LDU1MTQ1
-ODI0MiwxNDU3NjQ0NzIyLC00OTQ3MjU3MzYsMTM3NDY3NzgwMi
-wtNjI4NDQ3MDA4LDI2OTYyNDI5LC01MDk4MjY4MDIsLTE3NDE3
-MTI1NF19
+eyJoaXN0b3J5IjpbLTI3ODg5OTA5MywxMTE0NTIxNzEzLC00Mj
+c3OTYyMzksLTgxOTcxMDM4LC04MDIwNTEwNDEsLTIxMDA3MDU5
+MjUsMTUwNDU0NDA4Nyw1MTA2MjYxMDIsNTU2NjgwMzE0LC0xOD
+gyNjQ3ODM2LC0yMDE0MDU4NDgzLDIwMzcwNTg3NDcsNTUxNDU4
+MjQyLDE0NTc2NDQ3MjIsLTQ5NDcyNTczNiwxMzc0Njc3ODAyLC
+02Mjg0NDcwMDgsMjY5NjI0MjksLTUwOTgyNjgwMiwtMTc0MTcx
+MjU0XX0=
 -->
