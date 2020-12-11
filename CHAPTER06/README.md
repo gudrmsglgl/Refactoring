@@ -288,7 +288,7 @@ fun circumference(radius: Float){...}
 * 잘못된 함수를 발견하면 더 나은 이름이 떠오르는 즉시 바꾸자.
 * 나중에 그 코드를 다시 볼 때 무슨 일을 하는지 '또' 고민하지 않게 됨.
 ```
-> ##### 💡 좋은 이름을 떠올리는데 효과적인 방법<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;주석을 이용해 함수의 목적을 설명해보는 것. &nbsp;그러다 보면 주석이 멋진 이름으로 바뀌어 되돌아올 때가 있다.
+> ##### 💡 좋은 이름을 떠올리는데 효과적인 방법<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;주석을 이용해 함수의 목적을 설명해보는 것. &nbsp;그러다 보면 주석이 멋진 이름으로 바뀌어 되돌아올 때가 있다.
 
 <br>
 
@@ -527,11 +527,11 @@ fun amountOverdue(dateRange: DateRange){...}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTg2NjAzODUsNTUxNDU4MjQyLDE0NT
-c2NDQ3MjIsLTQ5NDcyNTczNiwxMzc0Njc3ODAyLC02Mjg0NDcw
-MDgsMjY5NjI0MjksLTUwOTgyNjgwMiwtMTc0MTcxMjU0LC05Nz
-Q4OTI2MTUsLTI0NDM3ODkxMiw0NjQ0OTg1OCwyMDQ2MzMxOTgw
-LC0xODY5MDgxMjE2LC0yOTA3ODA1MjgsLTEwMTI5Mzk0MDUsMT
-MzNDk2MzkwMSwtNDczODE4MTUwLC0xODk1ODgwNTg3LC0yMTAx
-OTcwNjkxXX0=
+eyJoaXN0b3J5IjpbMjAzNzA1ODc0Nyw1NTE0NTgyNDIsMTQ1Nz
+Y0NDcyMiwtNDk0NzI1NzM2LDEzNzQ2Nzc4MDIsLTYyODQ0NzAw
+OCwyNjk2MjQyOSwtNTA5ODI2ODAyLC0xNzQxNzEyNTQsLTk3ND
+g5MjYxNSwtMjQ0Mzc4OTEyLDQ2NDQ5ODU4LDIwNDYzMzE5ODAs
+LTE4NjkwODEyMTYsLTI5MDc4MDUyOCwtMTAxMjkzOTQwNSwxMz
+M0OTYzOTAxLC00NzM4MTgxNTAsLTE4OTU4ODA1ODcsLTIxMDE5
+NzA2OTFdfQ==
 -->
