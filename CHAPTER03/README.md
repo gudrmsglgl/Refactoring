@@ -352,9 +352,12 @@
 - 덩그러니 떨어져 있는 필드들을 발견 
 	- [x] 💫 **클래스 추출하기**로 제 살 곳을 찾아준다.
 	- [x] 그런 다음 **함수 옮기기**로 **임시 필드들과 관련된 코드를<br>모조리 새 클래스에 몰아 넣는**다.
-
+<br>
 - 임시 필드들이 유효한지를 확인한 후 동작하는 조건부 로직이 있을 수 있는데 <br>
 	- [x] **특이 케이스 추가하기**로 필드들이 유효하지 않을 때를 위한 대안 클래스를 만들어 제거
+
+
+
 <br>
 <div id='id-section17'/>
 
@@ -491,7 +494,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg4MTM2Mjk2LDEyMzQyMDM5MiwxNTE5MT
+eyJoaXN0b3J5IjpbMTk1NTUyNzIwLDEyMzQyMDM5MiwxNTE5MT
 U0NzE3LC01Mzc5MzkzODUsMjkwMDc3NzgxLDQzODM2OTQyOSwt
 MTY3ODU0NTQyNyw5NDg4MDMyNjksNDA1MDM2NDcyLC0xMDk4ND
 gyNzE2LDU3NDA2ODE0NywyMDc2ODY1ODQzLDc5NzA3NTcsLTE4
