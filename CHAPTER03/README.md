@@ -102,18 +102,23 @@
   -  다른 매개변수에서 값을 얻어올 수 있는 매개변수 
 	  - [x] 매개변수를 질의 함수로 바꾸기
 <br>
+
   - 사용 중인 데이터 구조에서 값들을 뽑아 각각을 별개의 매개변수로 전달하는 코드
 	  - [x] 객체 통쨰로 넘기기 적용해서 원본 데이터 구조를 그대로 전달
 <br>
+
    - 항상 함께 전달되는 매개변수
 	  - [x] 매개변수 객체 만들기로 하나로 묶기
 <br>
+
    - 함수 동작 방식을 정하는 플래그 역할의 매개변수
 	  - [x] 플래그 인수 제거하기로 없애기
 <br>
+
   - 항상 함께 전달되는 매개변수
 	  - [x] 매개변수 객체 만들기로 하나로 묶기
 <br>
+
  - 여러 개의 함수가 특정 매개변수들의 값을 공통으로 사용할 때 
  	  - [x] 여러 함수를 클래스로 묶기를 이용하여 공통 값들을 클래스의 필드로 정의
 
@@ -526,11 +531,11 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NTMzMDkzOSwtMTQwODQzNjA5LDE1ND
-MzNzYwOTYsMTk0NzM4Mjk0NCw1NTQzMTQzNiwxMjM0MjAzOTIs
-MTUxOTE1NDcxNywtNTM3OTM5Mzg1LDI5MDA3Nzc4MSw0MzgzNj
-k0MjksLTE2Nzg1NDU0MjcsOTQ4ODAzMjY5LDQwNTAzNjQ3Miwt
-MTA5ODQ4MjcxNiw1NzQwNjgxNDcsMjA3Njg2NTg0Myw3OTcwNz
-U3LC0xODkwOTMwMzQ1LC0xODQ5MzU1OTkxLC00MzU1NTg4OTVd
-fQ==
+eyJoaXN0b3J5IjpbNDIyNTAwODE1LC0xNDA4NDM2MDksMTU0Mz
+M3NjA5NiwxOTQ3MzgyOTQ0LDU1NDMxNDM2LDEyMzQyMDM5Miwx
+NTE5MTU0NzE3LC01Mzc5MzkzODUsMjkwMDc3NzgxLDQzODM2OT
+QyOSwtMTY3ODU0NTQyNyw5NDg4MDMyNjksNDA1MDM2NDcyLC0x
+MDk4NDgyNzE2LDU3NDA2ODE0NywyMDc2ODY1ODQzLDc5NzA3NT
+csLTE4OTA5MzAzNDUsLTE4NDkzNTU5OTEsLTQzNTU1ODg5NV19
+
 -->
