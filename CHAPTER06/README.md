@@ -458,8 +458,9 @@ var defaultOwner: String
 - 변수뿐 아니라 변수에 담긴 내용을 변경하는 행위까지 제어할 수 있게 캡슐화하고 싶을 때 
 - 두 가지 방법
 	- 값을 바꿀 수 없게 만드는 것.
+	- 게터가 데이터의 복제본을 반환하도록 수정
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNTA0ODA4MCwtOTc0ODkyNjE1LC0yND
+eyJoaXN0b3J5IjpbLTE3NDE3MTI1NCwtOTc0ODkyNjE1LC0yND
 QzNzg5MTIsNDY0NDk4NTgsMjA0NjMzMTk4MCwtMTg2OTA4MTIx
 NiwtMjkwNzgwNTI4LC0xMDEyOTM5NDA1LDEzMzQ5NjM5MDEsLT
 Q3MzgxODE1MCwtMTg5NTg4MDU4NywtMjEwMTk3MDY5MSwxNzgy
