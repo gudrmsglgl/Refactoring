@@ -417,19 +417,21 @@ val newEnglanders = someCustomers.filter{c -> inNewEngland(c.address.state)}
 ### **ex) 전역 변수에 중요한 데이터가 담겨 있는 경우**<br>
 
 ```kotlin
-val defaultOwner = "마틴 파울러"
+var defaultOwner = "마틴 파울러"
 
 // 다음과 같은 참조하는 코드..
 spaceship.owner = defaultOwner
 
+// 갱신하는 코드 역시 있을 것...
+defaultOwner = "레베카 파손스"
 ```
-**🔻 함수 추출**
+**🔻 1. 기본적인 캡슐화를 위해 가장 먼저 데이터를 읽고 쓰는 함수 정의**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk1NTc0OTUxLC0yOTA3ODA1MjgsLTEwMT
-I5Mzk0MDUsMTMzNDk2MzkwMSwtNDczODE4MTUwLC0xODk1ODgw
-NTg3LC0yMTAxOTcwNjkxLDE3ODIwMDQ1MTIsMjExODQ3NDIxMy
-wtMTM5NzkyMTIwNSwtMjQzNTg2ODAwLC0yMDUzNzE1MTEwLDE3
-NDk5ODEwOTksMTM2ODg3MzI0OSwtNzczNDE3NDQyLDE5Mjg4MT
-EzODAsMTcxMzcxOTQ1OSwtMTExNjI2ODU2OCwyMjUxOTEyNjUs
-MTAxOTg3ODQ4NF19
+eyJoaXN0b3J5IjpbLTE5NTczNzgyNSwtMjkwNzgwNTI4LC0xMD
+EyOTM5NDA1LDEzMzQ5NjM5MDEsLTQ3MzgxODE1MCwtMTg5NTg4
+MDU4NywtMjEwMTk3MDY5MSwxNzgyMDA0NTEyLDIxMTg0NzQyMT
+MsLTEzOTc5MjEyMDUsLTI0MzU4NjgwMCwtMjA1MzcxNTExMCwx
+NzQ5OTgxMDk5LDEzNjg4NzMyNDksLTc3MzQxNzQ0MiwxOTI4OD
+ExMzgwLDE3MTM3MTk0NTksLTExMTYyNjg1NjgsMjI1MTkxMjY1
+LDEwMTk4Nzg0ODRdfQ==
 -->
