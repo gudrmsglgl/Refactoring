@@ -427,23 +427,24 @@ defaultOwner = "레베카 파손스"
 ```
 **🔻 1. 기본적인 캡슐화를 위해 가장 먼저 데이터를 읽고 쓰는 함수 정의**
 ```kotlin
-// s
+// 클래스 내부에서 사용
 private var _defaultOwner = "마틴 파울러"
 
-// 외부에서 참조할 getter&setter
+// 외부에서 참조 getter&setter
 var defaultOwner: String
    set(value){
       this._defaultOwner = value
    }
    get() = this._defaultOwner
-	
 ```
+**🔻 3. 그런 다음 defaultOwner를 참조하는 코드를 찾아서 **
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMjMyNDQ1NywtMTg2OTA4MTIxNiwtMj
-kwNzgwNTI4LC0xMDEyOTM5NDA1LDEzMzQ5NjM5MDEsLTQ3Mzgx
-ODE1MCwtMTg5NTg4MDU4NywtMjEwMTk3MDY5MSwxNzgyMDA0NT
-EyLDIxMTg0NzQyMTMsLTEzOTc5MjEyMDUsLTI0MzU4NjgwMCwt
-MjA1MzcxNTExMCwxNzQ5OTgxMDk5LDEzNjg4NzMyNDksLTc3Mz
-QxNzQ0MiwxOTI4ODExMzgwLDE3MTM3MTk0NTksLTExMTYyNjg1
-NjgsMjI1MTkxMjY1XX0=
+eyJoaXN0b3J5IjpbLTE1Mjg3MzgwNzQsLTE4NjkwODEyMTYsLT
+I5MDc4MDUyOCwtMTAxMjkzOTQwNSwxMzM0OTYzOTAxLC00NzM4
+MTgxNTAsLTE4OTU4ODA1ODcsLTIxMDE5NzA2OTEsMTc4MjAwND
+UxMiwyMTE4NDc0MjEzLC0xMzk3OTIxMjA1LC0yNDM1ODY4MDAs
+LTIwNTM3MTUxMTAsMTc0OTk4MTA5OSwxMzY4ODczMjQ5LC03Nz
+M0MTc0NDIsMTkyODgxMTM4MCwxNzEzNzE5NDU5LC0xMTE2MjY4
+NTY4LDIyNTE5MTI2NV19
 -->
