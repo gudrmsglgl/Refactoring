@@ -428,20 +428,24 @@ defaultOwner = "레베카 파손스"
 **1. 기본적인 캡슐화를 위해 가장 먼저 데이터를 읽고 쓰는 함수 정의**
 **3. 그런 다음 defaultOwner를 참조하는 코드를 찾아서 방금 만든 게터 함수를 호출하도록 고친다.**
 **4. 모든 참조를 수정했다면 변수의 가시 범위를 제한한다.**
+```kotlin
+private var defaultOwner = "마틴 파울러"
 
+fun getDefaultOwner() = this.defaultOwner
+fun setDefaultOwner(arg: String){this.defaultOwner = arg}
+``` 
 
 ```kotlin
-private var _defaultOwner = "마틴 파울러"  or   private var defaultOwner = "마틴 파울러"
-
-var defaultOwner: String			fun getDefaultOwner() = this.defaultOwner
-   set(value){						fun setDefaultOwner(arg: String){this.defaultOwner = arg}	
+private var _defaultOwner = "마틴 파울러"
+var defaultOwner: String
+   set(value){	
       this._defaultOwner = value
    }
    get() = this._defaultOwner
 ``` 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDczNTE0OSwtMjQ0Mzc4OTEyLDQ2ND
+eyJoaXN0b3J5IjpbLTIyODc4ODc3NywtMjQ0Mzc4OTEyLDQ2ND
 Q5ODU4LDIwNDYzMzE5ODAsLTE4NjkwODEyMTYsLTI5MDc4MDUy
 OCwtMTAxMjkzOTQwNSwxMzM0OTYzOTAxLC00NzM4MTgxNTAsLT
 E4OTU4ODA1ODcsLTIxMDE5NzA2OTEsMTc4MjAwNDUxMiwyMTE4
