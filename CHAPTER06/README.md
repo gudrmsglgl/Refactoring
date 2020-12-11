@@ -540,7 +540,8 @@ fun amountOverdue(dateRange: DateRange){...}
 
 
 
-&emsp;&emsp;⓵</br>  
+&emsp;&emsp;⓵ 적당한 데이터 구조가 아직 마련되어 있지 않다면 새로 만든다.</br>
+&emsp;&emsp; `ㅇㄹ ㅁㄴㅇㄹ `
 &emsp;&emsp;⓶</br>  
 &emsp;&emsp;⓷</br>  
 &emsp;&emsp;⓸</br>  
@@ -551,11 +552,11 @@ fun amountOverdue(dateRange: DateRange){...}
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NjI2MjUwNSwtMjc4ODk5MDkzLDExMT
-Q1MjE3MTMsLTQyNzc5NjIzOSwtODE5NzEwMzgsLTgwMjA1MTA0
-MSwtMjEwMDcwNTkyNSwxNTA0NTQ0MDg3LDUxMDYyNjEwMiw1NT
-Y2ODAzMTQsLTE4ODI2NDc4MzYsLTIwMTQwNTg0ODMsMjAzNzA1
-ODc0Nyw1NTE0NTgyNDIsMTQ1NzY0NDcyMiwtNDk0NzI1NzM2LD
-EzNzQ2Nzc4MDIsLTYyODQ0NzAwOCwyNjk2MjQyOSwtNTA5ODI2
-ODAyXX0=
+eyJoaXN0b3J5IjpbMTc5NjMwMzU1LC0yNzg4OTkwOTMsMTExND
+UyMTcxMywtNDI3Nzk2MjM5LC04MTk3MTAzOCwtODAyMDUxMDQx
+LC0yMTAwNzA1OTI1LDE1MDQ1NDQwODcsNTEwNjI2MTAyLDU1Nj
+Y4MDMxNCwtMTg4MjY0NzgzNiwtMjAxNDA1ODQ4MywyMDM3MDU4
+NzQ3LDU1MTQ1ODI0MiwxNDU3NjQ0NzIyLC00OTQ3MjU3MzYsMT
+M3NDY3NzgwMiwtNjI4NDQ3MDA4LDI2OTYyNDI5LC01MDk4MjY4
+MDJdfQ==
 -->
