@@ -412,12 +412,20 @@ val newEnglanders = someCustomers.filter{c -> inNewEngland(c.address.state)}
 ```
 ⑤ 테스트한다. <br>
 ⑥ 변수 값이 레코드라면 레코드 캡슐화하기를 적용할지 고려.<br>
+
+
+### **ex) 전역 변수에 중요한 데이터가 담겨 있는 경우**<br>
+
+```kotlin
+val defaultOwner = mapOf(firstName to "마틴", lastName to)
+```
+**🔻 함수 추출**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTI5Mzk0MDUsMTMzNDk2MzkwMSwtND
-czODE4MTUwLC0xODk1ODgwNTg3LC0yMTAxOTcwNjkxLDE3ODIw
-MDQ1MTIsMjExODQ3NDIxMywtMTM5NzkyMTIwNSwtMjQzNTg2OD
-AwLC0yMDUzNzE1MTEwLDE3NDk5ODEwOTksMTM2ODg3MzI0OSwt
-NzczNDE3NDQyLDE5Mjg4MTEzODAsMTcxMzcxOTQ1OSwtMTExNj
-I2ODU2OCwyMjUxOTEyNjUsMTAxOTg3ODQ4NCwtMjQwMDQ3MDIs
-MTY3ODEyNTgyMF19
+eyJoaXN0b3J5IjpbNTk1MTU3MzYwLC0xMDEyOTM5NDA1LDEzMz
+Q5NjM5MDEsLTQ3MzgxODE1MCwtMTg5NTg4MDU4NywtMjEwMTk3
+MDY5MSwxNzgyMDA0NTEyLDIxMTg0NzQyMTMsLTEzOTc5MjEyMD
+UsLTI0MzU4NjgwMCwtMjA1MzcxNTExMCwxNzQ5OTgxMDk5LDEz
+Njg4NzMyNDksLTc3MzQxNzQ0MiwxOTI4ODExMzgwLDE3MTM3MT
+k0NTksLTExMTYyNjg1NjgsMjI1MTkxMjY1LDEwMTk4Nzg0ODQs
+LTI0MDA0NzAyXX0=
 -->
