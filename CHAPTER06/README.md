@@ -545,21 +545,21 @@ fun amountOverdue(dateRange: DateRange){...}
 -> 클래스로 만드는걸 선호. 나중에 동작까지 함께 묶기 좋기 때문
 저자는 주로 데이터 구조를 값 객체 Value Object 로 만든다.
 ```
-&emsp;⓶</br>  
-&emsp;⓷</br>  
-&emsp;⓸</br>  
-&emsp;⓹</br>  
-&emsp;⓺</br>  
-&emsp;⓻</br>  
+&emsp;⓶ 테스트한다.</br>  
+&emsp;⓷ 함수 선언 바꾸기로 새 데이터 구조를 매개변수로 추가한다.</br>  
+&emsp;⓸ 테스트한다.</br>  
+&emsp;⓹ 함수 호출 시 새로운 데이터 구조 인스턴스를 넘기도록 수정한다. 하나씩 수정할 때마다 테스트한다.</br>  
+&emsp;⓺ 기존 매개변수를 사용하던 코드를 새 데이터 구조의 원소를 사용하도록 바꾼다.</br>  
+&emsp;⓻ 다 바꿨다면 기존 매개변수를 제거하고 테스트한다. </br>  
 
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNjUwODU2NSwtMjc4ODk5MDkzLDExMT
-Q1MjE3MTMsLTQyNzc5NjIzOSwtODE5NzEwMzgsLTgwMjA1MTA0
-MSwtMjEwMDcwNTkyNSwxNTA0NTQ0MDg3LDUxMDYyNjEwMiw1NT
-Y2ODAzMTQsLTE4ODI2NDc4MzYsLTIwMTQwNTg0ODMsMjAzNzA1
-ODc0Nyw1NTE0NTgyNDIsMTQ1NzY0NDcyMiwtNDk0NzI1NzM2LD
-EzNzQ2Nzc4MDIsLTYyODQ0NzAwOCwyNjk2MjQyOSwtNTA5ODI2
-ODAyXX0=
+eyJoaXN0b3J5IjpbLTE2OTg0NjA3MTYsLTQxNjUwODU2NSwtMj
+c4ODk5MDkzLDExMTQ1MjE3MTMsLTQyNzc5NjIzOSwtODE5NzEw
+MzgsLTgwMjA1MTA0MSwtMjEwMDcwNTkyNSwxNTA0NTQ0MDg3LD
+UxMDYyNjEwMiw1NTY2ODAzMTQsLTE4ODI2NDc4MzYsLTIwMTQw
+NTg0ODMsMjAzNzA1ODc0Nyw1NTE0NTgyNDIsMTQ1NzY0NDcyMi
+wtNDk0NzI1NzM2LDEzNzQ2Nzc4MDIsLTYyODQ0NzAwOCwyNjk2
+MjQyOV19
 -->
