@@ -6,7 +6,7 @@
 [함수 선언 바꾸기](#id-section5)<br>
 [변수 캡슐화하기](#id-section6)<br>
 [변수 이름 바꾸기](#id-section7)<br>
-
+[매개변수 객체 만들기](#id-section8)<br>
 
 ### 저수준 리팩터링
 - **추출**은 결국 이름 짓기이며, 코드 이해도가 높아지다 보면 이름을 바꿔야 할 때가 많다.
@@ -496,12 +496,25 @@ val area = height * width
 ### **ex) 함수 밖에서 참조할 수 있는 변수 (읽기, 쓰기)**<br>
 👉 &nbsp;&nbsp;[캡슐화로 처리](#id-section6-ex1)
 
+
+<br>
+<div id='id-section8'/>
+
+## 6.8 매개변수 객체 만들기 Introduce Parameter Object
+```kotlin
+fun amountInvoiced()
+```
+**🔻 변수 이름 바꾸기**
+
+```kotlin
+val area = height * width
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY5NjI0MjksLTUwOTgyNjgwMiwtMTc0MT
-cxMjU0LC05NzQ4OTI2MTUsLTI0NDM3ODkxMiw0NjQ0OTg1OCwy
-MDQ2MzMxOTgwLC0xODY5MDgxMjE2LC0yOTA3ODA1MjgsLTEwMT
-I5Mzk0MDUsMTMzNDk2MzkwMSwtNDczODE4MTUwLC0xODk1ODgw
-NTg3LC0yMTAxOTcwNjkxLDE3ODIwMDQ1MTIsMjExODQ3NDIxMy
-wtMTM5NzkyMTIwNSwtMjQzNTg2ODAwLC0yMDUzNzE1MTEwLDE3
-NDk5ODEwOTldfQ==
+eyJoaXN0b3J5IjpbMTM2Njg4NDIyOSwyNjk2MjQyOSwtNTA5OD
+I2ODAyLC0xNzQxNzEyNTQsLTk3NDg5MjYxNSwtMjQ0Mzc4OTEy
+LDQ2NDQ5ODU4LDIwNDYzMzE5ODAsLTE4NjkwODEyMTYsLTI5MD
+c4MDUyOCwtMTAxMjkzOTQwNSwxMzM0OTYzOTAxLC00NzM4MTgx
+NTAsLTE4OTU4ODA1ODcsLTIxMDE5NzA2OTEsMTc4MjAwNDUxMi
+wyMTE4NDc0MjEzLC0xMzk3OTIxMjA1LC0yNDM1ODY4MDAsLTIw
+NTM3MTUxMTBdfQ==
 -->
