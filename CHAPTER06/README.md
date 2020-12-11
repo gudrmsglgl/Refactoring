@@ -69,14 +69,9 @@ fun printDetail(invoice: Invoice, outstanding: Int){
 		- [x] 💭 함수 호출이 많아져서 성능이 느려질까 걱정하지 말아라
 		- [x] 😫 5~6줄 이상 냄새 풍김
 #### 길이를 기준
- 
-
-    한 화면을 넘어가면 안 된다
-
+   - 한 화면을 넘어가면 안 된다
 #### 재사용성 기준
-
-    두 번 이상 사용될 코드는 함수로 만들고, 한 번만 쓰이는 코드는 인라인 상태로 놔두는 것.
-
+   - 두 번 이상 사용될 코드는 함수로 만들고, 한 번만 쓰이는 코드는 인라인 상태로 놔두는 것.
 <br>
 
 ### 📍 &nbsp;&nbsp;절차
@@ -523,7 +518,7 @@ fun amountOverdue(dateRange: DateRange){...}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMDc3NzM1MCwtNjI4NDQ3MDA4LDI2OT
+eyJoaXN0b3J5IjpbMTM3NDY3NzgwMiwtNjI4NDQ3MDA4LDI2OT
 YyNDI5LC01MDk4MjY4MDIsLTE3NDE3MTI1NCwtOTc0ODkyNjE1
 LC0yNDQzNzg5MTIsNDY0NDk4NTgsMjA0NjMzMTk4MCwtMTg2OT
 A4MTIxNiwtMjkwNzgwNTI4LC0xMDEyOTM5NDA1LDEzMzQ5NjM5
