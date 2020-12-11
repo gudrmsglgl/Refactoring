@@ -282,7 +282,8 @@
 
  #### 💼&nbsp;&nbsp;데이터 보금자리 만들기
 
- - 필드 형태의 데이터 뭉치를 찾아서 **클래스 추출**하기로 하나의 객체로 묶기
+ - 필드 형태의 데이터 뭉치를 찾아서 
+	 - [x] **클래스 추출**하기로 하나의 객체로 묶기
  - 다음은 메서드 시그니처에 있는 데이터 뭉치 차례
  - 먼저 **매개변수 객체 만들기**나 **객체 통째로 넘기기**를   적용해서 매개변수 수를 줄여본다. 
  --> 메서드 호출이 간결해질 것.
@@ -512,11 +513,11 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NTQ2MjkxOCwxOTQ3MzgyOTQ0LDU1ND
-MxNDM2LDEyMzQyMDM5MiwxNTE5MTU0NzE3LC01Mzc5MzkzODUs
-MjkwMDc3NzgxLDQzODM2OTQyOSwtMTY3ODU0NTQyNyw5NDg4MD
-MyNjksNDA1MDM2NDcyLC0xMDk4NDgyNzE2LDU3NDA2ODE0Nywy
-MDc2ODY1ODQzLDc5NzA3NTcsLTE4OTA5MzAzNDUsLTE4NDkzNT
-U5OTEsLTQzNTU1ODg5NSwtMTU4MTgxNDg5NSw5NTE3NTYyMzhd
-fQ==
+eyJoaXN0b3J5IjpbLTE3NjE2MTM3MDUsMTk0NzM4Mjk0NCw1NT
+QzMTQzNiwxMjM0MjAzOTIsMTUxOTE1NDcxNywtNTM3OTM5Mzg1
+LDI5MDA3Nzc4MSw0MzgzNjk0MjksLTE2Nzg1NDU0MjcsOTQ4OD
+AzMjY5LDQwNTAzNjQ3MiwtMTA5ODQ4MjcxNiw1NzQwNjgxNDcs
+MjA3Njg2NTg0Myw3OTcwNzU3LC0xODkwOTMwMzQ1LC0xODQ5Mz
+U1OTkxLC00MzU1NTg4OTUsLTE1ODE4MTQ4OTUsOTUxNzU2MjM4
+XX0=
 -->
