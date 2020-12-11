@@ -46,8 +46,8 @@
 	 - [x] 문장 슬라이드하기로 비슷한 부분을 한곳에 모아 
 	 - [x] 함수 추출하기를 더 쉽게 적용할 수 있는지 살펴보기
 
-    * 같은 부모로부터 파생된 서브 클래스들에 코드가 중복
-    -> 각자 따로 호출되지 않도록 메서드 올리기 적용해 부모로 옮긴다.
+ * 같은 부모로부터 파생된 서브 클래스들에 코드가 중복
+	 - [x] 메서드 올리기 적용해 부모로 옮긴다.
 
 
 <br>
@@ -481,11 +481,11 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0Nzc5MjI4OSwyMDc2ODY1ODQzLDc5Nz
-A3NTcsLTE4OTA5MzAzNDUsLTE4NDkzNTU5OTEsLTQzNTU1ODg5
-NSwtMTU4MTgxNDg5NSw5NTE3NTYyMzgsLTcwNjE2OTQ0MSwyMT
-QyMzI3MjYzLC0yMDEyNjU1NzQ5LDEyNDU2NDYyMDAsMjA3NTIw
-ODkyNSwyMDM4NjA2ODIxLC01MTgwNTE5MTUsLTgzMzAzNjUzNC
-w5OTIwOTM0MTMsLTcwMTQ3OTE5OCw4ODQwNTIxMjksODYyMTc3
-MDNdfQ==
+eyJoaXN0b3J5IjpbNDEzMTkzNTM1LDIwNzY4NjU4NDMsNzk3MD
+c1NywtMTg5MDkzMDM0NSwtMTg0OTM1NTk5MSwtNDM1NTU4ODk1
+LC0xNTgxODE0ODk1LDk1MTc1NjIzOCwtNzA2MTY5NDQxLDIxND
+IzMjcyNjMsLTIwMTI2NTU3NDksMTI0NTY0NjIwMCwyMDc1MjA4
+OTI1LDIwMzg2MDY4MjEsLTUxODA1MTkxNSwtODMzMDM2NTM0LD
+k5MjA5MzQxMywtNzAxNDc5MTk4LDg4NDA1MjEyOSw4NjIxNzcw
+M119
 -->
