@@ -1,4 +1,5 @@
 # 기본적인 리팩터링
+
 [함수 추출하기](#id-section1)<br>
 [함수 인라인하기](#id-section2)<br>
 [변수 추출하기](#id-section3)<br>
@@ -553,11 +554,11 @@ fun amountOverdue(dateRange: DateRange){...}
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❶
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDA3MDU5MjUsMTUwNDU0NDA4Nyw1MT
-A2MjYxMDIsNTU2NjgwMzE0LC0xODgyNjQ3ODM2LC0yMDE0MDU4
-NDgzLDIwMzcwNTg3NDcsNTUxNDU4MjQyLDE0NTc2NDQ3MjIsLT
-Q5NDcyNTczNiwxMzc0Njc3ODAyLC02Mjg0NDcwMDgsMjY5NjI0
-MjksLTUwOTgyNjgwMiwtMTc0MTcxMjU0LC05NzQ4OTI2MTUsLT
-I0NDM3ODkxMiw0NjQ0OTg1OCwyMDQ2MzMxOTgwLC0xODY5MDgx
-MjE2XX0=
+eyJoaXN0b3J5IjpbLTg3MjI2ODM3NSwtMjEwMDcwNTkyNSwxNT
+A0NTQ0MDg3LDUxMDYyNjEwMiw1NTY2ODAzMTQsLTE4ODI2NDc4
+MzYsLTIwMTQwNTg0ODMsMjAzNzA1ODc0Nyw1NTE0NTgyNDIsMT
+Q1NzY0NDcyMiwtNDk0NzI1NzM2LDEzNzQ2Nzc4MDIsLTYyODQ0
+NzAwOCwyNjk2MjQyOSwtNTA5ODI2ODAyLC0xNzQxNzEyNTQsLT
+k3NDg5MjYxNSwtMjQ0Mzc4OTEyLDQ2NDQ5ODU4LDIwNDYzMzE5
+ODBdfQ==
 -->
