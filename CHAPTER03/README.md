@@ -285,10 +285,10 @@
  - 필드 형태의 데이터 뭉치를 찾아서 
 	 - [x] **클래스 추출**하기로 하나의 객체로 묶기
  - 다음은 메서드 시그니처에 있는 데이터 뭉치 차례
- - 먼저 **매개변수 객체 만들기**나 **객체 통째로 넘기기**를   적용해서 매개변수 수를 줄여본다. 
+ 	 - [x] **매개변수 객체 만들기**나 **객체 통째로 넘기기**를   적용해서 매개변수 수를 줄여본다. 
  --> 메서드 호출이 간결해질 것.
- - 클래스를 이용하면 좋은 향기를 흩뿌릴 기회가 생긴다.
- - 클래스를 옮기면 좋을 동작은 없는지 살펴본다.
+ - [x] 클래스를 이용하면 좋은 향기를 흩뿌릴 기회가 생긴다.
+ - [x] 클래스를 옮기면 좋을 동작은 없는지 살펴본다.
 
  
  #### ❓&nbsp;&nbsp;데이터 뭉치 판별
@@ -513,11 +513,11 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjE2MTM3MDUsMTk0NzM4Mjk0NCw1NT
-QzMTQzNiwxMjM0MjAzOTIsMTUxOTE1NDcxNywtNTM3OTM5Mzg1
-LDI5MDA3Nzc4MSw0MzgzNjk0MjksLTE2Nzg1NDU0MjcsOTQ4OD
-AzMjY5LDQwNTAzNjQ3MiwtMTA5ODQ4MjcxNiw1NzQwNjgxNDcs
-MjA3Njg2NTg0Myw3OTcwNzU3LC0xODkwOTMwMzQ1LC0xODQ5Mz
-U1OTkxLC00MzU1NTg4OTUsLTE1ODE4MTQ4OTUsOTUxNzU2MjM4
-XX0=
+eyJoaXN0b3J5IjpbOTEyMjY4NTgxLDE5NDczODI5NDQsNTU0Mz
+E0MzYsMTIzNDIwMzkyLDE1MTkxNTQ3MTcsLTUzNzkzOTM4NSwy
+OTAwNzc3ODEsNDM4MzY5NDI5LC0xNjc4NTQ1NDI3LDk0ODgwMz
+I2OSw0MDUwMzY0NzIsLTEwOTg0ODI3MTYsNTc0MDY4MTQ3LDIw
+NzY4NjU4NDMsNzk3MDc1NywtMTg5MDkzMDM0NSwtMTg0OTM1NT
+k5MSwtNDM1NTU4ODk1LC0xNTgxODE0ODk1LDk1MTc1NjIzOF19
+
 -->
