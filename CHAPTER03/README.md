@@ -157,13 +157,16 @@
 
    - [x] 변수 캡슐화하기
 ```
-정해놓은 함수를 거쳐야만 -> 값을 수정할 수 있도록 
+정해놓은 함수를 거쳐야만 값을 수정할 수 있도록 캡슐화하면 
 -> 값이 어떻게 수정되는지 감시하거나 코드를 개선하기 쉽다. 
 ```
 	
-	💡 변수 쪼개기
-	  - 하나의 변수에 용도가 다른 값들을 저장하느라 값을 갱신하는 경우
-	  - 독립 변수에 저장하게 하여 값 갱신이 문제를 일으킬 여지를 없앤다.	
+   - [x] 변수 쪼개기
+```
+- 하나의 변수에 용도가 다른 값들을 저장하느라 값을 갱신하는 경우
+- 독립 변수에 저장하게 하여 값 갱신이 문제를 일으킬 여지를 없앤다.	
+```
+	  
     
     💡 문장 슬라이드하기 와 함수 추출하기
       - 무언가를 갱신하는 코드로부터 부작용이 없는 코드를 분리
@@ -518,7 +521,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3OTY4NzU3MCwxNTQzMzc2MDk2LDE5ND
+eyJoaXN0b3J5IjpbLTQ4Njc0Nzg2MywxNTQzMzc2MDk2LDE5ND
 czODI5NDQsNTU0MzE0MzYsMTIzNDIwMzkyLDE1MTkxNTQ3MTcs
 LTUzNzkzOTM4NSwyOTAwNzc3ODEsNDM4MzY5NDI5LC0xNjc4NT
 Q1NDI3LDk0ODgwMzI2OSw0MDUwMzY0NzIsLTEwOTg0ODI3MTYs
