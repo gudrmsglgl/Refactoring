@@ -21,13 +21,13 @@
 
 ### 고수준 리팩터링
 - 함수를 만들고 나면 
-	- [x] 다시 고수준 모듈로 묶어야 한다.
+	- [x] 다시 **고수준 모듈로 묶어야** 한다.
 - 함수를 그룹으로 묶을 때
-- [x] **여러 함수를 클래스로 묶기**를 이용
+	- [x] **여러 함수를 클래스로 묶기**를 이용
 - 읽기 전용 데이터
-    - 여러 함수를 변환 함수로 묶기 
-- 단계 쪼개기
-    - 한데 묶은 모듈들의 작업 처리 과정을 명확한 단계로 구분 짓기    
+	- [x] **여러 함수를 변환 함수**로 묶기 
+- 모듈들의 작업 처리 과정을 명확한 단계로 구분 
+    - [x] **단계 쪼개기**
 
 <br>
 <div id='id-section1'/>
@@ -518,7 +518,7 @@ fun amountOverdue(dateRange: DateRange){...}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMjg5NTU4MCwtNjI4NDQ3MDA4LDI2OT
+eyJoaXN0b3J5IjpbMTA4ODQ1Mjg3NSwtNjI4NDQ3MDA4LDI2OT
 YyNDI5LC01MDk4MjY4MDIsLTE3NDE3MTI1NCwtOTc0ODkyNjE1
 LC0yNDQzNzg5MTIsNDY0NDk4NTgsMjA0NjMzMTk4MCwtMTg2OT
 A4MTIxNiwtMjkwNzgwNTI4LC0xMDEyOTM5NDA1LDEzMzQ5NjM5
