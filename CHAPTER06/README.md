@@ -523,14 +523,16 @@ fun amountReceived(dateRange: DateRange){...}
 fun amountOverdue(dateRange: DateRange){...}
 ```
 
-매개변수 객체 만들 때 
-
+### 🔎 &nbsp;&nbsp;매개변수 객체 만들 때 
+- 데이터 항목 여러 개가 이 함수에서 저 함수로 함께 몰려다니는 경우
+- 데이터 구조로 묶으면 데이터 사이의 관계 명확
+- 매개변수 수 감소
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODI2NDc4MzYsLTIwMTQwNTg0ODMsMj
-AzNzA1ODc0Nyw1NTE0NTgyNDIsMTQ1NzY0NDcyMiwtNDk0NzI1
-NzM2LDEzNzQ2Nzc4MDIsLTYyODQ0NzAwOCwyNjk2MjQyOSwtNT
-A5ODI2ODAyLC0xNzQxNzEyNTQsLTk3NDg5MjYxNSwtMjQ0Mzc4
-OTEyLDQ2NDQ5ODU4LDIwNDYzMzE5ODAsLTE4NjkwODEyMTYsLT
-I5MDc4MDUyOCwtMTAxMjkzOTQwNSwxMzM0OTYzOTAxLC00NzM4
-MTgxNTBdfQ==
+eyJoaXN0b3J5IjpbMzQxMjY4OTM0LC0xODgyNjQ3ODM2LC0yMD
+E0MDU4NDgzLDIwMzcwNTg3NDcsNTUxNDU4MjQyLDE0NTc2NDQ3
+MjIsLTQ5NDcyNTczNiwxMzc0Njc3ODAyLC02Mjg0NDcwMDgsMj
+Y5NjI0MjksLTUwOTgyNjgwMiwtMTc0MTcxMjU0LC05NzQ4OTI2
+MTUsLTI0NDM3ODkxMiw0NjQ0OTg1OCwyMDQ2MzMxOTgwLC0xOD
+Y5MDgxMjE2LC0yOTA3ODA1MjgsLTEwMTI5Mzk0MDUsMTMzNDk2
+MzkwMV19
 -->
