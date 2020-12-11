@@ -408,7 +408,8 @@
 > 일이 돌아가게 하려면 거래가 이뤄질 수 밖에 없지만<br>
 > 그 양을 최소로 줄이고 모두 투명하게 처리해야 한다.
 
-- 은밀히 데이터를 주고받는 모듈들이 있을 때 <br> -> **함수 옮기기**와 **필드 옮기기**로 떼어놓아서 사적으로 처리하는 부분을 줄인다.
+- 은밀히 데이터를 주고받는 모듈들이 있을 때 
+	- [x] **함수 옮기기**와 **필드 옮기기**로 떼어놓아서 사적으로 처리하는 부분을 줄인다.
 
 - 여러 모듈이 같은 관심사를 공유 <br>-> 공통 부분을 정식으로 처리하는 제3의 모듈을 새로 만들거나<br> or -> 위임 숨기기를 이용하여 다른 모듈이 중간자 역할을 하게 만든다.
 
@@ -486,11 +487,11 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA1MDM2NDcyLC0xMDk4NDgyNzE2LDU3ND
-A2ODE0NywyMDc2ODY1ODQzLDc5NzA3NTcsLTE4OTA5MzAzNDUs
-LTE4NDkzNTU5OTEsLTQzNTU1ODg5NSwtMTU4MTgxNDg5NSw5NT
-E3NTYyMzgsLTcwNjE2OTQ0MSwyMTQyMzI3MjYzLC0yMDEyNjU1
-NzQ5LDEyNDU2NDYyMDAsMjA3NTIwODkyNSwyMDM4NjA2ODIxLC
-01MTgwNTE5MTUsLTgzMzAzNjUzNCw5OTIwOTM0MTMsLTcwMTQ3
-OTE5OF19
+eyJoaXN0b3J5IjpbLTIxNjYwMzE0MCw0MDUwMzY0NzIsLTEwOT
+g0ODI3MTYsNTc0MDY4MTQ3LDIwNzY4NjU4NDMsNzk3MDc1Nywt
+MTg5MDkzMDM0NSwtMTg0OTM1NTk5MSwtNDM1NTU4ODk1LC0xNT
+gxODE0ODk1LDk1MTc1NjIzOCwtNzA2MTY5NDQxLDIxNDIzMjcy
+NjMsLTIwMTI2NTU3NDksMTI0NTY0NjIwMCwyMDc1MjA4OTI1LD
+IwMzg2MDY4MjEsLTUxODA1MTkxNSwtODMzMDM2NTM0LDk5MjA5
+MzQxM119
 -->
