@@ -203,19 +203,18 @@ class Order{
       get() = this.data.quantity 
    val itemPrice
       get() = this.data.itemPrice
-	val basePrice
-		get() = this.quantity * this.itemPrice
-	val quantityDiscount
-		get() = Math.max(0, this.quantity - 500) * this.itemPrice * 0.05
-	val shipping
-		get() = Math.min(this.quantity * this.itemPrice * 0.1, 100)	
-	val price
-		get() = this.basePrice - this.quantityDiscount + this.shipping
+   val basePrice
+      get() = this.quantity * this.itemPrice
+   val quantityDiscount
+      get() = Math.max(0, this.quantity - 500) * this.itemPrice * 0.05
+   val shipping
+      get() = Math.min(this.quantity * this.itemPrice * 0.1, 100)	
+   val price
+      get() = this.basePrice - this.quantityDiscount + this.shipping
 				
-	constructor(record: Record){
-		this.data = record
-	}
-	
+   constructor(record: Record){
+      this.data = record
+   }
 }
 ```
 <br>
@@ -527,11 +526,11 @@ fun amountOverdue(dateRange: DateRange){...}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUxNjk5MzIzLDIwMzcwNTg3NDcsNTUxND
-U4MjQyLDE0NTc2NDQ3MjIsLTQ5NDcyNTczNiwxMzc0Njc3ODAy
-LC02Mjg0NDcwMDgsMjY5NjI0MjksLTUwOTgyNjgwMiwtMTc0MT
-cxMjU0LC05NzQ4OTI2MTUsLTI0NDM3ODkxMiw0NjQ0OTg1OCwy
-MDQ2MzMxOTgwLC0xODY5MDgxMjE2LC0yOTA3ODA1MjgsLTEwMT
-I5Mzk0MDUsMTMzNDk2MzkwMSwtNDczODE4MTUwLC0xODk1ODgw
-NTg3XX0=
+eyJoaXN0b3J5IjpbLTU5NTczNzcxMywyMDM3MDU4NzQ3LDU1MT
+Q1ODI0MiwxNDU3NjQ0NzIyLC00OTQ3MjU3MzYsMTM3NDY3Nzgw
+MiwtNjI4NDQ3MDA4LDI2OTYyNDI5LC01MDk4MjY4MDIsLTE3ND
+E3MTI1NCwtOTc0ODkyNjE1LC0yNDQzNzg5MTIsNDY0NDk4NTgs
+MjA0NjMzMTk4MCwtMTg2OTA4MTIxNiwtMjkwNzgwNTI4LC0xMD
+EyOTM5NDA1LDEzMzQ5NjM5MDEsLTQ3MzgxODE1MCwtMTg5NTg4
+MDU4N119
 -->
