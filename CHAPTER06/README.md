@@ -441,14 +441,14 @@ setDefaultOwner("레베카 파슨스")
 <div id='id-section6-ex1'/>
 
 **4. 모든 참조를 수정했다면 변수의 가시 범위를 제한한다.** 
-**🙆‍♀️ Kotlin set & get (캡슐화)**
+**🙆‍♀️ 1. Function set & get (캡슐화)**
 
 ```kotlin
 private var defaultOwner = "마틴 파울러"  // 👈 가시 범위 제한
 fun getDefaultOwner() = this.defaultOwner
 fun setDefaultOwner(arg: String){this.defaultOwner = arg}
 ``` 
-**🙆‍♀️ Kotlin set & get (캡슐화)**
+**🙆‍♀️ 2. Property set & get (캡슐화)**
 
 ```kotlin
 private var _defaultOwner = "마틴 파울러"
@@ -497,11 +497,11 @@ val area = height * width
 👉 &nbsp;&nbsp;[캡슐화로 처리](#id-section6-ex1)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1ODk3MjQ0NSwtNTA5ODI2ODAyLC0xNz
-QxNzEyNTQsLTk3NDg5MjYxNSwtMjQ0Mzc4OTEyLDQ2NDQ5ODU4
-LDIwNDYzMzE5ODAsLTE4NjkwODEyMTYsLTI5MDc4MDUyOCwtMT
-AxMjkzOTQwNSwxMzM0OTYzOTAxLC00NzM4MTgxNTAsLTE4OTU4
-ODA1ODcsLTIxMDE5NzA2OTEsMTc4MjAwNDUxMiwyMTE4NDc0Mj
-EzLC0xMzk3OTIxMjA1LC0yNDM1ODY4MDAsLTIwNTM3MTUxMTAs
-MTc0OTk4MTA5OV19
+eyJoaXN0b3J5IjpbMjY5NjI0MjksLTUwOTgyNjgwMiwtMTc0MT
+cxMjU0LC05NzQ4OTI2MTUsLTI0NDM3ODkxMiw0NjQ0OTg1OCwy
+MDQ2MzMxOTgwLC0xODY5MDgxMjE2LC0yOTA3ODA1MjgsLTEwMT
+I5Mzk0MDUsMTMzNDk2MzkwMSwtNDczODE4MTUwLC0xODk1ODgw
+NTg3LC0yMTAxOTcwNjkxLDE3ODIwMDQ1MTIsMjExODQ3NDIxMy
+wtMTM5NzkyMTIwNSwtMjQzNTg2ODAwLC0yMDUzNzE1MTEwLDE3
+NDk5ODEwOTldfQ==
 -->
