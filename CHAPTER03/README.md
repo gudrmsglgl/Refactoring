@@ -300,8 +300,8 @@
 ## 3.11 기본형 집착 Primitive Obsession
 
  - **기본형을 객체로 바꾸기**
- - 기본형으로 표현된 코드가 조건부 동작을 제어하는 타입 코드로 쓰였다면<br>
-**타입 코드를 서브클래스로 바꾸기** 와 **조건부 로직을 다형으로 바꾸기**를 차례로 적용한다.
+ - 기본형으로 표현된 코드가 조건부 동작을 제어하는 타입 코드로 쓰였다면
+- [x] **타입 코드를 서브클래스로 바꾸기** 와 **조건부 로직을 다형으로 바꾸기**를 차례로 적용한다.
  - 자주 함께 몰려다니는 기본형 그룹도 데이터 뭉치<br>
  -> **클래스 추출하기**와 **매개변수 객체 만들기**를 이용
 <br>
@@ -509,11 +509,11 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NzM4Mjk0NCw1NTQzMTQzNiwxMjM0Mj
-AzOTIsMTUxOTE1NDcxNywtNTM3OTM5Mzg1LDI5MDA3Nzc4MSw0
-MzgzNjk0MjksLTE2Nzg1NDU0MjcsOTQ4ODAzMjY5LDQwNTAzNj
-Q3MiwtMTA5ODQ4MjcxNiw1NzQwNjgxNDcsMjA3Njg2NTg0Myw3
-OTcwNzU3LC0xODkwOTMwMzQ1LC0xODQ5MzU1OTkxLC00MzU1NT
-g4OTUsLTE1ODE4MTQ4OTUsOTUxNzU2MjM4LC03MDYxNjk0NDFd
+eyJoaXN0b3J5IjpbLTg4MDAzODg3OSwxOTQ3MzgyOTQ0LDU1ND
+MxNDM2LDEyMzQyMDM5MiwxNTE5MTU0NzE3LC01Mzc5MzkzODUs
+MjkwMDc3NzgxLDQzODM2OTQyOSwtMTY3ODU0NTQyNyw5NDg4MD
+MyNjksNDA1MDM2NDcyLC0xMDk4NDgyNzE2LDU3NDA2ODE0Nywy
+MDc2ODY1ODQzLDc5NzA3NTcsLTE4OTA5MzAzNDUsLTE4NDkzNT
+U5OTEsLTQzNTU1ODg5NSwtMTU4MTgxNDg5NSw5NTE3NTYyMzhd
 fQ==
 -->
