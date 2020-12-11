@@ -286,7 +286,8 @@
 	 - [x] **클래스 추출**하기로 하나의 객체로 묶기
  - 다음은 메서드 시그니처에 있는 데이터 뭉치 차례
 
- 	 - [x] **매개변수 객체 만들기**나 **객체 통째로 넘기기**를   적용해서 매개변수 수를 줄여본다. <br> 👍 메서드 호출이 간결해질 것.
+ 	 - [x] **매개변수 객체 만들기**나 **객체 통째로 넘기기**를   적용해서 매개변수 수를 줄여본다.
+👍 메서드 호출이 간결해질 것.
 
  - [x] 클래스를 이용하면 좋은 향기를 흩뿌릴 기회가 생긴다.
  - [x] 클래스를 옮기면 좋을 동작은 없는지 살펴본다.
@@ -514,7 +515,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MjEzNDgyNSwxOTQ3MzgyOTQ0LDU1ND
+eyJoaXN0b3J5IjpbMTAyNjEzMDEzMSwxOTQ3MzgyOTQ0LDU1ND
 MxNDM2LDEyMzQyMDM5MiwxNTE5MTU0NzE3LC01Mzc5MzkzODUs
 MjkwMDc3NzgxLDQzODM2OTQyOSwtMTY3ODU0NTQyNyw5NDg4MD
 MyNjksNDA1MDM2NDcyLC0xMDk4NDgyNzE2LDU3NDA2ODE0Nywy
