@@ -33,11 +33,13 @@
 <br>
 <div id='id-section2'/>
 
+
 ## 3.2 중복 코드 Duplicated Code
 
 ### 중복 코드의 예
-#### 😩 &nbsp;한 클래스에 딸린 두 메서드가 똑같은 표현식을 사용하는 경우
-#### ⚡ &nbsp;함수 추출하기
+- 한 클래스에 딸린 두 메서드가 똑같은 표현식을 사용하는 경우
+ - [x] 함수 추출하기
+
 
     * 한 클래스에 딸린 두 메서드가 똑같은 표현식을 사용하는 경우
     -> 함수 추출하기 
@@ -480,11 +482,11 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3Njg2NTg0Myw3OTcwNzU3LC0xODkwOT
-MwMzQ1LC0xODQ5MzU1OTkxLC00MzU1NTg4OTUsLTE1ODE4MTQ4
-OTUsOTUxNzU2MjM4LC03MDYxNjk0NDEsMjE0MjMyNzI2MywtMj
-AxMjY1NTc0OSwxMjQ1NjQ2MjAwLDIwNzUyMDg5MjUsMjAzODYw
-NjgyMSwtNTE4MDUxOTE1LC04MzMwMzY1MzQsOTkyMDkzNDEzLC
-03MDE0NzkxOTgsODg0MDUyMTI5LDg2MjE3NzAzLC03NDM0MjAz
-MzJdfQ==
+eyJoaXN0b3J5IjpbLTIwMDI4ODczOTQsMjA3Njg2NTg0Myw3OT
+cwNzU3LC0xODkwOTMwMzQ1LC0xODQ5MzU1OTkxLC00MzU1NTg4
+OTUsLTE1ODE4MTQ4OTUsOTUxNzU2MjM4LC03MDYxNjk0NDEsMj
+E0MjMyNzI2MywtMjAxMjY1NTc0OSwxMjQ1NjQ2MjAwLDIwNzUy
+MDg5MjUsMjAzODYwNjgyMSwtNTE4MDUxOTE1LC04MzMwMzY1Mz
+QsOTkyMDkzNDEzLC03MDE0NzkxOTgsODg0MDUyMTI5LDg2MjE3
+NzAzXX0=
 -->
