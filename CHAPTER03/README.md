@@ -445,7 +445,7 @@
 
 #### **💊&nbsp;&nbsp;거대 클래스 이용 패턴을 파악** 
 - [x] 클라이언트들이 거대 클래스의 특정 기능 그룹만 주로 사용하는지 살핀다.
-- [x] 이때 각각의 기능 그룹이 개별 클래스로 추출될 후보.
+- [x] 이때 🔌 각각의 기능 그룹 🔌이 개별 클래스로 추출될 후보.
 	    * 유효한 기능 그룹을 찾았다면 아래의 것을 활용하여 여러 클래스로 분리
 		    - 클래스 추출하기
 		    - 슈퍼클래스 추출하기
@@ -490,11 +490,11 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNzkzOTM4NSwyOTAwNzc3ODEsNDM4Mz
-Y5NDI5LC0xNjc4NTQ1NDI3LDk0ODgwMzI2OSw0MDUwMzY0NzIs
-LTEwOTg0ODI3MTYsNTc0MDY4MTQ3LDIwNzY4NjU4NDMsNzk3MD
-c1NywtMTg5MDkzMDM0NSwtMTg0OTM1NTk5MSwtNDM1NTU4ODk1
-LC0xNTgxODE0ODk1LDk1MTc1NjIzOCwtNzA2MTY5NDQxLDIxND
-IzMjcyNjMsLTIwMTI2NTU3NDksMTI0NTY0NjIwMCwyMDc1MjA4
-OTI1XX0=
+eyJoaXN0b3J5IjpbLTgyMDI3NjEyOSwtNTM3OTM5Mzg1LDI5MD
+A3Nzc4MSw0MzgzNjk0MjksLTE2Nzg1NDU0MjcsOTQ4ODAzMjY5
+LDQwNTAzNjQ3MiwtMTA5ODQ4MjcxNiw1NzQwNjgxNDcsMjA3Nj
+g2NTg0Myw3OTcwNzU3LC0xODkwOTMwMzQ1LC0xODQ5MzU1OTkx
+LC00MzU1NTg4OTUsLTE1ODE4MTQ4OTUsOTUxNzU2MjM4LC03MD
+YxNjk0NDEsMjE0MjMyNzI2MywtMjAxMjY1NTc0OSwxMjQ1NjQ2
+MjAwXX0=
 -->
