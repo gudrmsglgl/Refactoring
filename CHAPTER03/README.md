@@ -469,11 +469,14 @@
 
 ## 3.22 데이터 클래스 Data Class
 - 다른 클래스가 너무 깊이까지 함부로 다룰 때가 많다.
+
 - public 필드가 있다면
 	- [x] **레코드 캡슐화하기**
+
 - 다른 클래스 메서드 -> 데이터 클래스의 게터나 세터를 사용할 때 
 	 - [x] 함수 옮기기로 **데이터 클래스로 옮길 수 있는지**
 	 - [x] 메서드를 통째로 옮기기 어렵다면 **함수 추출하기를 이용해서 부분만 별도 메서드**로 뽑아내기 
+
 - 불변 필드는 굳이 캡슐화할 필요가 없고, 불변 데이터로부터 나오는 정보는 필드 자체를 공개해도 된다. 
 
 <br>
@@ -495,7 +498,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM1NjkzMjk2LDEyMzQyMDM5MiwxNTE5MT
+eyJoaXN0b3J5IjpbODE2NTE2MjkwLDEyMzQyMDM5MiwxNTE5MT
 U0NzE3LC01Mzc5MzkzODUsMjkwMDc3NzgxLDQzODM2OTQyOSwt
 MTY3ODU0NTQyNyw5NDg4MDMyNjksNDA1MDM2NDcyLC0xMDk4ND
 gyNzE2LDU3NDA2ODE0NywyMDc2ODY1ODQzLDc5NzA3NTcsLTE4
