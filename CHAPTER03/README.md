@@ -114,8 +114,8 @@
   - 항상 함께 전달되는 매개변수
 	  - [x] 매개변수 객체 만들기로 하나로 묶기
     
-    ⚠️ 여러 개의 함수가 특정 매개변수들의 값을 공통으로 사용할 때 
-    ↪️ 여러 함수를 클래스로 묶기를 이용하여 공통 값들을 클래스의 필드로 정의
+ - 여러 개의 함수가 특정 매개변수들의 값을 공통으로 사용할 때 
+ 	  - [x] 여러 함수를 클래스로 묶기를 이용하여 공통 값들을 클래스의 필드로 정의
 
 <br>
 <div id='id-section5'/>
@@ -526,7 +526,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNTE0NjAzOSwtMTQwODQzNjA5LDE1ND
+eyJoaXN0b3J5IjpbLTc0MDM2NjQzNywtMTQwODQzNjA5LDE1ND
 MzNzYwOTYsMTk0NzM4Mjk0NCw1NTQzMTQzNiwxMjM0MjAzOTIs
 MTUxOTE1NDcxNywtNTM3OTM5Mzg1LDI5MDA3Nzc4MSw0MzgzNj
 k0MjksLTE2Nzg1NDU0MjcsOTQ4ODAzMjY5LDQwNTAzNjQ3Miwt
