@@ -168,11 +168,9 @@
 ```
    - [x] 문장 슬라이드하기 와 함수 추출하기
 ```
-* ```
-무언가를 갱신하는 코드로부터 부작용이 없는 코드를 분리
+-> 무언가를 갱신하는 코드로부터 부작용이 없는 코드를 분리
 ```
-```
-   - [x] 변수 쪼개기
+   - [x] 질의 함수와 변경 함수 분리하기
 ```
 * 하나의 변수에 용도가 다른 값들을 저장하느라 값을 갱신하는 경우
 -> 독립 변수에 저장하게 하여 값 갱신이 문제를 일으킬 여지를 없앤다.	
@@ -194,11 +192,9 @@
 ```
 	  
     
-    💡 
-      - 무언가를 갱신하는 코드로부터 부작용이 없는 코드를 분리
     
-    💡 질의 함수와 변경 함수 분리하기
-      - API 를 만들 때
+    💡 
+      - 
       
     💡 세터 제거하기 
       - 세터를 호출하는 클라이언트를 찾는 것만으로도 변수의 유효범위를 줄이는 데 도움
@@ -547,11 +543,11 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMxNTI5NzU0LDE1NDMzNzYwOTYsMTk0Nz
-M4Mjk0NCw1NTQzMTQzNiwxMjM0MjAzOTIsMTUxOTE1NDcxNywt
-NTM3OTM5Mzg1LDI5MDA3Nzc4MSw0MzgzNjk0MjksLTE2Nzg1ND
-U0MjcsOTQ4ODAzMjY5LDQwNTAzNjQ3MiwtMTA5ODQ4MjcxNiw1
-NzQwNjgxNDcsMjA3Njg2NTg0Myw3OTcwNzU3LC0xODkwOTMwMz
-Q1LC0xODQ5MzU1OTkxLC00MzU1NTg4OTUsLTE1ODE4MTQ4OTVd
-fQ==
+eyJoaXN0b3J5IjpbMjA5NzE3MzMyMywxNTQzMzc2MDk2LDE5ND
+czODI5NDQsNTU0MzE0MzYsMTIzNDIwMzkyLDE1MTkxNTQ3MTcs
+LTUzNzkzOTM4NSwyOTAwNzc3ODEsNDM4MzY5NDI5LC0xNjc4NT
+Q1NDI3LDk0ODgwMzI2OSw0MDUwMzY0NzIsLTEwOTg0ODI3MTYs
+NTc0MDY4MTQ3LDIwNzY4NjU4NDMsNzk3MDc1NywtMTg5MDkzMD
+M0NSwtMTg0OTM1NTk5MSwtNDM1NTU4ODk1LC0xNTgxODE0ODk1
+XX0=
 -->
