@@ -431,9 +431,9 @@ defaultOwner = "레베카 파손스"
 
 
 ```kotlin
-private var _defaultOwner = "마틴 파울러"
+private var _defaultOwner = "마틴 파울러"  or   var defaultOwner = "마틴 파울러"
 
-var defaultOwner: String
+var defaultOwner: String					
    set(value){
       this._defaultOwner = value
    }
@@ -441,11 +441,11 @@ var defaultOwner: String
 ``` 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NDM3ODkxMiw0NjQ0OTg1OCwyMDQ2Mz
-MxOTgwLC0xODY5MDgxMjE2LC0yOTA3ODA1MjgsLTEwMTI5Mzk0
-MDUsMTMzNDk2MzkwMSwtNDczODE4MTUwLC0xODk1ODgwNTg3LC
-0yMTAxOTcwNjkxLDE3ODIwMDQ1MTIsMjExODQ3NDIxMywtMTM5
-NzkyMTIwNSwtMjQzNTg2ODAwLC0yMDUzNzE1MTEwLDE3NDk5OD
-EwOTksMTM2ODg3MzI0OSwtNzczNDE3NDQyLDE5Mjg4MTEzODAs
-MTcxMzcxOTQ1OV19
+eyJoaXN0b3J5IjpbLTE4NjE0MTI5NDksLTI0NDM3ODkxMiw0Nj
+Q0OTg1OCwyMDQ2MzMxOTgwLC0xODY5MDgxMjE2LC0yOTA3ODA1
+MjgsLTEwMTI5Mzk0MDUsMTMzNDk2MzkwMSwtNDczODE4MTUwLC
+0xODk1ODgwNTg3LC0yMTAxOTcwNjkxLDE3ODIwMDQ1MTIsMjEx
+ODQ3NDIxMywtMTM5NzkyMTIwNSwtMjQzNTg2ODAwLC0yMDUzNz
+E1MTEwLDE3NDk5ODEwOTksMTM2ODg3MzI0OSwtNzczNDE3NDQy
+LDE5Mjg4MTEzODBdfQ==
 -->
