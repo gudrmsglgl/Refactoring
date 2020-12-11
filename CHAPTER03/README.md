@@ -310,7 +310,7 @@
 ## 3.12 반복되는 switch문 Repeated Switches
 
 > 코드에 등장하는 switch문은 모조리<br>
-> **조건부 로직을 다형성으로 바꾸기**로 없애야 할 대상이라고 주장한다.
+> **💫 조건부 로직을 다형성으로 바꾸기**로 없애야 할 대상이라고 주장한다.
 
  - 똑같은 조건부 로직이 여러 곳에서 반복해 등장하는 코드에 집중.
  - 중복된 switch문이 문제가 되는 이유는 조건절을 하나 추가할 때마다 다른 switch문들도 모두 찾아서 함께 수정해야 하기 때문.
@@ -509,11 +509,11 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODY3NTI3NzYsNTU0MzE0MzYsMTIzND
-IwMzkyLDE1MTkxNTQ3MTcsLTUzNzkzOTM4NSwyOTAwNzc3ODEs
-NDM4MzY5NDI5LC0xNjc4NTQ1NDI3LDk0ODgwMzI2OSw0MDUwMz
-Y0NzIsLTEwOTg0ODI3MTYsNTc0MDY4MTQ3LDIwNzY4NjU4NDMs
-Nzk3MDc1NywtMTg5MDkzMDM0NSwtMTg0OTM1NTk5MSwtNDM1NT
-U4ODk1LC0xNTgxODE0ODk1LDk1MTc1NjIzOCwtNzA2MTY5NDQx
-XX0=
+eyJoaXN0b3J5IjpbMTk0NzM4Mjk0NCw1NTQzMTQzNiwxMjM0Mj
+AzOTIsMTUxOTE1NDcxNywtNTM3OTM5Mzg1LDI5MDA3Nzc4MSw0
+MzgzNjk0MjksLTE2Nzg1NDU0MjcsOTQ4ODAzMjY5LDQwNTAzNj
+Q3MiwtMTA5ODQ4MjcxNiw1NzQwNjgxNDcsMjA3Njg2NTg0Myw3
+OTcwNzU3LC0xODkwOTMwMzQ1LC0xODQ5MzU1OTkxLC00MzU1NT
+g4OTUsLTE1ODE4MTQ4OTUsOTUxNzU2MjM4LC03MDYxNjk0NDFd
+fQ==
 -->
