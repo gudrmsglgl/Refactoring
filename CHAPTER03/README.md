@@ -328,9 +328,13 @@
 
 ## 3.14 성의 없는 요소 Lazy Element
 
-> 구조가 필요 없을 때, 본문 코드를 그대로 쓰는 것과 진배없는 함수, 메서드가 하나 뿐인 클래스<br>
-> **함수 인라인**, **클래스 인라인**으로 처리
-> 상속을 사용했다면 **계층 합치기**를 적용
+- 구조가 필요 없을 때
+- 본문 코드를 그대로 쓰는 것과 진배없는 함수
+- 메서드가 하나 뿐인 클래스
+	- [x] **함수 인라인**, **클래스 인라인**으로 처리
+
+- 클래스 인라인으로 상속을 사용했다면 
+	- [x] **계층 합치기**를 적용
 
 <br>
 <div id='id-section15'/>
@@ -505,11 +509,11 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU0MzE0MzYsMTIzNDIwMzkyLDE1MTkxNT
-Q3MTcsLTUzNzkzOTM4NSwyOTAwNzc3ODEsNDM4MzY5NDI5LC0x
-Njc4NTQ1NDI3LDk0ODgwMzI2OSw0MDUwMzY0NzIsLTEwOTg0OD
-I3MTYsNTc0MDY4MTQ3LDIwNzY4NjU4NDMsNzk3MDc1NywtMTg5
-MDkzMDM0NSwtMTg0OTM1NTk5MSwtNDM1NTU4ODk1LC0xNTgxOD
-E0ODk1LDk1MTc1NjIzOCwtNzA2MTY5NDQxLDIxNDIzMjcyNjNd
-fQ==
+eyJoaXN0b3J5IjpbLTE0ODY3NTI3NzYsNTU0MzE0MzYsMTIzND
+IwMzkyLDE1MTkxNTQ3MTcsLTUzNzkzOTM4NSwyOTAwNzc3ODEs
+NDM4MzY5NDI5LC0xNjc4NTQ1NDI3LDk0ODgwMzI2OSw0MDUwMz
+Y0NzIsLTEwOTg0ODI3MTYsNTc0MDY4MTQ3LDIwNzY4NjU4NDMs
+Nzk3MDc1NywtMTg5MDkzMDM0NSwtMTg0OTM1NTk5MSwtNDM1NT
+U4ODk1LC0xNTgxODE0ODk1LDk1MTc1NjIzOCwtNzA2MTY5NDQx
+XX0=
 -->
