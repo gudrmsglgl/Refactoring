@@ -482,12 +482,18 @@ val area = height * width
 - 간단한 함수의 매개변수 이름도 짧게 지어도 될 때가 많다.
 - 동적 타입 언어라면 이름 앞에 타입을 드러내는 스타일도 좋다. 
 - 함수 호출 한 번으로 끝나지 않고 값이 영속되는 필드라면 이름에 더 신경 써야 한다.
+<br>
+
+### 📍 &nbsp;&nbsp;절차
+① 폭넓게 쓰이는 변수라면 변수 캡슐화하기를 고려<br>
+② 이름을 바꿀 변수를 참조하는 곳을 모두 찾아서, 하나씩 변경<br>
+③ 테스트한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ4NjU3NjA3LC01MDk4MjY4MDIsLTE3ND
-E3MTI1NCwtOTc0ODkyNjE1LC0yNDQzNzg5MTIsNDY0NDk4NTgs
-MjA0NjMzMTk4MCwtMTg2OTA4MTIxNiwtMjkwNzgwNTI4LC0xMD
-EyOTM5NDA1LDEzMzQ5NjM5MDEsLTQ3MzgxODE1MCwtMTg5NTg4
-MDU4NywtMjEwMTk3MDY5MSwxNzgyMDA0NTEyLDIxMTg0NzQyMT
-MsLTEzOTc5MjEyMDUsLTI0MzU4NjgwMCwtMjA1MzcxNTExMCwx
-NzQ5OTgxMDk5XX0=
+eyJoaXN0b3J5IjpbMTYxODU3NTA2NSwtNTA5ODI2ODAyLC0xNz
+QxNzEyNTQsLTk3NDg5MjYxNSwtMjQ0Mzc4OTEyLDQ2NDQ5ODU4
+LDIwNDYzMzE5ODAsLTE4NjkwODEyMTYsLTI5MDc4MDUyOCwtMT
+AxMjkzOTQwNSwxMzM0OTYzOTAxLC00NzM4MTgxNTAsLTE4OTU4
+ODA1ODcsLTIxMDE5NzA2OTEsMTc4MjAwNDUxMiwyMTE4NDc0Mj
+EzLC0xMzk3OTIxMjA1LC0yNDM1ODY4MDAsLTIwNTM3MTUxMTAs
+MTc0OTk4MTA5OV19
 -->
