@@ -64,10 +64,10 @@ fun printDetail(invoice: Invoice, outstanding: Int){
  #### 📌&nbsp;&nbsp;**목적과 구현을 분리**
 - 코드를 보고 무슨 일을 하는지 파악하는 데 한참이 걸린다면 
 	- [x] 함수로 추출
-   '무슨 일'에 걸맞는 이름을 짓는다.
-  😊 함수를 아주 짧게, 단 몇 줄만 담도록 작성하는 습관 
-     💭 함수 호출이 많아져서 성능이 느려질까 걱정하지 말아라
-  😫 5~6줄 이상 냄새 풍김
+	- [x] '무슨 일'에 걸맞는 이름을 짓는다.
+		- [x] 😊 함수를 아주 짧게, 단 몇 줄만 담도록 작성하는 습관 
+		- [x] 💭 함수 호출이 많아져서 성능이 느려질까 걱정하지 말아라
+		- [x] 😫 5~6줄 이상 냄새 풍김
 #### 길이를 기준
  
 
@@ -523,11 +523,11 @@ fun amountOverdue(dateRange: DateRange){...}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNjY1NTYwMywtNjI4NDQ3MDA4LDI2OT
-YyNDI5LC01MDk4MjY4MDIsLTE3NDE3MTI1NCwtOTc0ODkyNjE1
-LC0yNDQzNzg5MTIsNDY0NDk4NTgsMjA0NjMzMTk4MCwtMTg2OT
-A4MTIxNiwtMjkwNzgwNTI4LC0xMDEyOTM5NDA1LDEzMzQ5NjM5
-MDEsLTQ3MzgxODE1MCwtMTg5NTg4MDU4NywtMjEwMTk3MDY5MS
-wxNzgyMDA0NTEyLDIxMTg0NzQyMTMsLTEzOTc5MjEyMDUsLTI0
-MzU4NjgwMF19
+eyJoaXN0b3J5IjpbNjQ5NDMzNDE5LC02Mjg0NDcwMDgsMjY5Nj
+I0MjksLTUwOTgyNjgwMiwtMTc0MTcxMjU0LC05NzQ4OTI2MTUs
+LTI0NDM3ODkxMiw0NjQ0OTg1OCwyMDQ2MzMxOTgwLC0xODY5MD
+gxMjE2LC0yOTA3ODA1MjgsLTEwMTI5Mzk0MDUsMTMzNDk2Mzkw
+MSwtNDczODE4MTUwLC0xODk1ODgwNTg3LC0yMTAxOTcwNjkxLD
+E3ODIwMDQ1MTIsMjExODQ3NDIxMywtMTM5NzkyMTIwNSwtMjQz
+NTg2ODAwXX0=
 -->
