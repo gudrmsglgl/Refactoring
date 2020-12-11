@@ -41,11 +41,10 @@
 	 - [x] 함수 추출하기
 
 
-    * 한 클래스에 딸린 두 메서드가 똑같은 표현식을 사용하는 경우
-    -> 함수 추출하기 
-    
-    * 코드가 비슷하긴 한데 완전히 똑같지 않다면
-    -> 문장 슬라이드하기로 비슷한 부분을 한곳에 모아 함수 추출하기를 더 쉽게 적용할 수 있는지 살펴본다. 
+   
+ * 코드가 비슷하긴 한데 완전히 똑같지 않다면
+	 - [x] 문장 슬라이드하기로 비슷한 부분을 한곳에 모아 
+	 - [x] 함수 추출하기를 더 쉽게 적용할 수 있는지 살펴보기
 
     * 같은 부모로부터 파생된 서브 클래스들에 코드가 중복
     -> 각자 따로 호출되지 않도록 메서드 올리기 적용해 부모로 옮긴다.
@@ -482,7 +481,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5OTQ3OTA0NiwyMDc2ODY1ODQzLDc5Nz
+eyJoaXN0b3J5IjpbLTI0Nzc5MjI4OSwyMDc2ODY1ODQzLDc5Nz
 A3NTcsLTE4OTA5MzAzNDUsLTE4NDkzNTU5OTEsLTQzNTU1ODg5
 NSwtMTU4MTgxNDg5NSw5NTE3NTYyMzgsLTcwNjE2OTQ0MSwyMT
 QyMzI3MjYzLC0yMDEyNjU1NzQ5LDEyNDU2NDYyMDAsMjA3NTIw
