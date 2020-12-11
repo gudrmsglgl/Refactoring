@@ -38,10 +38,9 @@
 
 ### 중복 코드의 예
 - 한 클래스에 딸린 두 메서드가 똑같은 표현식을 사용하는 경우
+	 
 	 - [x] 함수 추출하기
 
-
-   
  * 코드가 비슷하긴 한데 완전히 똑같지 않다면
 	 - [x] 문장 슬라이드하기로 비슷한 부분을 한곳에 모아 
 	 - [x] 함수 추출하기를 더 쉽게 적용할 수 있는지 살펴보기
@@ -481,7 +480,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEzMTkzNTM1LDIwNzY4NjU4NDMsNzk3MD
+eyJoaXN0b3J5IjpbNTc0MDY4MTQ3LDIwNzY4NjU4NDMsNzk3MD
 c1NywtMTg5MDkzMDM0NSwtMTg0OTM1NTk5MSwtNDM1NTU4ODk1
 LC0xNTgxODE0ODk1LDk1MTc1NjIzOCwtNzA2MTY5NDQxLDIxND
 IzMjcyNjMsLTIwMTI2NTU3NDksMTI0NTY0NjIwMCwyMDc1MjA4
