@@ -301,9 +301,12 @@
 
  - **기본형을 객체로 바꾸기**
  - 기본형으로 표현된 코드가 조건부 동작을 제어하는 타입 코드로 쓰였다면
-- [x] **타입 코드를 서브클래스로 바꾸기** 와 **조건부 로직을 다형으로 바꾸기**를 차례로 적용한다.
+	- [x] **타입 코드를 서브클래스로 바꾸기** 
+	- [x] **조건부 로직을 다형으로 바꾸기**를 차례로 적용
+
  - 자주 함께 몰려다니는 기본형 그룹도 데이터 뭉치<br>
- -> **클래스 추출하기**와 **매개변수 객체 만들기**를 이용
+	- [x] **클래스 추출하기**와 **매개변수 객체 만들기**를 이용
+
 <br>
 <div id='id-section12'/>
 
@@ -509,7 +512,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MDAzODg3OSwxOTQ3MzgyOTQ0LDU1ND
+eyJoaXN0b3J5IjpbMjA5NTQ2MjkxOCwxOTQ3MzgyOTQ0LDU1ND
 MxNDM2LDEyMzQyMDM5MiwxNTE5MTU0NzE3LC01Mzc5MzkzODUs
 MjkwMDc3NzgxLDQzODM2OTQyOSwtMTY3ODU0NTQyNyw5NDg4MD
 MyNjksNDA1MDM2NDcyLC0xMDk4NDgyNzE2LDU3NDA2ODE0Nywy
