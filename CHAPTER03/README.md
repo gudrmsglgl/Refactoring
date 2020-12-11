@@ -460,8 +460,10 @@
 
 ## 3.22 데이터 클래스 Data Class
 - 다른 클래스가 너무 깊이까지 함부로 다룰 때가 많다.
-- public 필드가 있다면 **레코드 캡슐화하기**
-- 다른 클래스 메서드 -> 데이터 클래스의 게터나 세터를 사용할 때 <br> 📍 함수 옮기기로 데이터 클래스로 옮길 수 있는지<br> 📍 메서드를 통째로 옮기기 어렵다면 함수 추출하기를 이용해서 부분만 별도 메서드로 뽑아내기 
+- public 필드가 있다면 
+	 - [x] **레코드 캡슐화하기**
+- 다른 클래스 메서드 -> 데이터 클래스의 게터나 세터를 사용할 때 
+	 - [x] 함수 옮기기로 데이터 클래스로 옮길 수 있는지<br> 📍 메서드를 통째로 옮기기 어렵다면 함수 추출하기를 이용해서 부분만 별도 메서드로 뽑아내기 
 - 불변 필드는 굳이 캡슐화할 필요가 없고, 불변 데이터로부터 나오는 정보는 필드 자체를 공개해도 된다. 
 
 <br>
@@ -483,11 +485,11 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTA0ODA5NDEsNTc0MDY4MTQ3LDIwNz
-Y4NjU4NDMsNzk3MDc1NywtMTg5MDkzMDM0NSwtMTg0OTM1NTk5
-MSwtNDM1NTU4ODk1LC0xNTgxODE0ODk1LDk1MTc1NjIzOCwtNz
-A2MTY5NDQxLDIxNDIzMjcyNjMsLTIwMTI2NTU3NDksMTI0NTY0
-NjIwMCwyMDc1MjA4OTI1LDIwMzg2MDY4MjEsLTUxODA1MTkxNS
-wtODMzMDM2NTM0LDk5MjA5MzQxMywtNzAxNDc5MTk4LDg4NDA1
-MjEyOV19
+eyJoaXN0b3J5IjpbMTI2Njk0ODQ1Nyw1NzQwNjgxNDcsMjA3Nj
+g2NTg0Myw3OTcwNzU3LC0xODkwOTMwMzQ1LC0xODQ5MzU1OTkx
+LC00MzU1NTg4OTUsLTE1ODE4MTQ4OTUsOTUxNzU2MjM4LC03MD
+YxNjk0NDEsMjE0MjMyNzI2MywtMjAxMjY1NTc0OSwxMjQ1NjQ2
+MjAwLDIwNzUyMDg5MjUsMjAzODYwNjgyMSwtNTE4MDUxOTE1LC
+04MzMwMzY1MzQsOTkyMDkzNDEzLC03MDE0NzkxOTgsODg0MDUy
+MTI5XX0=
 -->
