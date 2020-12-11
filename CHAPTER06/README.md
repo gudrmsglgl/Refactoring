@@ -319,7 +319,7 @@ fun circumference(radius: Float){...}
 <br>
 
 ### **ex) 매개변수 추가하기**<br>
-**요구사항: 예약 시 우선순위 큐를 지원하는 새로운 요구**
+##### **요구사항: 예약 시 우선순위 큐를 지원하는 새로운 요구**
 
 ```kotlin
 // Book 클래스..
@@ -521,7 +521,7 @@ fun amountOverdue(dateRange: DateRange){...}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NDQ1MDY3LDE0NTc2NDQ3MjIsLTQ5ND
+eyJoaXN0b3J5IjpbNTEwMjU1MzEwLDE0NTc2NDQ3MjIsLTQ5ND
 cyNTczNiwxMzc0Njc3ODAyLC02Mjg0NDcwMDgsMjY5NjI0Mjks
 LTUwOTgyNjgwMiwtMTc0MTcxMjU0LC05NzQ4OTI2MTUsLTI0ND
 M3ODkxMiw0NjQ0OTg1OCwyMDQ2MzMxOTgwLC0xODY5MDgxMjE2
