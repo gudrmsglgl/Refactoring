@@ -17,7 +17,8 @@
     - 바꿀 대상이 변수일 때 
     - 변수 캡슐화하기와 관련 깊다.
 - **매개변수 객체 만들기**
-    - 자주 함께 뭉쳐 다니는 인수 -> 객체 하나로 묶기
+    - 자주 함께 뭉쳐 다니는 인수 
+	    - [x] **객체 하나로 묶기**
 
 ### 고수준 리팩터링
 - 함수를 만들고 나면 
@@ -518,7 +519,7 @@ fun amountOverdue(dateRange: DateRange){...}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4ODQ1Mjg3NSwtNjI4NDQ3MDA4LDI2OT
+eyJoaXN0b3J5IjpbLTIzMjA5NTMwOSwtNjI4NDQ3MDA4LDI2OT
 YyNDI5LC01MDk4MjY4MDIsLTE3NDE3MTI1NCwtOTc0ODkyNjE1
 LC0yNDQzNzg5MTIsNDY0NDk4NTgsMjA0NjMzMTk4MCwtMTg2OT
 A4MTIxNiwtMjkwNzgwNTI4LC0xMDEyOTM5NDA1LDEzMzQ5NjM5
