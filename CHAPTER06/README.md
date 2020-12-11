@@ -499,9 +499,9 @@ val area = height * width
 <br>
 
 ### 📍 &nbsp;&nbsp;절차
-① 폭넓게 쓰이는 변수라면 변수 캡슐화하기를 고려<br>
-② 이름을 바꿀 변수를 참조하는 곳을 모두 찾아서, 하나씩 변경<br>
-③ 테스트한다.
+&emsp;⓵ 폭넓게 쓰이는 변수라면 변수 캡슐화하기를 고려<br>
+&emsp;⓶ 이름을 바꿀 변수를 참조하는 곳을 모두 찾아서, 하나씩 변경<br>
+&emsp;⓷ 테스트한다.
 
 ### **ex) 함수 밖에서 참조할 수 있는 변수 (읽기, 쓰기)**<br>
 👉 &nbsp;&nbsp;[캡슐화로 처리](#id-section6-ex1)
@@ -555,11 +555,11 @@ fun amountOverdue(dateRange: DateRange){...}
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTg0NjA3MTYsLTQxNjUwODU2NSwtMj
-c4ODk5MDkzLDExMTQ1MjE3MTMsLTQyNzc5NjIzOSwtODE5NzEw
-MzgsLTgwMjA1MTA0MSwtMjEwMDcwNTkyNSwxNTA0NTQ0MDg3LD
-UxMDYyNjEwMiw1NTY2ODAzMTQsLTE4ODI2NDc4MzYsLTIwMTQw
-NTg0ODMsMjAzNzA1ODc0Nyw1NTE0NTgyNDIsMTQ1NzY0NDcyMi
-wtNDk0NzI1NzM2LDEzNzQ2Nzc4MDIsLTYyODQ0NzAwOCwyNjk2
-MjQyOV19
+eyJoaXN0b3J5IjpbMTQ2MzcyMDg3OSwtMTY5ODQ2MDcxNiwtND
+E2NTA4NTY1LC0yNzg4OTkwOTMsMTExNDUyMTcxMywtNDI3Nzk2
+MjM5LC04MTk3MTAzOCwtODAyMDUxMDQxLC0yMTAwNzA1OTI1LD
+E1MDQ1NDQwODcsNTEwNjI2MTAyLDU1NjY4MDMxNCwtMTg4MjY0
+NzgzNiwtMjAxNDA1ODQ4MywyMDM3MDU4NzQ3LDU1MTQ1ODI0Mi
+wxNDU3NjQ0NzIyLC00OTQ3MjU3MzYsMTM3NDY3NzgwMiwtNjI4
+NDQ3MDA4XX0=
 -->
