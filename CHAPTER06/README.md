@@ -536,6 +536,9 @@ fun amountOverdue(dateRange: DateRange){...}
 <br>
 
 ### 📍 &nbsp;&nbsp;절차
+
+<div style="font-size:x-large">❶</div>
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❶   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ➊
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❶
@@ -547,11 +550,11 @@ fun amountOverdue(dateRange: DateRange){...}
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❶
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUxMTEyNjk3LDUxMDYyNjEwMiw1NTY2OD
-AzMTQsLTE4ODI2NDc4MzYsLTIwMTQwNTg0ODMsMjAzNzA1ODc0
-Nyw1NTE0NTgyNDIsMTQ1NzY0NDcyMiwtNDk0NzI1NzM2LDEzNz
-Q2Nzc4MDIsLTYyODQ0NzAwOCwyNjk2MjQyOSwtNTA5ODI2ODAy
-LC0xNzQxNzEyNTQsLTk3NDg5MjYxNSwtMjQ0Mzc4OTEyLDQ2ND
-Q5ODU4LDIwNDYzMzE5ODAsLTE4NjkwODEyMTYsLTI5MDc4MDUy
-OF19
+eyJoaXN0b3J5IjpbMTUwNDU0NDA4Nyw1MTA2MjYxMDIsNTU2Nj
+gwMzE0LC0xODgyNjQ3ODM2LC0yMDE0MDU4NDgzLDIwMzcwNTg3
+NDcsNTUxNDU4MjQyLDE0NTc2NDQ3MjIsLTQ5NDcyNTczNiwxMz
+c0Njc3ODAyLC02Mjg0NDcwMDgsMjY5NjI0MjksLTUwOTgyNjgw
+MiwtMTc0MTcxMjU0LC05NzQ4OTI2MTUsLTI0NDM3ODkxMiw0Nj
+Q0OTg1OCwyMDQ2MzMxOTgwLC0xODY5MDgxMjE2LC0yOTA3ODA1
+MjhdfQ==
 -->
