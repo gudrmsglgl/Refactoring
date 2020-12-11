@@ -437,6 +437,11 @@ setDefaultOwner("레베카 파슨스")
 ``` 
 
 **4. 모든 참조를 수정했다면 변수의 가시 범위를 제한한다.**
+```kotlin
+private var defaultOwner = "마틴 파울러"  // 👈 가시 범위 제한
+fun getDefaultOwner() = this.defaultOwner
+fun setDefaultOwner(arg: String){this.defaultOwner = arg}
+``` 
 
 
 ```kotlin
@@ -449,11 +454,11 @@ var defaultOwner: String
 ``` 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMzk4MTI3OSwtMjQ0Mzc4OTEyLDQ2ND
-Q5ODU4LDIwNDYzMzE5ODAsLTE4NjkwODEyMTYsLTI5MDc4MDUy
-OCwtMTAxMjkzOTQwNSwxMzM0OTYzOTAxLC00NzM4MTgxNTAsLT
-E4OTU4ODA1ODcsLTIxMDE5NzA2OTEsMTc4MjAwNDUxMiwyMTE4
-NDc0MjEzLC0xMzk3OTIxMjA1LC0yNDM1ODY4MDAsLTIwNTM3MT
-UxMTAsMTc0OTk4MTA5OSwxMzY4ODczMjQ5LC03NzM0MTc0NDIs
-MTkyODgxMTM4MF19
+eyJoaXN0b3J5IjpbLTEzODY1MjU3MTEsLTI0NDM3ODkxMiw0Nj
+Q0OTg1OCwyMDQ2MzMxOTgwLC0xODY5MDgxMjE2LC0yOTA3ODA1
+MjgsLTEwMTI5Mzk0MDUsMTMzNDk2MzkwMSwtNDczODE4MTUwLC
+0xODk1ODgwNTg3LC0yMTAxOTcwNjkxLDE3ODIwMDQ1MTIsMjEx
+ODQ3NDIxMywtMTM5NzkyMTIwNSwtMjQzNTg2ODAwLC0yMDUzNz
+E1MTEwLDE3NDk5ODEwOTksMTM2ODg3MzI0OSwtNzczNDE3NDQy
+LDE5Mjg4MTEzODBdfQ==
 -->
