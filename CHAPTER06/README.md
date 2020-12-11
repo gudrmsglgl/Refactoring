@@ -532,8 +532,12 @@ fun amountOverdue(dateRange: DateRange){...}
 - 데이터 구조에 담길 데이터에 공통으로 적용되는 동작 추출
 	- [x] 공용함수를 나열
 	- [x] 이 함수들과 데이터를 합쳐 클래스로 만듬
+<br>
+
+### 📍 &nbsp;&nbsp;절차
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MDg0NTA4OSwtMTg4MjY0NzgzNiwtMj
+eyJoaXN0b3J5IjpbLTYxMjA4MjQ4MCwtMTg4MjY0NzgzNiwtMj
 AxNDA1ODQ4MywyMDM3MDU4NzQ3LDU1MTQ1ODI0MiwxNDU3NjQ0
 NzIyLC00OTQ3MjU3MzYsMTM3NDY3NzgwMiwtNjI4NDQ3MDA4LD
 I2OTYyNDI5LC01MDk4MjY4MDIsLTE3NDE3MTI1NCwtOTc0ODky
