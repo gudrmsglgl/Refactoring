@@ -20,8 +20,10 @@
     - 자주 함께 뭉쳐 다니는 인수 -> 객체 하나로 묶기
 
 ### 고수준 리팩터링
-- 함수를 만들고 나면 다시 고수준 모듈로 묶어야 한다.
-- 함수를 그룹으로 묶을 때는 **여러 함수를 클래스로 묶기**를 이용
+- 함수를 만들고 나면 
+	- [x] 다시 고수준 모듈로 묶어야 한다.
+- 함수를 그룹으로 묶을 때
+- [x] **여러 함수를 클래스로 묶기**를 이용
 - 읽기 전용 데이터
     - 여러 함수를 변환 함수로 묶기 
 - 단계 쪼개기
@@ -516,11 +518,11 @@ fun amountOverdue(dateRange: DateRange){...}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyODQ0NzAwOCwyNjk2MjQyOSwtNTA5OD
-I2ODAyLC0xNzQxNzEyNTQsLTk3NDg5MjYxNSwtMjQ0Mzc4OTEy
-LDQ2NDQ5ODU4LDIwNDYzMzE5ODAsLTE4NjkwODEyMTYsLTI5MD
-c4MDUyOCwtMTAxMjkzOTQwNSwxMzM0OTYzOTAxLC00NzM4MTgx
-NTAsLTE4OTU4ODA1ODcsLTIxMDE5NzA2OTEsMTc4MjAwNDUxMi
-wyMTE4NDc0MjEzLC0xMzk3OTIxMjA1LC0yNDM1ODY4MDAsLTIw
-NTM3MTUxMTBdfQ==
+eyJoaXN0b3J5IjpbLTczMjg5NTU4MCwtNjI4NDQ3MDA4LDI2OT
+YyNDI5LC01MDk4MjY4MDIsLTE3NDE3MTI1NCwtOTc0ODkyNjE1
+LC0yNDQzNzg5MTIsNDY0NDk4NTgsMjA0NjMzMTk4MCwtMTg2OT
+A4MTIxNiwtMjkwNzgwNTI4LC0xMDEyOTM5NDA1LDEzMzQ5NjM5
+MDEsLTQ3MzgxODE1MCwtMTg5NTg4MDU4NywtMjEwMTk3MDY5MS
+wxNzgyMDA0NTEyLDIxMTg0NzQyMTMsLTEzOTc5MjEyMDUsLTI0
+MzU4NjgwMF19
 -->
