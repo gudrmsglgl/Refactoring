@@ -437,14 +437,17 @@ var defaultOwner: String
    }
    get() = this._defaultOwner
 ```
-**🔻 3. 그런 다음 defaultOwner를 참조하는 코드를 찾아서 방금 만든 게터 함수를 호출하도록 고친다.**
+**3. 그런 다음 defaultOwner를 참조하는 코드를 찾아서 방금 만든 게터 함수를 호출하도록 고친다.**
+**4. 모든 참조를 수정했다면 변수의 가시 범위를 제한한다.**
+
+🔻 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NjMzMTk4MCwtMTg2OTA4MTIxNiwtMj
-kwNzgwNTI4LC0xMDEyOTM5NDA1LDEzMzQ5NjM5MDEsLTQ3Mzgx
-ODE1MCwtMTg5NTg4MDU4NywtMjEwMTk3MDY5MSwxNzgyMDA0NT
-EyLDIxMTg0NzQyMTMsLTEzOTc5MjEyMDUsLTI0MzU4NjgwMCwt
-MjA1MzcxNTExMCwxNzQ5OTgxMDk5LDEzNjg4NzMyNDksLTc3Mz
-QxNzQ0MiwxOTI4ODExMzgwLDE3MTM3MTk0NTksLTExMTYyNjg1
-NjgsMjI1MTkxMjY1XX0=
+eyJoaXN0b3J5IjpbLTE0NzA0Njk2MzUsMjA0NjMzMTk4MCwtMT
+g2OTA4MTIxNiwtMjkwNzgwNTI4LC0xMDEyOTM5NDA1LDEzMzQ5
+NjM5MDEsLTQ3MzgxODE1MCwtMTg5NTg4MDU4NywtMjEwMTk3MD
+Y5MSwxNzgyMDA0NTEyLDIxMTg0NzQyMTMsLTEzOTc5MjEyMDUs
+LTI0MzU4NjgwMCwtMjA1MzcxNTExMCwxNzQ5OTgxMDk5LDEzNj
+g4NzMyNDksLTc3MzQxNzQ0MiwxOTI4ODExMzgwLDE3MTM3MTk0
+NTksLTExMTYyNjg1NjhdfQ==
 -->
