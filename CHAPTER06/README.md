@@ -164,6 +164,7 @@ return basePrice - quantityDiscount + shipping
 	- 이럴 때 지역 변수 활용 
 	- 코드의 목적 훨씬 명확하게 드러낼 수 있음
 	- 디버깅에도 도움이 됨. (중단점 지정, 상태 출력 문장 추가 가능)
+
 - 변수 추출은 곧 이름을 붙이고 싶다.
 	- 이름이 들어갈 문맥을 살피자.
 	- 현재 함수 안에서만 의미가 있다면 변수로 추출
@@ -518,11 +519,11 @@ fun amountOverdue(dateRange: DateRange){...}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NDY3NzgwMiwtNjI4NDQ3MDA4LDI2OT
-YyNDI5LC01MDk4MjY4MDIsLTE3NDE3MTI1NCwtOTc0ODkyNjE1
-LC0yNDQzNzg5MTIsNDY0NDk4NTgsMjA0NjMzMTk4MCwtMTg2OT
-A4MTIxNiwtMjkwNzgwNTI4LC0xMDEyOTM5NDA1LDEzMzQ5NjM5
-MDEsLTQ3MzgxODE1MCwtMTg5NTg4MDU4NywtMjEwMTk3MDY5MS
-wxNzgyMDA0NTEyLDIxMTg0NzQyMTMsLTEzOTc5MjEyMDUsLTI0
-MzU4NjgwMF19
+eyJoaXN0b3J5IjpbLTQ5NDcyNTczNiwxMzc0Njc3ODAyLC02Mj
+g0NDcwMDgsMjY5NjI0MjksLTUwOTgyNjgwMiwtMTc0MTcxMjU0
+LC05NzQ4OTI2MTUsLTI0NDM3ODkxMiw0NjQ0OTg1OCwyMDQ2Mz
+MxOTgwLC0xODY5MDgxMjE2LC0yOTA3ODA1MjgsLTEwMTI5Mzk0
+MDUsMTMzNDk2MzkwMSwtNDczODE4MTUwLC0xODk1ODgwNTg3LC
+0yMTAxOTcwNjkxLDE3ODIwMDQ1MTIsMjExODQ3NDIxMywtMTM5
+NzkyMTIwNV19
 -->
