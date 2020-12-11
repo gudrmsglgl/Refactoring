@@ -61,7 +61,7 @@ fun printDetail(invoice: Invoice, outstanding: Int){
 <br>
 
 ### 🔎 &nbsp;&nbsp;코드를 독립된 함수로 묶어야 할 때
- &nbsp;&nbsp;&nbsp;&nbsp;📌&nbsp;&nbsp;**목적과 구현을 분리**
+ #### 📌&nbsp;&nbsp;**목적과 구현을 분리**
 ```
   * 코드를 보고 무슨 일을 하는지 파악하는 데 한참이 걸린다면 함수로 추출
    '무슨 일'에 걸맞는 이름을 짓는다.
@@ -69,9 +69,9 @@ fun printDetail(invoice: Invoice, outstanding: Int){
      💭 함수 호출이 많아져서 성능이 느려질까 걱정하지 말아라
   😫 5~6줄 이상 냄새 풍김
 ```
-- 길이를 기준
- : 한 화면을 넘어가면 안 된다
-- 재사용성 기준
+#### 길이를 기준
+ - 한 화면을 넘어가면 안 된다
+#### 재사용성 기준
 : 두 번 이상 사용될 코드는 함수로 만들고, 한 번만 쓰이는 코드는 인라인 상태로 놔두는 것.
 <br>
 
@@ -519,7 +519,7 @@ fun amountOverdue(dateRange: DateRange){...}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMjA5NTMwOSwtNjI4NDQ3MDA4LDI2OT
+eyJoaXN0b3J5IjpbLTc2ODc0MjkwNCwtNjI4NDQ3MDA4LDI2OT
 YyNDI5LC01MDk4MjY4MDIsLTE3NDE3MTI1NCwtOTc0ODkyNjE1
 LC0yNDQzNzg5MTIsNDY0NDk4NTgsMjA0NjMzMTk4MCwtMTg2OT
 A4MTIxNiwtMjkwNzgwNTI4LC0xMDEyOTM5NDA1LDEzMzQ5NjM5
