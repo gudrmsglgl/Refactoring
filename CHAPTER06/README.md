@@ -509,16 +509,18 @@ fun amountOverdue(startDate: String, endDate: String){...}
 **🔻 매개변수 객체 만들기**
 
 ```kotlin
-fun amountInvoiced(dateRange: ){...}
-fun amountReceived(startDate: String, endDate: String){...}
-fun amountOverdue(startDate: String, endDate: String){...}
+fun amountInvoiced(dateRange: DateRange){...}
+fun amountReceived(dateRange: DateRange){...}
+fun amountOverdue(dateRange: DateRange){...}
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODU1OTE5OTcsMjY5NjI0MjksLTUwOT
-gyNjgwMiwtMTc0MTcxMjU0LC05NzQ4OTI2MTUsLTI0NDM3ODkx
-Miw0NjQ0OTg1OCwyMDQ2MzMxOTgwLC0xODY5MDgxMjE2LC0yOT
-A3ODA1MjgsLTEwMTI5Mzk0MDUsMTMzNDk2MzkwMSwtNDczODE4
-MTUwLC0xODk1ODgwNTg3LC0yMTAxOTcwNjkxLDE3ODIwMDQ1MT
-IsMjExODQ3NDIxMywtMTM5NzkyMTIwNSwtMjQzNTg2ODAwLC0y
-MDUzNzE1MTEwXX0=
+eyJoaXN0b3J5IjpbLTYyODQ0NzAwOCwyNjk2MjQyOSwtNTA5OD
+I2ODAyLC0xNzQxNzEyNTQsLTk3NDg5MjYxNSwtMjQ0Mzc4OTEy
+LDQ2NDQ5ODU4LDIwNDYzMzE5ODAsLTE4NjkwODEyMTYsLTI5MD
+c4MDUyOCwtMTAxMjkzOTQwNSwxMzM0OTYzOTAxLC00NzM4MTgx
+NTAsLTE4OTU4ODA1ODcsLTIxMDE5NzA2OTEsMTc4MjAwNDUxMi
+wyMTE4NDc0MjEzLC0xMzk3OTIxMjA1LC0yNDM1ODY4MDAsLTIw
+NTM3MTUxMTBdfQ==
 -->
