@@ -541,7 +541,8 @@ fun amountOverdue(dateRange: DateRange){...}
 
 
 &emsp;&emsp;⓵ 적당한 데이터 구조가 아직 마련되어 있지 않다면 새로 만든다.</br>
-&emsp;&emsp; `ㅇㄹ ㅁㄴㅇㄹ `
+&emsp;&emsp; `-> 개인적으로 클래스로 만드는걸 선호. 나중에 동작까지 묶기 좋기 때문.`
+'저자는 주로 데이터 구조를 값 객체 Value Object 로 만든다.
 &emsp;&emsp;⓶</br>  
 &emsp;&emsp;⓷</br>  
 &emsp;&emsp;⓸</br>  
@@ -552,7 +553,7 @@ fun amountOverdue(dateRange: DateRange){...}
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NjMwMzU1LC0yNzg4OTkwOTMsMTExND
+eyJoaXN0b3J5IjpbNDI1MDI2NDIwLC0yNzg4OTkwOTMsMTExND
 UyMTcxMywtNDI3Nzk2MjM5LC04MTk3MTAzOCwtODAyMDUxMDQx
 LC0yMTAwNzA1OTI1LDE1MDQ1NDQwODcsNTEwNjI2MTAyLDU1Nj
 Y4MDMxNCwtMTg4MjY0NzgzNiwtMjAxNDA1ODQ4MywyMDM3MDU4
