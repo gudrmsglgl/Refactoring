@@ -166,9 +166,35 @@
 * 하나의 변수에 용도가 다른 값들을 저장하느라 값을 갱신하는 경우
 -> 독립 변수에 저장하게 하여 값 갱신이 문제를 일으킬 여지를 없앤다.	
 ```
+   - [x] 문장 슬라이드하기 와 함수 추출하기
+```
+* ```
+무언가를 갱신하는 코드로부터 부작용이 없는 코드를 분리
+```
+```
+   - [x] 변수 쪼개기
+```
+* 하나의 변수에 용도가 다른 값들을 저장하느라 값을 갱신하는 경우
+-> 독립 변수에 저장하게 하여 값 갱신이 문제를 일으킬 여지를 없앤다.	
+```
+   - [x] 변수 쪼개기
+```
+* 하나의 변수에 용도가 다른 값들을 저장하느라 값을 갱신하는 경우
+-> 독립 변수에 저장하게 하여 값 갱신이 문제를 일으킬 여지를 없앤다.	
+```
+   - [x] 변수 쪼개기
+```
+* 하나의 변수에 용도가 다른 값들을 저장하느라 값을 갱신하는 경우
+-> 독립 변수에 저장하게 하여 값 갱신이 문제를 일으킬 여지를 없앤다.	
+```
+   - [x] 변수 쪼개기
+```
+* 하나의 변수에 용도가 다른 값들을 저장하느라 값을 갱신하는 경우
+-> 독립 변수에 저장하게 하여 값 갱신이 문제를 일으킬 여지를 없앤다.	
+```
 	  
     
-    💡 문장 슬라이드하기 와 함수 추출하기
+    💡 
       - 무언가를 갱신하는 코드로부터 부작용이 없는 코드를 분리
     
     💡 질의 함수와 변경 함수 분리하기
@@ -521,11 +547,11 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTkzMjk2MDAsMTU0MzM3NjA5NiwxOT
-Q3MzgyOTQ0LDU1NDMxNDM2LDEyMzQyMDM5MiwxNTE5MTU0NzE3
-LC01Mzc5MzkzODUsMjkwMDc3NzgxLDQzODM2OTQyOSwtMTY3OD
-U0NTQyNyw5NDg4MDMyNjksNDA1MDM2NDcyLC0xMDk4NDgyNzE2
-LDU3NDA2ODE0NywyMDc2ODY1ODQzLDc5NzA3NTcsLTE4OTA5Mz
-AzNDUsLTE4NDkzNTU5OTEsLTQzNTU1ODg5NSwtMTU4MTgxNDg5
-NV19
+eyJoaXN0b3J5IjpbMjMxNTI5NzU0LDE1NDMzNzYwOTYsMTk0Nz
+M4Mjk0NCw1NTQzMTQzNiwxMjM0MjAzOTIsMTUxOTE1NDcxNywt
+NTM3OTM5Mzg1LDI5MDA3Nzc4MSw0MzgzNjk0MjksLTE2Nzg1ND
+U0MjcsOTQ4ODAzMjY5LDQwNTAzNjQ3MiwtMTA5ODQ4MjcxNiw1
+NzQwNjgxNDcsMjA3Njg2NTg0Myw3OTcwNzU3LC0xODkwOTMwMz
+Q1LC0xODQ5MzU1OTkxLC00MzU1NTg4OTUsLTE1ODE4MTQ4OTVd
+fQ==
 -->
