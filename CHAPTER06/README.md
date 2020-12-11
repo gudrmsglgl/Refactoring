@@ -418,6 +418,7 @@ val newEnglanders = someCustomers.filter{c -> inNewEngland(c.address.state)}
 ⑤ 테스트한다. <br>
 ⑥ 변수 값이 레코드라면 레코드 캡슐화하기를 적용할지 고려.<br>
 
+<br>
 
 ### **ex) 전역 변수에 중요한 데이터가 담겨 있는 경우**<br>
 
@@ -519,11 +520,11 @@ fun amountOverdue(dateRange: DateRange){...}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NzY0NDcyMiwtNDk0NzI1NzM2LDEzNz
-Q2Nzc4MDIsLTYyODQ0NzAwOCwyNjk2MjQyOSwtNTA5ODI2ODAy
-LC0xNzQxNzEyNTQsLTk3NDg5MjYxNSwtMjQ0Mzc4OTEyLDQ2ND
-Q5ODU4LDIwNDYzMzE5ODAsLTE4NjkwODEyMTYsLTI5MDc4MDUy
-OCwtMTAxMjkzOTQwNSwxMzM0OTYzOTAxLC00NzM4MTgxNTAsLT
-E4OTU4ODA1ODcsLTIxMDE5NzA2OTEsMTc4MjAwNDUxMiwyMTE4
-NDc0MjEzXX0=
+eyJoaXN0b3J5IjpbMTUwMjkyMDIyLDE0NTc2NDQ3MjIsLTQ5ND
+cyNTczNiwxMzc0Njc3ODAyLC02Mjg0NDcwMDgsMjY5NjI0Mjks
+LTUwOTgyNjgwMiwtMTc0MTcxMjU0LC05NzQ4OTI2MTUsLTI0ND
+M3ODkxMiw0NjQ0OTg1OCwyMDQ2MzMxOTgwLC0xODY5MDgxMjE2
+LC0yOTA3ODA1MjgsLTEwMTI5Mzk0MDUsMTMzNDk2MzkwMSwtND
+czODE4MTUwLC0xODk1ODgwNTg3LC0yMTAxOTcwNjkxLDE3ODIw
+MDQ1MTJdfQ==
 -->
