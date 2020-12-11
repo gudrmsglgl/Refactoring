@@ -428,7 +428,7 @@ defaultOwner = "레베카 파손스"
 **1. 기본적인 캡슐화를 위해 가장 먼저 데이터를 읽고 쓰는 함수 정의**
 **3. 그런 다음 defaultOwner를 참조하는 코드를 찾아서 방금 만든 게터 함수를 호출하도록 고친다.**
 **4. 모든 참조를 수정했다면 변수의 가시 범위를 제한한다.**
-🔻
+
 
 ```kotlin
 private var _defaultOwner = "마틴 파울러"
@@ -441,11 +441,11 @@ var defaultOwner: String
 ``` 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY0NDk4NTgsMjA0NjMzMTk4MCwtMTg2OT
-A4MTIxNiwtMjkwNzgwNTI4LC0xMDEyOTM5NDA1LDEzMzQ5NjM5
-MDEsLTQ3MzgxODE1MCwtMTg5NTg4MDU4NywtMjEwMTk3MDY5MS
-wxNzgyMDA0NTEyLDIxMTg0NzQyMTMsLTEzOTc5MjEyMDUsLTI0
-MzU4NjgwMCwtMjA1MzcxNTExMCwxNzQ5OTgxMDk5LDEzNjg4Nz
-MyNDksLTc3MzQxNzQ0MiwxOTI4ODExMzgwLDE3MTM3MTk0NTks
-LTExMTYyNjg1NjhdfQ==
+eyJoaXN0b3J5IjpbLTI0NDM3ODkxMiw0NjQ0OTg1OCwyMDQ2Mz
+MxOTgwLC0xODY5MDgxMjE2LC0yOTA3ODA1MjgsLTEwMTI5Mzk0
+MDUsMTMzNDk2MzkwMSwtNDczODE4MTUwLC0xODk1ODgwNTg3LC
+0yMTAxOTcwNjkxLDE3ODIwMDQ1MTIsMjExODQ3NDIxMywtMTM5
+NzkyMTIwNSwtMjQzNTg2ODAwLC0yMDUzNzE1MTEwLDE3NDk5OD
+EwOTksMTM2ODg3MzI0OSwtNzczNDE3NDQyLDE5Mjg4MTEzODAs
+MTcxMzcxOTQ1OV19
 -->
