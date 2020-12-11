@@ -479,13 +479,15 @@ val area = height * width
 - 명확한 프로그래밍의 핵심 이름짓기.
 - 변수는 프로그래머가 하려는 일에 관해 많은 것을 설명해준다. ( 단, 이름을 잘 지었을 때 )
 - 한 줄짜리 람다식(laumbda expression)에서 사용하는 변수는 대체로 쉽게 파악 -> 한 글자로 된 이름
-- 
+- 간단한 함수의 매개변수 이름도 짧게 지어도 될 때가 많다.
+- 동적 타입 언어라면 이름 앞에 타입을 드러내는 스타일도 좋다. 
+- 함수 호출 한 번으로 끝나지 않고 값이 영속되는 필드라면 이름에 더 신경 써야 한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjI2Nzg5MzksLTUwOTgyNjgwMiwtMT
-c0MTcxMjU0LC05NzQ4OTI2MTUsLTI0NDM3ODkxMiw0NjQ0OTg1
-OCwyMDQ2MzMxOTgwLC0xODY5MDgxMjE2LC0yOTA3ODA1MjgsLT
-EwMTI5Mzk0MDUsMTMzNDk2MzkwMSwtNDczODE4MTUwLC0xODk1
-ODgwNTg3LC0yMTAxOTcwNjkxLDE3ODIwMDQ1MTIsMjExODQ3ND
-IxMywtMTM5NzkyMTIwNSwtMjQzNTg2ODAwLC0yMDUzNzE1MTEw
-LDE3NDk5ODEwOTldfQ==
+eyJoaXN0b3J5IjpbODQ4NjU3NjA3LC01MDk4MjY4MDIsLTE3ND
+E3MTI1NCwtOTc0ODkyNjE1LC0yNDQzNzg5MTIsNDY0NDk4NTgs
+MjA0NjMzMTk4MCwtMTg2OTA4MTIxNiwtMjkwNzgwNTI4LC0xMD
+EyOTM5NDA1LDEzMzQ5NjM5MDEsLTQ3MzgxODE1MCwtMTg5NTg4
+MDU4NywtMjEwMTk3MDY5MSwxNzgyMDA0NTEyLDIxMTg0NzQyMT
+MsLTEzOTc5MjEyMDUsLTI0MzU4NjgwMCwtMjA1MzcxNTExMCwx
+NzQ5OTgxMDk5XX0=
 -->
