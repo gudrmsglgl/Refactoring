@@ -432,11 +432,17 @@
 ### 거대한 클래스 리팩토링 
 
 #### **💊&nbsp;&nbsp;클래스 추출하기** 
-&nbsp; - [x] 필드를 일부를 따로 묶는다.
-- [x] 같은 컴포넌트에 모아두는 것이 합당해 보이는 필드들을 선택.
-- [x] 한 클래스 안에서 접두어나 접미어가 같은 필드들이 함께 추출할 후보.
 
-- 분리한 컴포넌트를 원래 클래스와 상속 관계가 좋다면 (클래스 추출하기보다는)
+ - [ ] 
+ - [ ] 
+ - [ ] 
+ - List item
+
+ - [x] 필드를 일부를 따로 묶는다.
+ - [x] 같은 컴포넌트에 모아두는 것이 합당해 보이는 필드들을 선택.
+ - [x] 한 클래스 안에서 접두어나 접미어가 같은 필드들이 함께 추출할 후보.
+
+ - 분리한 컴포넌트를 원래 클래스와 상속 관계가 좋다면 (클래스 추출하기보다는)
 	- [x] 슈퍼클래스 추출하기나 (실질적으로 서브클래스 추출하기에 해당하는) 
 	- [x] 타입 코드를 서브클래스로 바꾸기로 적용하는 편이 더 쉽다.
 
@@ -491,11 +497,11 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc5MTEzMzI3LDE1MTkxNTQ3MTcsLTUzNz
-kzOTM4NSwyOTAwNzc3ODEsNDM4MzY5NDI5LC0xNjc4NTQ1NDI3
-LDk0ODgwMzI2OSw0MDUwMzY0NzIsLTEwOTg0ODI3MTYsNTc0MD
-Y4MTQ3LDIwNzY4NjU4NDMsNzk3MDc1NywtMTg5MDkzMDM0NSwt
-MTg0OTM1NTk5MSwtNDM1NTU4ODk1LC0xNTgxODE0ODk1LDk1MT
-c1NjIzOCwtNzA2MTY5NDQxLDIxNDIzMjcyNjMsLTIwMTI2NTU3
-NDldfQ==
+eyJoaXN0b3J5IjpbLTc4NzQzNjM3NCwxNTE5MTU0NzE3LC01Mz
+c5MzkzODUsMjkwMDc3NzgxLDQzODM2OTQyOSwtMTY3ODU0NTQy
+Nyw5NDg4MDMyNjksNDA1MDM2NDcyLC0xMDk4NDgyNzE2LDU3ND
+A2ODE0NywyMDc2ODY1ODQzLDc5NzA3NTcsLTE4OTA5MzAzNDUs
+LTE4NDkzNTU5OTEsLTQzNTU1ODg5NSwtMTU4MTgxNDg5NSw5NT
+E3NTYyMzgsLTcwNjE2OTQ0MSwyMTQyMzI3MjYzLC0yMDEyNjU1
+NzQ5XX0=
 -->
