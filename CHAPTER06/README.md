@@ -538,20 +538,19 @@ fun amountOverdue(dateRange: DateRange){...}
 
 ### 📍 &nbsp;&nbsp;절차
 
-⓵⓶⓷⓸⓹⓺⓻
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❶   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ⓵
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❶
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❸
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❹
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❺
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❶
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❶
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❶
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⓵</br>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⓶</br>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⓷</br>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⓸</br>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⓹</br>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⓺</br>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⓻</br>  
+
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMTE0MDE2MiwtODE5NzEwMzgsLTgwMj
+eyJoaXN0b3J5IjpbLTQyNzc5NjIzOSwtODE5NzEwMzgsLTgwMj
 A1MTA0MSwtMjEwMDcwNTkyNSwxNTA0NTQ0MDg3LDUxMDYyNjEw
 Miw1NTY2ODAzMTQsLTE4ODI2NDc4MzYsLTIwMTQwNTg0ODMsMj
 AzNzA1ODc0Nyw1NTE0NTgyNDIsMTQ1NzY0NDcyMiwtNDk0NzI1
