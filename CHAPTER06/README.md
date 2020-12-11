@@ -425,29 +425,27 @@ spaceship.owner = defaultOwner
 // 갱신하는 코드 역시 있을 것...
 defaultOwner = "레베카 파손스"
 ```
-**🔻 1. 기본적인 캡슐화를 위해 가장 먼저 데이터를 읽고 쓰는 함수 정의**
+**1. 기본적인 캡슐화를 위해 가장 먼저 데이터를 읽고 쓰는 함수 정의**
+**3. 그런 다음 defaultOwner를 참조하는 코드를 찾아서 방금 만든 게터 함수를 호출하도록 고친다.**
+**4. 모든 참조를 수정했다면 변수의 가시 범위를 제한한다.**
+🔻
+
 ```kotlin
-// 클래스 내부에서 사용
 private var _defaultOwner = "마틴 파울러"
 
-// 외부에서 참조 getter&setter
 var defaultOwner: String
    set(value){
       this._defaultOwner = value
    }
    get() = this._defaultOwner
-```
-**3. 그런 다음 defaultOwner를 참조하는 코드를 찾아서 방금 만든 게터 함수를 호출하도록 고친다.**
-**4. 모든 참조를 수정했다면 변수의 가시 범위를 제한한다.**
-
-🔻 
+``` 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzA0Njk2MzUsMjA0NjMzMTk4MCwtMT
-g2OTA4MTIxNiwtMjkwNzgwNTI4LC0xMDEyOTM5NDA1LDEzMzQ5
-NjM5MDEsLTQ3MzgxODE1MCwtMTg5NTg4MDU4NywtMjEwMTk3MD
-Y5MSwxNzgyMDA0NTEyLDIxMTg0NzQyMTMsLTEzOTc5MjEyMDUs
-LTI0MzU4NjgwMCwtMjA1MzcxNTExMCwxNzQ5OTgxMDk5LDEzNj
-g4NzMyNDksLTc3MzQxNzQ0MiwxOTI4ODExMzgwLDE3MTM3MTk0
-NTksLTExMTYyNjg1NjhdfQ==
+eyJoaXN0b3J5IjpbNDY0NDk4NTgsMjA0NjMzMTk4MCwtMTg2OT
+A4MTIxNiwtMjkwNzgwNTI4LC0xMDEyOTM5NDA1LDEzMzQ5NjM5
+MDEsLTQ3MzgxODE1MCwtMTg5NTg4MDU4NywtMjEwMTk3MDY5MS
+wxNzgyMDA0NTEyLDIxMTg0NzQyMTMsLTEzOTc5MjEyMDUsLTI0
+MzU4NjgwMCwtMjA1MzcxNTExMCwxNzQ5OTgxMDk5LDEzNjg4Nz
+MyNDksLTc3MzQxNzQ0MiwxOTI4ODExMzgwLDE3MTM3MTk0NTks
+LTExMTYyNjg1NjhdfQ==
 -->
