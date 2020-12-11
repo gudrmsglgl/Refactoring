@@ -427,15 +427,18 @@ defaultOwner = "레베카 파손스"
 ```
 **🔻 1. 기본적인 캡슐화를 위해 가장 먼저 데이터를 읽고 쓰는 함수 정의**
 ```kotlin
-var defaultOwner = "마틴 파울러"
+private var _defaultOwner = "마틴 파울러"
+
+var defaultOwner: String
+	set(value){
 	
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjkwODEyMTYsLTI5MDc4MDUyOCwtMT
-AxMjkzOTQwNSwxMzM0OTYzOTAxLC00NzM4MTgxNTAsLTE4OTU4
-ODA1ODcsLTIxMDE5NzA2OTEsMTc4MjAwNDUxMiwyMTE4NDc0Mj
-EzLC0xMzk3OTIxMjA1LC0yNDM1ODY4MDAsLTIwNTM3MTUxMTAs
-MTc0OTk4MTA5OSwxMzY4ODczMjQ5LC03NzM0MTc0NDIsMTkyOD
-gxMTM4MCwxNzEzNzE5NDU5LC0xMTE2MjY4NTY4LDIyNTE5MTI2
-NSwxMDE5ODc4NDg0XX0=
+eyJoaXN0b3J5IjpbLTQzMDM5MTA3LC0xODY5MDgxMjE2LC0yOT
+A3ODA1MjgsLTEwMTI5Mzk0MDUsMTMzNDk2MzkwMSwtNDczODE4
+MTUwLC0xODk1ODgwNTg3LC0yMTAxOTcwNjkxLDE3ODIwMDQ1MT
+IsMjExODQ3NDIxMywtMTM5NzkyMTIwNSwtMjQzNTg2ODAwLC0y
+MDUzNzE1MTEwLDE3NDk5ODEwOTksMTM2ODg3MzI0OSwtNzczND
+E3NDQyLDE5Mjg4MTEzODAsMTcxMzcxOTQ1OSwtMTExNjI2ODU2
+OCwyMjUxOTEyNjVdfQ==
 -->
