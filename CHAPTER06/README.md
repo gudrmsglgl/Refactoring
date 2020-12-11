@@ -437,8 +437,9 @@ fun setDefaultOwner(arg: String){this.defaultOwner = arg}
 spaceship.owner = getDefaultOwner()
 setDefaultOwner("레베카 파슨스")
 ``` 
+<div id='id-section6-ex1'/>
 
-**4. 모든 참조를 수정했다면 변수의 가시 범위를 제한한다.**
+**4. 모든 참조를 수정했다면 변수의 가시 범위를 제한한다.** 
 ```kotlin
 private var defaultOwner = "마틴 파울러"  // 👈 가시 범위 제한
 fun getDefaultOwner() = this.defaultOwner
@@ -490,10 +491,10 @@ val area = height * width
 ③ 테스트한다.
 
 ### **ex) 함수 밖에서 참조할 수 있는 변수 (읽기, 쓰기)**<br>
-👉 
+👉 [캡슐화로 ]
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDA5ODEwNCwtNTA5ODI2ODAyLC0xNz
+eyJoaXN0b3J5IjpbLTgyMjQ3MjYwNSwtNTA5ODI2ODAyLC0xNz
 QxNzEyNTQsLTk3NDg5MjYxNSwtMjQ0Mzc4OTEyLDQ2NDQ5ODU4
 LDIwNDYzMzE5ODAsLTE4NjkwODEyMTYsLTI5MDc4MDUyOCwtMT
 AxMjkzOTQwNSwxMzM0OTYzOTAxLC00NzM4MTgxNTAsLTE4OTU4
