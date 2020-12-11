@@ -538,8 +538,8 @@ fun amountOverdue(dateRange: DateRange){...}
 
 ### 📍 &nbsp;&nbsp;절차
 
-<font color='red' size='40'>&#10102; </font><font color='black' size='12'>이렇게 
-</font>
+<font color='black' size='6'>&#10102; 이렇게 </font>
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❶   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ➊
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❶
@@ -551,7 +551,7 @@ fun amountOverdue(dateRange: DateRange){...}
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❶
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMzkyMTg4NSwtODAyMDUxMDQxLC0yMT
+eyJoaXN0b3J5IjpbLTUxMDI2NDMxNCwtODAyMDUxMDQxLC0yMT
 AwNzA1OTI1LDE1MDQ1NDQwODcsNTEwNjI2MTAyLDU1NjY4MDMx
 NCwtMTg4MjY0NzgzNiwtMjAxNDA1ODQ4MywyMDM3MDU4NzQ3LD
 U1MTQ1ODI0MiwxNDU3NjQ0NzIyLC00OTQ3MjU3MzYsMTM3NDY3
