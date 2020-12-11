@@ -437,14 +437,14 @@ var defaultOwner: String
    }
    get() = this._defaultOwner
 ```
-**🔻 3. 그런 다음 defaultOwner를 참조하는 코드를 찾아서 **
+**🔻 3. 그런 다음 defaultOwner를 참조하는 코드를 찾아서 방금 만든 게터 함수를 호출하도록 고친다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mjg3MzgwNzQsLTE4NjkwODEyMTYsLT
-I5MDc4MDUyOCwtMTAxMjkzOTQwNSwxMzM0OTYzOTAxLC00NzM4
-MTgxNTAsLTE4OTU4ODA1ODcsLTIxMDE5NzA2OTEsMTc4MjAwND
-UxMiwyMTE4NDc0MjEzLC0xMzk3OTIxMjA1LC0yNDM1ODY4MDAs
-LTIwNTM3MTUxMTAsMTc0OTk4MTA5OSwxMzY4ODczMjQ5LC03Nz
-M0MTc0NDIsMTkyODgxMTM4MCwxNzEzNzE5NDU5LC0xMTE2MjY4
-NTY4LDIyNTE5MTI2NV19
+eyJoaXN0b3J5IjpbMjA0NjMzMTk4MCwtMTg2OTA4MTIxNiwtMj
+kwNzgwNTI4LC0xMDEyOTM5NDA1LDEzMzQ5NjM5MDEsLTQ3Mzgx
+ODE1MCwtMTg5NTg4MDU4NywtMjEwMTk3MDY5MSwxNzgyMDA0NT
+EyLDIxMTg0NzQyMTMsLTEzOTc5MjEyMDUsLTI0MzU4NjgwMCwt
+MjA1MzcxNTExMCwxNzQ5OTgxMDk5LDEzNjg4NzMyNDksLTc3Mz
+QxNzQ0MiwxOTI4ODExMzgwLDE3MTM3MTk0NTksLTExMTYyNjg1
+NjgsMjI1MTkxMjY1XX0=
 -->
