@@ -157,14 +157,14 @@
 
    - [x] 변수 캡슐화하기
 ```
-정해놓은 함수를 거쳐야만 값을 수정할 수 있도록 캡슐화하면 
+* 정해놓은 함수를 거쳐야만 값을 수정할 수 있도록 캡슐화하면 
 -> 값이 어떻게 수정되는지 감시하거나 코드를 개선하기 쉽다. 
 ```
 	
    - [x] 변수 쪼개기
 ```
-- 하나의 변수에 용도가 다른 값들을 저장하느라 값을 갱신하는 경우
-- 독립 변수에 저장하게 하여 값 갱신이 문제를 일으킬 여지를 없앤다.	
+* 하나의 변수에 용도가 다른 값들을 저장하느라 값을 갱신하는 경우
+-> 독립 변수에 저장하게 하여 값 갱신이 문제를 일으킬 여지를 없앤다.	
 ```
 	  
     
@@ -521,11 +521,11 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4Njc0Nzg2MywxNTQzMzc2MDk2LDE5ND
-czODI5NDQsNTU0MzE0MzYsMTIzNDIwMzkyLDE1MTkxNTQ3MTcs
-LTUzNzkzOTM4NSwyOTAwNzc3ODEsNDM4MzY5NDI5LC0xNjc4NT
-Q1NDI3LDk0ODgwMzI2OSw0MDUwMzY0NzIsLTEwOTg0ODI3MTYs
-NTc0MDY4MTQ3LDIwNzY4NjU4NDMsNzk3MDc1NywtMTg5MDkzMD
-M0NSwtMTg0OTM1NTk5MSwtNDM1NTU4ODk1LC0xNTgxODE0ODk1
-XX0=
+eyJoaXN0b3J5IjpbLTE0OTkzMjk2MDAsMTU0MzM3NjA5NiwxOT
+Q3MzgyOTQ0LDU1NDMxNDM2LDEyMzQyMDM5MiwxNTE5MTU0NzE3
+LC01Mzc5MzkzODUsMjkwMDc3NzgxLDQzODM2OTQyOSwtMTY3OD
+U0NTQyNyw5NDg4MDMyNjksNDA1MDM2NDcyLC0xMDk4NDgyNzE2
+LDU3NDA2ODE0NywyMDc2ODY1ODQzLDc5NzA3NTcsLTE4OTA5Mz
+AzNDUsLTE4NDkzNTU5OTEsLTQzNTU1ODg5NSwtMTU4MTgxNDg5
+NV19
 -->
