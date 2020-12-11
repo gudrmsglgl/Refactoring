@@ -315,6 +315,7 @@ fun circumference(radius: Float){...}
 ⑤ 기존 함수를 인라인한다. <br>
 ⑥ 이름을 임시로 붙여뒀다면 함수 선언 바꾸기를 한 번 더 적용해서 원래 이름으로 되돌린다.<br>
 ⑦ 테스트한다.
+
 <br>
 
 ### **ex) 매개변수 추가하기**<br>
@@ -355,7 +356,7 @@ fun zz_addReservation(customer: Customer, isPriority: Boolean){
 <br>
 
 ### **ex) 매개변수를 속성으로 바꾸기**<br>
-**요구사항: 고객이 뉴잉글랜드에 살고 있는지 확인하는 함수**
+##### **요구사항: 고객이 뉴잉글랜드에 살고 있는지 확인하는 함수**
 
 ```kotlin
 fun inNewEngland(customer: Customer): Boolean{
@@ -520,7 +521,7 @@ fun amountOverdue(dateRange: DateRange){...}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMjkyMDIyLDE0NTc2NDQ3MjIsLTQ5ND
+eyJoaXN0b3J5IjpbMTQ3NDQ1MDY3LDE0NTc2NDQ3MjIsLTQ5ND
 cyNTczNiwxMzc0Njc3ODAyLC02Mjg0NDcwMDgsMjY5NjI0Mjks
 LTUwOTgyNjgwMiwtMTc0MTcxMjU0LC05NzQ4OTI2MTUsLTI0ND
 M3ODkxMiw0NjQ0OTg1OCwyMDQ2MzMxOTgwLC0xODY5MDgxMjE2
