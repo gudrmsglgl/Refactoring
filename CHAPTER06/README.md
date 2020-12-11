@@ -433,19 +433,19 @@ defaultOwner = "레베카 파손스"
 ```kotlin
 private var _defaultOwner = "마틴 파울러"  or   private var defaultOwner = "마틴 파울러"
 
-var defaultOwner: String					 fun getDefaultOwner() = this.defaultOwner
-   set(value){								 fun setDefaultOwner(arg: String){this.defaultOwner = arg}	
+var defaultOwner: String			fun getDefaultOwner() = this.defaultOwner
+   set(value){						fun setDefaultOwner(arg: String){this.defaultOwner = arg}	
       this._defaultOwner = value
    }
    get() = this._defaultOwner
 ``` 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTA1OTM5MjEsLTI0NDM3ODkxMiw0Nj
-Q0OTg1OCwyMDQ2MzMxOTgwLC0xODY5MDgxMjE2LC0yOTA3ODA1
-MjgsLTEwMTI5Mzk0MDUsMTMzNDk2MzkwMSwtNDczODE4MTUwLC
-0xODk1ODgwNTg3LC0yMTAxOTcwNjkxLDE3ODIwMDQ1MTIsMjEx
-ODQ3NDIxMywtMTM5NzkyMTIwNSwtMjQzNTg2ODAwLC0yMDUzNz
-E1MTEwLDE3NDk5ODEwOTksMTM2ODg3MzI0OSwtNzczNDE3NDQy
-LDE5Mjg4MTEzODBdfQ==
+eyJoaXN0b3J5IjpbLTIxNDczNTE0OSwtMjQ0Mzc4OTEyLDQ2ND
+Q5ODU4LDIwNDYzMzE5ODAsLTE4NjkwODEyMTYsLTI5MDc4MDUy
+OCwtMTAxMjkzOTQwNSwxMzM0OTYzOTAxLC00NzM4MTgxNTAsLT
+E4OTU4ODA1ODcsLTIxMDE5NzA2OTEsMTc4MjAwNDUxMiwyMTE4
+NDc0MjEzLC0xMzk3OTIxMjA1LC0yNDM1ODY4MDAsLTIwNTM3MT
+UxMTAsMTc0OTk4MTA5OSwxMzY4ODczMjQ5LC03NzM0MTc0NDIs
+MTkyODgxMTM4MF19
 -->
