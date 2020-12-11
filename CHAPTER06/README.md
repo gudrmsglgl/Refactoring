@@ -172,6 +172,10 @@ return basePrice - quantityDiscount + shipping
 		- ~~변수가 아닌 (주로)~~ **💫 함수로 추출**해야 한다.
 		- 이름이 통용되는 문맥을 넓히면 다른 코드에서 사용할 수 있기 때문에 같은 표현식을 중복해서 작성하지 않아도 됨
 		- 중복이 적으면서 의도가 잘 드러나는 코드를 작성 
+<br>
+
+### **ex) 변수 추출 시 함수를 벗어난 넓은 문맥에서 함수로 추출**<br>
+
 ```kotlin
 class Order{
 	val data
@@ -521,7 +525,7 @@ fun amountOverdue(dateRange: DateRange){...}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEwMjU1MzEwLDE0NTc2NDQ3MjIsLTQ5ND
+eyJoaXN0b3J5IjpbNTUxNDU4MjQyLDE0NTc2NDQ3MjIsLTQ5ND
 cyNTczNiwxMzc0Njc3ODAyLC02Mjg0NDcwMDgsMjY5NjI0Mjks
 LTUwOTgyNjgwMiwtMTc0MTcxMjU0LC05NzQ4OTI2MTUsLTI0ND
 M3ODkxMiw0NjQ0OTg1OCwyMDQ2MzMxOTgwLC0xODY5MDgxMjE2
