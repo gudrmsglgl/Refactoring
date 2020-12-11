@@ -283,15 +283,16 @@ fun circumference(radius: Float){...}
 
 ### 💫 &nbsp;&nbsp;중요한 것
 - 함수 이름
-
-> 💡 좋은 이름을 떠올리는데 효과적인 방법<br>
->  :  주석을 이용해 함수의 목적을 설명해보는 것. 그러다 보면 주석이 멋진 이름으로 바뀌어 되돌아올 때가 있다.
-
 ```
 * 이름이 좋으면 함수의 구현 코드를 살펴볼 필요 없이 호출물만 보고 무슨 일을 하는지 파악 가능
 * 잘못된 함수를 발견하면 더 나은 이름이 떠오르는 즉시 바꾸자.
 * 나중에 그 코드를 다시 볼 때 무슨 일을 하는지 '또' 고민하지 않게 됨.
 ```
+> 💡 좋은 이름을 떠올리는데 효과적인 방법<br>
+>  :  주석을 이용해 함수의 목적을 설명해보는 것. 그러다 보면 주석이 멋진 이름으로 바뀌어 되돌아올 때가 있다.
+
+<br>
+
 - 매개변수 
 ```
 * 함수가 외부 세계와 어우러지는 방식을 정의
@@ -527,11 +528,11 @@ fun amountOverdue(dateRange: DateRange){...}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxODYwNzM5NCw1NTE0NTgyNDIsMTQ1Nz
-Y0NDcyMiwtNDk0NzI1NzM2LDEzNzQ2Nzc4MDIsLTYyODQ0NzAw
-OCwyNjk2MjQyOSwtNTA5ODI2ODAyLC0xNzQxNzEyNTQsLTk3ND
-g5MjYxNSwtMjQ0Mzc4OTEyLDQ2NDQ5ODU4LDIwNDYzMzE5ODAs
-LTE4NjkwODEyMTYsLTI5MDc4MDUyOCwtMTAxMjkzOTQwNSwxMz
-M0OTYzOTAxLC00NzM4MTgxNTAsLTE4OTU4ODA1ODcsLTIxMDE5
-NzA2OTFdfQ==
+eyJoaXN0b3J5IjpbMzcwNjIyMjYyLDU1MTQ1ODI0MiwxNDU3Nj
+Q0NzIyLC00OTQ3MjU3MzYsMTM3NDY3NzgwMiwtNjI4NDQ3MDA4
+LDI2OTYyNDI5LC01MDk4MjY4MDIsLTE3NDE3MTI1NCwtOTc0OD
+kyNjE1LC0yNDQzNzg5MTIsNDY0NDk4NTgsMjA0NjMzMTk4MCwt
+MTg2OTA4MTIxNiwtMjkwNzgwNTI4LC0xMDEyOTM5NDA1LDEzMz
+Q5NjM5MDEsLTQ3MzgxODE1MCwtMTg5NTg4MDU4NywtMjEwMTk3
+MDY5MV19
 -->
