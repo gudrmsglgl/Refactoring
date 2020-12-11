@@ -61,7 +61,7 @@ fun printDetail(invoice: Invoice, outstanding: Int){
 <br>
 
 ### 🔎 &nbsp;&nbsp;코드를 독립된 함수로 묶어야 할 때
- #### 📌&nbsp;&nbsp;**목적과 구현을 분리**
+ #### ⭐&nbsp;&nbsp;**목적과 구현을 분리**
 - 코드를 보고 무슨 일을 하는지 파악하는 데 한참이 걸린다면 
 	- [x] 함수로 추출
 	- [x] '무슨 일'에 걸맞는 이름을 짓는다.
@@ -523,11 +523,11 @@ fun amountOverdue(dateRange: DateRange){...}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ5NDMzNDE5LC02Mjg0NDcwMDgsMjY5Nj
-I0MjksLTUwOTgyNjgwMiwtMTc0MTcxMjU0LC05NzQ4OTI2MTUs
-LTI0NDM3ODkxMiw0NjQ0OTg1OCwyMDQ2MzMxOTgwLC0xODY5MD
-gxMjE2LC0yOTA3ODA1MjgsLTEwMTI5Mzk0MDUsMTMzNDk2Mzkw
-MSwtNDczODE4MTUwLC0xODk1ODgwNTg3LC0yMTAxOTcwNjkxLD
-E3ODIwMDQ1MTIsMjExODQ3NDIxMywtMTM5NzkyMTIwNSwtMjQz
-NTg2ODAwXX0=
+eyJoaXN0b3J5IjpbLTkwMDc3NzM1MCwtNjI4NDQ3MDA4LDI2OT
+YyNDI5LC01MDk4MjY4MDIsLTE3NDE3MTI1NCwtOTc0ODkyNjE1
+LC0yNDQzNzg5MTIsNDY0NDk4NTgsMjA0NjMzMTk4MCwtMTg2OT
+A4MTIxNiwtMjkwNzgwNTI4LC0xMDEyOTM5NDA1LDEzMzQ5NjM5
+MDEsLTQ3MzgxODE1MCwtMTg5NTg4MDU4NywtMjEwMTk3MDY5MS
+wxNzgyMDA0NTEyLDIxMTg0NzQyMTMsLTEzOTc5MjEyMDUsLTI0
+MzU4NjgwMF19
 -->
