@@ -462,7 +462,6 @@
 - 다른 클래스가 너무 깊이까지 함부로 다룰 때가 많다.
 - public 필드가 있다면
 	- [x] **레코드 캡슐화하기**
-
 - 다른 클래스 메서드 -> 데이터 클래스의 게터나 세터를 사용할 때 
 	 - [x] 함수 옮기기로 **데이터 클래스로 옮길 수 있는지**
 	 - [x] 메서드를 통째로 옮기기 어렵다면 **함수 추출하기를 이용해서 부분만 별도 메서드**로 뽑아내기 
@@ -488,7 +487,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5ODAxMzI0MCwtMTA5ODQ4MjcxNiw1Nz
+eyJoaXN0b3J5IjpbLTM0MzI5MzYyMiwtMTA5ODQ4MjcxNiw1Nz
 QwNjgxNDcsMjA3Njg2NTg0Myw3OTcwNzU3LC0xODkwOTMwMzQ1
 LC0xODQ5MzU1OTkxLC00MzU1NTg4OTUsLTE1ODE4MTQ4OTUsOT
 UxNzU2MjM4LC03MDYxNjk0NDEsMjE0MjMyNzI2MywtMjAxMjY1
