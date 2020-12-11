@@ -417,15 +417,15 @@ val newEnglanders = someCustomers.filter{c -> inNewEngland(c.address.state)}
 ### **ex) 전역 변수에 중요한 데이터가 담겨 있는 경우**<br>
 
 ```kotlin
-val defaultOwner = mapOf(firstName to "마틴", lastName to)
+val defaultOwner = mapOf(firstName to "마틴", lastName to "파울러")
 ```
 **🔻 함수 추출**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk1MTU3MzYwLC0xMDEyOTM5NDA1LDEzMz
-Q5NjM5MDEsLTQ3MzgxODE1MCwtMTg5NTg4MDU4NywtMjEwMTk3
-MDY5MSwxNzgyMDA0NTEyLDIxMTg0NzQyMTMsLTEzOTc5MjEyMD
-UsLTI0MzU4NjgwMCwtMjA1MzcxNTExMCwxNzQ5OTgxMDk5LDEz
-Njg4NzMyNDksLTc3MzQxNzQ0MiwxOTI4ODExMzgwLDE3MTM3MT
-k0NTksLTExMTYyNjg1NjgsMjI1MTkxMjY1LDEwMTk4Nzg0ODQs
-LTI0MDA0NzAyXX0=
+eyJoaXN0b3J5IjpbLTI5MDc4MDUyOCwtMTAxMjkzOTQwNSwxMz
+M0OTYzOTAxLC00NzM4MTgxNTAsLTE4OTU4ODA1ODcsLTIxMDE5
+NzA2OTEsMTc4MjAwNDUxMiwyMTE4NDc0MjEzLC0xMzk3OTIxMj
+A1LC0yNDM1ODY4MDAsLTIwNTM3MTUxMTAsMTc0OTk4MTA5OSwx
+MzY4ODczMjQ5LC03NzM0MTc0NDIsMTkyODgxMTM4MCwxNzEzNz
+E5NDU5LC0xMTE2MjY4NTY4LDIyNTE5MTI2NSwxMDE5ODc4NDg0
+LC0yNDAwNDcwMl19
 -->
