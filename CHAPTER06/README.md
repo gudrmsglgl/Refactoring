@@ -538,7 +538,9 @@ fun amountOverdue(dateRange: DateRange){...}
 
 ### 📍 &nbsp;&nbsp;절차
 
-&#10102; 이렇게{: style="color: red; opacity: 0.80;" }
+&#10102; 이렇게
+{: .blue}
+
 
 <strong style="color: red; opacity: 0.90;">My Bold Text, in red color.</strong>
 
@@ -554,11 +556,11 @@ fun amountOverdue(dateRange: DateRange){...}
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❶
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMDYyNDk5NSwtODAyMDUxMDQxLC0yMT
-AwNzA1OTI1LDE1MDQ1NDQwODcsNTEwNjI2MTAyLDU1NjY4MDMx
-NCwtMTg4MjY0NzgzNiwtMjAxNDA1ODQ4MywyMDM3MDU4NzQ3LD
-U1MTQ1ODI0MiwxNDU3NjQ0NzIyLC00OTQ3MjU3MzYsMTM3NDY3
-NzgwMiwtNjI4NDQ3MDA4LDI2OTYyNDI5LC01MDk4MjY4MDIsLT
-E3NDE3MTI1NCwtOTc0ODkyNjE1LC0yNDQzNzg5MTIsNDY0NDk4
-NThdfQ==
+eyJoaXN0b3J5IjpbLTgxOTcxMDM4LC04MDIwNTEwNDEsLTIxMD
+A3MDU5MjUsMTUwNDU0NDA4Nyw1MTA2MjYxMDIsNTU2NjgwMzE0
+LC0xODgyNjQ3ODM2LC0yMDE0MDU4NDgzLDIwMzcwNTg3NDcsNT
+UxNDU4MjQyLDE0NTc2NDQ3MjIsLTQ5NDcyNTczNiwxMzc0Njc3
+ODAyLC02Mjg0NDcwMDgsMjY5NjI0MjksLTUwOTgyNjgwMiwtMT
+c0MTcxMjU0LC05NzQ4OTI2MTUsLTI0NDM3ODkxMiw0NjQ0OTg1
+OF19
 -->
