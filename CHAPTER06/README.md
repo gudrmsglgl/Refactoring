@@ -449,7 +449,7 @@ setDefaultOwner("레베카 파슨스")
 
 <div id='id-section6-ex1'/>
 
-**4. 모든 참조를 수정했다면 변수의 가시 범위를 제한한다.** 
+**4. 모든 참조를 수정했다면 변수의 가시 범위를 제한한다.** <br>
 **🙆‍♀️ 1. Function set & get (캡슐화)**
 
 ```kotlin
@@ -523,13 +523,14 @@ fun amountReceived(dateRange: DateRange){...}
 fun amountOverdue(dateRange: DateRange){...}
 ```
 
+매개변수 객체 만들 때 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTQwNTg0ODMsMjAzNzA1ODc0Nyw1NT
-E0NTgyNDIsMTQ1NzY0NDcyMiwtNDk0NzI1NzM2LDEzNzQ2Nzc4
-MDIsLTYyODQ0NzAwOCwyNjk2MjQyOSwtNTA5ODI2ODAyLC0xNz
-QxNzEyNTQsLTk3NDg5MjYxNSwtMjQ0Mzc4OTEyLDQ2NDQ5ODU4
-LDIwNDYzMzE5ODAsLTE4NjkwODEyMTYsLTI5MDc4MDUyOCwtMT
-AxMjkzOTQwNSwxMzM0OTYzOTAxLC00NzM4MTgxNTAsLTE4OTU4
-ODA1ODddfQ==
+eyJoaXN0b3J5IjpbLTE4ODI2NDc4MzYsLTIwMTQwNTg0ODMsMj
+AzNzA1ODc0Nyw1NTE0NTgyNDIsMTQ1NzY0NDcyMiwtNDk0NzI1
+NzM2LDEzNzQ2Nzc4MDIsLTYyODQ0NzAwOCwyNjk2MjQyOSwtNT
+A5ODI2ODAyLC0xNzQxNzEyNTQsLTk3NDg5MjYxNSwtMjQ0Mzc4
+OTEyLDQ2NDQ5ODU4LDIwNDYzMzE5ODAsLTE4NjkwODEyMTYsLT
+I5MDc4MDUyOCwtMTAxMjkzOTQwNSwxMzM0OTYzOTAxLC00NzM4
+MTgxNTBdfQ==
 -->
