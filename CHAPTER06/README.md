@@ -522,6 +522,7 @@ fun amountInvoiced(dateRange: DateRange){...}
 fun amountReceived(dateRange: DateRange){...}
 fun amountOverdue(dateRange: DateRange){...}
 ```
+<br>
 
 ### 🔎 &nbsp;&nbsp;매개변수 객체 만들 때 
 - 데이터 항목 여러 개가 이 함수에서 저 함수로 함께 몰려다니는 경우
@@ -537,7 +538,7 @@ fun amountOverdue(dateRange: DateRange){...}
 ### 📍 &nbsp;&nbsp;절차
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❶   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ➊
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❷
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❶
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❸
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❹
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❺
@@ -546,11 +547,11 @@ fun amountOverdue(dateRange: DateRange){...}
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❶
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEwNjI2MTAyLDU1NjY4MDMxNCwtMTg4Mj
-Y0NzgzNiwtMjAxNDA1ODQ4MywyMDM3MDU4NzQ3LDU1MTQ1ODI0
-MiwxNDU3NjQ0NzIyLC00OTQ3MjU3MzYsMTM3NDY3NzgwMiwtNj
-I4NDQ3MDA4LDI2OTYyNDI5LC01MDk4MjY4MDIsLTE3NDE3MTI1
-NCwtOTc0ODkyNjE1LC0yNDQzNzg5MTIsNDY0NDk4NTgsMjA0Nj
-MzMTk4MCwtMTg2OTA4MTIxNiwtMjkwNzgwNTI4LC0xMDEyOTM5
-NDA1XX0=
+eyJoaXN0b3J5IjpbMzUxMTEyNjk3LDUxMDYyNjEwMiw1NTY2OD
+AzMTQsLTE4ODI2NDc4MzYsLTIwMTQwNTg0ODMsMjAzNzA1ODc0
+Nyw1NTE0NTgyNDIsMTQ1NzY0NDcyMiwtNDk0NzI1NzM2LDEzNz
+Q2Nzc4MDIsLTYyODQ0NzAwOCwyNjk2MjQyOSwtNTA5ODI2ODAy
+LC0xNzQxNzEyNTQsLTk3NDg5MjYxNSwtMjQ0Mzc4OTEyLDQ2ND
+Q5ODU4LDIwNDYzMzE5ODAsLTE4NjkwODEyMTYsLTI5MDc4MDUy
+OF19
 -->
