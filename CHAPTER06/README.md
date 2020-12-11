@@ -537,7 +537,8 @@ fun amountOverdue(dateRange: DateRange){...}
 
 ### 📍 &nbsp;&nbsp;절차
 
-<div style="font-size:x-small">&#10102;</div>
+<div style="font-size:x-large">&#10102;</div>
+&#10102;
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❶   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ➊
@@ -550,7 +551,7 @@ fun amountOverdue(dateRange: DateRange){...}
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❶
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2OTEwODE0MywxNTA0NTQ0MDg3LDUxMD
+eyJoaXN0b3J5IjpbMjAxNjc2MTU4MywxNTA0NTQ0MDg3LDUxMD
 YyNjEwMiw1NTY2ODAzMTQsLTE4ODI2NDc4MzYsLTIwMTQwNTg0
 ODMsMjAzNzA1ODc0Nyw1NTE0NTgyNDIsMTQ1NzY0NDcyMiwtND
 k0NzI1NzM2LDEzNzQ2Nzc4MDIsLTYyODQ0NzAwOCwyNjk2MjQy
