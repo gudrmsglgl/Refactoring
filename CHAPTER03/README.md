@@ -409,11 +409,15 @@
 > 그 양을 최소로 줄이고 모두 투명하게 처리해야 한다.
 
 - 은밀히 데이터를 주고받는 모듈들이 있을 때 
-	- [x] **함수 옮기기**와 **필드 옮기기**로 떼어놓아서 사적으로 처리하는 부분을 줄인다.
+	- [x] **함수 옮기기**와 **필드 옮기기**로 떼어놓아서 
+	- [x] 사적으로 처리하는 부분을 줄인다.
 
-- 여러 모듈이 같은 관심사를 공유 <br>-> 공통 부분을 정식으로 처리하는 제3의 모듈을 새로 만들거나<br> or -> 위임 숨기기를 이용하여 다른 모듈이 중간자 역할을 하게 만든다.
+- 여러 모듈이 같은 관심사를 공유 
+	 - [x] 공통 부분을 정식으로 처리하는 **제3의 모듈을 새로 만들거**나
+	 - [x] **위임 숨기기**를 이용하여 **다른 모듈이 중간자 역할**을 하게 만든다.
 
-- 상속 구조에서 자식 클래스가 부모 품을 떠나야 할 때 <br> -> **서브클래스를 위임으로 바꾸기**나 **슈퍼클래스를 위임으로 바꾸기**를 활용
+- 상속 구조에서 자식 클래스가 부모 품을 떠나야 할 때 
+	- [x]**서브클래스를 위임으로 바꾸기**나 **슈퍼클래스를 위임으로 바꾸기**를 활용
 
 <br>
 <div id='id-section20'/>
@@ -487,11 +491,11 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNjYwMzE0MCw0MDUwMzY0NzIsLTEwOT
-g0ODI3MTYsNTc0MDY4MTQ3LDIwNzY4NjU4NDMsNzk3MDc1Nywt
-MTg5MDkzMDM0NSwtMTg0OTM1NTk5MSwtNDM1NTU4ODk1LC0xNT
-gxODE0ODk1LDk1MTc1NjIzOCwtNzA2MTY5NDQxLDIxNDIzMjcy
-NjMsLTIwMTI2NTU3NDksMTI0NTY0NjIwMCwyMDc1MjA4OTI1LD
-IwMzg2MDY4MjEsLTUxODA1MTkxNSwtODMzMDM2NTM0LDk5MjA5
-MzQxM119
+eyJoaXN0b3J5IjpbLTE1MzU2MjAwMzgsNDA1MDM2NDcyLC0xMD
+k4NDgyNzE2LDU3NDA2ODE0NywyMDc2ODY1ODQzLDc5NzA3NTcs
+LTE4OTA5MzAzNDUsLTE4NDkzNTU5OTEsLTQzNTU1ODg5NSwtMT
+U4MTgxNDg5NSw5NTE3NTYyMzgsLTcwNjE2OTQ0MSwyMTQyMzI3
+MjYzLC0yMDEyNjU1NzQ5LDEyNDU2NDYyMDAsMjA3NTIwODkyNS
+wyMDM4NjA2ODIxLC01MTgwNTE5MTUsLTgzMzAzNjUzNCw5OTIw
+OTM0MTNdfQ==
 -->
