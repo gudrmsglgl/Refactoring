@@ -625,14 +625,14 @@ val alerts = readingsOutsideRange(
 ) 
 
 ```
-&emsp;⓺ 이제 기존 매개변수를 사용하는 부분을 변경. ~~max: Int~~ 
+&emsp;⓺ 이제 기존 매개변수를 사용하는 부분을 변경. 
 
 ```kotlin
 fun readingsOutsideRange(
    station: Station, 
    min: Int, 
-   max: Int,
-   range: NumberRange  // 👈 매개변수 추가 
+   //max: Int,           // 👈 기존 매개변수 제거 
+   range: NumberRange  
 ) = station.readings
      .filter{r -> r.temp < min || r.temp > max}
 
@@ -653,11 +653,11 @@ val alerts = readingsOutsideRange(
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDQ1OTIzNzYsLTk3NjA0NjE1NSw2ND
-U4NDgxNzAsMTQ2MzcyMDg3OSwtMTY5ODQ2MDcxNiwtNDE2NTA4
-NTY1LC0yNzg4OTkwOTMsMTExNDUyMTcxMywtNDI3Nzk2MjM5LC
-04MTk3MTAzOCwtODAyMDUxMDQxLC0yMTAwNzA1OTI1LDE1MDQ1
-NDQwODcsNTEwNjI2MTAyLDU1NjY4MDMxNCwtMTg4MjY0NzgzNi
-wtMjAxNDA1ODQ4MywyMDM3MDU4NzQ3LDU1MTQ1ODI0MiwxNDU3
-NjQ0NzIyXX0=
+eyJoaXN0b3J5IjpbMTIyMjk1Nzc5NSwtOTc2MDQ2MTU1LDY0NT
+g0ODE3MCwxNDYzNzIwODc5LC0xNjk4NDYwNzE2LC00MTY1MDg1
+NjUsLTI3ODg5OTA5MywxMTE0NTIxNzEzLC00Mjc3OTYyMzksLT
+gxOTcxMDM4LC04MDIwNTEwNDEsLTIxMDA3MDU5MjUsMTUwNDU0
+NDA4Nyw1MTA2MjYxMDIsNTU2NjgwMzE0LC0xODgyNjQ3ODM2LC
+0yMDE0MDU4NDgzLDIwMzcwNTg3NDcsNTUxNDU4MjQyLDE0NTc2
+NDQ3MjJdfQ==
 -->
