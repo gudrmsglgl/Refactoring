@@ -656,6 +656,7 @@ val alerts = readingsOutsideRange(
 #### **매개변수 객체 만들기 끝**<br>
 ### **진정한 값 객체로 거듭나기**<br>
 - [x] 클래스로 만들어두면 관련 동작들을 이 클래스로 옮길 수 있다는 이점이 있음
+- [x] 코드에 범위 개념이 필요함을 깨달았다면 범위 객체로 바꾸자.
 ```kotlin
 data class NumberRange(val min: Int, val max: Int){
    
@@ -671,11 +672,11 @@ fun readingsOutsideRange(
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTM4MTQxMzUsLTk3NjA0NjE1NSw2ND
-U4NDgxNzAsMTQ2MzcyMDg3OSwtMTY5ODQ2MDcxNiwtNDE2NTA4
-NTY1LC0yNzg4OTkwOTMsMTExNDUyMTcxMywtNDI3Nzk2MjM5LC
-04MTk3MTAzOCwtODAyMDUxMDQxLC0yMTAwNzA1OTI1LDE1MDQ1
-NDQwODcsNTEwNjI2MTAyLDU1NjY4MDMxNCwtMTg4MjY0NzgzNi
-wtMjAxNDA1ODQ4MywyMDM3MDU4NzQ3LDU1MTQ1ODI0MiwxNDU3
-NjQ0NzIyXX0=
+eyJoaXN0b3J5IjpbODc0NDQ1ODkzLC05NzYwNDYxNTUsNjQ1OD
+Q4MTcwLDE0NjM3MjA4NzksLTE2OTg0NjA3MTYsLTQxNjUwODU2
+NSwtMjc4ODk5MDkzLDExMTQ1MjE3MTMsLTQyNzc5NjIzOSwtOD
+E5NzEwMzgsLTgwMjA1MTA0MSwtMjEwMDcwNTkyNSwxNTA0NTQ0
+MDg3LDUxMDYyNjEwMiw1NTY2ODAzMTQsLTE4ODI2NDc4MzYsLT
+IwMTQwNTg0ODMsMjAzNzA1ODc0Nyw1NTE0NTgyNDIsMTQ1NzY0
+NDcyMl19
 -->
