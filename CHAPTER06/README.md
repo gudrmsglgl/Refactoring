@@ -551,15 +551,19 @@ fun amountOverdue(dateRange: DateRange){...}
 &emsp;⓹ 함수 호출 시 새로운 데이터 구조 인스턴스를 넘기도록 수정한다. 하나씩 수정할 때마다 테스트한다.</br>  
 &emsp;⓺ 기존 매개변수를 사용하던 코드를 새 데이터 구조의 원소를 사용하도록 바꾼다.</br>  
 &emsp;⓻ 다 바꿨다면 기존 매개변수를 제거하고 테스트한다. </br>  
-
  
+<br>
 
+### **ex) 온도 측정값(reading)에서 정상 작동 범위를 벗어난 것이 있는지 검사하는 코드**<br>
+```kotlin
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ1ODQ4MTcwLDE0NjM3MjA4NzksLTE2OT
-g0NjA3MTYsLTQxNjUwODU2NSwtMjc4ODk5MDkzLDExMTQ1MjE3
-MTMsLTQyNzc5NjIzOSwtODE5NzEwMzgsLTgwMjA1MTA0MSwtMj
-EwMDcwNTkyNSwxNTA0NTQ0MDg3LDUxMDYyNjEwMiw1NTY2ODAz
-MTQsLTE4ODI2NDc4MzYsLTIwMTQwNTg0ODMsMjAzNzA1ODc0Ny
-w1NTE0NTgyNDIsMTQ1NzY0NDcyMiwtNDk0NzI1NzM2LDEzNzQ2
-Nzc4MDJdfQ==
+eyJoaXN0b3J5IjpbLTk3NjA0NjE1NSw2NDU4NDgxNzAsMTQ2Mz
+cyMDg3OSwtMTY5ODQ2MDcxNiwtNDE2NTA4NTY1LC0yNzg4OTkw
+OTMsMTExNDUyMTcxMywtNDI3Nzk2MjM5LC04MTk3MTAzOCwtOD
+AyMDUxMDQxLC0yMTAwNzA1OTI1LDE1MDQ1NDQwODcsNTEwNjI2
+MTAyLDU1NjY4MDMxNCwtMTg4MjY0NzgzNiwtMjAxNDA1ODQ4My
+wyMDM3MDU4NzQ3LDU1MTQ1ODI0MiwxNDU3NjQ0NzIyLC00OTQ3
+MjU3MzZdfQ==
 -->
