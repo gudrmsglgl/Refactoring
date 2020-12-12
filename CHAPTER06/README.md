@@ -567,7 +567,7 @@ data class Station(
 ```kotlin
 val station: Station = Station(
    name = "ZB1",
-   listOf(
+   readings = listOf(
       Reading(temp=47, time="2016-11-10 09:10"),
       Reading(temp=53, time="2016-11-10 09:20"),
       Reading(temp=58, time="2016-11-10 09:30"),
@@ -576,15 +576,19 @@ val station: Station = Station(
    )
 )
 
-// 정상 범위를 벗어난 ㅊ
+// 정상 범위를 벗어난 측정값을 찾는 함수
+fun readingsOutsideRange(station: Station, min: Int, max: Int){
+   return station.readings
+      .filter{r->}
+}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTkyMTU2ODcsLTk3NjA0NjE1NSw2ND
-U4NDgxNzAsMTQ2MzcyMDg3OSwtMTY5ODQ2MDcxNiwtNDE2NTA4
-NTY1LC0yNzg4OTkwOTMsMTExNDUyMTcxMywtNDI3Nzk2MjM5LC
-04MTk3MTAzOCwtODAyMDUxMDQxLC0yMTAwNzA1OTI1LDE1MDQ1
-NDQwODcsNTEwNjI2MTAyLDU1NjY4MDMxNCwtMTg4MjY0NzgzNi
-wtMjAxNDA1ODQ4MywyMDM3MDU4NzQ3LDU1MTQ1ODI0MiwxNDU3
-NjQ0NzIyXX0=
+eyJoaXN0b3J5IjpbNTI1NjMxOTIsLTk3NjA0NjE1NSw2NDU4ND
+gxNzAsMTQ2MzcyMDg3OSwtMTY5ODQ2MDcxNiwtNDE2NTA4NTY1
+LC0yNzg4OTkwOTMsMTExNDUyMTcxMywtNDI3Nzk2MjM5LC04MT
+k3MTAzOCwtODAyMDUxMDQxLC0yMTAwNzA1OTI1LDE1MDQ1NDQw
+ODcsNTEwNjI2MTAyLDU1NjY4MDMxNCwtMTg4MjY0NzgzNiwtMj
+AxNDA1ODQ4MywyMDM3MDU4NzQ3LDU1MTQ1ODI0MiwxNDU3NjQ0
+NzIyXX0=
 -->
