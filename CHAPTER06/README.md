@@ -655,12 +655,14 @@ val alerts = readingsOutsideRange(
 
 #### **매개변수 객체 만들기 끝**<br>
 ### **진정한 값 객체로 거듭나기**<br>
+- [x] 클래스로 만들어두면 관련 동작들을 이 클래스로 옮길 수 있다는 이점이 있음
 ```kotlin
-// 클래스로 만들어두면 관련 동작들을 이 클랫
-data class NumberRange(val min: Int, val max: Int)
+data class NumberRange(val min: Int, val max: Int){
+	fun contains(arg: In)
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDcxMjQ5NDQsLTk3NjA0NjE1NSw2ND
+eyJoaXN0b3J5IjpbLTE3MTUxMjk2MDQsLTk3NjA0NjE1NSw2ND
 U4NDgxNzAsMTQ2MzcyMDg3OSwtMTY5ODQ2MDcxNiwtNDE2NTA4
 NTY1LC0yNzg4OTkwOTMsMTExNDUyMTcxMywtNDI3Nzk2MjM5LC
 04MTk3MTAzOCwtODAyMDUxMDQxLC0yMTAwNzA1OTI1LDE1MDQ1
