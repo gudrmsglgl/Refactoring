@@ -565,19 +565,26 @@ data class Station(
 ```
 
 ```kotlin
-val station: Station = Station(name = "ZB1",
+val station: Station = Station(
+   name = "ZB1",
    listOf(
-      Reading(temp=47, time="")
+      Reading(temp=47, time="2016-11-10 09:10"),
+      Reading(temp=53, time="2016-11-10 09:20"),
+      Reading(temp=58, time="2016-11-10 09:30"),
+      Reading(temp=53, time="2016-11-10 09:40"),
+      Reading(temp=51, time="2016-11-10 09:50")
    )
 )
+
+// 정상 범위를 벗어난 ㅊ
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNTIwNDczOSwtOTc2MDQ2MTU1LDY0NT
-g0ODE3MCwxNDYzNzIwODc5LC0xNjk4NDYwNzE2LC00MTY1MDg1
-NjUsLTI3ODg5OTA5MywxMTE0NTIxNzEzLC00Mjc3OTYyMzksLT
-gxOTcxMDM4LC04MDIwNTEwNDEsLTIxMDA3MDU5MjUsMTUwNDU0
-NDA4Nyw1MTA2MjYxMDIsNTU2NjgwMzE0LC0xODgyNjQ3ODM2LC
-0yMDE0MDU4NDgzLDIwMzcwNTg3NDcsNTUxNDU4MjQyLDE0NTc2
-NDQ3MjJdfQ==
+eyJoaXN0b3J5IjpbLTE3NTkyMTU2ODcsLTk3NjA0NjE1NSw2ND
+U4NDgxNzAsMTQ2MzcyMDg3OSwtMTY5ODQ2MDcxNiwtNDE2NTA4
+NTY1LC0yNzg4OTkwOTMsMTExNDUyMTcxMywtNDI3Nzk2MjM5LC
+04MTk3MTAzOCwtODAyMDUxMDQxLC0yMTAwNzA1OTI1LDE1MDQ1
+NDQwODcsNTEwNjI2MTAyLDU1NjY4MDMxNCwtMTg4MjY0NzgzNi
+wtMjAxNDA1ODQ4MywyMDM3MDU4NzQ3LDU1MTQ1ODI0MiwxNDU3
+NjQ0NzIyXX0=
 -->
