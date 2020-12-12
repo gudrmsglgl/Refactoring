@@ -565,11 +565,15 @@ data class Station(
 ```
 
 ```kotlin
-val station: Station = Station(name = )
+val station: Station = Station(name = "ZB1",
+   listOf(
+      Reading(temp=47, time="")
+   )
+)
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjMwMjc3OSwtOTc2MDQ2MTU1LDY0NT
+eyJoaXN0b3J5IjpbLTUzNTIwNDczOSwtOTc2MDQ2MTU1LDY0NT
 g0ODE3MCwxNDYzNzIwODc5LC0xNjk4NDYwNzE2LC00MTY1MDg1
 NjUsLTI3ODg5OTA5MywxMTE0NTIxNzEzLC00Mjc3OTYyMzksLT
 gxOTcxMDM4LC04MDIwNTEwNDEsLTIxMDA3MDU5MjUsMTUwNDU0
