@@ -600,10 +600,19 @@ data class NumberRange(val min: Int, val max: Int)
 
 &emsp;⓷ 새로 만든 객체를 readingsOutsideRange()의 매개변수로 추가하도록 함수 선언 바꾼다.
 
+```kotlin
+fun readingsOutsideRange(
+   station: Station, 
+   min: Int, 
+   max: Int,
+   range: NumberRange
+) = station.readings
+     .filter{r -> r.temp < min || r.temp > max}
 
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjIyNjI4NTAsLTk3NjA0NjE1NSw2ND
+eyJoaXN0b3J5IjpbLTE0OTQ1ODQ1NDAsLTk3NjA0NjE1NSw2ND
 U4NDgxNzAsMTQ2MzcyMDg3OSwtMTY5ODQ2MDcxNiwtNDE2NTA4
 NTY1LC0yNzg4OTkwOTMsMTExNDUyMTcxMywtNDI3Nzk2MjM5LC
 04MTk3MTAzOCwtODAyMDUxMDQxLC0yMTAwNzA1OTI1LDE1MDQ1
