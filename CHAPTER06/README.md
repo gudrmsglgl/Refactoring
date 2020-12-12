@@ -653,14 +653,18 @@ val alerts = readingsOutsideRange(
 
 ```
 
-### **매개변수 객체 만들기 끝**<br>
-### **매개변수 객체 만들기 끝**<br>
+#### **매개변수 객체 만들기 끝**<br>
+### **진정한 값 객체로 거듭나기**<br>
+```kotlin
+// 클래스로 만들어두면 관련 동작들을 이 클랫
+data class NumberRange(val min: Int, val max: Int)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NTIwMjQwMSwtOTc2MDQ2MTU1LDY0NT
-g0ODE3MCwxNDYzNzIwODc5LC0xNjk4NDYwNzE2LC00MTY1MDg1
-NjUsLTI3ODg5OTA5MywxMTE0NTIxNzEzLC00Mjc3OTYyMzksLT
-gxOTcxMDM4LC04MDIwNTEwNDEsLTIxMDA3MDU5MjUsMTUwNDU0
-NDA4Nyw1MTA2MjYxMDIsNTU2NjgwMzE0LC0xODgyNjQ3ODM2LC
-0yMDE0MDU4NDgzLDIwMzcwNTg3NDcsNTUxNDU4MjQyLDE0NTc2
-NDQ3MjJdfQ==
+eyJoaXN0b3J5IjpbLTE4MDcxMjQ5NDQsLTk3NjA0NjE1NSw2ND
+U4NDgxNzAsMTQ2MzcyMDg3OSwtMTY5ODQ2MDcxNiwtNDE2NTA4
+NTY1LC0yNzg4OTkwOTMsMTExNDUyMTcxMywtNDI3Nzk2MjM5LC
+04MTk3MTAzOCwtODAyMDUxMDQxLC0yMTAwNzA1OTI1LDE1MDQ1
+NDQwODcsNTEwNjI2MTAyLDU1NjY4MDMxNCwtMTg4MjY0NzgzNi
+wtMjAxNDA1ODQ4MywyMDM3MDU4NzQ3LDU1MTQ1ODI0MiwxNDU3
+NjQ0NzIyXX0=
 -->
