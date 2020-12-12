@@ -678,13 +678,21 @@ fun readingsOutsideRange(
 
 ## 6.9 여러 함수를 클래스로 묶기 Combine Functions into Class
 
+```kotlin
+fun base(reading: Reading){...}
+fun taxableCharge(reading: Reading){...}
+fun calculateBaseCharge(reading: Reading){...}
+```
+
+**🔻클래스로 묶기**
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk0MzUzMzU2LDg3NDQ0NTg5MywtOTc2MD
-Q2MTU1LDY0NTg0ODE3MCwxNDYzNzIwODc5LC0xNjk4NDYwNzE2
-LC00MTY1MDg1NjUsLTI3ODg5OTA5MywxMTE0NTIxNzEzLC00Mj
-c3OTYyMzksLTgxOTcxMDM4LC04MDIwNTEwNDEsLTIxMDA3MDU5
-MjUsMTUwNDU0NDA4Nyw1MTA2MjYxMDIsNTU2NjgwMzE0LC0xOD
-gyNjQ3ODM2LC0yMDE0MDU4NDgzLDIwMzcwNTg3NDcsNTUxNDU4
-MjQyXX0=
+eyJoaXN0b3J5IjpbMTQyMjIyNzYwNCw4NzQ0NDU4OTMsLTk3Nj
+A0NjE1NSw2NDU4NDgxNzAsMTQ2MzcyMDg3OSwtMTY5ODQ2MDcx
+NiwtNDE2NTA4NTY1LC0yNzg4OTkwOTMsMTExNDUyMTcxMywtND
+I3Nzk2MjM5LC04MTk3MTAzOCwtODAyMDUxMDQxLC0yMTAwNzA1
+OTI1LDE1MDQ1NDQwODcsNTEwNjI2MTAyLDU1NjY4MDMxNCwtMT
+g4MjY0NzgzNiwtMjAxNDA1ODQ4MywyMDM3MDU4NzQ3LDU1MTQ1
+ODI0Ml19
 -->
