@@ -625,7 +625,7 @@ val alerts = readingsOutsideRange(
 ) 
 
 ```
-&emsp;⓺ 이제 기존 매개변수를 사용하는 부분을 변경. 하나씩 지우고 테스트 하면서 진행 
+&emsp;⓺ 이제 기존 매개변수를 사용하는 부분을 변경. **하나씩 지우고 테스트** 하면서 진행 
 
 ```kotlin
 fun readingsOutsideRange(
@@ -653,11 +653,11 @@ val alerts = readingsOutsideRange(
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxODc5ODM1NiwtOTc2MDQ2MTU1LDY0NT
-g0ODE3MCwxNDYzNzIwODc5LC0xNjk4NDYwNzE2LC00MTY1MDg1
-NjUsLTI3ODg5OTA5MywxMTE0NTIxNzEzLC00Mjc3OTYyMzksLT
-gxOTcxMDM4LC04MDIwNTEwNDEsLTIxMDA3MDU5MjUsMTUwNDU0
-NDA4Nyw1MTA2MjYxMDIsNTU2NjgwMzE0LC0xODgyNjQ3ODM2LC
-0yMDE0MDU4NDgzLDIwMzcwNTg3NDcsNTUxNDU4MjQyLDE0NTc2
-NDQ3MjJdfQ==
+eyJoaXN0b3J5IjpbOTkwNTgyNTcyLC05NzYwNDYxNTUsNjQ1OD
+Q4MTcwLDE0NjM3MjA4NzksLTE2OTg0NjA3MTYsLTQxNjUwODU2
+NSwtMjc4ODk5MDkzLDExMTQ1MjE3MTMsLTQyNzc5NjIzOSwtOD
+E5NzEwMzgsLTgwMjA1MTA0MSwtMjEwMDcwNTkyNSwxNTA0NTQ0
+MDg3LDUxMDYyNjEwMiw1NTY2ODAzMTQsLTE4ODI2NDc4MzYsLT
+IwMTQwNTg0ODMsMjAzNzA1ODc0Nyw1NTE0NTgyNDIsMTQ1NzY0
+NDcyMl19
 -->
