@@ -605,18 +605,24 @@ fun readingsOutsideRange(
    station: Station, 
    min: Int, 
    max: Int,
-   range: NumberRange
+   range: NumberRange  // 👈 매개변수 추가 
 ) = station.readings
      .filter{r -> r.temp < min || r.temp > max}
+
+// 호출문
+val alerts = readingsOutsideRange(station, 
+   operatingPlan.temperatureFloor, // 최저 온도
+   operatingPlan.temperatureFloor  // 최고 온도
+) 
 
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTQ1ODQ1NDAsLTk3NjA0NjE1NSw2ND
-U4NDgxNzAsMTQ2MzcyMDg3OSwtMTY5ODQ2MDcxNiwtNDE2NTA4
-NTY1LC0yNzg4OTkwOTMsMTExNDUyMTcxMywtNDI3Nzk2MjM5LC
-04MTk3MTAzOCwtODAyMDUxMDQxLC0yMTAwNzA1OTI1LDE1MDQ1
-NDQwODcsNTEwNjI2MTAyLDU1NjY4MDMxNCwtMTg4MjY0NzgzNi
-wtMjAxNDA1ODQ4MywyMDM3MDU4NzQ3LDU1MTQ1ODI0MiwxNDU3
-NjQ0NzIyXX0=
+eyJoaXN0b3J5IjpbMTcwODg2MzA4LC05NzYwNDYxNTUsNjQ1OD
+Q4MTcwLDE0NjM3MjA4NzksLTE2OTg0NjA3MTYsLTQxNjUwODU2
+NSwtMjc4ODk5MDkzLDExMTQ1MjE3MTMsLTQyNzc5NjIzOSwtOD
+E5NzEwMzgsLTgwMjA1MTA0MSwtMjEwMDcwNTkyNSwxNTA0NTQ0
+MDg3LDUxMDYyNjEwMiw1NTY2ODAzMTQsLTE4ODI2NDc4MzYsLT
+IwMTQwNTg0ODMsMjAzNzA1ODc0Nyw1NTE0NTgyNDIsMTQ1NzY0
+NDcyMl19
 -->
