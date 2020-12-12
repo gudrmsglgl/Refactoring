@@ -694,10 +694,13 @@ class Reading {
 }
 ```
 
-### 🔎 &nbsp;&nbsp;zmf
+### 🔎 &nbsp;&nbsp;함수들을 클래스로 묶을 때 
+- 공통 데이터를 중심으로 긴밀하게 엮여 작동하는 함수 무리를 발견할 때 
+- 함수들이 공유하는 공통 환경을 더 명확하게 표현, 각 함수에 적달되는 인수를 줄여서 객체 안에서의 함수 호출을 간결하게 만듬.
+- 시스템의 다른 부분에 전달하기 위한 참조를 제공.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMzQwNzczNCw4NzQ0NDU4OTMsLTk3Nj
+eyJoaXN0b3J5IjpbLTkwNTg3NjYyMSw4NzQ0NDU4OTMsLTk3Nj
 A0NjE1NSw2NDU4NDgxNzAsMTQ2MzcyMDg3OSwtMTY5ODQ2MDcx
 NiwtNDE2NTA4NTY1LC0yNzg4OTkwOTMsMTExNDUyMTcxMywtND
 I3Nzk2MjM5LC04MTk3MTAzOCwtODAyMDUxMDQxLC0yMTAwNzA1
