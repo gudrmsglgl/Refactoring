@@ -658,11 +658,13 @@ val alerts = readingsOutsideRange(
 - [x] 클래스로 만들어두면 관련 동작들을 이 클래스로 옮길 수 있다는 이점이 있음
 ```kotlin
 data class NumberRange(val min: Int, val max: Int){
-	fun contains(arg: In)
+   
+   fun contains(arg: Int) = (arg >= this.min && arg <= this.max)
+
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTUxMjk2MDQsLTk3NjA0NjE1NSw2ND
+eyJoaXN0b3J5IjpbLTE2NjYwMjQ5NTAsLTk3NjA0NjE1NSw2ND
 U4NDgxNzAsMTQ2MzcyMDg3OSwtMTY5ODQ2MDcxNiwtNDE2NTA4
 NTY1LC0yNzg4OTkwOTMsMTExNDUyMTcxMywtNDI3Nzk2MjM5LC
 04MTk3MTAzOCwtODAyMDUxMDQxLC0yMTAwNzA1OTI1LDE1MDQ1
