@@ -662,9 +662,16 @@ data class NumberRange(val min: Int, val max: Int){
    fun contains(arg: Int) = (arg >= this.min && arg <= this.max)
 
 }
+
+fun readingsOutsideRange(
+   station: Station, 
+   range: NumberRange  
+) = station.readings
+     .filter{r -> !range.contains(r.temp) }
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjYwMjQ5NTAsLTk3NjA0NjE1NSw2ND
+eyJoaXN0b3J5IjpbLTIwNTM4MTQxMzUsLTk3NjA0NjE1NSw2ND
 U4NDgxNzAsMTQ2MzcyMDg3OSwtMTY5ODQ2MDcxNiwtNDE2NTA4
 NTY1LC0yNzg4OTkwOTMsMTExNDUyMTcxMywtNDI3Nzk2MjM5LC
 04MTk3MTAzOCwtODAyMDUxMDQxLC0yMTAwNzA1OTI1LDE1MDQ1
