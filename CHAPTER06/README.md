@@ -652,8 +652,11 @@ val alerts = readingsOutsideRange(
 ) 
 
 ```
+
+### **매개변수 객체 만들기 끝**<br>
+### **매개변수 객체 만들기 끝**<br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NDQzNDU3NywtOTc2MDQ2MTU1LDY0NT
+eyJoaXN0b3J5IjpbLTg4NTIwMjQwMSwtOTc2MDQ2MTU1LDY0NT
 g0ODE3MCwxNDYzNzIwODc5LC0xNjk4NDYwNzE2LC00MTY1MDg1
 NjUsLTI3ODg5OTA5MywxMTE0NTIxNzEzLC00Mjc3OTYyMzksLT
 gxOTcxMDM4LC04MDIwNTEwNDEsLTIxMDA3MDU5MjUsMTUwNDU0
