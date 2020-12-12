@@ -577,18 +577,21 @@ val station: Station = Station(
 )
 
 // 정상 범위를 벗어난 측정값을 찾는 함수
-fun readingsOutsideRange(station: Station, min: Int, max: Int){
-   return station.readings
-      .filter{r->}
-}
+fun readingsOutsideRange(
+   station: Station, 
+   min: Int, 
+   max: Int
+) = station.readings
+     .filter{r -> r.temp < min || r.temp > max}
+
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI1NjMxOTIsLTk3NjA0NjE1NSw2NDU4ND
-gxNzAsMTQ2MzcyMDg3OSwtMTY5ODQ2MDcxNiwtNDE2NTA4NTY1
-LC0yNzg4OTkwOTMsMTExNDUyMTcxMywtNDI3Nzk2MjM5LC04MT
-k3MTAzOCwtODAyMDUxMDQxLC0yMTAwNzA1OTI1LDE1MDQ1NDQw
-ODcsNTEwNjI2MTAyLDU1NjY4MDMxNCwtMTg4MjY0NzgzNiwtMj
-AxNDA1ODQ4MywyMDM3MDU4NzQ3LDU1MTQ1ODI0MiwxNDU3NjQ0
-NzIyXX0=
+eyJoaXN0b3J5IjpbMTU2MzMxNjA4MSwtOTc2MDQ2MTU1LDY0NT
+g0ODE3MCwxNDYzNzIwODc5LC0xNjk4NDYwNzE2LC00MTY1MDg1
+NjUsLTI3ODg5OTA5MywxMTE0NTIxNzEzLC00Mjc3OTYyMzksLT
+gxOTcxMDM4LC04MDIwNTEwNDEsLTIxMDA3MDU5MjUsMTUwNDU0
+NDA4Nyw1MTA2MjYxMDIsNTU2NjgwMzE0LC0xODgyNjQ3ODM2LC
+0yMDE0MDU4NDgzLDIwMzcwNTg3NDcsNTUxNDU4MjQyLDE0NTc2
+NDQ3MjJdfQ==
 -->
