@@ -591,13 +591,13 @@ val alerts = readingsOutsideRange(station,
    operatingPlan.temperatureFloor  // 최고 온도
 ) 
 ```
-&emsp;⓵ 범위range라는 개념은 객체 하나로 묶어 표현 , 묶은 데이터를 표현하는 클래스 선언
+&emsp;⓵ 범위range라는 개념은 객체 하나로 묶어 표현 , 묶은 데이터를 표현하는 클래스 선언<br> 
 
 ```kotlin
-class NumberRange(val min: Int, val max: Int)
+data class NumberRange(val min: Int, val max: Int)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxODIyMjIxNywtOTc2MDQ2MTU1LDY0NT
+eyJoaXN0b3J5IjpbLTczMDg0ODY2OSwtOTc2MDQ2MTU1LDY0NT
 g0ODE3MCwxNDYzNzIwODc5LC0xNjk4NDYwNzE2LC00MTY1MDg1
 NjUsLTI3ODg5OTA5MywxMTE0NTIxNzEzLC00Mjc3OTYyMzksLT
 gxOTcxMDM4LC04MDIwNTEwNDEsLTIxMDA3MDU5MjUsMTUwNDU0
