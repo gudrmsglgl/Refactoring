@@ -588,7 +588,7 @@ fun readingsOutsideRange(
 // 호출문
 val alerts = readingsOutsideRange(station, 
    operatingPlan.temperatureFloor, // 최저 온도
-   operatingPlan.temperatureFloor  // 최고 온도
+   operatingPlan.temperatureCeiling  // 최고 온도
 ) 
 ```
 &emsp;⓵ 범위range라는 개념은 객체 하나로 묶어 표현 , 묶은 데이터를 표현하는 클래스 선언
@@ -610,19 +610,24 @@ fun readingsOutsideRange(
      .filter{r -> r.temp < min || r.temp > max}
 
 // 호출문
+val range = NumberRange(
+   operatingPlan.temperatureFloor,
+   operatingPlan.temperatureCeiling
+   )
+
 val alerts = readingsOutsideRange(station, 
    operatingPlan.temperatureFloor, // 최저 온도
-   operatingPlan.temperatureFloor  // 최고 온도
+   operatingPlan.temperatureCeiling  // 최고 온도
 ) 
 
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwODg2MzA4LC05NzYwNDYxNTUsNjQ1OD
-Q4MTcwLDE0NjM3MjA4NzksLTE2OTg0NjA3MTYsLTQxNjUwODU2
-NSwtMjc4ODk5MDkzLDExMTQ1MjE3MTMsLTQyNzc5NjIzOSwtOD
-E5NzEwMzgsLTgwMjA1MTA0MSwtMjEwMDcwNTkyNSwxNTA0NTQ0
-MDg3LDUxMDYyNjEwMiw1NTY2ODAzMTQsLTE4ODI2NDc4MzYsLT
-IwMTQwNTg0ODMsMjAzNzA1ODc0Nyw1NTE0NTgyNDIsMTQ1NzY0
-NDcyMl19
+eyJoaXN0b3J5IjpbMTQ5NjI4OTU5MywtOTc2MDQ2MTU1LDY0NT
+g0ODE3MCwxNDYzNzIwODc5LC0xNjk4NDYwNzE2LC00MTY1MDg1
+NjUsLTI3ODg5OTA5MywxMTE0NTIxNzEzLC00Mjc3OTYyMzksLT
+gxOTcxMDM4LC04MDIwNTEwNDEsLTIxMDA3MDU5MjUsMTUwNDU0
+NDA4Nyw1MTA2MjYxMDIsNTU2NjgwMzE0LC0xODgyNjQ3ODM2LC
+0yMDE0MDU4NDgzLDIwMzcwNTg3NDcsNTUxNDU4MjQyLDE0NTc2
+NDQ3MjJdfQ==
 -->
