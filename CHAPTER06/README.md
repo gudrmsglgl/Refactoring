@@ -609,8 +609,10 @@ fun readingsOutsideRange(
 ) = station.readings
      .filter{r -> r.temp < min || r.temp > max}
 
-// 호출문
-val range = NumberRange(
+
+
+// ------------------------------------- 호출문
+val range = NumberRange(           // 👈 NumberRange 추가
    operatingPlan.temperatureFloor,
    operatingPlan.temperatureCeiling
 )
@@ -619,13 +621,13 @@ val alerts = readingsOutsideRange(
    station, 
    operatingPlan.temperatureFloor, 
    operatingPlan.temperatureCeiling,
-   range
+   range                          // 👈 NumberRange 추가
 ) 
 
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTAzNjk5MTIsLTk3NjA0NjE1NSw2ND
+eyJoaXN0b3J5IjpbLTE0MjAwODcyMDEsLTk3NjA0NjE1NSw2ND
 U4NDgxNzAsMTQ2MzcyMDg3OSwtMTY5ODQ2MDcxNiwtNDE2NTA4
 NTY1LC0yNzg4OTkwOTMsMTExNDUyMTcxMywtNDI3Nzk2MjM5LC
 04MTk3MTAzOCwtODAyMDUxMDQxLC0yMTAwNzA1OTI1LDE1MDQ1
