@@ -686,9 +686,18 @@ fun calculateBaseCharge(reading: Reading){...}
 
 **🔻클래스로 묶기**
 
+```kotlin
+class Reading {
+	base(){...}
+	taxableCharge(){...}
+	calculateBaseCharge(){...}
+}
+```
+
+### 🔎 &nbsp;&nbsp;zmf
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMjIyNzYwNCw4NzQ0NDU4OTMsLTk3Nj
+eyJoaXN0b3J5IjpbLTMyMzQwNzczNCw4NzQ0NDU4OTMsLTk3Nj
 A0NjE1NSw2NDU4NDgxNzAsMTQ2MzcyMDg3OSwtMTY5ODQ2MDcx
 NiwtNDE2NTA4NTY1LC0yNzg4OTkwOTMsMTExNDUyMTcxMywtND
 I3Nzk2MjM5LC04MTk3MTAzOCwtODAyMDUxMDQxLC0yMTAwNzA1
