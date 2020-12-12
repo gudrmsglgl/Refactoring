@@ -591,17 +591,23 @@ val alerts = readingsOutsideRange(station,
    operatingPlan.temperatureFloor  // 최고 온도
 ) 
 ```
-&emsp;⓵ 범위range라는 개념은 객체 하나로 묶어 표현 , 묶은 데이터를 표현하는 클래스 선언<br> 
+&emsp;⓵ 범위range라는 개념은 객체 하나로 묶어 표현 , 묶은 데이터를 표현하는 클래스 선언
 
 ```kotlin
+// 동작까지 옮기는 더 큰 작업의 첫 단계로 수행되기 때문에 클래스로 선언 
 data class NumberRange(val min: Int, val max: Int)
 ```
+
+&emsp;⓷ 새로 만든 객체를 readingsOutsideRange()의 매개변수로 추가하도록 함수 선언 바꾼다.
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMDg0ODY2OSwtOTc2MDQ2MTU1LDY0NT
-g0ODE3MCwxNDYzNzIwODc5LC0xNjk4NDYwNzE2LC00MTY1MDg1
-NjUsLTI3ODg5OTA5MywxMTE0NTIxNzEzLC00Mjc3OTYyMzksLT
-gxOTcxMDM4LC04MDIwNTEwNDEsLTIxMDA3MDU5MjUsMTUwNDU0
-NDA4Nyw1MTA2MjYxMDIsNTU2NjgwMzE0LC0xODgyNjQ3ODM2LC
-0yMDE0MDU4NDgzLDIwMzcwNTg3NDcsNTUxNDU4MjQyLDE0NTc2
-NDQ3MjJdfQ==
+eyJoaXN0b3J5IjpbLTE0MjIyNjI4NTAsLTk3NjA0NjE1NSw2ND
+U4NDgxNzAsMTQ2MzcyMDg3OSwtMTY5ODQ2MDcxNiwtNDE2NTA4
+NTY1LC0yNzg4OTkwOTMsMTExNDUyMTcxMywtNDI3Nzk2MjM5LC
+04MTk3MTAzOCwtODAyMDUxMDQxLC0yMTAwNzA1OTI1LDE1MDQ1
+NDQwODcsNTEwNjI2MTAyLDU1NjY4MDMxNCwtMTg4MjY0NzgzNi
+wtMjAxNDA1ODQ4MywyMDM3MDU4NzQ3LDU1MTQ1ODI0MiwxNDU3
+NjQ0NzIyXX0=
 -->
