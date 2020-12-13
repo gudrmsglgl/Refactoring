@@ -996,7 +996,7 @@ fun priceOrder(
 ): Int {
    val basePrice = product.basePrice * quantity
    val discount = Math.max(quantity - product.discountThreshold, 0) * product.basePrice * product.discountRate
-   val priceData = Price() // 👈 중간 데이터 구조
+   val priceData = Price(basePrice = basePrice) // 👈 중간 데이터 구조로 매개변수 옮김
    val price = applyShipping(priceData, basePrice, shippingMethod, quantity, discount)
    return price
 }
@@ -1015,11 +1015,11 @@ fun applyShipping(
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNzY2NzEyNSw3OTE0NTk0OTgsLTMzMT
-c1NDc3Myw2MTYyNDg3NjIsNDgyNzQ0ODQ1LDEyODg2MzgyMDgs
-NjA1MzU3MjgyLC0xNDA1MTc3NjIzLDE5NjE1MTQ5MDMsLTIwMD
-MyOTk1NTIsLTg2MTkwNTUxMiwxODIyNTA0NDg1LDE0NjY0Njcw
-NzAsMzQ2MzUzMDI3LDE5MjI4ODEwNTYsLTU2NTA0NzczMywtOT
-A1ODc2NjIxLDg3NDQ0NTg5MywtOTc2MDQ2MTU1LDY0NTg0ODE3
-MF19
+eyJoaXN0b3J5IjpbNjA5OTYzMzEwLDc5MTQ1OTQ5OCwtMzMxNz
+U0NzczLDYxNjI0ODc2Miw0ODI3NDQ4NDUsMTI4ODYzODIwOCw2
+MDUzNTcyODIsLTE0MDUxNzc2MjMsMTk2MTUxNDkwMywtMjAwMz
+I5OTU1MiwtODYxOTA1NTEyLDE4MjI1MDQ0ODUsMTQ2NjQ2NzA3
+MCwzNDYzNTMwMjcsMTkyMjg4MTA1NiwtNTY1MDQ3NzMzLC05MD
+U4NzY2MjEsODc0NDQ1ODkzLC05NzYwNDYxNTUsNjQ1ODQ4MTcw
+XX0=
 -->
