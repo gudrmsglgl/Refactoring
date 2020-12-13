@@ -752,8 +752,22 @@ class Reading(private val data: rawReading){
 
 &emsp;⓶ 만들어져 있는 calculateBaseCharge() 옮기자
 
+```kotlin
+class Reading(private val data: rawReading){
+   val customer
+      get() = data.customer
+   val quantity
+      get() = data.quantity
+   val month
+      get() = data.month
+   val year
+      get() = data.year
+   val baseCharge
+      get() = baseRate(this.month, this.year)               
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MTI1OTM5MSwzNDYzNTMwMjcsMTkyMj
+eyJoaXN0b3J5IjpbMTQwNzA4OTc5NCwzNDYzNTMwMjcsMTkyMj
 g4MTA1NiwtNTY1MDQ3NzMzLC05MDU4NzY2MjEsODc0NDQ1ODkz
 LC05NzYwNDYxNTUsNjQ1ODQ4MTcwLDE0NjM3MjA4NzksLTE2OT
 g0NjA3MTYsLTQxNjUwODU2NSwtMjc4ODk5MDkzLDExMTQ1MjE3
