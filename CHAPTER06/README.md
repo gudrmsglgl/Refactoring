@@ -682,7 +682,7 @@ fun taxableCharge(reading: Reading){...}
 fun calculateBaseCharge(reading: Reading){...}
 ```
 
-**🔻클래스로 묶기**
+**🔻 클래스로 묶기**
 
 ```kotlin
 class Reading {
@@ -716,12 +716,14 @@ class Reading {
 -> 공통 레코드의 멤버는 함수 호출문의 인수 목록에서 제거한다
 ```
 &emsp;⓷ 데이터를 조작하는 로직들은 함수로 추출해서 새 클래스로 옮긴다.</br>  
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMjg4MTA1NiwtNTY1MDQ3NzMzLC05MD
-U4NzY2MjEsODc0NDQ1ODkzLC05NzYwNDYxNTUsNjQ1ODQ4MTcw
-LDE0NjM3MjA4NzksLTE2OTg0NjA3MTYsLTQxNjUwODU2NSwtMj
-c4ODk5MDkzLDExMTQ1MjE3MTMsLTQyNzc5NjIzOSwtODE5NzEw
-MzgsLTgwMjA1MTA0MSwtMjEwMDcwNTkyNSwxNTA0NTQ0MDg3LD
-UxMDYyNjEwMiw1NTY2ODAzMTQsLTE4ODI2NDc4MzYsLTIwMTQw
-NTg0ODNdfQ==
+eyJoaXN0b3J5IjpbLTIwMDY5NjQzNzIsMTkyMjg4MTA1NiwtNT
+Y1MDQ3NzMzLC05MDU4NzY2MjEsODc0NDQ1ODkzLC05NzYwNDYx
+NTUsNjQ1ODQ4MTcwLDE0NjM3MjA4NzksLTE2OTg0NjA3MTYsLT
+QxNjUwODU2NSwtMjc4ODk5MDkzLDExMTQ1MjE3MTMsLTQyNzc5
+NjIzOSwtODE5NzEwMzgsLTgwMjA1MTA0MSwtMjEwMDcwNTkyNS
+wxNTA0NTQ0MDg3LDUxMDYyNjEwMiw1NTY2ODAzMTQsLTE4ODI2
+NDc4MzZdfQ==
 -->
