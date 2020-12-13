@@ -906,14 +906,13 @@ fun price(order: Order, priceList: Array[Int]): Int{
 ```
 &emsp;⓺ 첫 번째 단계 코드를 함수로 추출하면서 중간 데이터 구조를 반환하도록 만든다.<br>
 ```
--> 간혹 두 번째 단계에서 사용하면 안 되는 매개변수가 있다. 이럴 때는 각 매개변수를 사용한 결과를 
-중간 데이터 구조의 필드로 추출하고, 이 필드의 값을 설정하는 문장을 호출한 곳으로 옮긴다.
+-> 이때 첫 번째 단계를 변환기 객체로 추출해도 좋다.
 ```
 <br>
 
 ### **ex) 전역 변수에 중요한 데이터가 담겨 있는 경우**<br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MzM1MTU3Myw2MDUzNTcyODIsLTE0MD
+eyJoaXN0b3J5IjpbMTI4ODYzODIwOCw2MDUzNTcyODIsLTE0MD
 UxNzc2MjMsMTk2MTUxNDkwMywtMjAwMzI5OTU1MiwtODYxOTA1
 NTEyLDE4MjI1MDQ0ODUsMTQ2NjQ2NzA3MCwzNDYzNTMwMjcsMT
 kyMjg4MTA1NiwtNTY1MDQ3NzMzLC05MDU4NzY2MjEsODc0NDQ1
