@@ -864,7 +864,7 @@ val productPrice = priceList[orderData[0].split("-")[1]]
 val orderPrice = orderData[1].toInt() * productPrice
 ```
 
-**🔻 클래스로 묶기**
+**🔻 단계 쪼개기**
 
 ```kotlin
 val orderRecord = parseOrder(order)
@@ -878,17 +878,20 @@ fun parseOrder(str: String): Order{
    )
 }
 
-fun price(order: Order, priceList: Array[Int]){
+fun price(order: Order, priceList: Array[Int]): Int{
    return order.quantity * priceList[order.productID]
 }
 ```
 
+### 🔎 &nbsp;&nbsp;단계 쪼개기
+- 동작을 연이은 두 단계로 쪼개는 것.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM0NDU2NDcwLC0yMDAzMjk5NTUyLC04Nj
-E5MDU1MTIsMTgyMjUwNDQ4NSwxNDY2NDY3MDcwLDM0NjM1MzAy
-NywxOTIyODgxMDU2LC01NjUwNDc3MzMsLTkwNTg3NjYyMSw4Nz
-Q0NDU4OTMsLTk3NjA0NjE1NSw2NDU4NDgxNzAsMTQ2MzcyMDg3
-OSwtMTY5ODQ2MDcxNiwtNDE2NTA4NTY1LC0yNzg4OTkwOTMsMT
-ExNDUyMTcxMywtNDI3Nzk2MjM5LC04MTk3MTAzOCwtODAyMDUx
-MDQxXX0=
+eyJoaXN0b3J5IjpbMTc0ODY2OTEyOSwtMjAwMzI5OTU1MiwtOD
+YxOTA1NTEyLDE4MjI1MDQ0ODUsMTQ2NjQ2NzA3MCwzNDYzNTMw
+MjcsMTkyMjg4MTA1NiwtNTY1MDQ3NzMzLC05MDU4NzY2MjEsOD
+c0NDQ1ODkzLC05NzYwNDYxNTUsNjQ1ODQ4MTcwLDE0NjM3MjA4
+NzksLTE2OTg0NjA3MTYsLTQxNjUwODU2NSwtMjc4ODk5MDkzLD
+ExMTQ1MjE3MTMsLTQyNzc5NjIzOSwtODE5NzEwMzgsLTgwMjA1
+MTA0MV19
 -->
