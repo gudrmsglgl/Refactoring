@@ -859,7 +859,9 @@ fun enrichReading(argReading): Reading {
 
 
 ```kotlin
-val orderData = orderString.split()
+val orderData = orderString.split(/\s+/)
+val productPrice = priceList[orderData[0].split("-")[1]]
+val orderPrice = orderData
 ```
 
 **🔻 클래스로 묶기**
@@ -873,11 +875,11 @@ class Reading {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NDI1Mjk5OSwtODYxOTA1NTEyLDE4Mj
-I1MDQ0ODUsMTQ2NjQ2NzA3MCwzNDYzNTMwMjcsMTkyMjg4MTA1
-NiwtNTY1MDQ3NzMzLC05MDU4NzY2MjEsODc0NDQ1ODkzLC05Nz
-YwNDYxNTUsNjQ1ODQ4MTcwLDE0NjM3MjA4NzksLTE2OTg0NjA3
-MTYsLTQxNjUwODU2NSwtMjc4ODk5MDkzLDExMTQ1MjE3MTMsLT
-QyNzc5NjIzOSwtODE5NzEwMzgsLTgwMjA1MTA0MSwtMjEwMDcw
-NTkyNV19
+eyJoaXN0b3J5IjpbNzg0NDU4MDQ0LC04NjE5MDU1MTIsMTgyMj
+UwNDQ4NSwxNDY2NDY3MDcwLDM0NjM1MzAyNywxOTIyODgxMDU2
+LC01NjUwNDc3MzMsLTkwNTg3NjYyMSw4NzQ0NDU4OTMsLTk3Nj
+A0NjE1NSw2NDU4NDgxNzAsMTQ2MzcyMDg3OSwtMTY5ODQ2MDcx
+NiwtNDE2NTA4NTY1LC0yNzg4OTkwOTMsMTExNDUyMTcxMywtND
+I3Nzk2MjM5LC04MTk3MTAzOCwtODAyMDUxMDQxLC0yMTAwNzA1
+OTI1XX0=
 -->
