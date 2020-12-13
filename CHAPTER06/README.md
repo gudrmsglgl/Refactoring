@@ -789,12 +789,19 @@ fun taxableChargeFn(aReading: Reading) =
 class Reading(private val data: rawReading){
    ...
    val texableCharge           
-      get() = Math.max(0, baseCharge - taxThreshold(aReading.year))               
-      
+      get() = Math.max(0, this.baseCharge - taxThreshold(this.year))               
 }
 ```
+
+- [x] 프로그램의 다른 부분에서 데이터를 갱신할 가능성이 꽤 있을 때는 클래스로 묶어두면 큰 도움이 된다.
+
+```kotlin
+val rawReading = acquireReading()
+val aReading = Reading(rawReading)
+val taxableCharge = aReading.texableCharge
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1ODU0NDkzOCwzNDYzNTMwMjcsMTkyMj
+eyJoaXN0b3J5IjpbMTAzNjQwMTEyNCwzNDYzNTMwMjcsMTkyMj
 g4MTA1NiwtNTY1MDQ3NzMzLC05MDU4NzY2MjEsODc0NDQ1ODkz
 LC05NzYwNDYxNTUsNjQ1ODQ4MTcwLDE0NjM3MjA4NzksLTE2OT
 g0NjA3MTYsLTQxNjUwODU2NSwtMjc4ODk5MDkzLDExMTQ1MjE3
