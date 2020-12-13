@@ -884,11 +884,14 @@ fun price(order: Order, priceList: Array[Int]): Int{
 ```
 
 ### 🔎 &nbsp;&nbsp;단계 쪼개기
-- **👫서로 다른 두 대상을 한꺼번에 다루는 코드**를 발견하면 별개 모듈로 나누는 방법 모색
+- **👫 서로 다른 두 대상을 한꺼번에 다루는 코드**를 발견하면 별개 모듈로 나누는 방법 모색
+	- 수정할 때 하나에만 집중 가능
+	- 다른 모듈의 상세 내용 기억 못해도 원하는 대로 수정 가능 
 - 동작을 연이은 두 단계로 쪼개는 것.
+	- [x] 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjE5OTA2NDQsLTIwMDMyOTk1NTIsLT
+eyJoaXN0b3J5IjpbLTE3MTYxMTI2MDcsLTIwMDMyOTk1NTIsLT
 g2MTkwNTUxMiwxODIyNTA0NDg1LDE0NjY0NjcwNzAsMzQ2MzUz
 MDI3LDE5MjI4ODEwNTYsLTU2NTA0NzczMywtOTA1ODc2NjIxLD
 g3NDQ0NTg5MywtOTc2MDQ2MTU1LDY0NTg0ODE3MCwxNDYzNzIw
