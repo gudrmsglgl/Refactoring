@@ -745,11 +745,15 @@ class Reading(private val data: rawReading){
       get() = data.quantity
    val month
       get() = data.month
-   val year         
+   val year
+      get() = data.year            
 }
 ```
+
+&emsp;⓶ 만들어져 있는 calculateBaseCharge() 옮기자
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNjA5OTk0MiwzNDYzNTMwMjcsMTkyMj
+eyJoaXN0b3J5IjpbMTk3MTI1OTM5MSwzNDYzNTMwMjcsMTkyMj
 g4MTA1NiwtNTY1MDQ3NzMzLC05MDU4NzY2MjEsODc0NDQ1ODkz
 LC05NzYwNDYxNTUsNjQ1ODQ4MTcwLDE0NjM3MjA4NzksLTE2OT
 g0NjA3MTYsLTQxNjUwODU2NSwtMjc4ODk5MDkzLDExMTQ1MjE3
