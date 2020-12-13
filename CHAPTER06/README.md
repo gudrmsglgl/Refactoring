@@ -829,15 +829,15 @@ fun enrichReading(argReading): Reading {
 - 검색과 갱신을 일관된 장소에서 처리할 수 있고 로직 중복 방지
 - 클래스 묶기와 변환함수 묶기
 	❗ 원본 데이터가 코드 안에서 **갱신될 때**는 **클래스로 묶는 편이 훨씬 낫다.**
-- 데이터 구조와 이를 사용하는 함수가 
+- 데이터 구조와 이를 사용하는 함수를 쉽게 찾아 쓸 수 있다. 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk0Nzg5MDQwLDE0NjY0NjcwNzAsMzQ2Mz
-UzMDI3LDE5MjI4ODEwNTYsLTU2NTA0NzczMywtOTA1ODc2NjIx
-LDg3NDQ0NTg5MywtOTc2MDQ2MTU1LDY0NTg0ODE3MCwxNDYzNz
-IwODc5LC0xNjk4NDYwNzE2LC00MTY1MDg1NjUsLTI3ODg5OTA5
-MywxMTE0NTIxNzEzLC00Mjc3OTYyMzksLTgxOTcxMDM4LC04MD
-IwNTEwNDEsLTIxMDA3MDU5MjUsMTUwNDU0NDA4Nyw1MTA2MjYx
-MDJdfQ==
+eyJoaXN0b3J5IjpbMTgyMjUwNDQ4NSwxNDY2NDY3MDcwLDM0Nj
+M1MzAyNywxOTIyODgxMDU2LC01NjUwNDc3MzMsLTkwNTg3NjYy
+MSw4NzQ0NDU4OTMsLTk3NjA0NjE1NSw2NDU4NDgxNzAsMTQ2Mz
+cyMDg3OSwtMTY5ODQ2MDcxNiwtNDE2NTA4NTY1LC0yNzg4OTkw
+OTMsMTExNDUyMTcxMywtNDI3Nzk2MjM5LC04MTk3MTAzOCwtOD
+AyMDUxMDQxLC0yMTAwNzA1OTI1LDE1MDQ1NDQwODcsNTEwNjI2
+MTAyXX0=
 -->
