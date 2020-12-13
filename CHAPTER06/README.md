@@ -526,7 +526,7 @@ fun amountOverdue(dateRange: DateRange){...}
 <br>
 
 ### 🔎 &nbsp;&nbsp;매개변수 객체 만들 때 
-- 데이터 항목 여러 개가 이 함수에서 저 함수로 함께 몰려다니는 경우
+- **💾 데이터 항목 여러 개**가 이 함수에서 저 함수로 함께 몰려다니는 경우
 - 데이터 구조로 묶으면 데이터 사이의 관계 명확
 - 매개변수 수 감소
 - 모든 함수가 원소를 참조할 때 똑같은 이름을 사용하기 때문에 일관성 높임
@@ -833,11 +833,11 @@ fun enrichReading(argReading): Reading {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjk1NTY0MDIsMTgyMjUwNDQ4NSwxND
-Y2NDY3MDcwLDM0NjM1MzAyNywxOTIyODgxMDU2LC01NjUwNDc3
-MzMsLTkwNTg3NjYyMSw4NzQ0NDU4OTMsLTk3NjA0NjE1NSw2ND
-U4NDgxNzAsMTQ2MzcyMDg3OSwtMTY5ODQ2MDcxNiwtNDE2NTA4
-NTY1LC0yNzg4OTkwOTMsMTExNDUyMTcxMywtNDI3Nzk2MjM5LC
-04MTk3MTAzOCwtODAyMDUxMDQxLC0yMTAwNzA1OTI1LDE1MDQ1
-NDQwODddfQ==
+eyJoaXN0b3J5IjpbMTQ0OTM4NTAwMSwxODIyNTA0NDg1LDE0Nj
+Y0NjcwNzAsMzQ2MzUzMDI3LDE5MjI4ODEwNTYsLTU2NTA0Nzcz
+MywtOTA1ODc2NjIxLDg3NDQ0NTg5MywtOTc2MDQ2MTU1LDY0NT
+g0ODE3MCwxNDYzNzIwODc5LC0xNjk4NDYwNzE2LC00MTY1MDg1
+NjUsLTI3ODg5OTA5MywxMTE0NTIxNzEzLC00Mjc3OTYyMzksLT
+gxOTcxMDM4LC04MDIwNTEwNDEsLTIxMDA3MDU5MjUsMTUwNDU0
+NDA4N119
 -->
