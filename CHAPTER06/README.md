@@ -888,14 +888,15 @@ fun price(order: Order, priceList: Array[Int]): Int{
 	- 수정할 때 하나에만 집중 가능
 	- 다른 모듈의 상세 내용 기억 못해도 원하는 대로 수정 가능 
 - 동작을 연이은 두 단계로 쪼개는 것.
-	- [x] 
+	- [x] 입력값을 다루기 편한 형태로 가공 or 순차적인 단계들로 분리
+	- [x] 각 단계는 서로 확연히 다른 일을 수행해야 함
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTYxMTI2MDcsLTIwMDMyOTk1NTIsLT
-g2MTkwNTUxMiwxODIyNTA0NDg1LDE0NjY0NjcwNzAsMzQ2MzUz
-MDI3LDE5MjI4ODEwNTYsLTU2NTA0NzczMywtOTA1ODc2NjIxLD
-g3NDQ0NTg5MywtOTc2MDQ2MTU1LDY0NTg0ODE3MCwxNDYzNzIw
-ODc5LC0xNjk4NDYwNzE2LC00MTY1MDg1NjUsLTI3ODg5OTA5My
-wxMTE0NTIxNzEzLC00Mjc3OTYyMzksLTgxOTcxMDM4LC04MDIw
-NTEwNDFdfQ==
+eyJoaXN0b3J5IjpbMTA4NTM0MzcxMywtMjAwMzI5OTU1MiwtOD
+YxOTA1NTEyLDE4MjI1MDQ0ODUsMTQ2NjQ2NzA3MCwzNDYzNTMw
+MjcsMTkyMjg4MTA1NiwtNTY1MDQ3NzMzLC05MDU4NzY2MjEsOD
+c0NDQ1ODkzLC05NzYwNDYxNTUsNjQ1ODQ4MTcwLDE0NjM3MjA4
+NzksLTE2OTg0NjA3MTYsLTQxNjUwODU2NSwtMjc4ODk5MDkzLD
+ExMTQ1MjE3MTMsLTQyNzc5NjIzOSwtODE5NzEwMzgsLTgwMjA1
+MTA0MV19
 -->
