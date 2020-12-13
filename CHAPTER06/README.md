@@ -919,15 +919,17 @@ fun priceOrder(
    shippingMethod): Int {
    val basePrice = product.basePrice * quantity
    val discount = Math.max(quantity - product.discountThreshold, 0) * product.basePrice * product.discountRate
+   val shippingPerCase = (basePrice > shippingMethod.discountThreshold) ? shippingMethod.discountedFee : shippingMethod.feePerCase
+   
 }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgyNzQ0ODQ1LDEyODg2MzgyMDgsNjA1Mz
-U3MjgyLC0xNDA1MTc3NjIzLDE5NjE1MTQ5MDMsLTIwMDMyOTk1
-NTIsLTg2MTkwNTUxMiwxODIyNTA0NDg1LDE0NjY0NjcwNzAsMz
-Q2MzUzMDI3LDE5MjI4ODEwNTYsLTU2NTA0NzczMywtOTA1ODc2
-NjIxLDg3NDQ0NTg5MywtOTc2MDQ2MTU1LDY0NTg0ODE3MCwxND
-YzNzIwODc5LC0xNjk4NDYwNzE2LC00MTY1MDg1NjUsLTI3ODg5
-OTA5M119
+eyJoaXN0b3J5IjpbNjE2MjQ4NzYyLDQ4Mjc0NDg0NSwxMjg4Nj
+M4MjA4LDYwNTM1NzI4MiwtMTQwNTE3NzYyMywxOTYxNTE0OTAz
+LC0yMDAzMjk5NTUyLC04NjE5MDU1MTIsMTgyMjUwNDQ4NSwxND
+Y2NDY3MDcwLDM0NjM1MzAyNywxOTIyODgxMDU2LC01NjUwNDc3
+MzMsLTkwNTg3NjYyMSw4NzQ0NDU4OTMsLTk3NjA0NjE1NSw2ND
+U4NDgxNzAsMTQ2MzcyMDg3OSwtMTY5ODQ2MDcxNiwtNDE2NTA4
+NTY1XX0=
 -->
