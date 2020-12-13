@@ -841,13 +841,14 @@ fun enrichReading(argReading): Reading {
 
 &emsp;⓵ 변환할 레코드를 입력받아서 값을 그대로 반환하는 함수를 만든다.
 ```
--> 대체로 깊은 복사로 처리해야 한다. 변환 함수가 원본 레코드를 바꾸지 않는지 검사하는 테스트를 마련해두면 도움
+-> 대체로 깊은 복사로 처리해야 한다. 
+   변환 함수가 원본 레코드를 바꾸지 않는지 검사하는 테스트를 마련해두면 도움
 ```
-&emsp;⓶ 공통 레코드를 사용하는 함수 각각을 새 클래스로 옮긴다.</br>  
+&emsp;⓶ 묶을 함수 중 함수 하나를 골라서 본문 코드를 변환 함수로 옮기고, 처리 결과를 레코드에 새 필드로 기록한다. 그런 다음 클라이언트 코드가 이 필드를 사용하도록 수정.</br>  
 ```
--> 공통 레코드의 멤버는 함수 호출문의 인수 목록에서 제거한다
+-> 로직이 복잡하면 함수 추출하기부터 한다.
 ```
-&emsp;⓷ 데이터를 조작하는 로직들은 함수로 추출해서 새 클래스로 옮긴다.</br>  
+&emsp;⓷ 테스트한다.</br> 
 
 <br>
 
@@ -860,11 +861,11 @@ val taxableCharge = Math.max(0, base - taxThreshold(aReading.year))
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMwNDUyODczLDE4MjI1MDQ0ODUsMTQ2Nj
-Q2NzA3MCwzNDYzNTMwMjcsMTkyMjg4MTA1NiwtNTY1MDQ3NzMz
-LC05MDU4NzY2MjEsODc0NDQ1ODkzLC05NzYwNDYxNTUsNjQ1OD
-Q4MTcwLDE0NjM3MjA4NzksLTE2OTg0NjA3MTYsLTQxNjUwODU2
-NSwtMjc4ODk5MDkzLDExMTQ1MjE3MTMsLTQyNzc5NjIzOSwtOD
-E5NzEwMzgsLTgwMjA1MTA0MSwtMjEwMDcwNTkyNSwxNTA0NTQ0
-MDg3XX0=
+eyJoaXN0b3J5IjpbLTg2MTkwNTUxMiwxODIyNTA0NDg1LDE0Nj
+Y0NjcwNzAsMzQ2MzUzMDI3LDE5MjI4ODEwNTYsLTU2NTA0Nzcz
+MywtOTA1ODc2NjIxLDg3NDQ0NTg5MywtOTc2MDQ2MTU1LDY0NT
+g0ODE3MCwxNDYzNzIwODc5LC0xNjk4NDYwNzE2LC00MTY1MDg1
+NjUsLTI3ODg5OTA5MywxMTE0NTIxNzEzLC00Mjc3OTYyMzksLT
+gxOTcxMDM4LC04MDIwNTEwNDEsLTIxMDA3MDU5MjUsMTUwNDU0
+NDA4N119
 -->
