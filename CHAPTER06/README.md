@@ -927,9 +927,9 @@ fun priceOrder(
    return price
 }
 ```
-> 💁 &nbsp;&nbsp;앞의 몇 줄은 상품정보를 이용해서 결제 금액 중 *상품 가격 계산*<br> &emsp;&emsp;반면 뒤의 코드는 배송 정보를 이용하여 결제 금액 중 *배송비를 계산*
+> 💁 &nbsp;&nbsp;앞의 몇 줄은 상품정보를 이용해서 결제 금액 중 '*상품 가격 계산*'<br> &emsp;&emsp;반면 뒤의 코드는 배송 정보를 이용하여 결제 금액 중 '*배송비를 계산'*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzMyNjcxMTQsLTMzMTc1NDc3Myw2MT
+eyJoaXN0b3J5IjpbLTE5MjI1Nzg4MzIsLTMzMTc1NDc3Myw2MT
 YyNDg3NjIsNDgyNzQ0ODQ1LDEyODg2MzgyMDgsNjA1MzU3Mjgy
 LC0xNDA1MTc3NjIzLDE5NjE1MTQ5MDMsLTIwMDMyOTk1NTIsLT
 g2MTkwNTUxMiwxODIyNTA0NDg1LDE0NjY0NjcwNzAsMzQ2MzUz
