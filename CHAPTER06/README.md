@@ -827,10 +827,12 @@ fun enrichReading(argReading): Reading {
 > 원본 데이터를 입력받아서 필요한 정보를 모두 도출한 뒤, <br> 각각을 출력 데이터의 필드에 넣어 변환
 - 정보가 사용되는 곳마다 같은 도출 로직이 반복될 때 
 - 검색과 갱신을 일관된 장소에서 처리할 수 있고 로직 중복 방지
+- 클래스로 묶기와 변환함수로 묶는 것 차이점
+	- 원본 데이터가 코드 안에서 갱신될 때는 클래스로 묶는 편이 훨씬 낫다.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMjMxNTUwOCwxNDY2NDY3MDcwLDM0Nj
+eyJoaXN0b3J5IjpbMTkwNTIyNDY1MywxNDY2NDY3MDcwLDM0Nj
 M1MzAyNywxOTIyODgxMDU2LC01NjUwNDc3MzMsLTkwNTg3NjYy
 MSw4NzQ0NDU4OTMsLTk3NjA0NjE1NSw2NDU4NDgxNzAsMTQ2Mz
 cyMDg3OSwtMTY5ODQ2MDcxNiwtNDE2NTA4NTY1LC0yNzg4OTkw
