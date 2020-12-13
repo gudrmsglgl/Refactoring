@@ -693,7 +693,7 @@ class Reading {
 ```
 
 ### 🔎 &nbsp;&nbsp;함수들을 클래스로 묶을 때 
-- 공통 데이터를 중심으로 긴밀하게 엮여 작동하는 함수 무리를 발견할 때 
+- **공통 데이터를 중심**으로 긴밀하게 엮여 작동하는 함수 무리를 발견할 때 
 - 함수들이 공유하는 공통 환경을 더 명확하게 표현, 각 함수에 적달되는 인수를 줄여서 객체 안에서의 함수 호출을 간결하게 만듬.
 - 시스템의 다른 부분에 전달하기 위한 참조를 제공.
 - 함수를 묶을 때는
@@ -833,11 +833,11 @@ fun enrichReading(argReading): Reading {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMjUwNDQ4NSwxNDY2NDY3MDcwLDM0Nj
-M1MzAyNywxOTIyODgxMDU2LC01NjUwNDc3MzMsLTkwNTg3NjYy
-MSw4NzQ0NDU4OTMsLTk3NjA0NjE1NSw2NDU4NDgxNzAsMTQ2Mz
-cyMDg3OSwtMTY5ODQ2MDcxNiwtNDE2NTA4NTY1LC0yNzg4OTkw
-OTMsMTExNDUyMTcxMywtNDI3Nzk2MjM5LC04MTk3MTAzOCwtOD
-AyMDUxMDQxLC0yMTAwNzA1OTI1LDE1MDQ1NDQwODcsNTEwNjI2
-MTAyXX0=
+eyJoaXN0b3J5IjpbLTEzMjM1OTA5MzksMTgyMjUwNDQ4NSwxND
+Y2NDY3MDcwLDM0NjM1MzAyNywxOTIyODgxMDU2LC01NjUwNDc3
+MzMsLTkwNTg3NjYyMSw4NzQ0NDU4OTMsLTk3NjA0NjE1NSw2ND
+U4NDgxNzAsMTQ2MzcyMDg3OSwtMTY5ODQ2MDcxNiwtNDE2NTA4
+NTY1LC0yNzg4OTkwOTMsMTExNDUyMTcxMywtNDI3Nzk2MjM5LC
+04MTk3MTAzOCwtODAyMDUxMDQxLC0yMTAwNzA1OTI1LDE1MDQ1
+NDQwODddfQ==
 -->
