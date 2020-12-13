@@ -750,7 +750,7 @@ class Reading(private val data: rawReading){
 }
 ```
 
-&emsp;⓶ 만들어져 있는 calculateBaseCharge() 옮기자
+&emsp;⓶ 만들어져 있는 calculateBaseCharge() 클래스로 옮기자
 
 ```kotlin
 class Reading(private val data: rawReading){
@@ -784,8 +784,17 @@ val taxableCharge = Math.max(0, aReading.baseCharge - taxThreshold(aReading.year
 fun taxableChargeFn(aReading: Reading) = 
    Math.max(0, aReading.baseCharge - taxThreshold(aReading.year))
 ```
+&emsp;⓶ 만들어져 있는 taxableChargeFn() 클래스로 옮기자
+```kotlin
+class Reading(private val data: rawReading){
+   ...
+   val texableCharge           
+      get() = Math.max(0, baseCharge - taxThreshold(aReading.year))               
+      
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyODU3MTcwMCwzNDYzNTMwMjcsMTkyMj
+eyJoaXN0b3J5IjpbMTY1ODU0NDkzOCwzNDYzNTMwMjcsMTkyMj
 g4MTA1NiwtNTY1MDQ3NzMzLC05MDU4NzY2MjEsODc0NDQ1ODkz
 LC05NzYwNDYxNTUsNjQ1ODQ4MTcwLDE0NjM3MjA4NzksLTE2OT
 g0NjA3MTYsLTQxNjUwODU2NSwtMjc4ODk5MDkzLDExMTQ1MjE3
