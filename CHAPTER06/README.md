@@ -815,18 +815,19 @@ fun taxableCharge(reading: Reading){...}
 **🔻 변환 함수로 묶기**
 
 ```kotlin
-class Reading {
-	base(){...}
-	taxableCharge(){...}
-	calculateBaseCharge(){...}
+fun enrichReading(argReading): Reading {
+   val aReading = _.cloneDeep(argReading)
+   aReading.baseCharge = base(aReading)
+   aReading.taxableCharge = taxableCharge(aReading)
+   return aReading
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMjg5NTEyNywxNDY2NDY3MDcwLDM0Nj
-M1MzAyNywxOTIyODgxMDU2LC01NjUwNDc3MzMsLTkwNTg3NjYy
-MSw4NzQ0NDU4OTMsLTk3NjA0NjE1NSw2NDU4NDgxNzAsMTQ2Mz
-cyMDg3OSwtMTY5ODQ2MDcxNiwtNDE2NTA4NTY1LC0yNzg4OTkw
-OTMsMTExNDUyMTcxMywtNDI3Nzk2MjM5LC04MTk3MTAzOCwtOD
-AyMDUxMDQxLC0yMTAwNzA1OTI1LDE1MDQ1NDQwODcsNTEwNjI2
-MTAyXX0=
+eyJoaXN0b3J5IjpbLTExMTg1OTc5NjksMTQ2NjQ2NzA3MCwzND
+YzNTMwMjcsMTkyMjg4MTA1NiwtNTY1MDQ3NzMzLC05MDU4NzY2
+MjEsODc0NDQ1ODkzLC05NzYwNDYxNTUsNjQ1ODQ4MTcwLDE0Nj
+M3MjA4NzksLTE2OTg0NjA3MTYsLTQxNjUwODU2NSwtMjc4ODk5
+MDkzLDExMTQ1MjE3MTMsLTQyNzc5NjIzOSwtODE5NzEwMzgsLT
+gwMjA1MTA0MSwtMjEwMDcwNTkyNSwxNTA0NTQ0MDg3LDUxMDYy
+NjEwMl19
 -->
