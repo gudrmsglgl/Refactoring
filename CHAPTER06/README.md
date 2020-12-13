@@ -916,17 +916,18 @@ fun price(order: Order, priceList: Array[Int]): Int{
 fun priceOrder(
    product: Product,
    quantity: Int, 
-   shippingMethod){
+   shippingMethod): Int {
    val basePrice = product.basePrice * quantity
+   val discount = Math.max(quantity - product.discountThreshold, 0) * product.basePrice * product.discountRate
 }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NDYzMzIzNCwxMjg4NjM4MjA4LDYwNT
-M1NzI4MiwtMTQwNTE3NzYyMywxOTYxNTE0OTAzLC0yMDAzMjk5
-NTUyLC04NjE5MDU1MTIsMTgyMjUwNDQ4NSwxNDY2NDY3MDcwLD
-M0NjM1MzAyNywxOTIyODgxMDU2LC01NjUwNDc3MzMsLTkwNTg3
-NjYyMSw4NzQ0NDU4OTMsLTk3NjA0NjE1NSw2NDU4NDgxNzAsMT
-Q2MzcyMDg3OSwtMTY5ODQ2MDcxNiwtNDE2NTA4NTY1LC0yNzg4
-OTkwOTNdfQ==
+eyJoaXN0b3J5IjpbNDgyNzQ0ODQ1LDEyODg2MzgyMDgsNjA1Mz
+U3MjgyLC0xNDA1MTc3NjIzLDE5NjE1MTQ5MDMsLTIwMDMyOTk1
+NTIsLTg2MTkwNTUxMiwxODIyNTA0NDg1LDE0NjY0NjcwNzAsMz
+Q2MzUzMDI3LDE5MjI4ODEwNTYsLTU2NTA0NzczMywtOTA1ODc2
+NjIxLDg3NDQ0NTg5MywtOTc2MDQ2MTU1LDY0NTg0ODE3MCwxND
+YzNzIwODc5LC0xNjk4NDYwNzE2LC00MTY1MDg1NjUsLTI3ODg5
+OTA5M119
 -->
