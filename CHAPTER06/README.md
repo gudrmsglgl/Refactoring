@@ -824,15 +824,17 @@ fun enrichReading(argReading): Reading {
 ```
 
 ### 🔎 &nbsp;&nbsp;함수들을 변환함수로 묶을 때
-- 정보가 사용되는 곳마다 같은 도출 로직이 반복
-- 
+> 원본 데이터를 입력받아서 필요한 정보를 모두 도출한 뒤, <br> 각각을 출력 데이터의 필드에 넣어 변환
+- 정보가 사용되는 곳마다 같은 도출 로직이 반복될 때 
+- 검색과 갱신을 일관된 장소에서 처리할 수 있고 로직 중복 방지
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM5MjE4MzY1LDE0NjY0NjcwNzAsMzQ2Mz
-UzMDI3LDE5MjI4ODEwNTYsLTU2NTA0NzczMywtOTA1ODc2NjIx
-LDg3NDQ0NTg5MywtOTc2MDQ2MTU1LDY0NTg0ODE3MCwxNDYzNz
-IwODc5LC0xNjk4NDYwNzE2LC00MTY1MDg1NjUsLTI3ODg5OTA5
-MywxMTE0NTIxNzEzLC00Mjc3OTYyMzksLTgxOTcxMDM4LC04MD
-IwNTEwNDEsLTIxMDA3MDU5MjUsMTUwNDU0NDA4Nyw1MTA2MjYx
-MDJdfQ==
+eyJoaXN0b3J5IjpbLTcxMjMxNTUwOCwxNDY2NDY3MDcwLDM0Nj
+M1MzAyNywxOTIyODgxMDU2LC01NjUwNDc3MzMsLTkwNTg3NjYy
+MSw4NzQ0NDU4OTMsLTk3NjA0NjE1NSw2NDU4NDgxNzAsMTQ2Mz
+cyMDg3OSwtMTY5ODQ2MDcxNiwtNDE2NTA4NTY1LC0yNzg4OTkw
+OTMsMTExNDUyMTcxMywtNDI3Nzk2MjM5LC04MTk3MTAzOCwtOD
+AyMDUxMDQxLC0yMTAwNzA1OTI1LDE1MDQ1NDQwODcsNTEwNjI2
+MTAyXX0=
 -->
