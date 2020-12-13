@@ -769,16 +769,16 @@ class Reading(private val data: rawReading){
 
 ```kotlin
 val rawReading = acquireReading()
-val 
-val base = (baseRate(aReading.month, areading.year) * aReading.quantity)  // 👈 함수 추출의 필요성을 느껴야함
+val aReading = Reading(rawReading)
+val base = aReading.baseCharge // 👈 변수 인라인 하고 싶은 충동이 느껴져야 함
 val taxableCharge = Math.max(0, base - taxThreshold(aReading.year))
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTMzODYyMTcsMzQ2MzUzMDI3LDE5Mj
-I4ODEwNTYsLTU2NTA0NzczMywtOTA1ODc2NjIxLDg3NDQ0NTg5
-MywtOTc2MDQ2MTU1LDY0NTg0ODE3MCwxNDYzNzIwODc5LC0xNj
-k4NDYwNzE2LC00MTY1MDg1NjUsLTI3ODg5OTA5MywxMTE0NTIx
-NzEzLC00Mjc3OTYyMzksLTgxOTcxMDM4LC04MDIwNTEwNDEsLT
-IxMDA3MDU5MjUsMTUwNDU0NDA4Nyw1MTA2MjYxMDIsNTU2Njgw
-MzE0XX0=
+eyJoaXN0b3J5IjpbLTIzNzA4NDA2NSwzNDYzNTMwMjcsMTkyMj
+g4MTA1NiwtNTY1MDQ3NzMzLC05MDU4NzY2MjEsODc0NDQ1ODkz
+LC05NzYwNDYxNTUsNjQ1ODQ4MTcwLDE0NjM3MjA4NzksLTE2OT
+g0NjA3MTYsLTQxNjUwODU2NSwtMjc4ODk5MDkzLDExMTQ1MjE3
+MTMsLTQyNzc5NjIzOSwtODE5NzEwMzgsLTgwMjA1MTA0MSwtMj
+EwMDcwNTkyNSwxNTA0NTQ0MDg3LDUxMDYyNjEwMiw1NTY2ODAz
+MTRdfQ==
 -->
