@@ -1056,9 +1056,10 @@ fun priceOrder(
    return price
 }
 
-fun calculatePricaingData(){
+fun calculatePricaingData(): Price{
    val basePrice = ...
    val disCount = ...
+   return Price(basePrice = basePrice, quantity = quantity, discount = discount)
 }
 
 fun applyShipping(
@@ -1075,11 +1076,11 @@ fun applyShipping(
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzOTE0NDc0NCwtNTY5NjYzMTkwLDEwOT
-YyOTg5MzksMzA0NjUyNDgwLDE0NTQ5MjkzMTIsNzkxNDU5NDk4
-LC0zMzE3NTQ3NzMsNjE2MjQ4NzYyLDQ4Mjc0NDg0NSwxMjg4Nj
-M4MjA4LDYwNTM1NzI4MiwtMTQwNTE3NzYyMywxOTYxNTE0OTAz
-LC0yMDAzMjk5NTUyLC04NjE5MDU1MTIsMTgyMjUwNDQ4NSwxND
-Y2NDY3MDcwLDM0NjM1MzAyNywxOTIyODgxMDU2LC01NjUwNDc3
-MzNdfQ==
+eyJoaXN0b3J5IjpbMjI5MDExNTY0LC01Njk2NjMxOTAsMTA5Nj
+I5ODkzOSwzMDQ2NTI0ODAsMTQ1NDkyOTMxMiw3OTE0NTk0OTgs
+LTMzMTc1NDc3Myw2MTYyNDg3NjIsNDgyNzQ0ODQ1LDEyODg2Mz
+gyMDgsNjA1MzU3MjgyLC0xNDA1MTc3NjIzLDE5NjE1MTQ5MDMs
+LTIwMDMyOTk1NTIsLTg2MTkwNTUxMiwxODIyNTA0NDg1LDE0Nj
+Y0NjcwNzAsMzQ2MzUzMDI3LDE5MjI4ODEwNTYsLTU2NTA0Nzcz
+M119
 -->
