@@ -1002,8 +1002,8 @@ fun priceOrder(
 }
 
 fun applyShipping(
-   priceData: Price, // 👈 중간 데이터 매개변수 추가
-   basePrice: Int, 
+   priceData: Price, 
+   //basePrice: Int, 👈 중간 데이터로 매개변수 옮겼으니 제거
    shippingMethod,
    quantity: Int,
    discount: Int
@@ -1015,7 +1015,7 @@ fun applyShipping(
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA5OTYzMzEwLDc5MTQ1OTQ5OCwtMzMxNz
+eyJoaXN0b3J5IjpbLTE4NDQ1NDE4LDc5MTQ1OTQ5OCwtMzMxNz
 U0NzczLDYxNjI0ODc2Miw0ODI3NDQ4NDUsMTI4ODYzODIwOCw2
 MDUzNTcyODIsLTE0MDUxNzc2MjMsMTk2MTUxNDkwMywtMjAwMz
 I5OTU1MiwtODYxOTA1NTEyLDE4MjI1MDQ0ODUsMTQ2NjQ2NzA3
