@@ -1015,13 +1015,39 @@ fun applyShipping(
 }
 ```
 
-&emsp; ***중간 데이터 구조로 옮기고 매개변수 목록에서 제거***
+&emsp; ***다른 매개변수도 중간 데이터 구조로 옮기고 매개변수 목록에서 제거***
+```kotlin
+fun priceOrder(
+   product: Product,
+   quantity: Int, 
+   shippingMethod
+): Int {
+   val basePrice = product.basePrice * quantity
+   val discount = Math.max(quantity - product.discountThreshold, 0) * product.basePrice * product.discountRate
+   val priceData = Price(basePrice = basePrice) // 👈 중간 데이터 구조로 매개변수 옮김
+   val price = applyShipping(priceData, /*basePrice,*/ shippingMethod, quantity, discount)
+   return price
+}
+
+fun applyShipping(
+   priceData: Price, 
+   //basePrice: Int,  
+   shippingMethod,
+   //quantity: Int, 👈 중간 데이터로 매개변수 옮겼으니 제거
+   //discount: Int             ""
+): Int{
+   val shippingPerCase = (priceData.basePrice > shippingMethod.discountThreshold) ? shippingMethod.discountedFee : shippingMethod.feePerCase
+   val shippingCost = quantity * shippingPerCase
+   val price = priceData.basePrice - discount + shippingCost
+   return price
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEzMDI2NzkxLDMwNDY1MjQ4MCwxNDU0OT
-I5MzEyLDc5MTQ1OTQ5OCwtMzMxNzU0NzczLDYxNjI0ODc2Miw0
-ODI3NDQ4NDUsMTI4ODYzODIwOCw2MDUzNTcyODIsLTE0MDUxNz
-c2MjMsMTk2MTUxNDkwMywtMjAwMzI5OTU1MiwtODYxOTA1NTEy
-LDE4MjI1MDQ0ODUsMTQ2NjQ2NzA3MCwzNDYzNTMwMjcsMTkyMj
-g4MTA1NiwtNTY1MDQ3NzMzLC05MDU4NzY2MjEsODc0NDQ1ODkz
-XX0=
+eyJoaXN0b3J5IjpbLTkxOTc1OTQyNSwzMDQ2NTI0ODAsMTQ1ND
+kyOTMxMiw3OTE0NTk0OTgsLTMzMTc1NDc3Myw2MTYyNDg3NjIs
+NDgyNzQ0ODQ1LDEyODg2MzgyMDgsNjA1MzU3MjgyLC0xNDA1MT
+c3NjIzLDE5NjE1MTQ5MDMsLTIwMDMyOTk1NTIsLTg2MTkwNTUx
+MiwxODIyNTA0NDg1LDE0NjY0NjcwNzAsMzQ2MzUzMDI3LDE5Mj
+I4ODEwNTYsLTU2NTA0NzczMywtOTA1ODc2NjIxLDg3NDQ0NTg5
+M119
 -->
