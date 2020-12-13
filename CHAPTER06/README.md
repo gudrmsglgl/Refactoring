@@ -538,8 +538,6 @@ fun amountOverdue(dateRange: DateRange){...}
 
 ### 📍 &nbsp;&nbsp;절차
 
-
-
 &emsp;⓵ 적당한 데이터 구조가 아직 마련되어 있지 않다면 새로 만든다.
 ```
 -> 클래스로 만드는걸 선호. 나중에 동작까지 함께 묶기 좋기 때문
@@ -704,12 +702,23 @@ class Reading {
 	- 클라이언트가 객체의 핵심 데이터를 변경 가능
 	- 파생 객체들을 일관되게 관리
 
+<br>
+
+### 📍 &nbsp;&nbsp;절차
+
+&emsp;⓵ 함수들이 공유하는 공통 데이터 레코드를 캡슐화한다.
+```
+-> 공통 데이터가 레코드 구조로 묶여 있지 않다면 
+   먼저 매개변수 객체 만들기로 데이터를 하나로 묶는 레코드를 만든다.
+```
+&emsp;⓶ 공통 레코드를 사용하느</br>  
+&emsp;⓷ 함수 선언 바꾸기로 새 데이터 구조를 매개변수로 추가한다.</br>  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NTA0NzczMywtOTA1ODc2NjIxLDg3ND
-Q0NTg5MywtOTc2MDQ2MTU1LDY0NTg0ODE3MCwxNDYzNzIwODc5
-LC0xNjk4NDYwNzE2LC00MTY1MDg1NjUsLTI3ODg5OTA5MywxMT
-E0NTIxNzEzLC00Mjc3OTYyMzksLTgxOTcxMDM4LC04MDIwNTEw
-NDEsLTIxMDA3MDU5MjUsMTUwNDU0NDA4Nyw1MTA2MjYxMDIsNT
-U2NjgwMzE0LC0xODgyNjQ3ODM2LC0yMDE0MDU4NDgzLDIwMzcw
-NTg3NDddfQ==
+eyJoaXN0b3J5IjpbLTMwODg1NjQyMSwtNTY1MDQ3NzMzLC05MD
+U4NzY2MjEsODc0NDQ1ODkzLC05NzYwNDYxNTUsNjQ1ODQ4MTcw
+LDE0NjM3MjA4NzksLTE2OTg0NjA3MTYsLTQxNjUwODU2NSwtMj
+c4ODk5MDkzLDExMTQ1MjE3MTMsLTQyNzc5NjIzOSwtODE5NzEw
+MzgsLTgwMjA1MTA0MSwtMjEwMDcwNTkyNSwxNTA0NTQ0MDg3LD
+UxMDYyNjEwMiw1NTY2ODAzMTQsLTE4ODI2NDc4MzYsLTIwMTQw
+NTg0ODNdfQ==
 -->
