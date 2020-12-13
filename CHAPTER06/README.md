@@ -927,9 +927,9 @@ fun priceOrder(
    return price
 }
 ```
-
+#### 💁 &nbsp;&nbsp;앞의 몇 줄은 상품정보를 이용해서 결제 금액 중 상품 가격 계산<br> &emsp;뒤의 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMzM1MjI1NiwtMzMxNzU0NzczLDYxNj
+eyJoaXN0b3J5IjpbMTk5NzAzMDI1MCwtMzMxNzU0NzczLDYxNj
 I0ODc2Miw0ODI3NDQ4NDUsMTI4ODYzODIwOCw2MDUzNTcyODIs
 LTE0MDUxNzc2MjMsMTk2MTUxNDkwMywtMjAwMzI5OTU1MiwtOD
 YxOTA1NTEyLDE4MjI1MDQ0ODUsMTQ2NjQ2NzA3MCwzNDYzNTMw
