@@ -125,7 +125,7 @@ fun getRating(driver: Driver): Int{
 <br>
 
 ### 🔎 &nbsp;&nbsp;함수를 인라인 할 때 
-- 함수 본문이 **🔎이름만큼 명확한 경우**
+- 함수 본문이 **🔎 이름만큼 명확한 경우**
 - 함수 본문 코드를 이름만큼 깔끔하게 리팩터링할 때
 - 리팩터링 과정에서 잘못 추출된 함수들도 다시 인라인
 - 간접 호출을 너무 과하게 쓰는 코드
@@ -837,11 +837,11 @@ fun enrichReading(argReading): Reading {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODg5NDE1MzQsMTgyMjUwNDQ4NSwxND
-Y2NDY3MDcwLDM0NjM1MzAyNywxOTIyODgxMDU2LC01NjUwNDc3
-MzMsLTkwNTg3NjYyMSw4NzQ0NDU4OTMsLTk3NjA0NjE1NSw2ND
-U4NDgxNzAsMTQ2MzcyMDg3OSwtMTY5ODQ2MDcxNiwtNDE2NTA4
-NTY1LC0yNzg4OTkwOTMsMTExNDUyMTcxMywtNDI3Nzk2MjM5LC
-04MTk3MTAzOCwtODAyMDUxMDQxLC0yMTAwNzA1OTI1LDE1MDQ1
-NDQwODddfQ==
+eyJoaXN0b3J5IjpbMTI4NDMwMTc0OCwxODIyNTA0NDg1LDE0Nj
+Y0NjcwNzAsMzQ2MzUzMDI3LDE5MjI4ODEwNTYsLTU2NTA0Nzcz
+MywtOTA1ODc2NjIxLDg3NDQ0NTg5MywtOTc2MDQ2MTU1LDY0NT
+g0ODE3MCwxNDYzNzIwODc5LC0xNjk4NDYwNzE2LC00MTY1MDg1
+NjUsLTI3ODg5OTA5MywxMTE0NTIxNzEzLC00Mjc3OTYyMzksLT
+gxOTcxMDM4LC04MDIwNTEwNDEsLTIxMDA3MDU5MjUsMTUwNDU0
+NDA4N119
 -->
