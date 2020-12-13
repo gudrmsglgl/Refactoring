@@ -901,19 +901,20 @@ fun price(order: Order, priceList: Array[Int]): Int{
 &emsp;⓸ 테스트한다. <br>
 &emsp;⓹ 추출한 두 번째 단계 함수의 매개변수를 하나씩 검토한다. 그중 첫 번째 단계에서 사용되는 것은 중간 데이터 구조로 옮긴다. 하나씩 옮길 때마다 테스트한다. <br>
 ```
--> 간혹 두 번째 단계에서 사용하면 안 되는 매개변수가 있다. 이럴 때는 각 매개변수를 사용한 결과를 중간 데이터 구조의 필드로 추출하고, 이 필드의 값을 설정하는 
+-> 간혹 두 번째 단계에서 사용하면 안 되는 매개변수가 있다. 이럴 때는 각 매개변수를 사용한 결과를 
+중간 데이터 구조의 필드로 추출하고, 이 필드의 값을 설정하는 문장을 호출한 곳으로 옮긴다.
 ```
-&emsp;⓺ 변수 값이 레코드라면 레코드 캡슐화하기를 적용할지 고려.<br>
+&emsp;⓺ 첫 번째 단계 코드를 함수로 추출하면서 중간 데이터 구조를 반환하도록 만든다.<br>
 
 <br>
 
 ### **ex) 전역 변수에 중요한 데이터가 담겨 있는 경우**<br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNDQ1MDM4NiwtMTQwNTE3NzYyMywxOT
-YxNTE0OTAzLC0yMDAzMjk5NTUyLC04NjE5MDU1MTIsMTgyMjUw
-NDQ4NSwxNDY2NDY3MDcwLDM0NjM1MzAyNywxOTIyODgxMDU2LC
-01NjUwNDc3MzMsLTkwNTg3NjYyMSw4NzQ0NDU4OTMsLTk3NjA0
-NjE1NSw2NDU4NDgxNzAsMTQ2MzcyMDg3OSwtMTY5ODQ2MDcxNi
-wtNDE2NTA4NTY1LC0yNzg4OTkwOTMsMTExNDUyMTcxMywtNDI3
-Nzk2MjM5XX0=
+eyJoaXN0b3J5IjpbNjA1MzU3MjgyLC0xNDA1MTc3NjIzLDE5Nj
+E1MTQ5MDMsLTIwMDMyOTk1NTIsLTg2MTkwNTUxMiwxODIyNTA0
+NDg1LDE0NjY0NjcwNzAsMzQ2MzUzMDI3LDE5MjI4ODEwNTYsLT
+U2NTA0NzczMywtOTA1ODc2NjIxLDg3NDQ0NTg5MywtOTc2MDQ2
+MTU1LDY0NTg0ODE3MCwxNDYzNzIwODc5LC0xNjk4NDYwNzE2LC
+00MTY1MDg1NjUsLTI3ODg5OTA5MywxMTE0NTIxNzEzLC00Mjc3
+OTYyMzldfQ==
 -->
