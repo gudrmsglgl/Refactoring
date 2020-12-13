@@ -738,16 +738,22 @@ fun calculateBaseCharge(aReading){
 &emsp;⓵ 공통 데이터 레코드를 캡슐화한다.
 
 ```kotlin
-class Reading(data: rawReading){
-   
+class Reading(private val data: rawReading){
+   val customer
+      get() = data.customer
+   val quantity
+      get() = data.quantity
+   val month
+      get() = data.month
+   val year         
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzExMjc3ODc3LDM0NjM1MzAyNywxOTIyOD
-gxMDU2LC01NjUwNDc3MzMsLTkwNTg3NjYyMSw4NzQ0NDU4OTMs
-LTk3NjA0NjE1NSw2NDU4NDgxNzAsMTQ2MzcyMDg3OSwtMTY5OD
-Q2MDcxNiwtNDE2NTA4NTY1LC0yNzg4OTkwOTMsMTExNDUyMTcx
-MywtNDI3Nzk2MjM5LC04MTk3MTAzOCwtODAyMDUxMDQxLC0yMT
-AwNzA1OTI1LDE1MDQ1NDQwODcsNTEwNjI2MTAyLDU1NjY4MDMx
-NF19
+eyJoaXN0b3J5IjpbLTUzNjA5OTk0MiwzNDYzNTMwMjcsMTkyMj
+g4MTA1NiwtNTY1MDQ3NzMzLC05MDU4NzY2MjEsODc0NDQ1ODkz
+LC05NzYwNDYxNTUsNjQ1ODQ4MTcwLDE0NjM3MjA4NzksLTE2OT
+g0NjA3MTYsLTQxNjUwODU2NSwtMjc4ODk5MDkzLDExMTQ1MjE3
+MTMsLTQyNzc5NjIzOSwtODE5NzEwMzgsLTgwMjA1MTA0MSwtMj
+EwMDcwNTkyNSwxNTA0NTQ0MDg3LDUxMDYyNjEwMiw1NTY2ODAz
+MTRdfQ==
 -->
