@@ -8,6 +8,10 @@
 [변수 캡슐화하기](#id-section6)<br>
 [변수 이름 바꾸기](#id-section7)<br>
 [매개변수 객체 만들기](#id-section8)<br>
+[여러 함수를 클래스로 묶기](#id-section9)<br>
+[여러 함수를 변환 함수로 묶기](#id-section10)<br>
+
+
 
 ### 저수준 리팩터링
 - **추출**은 결국 이름 짓기이며, 코드 이해도가 높아지다 보면 이름을 바꿔야 할 때가 많다.
@@ -804,7 +808,7 @@ val taxableCharge = aReading.texableCharge
 
 
 <br>
-<div id='id-section9'/>
+<div id='id-section10'/>
 
 ## 6.10 여러 함수를 변환 함수로 묶기 Combine Functions into Transform
 ```kotlin
@@ -825,7 +829,7 @@ fun enrichReading(argReading): Reading {
 
 ### 🔎 &nbsp;&nbsp;함수들을 변환함수로 묶을 때
 > 원본 데이터를 입력받아서 필요한 정보를 모두 도출한 뒤, <br> 각각을 출력 데이터의 필드에 넣어 변환
-- 정보가 사용되는 곳마다 같은 도출 로직이 반복될 때 
+- 정보가 사용되는 곳마다 같은 **도출 로직이 반복**될 때 
 - 검색과 갱신을 일관된 장소에서 처리할 수 있고 로직 중복 방지
 - 클래스 묶기와 변환함수 묶기
 	❗ 원본 데이터가 코드 안에서 **갱신될 때**는 **클래스로 묶는 편이 훨씬 낫다.**
@@ -833,11 +837,11 @@ fun enrichReading(argReading): Reading {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMDA2MzEzMCwxODIyNTA0NDg1LDE0Nj
-Y0NjcwNzAsMzQ2MzUzMDI3LDE5MjI4ODEwNTYsLTU2NTA0Nzcz
-MywtOTA1ODc2NjIxLDg3NDQ0NTg5MywtOTc2MDQ2MTU1LDY0NT
-g0ODE3MCwxNDYzNzIwODc5LC0xNjk4NDYwNzE2LC00MTY1MDg1
-NjUsLTI3ODg5OTA5MywxMTE0NTIxNzEzLC00Mjc3OTYyMzksLT
-gxOTcxMDM4LC04MDIwNTEwNDEsLTIxMDA3MDU5MjUsMTUwNDU0
-NDA4N119
+eyJoaXN0b3J5IjpbLTEyODg5NDE1MzQsMTgyMjUwNDQ4NSwxND
+Y2NDY3MDcwLDM0NjM1MzAyNywxOTIyODgxMDU2LC01NjUwNDc3
+MzMsLTkwNTg3NjYyMSw4NzQ0NDU4OTMsLTk3NjA0NjE1NSw2ND
+U4NDgxNzAsMTQ2MzcyMDg3OSwtMTY5ODQ2MDcxNiwtNDE2NTA4
+NTY1LC0yNzg4OTkwOTMsMTExNDUyMTcxMywtNDI3Nzk2MjM5LC
+04MTk3MTAzOCwtODAyMDUxMDQxLC0yMTAwNzA1OTI1LDE1MDQ1
+NDQwODddfQ==
 -->
