@@ -988,13 +988,38 @@ fun applyShipping(
 ```
 
 &emsp;⓹ 매개변수를 살펴본다. 이중 basePrice는 첫 번째 단계를 수행하는 코드에서 생성.<br> 따라서 ***중간 데이터 구조로 옮기고 매개변수 목록에서 제거***
+```kotlin
+fun priceOrder(
+   product: Product,
+   quantity: Int, 
+   shippingMethod
+): Int {
+   val basePrice = product.basePrice * quantity
+   val discount = Math.max(quantity - product.discountThreshold, 0) * product.basePrice * product.discountRate
+   val priceData = Price() // 👈 중간 데이터 구조
+   val price = applyShipping(priceData, basePrice, shippingMethod, quantity, discount)
+   return price
+}
 
+fun applyShipping(
+   priceData: Price, // 👈 중간 데이터 매개변수 추가
+   basePrice: Int, 
+   shippingMethod,
+   quantity: Int,
+   discount: Int
+): Int{
+   val shippingPerCase = (basePrice > shippingMethod.discountThreshold) ? shippingMethod.discountedFee : shippingMethod.feePerCase
+   val shippingCost = quantity * shippingPerCase
+   val price = basePrice - discount + shippingCost
+   return price
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkxNDU5NDk4LC0zMzE3NTQ3NzMsNjE2Mj
-Q4NzYyLDQ4Mjc0NDg0NSwxMjg4NjM4MjA4LDYwNTM1NzI4Miwt
-MTQwNTE3NzYyMywxOTYxNTE0OTAzLC0yMDAzMjk5NTUyLC04Nj
-E5MDU1MTIsMTgyMjUwNDQ4NSwxNDY2NDY3MDcwLDM0NjM1MzAy
-NywxOTIyODgxMDU2LC01NjUwNDc3MzMsLTkwNTg3NjYyMSw4Nz
-Q0NDU4OTMsLTk3NjA0NjE1NSw2NDU4NDgxNzAsMTQ2MzcyMDg3
-OV19
+eyJoaXN0b3J5IjpbMTYwNzY2NzEyNSw3OTE0NTk0OTgsLTMzMT
+c1NDc3Myw2MTYyNDg3NjIsNDgyNzQ0ODQ1LDEyODg2MzgyMDgs
+NjA1MzU3MjgyLC0xNDA1MTc3NjIzLDE5NjE1MTQ5MDMsLTIwMD
+MyOTk1NTIsLTg2MTkwNTUxMiwxODIyNTA0NDg1LDE0NjY0Njcw
+NzAsMzQ2MzUzMDI3LDE5MjI4ODEwNTYsLTU2NTA0NzczMywtOT
+A1ODc2NjIxLDg3NDQ0NTg5MywtOTc2MDQ2MTU1LDY0NTg0ODE3
+MF19
 -->
