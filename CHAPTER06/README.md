@@ -927,13 +927,29 @@ fun priceOrder(
    return price
 }
 ```
-> 💁 &nbsp;&nbsp;앞의 몇 줄은 상품정보를 이용해서 결제 금액 중 '*상품 가격 계산*'<br> &emsp;&emsp;반면 뒤의 코드는 배송 정보를 이용하여 결제 금액 중 '*배송비를 계산'*
+> 💁 &nbsp;&nbsp;앞의 몇 줄은 상품정보를 이용해서 결제 금액 중 '*상품 가격 계산* '<br> &emsp;&emsp;반면 뒤의 코드는 배송 정보를 이용하여 결제 금액 중 '*배송비를 계산 '*
+
+&emsp;⓵ 먼저 배송비 계산 부분을 함수로 추출<br>
+```kotlin
+fun priceOrder(
+   product: Product,
+   quantity: Int, 
+   shippingMethod
+): Int {
+   val basePrice = product.basePrice * quantity
+   val discount = Math.max(quantity - product.discountThreshold, 0) * product.basePrice * product.discountRate
+   val shippingPerCase = (basePrice > shippingMethod.discountThreshold) ? shippingMethod.discountedFee : shippingMethod.feePerCase
+   val shippingCost = quantity * shippingPerCase
+   val price = basePrice - discount + shippingCost
+   return price
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjI1Nzg4MzIsLTMzMTc1NDc3Myw2MT
-YyNDg3NjIsNDgyNzQ0ODQ1LDEyODg2MzgyMDgsNjA1MzU3Mjgy
-LC0xNDA1MTc3NjIzLDE5NjE1MTQ5MDMsLTIwMDMyOTk1NTIsLT
-g2MTkwNTUxMiwxODIyNTA0NDg1LDE0NjY0NjcwNzAsMzQ2MzUz
-MDI3LDE5MjI4ODEwNTYsLTU2NTA0NzczMywtOTA1ODc2NjIxLD
-g3NDQ0NTg5MywtOTc2MDQ2MTU1LDY0NTg0ODE3MCwxNDYzNzIw
-ODc5XX0=
+eyJoaXN0b3J5IjpbLTgzOTQ5NjY0NiwtMzMxNzU0NzczLDYxNj
+I0ODc2Miw0ODI3NDQ4NDUsMTI4ODYzODIwOCw2MDUzNTcyODIs
+LTE0MDUxNzc2MjMsMTk2MTUxNDkwMywtMjAwMzI5OTU1MiwtOD
+YxOTA1NTEyLDE4MjI1MDQ0ODUsMTQ2NjQ2NzA3MCwzNDYzNTMw
+MjcsMTkyMjg4MTA1NiwtNTY1MDQ3NzMzLC05MDU4NzY2MjEsOD
+c0NDQ1ODkzLC05NzYwNDYxNTUsNjQ1ODQ4MTcwLDE0NjM3MjA4
+NzldfQ==
 -->
