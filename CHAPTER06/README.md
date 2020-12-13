@@ -852,20 +852,32 @@ fun enrichReading(argReading): Reading {
 
 <br>
 
-### **ex) 자동차 세금 계산서**<br>
+<br>
+<div id='id-section11'/>
+
+## 6.11 단계 쪼개기 Split Phase
+
 
 ```kotlin
-val aReading = acquireReading()
-val base = (baseRate(aReading.month, areading.year) * aReading.quantity)  // 👈 함수 추출의 필요성을 느껴야함
-val taxableCharge = Math.max(0, base - taxThreshold(aReading.year))
+val orderData = orderString.split()
+```
+
+**🔻 클래스로 묶기**
+
+```kotlin
+class Reading {
+	base(){...}
+	taxableCharge(){...}
+	calculateBaseCharge(){...}
+}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MTkwNTUxMiwxODIyNTA0NDg1LDE0Nj
-Y0NjcwNzAsMzQ2MzUzMDI3LDE5MjI4ODEwNTYsLTU2NTA0Nzcz
-MywtOTA1ODc2NjIxLDg3NDQ0NTg5MywtOTc2MDQ2MTU1LDY0NT
-g0ODE3MCwxNDYzNzIwODc5LC0xNjk4NDYwNzE2LC00MTY1MDg1
-NjUsLTI3ODg5OTA5MywxMTE0NTIxNzEzLC00Mjc3OTYyMzksLT
-gxOTcxMDM4LC04MDIwNTEwNDEsLTIxMDA3MDU5MjUsMTUwNDU0
-NDA4N119
+eyJoaXN0b3J5IjpbMTU5NDI1Mjk5OSwtODYxOTA1NTEyLDE4Mj
+I1MDQ0ODUsMTQ2NjQ2NzA3MCwzNDYzNTMwMjcsMTkyMjg4MTA1
+NiwtNTY1MDQ3NzMzLC05MDU4NzY2MjEsODc0NDQ1ODkzLC05Nz
+YwNDYxNTUsNjQ1ODQ4MTcwLDE0NjM3MjA4NzksLTE2OTg0NjA3
+MTYsLTQxNjUwODU2NSwtMjc4ODk5MDkzLDExMTQ1MjE3MTMsLT
+QyNzc5NjIzOSwtODE5NzEwMzgsLTgwMjA1MTA0MSwtMjEwMDcw
+NTkyNV19
 -->
