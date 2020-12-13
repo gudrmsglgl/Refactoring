@@ -1051,9 +1051,14 @@ fun priceOrder(
    quantity: Int, 
    shippingMethod
 ): Int {
-   val priceData = calculatePric // 👈 중간 데이터 구조로 매개변수 옮김
+   val priceData = calculatePricaingData(product, quantity) // 👈 첫 번째 단계 -> 함수 추출 -> 중간 데이터 반환
    val price = applyShipping(priceData, shippingMethod)
    return price
+}
+
+fun calculatePricaingData(){
+   val basePrice = ...
+   val disCount = ...
 }
 
 fun applyShipping(
@@ -1070,7 +1075,7 @@ fun applyShipping(
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMzczOTkyMywtNTY5NjYzMTkwLDEwOT
+eyJoaXN0b3J5IjpbLTQzOTE0NDc0NCwtNTY5NjYzMTkwLDEwOT
 YyOTg5MzksMzA0NjUyNDgwLDE0NTQ5MjkzMTIsNzkxNDU5NDk4
 LC0zMzE3NTQ3NzMsNjE2MjQ4NzYyLDQ4Mjc0NDg0NSwxMjg4Nj
 M4MjA4LDYwNTM1NzI4MiwtMTQwNTE3NzYyMywxOTYxNTE0OTAz
