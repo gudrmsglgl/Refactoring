@@ -729,19 +729,18 @@ val taxableCharge = Math.max(0, base - taxThreshold(aReading.year))
 
 ```kotlin
 val aReading = acquireReading()
-val base = (baseRate(aReading.month, areading.year) * aReading.quantity)  // 👈 함수 추출의 필요성을 느껴야함
-val taxableCharge = Math.max(0, base - taxThreshold(aReading.year))
+val base = calculateBaseCharge(aReading)  
 
 fun calculateBaseCharge(aReading){
   return baseRate(aReading.month, aReading.year) * aReading.quantity
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ2MzUzMDI3LDE5MjI4ODEwNTYsLTU2NT
-A0NzczMywtOTA1ODc2NjIxLDg3NDQ0NTg5MywtOTc2MDQ2MTU1
-LDY0NTg0ODE3MCwxNDYzNzIwODc5LC0xNjk4NDYwNzE2LC00MT
-Y1MDg1NjUsLTI3ODg5OTA5MywxMTE0NTIxNzEzLC00Mjc3OTYy
-MzksLTgxOTcxMDM4LC04MDIwNTEwNDEsLTIxMDA3MDU5MjUsMT
-UwNDU0NDA4Nyw1MTA2MjYxMDIsNTU2NjgwMzE0LC0xODgyNjQ3
-ODM2XX0=
+eyJoaXN0b3J5IjpbLTE0Nzc0OTg3MjUsMzQ2MzUzMDI3LDE5Mj
+I4ODEwNTYsLTU2NTA0NzczMywtOTA1ODc2NjIxLDg3NDQ0NTg5
+MywtOTc2MDQ2MTU1LDY0NTg0ODE3MCwxNDYzNzIwODc5LC0xNj
+k4NDYwNzE2LC00MTY1MDg1NjUsLTI3ODg5OTA5MywxMTE0NTIx
+NzEzLC00Mjc3OTYyMzksLTgxOTcxMDM4LC04MDIwNTEwNDEsLT
+IxMDA3MDU5MjUsMTUwNDU0NDA4Nyw1MTA2MjYxMDIsNTU2Njgw
+MzE0XX0=
 -->
