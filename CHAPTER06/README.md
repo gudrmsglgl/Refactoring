@@ -1037,13 +1037,13 @@ fun applyShipping(
    //discount: Int             ""
 ): Int{
    val shippingPerCase = (priceData.basePrice > shippingMethod.discountThreshold) ? shippingMethod.discountedFee : shippingMethod.feePerCase
-   val shippingCost = quantity * shippingPerCase
-   val price = priceData.basePrice - discount + shippingCost
+   val shippingCost = priceData.quantity * shippingPerCase
+   val price = priceData.basePrice - priceData.discount + shippingCost
    return price
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNTM1ODMwOSwzMDQ2NTI0ODAsMTQ1ND
+eyJoaXN0b3J5IjpbMTA5NjI5ODkzOSwzMDQ2NTI0ODAsMTQ1ND
 kyOTMxMiw3OTE0NTk0OTgsLTMzMTc1NDc3Myw2MTYyNDg3NjIs
 NDgyNzQ0ODQ1LDEyODg2MzgyMDgsNjA1MzU3MjgyLC0xNDA1MT
 c3NjIzLDE5NjE1MTQ5MDMsLTIwMDMyOTk1NTIsLTg2MTkwNTUx
