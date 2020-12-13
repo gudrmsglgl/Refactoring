@@ -941,12 +941,21 @@ fun priceOrder(
    //val shippingPerCase = (basePrice > shippingMethod.discountThreshold) ? shippingMethod.discountedFee : shippingMethod.feePerCase
    //val shippingCost = quantity * shippingPerCase
    //val price = basePrice - discount + shippingCost
-   val price = applyShipping(basePrice, shippingMethod, quantity)
+   val price = applyShipping(basePrice, shippingMethod, quantity, discount)
    return price
+}
+
+fun applyShipping(
+   basePrice: Int, 
+   shippingMethod,
+   quantity: Int,
+   discount: Int
+){
+
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NjA0NTM4NCwtMzMxNzU0NzczLDYxNj
+eyJoaXN0b3J5IjpbMTM0NDA5MjI0NSwtMzMxNzU0NzczLDYxNj
 I0ODc2Miw0ODI3NDQ4NDUsMTI4ODYzODIwOCw2MDUzNTcyODIs
 LTE0MDUxNzc2MjMsMTk2MTUxNDkwMywtMjAwMzI5OTU1MiwtOD
 YxOTA1NTEyLDE4MjI1MDQ0ODUsMTQ2NjQ2NzA3MCwzNDYzNTMw
