@@ -974,7 +974,7 @@ fun priceOrder(
 }
 
 fun applyShipping(
-   priceData: Price, // 👈 중간 데이터 구조
+   priceData: Price, // 👈 중간 데이터 매개변수 추가
    basePrice: Int, 
    shippingMethod,
    quantity: Int,
@@ -986,12 +986,15 @@ fun applyShipping(
    return price
 }
 ```
+
+&emsp;⓹ 매개변수를 살펴
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY2Njc1OTM3LC0zMzE3NTQ3NzMsNjE2Mj
-Q4NzYyLDQ4Mjc0NDg0NSwxMjg4NjM4MjA4LDYwNTM1NzI4Miwt
-MTQwNTE3NzYyMywxOTYxNTE0OTAzLC0yMDAzMjk5NTUyLC04Nj
-E5MDU1MTIsMTgyMjUwNDQ4NSwxNDY2NDY3MDcwLDM0NjM1MzAy
-NywxOTIyODgxMDU2LC01NjUwNDc3MzMsLTkwNTg3NjYyMSw4Nz
-Q0NDU4OTMsLTk3NjA0NjE1NSw2NDU4NDgxNzAsMTQ2MzcyMDg3
-OV19
+eyJoaXN0b3J5IjpbMjEwMzUzODkzNCwtMzMxNzU0NzczLDYxNj
+I0ODc2Miw0ODI3NDQ4NDUsMTI4ODYzODIwOCw2MDUzNTcyODIs
+LTE0MDUxNzc2MjMsMTk2MTUxNDkwMywtMjAwMzI5OTU1MiwtOD
+YxOTA1NTEyLDE4MjI1MDQ0ODUsMTQ2NjQ2NzA3MCwzNDYzNTMw
+MjcsMTkyMjg4MTA1NiwtNTY1MDQ3NzMzLC05MDU4NzY2MjEsOD
+c0NDQ1ODkzLC05NzYwNDYxNTUsNjQ1ODQ4MTcwLDE0NjM3MjA4
+NzldfQ==
 -->
