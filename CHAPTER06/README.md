@@ -781,6 +781,7 @@ val aReading = Reading(rawReading)
 val taxableCharge = Math.max(0, aReading.baseCharge - taxThreshold(aReading.year)) // 👈 변수 인라인을 하였지만 함수 추출을 하고 싶은 충동
 ```
 ```kotlin
+// 함수 추출하기
 fun taxableChargeFn(aReading: Reading) = 
    Math.max(0, aReading.baseCharge - taxThreshold(aReading.year))
 ```
@@ -801,7 +802,7 @@ val aReading = Reading(rawReading)
 val taxableCharge = aReading.texableCharge
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NzUyMzEwOCwzNDYzNTMwMjcsMTkyMj
+eyJoaXN0b3J5IjpbMTQ2NjQ2NzA3MCwzNDYzNTMwMjcsMTkyMj
 g4MTA1NiwtNTY1MDQ3NzMzLC05MDU4NzY2MjEsODc0NDQ1ODkz
 LC05NzYwNDYxNTUsNjQ1ODQ4MTcwLDE0NjM3MjA4NzksLTE2OT
 g0NjA3MTYsLTQxNjUwODU2NSwtMjc4ODk5MDkzLDExMTQ1MjE3
