@@ -835,13 +835,36 @@ fun enrichReading(argReading): Reading {
 	<br>❗ 원본 데이터가 코드 안에서 **갱신될 때**는 **클래스로 묶는 편이 훨씬 낫다.**
 - 데이터 구조와 이를 사용하는 함수를 쉽게 찾아 쓸 수 있다. 
 
+<br>
+
+### 📍 &nbsp;&nbsp;절차
+
+&emsp;⓵ 변환할 레코드를 입력받아서 값을 그대로 반환하는 함수를 만든다.
+```
+-> 대체로 깊은 복사로 처리해야 한다. 변환 함수가 원본 레코드를 바꾸지 않는지 검사하는 테스트를 마련해두면 도움
+```
+&emsp;⓶ 공통 레코드를 사용하는 함수 각각을 새 클래스로 옮긴다.</br>  
+```
+-> 공통 레코드의 멤버는 함수 호출문의 인수 목록에서 제거한다
+```
+&emsp;⓷ 데이터를 조작하는 로직들은 함수로 추출해서 새 클래스로 옮긴다.</br>  
+
+<br>
+
+### **ex) 자동차 세금 계산서**<br>
+
+```kotlin
+val aReading = acquireReading()
+val base = (baseRate(aReading.month, areading.year) * aReading.quantity)  // 👈 함수 추출의 필요성을 느껴야함
+val taxableCharge = Math.max(0, base - taxThreshold(aReading.year))
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzY2NjMzMjIsMTgyMjUwNDQ4NSwxND
-Y2NDY3MDcwLDM0NjM1MzAyNywxOTIyODgxMDU2LC01NjUwNDc3
-MzMsLTkwNTg3NjYyMSw4NzQ0NDU4OTMsLTk3NjA0NjE1NSw2ND
-U4NDgxNzAsMTQ2MzcyMDg3OSwtMTY5ODQ2MDcxNiwtNDE2NTA4
-NTY1LC0yNzg4OTkwOTMsMTExNDUyMTcxMywtNDI3Nzk2MjM5LC
-04MTk3MTAzOCwtODAyMDUxMDQxLC0yMTAwNzA1OTI1LDE1MDQ1
-NDQwODddfQ==
+eyJoaXN0b3J5IjpbNDMwNDUyODczLDE4MjI1MDQ0ODUsMTQ2Nj
+Q2NzA3MCwzNDYzNTMwMjcsMTkyMjg4MTA1NiwtNTY1MDQ3NzMz
+LC05MDU4NzY2MjEsODc0NDQ1ODkzLC05NzYwNDYxNTUsNjQ1OD
+Q4MTcwLDE0NjM3MjA4NzksLTE2OTg0NjA3MTYsLTQxNjUwODU2
+NSwtMjc4ODk5MDkzLDExMTQ1MjE3MTMsLTQyNzc5NjIzOSwtOD
+E5NzEwMzgsLTgwMjA1MTA0MSwtMjEwMDcwNTkyNSwxNTA0NTQ0
+MDg3XX0=
 -->
