@@ -898,22 +898,22 @@ fun price(order: Order, priceList: Array[Int]): Int{
 &emsp;⓵ 두 번째 단계에 해당하는 코드를 독립 함수로 추출한다.<br>
 &emsp;⓶ 테스트한다.<br>
 &emsp;⓷ 중간 데이터 구조를 만들어서 앞에서 추출한 함수의 인수로 추가한다.<br>
-&emsp;⓸ 변수의 접근 범위를 제한한다. <br>
+&emsp;⓸ 테스트한다. <br>
+&emsp;⓹ 추출한 두 번째 단계 함수의 매개변수를 하나씩 검토한다. 그중 첫 번째 단계에서 사용되는 것은 중간 데이터 구조로 옮긴다. 하나씩 옮길 때마다 테스트한다. <br>
 ```
--> 변수로의 직접 접근을 막을 수 없을 때도 있다. 그럴 때는 변수 이름을 바꿔서 테스트해보면 해당 변수를 참조하는 곳을 쉽게 찾아낼 수 있다.
+-> 간혹 두 번째 단계에서 사용하면 안 되는 매개변수가 있다. 이럴 때는 각 매개변수를 사용한 결과를 중간 데이터 구조의 필드로 추출하고, 이 필드의 값을 설정하는 
 ```
-&emsp;⓹ 테스트한다. <br>
 &emsp;⓺ 변수 값이 레코드라면 레코드 캡슐화하기를 적용할지 고려.<br>
 
 <br>
 
 ### **ex) 전역 변수에 중요한 데이터가 담겨 있는 경우**<br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDUxNzc2MjMsMTk2MTUxNDkwMywtMj
-AwMzI5OTU1MiwtODYxOTA1NTEyLDE4MjI1MDQ0ODUsMTQ2NjQ2
-NzA3MCwzNDYzNTMwMjcsMTkyMjg4MTA1NiwtNTY1MDQ3NzMzLC
-05MDU4NzY2MjEsODc0NDQ1ODkzLC05NzYwNDYxNTUsNjQ1ODQ4
-MTcwLDE0NjM3MjA4NzksLTE2OTg0NjA3MTYsLTQxNjUwODU2NS
-wtMjc4ODk5MDkzLDExMTQ1MjE3MTMsLTQyNzc5NjIzOSwtODE5
-NzEwMzhdfQ==
+eyJoaXN0b3J5IjpbLTczNDQ1MDM4NiwtMTQwNTE3NzYyMywxOT
+YxNTE0OTAzLC0yMDAzMjk5NTUyLC04NjE5MDU1MTIsMTgyMjUw
+NDQ4NSwxNDY2NDY3MDcwLDM0NjM1MzAyNywxOTIyODgxMDU2LC
+01NjUwNDc3MzMsLTkwNTg3NjYyMSw4NzQ0NDU4OTMsLTk3NjA0
+NjE1NSw2NDU4NDgxNzAsMTQ2MzcyMDg3OSwtMTY5ODQ2MDcxNi
+wtNDE2NTA4NTY1LC0yNzg4OTkwOTMsMTExNDUyMTcxMywtNDI3
+Nzk2MjM5XX0=
 -->
