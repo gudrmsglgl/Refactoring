@@ -711,10 +711,13 @@ class Reading {
 -> 공통 데이터가 레코드 구조로 묶여 있지 않다면 
    먼저 매개변수 객체 만들기로 데이터를 하나로 묶는 레코드를 만든다.
 ```
-&emsp;⓶ 공통 레코드를 사용하느</br>  
-&emsp;⓷ 함수 선언 바꾸기로 새 데이터 구조를 매개변수로 추가한다.</br>  
+&emsp;⓶ 공통 레코드를 사용하는 함수 각각을 새 클래스로 옮긴다.</br>  
+```
+-> 공통 레코드의 멤버는 함수 호출문의 인수 목록에서 제거한다
+```
+&emsp;⓷ 데이터를 조작하는 로직들은 함수로 추출해서 새 클래스로 옮긴다.</br>  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwODg1NjQyMSwtNTY1MDQ3NzMzLC05MD
+eyJoaXN0b3J5IjpbMTkyMjg4MTA1NiwtNTY1MDQ3NzMzLC05MD
 U4NzY2MjEsODc0NDQ1ODkzLC05NzYwNDYxNTUsNjQ1ODQ4MTcw
 LDE0NjM3MjA4NzksLTE2OTg0NjA3MTYsLTQxNjUwODU2NSwtMj
 c4ODk5MDkzLDExMTQ1MjE3MTMsLTQyNzc5NjIzOSwtODE5NzEw
