@@ -873,17 +873,18 @@ val orderPrice = price(orderRecord, priceList)
 fun parseOrder(str: String){
    val values = str.split(/\s+/)
    return Order(
-      productID = values[0].split("")
-      )
+      productID = values[0].split("-")[1],
+      quantity = values[1].toInt()
+   )
 }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYyNzIxMDMyLC04NjE5MDU1MTIsMTgyMj
-UwNDQ4NSwxNDY2NDY3MDcwLDM0NjM1MzAyNywxOTIyODgxMDU2
-LC01NjUwNDc3MzMsLTkwNTg3NjYyMSw4NzQ0NDU4OTMsLTk3Nj
-A0NjE1NSw2NDU4NDgxNzAsMTQ2MzcyMDg3OSwtMTY5ODQ2MDcx
-NiwtNDE2NTA4NTY1LC0yNzg4OTkwOTMsMTExNDUyMTcxMywtND
-I3Nzk2MjM5LC04MTk3MTAzOCwtODAyMDUxMDQxLC0yMTAwNzA1
-OTI1XX0=
+eyJoaXN0b3J5IjpbLTIwMDMyOTk1NTIsLTg2MTkwNTUxMiwxOD
+IyNTA0NDg1LDE0NjY0NjcwNzAsMzQ2MzUzMDI3LDE5MjI4ODEw
+NTYsLTU2NTA0NzczMywtOTA1ODc2NjIxLDg3NDQ0NTg5MywtOT
+c2MDQ2MTU1LDY0NTg0ODE3MCwxNDYzNzIwODc5LC0xNjk4NDYw
+NzE2LC00MTY1MDg1NjUsLTI3ODg5OTA5MywxMTE0NTIxNzEzLC
+00Mjc3OTYyMzksLTgxOTcxMDM4LC04MDIwNTEwNDEsLTIxMDA3
+MDU5MjVdfQ==
 -->
