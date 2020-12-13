@@ -892,12 +892,28 @@ fun price(order: Order, priceList: Array[Int]): Int{
 	- [x] 각 단계는 서로 확연히 다른 일을 수행해야 함
 - 다른 단계로 볼 수 있는 코드 영역들이 서로 다른 데이터와 함수를 사용할 때 
 
+<br>
+
+### 📍 &nbsp;&nbsp;절차
+&emsp;⓵ 두 번째 단계에 해당하는 코드를 독립 함수로 추출한다.<br>
+&emsp;⓶ 테스트한다.<br>
+&emsp;⓷ 중간 데이터 구조를 만들어서 앞에서 추출한 함수의 인수로 추가한다.<br>
+&emsp;⓸ 변수의 접근 범위를 제한한다. <br>
+```
+-> 변수로의 직접 접근을 막을 수 없을 때도 있다. 그럴 때는 변수 이름을 바꿔서 테스트해보면 해당 변수를 참조하는 곳을 쉽게 찾아낼 수 있다.
+```
+&emsp;⓹ 테스트한다. <br>
+&emsp;⓺ 변수 값이 레코드라면 레코드 캡슐화하기를 적용할지 고려.<br>
+
+<br>
+
+### **ex) 전역 변수에 중요한 데이터가 담겨 있는 경우**<br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MTUxNDkwMywtMjAwMzI5OTU1MiwtOD
-YxOTA1NTEyLDE4MjI1MDQ0ODUsMTQ2NjQ2NzA3MCwzNDYzNTMw
-MjcsMTkyMjg4MTA1NiwtNTY1MDQ3NzMzLC05MDU4NzY2MjEsOD
-c0NDQ1ODkzLC05NzYwNDYxNTUsNjQ1ODQ4MTcwLDE0NjM3MjA4
-NzksLTE2OTg0NjA3MTYsLTQxNjUwODU2NSwtMjc4ODk5MDkzLD
-ExMTQ1MjE3MTMsLTQyNzc5NjIzOSwtODE5NzEwMzgsLTgwMjA1
-MTA0MV19
+eyJoaXN0b3J5IjpbLTE0MDUxNzc2MjMsMTk2MTUxNDkwMywtMj
+AwMzI5OTU1MiwtODYxOTA1NTEyLDE4MjI1MDQ0ODUsMTQ2NjQ2
+NzA3MCwzNDYzNTMwMjcsMTkyMjg4MTA1NiwtNTY1MDQ3NzMzLC
+05MDU4NzY2MjEsODc0NDQ1ODkzLC05NzYwNDYxNTUsNjQ1ODQ4
+MTcwLDE0NjM3MjA4NzksLTE2OTg0NjA3MTYsLTQxNjUwODU2NS
+wtMjc4ODk5MDkzLDExMTQ1MjE3MTMsLTQyNzc5NjIzOSwtODE5
+NzEwMzhdfQ==
 -->
