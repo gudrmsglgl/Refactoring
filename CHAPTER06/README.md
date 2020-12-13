@@ -1045,13 +1045,36 @@ fun applyShipping(
 
 &emsp;⓺ 첫 번째 단계 코드를 ***함수로 추출하고 중간 데이터 구조를 반환*** 하도록 만든다.
 
+```kotlin
+fun priceOrder(
+   product: Product,
+   quantity: Int, 
+   shippingMethod
+): Int {
+   val priceData = calculatePric // 👈 중간 데이터 구조로 매개변수 옮김
+   val price = applyShipping(priceData, shippingMethod)
+   return price
+}
 
+fun applyShipping(
+   priceData: Price, 
+   //basePrice: Int,  
+   shippingMethod,
+   //quantity: Int, 👈 중간 데이터로 매개변수 옮겼으니 제거
+   //discount: Int             ""
+): Int{
+   val shippingPerCase = (priceData.basePrice > shippingMethod.discountThreshold) ? shippingMethod.discountedFee : shippingMethod.feePerCase
+   val shippingCost = priceData.quantity * shippingPerCase
+   val price = priceData.basePrice - priceData.discount + shippingCost
+   return price
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2OTY2MzE5MCwxMDk2Mjk4OTM5LDMwND
-Y1MjQ4MCwxNDU0OTI5MzEyLDc5MTQ1OTQ5OCwtMzMxNzU0Nzcz
-LDYxNjI0ODc2Miw0ODI3NDQ4NDUsMTI4ODYzODIwOCw2MDUzNT
-cyODIsLTE0MDUxNzc2MjMsMTk2MTUxNDkwMywtMjAwMzI5OTU1
-MiwtODYxOTA1NTEyLDE4MjI1MDQ0ODUsMTQ2NjQ2NzA3MCwzND
-YzNTMwMjcsMTkyMjg4MTA1NiwtNTY1MDQ3NzMzLC05MDU4NzY2
-MjFdfQ==
+eyJoaXN0b3J5IjpbMjEwMzczOTkyMywtNTY5NjYzMTkwLDEwOT
+YyOTg5MzksMzA0NjUyNDgwLDE0NTQ5MjkzMTIsNzkxNDU5NDk4
+LC0zMzE3NTQ3NzMsNjE2MjQ4NzYyLDQ4Mjc0NDg0NSwxMjg4Nj
+M4MjA4LDYwNTM1NzI4MiwtMTQwNTE3NzYyMywxOTYxNTE0OTAz
+LC0yMDAzMjk5NTUyLC04NjE5MDU1MTIsMTgyMjUwNDQ4NSwxND
+Y2NDY3MDcwLDM0NjM1MzAyNywxOTIyODgxMDU2LC01NjUwNDc3
+MzNdfQ==
 -->
