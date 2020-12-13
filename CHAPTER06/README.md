@@ -1056,18 +1056,15 @@ fun priceOrder(
    return price
 }
 
-fun calculatePricaingData(): Price{
+fun calculatePricaingData(): Price{ // 👈 첫 번째 단계
    val basePrice = ...
    val disCount = ...
    return Price(basePrice = basePrice, quantity = quantity, discount = discount)
 }
 
-fun applyShipping(
+fun applyShipping( //👈 두 번째 단계
    priceData: Price, 
-   //basePrice: Int,  
-   shippingMethod,
-   //quantity: Int, 👈 중간 데이터로 매개변수 옮겼으니 제거
-   //discount: Int             ""
+   shippingMethod
 ): Int{
    val shippingPerCase = (priceData.basePrice > shippingMethod.discountThreshold) ? shippingMethod.discountedFee : shippingMethod.feePerCase
    val shippingCost = priceData.quantity * shippingPerCase
@@ -1076,7 +1073,7 @@ fun applyShipping(
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI5MDExNTY0LC01Njk2NjMxOTAsMTA5Nj
+eyJoaXN0b3J5IjpbMTgxNzM0MzAyLC01Njk2NjMxOTAsMTA5Nj
 I5ODkzOSwzMDQ2NTI0ODAsMTQ1NDkyOTMxMiw3OTE0NTk0OTgs
 LTMzMTc1NDc3Myw2MTYyNDg3NjIsNDgyNzQ0ODQ1LDEyODg2Mz
 gyMDgsNjA1MzU3MjgyLC0xNDA1MTc3NjIzLDE5NjE1MTQ5MDMs
