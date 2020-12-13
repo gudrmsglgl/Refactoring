@@ -723,11 +723,12 @@ class Reading {
 
 ```kotlin
 val aReading = acquireReading()
-val base 
+val base = (baseRate(aReading.month, areading.year) * aReading.quantity) // // 👈 
+val taxableCharge = Math.max(0, base - taxThreshold(aReading.year))
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNzU4ODc5NywxOTIyODgxMDU2LC01Nj
+eyJoaXN0b3J5IjpbMTM3NTUxMTQ2NCwxOTIyODgxMDU2LC01Nj
 UwNDc3MzMsLTkwNTg3NjYyMSw4NzQ0NDU4OTMsLTk3NjA0NjE1
 NSw2NDU4NDgxNzAsMTQ2MzcyMDg3OSwtMTY5ODQ2MDcxNiwtND
 E2NTA4NTY1LC0yNzg4OTkwOTMsMTExNDUyMTcxMywtNDI3Nzk2
