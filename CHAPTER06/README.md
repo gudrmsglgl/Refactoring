@@ -890,9 +890,10 @@ fun price(order: Order, priceList: Array[Int]): Int{
 - 동작을 연이은 두 단계로 쪼개는 것.
 	- [x] 입력값을 다루기 편한 형태로 가공 or 순차적인 단계들로 분리
 	- [x] 각 단계는 서로 확연히 다른 일을 수행해야 함
+- 다른 단계로 볼 수 있는 코드 영역들이 서로 다른 데이터와 함수를 사용할 때 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NTM0MzcxMywtMjAwMzI5OTU1MiwtOD
+eyJoaXN0b3J5IjpbMTk2MTUxNDkwMywtMjAwMzI5OTU1MiwtOD
 YxOTA1NTEyLDE4MjI1MDQ0ODUsMTQ2NjQ2NzA3MCwzNDYzNTMw
 MjcsMTkyMjg4MTA1NiwtNTY1MDQ3NzMzLC05MDU4NzY2MjEsOD
 c0NDQ1ODkzLC05NzYwNDYxNTUsNjQ1ODQ4MTcwLDE0NjM3MjA4
