@@ -827,16 +827,17 @@ fun enrichReading(argReading): Reading {
 > 원본 데이터를 입력받아서 필요한 정보를 모두 도출한 뒤, <br> 각각을 출력 데이터의 필드에 넣어 변환
 - 정보가 사용되는 곳마다 같은 도출 로직이 반복될 때 
 - 검색과 갱신을 일관된 장소에서 처리할 수 있고 로직 중복 방지
-- 클래스로 묶기와 변환함수로 묶는 것 차이점
-	- ❗ 원본 데이터가 코드 안에서 **갱신될 때**는 **클래스로 묶는 편이 훨씬 낫다.**
+- 클래스 묶기와 변환함수 묶기
+	❗ 원본 데이터가 코드 안에서 **갱신될 때**는 **클래스로 묶는 편이 훨씬 낫다.**
+- 데이터 구조와 이를 사용하는 함수가 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjgyNjM2MjYsMTQ2NjQ2NzA3MCwzND
-YzNTMwMjcsMTkyMjg4MTA1NiwtNTY1MDQ3NzMzLC05MDU4NzY2
-MjEsODc0NDQ1ODkzLC05NzYwNDYxNTUsNjQ1ODQ4MTcwLDE0Nj
-M3MjA4NzksLTE2OTg0NjA3MTYsLTQxNjUwODU2NSwtMjc4ODk5
-MDkzLDExMTQ1MjE3MTMsLTQyNzc5NjIzOSwtODE5NzEwMzgsLT
-gwMjA1MTA0MSwtMjEwMDcwNTkyNSwxNTA0NTQ0MDg3LDUxMDYy
-NjEwMl19
+eyJoaXN0b3J5IjpbODk0Nzg5MDQwLDE0NjY0NjcwNzAsMzQ2Mz
+UzMDI3LDE5MjI4ODEwNTYsLTU2NTA0NzczMywtOTA1ODc2NjIx
+LDg3NDQ0NTg5MywtOTc2MDQ2MTU1LDY0NTg0ODE3MCwxNDYzNz
+IwODc5LC0xNjk4NDYwNzE2LC00MTY1MDg1NjUsLTI3ODg5OTA5
+MywxMTE0NTIxNzEzLC00Mjc3OTYyMzksLTgxOTcxMDM4LC04MD
+IwNTEwNDEsLTIxMDA3MDU5MjUsMTUwNDU0NDA4Nyw1MTA2MjYx
+MDJdfQ==
 -->
