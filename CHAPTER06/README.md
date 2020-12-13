@@ -910,13 +910,23 @@ fun price(order: Order, priceList: Array[Int]): Int{
 ```
 <br>
 
-### **ex) 전역 변수에 중요한 데이터가 담겨 있는 경우**<br>
+### **ex) 상품의 결제 금액 계산**<br>
+
+```kotlin
+fun priceOrder(
+   product: Product,
+   quantity: Int, 
+   shippingMethod){
+   val basePrice = product.basePrice * quantity
+}
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4ODYzODIwOCw2MDUzNTcyODIsLTE0MD
-UxNzc2MjMsMTk2MTUxNDkwMywtMjAwMzI5OTU1MiwtODYxOTA1
-NTEyLDE4MjI1MDQ0ODUsMTQ2NjQ2NzA3MCwzNDYzNTMwMjcsMT
-kyMjg4MTA1NiwtNTY1MDQ3NzMzLC05MDU4NzY2MjEsODc0NDQ1
-ODkzLC05NzYwNDYxNTUsNjQ1ODQ4MTcwLDE0NjM3MjA4NzksLT
-E2OTg0NjA3MTYsLTQxNjUwODU2NSwtMjc4ODk5MDkzLDExMTQ1
-MjE3MTNdfQ==
+eyJoaXN0b3J5IjpbMTk4NDYzMzIzNCwxMjg4NjM4MjA4LDYwNT
+M1NzI4MiwtMTQwNTE3NzYyMywxOTYxNTE0OTAzLC0yMDAzMjk5
+NTUyLC04NjE5MDU1MTIsMTgyMjUwNDQ4NSwxNDY2NDY3MDcwLD
+M0NjM1MzAyNywxOTIyODgxMDU2LC01NjUwNDc3MzMsLTkwNTg3
+NjYyMSw4NzQ0NDU4OTMsLTk3NjA0NjE1NSw2NDU4NDgxNzAsMT
+Q2MzcyMDg3OSwtMTY5ODQ2MDcxNiwtNDE2NTA4NTY1LC0yNzg4
+OTkwOTNdfQ==
 -->
