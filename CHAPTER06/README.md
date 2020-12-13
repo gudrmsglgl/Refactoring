@@ -733,11 +733,11 @@ val base = (baseRate(aReading.month, areading.year) * aReading.quantity)  // ðŸ‘
 val taxableCharge = Math.max(0, base - taxThreshold(aReading.year))
 
 fun calculateBaseCharge(aReading){
-  return baseRate(aReading.month, aReading.year) * aReading.qu
+  return baseRate(aReading.month, aReading.year) * aReading.quantity
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM0NzYzOTc4LDE5MjI4ODEwNTYsLTU2NT
+eyJoaXN0b3J5IjpbMzQ2MzUzMDI3LDE5MjI4ODEwNTYsLTU2NT
 A0NzczMywtOTA1ODc2NjIxLDg3NDQ0NTg5MywtOTc2MDQ2MTU1
 LDY0NTg0ODE3MCwxNDYzNzIwODc5LC0xNjk4NDYwNzE2LC00MT
 Y1MDg1NjUsLTI3ODg5OTA5MywxMTE0NTIxNzEzLC00Mjc3OTYy
