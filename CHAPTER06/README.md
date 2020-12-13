@@ -801,12 +801,32 @@ val rawReading = acquireReading()
 val aReading = Reading(rawReading)
 val taxableCharge = aReading.texableCharge
 ```
+
+
+<br>
+<div id='id-section9'/>
+
+## 6.10 여러 함수를 변환 함수로 묶기 Combine Functions into Transform
+```kotlin
+fun base(reading: Reading){...}
+fun taxableCharge(reading: Reading){...}
+```
+
+**🔻 변환 함수로 묶기**
+
+```kotlin
+class Reading {
+	base(){...}
+	taxableCharge(){...}
+	calculateBaseCharge(){...}
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NjQ2NzA3MCwzNDYzNTMwMjcsMTkyMj
-g4MTA1NiwtNTY1MDQ3NzMzLC05MDU4NzY2MjEsODc0NDQ1ODkz
-LC05NzYwNDYxNTUsNjQ1ODQ4MTcwLDE0NjM3MjA4NzksLTE2OT
-g0NjA3MTYsLTQxNjUwODU2NSwtMjc4ODk5MDkzLDExMTQ1MjE3
-MTMsLTQyNzc5NjIzOSwtODE5NzEwMzgsLTgwMjA1MTA0MSwtMj
-EwMDcwNTkyNSwxNTA0NTQ0MDg3LDUxMDYyNjEwMiw1NTY2ODAz
-MTRdfQ==
+eyJoaXN0b3J5IjpbMTkxMjg5NTEyNywxNDY2NDY3MDcwLDM0Nj
+M1MzAyNywxOTIyODgxMDU2LC01NjUwNDc3MzMsLTkwNTg3NjYy
+MSw4NzQ0NDU4OTMsLTk3NjA0NjE1NSw2NDU4NDgxNzAsMTQ2Mz
+cyMDg3OSwtMTY5ODQ2MDcxNiwtNDE2NTA4NTY1LC0yNzg4OTkw
+OTMsMTExNDUyMTcxMywtNDI3Nzk2MjM5LC04MTk3MTAzOCwtOD
+AyMDUxMDQxLC0yMTAwNzA1OTI1LDE1MDQ1NDQwODcsNTEwNjI2
+MTAyXX0=
 -->
