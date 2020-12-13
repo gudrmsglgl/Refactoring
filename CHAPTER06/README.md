@@ -121,11 +121,11 @@ fun getRating(driver: Driver): Int{
 <br>
 
 ### 🔎 &nbsp;&nbsp;함수를 인라인 할 때 
-- 함수 본문이 이름만큼 명확한 경우
+- 함수 본문이 **🔎이름만큼 명확한 경우**
 - 함수 본문 코드를 이름만큼 깔끔하게 리팩터링할 때
 - 리팩터링 과정에서 잘못 추출된 함수들도 다시 인라인
 - 간접 호출을 너무 과하게 쓰는 코드
-- 다른 함수로 단순히 위임하기만 하는 함수들이 너무 많아서 위임 관계가 복잡하게 얽힌 경우
+- 다른 함수로 단순히 위임하기만 하는 함수들이 너무 많아서 **위임 관계가 복잡하게 얽힌 경우**
 
 <br>
 
@@ -833,7 +833,7 @@ fun enrichReading(argReading): Reading {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0OTM4NTAwMSwxODIyNTA0NDg1LDE0Nj
+eyJoaXN0b3J5IjpbMjExMDA2MzEzMCwxODIyNTA0NDg1LDE0Nj
 Y0NjcwNzAsMzQ2MzUzMDI3LDE5MjI4ODEwNTYsLTU2NTA0Nzcz
 MywtOTA1ODc2NjIxLDg3NDQ0NTg5MywtOTc2MDQ2MTU1LDY0NT
 g0ODE3MCwxNDYzNzIwODc5LC0xNjk4NDYwNzE2LC00MTY1MDg1
