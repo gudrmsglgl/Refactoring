@@ -140,13 +140,13 @@ fun getRating(driver: Driver): Int{
 -> 서브클래스에서 오버라이드하는 메서드는 인라인하면 안 된다.
 ```
 &emsp;② 인라인할 함수를 호출하는 곳을 모두 찾는다.<br>
-&emsp;③ 각 호출문을 함수 본문으로 교체한다.<br>
-&emsp;④ 하나씩 교체할 때마다 테스트한다.<br>
+&emsp;⓷ 각 호출문을 함수 본문으로 교체한다.<br>
+&emsp;⓸ 하나씩 교체할 때마다 테스트한다.<br>
 ```
 -> 인라인 작업을 한 번에 처리할 필요는 없다.
 인라인하기가 까다로운 부분이 있다면 일단 남겨두고 여유가 생길 때마다 틈틈이 처리한다.
 ```
-⑤ 함수 정의(원래 함수)를 삭제한다.
+&emsp;⓹ 함수 정의(원래 함수)를 삭제한다.
 
 <br>
 <div id='id-section3'/>
@@ -225,11 +225,11 @@ class Order{
 <br>
 
 ### 📍 &nbsp;&nbsp;절차
-&emsp;① 추출하려는 표현식에 부작용은 없는지 확인<br>
-&emsp;② 불변 변수를 하나 선언하고 이름을 붙일 표현식의 복제본을 대입<br>
-&emsp;③ 원본 표현식을 새로 만든 변수로 교체<br>
-&emsp;④ 테스트한다. <br>
-&emsp;⑤ 표현식을 여러 곳에서 사용한다면 각각을 새로 만든 변수로 교체. 교체할 때마다 테스트
+&emsp;⓵ 추출하려는 표현식에 부작용은 없는지 확인<br>
+&emsp;⓶ 불변 변수를 하나 선언하고 이름을 붙일 표현식의 복제본을 대입<br>
+&emsp;⓷ 원본 표현식을 새로 만든 변수로 교체<br>
+&emsp;⓸ 테스트한다. <br>
+&emsp;⓹ 표현식을 여러 곳에서 사용한다면 각각을 새로 만든 변수로 교체. 교체할 때마다 테스트
 
 
 <br>
@@ -1072,11 +1072,11 @@ fun applyShipping( //👈 두 번째 단계
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDkwMjY4NTUsMTQ3MTM0MDYyLDE3MT
-Q0NjIxNDIsLTU2OTY2MzE5MCwxMDk2Mjk4OTM5LDMwNDY1MjQ4
-MCwxNDU0OTI5MzEyLDc5MTQ1OTQ5OCwtMzMxNzU0NzczLDYxNj
-I0ODc2Miw0ODI3NDQ4NDUsMTI4ODYzODIwOCw2MDUzNTcyODIs
-LTE0MDUxNzc2MjMsMTk2MTUxNDkwMywtMjAwMzI5OTU1MiwtOD
-YxOTA1NTEyLDE4MjI1MDQ0ODUsMTQ2NjQ2NzA3MCwzNDYzNTMw
-MjddfQ==
+eyJoaXN0b3J5IjpbMTIwNTU4Mzc5NSwxNDcxMzQwNjIsMTcxND
+Q2MjE0MiwtNTY5NjYzMTkwLDEwOTYyOTg5MzksMzA0NjUyNDgw
+LDE0NTQ5MjkzMTIsNzkxNDU5NDk4LC0zMzE3NTQ3NzMsNjE2Mj
+Q4NzYyLDQ4Mjc0NDg0NSwxMjg4NjM4MjA4LDYwNTM1NzI4Miwt
+MTQwNTE3NzYyMywxOTYxNTE0OTAzLC0yMDAzMjk5NTUyLC04Nj
+E5MDU1MTIsMTgyMjUwNDQ4NSwxNDY2NDY3MDcwLDM0NjM1MzAy
+N119
 -->
