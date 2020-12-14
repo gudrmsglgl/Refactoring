@@ -254,8 +254,8 @@ return anOrder.basePrice > 1000
 <br>
 
 ### 📍 &nbsp;&nbsp;절차
-&emsp;① 대입문의 우변(표현식)에서 부작용이 생기지 않는지 확인<br>
-&emsp;② 변수가 불변으로 선언되지 않았다면 불변으로 만든 후 테스트한다.<br>
+&emsp;⓵ 대입문의 우변(표현식)에서 부작용이 생기지 않는지 확인<br>
+&emsp;⓶ 변수가 불변으로 선언되지 않았다면 불변으로 만든 후 테스트한다.<br>
 ```
 -> 이렇게 하면 변수에 값이 단 한번만 대입되는지 확인할 수 있다.
 ```
@@ -265,6 +265,19 @@ return anOrder.basePrice > 1000
 &emsp;⑥ 변수 선언문과 대입문을 지운다.<br>
 &emsp;⑦ 테스트한다.
 
+ <br>
+
+ <br>
+
+ <br>
+
+ ⓸<br>
+
+ ⓹<br>
+
+ ⓺<br>
+
+ ⓻<br>
 <br>
 <div id='id-section5'/>
 
@@ -306,10 +319,10 @@ fun circumference(radius: Float){...}
 <br>
 
 ### 📍 &nbsp;&nbsp;간단한 절차
-&emsp;① 매개변수를 제거하려거든 먼저 **⚠️ 함수 본문에서 제거 대상 매개변수를 참조하는 곳**은 없는지 확인.<br>
-&emsp;② 메서드 선언을 원하는 형태로 바꾼다.<br>
-&emsp;③ 기존 메서드 선언을 참조하는 부분을 모두 찾아서 바뀐 형태로 수정.<br>
-&emsp;④ 테스트한다. <br>
+&emsp;⓵ 매개변수를 제거하려거든 먼저 **⚠️ 함수 본문에서 제거 대상 매개변수를 참조하는 곳**은 없는지 확인.<br>
+&emsp;⓶ 메서드 선언을 원하는 형태로 바꾼다.<br>
+&emsp;⓷ 기존 메서드 선언을 참조하는 부분을 모두 찾아서 바뀐 형태로 수정.<br>
+&emsp;⓸ 테스트한다. <br>
 
 
 <br>
@@ -1072,11 +1085,11 @@ fun applyShipping( //👈 두 번째 단계
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MTM0MDYyLDE3MTQ0NjIxNDIsLTU2OT
-Y2MzE5MCwxMDk2Mjk4OTM5LDMwNDY1MjQ4MCwxNDU0OTI5MzEy
-LDc5MTQ1OTQ5OCwtMzMxNzU0NzczLDYxNjI0ODc2Miw0ODI3ND
-Q4NDUsMTI4ODYzODIwOCw2MDUzNTcyODIsLTE0MDUxNzc2MjMs
-MTk2MTUxNDkwMywtMjAwMzI5OTU1MiwtODYxOTA1NTEyLDE4Mj
-I1MDQ0ODUsMTQ2NjQ2NzA3MCwzNDYzNTMwMjcsMTkyMjg4MTA1
-Nl19
+eyJoaXN0b3J5IjpbMTM4NDA3OTc1NSwxNDcxMzQwNjIsMTcxND
+Q2MjE0MiwtNTY5NjYzMTkwLDEwOTYyOTg5MzksMzA0NjUyNDgw
+LDE0NTQ5MjkzMTIsNzkxNDU5NDk4LC0zMzE3NTQ3NzMsNjE2Mj
+Q4NzYyLDQ4Mjc0NDg0NSwxMjg4NjM4MjA4LDYwNTM1NzI4Miwt
+MTQwNTE3NzYyMywxOTYxNTE0OTAzLC0yMDAzMjk5NTUyLC04Nj
+E5MDU1MTIsMTgyMjUwNDQ4NSwxNDY2NDY3MDcwLDM0NjM1MzAy
+N119
 -->
