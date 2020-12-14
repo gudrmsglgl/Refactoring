@@ -306,10 +306,10 @@ fun circumference(radius: Float){...}
 <br>
 
 ### 📍 &nbsp;&nbsp;간단한 절차
-① 매개변수를 제거하려거든 먼저 **⚠️ 함수 본문에서 제거 대상 매개변수를 참조하는 곳**은 없는지 확인.<br>
-② 메서드 선언을 원하는 형태로 바꾼다.<br>
-③ 기존 메서드 선언을 참조하는 부분을 모두 찾아서 바뀐 형태로 수정.<br>
-④ 테스트한다. <br>
+&emsp;① 매개변수를 제거하려거든 먼저 **⚠️ 함수 본문에서 제거 대상 매개변수를 참조하는 곳**은 없는지 확인.<br>
+&emsp;② 메서드 선언을 원하는 형태로 바꾼다.<br>
+&emsp;③ 기존 메서드 선언을 참조하는 부분을 모두 찾아서 바뀐 형태로 수정.<br>
+&emsp;④ 테스트한다. <br>
 
 
 <br>
@@ -337,7 +337,7 @@ fun addReservation(customer: Customer){
    this._reservations.push(customer)
 }
 ```
-② 함수 본문을 새로운 함수로 추출한다.
+&emsp;② 함수 본문을 새로운 함수로 추출한다.
 ```kotlin
 // Book 클래스..
 fun addReservation(customer: Customer){
@@ -348,7 +348,7 @@ fun zz_addReservation(customer: Customer){
    this._reservations.push(customer)
 }
 ```
-③ 새 함수의 선언문과 호출문에 원하는 매개변수를 추가한다.
+&emsp;③ 새 함수의 선언문과 호출문에 원하는 매개변수를 추가한다.
 ```kotlin
 // Book 클래스..
 fun addReservation(customer: Customer){
@@ -360,8 +360,8 @@ fun zz_addReservation(customer: Customer, isPriority: Boolean){
    this._reservations.push(customer)
 }
 ```
-⑤ 기존 함수를 인라인한다. <br>
-⑥ 다 고쳤다면 새 함수의 이름을 기존 함수의 이름으로 바꾼다.
+&emsp;⑤ 기존 함수를 인라인한다. <br>
+&emsp;⑥ 다 고쳤다면 새 함수의 이름을 기존 함수의 이름으로 바꾼다.
 
 <br>
 
@@ -1072,11 +1072,11 @@ fun applyShipping( //👈 두 번째 단계
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNDQ2MjE0MiwtNTY5NjYzMTkwLDEwOT
-YyOTg5MzksMzA0NjUyNDgwLDE0NTQ5MjkzMTIsNzkxNDU5NDk4
-LC0zMzE3NTQ3NzMsNjE2MjQ4NzYyLDQ4Mjc0NDg0NSwxMjg4Nj
-M4MjA4LDYwNTM1NzI4MiwtMTQwNTE3NzYyMywxOTYxNTE0OTAz
-LC0yMDAzMjk5NTUyLC04NjE5MDU1MTIsMTgyMjUwNDQ4NSwxND
-Y2NDY3MDcwLDM0NjM1MzAyNywxOTIyODgxMDU2LC01NjUwNDc3
-MzNdfQ==
+eyJoaXN0b3J5IjpbMjA4MjcwMDEyNiwxNzE0NDYyMTQyLC01Nj
+k2NjMxOTAsMTA5NjI5ODkzOSwzMDQ2NTI0ODAsMTQ1NDkyOTMx
+Miw3OTE0NTk0OTgsLTMzMTc1NDc3Myw2MTYyNDg3NjIsNDgyNz
+Q0ODQ1LDEyODg2MzgyMDgsNjA1MzU3MjgyLC0xNDA1MTc3NjIz
+LDE5NjE1MTQ5MDMsLTIwMDMyOTk1NTIsLTg2MTkwNTUxMiwxOD
+IyNTA0NDg1LDE0NjY0NjcwNzAsMzQ2MzUzMDI3LDE5MjI4ODEw
+NTZdfQ==
 -->
