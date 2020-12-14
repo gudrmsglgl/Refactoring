@@ -29,7 +29,19 @@
 
 ## 7.1 레코드 캡슐화하기 Encapsulate Record
 
+```kotlin
+val basePrice = anOrder.basePrice
+return (basePrice > 1000)
+```
+**🔻 변수 인라인**
+```kotlin
+return anOrder.basePrice > 1000
+```
+<br>
 
+### 🔎 &nbsp;&nbsp;레코드 캡슐화할 때
+- 원래 표현식과 다를 바 없을 때 
+- 변수가 주변 코드를 리팩터링하는 데 방해될 때 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1OTU4Njg5NV19
+eyJoaXN0b3J5IjpbMjMyNzc0Mzc5XX0=
 -->
