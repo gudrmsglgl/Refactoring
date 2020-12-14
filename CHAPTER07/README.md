@@ -1,9 +1,9 @@
 # 캡슐화
 
-[함수 추출하기](#id-section1)<br>
+[레코드 캡슐화하기](#id-section1)<br>
 
 
-- 모듈을 분리하는 가장 중요한 기준
+- ### 모듈을 분리하는 가장 중요한 기준
     - [x] 자신을 제외한 다른 부분에 드러내지 않아야 할 비밀을 잘 숨기느냐
     - [x] **레코드 캡슐화하기**
     - [x] **컬렉션 캡슐화하기**
@@ -22,7 +22,12 @@
 		- [x] **중개자 제거하기**
 
 - 함수 구현 캡슐화
-	- [x] 함수 추출하기 -> 알고리즘 교체하기
+	- [x] **함수 추출하기** -> **알고리즘 교체하기**
+
+<br>
+<div id='id-section1'/>
+
+## 7.1 레코드 캡슐화하기 Encapsulate Record
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEyNTQxNDUzXX0=
+eyJoaXN0b3J5IjpbLTY2OTYyNDA3Ml19
 -->
