@@ -81,15 +81,15 @@ fun printDetail(invoice: Invoice, outstanding: Int){
 <br>
 
 ### 📍 &nbsp;&nbsp;절차
-&emsp;① 함수를 새로 만들고 목적을 잘 드러내는 이름을 붙인다 ('어떻게' 아닌 '무엇을' 하는지가 드러나게)
+&emsp;⓵ 함수를 새로 만들고 목적을 잘 드러내는 이름을 붙인다 ('어떻게' 아닌 '무엇을' 하는지가 드러나게)
 ```
 * 대상 코드가 매우 간던하더라도 함수로 뽑아서 목적이 더 잘 드러나는 이름을 붙일 수 있다면 추출한다.
 * 이름이 떠오르지 않는다면 함수로 추출하면 안 되는 신호.
 * 추출하는 과정에서 좋은 이름이 떠오를 수도 있으니 처음부터 최선의 이름부터 짓고 시작할 필요 없다.
 * 함수로 추출해서 사용해보고 효과가 크지 않다면 다시 원래 상태로 인라인해도 된다.
 ```
-&emsp;② 추출할 코드를 원본 함수에서 복사하여 새 함수에 붙여넣는다.<br>
-&emsp;③ 추출한 코드 중 원본 함수의 지역 변수를 참조하거나 추출한 함수의 유효범위를 벗어나는 변수는 없는지 검사한다. 있다면 매개변수로 전달한다.
+&emsp;⓶ 추출할 코드를 원본 함수에서 복사하여 새 함수에 붙여넣는다.<br>
+&emsp;⓷ 추출한 코드 중 원본 함수의 지역 변수를 참조하거나 추출한 함수의 유효범위를 벗어나는 변수는 없는지 검사한다. 있다면 매개변수로 전달한다.
 ```
 -> 함수에는 지역 변수와 매개변수가 있기 마련. 
    가장 일반적인 처리 방법은 이런 변수 모두를 인수로 전달.
@@ -99,10 +99,10 @@ fun printDetail(invoice: Invoice, outstanding: Int){
 -> 때로는 추출한 코드에서 값을 수정하는 지역 변수가 너무 많을 수 있다. 
    이럴 때는 함수 추출을 멈추고, 변수 쪼개기가 임시 변수를 질의 함수로 바꾸기와 같은 다른 리팩터링 적용해서 변수를 사용하는 코드를 단순하게 바꿔본다. 그런 다음 함수 추출을 다시 시도.      
 ```
- &emsp;④ 변수를 다 처리했다면 컴파일한다.<br>
- &emsp;⑤ 원본 함수에서 추출한 코드 부분을 새로 만든 함수를 호출하는 문장으로 바꾼다 (즉, 추출한 함수로 일을 위임)<br>
- &emsp;⑥ 테스트한다.<br>
- &emsp;⑦ 다른 코드에 방금 추출한 것과 똑같거나 비슷한 코드가 없는지 살핀다. 있다면 방금 추출한 새 함수를 호출하도록 바꿀지 검토한다. (인라인 코드를 함수 호출로 바꾸기)
+ &emsp;⓸ 변수를 다 처리했다면 컴파일한다.<br>
+ &emsp;⓹ 원본 함수에서 추출한 코드 부분을 새로 만든 함수를 호출하는 문장으로 바꾼다 (즉, 추출한 함수로 일을 위임)<br>
+ &emsp;⓺ 테스트한다.<br>
+ &emsp;⓻ 다른 코드에 방금 추출한 것과 똑같거나 비슷한 코드가 없는지 살핀다. 있다면 방금 추출한 새 함수를 호출하도록 바꿀지 검토한다. (인라인 코드를 함수 호출로 바꾸기)
 
 <br>
 <div id='id-section2'/>
@@ -135,11 +135,11 @@ fun getRating(driver: Driver): Int{
 <br>
 
 ### 📍 &nbsp;&nbsp;절차
-&emsp;① 다형 메서드(polymorphic method)인지 확인.
+&emsp;⓵ 다형 메서드(polymorphic method)인지 확인.
 ```
 -> 서브클래스에서 오버라이드하는 메서드는 인라인하면 안 된다.
 ```
-&emsp;② 인라인할 함수를 호출하는 곳을 모두 찾는다.<br>
+&emsp;⓶ 인라인할 함수를 호출하는 곳을 모두 찾는다.<br>
 &emsp;⓷ 각 호출문을 함수 본문으로 교체한다.<br>
 &emsp;⓸ 하나씩 교체할 때마다 테스트한다.<br>
 ```
@@ -1072,11 +1072,11 @@ fun applyShipping( //👈 두 번째 단계
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNTU4Mzc5NSwxNDcxMzQwNjIsMTcxND
-Q2MjE0MiwtNTY5NjYzMTkwLDEwOTYyOTg5MzksMzA0NjUyNDgw
-LDE0NTQ5MjkzMTIsNzkxNDU5NDk4LC0zMzE3NTQ3NzMsNjE2Mj
-Q4NzYyLDQ4Mjc0NDg0NSwxMjg4NjM4MjA4LDYwNTM1NzI4Miwt
-MTQwNTE3NzYyMywxOTYxNTE0OTAzLC0yMDAzMjk5NTUyLC04Nj
-E5MDU1MTIsMTgyMjUwNDQ4NSwxNDY2NDY3MDcwLDM0NjM1MzAy
-N119
+eyJoaXN0b3J5IjpbODM5MzQ2NDk0LDE0NzEzNDA2MiwxNzE0ND
+YyMTQyLC01Njk2NjMxOTAsMTA5NjI5ODkzOSwzMDQ2NTI0ODAs
+MTQ1NDkyOTMxMiw3OTE0NTk0OTgsLTMzMTc1NDc3Myw2MTYyND
+g3NjIsNDgyNzQ0ODQ1LDEyODg2MzgyMDgsNjA1MzU3MjgyLC0x
+NDA1MTc3NjIzLDE5NjE1MTQ5MDMsLTIwMDMyOTk1NTIsLTg2MT
+kwNTUxMiwxODIyNTA0NDg1LDE0NjY0NjcwNzAsMzQ2MzUzMDI3
+XX0=
 -->
