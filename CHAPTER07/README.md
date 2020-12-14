@@ -18,6 +18,11 @@
 	- [x] **클래스 인라인하기**
 	-  클래스 사이의 연결 관계 숨기기
 		- [x] **위임 숨기기**
+	- 클래스 사이의 너무 많이 숨겨서 인터페이스가 비대해질 때
+		- [x] **중개자 제거하기**
+
+- 함수 구현 캡슐화
+	- [x] 함수 추출하기 -> 알고리즘 교체하기
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU2ODMzMTMyXX0=
+eyJoaXN0b3J5IjpbNTEyNTQxNDUzXX0=
 -->
