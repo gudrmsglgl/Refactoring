@@ -43,8 +43,8 @@ class Organization{
 
 ### 🔎 &nbsp;&nbsp;레코드 캡슐화할 때
 - 가변 데이터를 저장하는 용도로 객체 사용
-- 
-- 
+- 사용자는 무엇이 저장된 값이고 무엇이 계산된 값인지 알 필요가 없다.
+- 해쉬맵은 유용하지만, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODIwOTY1NjFdfQ==
+eyJoaXN0b3J5IjpbNTY1ODk0NzM1XX0=
 -->
