@@ -47,8 +47,9 @@ class Organization{
 - 해쉬맵은 유용하지만, 필드를 명확히 알려주지 않는 단점 <br>
 	⚠️ 사용하는 곳이 많을수록 불분명함으로 인해 발생하는 문제가 커짐.
 	🙆‍♀️ 클래스를 사용하는 편이 낫다.
+	
 - 중첩된 리스트나 해시맵을 받아서 JSON 이나 XML 같은 포맷으로 직렬화할 때
-	- [x] 캡	
+	- [x] 캡슐화	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NTQ3OTUwNV19
+eyJoaXN0b3J5IjpbLTkzNjI4NTU3N119
 -->
