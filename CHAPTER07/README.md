@@ -28,6 +28,8 @@
 <div id='id-section1'/>
 
 ## 7.1 레코드 캡슐화하기 Encapsulate Record
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MjgzMjU5N119
+eyJoaXN0b3J5IjpbLTc1OTU4Njg5NV19
 -->
