@@ -42,8 +42,9 @@ class Organization{
 <br>
 
 ### 🔎 &nbsp;&nbsp;레코드 캡슐화할 때
-- 원래 표현식과 다를 바 없을 때 
-- 변수가 주변 코드를 리팩터링하는 데 방해될 때 
+- 가변 데이터를 저장하는 용도로 객체 사용
+- 
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjkzMzA2MDRdfQ==
+eyJoaXN0b3J5IjpbLTE3ODIwOTY1NjFdfQ==
 -->
