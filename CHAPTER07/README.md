@@ -34,7 +34,9 @@ val organization = mapOf("name" to "애크미 구스베리", "country" to "GB")
 ```
 **🔻 레코드 캡슐화하기**
 ```kotlin
-return anOrder.basePrice > 1000
+class Organization(){
+ 
+}
 ```
 <br>
 
@@ -42,5 +44,5 @@ return anOrder.basePrice > 1000
 - 원래 표현식과 다를 바 없을 때 
 - 변수가 주변 코드를 리팩터링하는 데 방해될 때 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUzNzI4NDUyXX0=
+eyJoaXN0b3J5IjpbMTQzNzA1MjcxOF19
 -->
