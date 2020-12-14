@@ -30,10 +30,9 @@
 ## 7.1 레코드 캡슐화하기 Encapsulate Record
 
 ```kotlin
-val basePrice = anOrder.basePrice
-return (basePrice > 1000)
+val organization = mapOf("name" to "애크미 구스베리", "country" to "GB")
 ```
-**🔻 변수 인라인**
+**🔻 레코드 캡슐화하기**
 ```kotlin
 return anOrder.basePrice > 1000
 ```
@@ -43,5 +42,5 @@ return anOrder.basePrice > 1000
 - 원래 표현식과 다를 바 없을 때 
 - 변수가 주변 코드를 리팩터링하는 데 방해될 때 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMyNzc0Mzc5XX0=
+eyJoaXN0b3J5IjpbODUzNzI4NDUyXX0=
 -->
