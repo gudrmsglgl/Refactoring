@@ -62,7 +62,7 @@ class Organization{
 &emsp;⓶ 레코드를 감싼 단순한 클래스로 해당 변수의 내용을 교체한다. 이 클래스의 원본 레코드를 반환하는 접근자도 정의하고, 변수를 캡슐화하는 함수들이 이 접근자를 사용하도록 수정.<br>
 &emsp;⓷ 테스트한다.<br>
 &emsp;⓸ 원본 레코드 대신 새로 정의한 클래스 타입의 객체를 반환하는 함수들을 새로 만든다.<br>
-&emsp;⓹ 레코드를 반환하는 예전 함수를 사용하는 코드를 ⓸에서 만든 새 함수를 사용하도록 바꾼다. <br>
+&emsp;⓹ 레코드를 반환하는 예전 함수를 사용하는 코드를 ⓸에서 만든 새 함수를 사용하도록 바꾼다. 필드에 접근할 때는 객체의 접근자를 사용. 한 부분을 바꿀 때마다 테스트한다.<br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDM0MDE1NjUsLTE1NzMzNzY4N119
+eyJoaXN0b3J5IjpbODM0ODU0ODAzLC0xNTczMzc2ODddfQ==
 -->
