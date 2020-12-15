@@ -155,9 +155,9 @@ person.courses(
 )
 ```
 
-#### .<br>
+#### ⚠️  필드를 참조하는 과정만 캡슐화, 필드에 담긴 내용을 캡슐화하지 않으면 컨트롤 X<br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzE1MTI2MSwxNzMzNTUxODkwLC0xND
+eyJoaXN0b3J5IjpbMTEwNTU1Njk2MiwxNzMzNTUxODkwLC0xND
 YzNDM1MjA0LDE0ODg1NDY5OTgsNTI4MDIzNDI3LC0xODM2MTgx
 NzY4LC0xNjY5MzkxNDAwLDgzNDg1NDgwMywtMTU3MzM3Njg3XX
 0=
