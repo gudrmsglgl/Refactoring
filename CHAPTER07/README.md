@@ -148,14 +148,16 @@ fun numAdvancedCourses() = person.courses()
    .length
 
 // 클라이언트는 세터를 이용해 수업 컬렉션을 통째로 마음대로 수정할 수 있다.
+// 이런식으로 목록을 갱신하면 Person 클래스가 더는 컬렉션을 제어할 수 없어서 캡슐화가 깨진다
 val basicCourseNames = readBasicCourseNames(fileName)
 person.courses(
    basicCourseNames.map{name -> Course(name, false)}
 )
 ```
-⚠️ 이런식으로 목록을 갱신하면 Pe<br>
+
+#### .<br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MDIzNzgwNiwxNzMzNTUxODkwLC0xND
+eyJoaXN0b3J5IjpbLTExMzE1MTI2MSwxNzMzNTUxODkwLC0xND
 YzNDM1MjA0LDE0ODg1NDY5OTgsNTI4MDIzNDI3LC0xODM2MTgx
 NzY4LC0xNjY5MzkxNDAwLDgzNDg1NDgwMywtMTU3MzM3Njg3XX
 0=
