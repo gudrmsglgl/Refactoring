@@ -109,8 +109,17 @@ class Person{
 &emsp;⓸ 컬렉션을 참조하는 부분을 모두 찾는다. 컬렉션의 변경자를 호출하는 코드가 모두 앞에서 추가한 추가/제거 함수를 호출하도록 수정. 수정할 때마다 테스트.<br>
 &emsp;⓹ 컬렉션 게터를 수정해서 원본 내용을 수정할 수 없는 읽기전용 프락시나 복제본을 반환하게 한다.<br>
 &emsp;⓺ 테스트한다.
+
+### **ex) 수업course 목록을 필드로 지니고 있는 Person 클래스**<br>
+
+```kotlin
+val aReading = acquireReading()
+val base = (baseRate(aReading.month, areading.year) * aReading.quantity)  // 👈 함수 추출의 필요성을 느껴야함
+val taxableCharge = Math.max(0, base - taxThreshold(aReading.year))
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjM0MzUyMDQsMTQ4ODU0Njk5OCw1Mj
-gwMjM0MjcsLTE4MzYxODE3NjgsLTE2NjkzOTE0MDAsODM0ODU0
-ODAzLC0xNTczMzc2ODddfQ==
+eyJoaXN0b3J5IjpbMTI1MTM4NDkyNSwtMTQ2MzQzNTIwNCwxND
+g4NTQ2OTk4LDUyODAyMzQyNywtMTgzNjE4MTc2OCwtMTY2OTM5
+MTQwMCw4MzQ4NTQ4MDMsLTE1NzMzNzY4N119
 -->
