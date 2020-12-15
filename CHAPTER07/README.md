@@ -68,9 +68,9 @@ class Organization{
    클라이언트가 데이터를 읽기만 한다면 데이터의 복제본이나 읽기전용 프락시를 반환할지 고려.
 ```
 &emsp;⓺ 클래스에서 원본 데이터를 반환하는 접근자와 원본 레코드를 반환하는 함수들을 제거.
-&emsp;⓻
-&emsp;⓼
+&emsp;⓻ 테스트한다.
+&emsp;⓼ 레코드의 필드도 데이터 구조인 중첩 구조라면 레코드 캡슐화하기와 컬렉션 캡슐화하기를 재귀적으로 적용.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ5NzAwNjc4LDgzNDg1NDgwMywtMTU3Mz
-M3Njg3XX0=
+eyJoaXN0b3J5IjpbLTE2NjkzOTE0MDAsODM0ODU0ODAzLC0xNT
+czMzc2ODddfQ==
 -->
