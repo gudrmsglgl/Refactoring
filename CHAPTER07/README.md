@@ -93,11 +93,11 @@ class Person{
 
 ### 🔎 &nbsp;&nbsp;컬렉션 캡슐화할 때
 - 컬렉션을 소유한 클래스를 통해서만 원소를 변경하도록 함<br>
-	
-
+	⚠️ **게터가 컬렉션 자체를 반환하도록 하면** 클래스가 눈치채지 못하는 상태에서 컬렉션의 원소들이 바뀌어버릴 수 있음
+	🙆‍♀️
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNTAwOTUyMSw1MjgwMjM0MjcsLTE4Mz
+eyJoaXN0b3J5IjpbLTQwOTM4MzE4MCw1MjgwMjM0MjcsLTE4Mz
 YxODE3NjgsLTE2NjkzOTE0MDAsODM0ODU0ODAzLC0xNTczMzc2
 ODddfQ==
 -->
