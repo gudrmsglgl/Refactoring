@@ -113,13 +113,12 @@ class Person{
 ### **ex) 수업course 목록을 필드로 지니고 있는 Person 클래스**<br>
 
 ```kotlin
-val aReading = acquireReading()
-val base = (baseRate(aReading.month, areading.year) * aReading.quantity)  // 👈 함수 추출의 필요성을 느껴야함
-val taxableCharge = Math.max(0, base - taxThreshold(aReading.year))
+// Person 클래스 
+val name: String
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MTM4NDkyNSwtMTQ2MzQzNTIwNCwxND
+eyJoaXN0b3J5IjpbMTgxNTkzOTE1MSwtMTQ2MzQzNTIwNCwxND
 g4NTQ2OTk4LDUyODAyMzQyNywtMTgzNjE4MTc2OCwtMTY2OTM5
 MTQwMCw4MzQ4NTQ4MDMsLTE1NzMzNzY4N119
 -->
