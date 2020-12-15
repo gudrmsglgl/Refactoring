@@ -113,12 +113,18 @@ class Person{
 ### **ex) 수업course 목록을 필드로 지니고 있는 Person 클래스**<br>
 
 ```kotlin
-// Person 클래스 
-val name: String
+class Person{ 
+   val name: String
+   val courses: List<Course>
+constructor(name:String) {
+	this.name = name
+	this.courses = listOf()
+}
+}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNTkzOTE1MSwtMTQ2MzQzNTIwNCwxND
-g4NTQ2OTk4LDUyODAyMzQyNywtMTgzNjE4MTc2OCwtMTY2OTM5
-MTQwMCw4MzQ4NTQ4MDMsLTE1NzMzNzY4N119
+eyJoaXN0b3J5IjpbLTU2OTgwOTA4LC0xNDYzNDM1MjA0LDE0OD
+g1NDY5OTgsNTI4MDIzNDI3LC0xODM2MTgxNzY4LC0xNjY5Mzkx
+NDAwLDgzNDg1NDgwMywtMTU3MzM3Njg3XX0=
 -->
