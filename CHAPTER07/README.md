@@ -159,12 +159,13 @@ person.courses(
 
 ```kotlin
 class Person{ 
-  fun addCourse(course: Course) = this.courses.add()
+  fun addCourse(course: Course) = this.courses.add(course)
+  fun removeCourse(course: Course) = this.courses.remove(course)
 )
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTc4NjQxMzUsMTczMzU1MTg5MCwtMT
-Q2MzQzNTIwNCwxNDg4NTQ2OTk4LDUyODAyMzQyNywtMTgzNjE4
-MTc2OCwtMTY2OTM5MTQwMCw4MzQ4NTQ4MDMsLTE1NzMzNzY4N1
-19
+eyJoaXN0b3J5IjpbODQ4NzEwMDAwLDE3MzM1NTE4OTAsLTE0Nj
+M0MzUyMDQsMTQ4ODU0Njk5OCw1MjgwMjM0MjcsLTE4MzYxODE3
+NjgsLTE2NjkzOTE0MDAsODM0ODU0ODAzLC0xNTczMzc2ODddfQ
+==
 -->
