@@ -67,10 +67,13 @@ class Organization{
 -> 중첩된 구조처럼 복잡한 레코드라면, 먼저 데이터를 갱신하는 클라이언트들에 주의해서 살펴본다.
    클라이언트가 데이터를 읽기만 한다면 데이터의 복제본이나 읽기전용 프락시를 반환할지 고려.
 ```
-&emsp;⓺ 클래스에서 원본 데이터를 반환하는 접근자와 원본 레코드를 반환하는 함수들을 제거.
-&emsp;⓻ 테스트한다.
-&emsp;⓼ 레코드의 필드도 데이터 구조인 중첩 구조라면 레코드 캡슐화하기와 컬렉션 캡슐화하기를 재귀적으로 적용.
+&emsp;⓺ 클래스에서 원본 데이터를 반환하는 접근자와 원본 레코드를 반환하는 함수들을 제거.<br>
+&emsp;⓻ 테스트한다.<br>
+&emsp;⓼ 레코드의 필드도 데이터 구조인 중첩 구조라면 레코드 캡슐화하기와 컬렉션 캡슐화하기를 재귀적으로 적용.<br>
+
+### **ex) 간단한 레코드 캡슐화하기**<br>
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjkzOTE0MDAsODM0ODU0ODAzLC0xNT
-czMzc2ODddfQ==
+eyJoaXN0b3J5IjpbMTE5ODQwOTA0NCwtMTY2OTM5MTQwMCw4Mz
+Q4NTQ4MDMsLTE1NzMzNzY4N119
 -->
