@@ -79,11 +79,18 @@ class Organization{
 ```kotlin
 class Person{
     fun course() = this._courses
-    var country: String
+    fun setCourses(list: List<>) = this._courses = list
+}
+```
+**🔻 컬렉션 캡슐화하기**
+```kotlin
+class Person{
+    fun course() = this._courses.slice()
+    fun setCourses(list: List<>) = this._courses = list
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQzOTUzNTAsNTI4MDIzNDI3LC0xODM2MT
-gxNzY4LC0xNjY5MzkxNDAwLDgzNDg1NDgwMywtMTU3MzM3Njg3
-XX0=
+eyJoaXN0b3J5IjpbLTg5MzkyMTE2MCw1MjgwMjM0MjcsLTE4Mz
+YxODE3NjgsLTE2NjkzOTE0MDAsODM0ODU0ODAzLC0xNTczMzc2
+ODddfQ==
 -->
