@@ -115,15 +115,16 @@ class Person{
 ```kotlin
 class Person{ 
    private val name: String
-   private var courses: List<Course>
+   private var _courses: MutableList<Course>
+   private val courses: List<Course>
    
    constructor(name:String) {
       this.name = name
-      this.courses = listOf()
+      this._courses = mutableListOf()
    }
    
    fun name() = this.name
-   fun courses() = this.courses
+   fun courses() = this._courses
    fun courses(list: List<Course>){
       this.courses = list
    }
@@ -164,8 +165,8 @@ class Person{
 )
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ4NzEwMDAwLDE3MzM1NTE4OTAsLTE0Nj
-M0MzUyMDQsMTQ4ODU0Njk5OCw1MjgwMjM0MjcsLTE4MzYxODE3
-NjgsLTE2NjkzOTE0MDAsODM0ODU0ODAzLC0xNTczMzc2ODddfQ
-==
+eyJoaXN0b3J5IjpbMTczODk2Mzk3MCw4NDg3MTAwMDAsMTczMz
+U1MTg5MCwtMTQ2MzQzNTIwNCwxNDg4NTQ2OTk4LDUyODAyMzQy
+NywtMTgzNjE4MTc2OCwtMTY2OTM5MTQwMCw4MzQ4NTQ4MDMsLT
+E1NzMzNzY4N119
 -->
