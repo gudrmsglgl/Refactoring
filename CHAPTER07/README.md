@@ -103,13 +103,14 @@ class Person{
 &emsp;⓵ 아직 컬렉션을 캡슐화하지 않았다면 변수 캡슐화하기부터 한다.<br>
 &emsp;⓶ 컬렉션에 원소를 추가/제거하는 함수를 추가한다.<br>
 ```
--> 컬렉션 자체를 통째로 바꾸는 세터는 제거한다. 세터를 제거할 수 없다면 인수로 받은 컬렉션을 복제해 
+-> 컬렉션 자체를 통째로 바꾸는 세터는 제거한다. 세터를 제거할 수 없다면 인수로 받은 컬렉션을 복제해 저장하도록 한다.
 ```
-&emsp;⓷ 테스트한다.<br>
-&emsp;⓸ 원본 레코드 대신 새로 정의한 클래스 타입의 객체를 반환하는 함수들을 새로 만든다.<br>
-&emsp;⓹ 레코드를 반환하는 예전 함수를 사용하는 코드를 ⓸에서 만든 새 함수를 사용하도록 바꾼다. 필드에 접근할 때는 객체의 접근자를 사용. 한 부분을 바꿀 때마다 테스트한다.<br>
+&emsp;⓷ 정적 검사를 수행한다.<br>
+&emsp;⓸ 컬렉션을 참조하는 부분을 모두 찾는다. 컬렉션의 변경자를 호출하는 코드가 모두 앞에서 추가한 추가/제거 함수를 호출하도록 수정. 수정할 때마다 테스트.<br>
+&emsp;⓹ 컬렉션 게터를 수정해서 원본 내용을 수정할 수 없는 읽기전용 프락시나 복제본을 반환하게 한다.<br>
+&emsp;⓺ 테스트한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY2NjEzNDM2LDE0ODg1NDY5OTgsNTI4MD
-IzNDI3LC0xODM2MTgxNzY4LC0xNjY5MzkxNDAwLDgzNDg1NDgw
-MywtMTU3MzM3Njg3XX0=
+eyJoaXN0b3J5IjpbLTE0NjM0MzUyMDQsMTQ4ODU0Njk5OCw1Mj
+gwMjM0MjcsLTE4MzYxODE3NjgsLTE2NjkzOTE0MDAsODM0ODU0
+ODAzLC0xNTczMzc2ODddfQ==
 -->
