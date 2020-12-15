@@ -67,7 +67,10 @@ class Organization{
 -> 중첩된 구조처럼 복잡한 레코드라면, 먼저 데이터를 갱신하는 클라이언트들에 주의해서 살펴본다.
    클라이언트가 데이터를 읽기만 한다면 데이터의 복제본이나 읽기전용 프락시를 반환할지 고려.
 ```
+&emsp;⓺ 클래스에서 원본 데이터를 반환하는 접근자와 원본 레코드를 반환하는 함수들을 제거.
+&emsp;⓻
+&emsp;⓼
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTc1MTI5NDQsODM0ODU0ODAzLC0xNT
-czMzc2ODddfQ==
+eyJoaXN0b3J5IjpbOTQ5NzAwNjc4LDgzNDg1NDgwMywtMTU3Mz
+M3Njg3XX0=
 -->
