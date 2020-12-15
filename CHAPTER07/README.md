@@ -71,17 +71,19 @@ class Organization{
 &emsp;⓻ 테스트한다.<br>
 &emsp;⓼ 레코드의 필드도 데이터 구조인 중첩 구조라면 레코드 캡슐화하기와 컬렉션 캡슐화하기를 재귀적으로 적용.
 
+
 <br>
+<div id='id-section2'/>
 
-### **ex) 간단한 레코드 캡슐화하기**<br>
-
+## 7.2 컬렉션 캡슐화하기 Encapsulate Collection
 ```kotlin
-class Organization{
-    var name: String
+class Person{
+    fun course() = this._courses
     var country: String
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI4MDIzNDI3LC0xODM2MTgxNzY4LC0xNj
-Y5MzkxNDAwLDgzNDg1NDgwMywtMTU3MzM3Njg3XX0=
+eyJoaXN0b3J5IjpbNjQzOTUzNTAsNTI4MDIzNDI3LC0xODM2MT
+gxNzY4LC0xNjY5MzkxNDAwLDgzNDg1NDgwMywtMTU3MzM3Njg3
+XX0=
 -->
