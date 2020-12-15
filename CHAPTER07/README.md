@@ -156,9 +156,15 @@ person.courses(
 ```
 
 #### ⚠️  필드를 참조하는 과정만 캡슐화, 필드에 담긴 내용을 캡슐화하지 않으면 컨트롤 X<br>
+
+```kotlin
+class Person{ 
+  fun addCourse(course: Course) = this.courses.add()
+)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNTU1Njk2MiwxNzMzNTUxODkwLC0xND
-YzNDM1MjA0LDE0ODg1NDY5OTgsNTI4MDIzNDI3LC0xODM2MTgx
-NzY4LC0xNjY5MzkxNDAwLDgzNDg1NDgwMywtMTU3MzM3Njg3XX
-0=
+eyJoaXN0b3J5IjpbLTE3MTc4NjQxMzUsMTczMzU1MTg5MCwtMT
+Q2MzQzNTIwNCwxNDg4NTQ2OTk4LDUyODAyMzQyNywtMTgzNjE4
+MTc2OCwtMTY2OTM5MTQwMCw4MzQ4NTQ4MDMsLTE1NzMzNzY4N1
+19
 -->
