@@ -116,8 +116,9 @@ class Person{
 class Person{ 
    private val name: String
    private var _courses: MutableList<Course>
-   private val courses: List<Course>
-   
+   val courses: List<Course>
+      get() = _courses
+      
    constructor(name:String) {
       this.name = name
       this._courses = mutableListOf()
@@ -160,13 +161,13 @@ person.courses(
 
 ```kotlin
 class Person{ 
-  fun addCourse(course: Course) = this.courses.add(course)
-  fun removeCourse(course: Course) = this.courses.remove(course)
+  fun addCourse(course: Course) = this._courses.add(course)
+  fun removeCourse(course: Course) = this._courses.remove(course)
 )
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczODk2Mzk3MCw4NDg3MTAwMDAsMTczMz
-U1MTg5MCwtMTQ2MzQzNTIwNCwxNDg4NTQ2OTk4LDUyODAyMzQy
-NywtMTgzNjE4MTc2OCwtMTY2OTM5MTQwMCw4MzQ4NTQ4MDMsLT
-E1NzMzNzY4N119
+eyJoaXN0b3J5IjpbLTE2MzEyMzg1NDYsODQ4NzEwMDAwLDE3Mz
+M1NTE4OTAsLTE0NjM0MzUyMDQsMTQ4ODU0Njk5OCw1MjgwMjM0
+MjcsLTE4MzYxODE3NjgsLTE2NjkzOTE0MDAsODM0ODU0ODAzLC
+0xNTczMzc2ODddfQ==
 -->
