@@ -63,6 +63,11 @@ class Organization{
 &emsp;⓷ 테스트한다.<br>
 &emsp;⓸ 원본 레코드 대신 새로 정의한 클래스 타입의 객체를 반환하는 함수들을 새로 만든다.<br>
 &emsp;⓹ 레코드를 반환하는 예전 함수를 사용하는 코드를 ⓸에서 만든 새 함수를 사용하도록 바꾼다. 필드에 접근할 때는 객체의 접근자를 사용. 한 부분을 바꿀 때마다 테스트한다.<br>
+```
+-> 중첩된 구조처럼 복잡한 레코드라면, 먼저 데이터를 갱신하는 클라이언트들에 주의해서 살펴본다.
+   클라이언트가 데이터를 읽기만 한다면 데이터의 복제본이나 읽기전용 프락시를 반환할지 고려.
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM0ODU0ODAzLC0xNTczMzc2ODddfQ==
+eyJoaXN0b3J5IjpbLTIwNTc1MTI5NDQsODM0ODU0ODAzLC0xNT
+czMzc2ODddfQ==
 -->
