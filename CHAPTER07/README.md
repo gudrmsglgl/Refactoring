@@ -128,10 +128,24 @@ class Person{
       this.courses = list
    }
 }
+
+class Course{ 
+   private val name: String
+   private var isAdvanced: Boolean
+   
+   constructor(name:String, isAdvanced) {
+      this.name = name
+      this.isAdvanced = isAdvanced
+   }
+   
+   fun name() = this.name
+   fun isAdvanced() = this.
+}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMzU1MTg5MCwtMTQ2MzQzNTIwNCwxND
-g4NTQ2OTk4LDUyODAyMzQyNywtMTgzNjE4MTc2OCwtMTY2OTM5
-MTQwMCw4MzQ4NTQ4MDMsLTE1NzMzNzY4N119
+eyJoaXN0b3J5IjpbLTEwMDY2Mjk0NjYsMTczMzU1MTg5MCwtMT
+Q2MzQzNTIwNCwxNDg4NTQ2OTk4LDUyODAyMzQyNywtMTgzNjE4
+MTc2OCwtMTY2OTM5MTQwMCw4MzQ4NTQ4MDMsLTE1NzMzNzY4N1
+19
 -->
