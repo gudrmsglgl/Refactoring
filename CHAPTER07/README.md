@@ -125,9 +125,8 @@ class Person{
    }
    
    fun name() = this.name
-   fun courses() = this._courses
    fun courses(list: List<Course>){
-      this.courses = list
+      this._courses = list
    }
 }
 
@@ -145,7 +144,7 @@ class Course{
 }
 
 // 클라이언트는 Person이 제공하는 수업 컬렉션에서 수업 정보를 얻는다.
-fun numAdvancedCourses() = person.courses()
+fun numAdvancedCourses() = person.courses
    .filter{c -> c.isAdvanced()}
    .length
 
@@ -166,7 +165,7 @@ class Person{
 )
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzEyMzg1NDYsODQ4NzEwMDAwLDE3Mz
+eyJoaXN0b3J5IjpbLTIwMTU5NjEyMTQsODQ4NzEwMDAwLDE3Mz
 M1NTE4OTAsLTE0NjM0MzUyMDQsMTQ4ODU0Njk5OCw1MjgwMjM0
 MjcsLTE4MzYxODE3NjgsLTE2NjkzOTE0MDAsODM0ODU0ODAzLC
 0xNTczMzc2ODddfQ==
