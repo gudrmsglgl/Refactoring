@@ -92,11 +92,12 @@ class Person{
 ```
 
 ### 🔎 &nbsp;&nbsp;컬렉션 캡슐화할 때
-- 컬렉션을 소유한 클래스를 통해서만 원소를 변경하도로
+- 컬렉션을 소유한 클래스를 통해서만 원소를 변경하도록 함<br>
+	
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxOTg5NTA5NCw1MjgwMjM0MjcsLTE4Mz
+eyJoaXN0b3J5IjpbMTIxNTAwOTUyMSw1MjgwMjM0MjcsLTE4Mz
 YxODE3NjgsLTE2NjkzOTE0MDAsODM0ODU0ODAzLC0xNTczMzc2
 ODddfQ==
 -->
