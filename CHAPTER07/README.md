@@ -114,17 +114,22 @@ class Person{
 
 ```kotlin
 class Person{ 
-   val name: String
-   val courses: List<Course>
-constructor(name:String) {
-	this.name = name
-	this.courses = listOf()
-}
+   private val name: String
+   private val courses: List<Course>
+   
+   constructor(name:String) {
+      this.name = name
+      this.courses = listOf()
+   }
+   
+   fun name() = this.name
+   fun courses() = this.courses
+   fun courses(list: List<Course>) = co
 }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2OTgwOTA4LC0xNDYzNDM1MjA0LDE0OD
+eyJoaXN0b3J5IjpbOTUzMjg4ODA4LC0xNDYzNDM1MjA0LDE0OD
 g1NDY5OTgsNTI4MDIzNDI3LC0xODM2MTgxNzY4LC0xNjY5Mzkx
 NDAwLDgzNDg1NDgwMywtMTU3MzM3Njg3XX0=
 -->
