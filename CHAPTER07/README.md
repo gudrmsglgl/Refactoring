@@ -115,7 +115,7 @@ class Person{
 ```kotlin
 class Person{ 
    private val name: String
-   private val courses: List<Course>
+   private var courses: List<Course>
    
    constructor(name:String) {
       this.name = name
@@ -124,12 +124,14 @@ class Person{
    
    fun name() = this.name
    fun courses() = this.courses
-   fun courses(list: List<Course>) = co
+   fun courses(list: List<Course>){
+      this.courses = list
+   }
 }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUzMjg4ODA4LC0xNDYzNDM1MjA0LDE0OD
-g1NDY5OTgsNTI4MDIzNDI3LC0xODM2MTgxNzY4LC0xNjY5Mzkx
-NDAwLDgzNDg1NDgwMywtMTU3MzM3Njg3XX0=
+eyJoaXN0b3J5IjpbMTczMzU1MTg5MCwtMTQ2MzQzNTIwNCwxND
+g4NTQ2OTk4LDUyODAyMzQyNywtMTgzNjE4MTc2OCwtMTY2OTM5
+MTQwMCw4MzQ4NTQ4MDMsLTE1NzMzNzY4N119
 -->
