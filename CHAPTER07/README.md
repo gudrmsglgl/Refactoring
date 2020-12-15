@@ -86,11 +86,12 @@ class Person{
 ```kotlin
 class Person{
     fun course() = this._courses.slice()
-    fun setCourses(list: List<>) = this._courses = list
+    fun addCourse(course) {...}
+    fun removeCourse(course) {...} 
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MzkyMTE2MCw1MjgwMjM0MjcsLTE4Mz
-YxODE3NjgsLTE2NjkzOTE0MDAsODM0ODU0ODAzLC0xNTczMzc2
-ODddfQ==
+eyJoaXN0b3J5IjpbLTE2NzMxNDcwMTIsNTI4MDIzNDI3LC0xOD
+M2MTgxNzY4LC0xNjY5MzkxNDAwLDgzNDg1NDgwMywtMTU3MzM3
+Njg3XX0=
 -->
