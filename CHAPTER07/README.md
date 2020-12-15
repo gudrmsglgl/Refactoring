@@ -75,7 +75,13 @@ class Organization{
 
 ### **ex) 간단한 레코드 캡슐화하기**<br>
 
+```kotlin
+class Organization{
+    var name: String
+    var country: String
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzYxODE3NjgsLTE2NjkzOTE0MDAsOD
-M0ODU0ODAzLC0xNTczMzc2ODddfQ==
+eyJoaXN0b3J5IjpbNTI4MDIzNDI3LC0xODM2MTgxNzY4LC0xNj
+Y5MzkxNDAwLDgzNDg1NDgwMywtMTU3MzM3Njg3XX0=
 -->
