@@ -139,12 +139,17 @@ class Course{
    }
    
    fun name() = this.name
-   fun isAdvanced() = this.
+   fun isAdvanced() = this.isAdvanced
 }
+
+// 클라이언트는 Person이 제공하는 수업 컬렉션에서 수업 정보를 얻는다.
+fun numAdvancedCourses() = person.courses()
+   .filter{c -> c.isAdvanced()}
+   .length
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDY2Mjk0NjYsMTczMzU1MTg5MCwtMT
+eyJoaXN0b3J5IjpbLTIxMjg1MDI5OTAsMTczMzU1MTg5MCwtMT
 Q2MzQzNTIwNCwxNDg4NTQ2OTk4LDUyODAyMzQyNywtMTgzNjE4
 MTc2OCwtMTY2OTM5MTQwMCw4MzQ4NTQ4MDMsLTE1NzMzNzY4N1
 19
