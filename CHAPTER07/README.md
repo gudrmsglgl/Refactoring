@@ -148,11 +148,14 @@ fun numAdvancedCourses() = person.courses()
    .length
 
 // 클라이언트는 세터를 이용해 수업 컬렉션을 통째로 마음대로 수정할 수 있다.
-val basicCourseNames = readBasi
+val basicCourseNames = readBasicCourseNames(fileName)
+person.courses(
+   basicCourseNames.map{name -> Course(name, false)}
+)
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTE3NDI5OTMsMTczMzU1MTg5MCwtMT
+eyJoaXN0b3J5IjpbLTExMjMxNTgyOTAsMTczMzU1MTg5MCwtMT
 Q2MzQzNTIwNCwxNDg4NTQ2OTk4LDUyODAyMzQyNywtMTgzNjE4
 MTc2OCwtMTY2OTM5MTQwMCw4MzQ4NTQ4MDMsLTE1NzMzNzY4N1
 19
