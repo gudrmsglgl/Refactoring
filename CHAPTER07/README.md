@@ -153,10 +153,10 @@ person.courses(
    basicCourseNames.map{name -> Course(name, false)}
 )
 ```
-
+⚠️ 이런식으로 목록을 갱신하면 Pe<br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjMxNTgyOTAsMTczMzU1MTg5MCwtMT
-Q2MzQzNTIwNCwxNDg4NTQ2OTk4LDUyODAyMzQyNywtMTgzNjE4
-MTc2OCwtMTY2OTM5MTQwMCw4MzQ4NTQ4MDMsLTE1NzMzNzY4N1
-19
+eyJoaXN0b3J5IjpbLTc5MDIzNzgwNiwxNzMzNTUxODkwLC0xND
+YzNDM1MjA0LDE0ODg1NDY5OTgsNTI4MDIzNDI3LC0xODM2MTgx
+NzY4LC0xNjY5MzkxNDAwLDgzNDg1NDgwMywtMTU3MzM3Njg3XX
+0=
 -->
