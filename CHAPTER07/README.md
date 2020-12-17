@@ -204,20 +204,22 @@ order.filter{o -> o.priority.higherThan(Priority("normal"))}
 
 ```kotlin
 class Priority{
-   private _value: String
+   private val _value: String
    constructor(value: String){
       if (value is Priority) return value
       if (this.legalValues().any{it == value})
          this._value = value
       else 
-         throw Error()   
+         throw Error("$value is invalid for Priority")   
    }
+   
+   override fun toString() = this._value
+    
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTE4NzAxMjQsLTE5MjAwMTI2NTQsLT
-EwOTUzMDc0OTIsODQ4NzEwMDAwLDE3MzM1NTE4OTAsLTE0NjM0
-MzUyMDQsMTQ4ODU0Njk5OCw1MjgwMjM0MjcsLTE4MzYxODE3Nj
-gsLTE2NjkzOTE0MDAsODM0ODU0ODAzLC0xNTczMzc2ODddfQ==
-
+eyJoaXN0b3J5IjpbNTQ0MTM3NzU1LC0xOTIwMDEyNjU0LC0xMD
+k1MzA3NDkyLDg0ODcxMDAwMCwxNzMzNTUxODkwLC0xNDYzNDM1
+MjA0LDE0ODg1NDY5OTgsNTI4MDIzNDI3LC0xODM2MTgxNzY4LC
+0xNjY5MzkxNDAwLDgzNDg1NDgwMywtMTU3MzM3Njg3XX0=
 -->
