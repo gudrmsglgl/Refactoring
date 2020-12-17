@@ -216,15 +216,15 @@ class Priority{
          throw Error("$value is invalid for Priority")   
    }
    
-   override fun toString() = this._value
-   private fun legalValues():{
+   private fun legalValues(): Array<String> {
       return ['low', 'normal', 'high', 'rush']
    }
-   fun higherThan(other) 
+   fun higherThan(other: Priority): Boolean = this.index > other.index
+   fun lowerThan(other: Priority): Boolean = this.index < other.index 
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ1NDE2MjA4LC04OTc3NzkzMTksLTE5Mj
+eyJoaXN0b3J5IjpbNjg3NzQ5Nzg5LC04OTc3NzkzMTksLTE5Mj
 AwMTI2NTQsLTEwOTUzMDc0OTIsODQ4NzEwMDAwLDE3MzM1NTE4
 OTAsLTE0NjM0MzUyMDQsMTQ4ODU0Njk5OCw1MjgwMjM0MjcsLT
 E4MzYxODE3NjgsLTE2NjkzOTE0MDAsODM0ODU0ODAzLC0xNTcz
