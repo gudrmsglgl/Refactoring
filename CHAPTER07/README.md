@@ -199,11 +199,11 @@ order.filter{o -> o.priority.higherThan(Priority("normal"))}
 &emsp;⓺ 테스트한다.<br>
 &emsp;⓻ 함수 이름을 바꾸면 원본 접근자의 동작을 더 잘 드러낼 수 있는지 검토한다.<br>
 ```
--> 참조를 값으로 바꾸거나 값을 참조로 바꾸면 새로 만든 객체의 역할(값 또는 참조 객체)이 더 잘 들
+-> 참조를 값으로 바꾸거나 값을 참조로 바꾸면 새로 만든 객체의 역할(값 또는 참조 객체)이 더 잘 드러나는지 검토한다.
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzU1NjQ5NjQsLTEwOTUzMDc0OTIsOD
+eyJoaXN0b3J5IjpbLTE5MjAwMTI2NTQsLTEwOTUzMDc0OTIsOD
 Q4NzEwMDAwLDE3MzM1NTE4OTAsLTE0NjM0MzUyMDQsMTQ4ODU0
 Njk5OCw1MjgwMjM0MjcsLTE4MzYxODE3NjgsLTE2NjkzOTE0MD
 AsODM0ODU0ODAzLC0xNTczMzc2ODddfQ==
