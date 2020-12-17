@@ -214,12 +214,16 @@ class Priority{
    }
    
    override fun toString() = this._value
-    
+   private fun legalValues(){
+      return ['low', 'normal', 'high', 'rush']
+   }
+   fun higherThan(other) 
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ0MTM3NzU1LC0xOTIwMDEyNjU0LC0xMD
-k1MzA3NDkyLDg0ODcxMDAwMCwxNzMzNTUxODkwLC0xNDYzNDM1
-MjA0LDE0ODg1NDY5OTgsNTI4MDIzNDI3LC0xODM2MTgxNzY4LC
-0xNjY5MzkxNDAwLDgzNDg1NDgwMywtMTU3MzM3Njg3XX0=
+eyJoaXN0b3J5IjpbLTEyMzE3Njg3NTQsLTE5MjAwMTI2NTQsLT
+EwOTUzMDc0OTIsODQ4NzEwMDAwLDE3MzM1NTE4OTAsLTE0NjM0
+MzUyMDQsMTQ4ODU0Njk5OCw1MjgwMjM0MjcsLTE4MzYxODE3Nj
+gsLTE2NjkzOTE0MDAsODM0ODU0ODAzLC0xNTczMzc2ODddfQ==
+
 -->
