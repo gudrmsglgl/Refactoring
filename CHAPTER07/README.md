@@ -181,13 +181,15 @@ order.filter{o ->
 ```kotlin
 order.filter{o -> o.priority.higherThan(Priority("normal"))}
 ```
+<br>
 
 ### 🔎 &nbsp;&nbsp;기본형을 객체로 바꿀 때
-- 단순한 출력 이상의 기능이 필요해지는 순간 
-
+- 단순한 ***출력 이상의 기능이 필요해지는 순간*** 전용 클래스를 정의
+- 프로그램이 커질수록 점점 유용한 도구.
+- **리팩터링 중 가장 유용한 것으로 손꼽는다.**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMzMwMjYyNiwtMTA5NTMwNzQ5Miw4ND
-g3MTAwMDAsMTczMzU1MTg5MCwtMTQ2MzQzNTIwNCwxNDg4NTQ2
-OTk4LDUyODAyMzQyNywtMTgzNjE4MTc2OCwtMTY2OTM5MTQwMC
-w4MzQ4NTQ4MDMsLTE1NzMzNzY4N119
+eyJoaXN0b3J5IjpbLTEyMTYwNTk4MzEsLTEwOTUzMDc0OTIsOD
+Q4NzEwMDAwLDE3MzM1NTE4OTAsLTE0NjM0MzUyMDQsMTQ4ODU0
+Njk5OCw1MjgwMjM0MjcsLTE4MzYxODE3NjgsLTE2NjkzOTE0MD
+AsODM0ODU0ODAzLC0xNTczMzc2ODddfQ==
 -->
