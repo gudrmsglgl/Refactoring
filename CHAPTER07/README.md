@@ -187,9 +187,23 @@ order.filter{o -> o.priority.higherThan(Priority("normal"))}
 - 단순한 ***출력 이상의 기능이 필요해지는 순간*** 전용 클래스를 정의
 - 프로그램이 커질수록 점점 유용한 도구.
 - **리팩터링 중 가장 유용한 것으로 손꼽는다.**
+
+<br>
+
+### 📍 &nbsp;&nbsp;절차
+&emsp;⓵ 아직 변수를 캡슐화하지 않았다면 캡슐화한다.<br>
+&emsp;⓶ 단순한 값 클래스(value class)를 만든다. 생성자는 기존 값을 인수로 받아서 저장하고, 이 값을 반환하는게터를 추가한다.<br>
+&emsp;⓷ 정적 검사를 수행한다.<br>
+&emsp;⓸ 컬렉션을 참조하는 부분을 모두 찾는다. 컬렉션의 변경자를 호출하는 코드가 모두 앞에서 추가한 추가/제거 함수를 호출하도록 수정. 수정할 때마다 테스트.<br>
+&emsp;⓹ 컬렉션 게터를 수정해서 원본 내용을 수정할 수 없는 읽기전용 프락시나 복제본을 반환하게 한다.<br>
+&emsp;⓺ 테스트한다.
+```
+-> 컬렉션 자체를 통째로 바꾸는 세터는 제거한다. 세터를 제거할 수 없다면 인수로 받은 컬렉션을 복제해 저장하도록 한다.
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTYwNTk4MzEsLTEwOTUzMDc0OTIsOD
-Q4NzEwMDAwLDE3MzM1NTE4OTAsLTE0NjM0MzUyMDQsMTQ4ODU0
-Njk5OCw1MjgwMjM0MjcsLTE4MzYxODE3NjgsLTE2NjkzOTE0MD
-AsODM0ODU0ODAzLC0xNTczMzc2ODddfQ==
+eyJoaXN0b3J5IjpbMTQ3ODM3MzA3OCwtMTA5NTMwNzQ5Miw4ND
+g3MTAwMDAsMTczMzU1MTg5MCwtMTQ2MzQzNTIwNCwxNDg4NTQ2
+OTk4LDUyODAyMzQyNywtMTgzNjE4MTc2OCwtMTY2OTM5MTQwMC
+w4MzQ4NTQ4MDMsLTE1NzMzNzY4N119
 -->
