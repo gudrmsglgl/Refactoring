@@ -202,9 +202,18 @@ order.filter{o -> o.priority.higherThan(Priority("normal"))}
 -> 참조를 값으로 바꾸거나 값을 참조로 바꾸면 새로 만든 객체의 역할(값 또는 참조 객체)이 더 잘 드러나는지 검토한다.
 ```
 
+```kotlin
+class Priority{
+   constructor(value: String){
+      if (value is Priority) return value
+      if ()
+   }
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjAwMTI2NTQsLTEwOTUzMDc0OTIsOD
-Q4NzEwMDAwLDE3MzM1NTE4OTAsLTE0NjM0MzUyMDQsMTQ4ODU0
-Njk5OCw1MjgwMjM0MjcsLTE4MzYxODE3NjgsLTE2NjkzOTE0MD
-AsODM0ODU0ODAzLC0xNTczMzc2ODddfQ==
+eyJoaXN0b3J5IjpbLTE4NDQ4NjYxNjIsLTE5MjAwMTI2NTQsLT
+EwOTUzMDc0OTIsODQ4NzEwMDAwLDE3MzM1NTE4OTAsLTE0NjM0
+MzUyMDQsMTQ4ODU0Njk5OCw1MjgwMjM0MjcsLTE4MzYxODE3Nj
+gsLTE2NjkzOTE0MDAsODM0ODU0ODAzLC0xNTczMzc2ODddfQ==
+
 -->
