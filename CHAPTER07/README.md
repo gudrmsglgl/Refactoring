@@ -221,12 +221,18 @@ class Priority{
    }
    fun higherThan(other: Priority): Boolean = this.index > other.index
    fun lowerThan(other: Priority): Boolean = this.index < other.index 
+   override fun toString() = this._value
 }
+
+// client
+highPriorityCount = orders
+     .filter{o -> o.priority.higherThan(Priority("normal"))}
+     .length
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg3NzQ5Nzg5LC04OTc3NzkzMTksLTE5Mj
-AwMTI2NTQsLTEwOTUzMDc0OTIsODQ4NzEwMDAwLDE3MzM1NTE4
-OTAsLTE0NjM0MzUyMDQsMTQ4ODU0Njk5OCw1MjgwMjM0MjcsLT
-E4MzYxODE3NjgsLTE2NjkzOTE0MDAsODM0ODU0ODAzLC0xNTcz
-Mzc2ODddfQ==
+eyJoaXN0b3J5IjpbODIyNjA2MDIsLTg5Nzc3OTMxOSwtMTkyMD
+AxMjY1NCwtMTA5NTMwNzQ5Miw4NDg3MTAwMDAsMTczMzU1MTg5
+MCwtMTQ2MzQzNTIwNCwxNDg4NTQ2OTk4LDUyODAyMzQyNywtMT
+gzNjE4MTc2OCwtMTY2OTM5MTQwMCw4MzQ4NTQ4MDMsLTE1NzMz
+NzY4N119
 -->
