@@ -194,16 +194,17 @@ order.filter{o -> o.priority.higherThan(Priority("normal"))}
 &emsp;⓵ 아직 변수를 캡슐화하지 않았다면 캡슐화한다.<br>
 &emsp;⓶ 단순한 값 클래스(value class)를 만든다. 생성자는 기존 값을 인수로 받아서 저장하고, 이 값을 반환하는게터를 추가한다.<br>
 &emsp;⓷ 정적 검사를 수행한다.<br>
-&emsp;⓸ 컬렉션을 참조하는 부분을 모두 찾는다. 컬렉션의 변경자를 호출하는 코드가 모두 앞에서 추가한 추가/제거 함수를 호출하도록 수정. 수정할 때마다 테스트.<br>
-&emsp;⓹ 컬렉션 게터를 수정해서 원본 내용을 수정할 수 없는 읽기전용 프락시나 복제본을 반환하게 한다.<br>
-&emsp;⓺ 테스트한다.
+&emsp;⓸ 값 클래스의 인스턴스를 새로 만들어서 필드에 저장하도록 세터를 수정한다. 이미 있다면 필드의 타입을 적절히 변경한다.<br>
+&emsp;⓹ 새로 만든 클래스의 게터를 호출한 결과를 반환하도록 게터를 수정한다.<br>
+&emsp;⓺ 테스트한다.<br>
+&emsp;⓻ 함수 이름을 바꾸면 원본 접근자의 동작을 더 잘 드러낼 수 있는지 검토한다.<br>
 ```
--> 컬렉션 자체를 통째로 바꾸는 세터는 제거한다. 세터를 제거할 수 없다면 인수로 받은 컬렉션을 복제해 저장하도록 한다.
+-> 참조를 값으로 바꾸거나 값을 참조로 바꾸면 새로 만든 객체의 역할(값 또는 참조 객체)이 더 잘 들
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3ODM3MzA3OCwtMTA5NTMwNzQ5Miw4ND
-g3MTAwMDAsMTczMzU1MTg5MCwtMTQ2MzQzNTIwNCwxNDg4NTQ2
-OTk4LDUyODAyMzQyNywtMTgzNjE4MTc2OCwtMTY2OTM5MTQwMC
-w4MzQ4NTQ4MDMsLTE1NzMzNzY4N119
+eyJoaXN0b3J5IjpbLTE2MzU1NjQ5NjQsLTEwOTUzMDc0OTIsOD
+Q4NzEwMDAwLDE3MzM1NTE4OTAsLTE0NjM0MzUyMDQsMTQ4ODU0
+Njk5OCw1MjgwMjM0MjcsLTE4MzYxODE3NjgsLTE2NjkzOTE0MD
+AsODM0ODU0ODAzLC0xNTczMzc2ODddfQ==
 -->
