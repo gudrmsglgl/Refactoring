@@ -166,9 +166,18 @@ class Person{
 ```
 
 #### ⚠️  개별 원소 추가 제거 메서드를 제공하기 때문에 setter X (제거)<br>
+
+
+<br>
+<div id='id-section3'/>
+
+## 7.3 기본형을 객체로 바꾸기 Replace Primitive with Object
+```kotlin
+order.
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTUzMDc0OTIsODQ4NzEwMDAwLDE3Mz
-M1NTE4OTAsLTE0NjM0MzUyMDQsMTQ4ODU0Njk5OCw1MjgwMjM0
-MjcsLTE4MzYxODE3NjgsLTE2NjkzOTE0MDAsODM0ODU0ODAzLC
-0xNTczMzc2ODddfQ==
+eyJoaXN0b3J5IjpbNTY2NjEwMDQ3LC0xMDk1MzA3NDkyLDg0OD
+cxMDAwMCwxNzMzNTUxODkwLC0xNDYzNDM1MjA0LDE0ODg1NDY5
+OTgsNTI4MDIzNDI3LC0xODM2MTgxNzY4LC0xNjY5MzkxNDAwLD
+gzNDg1NDgwMywtMTU3MzM3Njg3XX0=
 -->
