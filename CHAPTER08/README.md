@@ -18,9 +18,17 @@
 <div id='id-section1'/>
 
 ## 8.1 함수 옮기기 Move Function
-``
+```kotlin
+class Account{
+   fun overdraftCharge(){...}
+```
+**🔻 함수 옮기기**
+```kotlin
+class AccountType{
+   fun overdraftCharge(){...}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMzkyNDgyOSwxNDEzOTAxMzUsLTEwMz
-UxNzAzNDEsMzg2Mjk2OTM0LC0xMzU0Njg4MTYzLC0xNDgwMjY2
-Mzg4LC0xODkyMDE0OTAzXX0=
+eyJoaXN0b3J5IjpbLTEyMTkwNDk4NzcsMTQxMzkwMTM1LC0xMD
+M1MTcwMzQxLDM4NjI5NjkzNCwtMTM1NDY4ODE2MywtMTQ4MDI2
+NjM4OCwtMTg5MjAxNDkwM119
 -->
