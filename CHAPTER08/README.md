@@ -9,8 +9,9 @@
 	- [x] **인라인 코드를 함수 호출로 바꾸기**로 중복 제거
  - 반복문 리팩터링
 	 - [x] **반복문 쪼개기**: 각각의 반복문이 단 하나의 일만 수행하도록 보장
+	 - [x] 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ2NTE2MjE2LDM4NjI5NjkzNCwtMTM1ND
-Y4ODE2MywtMTQ4MDI2NjM4OCwtMTg5MjAxNDkwM119
+eyJoaXN0b3J5IjpbLTUyODE4NDU5MywzODYyOTY5MzQsLTEzNT
+Q2ODgxNjMsLTE0ODAyNjYzODgsLTE4OTIwMTQ5MDNdfQ==
 -->
