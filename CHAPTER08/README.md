@@ -36,8 +36,10 @@ class AccountType{     👈 함수를 다른 클래스로 옮김
 - 높아진 이해를 반영하려면 요소들을 이리저리 옮겨야 할 수 있다. 
 - 모든 함수는 어떤 컨텍스트 안에 존재. 
 - 객체 지향 프로그래밍의 **핵심 모듈화 컨텍스트는 클래스**다.
+- 함수를 옮겨야 할 때
+	- [x] 자신이 속한 모듈 A의 요소들보다 다른 모듈 B의 요소들이 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTc5NDI2MjMsNTY3ODg2OTMyLDE0MT
-M5MDEzNSwtMTAzNTE3MDM0MSwzODYyOTY5MzQsLTEzNTQ2ODgx
-NjMsLTE0ODAyNjYzODgsLTE4OTIwMTQ5MDNdfQ==
+eyJoaXN0b3J5IjpbLTM1NzY0ODIwOSw1Njc4ODY5MzIsMTQxMz
+kwMTM1LC0xMDM1MTcwMzQxLDM4NjI5NjkzNCwtMTM1NDY4ODE2
+MywtMTQ4MDI2NjM4OCwtMTg5MjAxNDkwM119
 -->
