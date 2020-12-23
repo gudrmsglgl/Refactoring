@@ -24,11 +24,13 @@ class Account{
 ```
 **🔻 함수 옮기기**
 ```kotlin
-class AccountType{
+class AccountType{     👈 함수를 다른 클래스로 옮김
    fun overdraftCharge(){...}
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTkwNDk4NzcsMTQxMzkwMTM1LC0xMD
-M1MTcwMzQxLDM4NjI5NjkzNCwtMTM1NDY4ODE2MywtMTQ4MDI2
-NjM4OCwtMTg5MjAxNDkwM119
+eyJoaXN0b3J5IjpbNTY3ODg2OTMyLDE0MTM5MDEzNSwtMTAzNT
+E3MDM0MSwzODYyOTY5MzQsLTEzNTQ2ODgxNjMsLTE0ODAyNjYz
+ODgsLTE4OTIwMTQ5MDNdfQ==
 -->
