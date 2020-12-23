@@ -33,8 +33,11 @@ class AccountType{     👈 함수를 다른 클래스로 옮김
 - 모듈성이란
 	- 프로그램의 어딘가를 수정하려 할 때 해당 기능과 깊이 관련된 작은 일부만 이해해도 가능하게 해주는 능력
 - 모듈성 높일려면 서로 연관된 요소들을 함께 묶고, 요소 사이의 연결 관계를 쉽게 찾고 이해할 수 있도록 해야함
+- 높아진 이해를 반영하려면 요소들을 이리저리 옮겨야 할 수 있다. 
+- 모든 함수는 어떤 컨텍스트 안에 존재. 
+- 객체 지향 프로그래밍의 **핵심 모듈화 컨텍스트는 클래스**다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODI3MzA0NTUsNTY3ODg2OTMyLDE0MT
+eyJoaXN0b3J5IjpbLTE5NTc5NDI2MjMsNTY3ODg2OTMyLDE0MT
 M5MDEzNSwtMTAzNTE3MDM0MSwzODYyOTY5MzQsLTEzNTQ2ODgx
 NjMsLTE0ODAyNjYzODgsLTE4OTIwMTQ5MDNdfQ==
 -->
