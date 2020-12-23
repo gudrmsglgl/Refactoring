@@ -28,9 +28,12 @@ class AccountType{     👈 함수를 다른 클래스로 옮김
    fun overdraftCharge(){...}
 ```
 
-
+### ⚙️ 모듈성 Modularity
+- 좋은 소프트웨어 설계의 핵심은 모듈화가 얼마나 잘 되어 있는가.
+- 모듈성이란
+	- 프로그램의 어딘가를 수정하려 할 때 해당 기능과 과
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY3ODg2OTMyLDE0MTM5MDEzNSwtMTAzNT
-E3MDM0MSwzODYyOTY5MzQsLTEzNTQ2ODgxNjMsLTE0ODAyNjYz
-ODgsLTE4OTIwMTQ5MDNdfQ==
+eyJoaXN0b3J5IjpbMTE0MDQ2NzM3NSw1Njc4ODY5MzIsMTQxMz
+kwMTM1LC0xMDM1MTcwMzQxLDM4NjI5NjkzNCwtMTM1NDY4ODE2
+MywtMTQ4MDI2NjM4OCwtMTg5MjAxNDkwM119
 -->
