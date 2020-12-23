@@ -42,9 +42,11 @@ class AccountType{     👈 함수를 다른 클래스로 옮김
 	- [x] 다른 함수 안에서 **도우미 역할로 정의된 함수 중 독립적으로 고유한 가치가 있는 것**은 접근하기 더 쉬운 장소로 옮기는 게 낫다.
 	- [x] 다른 클래스로 옮겨두면 사용하기 더 편한 메소드도 있다.
 - 함수를 옮길 때 유무 정하는 법
-	- []
+	- [x] 대상 함수의 현재 컨텍스트와 후보 컨텍스트를 둘러보면 도움이 됨.
+	- [x] 대상 함수를 호출하는 함수들은 무엇인지, 대상 함수가 호출하는 함수들은 또 무엇이 있는지, 대상 함수가 사용하는 데이터는 무엇인지
+	- [x] 서로 관련된 여러 함수를 묶을 때는 -> 새로운 컨텍스트 필요 -> 클래스 묶기나 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzc3NDUwNDQsNTY3ODg2OTMyLDE0MT
-M5MDEzNSwtMTAzNTE3MDM0MSwzODYyOTY5MzQsLTEzNTQ2ODgx
-NjMsLTE0ODAyNjYzODgsLTE4OTIwMTQ5MDNdfQ==
+eyJoaXN0b3J5IjpbMTUxNDkxMjIzLDU2Nzg4NjkzMiwxNDEzOT
+AxMzUsLTEwMzUxNzAzNDEsMzg2Mjk2OTM0LC0xMzU0Njg4MTYz
+LC0xNDgwMjY2Mzg4LC0xODkyMDE0OTAzXX0=
 -->
