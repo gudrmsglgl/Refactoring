@@ -6,9 +6,10 @@
 	- [x] **문장을 호출한 곳으로 옮기기**로 사용
 	- [x] 같은 함수 안에서 옮길 때는 **문장 슬라이드** 사용
 - 한 덩어리의 문장들이 기존 함수와 같은 일을 할 때
-	- [x] **인라인 코드를 함수 호출로 바꾸기** 
+	- [x] **인라인 코드를 함수 호출로 바꾸기**로 중복 제거
+ - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMTIwNDk2NiwzODYyOTY5MzQsLTEzNT
+eyJoaXN0b3J5IjpbLTgzMjA0NzY1OSwzODYyOTY5MzQsLTEzNT
 Q2ODgxNjMsLTE0ODAyNjYzODgsLTE4OTIwMTQ5MDNdfQ==
 -->
