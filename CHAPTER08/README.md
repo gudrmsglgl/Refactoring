@@ -38,9 +38,10 @@ class AccountType{     👈 함수를 다른 클래스로 옮김
 - 객체 지향 프로그래밍의 **핵심 모듈화 컨텍스트는 클래스**다.
 - 함수를 옮겨야 할 때
 	- [x] 어떤 함수가 자신이 속한 모듈 A의 요소들보다 다른 모듈 B의 요소들을 더 많이 참조한다면 모듈 B로 옮기자. ( 캡슐화가 좋아짐 -> 모듈 B의 세부사항에 덜 의존하게 된다. ) 
-	- [x] 호출자들의 현재 위치(호출자가 속한 모듈)나 
+	- [x] **호출자들의 현재 위치(호출자가 속한 모듈)나 다음 업데이트 때 바뀌리라 예상되는 위치**에 따라서도 함수를 옮겨야 할 수 있다. 
+	- [x] 다른 함수 안에서 **도우미 역할로 정의된 함수 중 독립적으로 고유한 가치가 있는 것**은 접근하기 더 쉬운 장소로 옮기는 게 낫다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1ODM4NDAzNyw1Njc4ODY5MzIsMTQxMz
+eyJoaXN0b3J5IjpbLTQ0NTQ0NDY1NCw1Njc4ODY5MzIsMTQxMz
 kwMTM1LC0xMDM1MTcwMzQxLDM4NjI5NjkzNCwtMTM1NDY4ODE2
 MywtMTQ4MDI2NjM4OCwtMTg5MjAxNDkwM119
 -->
