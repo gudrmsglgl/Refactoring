@@ -1,5 +1,7 @@
 # 기능 이동
 
+[함수 옮기기](#id-section1)<br>
+
 - 옮기기는 문장 단위
 - 함수 안에서
 	- [x] 바깥으로 옮길 때는 **문장을 함수로 옮기기**
@@ -12,9 +14,13 @@
 	 - [x] **반복문을 파이프라인으로 바꾸기**: 반복문을 완전히 없애버림
 - **죽은 코드 제거하기** 
 
+<br>
+<div id='id-section1'/>
 
+## 8.1 함수 옮기기 Move Function
+``
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMzkwMTM1LC0xMDM1MTcwMzQxLDM4Nj
-I5NjkzNCwtMTM1NDY4ODE2MywtMTQ4MDI2NjM4OCwtMTg5MjAx
-NDkwM119
+eyJoaXN0b3J5IjpbLTgzMzkyNDgyOSwxNDEzOTAxMzUsLTEwMz
+UxNzAzNDEsMzg2Mjk2OTM0LC0xMzU0Njg4MTYzLC0xNDgwMjY2
+Mzg4LC0xODkyMDE0OTAzXX0=
 -->
