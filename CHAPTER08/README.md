@@ -11,7 +11,10 @@
 	 - [x] **반복문 쪼개기**: 각각의 반복문이 단 하나의 일만 수행하도록 보장
 	 - [x] **반복문을 파이프라인으로 바꾸기**: 반복문을 완전히 없애버림
 - **죽은 코드 제거하기** 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzUxNzAzNDEsMzg2Mjk2OTM0LC0xMz
-U0Njg4MTYzLC0xNDgwMjY2Mzg4LC0xODkyMDE0OTAzXX0=
+eyJoaXN0b3J5IjpbMTQxMzkwMTM1LC0xMDM1MTcwMzQxLDM4Nj
+I5NjkzNCwtMTM1NDY4ODE2MywtMTQ4MDI2NjM4OCwtMTg5MjAx
+NDkwM119
 -->
