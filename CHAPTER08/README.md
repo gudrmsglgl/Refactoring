@@ -1,6 +1,6 @@
 # 기능 이동
 
-- 옮기기는 문장 다누이
+- 옮기기는 문장 단위
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTI5NjY5XX0=
+eyJoaXN0b3J5IjpbLTE4OTIwMTQ5MDNdfQ==
 -->
