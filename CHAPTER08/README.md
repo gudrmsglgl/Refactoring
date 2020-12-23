@@ -31,9 +31,10 @@ class AccountType{     👈 함수를 다른 클래스로 옮김
 ### ⚙️ 모듈성 Modularity
 - 좋은 소프트웨어 설계의 핵심은 모듈화가 얼마나 잘 되어 있는가.
 - 모듈성이란
-	- 프로그램의 어딘가를 수정하려 할 때 해당 기능과 과
+	- 프로그램의 어딘가를 수정하려 할 때 해당 기능과 깊이 관련된 작은 일부만 이해해도 가능하게 해주는 능력
+- 모듈성 높일려면 서로 연관된 요소들을 함께 묶고, 요소 사이의 연결 관계를 쉽게 찾고 이해할 수 있도록 해야함
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MDQ2NzM3NSw1Njc4ODY5MzIsMTQxMz
-kwMTM1LC0xMDM1MTcwMzQxLDM4NjI5NjkzNCwtMTM1NDY4ODE2
-MywtMTQ4MDI2NjM4OCwtMTg5MjAxNDkwM119
+eyJoaXN0b3J5IjpbLTExODI3MzA0NTUsNTY3ODg2OTMyLDE0MT
+M5MDEzNSwtMTAzNTE3MDM0MSwzODYyOTY5MzQsLTEzNTQ2ODgx
+NjMsLTE0ODAyNjYzODgsLTE4OTIwMTQ5MDNdfQ==
 -->
