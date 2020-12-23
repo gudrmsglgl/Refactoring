@@ -1,6 +1,8 @@
 # 캡슐화
 
 [레코드 캡슐화하기](#id-section1)<br>
+[컬렉션 캡슐화하기](#id-section2)<br>
+[레코드 캡슐화하기](#id-section3)<br>
 
 
 - ### 모듈을 분리하는 가장 중요한 기준
@@ -230,9 +232,9 @@ highPriorityCount = orders
      .length
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIyNjA2MDIsLTg5Nzc3OTMxOSwtMTkyMD
-AxMjY1NCwtMTA5NTMwNzQ5Miw4NDg3MTAwMDAsMTczMzU1MTg5
-MCwtMTQ2MzQzNTIwNCwxNDg4NTQ2OTk4LDUyODAyMzQyNywtMT
-gzNjE4MTc2OCwtMTY2OTM5MTQwMCw4MzQ4NTQ4MDMsLTE1NzMz
-NzY4N119
+eyJoaXN0b3J5IjpbLTkwMzYxNDU1Niw4MjI2MDYwMiwtODk3Nz
+c5MzE5LC0xOTIwMDEyNjU0LC0xMDk1MzA3NDkyLDg0ODcxMDAw
+MCwxNzMzNTUxODkwLC0xNDYzNDM1MjA0LDE0ODg1NDY5OTgsNT
+I4MDIzNDI3LC0xODM2MTgxNzY4LC0xNjY5MzkxNDAwLDgzNDg1
+NDgwMywtMTU3MzM3Njg3XX0=
 -->
