@@ -9,9 +9,9 @@
 	- [x] **인라인 코드를 함수 호출로 바꾸기**로 중복 제거
  - 반복문 리팩터링
 	 - [x] **반복문 쪼개기**: 각각의 반복문이 단 하나의 일만 수행하도록 보장
-	 - [x] 
-
+	 - [x] **반복문을 파이프라인으로 바꾸기**: 반복문을 완전히 없애버림
+- **죽은 코드 제거하기** 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyODE4NDU5MywzODYyOTY5MzQsLTEzNT
-Q2ODgxNjMsLTE0ODAyNjYzODgsLTE4OTIwMTQ5MDNdfQ==
+eyJoaXN0b3J5IjpbLTEwMzUxNzAzNDEsMzg2Mjk2OTM0LC0xMz
+U0Njg4MTYzLC0xNDgwMjY2Mzg4LC0xODkyMDE0OTAzXX0=
 -->
