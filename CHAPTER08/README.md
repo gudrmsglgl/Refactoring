@@ -63,8 +63,10 @@ class Cutomer{
    val discountRate get() = this.plan.discountRate
 }
 ```
+
+### 올바른 데이터 구조
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MjIzODM1OSwxNDU0OTQ5MTM1LDU2Nz
+eyJoaXN0b3J5IjpbMTE3NTQxMDg5NCwxNDU0OTQ5MTM1LDU2Nz
 g4NjkzMiwxNDEzOTAxMzUsLTEwMzUxNzAzNDEsMzg2Mjk2OTM0
 LC0xMzU0Njg4MTYzLC0xNDgwMjY2Mzg4LC0xODkyMDE0OTAzXX
 0=
