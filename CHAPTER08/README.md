@@ -81,7 +81,9 @@ class Cutomer{
 
 ## 8.3 문장을 함수로 옮기기 Move Statements into Function
 ```kotlin
-re
+result.push("제목: ${person.photo.title}")
+result.concat(photoData(person.photo))
+
 fun photoData(photo: Photo) {
 	return """
 	| 위치: ${photo.location}
@@ -91,15 +93,20 @@ fun photoData(photo: Photo) {
 ```
 **🔻 문장을 함수로 옮기기**
 ```kotlin
-class Cutomer{
-   val plan get() = this._plan
-   val discountRate get() = this.plan.discountRate
+result.push("제목: ${person.photo.title}")
+result.concat(photoData(person.photo))
+
+fun photoData(photo: Photo) {
+	return """
+	| 위치: ${photo.location}
+	| 날짜: ${photo.date}
+	"""
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0Mjg1MTc2MCwxNjg3NzQ4MzQ2LC01MT
-QxNjI4MzYsLTE2MTQzNDc1NDMsMTE3NTQxMDg5NCwxNDU0OTQ5
-MTM1LDU2Nzg4NjkzMiwxNDEzOTAxMzUsLTEwMzUxNzAzNDEsMz
-g2Mjk2OTM0LC0xMzU0Njg4MTYzLC0xNDgwMjY2Mzg4LC0xODky
-MDE0OTAzXX0=
+eyJoaXN0b3J5IjpbMTM2NDk1NjYxLDE2ODc3NDgzNDYsLTUxND
+E2MjgzNiwtMTYxNDM0NzU0MywxMTc1NDEwODk0LDE0NTQ5NDkx
+MzUsNTY3ODg2OTMyLDE0MTM5MDEzNSwtMTAzNTE3MDM0MSwzOD
+YyOTY5MzQsLTEzNTQ2ODgxNjMsLTE0ODAyNjYzODgsLTE4OTIw
+MTQ5MDNdfQ==
 -->
