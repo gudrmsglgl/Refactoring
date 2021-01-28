@@ -120,7 +120,7 @@ fun emitPhotoData(outStream, photo) {
 **🔻 문장을 호출한 곳으로 옮기기**
 ```kotlin
 emitPhotoData(outStream, person.photo)
-
+outStream.write("위치: ${photo.location}")
 fun photoData(photo: Photo) {
 	return """
 	| 제목: ${photo.title}
@@ -130,10 +130,10 @@ fun photoData(photo: Photo) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2Mjc0MTMyNiwzNDMwOTc1MjUsMTg2Nz
-I2MjM3MSwxMTMxMjA0NDc2LDE2ODc3NDgzNDYsLTUxNDE2Mjgz
-NiwtMTYxNDM0NzU0MywxMTc1NDEwODk0LDE0NTQ5NDkxMzUsNT
-Y3ODg2OTMyLDE0MTM5MDEzNSwtMTAzNTE3MDM0MSwzODYyOTY5
-MzQsLTEzNTQ2ODgxNjMsLTE0ODAyNjYzODgsLTE4OTIwMTQ5MD
-NdfQ==
+eyJoaXN0b3J5IjpbLTEwMzExMzMxOTMsMzQzMDk3NTI1LDE4Nj
+cyNjIzNzEsMTEzMTIwNDQ3NiwxNjg3NzQ4MzQ2LC01MTQxNjI4
+MzYsLTE2MTQzNDc1NDMsMTE3NTQxMDg5NCwxNDU0OTQ5MTM1LD
+U2Nzg4NjkzMiwxNDEzOTAxMzUsLTEwMzUxNzAzNDEsMzg2Mjk2
+OTM0LC0xMzU0Njg4MTYzLC0xNDgwMjY2Mzg4LC0xODkyMDE0OT
+AzXX0=
 -->
