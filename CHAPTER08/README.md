@@ -70,8 +70,9 @@ class Cutomer{
 - **🔨 개선해야할 때**
 	- [x] 함수에 어떤 레코드를 넘길 때마다 또 다른 레코드의 필드도 함께 넘기고 있다면 
 데이터 위치를 옮겨야 할 것.
+	-[x] 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzA0NjIwMzIsLTE2MTQzNDc1NDMsMT
+eyJoaXN0b3J5IjpbLTE3NTEyOTgxNDMsLTE2MTQzNDc1NDMsMT
 E3NTQxMDg5NCwxNDU0OTQ5MTM1LDU2Nzg4NjkzMiwxNDEzOTAx
 MzUsLTEwMzUxNzAzNDEsMzg2Mjk2OTM0LC0xMzU0Njg4MTYzLC
 0xNDgwMjY2Mzg4LC0xODkyMDE0OTAzXX0=
