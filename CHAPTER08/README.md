@@ -54,16 +54,18 @@ class AccountType{     👈 함수를 다른 클래스로 옮김
 class Cutomer{
    val plan get() = this._plan
    val discountRate get() = this._discountRate
-   
+}
 ```
-**🔻 함수 옮기기**
+**🔻 필드 옮기기**
 ```kotlin
-class AccountType{     👈 함수를 다른 클래스로 옮김
-   fun overdraftCharge(){...}
+class Cutomer{
+   val plan get() = this._plan
+   val discountRate get() = this.plan.discountRate
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcwMjg0OTM1LDE0NTQ5NDkxMzUsNTY3OD
-g2OTMyLDE0MTM5MDEzNSwtMTAzNTE3MDM0MSwzODYyOTY5MzQs
-LTEzNTQ2ODgxNjMsLTE0ODAyNjYzODgsLTE4OTIwMTQ5MDNdfQ
-==
+eyJoaXN0b3J5IjpbMTM5MjIzODM1OSwxNDU0OTQ5MTM1LDU2Nz
+g4NjkzMiwxNDEzOTAxMzUsLTEwMzUxNzAzNDEsMzg2Mjk2OTM0
+LC0xMzU0Njg4MTYzLC0xNDgwMjY2Mzg4LC0xODkyMDE0OTAzXX
+0=
 -->
