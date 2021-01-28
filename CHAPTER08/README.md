@@ -81,11 +81,15 @@ class Cutomer{
 
 ## 8.3 문장을 함수로 옮기기 Move Statements into Function
 ```kotlin
+re
 fun photoData(photo: Photo) {
-	return 
+	return """
+	| 위치: ${photo.location}
+	| 날짜: ${photo.date}
+	"""
 }
 ```
-**🔻 필드 옮기기**
+**🔻 문장을 함수로 옮기기**
 ```kotlin
 class Cutomer{
    val plan get() = this._plan
@@ -93,9 +97,9 @@ class Cutomer{
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjgyNjU5NjMsMTY4Nzc0ODM0NiwtNT
-E0MTYyODM2LC0xNjE0MzQ3NTQzLDExNzU0MTA4OTQsMTQ1NDk0
-OTEzNSw1Njc4ODY5MzIsMTQxMzkwMTM1LC0xMDM1MTcwMzQxLD
-M4NjI5NjkzNCwtMTM1NDY4ODE2MywtMTQ4MDI2NjM4OCwtMTg5
-MjAxNDkwM119
+eyJoaXN0b3J5IjpbLTc0Mjg1MTc2MCwxNjg3NzQ4MzQ2LC01MT
+QxNjI4MzYsLTE2MTQzNDc1NDMsMTE3NTQxMDg5NCwxNDU0OTQ5
+MTM1LDU2Nzg4NjkzMiwxNDEzOTAxMzUsLTEwMzUxNzAzNDEsMz
+g2Mjk2OTM0LC0xMzU0Njg4MTYzLC0xNDgwMjY2Mzg4LC0xODky
+MDE0OTAzXX0=
 -->
