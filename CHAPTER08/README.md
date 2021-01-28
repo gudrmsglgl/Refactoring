@@ -113,12 +113,13 @@ fun photoData(photo: Photo) {
 emitPhotoData(outStream, person.photo)
 
 fun emitPhotoData(outStream, photo) {
-	outStream.write("제목: ")
+	outStream.write("제목: ${photo.title} ")
+	outStream.write("제목: ${photo.location} ")
 }
 ```
-**🔻 문장을 함수로 옮기기**
+**🔻 문장을 호출한 곳으로 옮기기**
 ```kotlin
-result.concat(photoData(person.photo))
+emitPhotoData(outStream, person.photo)
 
 fun photoData(photo: Photo) {
 	return """
@@ -129,9 +130,9 @@ fun photoData(photo: Photo) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMDE3NDc2NSwxODY3MjYyMzcxLDExMz
-EyMDQ0NzYsMTY4Nzc0ODM0NiwtNTE0MTYyODM2LC0xNjE0MzQ3
-NTQzLDExNzU0MTA4OTQsMTQ1NDk0OTEzNSw1Njc4ODY5MzIsMT
-QxMzkwMTM1LC0xMDM1MTcwMzQxLDM4NjI5NjkzNCwtMTM1NDY4
-ODE2MywtMTQ4MDI2NjM4OCwtMTg5MjAxNDkwM119
+eyJoaXN0b3J5IjpbMzQzMDk3NTI1LDE4NjcyNjIzNzEsMTEzMT
+IwNDQ3NiwxNjg3NzQ4MzQ2LC01MTQxNjI4MzYsLTE2MTQzNDc1
+NDMsMTE3NTQxMDg5NCwxNDU0OTQ5MTM1LDU2Nzg4NjkzMiwxND
+EzOTAxMzUsLTEwMzUxNzAzNDEsMzg2Mjk2OTM0LC0xMzU0Njg4
+MTYzLC0xNDgwMjY2Mzg4LC0xODkyMDE0OTAzXX0=
 -->
