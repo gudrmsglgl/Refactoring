@@ -67,10 +67,11 @@ class Cutomer{
 ### 📂 올바른 데이터 구조
 - 프로그램의 진짜 힘든 데이터 구조
 - 경험과 도메인 주도 성계 같은 기술이 개선해줌.
-- 개선해야할 때
+- **🔨 개선해야할 때**
+	- [x] 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTQzNDc1NDMsMTE3NTQxMDg5NCwxND
-U0OTQ5MTM1LDU2Nzg4NjkzMiwxNDEzOTAxMzUsLTEwMzUxNzAz
-NDEsMzg2Mjk2OTM0LC0xMzU0Njg4MTYzLC0xNDgwMjY2Mzg4LC
-0xODkyMDE0OTAzXX0=
+eyJoaXN0b3J5IjpbODU5MjQyMzA3LC0xNjE0MzQ3NTQzLDExNz
+U0MTA4OTQsMTQ1NDk0OTEzNSw1Njc4ODY5MzIsMTQxMzkwMTM1
+LC0xMDM1MTcwMzQxLDM4NjI5NjkzNCwtMTM1NDY4ODE2MywtMT
+Q4MDI2NjM4OCwtMTg5MjAxNDkwM119
 -->
