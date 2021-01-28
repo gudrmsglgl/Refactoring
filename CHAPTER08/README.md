@@ -3,6 +3,7 @@
 [함수 옮기기](#id-section1)<br>
 [필드 옮기기](#id-section2)<br>
 [문장을 함수로 옮기기](#id-section3)<br>
+[문장을 호출한 곳으로 옮기기](#id-section4)<br>
 
 
 - 옮기기는 문장 단위
@@ -77,7 +78,7 @@ class Cutomer{
 필드의 위치가 잘못되었다는 신호
 
 <br>
-<div id='id-section2'/>
+<div id='id-section3'/>
 
 ## 8.3 문장을 함수로 옮기기 Move Statements into Function
 ```kotlin
@@ -103,10 +104,38 @@ fun photoData(photo: Photo) {
 	"""
 }
 ```
+
+<br>
+<div id='id-section4'/>
+
+## 8.4 문장을 호출한 곳으로 옮기기
+```kotlin
+result.push("제목: ${person.photo.title}")
+result.concat(photoData(person.photo))
+
+fun photoData(photo: Photo) {
+	return """
+	| 위치: ${photo.location}
+	| 날짜: ${photo.date}
+	"""
+}
+```
+**🔻 문장을 함수로 옮기기**
+```kotlin
+result.concat(photoData(person.photo))
+
+fun photoData(photo: Photo) {
+	return """
+	| 제목: ${photo.title}
+	| 위치: ${photo.location}
+	| 날짜: ${photo.date}
+	"""
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMTIwNDQ3NiwxNjg3NzQ4MzQ2LC01MT
-QxNjI4MzYsLTE2MTQzNDc1NDMsMTE3NTQxMDg5NCwxNDU0OTQ5
-MTM1LDU2Nzg4NjkzMiwxNDEzOTAxMzUsLTEwMzUxNzAzNDEsMz
-g2Mjk2OTM0LC0xMzU0Njg4MTYzLC0xNDgwMjY2Mzg4LC0xODky
-MDE0OTAzXX0=
+eyJoaXN0b3J5IjpbMjA3NTMwMTQ1LDExMzEyMDQ0NzYsMTY4Nz
+c0ODM0NiwtNTE0MTYyODM2LC0xNjE0MzQ3NTQzLDExNzU0MTA4
+OTQsMTQ1NDk0OTEzNSw1Njc4ODY5MzIsMTQxMzkwMTM1LC0xMD
+M1MTcwMzQxLDM4NjI5NjkzNCwtMTM1NDY4ODE2MywtMTQ4MDI2
+NjM4OCwtMTg5MjAxNDkwM119
 -->
