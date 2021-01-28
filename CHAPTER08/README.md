@@ -108,7 +108,7 @@ fun photoData(photo: Photo) {
 <br>
 <div id='id-section4'/>
 
-## 8.4 문장을 호출한 곳으로 옮기기
+## 8.4 문장을 호출한 곳으로 옮기기 Move Statements to Callers
 ```kotlin
 result.push("제목: ${person.photo.title}")
 result.concat(photoData(person.photo))
@@ -133,9 +133,9 @@ fun photoData(photo: Photo) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NTMwMTQ1LDExMzEyMDQ0NzYsMTY4Nz
-c0ODM0NiwtNTE0MTYyODM2LC0xNjE0MzQ3NTQzLDExNzU0MTA4
-OTQsMTQ1NDk0OTEzNSw1Njc4ODY5MzIsMTQxMzkwMTM1LC0xMD
-M1MTcwMzQxLDM4NjI5NjkzNCwtMTM1NDY4ODE2MywtMTQ4MDI2
-NjM4OCwtMTg5MjAxNDkwM119
+eyJoaXN0b3J5IjpbMTg2NzI2MjM3MSwxMTMxMjA0NDc2LDE2OD
+c3NDgzNDYsLTUxNDE2MjgzNiwtMTYxNDM0NzU0MywxMTc1NDEw
+ODk0LDE0NTQ5NDkxMzUsNTY3ODg2OTMyLDE0MTM5MDEzNSwtMT
+AzNTE3MDM0MSwzODYyOTY5MzQsLTEzNTQ2ODgxNjMsLTE0ODAy
+NjYzODgsLTE4OTIwMTQ5MDNdfQ==
 -->
