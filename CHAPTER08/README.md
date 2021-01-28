@@ -68,10 +68,11 @@ class Cutomer{
 - 프로그램의 진짜 힘든 데이터 구조
 - 경험과 도메인 주도 성계 같은 기술이 개선해줌.
 - **🔨 개선해야할 때**
-	- [x] 함수에 어떤 레코드를 넘길 때마다 또 다른 레코드의 필드도 함께 넘기고 있다면 데이터 위치를 옮겨야 할 것.
+	- [x] 함수에 어떤 레코드를 넘길 때마다 또 다른 레코드의 필드도 함께 넘기고 있다면 
+데이터 위치를 옮겨야 할 것.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2OTA4ODk1OCwtMTYxNDM0NzU0MywxMT
-c1NDEwODk0LDE0NTQ5NDkxMzUsNTY3ODg2OTMyLDE0MTM5MDEz
-NSwtMTAzNTE3MDM0MSwzODYyOTY5MzQsLTEzNTQ2ODgxNjMsLT
-E0ODAyNjYzODgsLTE4OTIwMTQ5MDNdfQ==
+eyJoaXN0b3J5IjpbLTE0MzA0NjIwMzIsLTE2MTQzNDc1NDMsMT
+E3NTQxMDg5NCwxNDU0OTQ5MTM1LDU2Nzg4NjkzMiwxNDEzOTAx
+MzUsLTEwMzUxNzAzNDEsMzg2Mjk2OTM0LC0xMzU0Njg4MTYzLC
+0xNDgwMjY2Mzg4LC0xODkyMDE0OTAzXX0=
 -->
