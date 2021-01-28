@@ -67,8 +67,9 @@ class Cutomer{
 ### 📂 올바른 데이터 구조
 - 프로그램의 진짜 힘든 데이터 구조
 - 경험과 도메인 주도 성계 같은 기술이 개선해줌.
+- 개선해야할 때
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjc3MzIyMDgsMTE3NTQxMDg5NCwxND
+eyJoaXN0b3J5IjpbLTE2MTQzNDc1NDMsMTE3NTQxMDg5NCwxND
 U0OTQ5MTM1LDU2Nzg4NjkzMiwxNDEzOTAxMzUsLTEwMzUxNzAz
 NDEsMzg2Mjk2OTM0LC0xMzU0Njg4MTYzLC0xNDgwMjY2Mzg4LC
 0xODkyMDE0OTAzXX0=
