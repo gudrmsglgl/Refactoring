@@ -1,7 +1,9 @@
 # 기능 이동
 
 [함수 옮기기](#id-section1)<br>
-[함수 옮기기](#id-section1)<br>
+[필드 옮기기](#id-section2)<br>
+[문장을 함수로 옮기기](#id-section3)<br>
+
 
 - 옮기기는 문장 단위
 - 함수 안에서
@@ -75,9 +77,8 @@ class Cutomer{
 필드의 위치가 잘못되었다는 신호
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzUwNjU3NjYsLTUxNDE2MjgzNiwtMT
-YxNDM0NzU0MywxMTc1NDEwODk0LDE0NTQ5NDkxMzUsNTY3ODg2
-OTMyLDE0MTM5MDEzNSwtMTAzNTE3MDM0MSwzODYyOTY5MzQsLT
-EzNTQ2ODgxNjMsLTE0ODAyNjYzODgsLTE4OTIwMTQ5MDNdfQ==
-
+eyJoaXN0b3J5IjpbODI3NzA4NDQyLC01MTQxNjI4MzYsLTE2MT
+QzNDc1NDMsMTE3NTQxMDg5NCwxNDU0OTQ5MTM1LDU2Nzg4Njkz
+MiwxNDEzOTAxMzUsLTEwMzUxNzAzNDEsMzg2Mjk2OTM0LC0xMz
+U0Njg4MTYzLC0xNDgwMjY2Mzg4LC0xODkyMDE0OTAzXX0=
 -->
