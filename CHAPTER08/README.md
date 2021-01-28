@@ -80,10 +80,23 @@ class Cutomer{
 <div id='id-section2'/>
 
 ## 8.3 문장을 함수로 옮기기 Move Statements into Function
-
+```kotlin
+class Cutomer{
+   val plan get() = this._plan
+   val discountRate get() = this._discountRate
+}
+```
+**🔻 필드 옮기기**
+```kotlin
+class Cutomer{
+   val plan get() = this._plan
+   val discountRate get() = this.plan.discountRate
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4Nzc0ODM0NiwtNTE0MTYyODM2LC0xNj
-E0MzQ3NTQzLDExNzU0MTA4OTQsMTQ1NDk0OTEzNSw1Njc4ODY5
-MzIsMTQxMzkwMTM1LC0xMDM1MTcwMzQxLDM4NjI5NjkzNCwtMT
-M1NDY4ODE2MywtMTQ4MDI2NjM4OCwtMTg5MjAxNDkwM119
+eyJoaXN0b3J5IjpbMTY1NTkzNjQ5MiwxNjg3NzQ4MzQ2LC01MT
+QxNjI4MzYsLTE2MTQzNDc1NDMsMTE3NTQxMDg5NCwxNDU0OTQ5
+MTM1LDU2Nzg4NjkzMiwxNDEzOTAxMzUsLTEwMzUxNzAzNDEsMz
+g2Mjk2OTM0LC0xMzU0Njg4MTYzLC0xNDgwMjY2Mzg4LC0xODky
+MDE0OTAzXX0=
 -->
