@@ -70,9 +70,11 @@ class Cutomer{
 - **🔨 개선해야할 때**
 	- [x] 함수에 어떤 레코드를 넘길 때마다 또 다른 레코드의 필드도 함께 넘기고 있다면 
 데이터 위치를 옮겨야 할 것.
-	- [x] 한 레코드를 변경하려 할 때 다른 레코드의 필드까지 변경해야만 한다면 필드의 위치가 잘못되었다는 신호
+	- [x] 한 레코드를 변경하려 할 때 다른 레코드의 필드까지 변경해야만 한다면 
+필드의 위치가 잘못되었다는 신호
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NDc1ODI5MiwtMTYxNDM0NzU0MywxMT
+eyJoaXN0b3J5IjpbLTUxNDE2MjgzNiwtMTYxNDM0NzU0MywxMT
 c1NDEwODk0LDE0NTQ5NDkxMzUsNTY3ODg2OTMyLDE0MTM5MDEz
 NSwtMTAzNTE3MDM0MSwzODYyOTY5MzQsLTEzNTQ2ODgxNjMsLT
 E0ODAyNjYzODgsLTE4OTIwMTQ5MDNdfQ==
