@@ -114,7 +114,7 @@ emitPhotoData(outStream, person.photo)
 
 fun emitPhotoData(outStream, photo) {
 	outStream.write("제목: ${photo.title} ")
-	outStream.write("제목: ${photo.location} ")
+	outStream.write("위치: ${photo.location} ")
 }
 ```
 **🔻 문장을 호출한 곳으로 옮기기**
@@ -130,9 +130,10 @@ fun photoData(photo: Photo) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQzMDk3NTI1LDE4NjcyNjIzNzEsMTEzMT
-IwNDQ3NiwxNjg3NzQ4MzQ2LC01MTQxNjI4MzYsLTE2MTQzNDc1
-NDMsMTE3NTQxMDg5NCwxNDU0OTQ5MTM1LDU2Nzg4NjkzMiwxND
-EzOTAxMzUsLTEwMzUxNzAzNDEsMzg2Mjk2OTM0LC0xMzU0Njg4
-MTYzLC0xNDgwMjY2Mzg4LC0xODkyMDE0OTAzXX0=
+eyJoaXN0b3J5IjpbMTU2Mjc0MTMyNiwzNDMwOTc1MjUsMTg2Nz
+I2MjM3MSwxMTMxMjA0NDc2LDE2ODc3NDgzNDYsLTUxNDE2Mjgz
+NiwtMTYxNDM0NzU0MywxMTc1NDEwODk0LDE0NTQ5NDkxMzUsNT
+Y3ODg2OTMyLDE0MTM5MDEzNSwtMTAzNTE3MDM0MSwzODYyOTY5
+MzQsLTEzNTQ2ODgxNjMsLTE0ODAyNjYzODgsLTE4OTIwMTQ5MD
+NdfQ==
 -->
