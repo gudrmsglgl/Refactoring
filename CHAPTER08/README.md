@@ -45,8 +45,23 @@ class AccountType{     👈 함수를 다른 클래스로 옮김
 	- [x] 대상 함수의 현재 컨텍스트와 후보 컨텍스트를 둘러보면 도움이 됨.
 	- [x] 대상 함수를 호출하는 함수들은 무엇인지, 대상 함수가 호출하는 함수들은 또 무엇이 있는지, 대상 함수가 사용하는 데이터는 무엇인지
 	- [x] 서로 관련된 여러 함수를 묶을 때는 -> 새로운 컨텍스트 필요 -> **클래스 묶기나 추출하기로 해결.**
+
+<br>
+<div id='id-section2'/>
+
+## 8.2 필드 옮기기 Move Field
+```kotlin
+class Account{
+   fun overdraftCharge(){...}
+```
+**🔻 함수 옮기기**
+```kotlin
+class AccountType{     👈 함수를 다른 클래스로 옮김
+   fun overdraftCharge(){...}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NDk0OTEzNSw1Njc4ODY5MzIsMTQxMz
-kwMTM1LC0xMDM1MTcwMzQxLDM4NjI5NjkzNCwtMTM1NDY4ODE2
-MywtMTQ4MDI2NjM4OCwtMTg5MjAxNDkwM119
+eyJoaXN0b3J5IjpbLTEwNDA0Njk5NzIsMTQ1NDk0OTEzNSw1Nj
+c4ODY5MzIsMTQxMzkwMTM1LC0xMDM1MTcwMzQxLDM4NjI5Njkz
+NCwtMTM1NDY4ODE2MywtMTQ4MDI2NjM4OCwtMTg5MjAxNDkwM1
+19
 -->
