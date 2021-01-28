@@ -121,19 +121,16 @@ fun emitPhotoData(outStream, photo) {
 ```kotlin
 emitPhotoData(outStream, person.photo)
 outStream.write("위치: ${photo.location}")
-fun photoData(photo: Photo) {
-	return """
-	| 제목: ${photo.title}
-	| 위치: ${photo.location}
-	| 날짜: ${photo.date}
-	"""
+
+fun emitPhotoData(outStream, photo) {
+	outStream.write("제목: ${photo.title} ")
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzExMzMxOTMsMzQzMDk3NTI1LDE4Nj
-cyNjIzNzEsMTEzMTIwNDQ3NiwxNjg3NzQ4MzQ2LC01MTQxNjI4
-MzYsLTE2MTQzNDc1NDMsMTE3NTQxMDg5NCwxNDU0OTQ5MTM1LD
-U2Nzg4NjkzMiwxNDEzOTAxMzUsLTEwMzUxNzAzNDEsMzg2Mjk2
-OTM0LC0xMzU0Njg4MTYzLC0xNDgwMjY2Mzg4LC0xODkyMDE0OT
-AzXX0=
+eyJoaXN0b3J5IjpbLTUyNTQxMTMsMzQzMDk3NTI1LDE4NjcyNj
+IzNzEsMTEzMTIwNDQ3NiwxNjg3NzQ4MzQ2LC01MTQxNjI4MzYs
+LTE2MTQzNDc1NDMsMTE3NTQxMDg5NCwxNDU0OTQ5MTM1LDU2Nz
+g4NjkzMiwxNDEzOTAxMzUsLTEwMzUxNzAzNDEsMzg2Mjk2OTM0
+LC0xMzU0Njg4MTYzLC0xNDgwMjY2Mzg4LC0xODkyMDE0OTAzXX
+0=
 -->
