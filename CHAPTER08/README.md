@@ -76,9 +76,14 @@ class Cutomer{
 	- [x] 한 레코드를 변경하려 할 때 다른 레코드의 필드까지 변경해야만 한다면 
 필드의 위치가 잘못되었다는 신호
 
+<br>
+<div id='id-section2'/>
+
+## 8.3 문장을 함수로 옮기기 Move
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI3NzA4NDQyLC01MTQxNjI4MzYsLTE2MT
-QzNDc1NDMsMTE3NTQxMDg5NCwxNDU0OTQ5MTM1LDU2Nzg4Njkz
-MiwxNDEzOTAxMzUsLTEwMzUxNzAzNDEsMzg2Mjk2OTM0LC0xMz
-U0Njg4MTYzLC0xNDgwMjY2Mzg4LC0xODkyMDE0OTAzXX0=
+eyJoaXN0b3J5IjpbLTEzNTY4ODA5NDgsLTUxNDE2MjgzNiwtMT
+YxNDM0NzU0MywxMTc1NDEwODk0LDE0NTQ5NDkxMzUsNTY3ODg2
+OTMyLDE0MTM5MDEzNSwtMTAzNTE3MDM0MSwzODYyOTY5MzQsLT
+EzNTQ2ODgxNjMsLTE0ODAyNjYzODgsLTE4OTIwMTQ5MDNdfQ==
+
 -->
