@@ -4,6 +4,7 @@
 [필드 옮기기](#id-section2)<br>
 [문장을 함수로 옮기기](#id-section3)<br>
 [문장을 호출한 곳으로 옮기기](#id-section4)<br>
+[인라인 코드를 함수 호출로 바꾸기](#id-section5)<br>
 
 
 - 옮기기는 문장 단위
@@ -126,11 +127,33 @@ fun emitPhotoData(outStream, photo) {
 	outStream.write("제목: ${photo.title} ")
 }
 ```
+
+<br>
+<div id='id-section5'/>
+## 8.4 문장을 호출한 곳으로 옮기기 Move Statements to Callers
+```kotlin
+emitPhotoData(outStream, person.photo)
+
+fun emitPhotoData(outStream, photo) {
+	outStream.write("제목: ${photo.title} ")
+	outStream.write("위치: ${photo.location} ")
+}
+```
+**🔻 문장을 호출한 곳으로 옮기기**
+```kotlin
+emitPhotoData(outStream, person.photo)
+outStream.write("위치: ${photo.location}")
+
+fun emitPhotoData(outStream, photo) {
+	outStream.write("제목: ${photo.title} ")
+}
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNTQxMTMsMzQzMDk3NTI1LDE4NjcyNj
-IzNzEsMTEzMTIwNDQ3NiwxNjg3NzQ4MzQ2LC01MTQxNjI4MzYs
-LTE2MTQzNDc1NDMsMTE3NTQxMDg5NCwxNDU0OTQ5MTM1LDU2Nz
-g4NjkzMiwxNDEzOTAxMzUsLTEwMzUxNzAzNDEsMzg2Mjk2OTM0
-LC0xMzU0Njg4MTYzLC0xNDgwMjY2Mzg4LC0xODkyMDE0OTAzXX
-0=
+eyJoaXN0b3J5IjpbLTEwNzUwMDM3ODMsLTUyNTQxMTMsMzQzMD
+k3NTI1LDE4NjcyNjIzNzEsMTEzMTIwNDQ3NiwxNjg3NzQ4MzQ2
+LC01MTQxNjI4MzYsLTE2MTQzNDc1NDMsMTE3NTQxMDg5NCwxND
+U0OTQ5MTM1LDU2Nzg4NjkzMiwxNDEzOTAxMzUsLTEwMzUxNzAz
+NDEsMzg2Mjk2OTM0LC0xMzU0Njg4MTYzLC0xNDgwMjY2Mzg4LC
+0xODkyMDE0OTAzXX0=
 -->
