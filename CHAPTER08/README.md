@@ -173,10 +173,11 @@ lateinit var charge
 - 두 가지 확인 작업
 	1. 무엇을 슬라이드할지
 	2. 슬라이드할 수 있는지 여부
+		- [x] 부수효과가 없는지 
 		- [x] 함수 추출 시 명령-질의 분리 원칙을 지키자.
 		- [x] 테스트해보자. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NTQ4NjcwMCwtMTczNDE1ODkyOCwtOT
+eyJoaXN0b3J5IjpbLTcwNDI2MjY1MywtMTczNDE1ODkyOCwtOT
 I5NDc2MTk1LC0xNjUwNzY4MDM2LDExOTEwNDA1MzYsMTgyNDM2
 NTg1NSwtMTk1NzU5NjY2OCwtNTI1NDExMywzNDMwOTc1MjUsMT
 g2NzI2MjM3MSwxMTMxMjA0NDc2LDE2ODc3NDgzNDYsLTUxNDE2
