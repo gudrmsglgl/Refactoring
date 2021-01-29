@@ -168,9 +168,11 @@ lateinit var charge
 ```
 
 - 문장 슬라이드하기로 코드를 한데 모아두자.
+- 관련 코드끼리 모으는 작업은 다른 리팩터링의 준비 단계로 자주 행하여짐.
+- 관련 있는 코드들을 명확히 구분되는 함수로 추출하는 게 그저 문장들을 한데로 모으는 것보다 나은 분리법.
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNjE5NzgwOSwtMTY1MDc2ODAzNiwxMT
+eyJoaXN0b3J5IjpbLTkyOTQ3NjE5NSwtMTY1MDc2ODAzNiwxMT
 kxMDQwNTM2LDE4MjQzNjU4NTUsLTE5NTc1OTY2NjgsLTUyNTQx
 MTMsMzQzMDk3NTI1LDE4NjcyNjIzNzEsMTEzMTIwNDQ3NiwxNj
 g3NzQ4MzQ2LC01MTQxNjI4MzYsLTE2MTQzNDc1NDMsMTE3NTQx
