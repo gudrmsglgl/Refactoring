@@ -133,11 +133,9 @@ fun emitPhotoData(outStream, photo) {
 
 ## 8.5 인라인 코드를 함수 호출로 바꾸기 Replace Inline Code With Function Call
 ```kotlin
-emitPhotoData(outStream, person.photo)
+val appliesToMass = false
+for (i in states){
 
-fun emitPhotoData(outStream, photo) {
-	outStream.write("제목: ${photo.title} ")
-	outStream.write("위치: ${photo.location} ")
 }
 ```
 **🔻 문장을 호출한 곳으로 옮기기**
@@ -151,10 +149,10 @@ fun emitPhotoData(outStream, photo) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MzUwMzA0MiwtNTI1NDExMywzNDMwOT
-c1MjUsMTg2NzI2MjM3MSwxMTMxMjA0NDc2LDE2ODc3NDgzNDYs
-LTUxNDE2MjgzNiwtMTYxNDM0NzU0MywxMTc1NDEwODk0LDE0NT
-Q5NDkxMzUsNTY3ODg2OTMyLDE0MTM5MDEzNSwtMTAzNTE3MDM0
-MSwzODYyOTY5MzQsLTEzNTQ2ODgxNjMsLTE0ODAyNjYzODgsLT
-E4OTIwMTQ5MDNdfQ==
+eyJoaXN0b3J5IjpbLTE5NTc1OTY2NjgsLTUyNTQxMTMsMzQzMD
+k3NTI1LDE4NjcyNjIzNzEsMTEzMTIwNDQ3NiwxNjg3NzQ4MzQ2
+LC01MTQxNjI4MzYsLTE2MTQzNDc1NDMsMTE3NTQxMDg5NCwxND
+U0OTQ5MTM1LDU2Nzg4NjkzMiwxNDEzOTAxMzUsLTEwMzUxNzAz
+NDEsMzg2Mjk2OTM0LC0xMzU0Njg4MTYzLC0xNDgwMjY2Mzg4LC
+0xODkyMDE0OTAzXX0=
 -->
