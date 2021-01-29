@@ -154,20 +154,20 @@ appliesTomass = states.inclues("MA")
 
 ## 8.6 문장 슬라이드하기 Slide Statements
 ```kotlin
-val appliesToMass = false
-for (i in states){
-	if (i == "MA") appliesToMass = true
-}
+val pricingPlan = retrievePricingPlan()
+val order = retrieveOrder()
+lateinit var charge
+val chargePerUnit = pricingPlan.unit
 ```
 **🔻 인라인 코드를 함수 호출**
 ```kotlin
 appliesTomass = states.inclues("MA")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ4NjQ5MDcwLDE4MjQzNjU4NTUsLTE5NT
-c1OTY2NjgsLTUyNTQxMTMsMzQzMDk3NTI1LDE4NjcyNjIzNzEs
-MTEzMTIwNDQ3NiwxNjg3NzQ4MzQ2LC01MTQxNjI4MzYsLTE2MT
-QzNDc1NDMsMTE3NTQxMDg5NCwxNDU0OTQ5MTM1LDU2Nzg4Njkz
-MiwxNDEzOTAxMzUsLTEwMzUxNzAzNDEsMzg2Mjk2OTM0LC0xMz
-U0Njg4MTYzLC0xNDgwMjY2Mzg4LC0xODkyMDE0OTAzXX0=
+eyJoaXN0b3J5IjpbMTE5MTA0MDUzNiwxODI0MzY1ODU1LC0xOT
+U3NTk2NjY4LC01MjU0MTEzLDM0MzA5NzUyNSwxODY3MjYyMzcx
+LDExMzEyMDQ0NzYsMTY4Nzc0ODM0NiwtNTE0MTYyODM2LC0xNj
+E0MzQ3NTQzLDExNzU0MTA4OTQsMTQ1NDk0OTEzNSw1Njc4ODY5
+MzIsMTQxMzkwMTM1LC0xMDM1MTcwMzQxLDM4NjI5NjkzNCwtMT
+M1NDY4ODE2MywtMTQ4MDI2NjM4OCwtMTg5MjAxNDkwM119
 -->
