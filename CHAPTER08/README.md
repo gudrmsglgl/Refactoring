@@ -148,13 +148,26 @@ appliesTomass = states.inclues("MA")
 - 목적을 말하기 때문에 이해가 쉬워짐
 - 중복을 없애는 데도 효과적
 - 똑같은 코드 반복하는 대신 함수를 호출하면 됨
-- 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzA2NTM1NzksMTgyNDM2NTg1NSwtMT
-k1NzU5NjY2OCwtNTI1NDExMywzNDMwOTc1MjUsMTg2NzI2MjM3
-MSwxMTMxMjA0NDc2LDE2ODc3NDgzNDYsLTUxNDE2MjgzNiwtMT
-YxNDM0NzU0MywxMTc1NDEwODk0LDE0NTQ5NDkxMzUsNTY3ODg2
-OTMyLDE0MTM5MDEzNSwtMTAzNTE3MDM0MSwzODYyOTY5MzQsLT
-EzNTQ2ODgxNjMsLTE0ODAyNjYzODgsLTE4OTIwMTQ5MDNdfQ==
 
+<br>
+<div id='id-section6'/>
+
+## 8.6 문장 슬라이드하기 Slide Statements
+```kotlin
+val appliesToMass = false
+for (i in states){
+	if (i == "MA") appliesToMass = true
+}
+```
+**🔻 인라인 코드를 함수 호출**
+```kotlin
+appliesTomass = states.inclues("MA")
+```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbODQ4NjQ5MDcwLDE4MjQzNjU4NTUsLTE5NT
+c1OTY2NjgsLTUyNTQxMTMsMzQzMDk3NTI1LDE4NjcyNjIzNzEs
+MTEzMTIwNDQ3NiwxNjg3NzQ4MzQ2LC01MTQxNjI4MzYsLTE2MT
+QzNDc1NDMsMTE3NTQxMDg5NCwxNDU0OTQ5MTM1LDU2Nzg4Njkz
+MiwxNDEzOTAxMzUsLTEwMzUxNzAzNDEsMzg2Mjk2OTM0LC0xMz
+U0Njg4MTYzLC0xNDgwMjY2Mzg4LC0xODkyMDE0OTAzXX0=
 -->
