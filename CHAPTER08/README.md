@@ -159,15 +159,19 @@ val order = retrieveOrder()
 lateinit var charge
 val chargePerUnit = pricingPlan.unit
 ```
-**🔻 인라인 코드를 함수 호출**
+**🔻 문장 슬라이드하기**
 ```kotlin
-appliesTomass = states.inclues("MA")
+val pricingPlan = retrievePricingPlan()
+val chargePerUnit = pricingPlan.unit
+val order = retrieveOrder()
+lateinit var charge
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MTA0MDUzNiwxODI0MzY1ODU1LC0xOT
-U3NTk2NjY4LC01MjU0MTEzLDM0MzA5NzUyNSwxODY3MjYyMzcx
-LDExMzEyMDQ0NzYsMTY4Nzc0ODM0NiwtNTE0MTYyODM2LC0xNj
-E0MzQ3NTQzLDExNzU0MTA4OTQsMTQ1NDk0OTEzNSw1Njc4ODY5
-MzIsMTQxMzkwMTM1LC0xMDM1MTcwMzQxLDM4NjI5NjkzNCwtMT
-M1NDY4ODE2MywtMTQ4MDI2NjM4OCwtMTg5MjAxNDkwM119
+eyJoaXN0b3J5IjpbLTE2NTA3NjgwMzYsMTE5MTA0MDUzNiwxOD
+I0MzY1ODU1LC0xOTU3NTk2NjY4LC01MjU0MTEzLDM0MzA5NzUy
+NSwxODY3MjYyMzcxLDExMzEyMDQ0NzYsMTY4Nzc0ODM0NiwtNT
+E0MTYyODM2LC0xNjE0MzQ3NTQzLDExNzU0MTA4OTQsMTQ1NDk0
+OTEzNSw1Njc4ODY5MzIsMTQxMzkwMTM1LC0xMDM1MTcwMzQxLD
+M4NjI5NjkzNCwtMTM1NDY4ODE2MywtMTQ4MDI2NjM4OCwtMTg5
+MjAxNDkwM119
 -->
