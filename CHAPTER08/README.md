@@ -135,24 +135,21 @@ fun emitPhotoData(outStream, photo) {
 ```kotlin
 val appliesToMass = false
 for (i in states){
-
+	if (i == "MA") appliesToMass = true
 }
 ```
-**🔻 문장을 호출한 곳으로 옮기기**
+**🔻 인라인 코드를 함수 호출**
 ```kotlin
-emitPhotoData(outStream, person.photo)
-outStream.write("위치: ${photo.location}")
-
-fun emitPhotoData(outStream, photo) {
-	outStream.write("제목: ${photo.title} ")
-}
+appliesTomass = states.inclues("MA")
 ```
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTc1OTY2NjgsLTUyNTQxMTMsMzQzMD
-k3NTI1LDE4NjcyNjIzNzEsMTEzMTIwNDQ3NiwxNjg3NzQ4MzQ2
-LC01MTQxNjI4MzYsLTE2MTQzNDc1NDMsMTE3NTQxMDg5NCwxND
-U0OTQ5MTM1LDU2Nzg4NjkzMiwxNDEzOTAxMzUsLTEwMzUxNzAz
-NDEsMzg2Mjk2OTM0LC0xMzU0Njg4MTYzLC0xNDgwMjY2Mzg4LC
-0xODkyMDE0OTAzXX0=
+eyJoaXN0b3J5IjpbMTgyNDM2NTg1NSwtMTk1NzU5NjY2OCwtNT
+I1NDExMywzNDMwOTc1MjUsMTg2NzI2MjM3MSwxMTMxMjA0NDc2
+LDE2ODc3NDgzNDYsLTUxNDE2MjgzNiwtMTYxNDM0NzU0MywxMT
+c1NDEwODk0LDE0NTQ5NDkxMzUsNTY3ODg2OTMyLDE0MTM5MDEz
+NSwtMTAzNTE3MDM0MSwzODYyOTY5MzQsLTEzNTQ2ODgxNjMsLT
+E0ODAyNjYzODgsLTE4OTIwMTQ5MDNdfQ==
 -->
