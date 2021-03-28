@@ -175,13 +175,15 @@ lateinit var charge
 	2. 슬라이드할 수 있는지 여부
 		- [x] 부수효과가 없는지 
 		- [x] 함수 추출 시 명령-질의 분리 원칙을 지키자.
+			> 🔥 명령 질의 분리 원칙
+			    :  
 		- [x] 테스트해보자. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNDI2MjY1MywtMTczNDE1ODkyOCwtOT
-I5NDc2MTk1LC0xNjUwNzY4MDM2LDExOTEwNDA1MzYsMTgyNDM2
-NTg1NSwtMTk1NzU5NjY2OCwtNTI1NDExMywzNDMwOTc1MjUsMT
-g2NzI2MjM3MSwxMTMxMjA0NDc2LDE2ODc3NDgzNDYsLTUxNDE2
-MjgzNiwtMTYxNDM0NzU0MywxMTc1NDEwODk0LDE0NTQ5NDkxMz
-UsNTY3ODg2OTMyLDE0MTM5MDEzNSwtMTAzNTE3MDM0MSwzODYy
-OTY5MzRdfQ==
+eyJoaXN0b3J5IjpbMjA5NzcxMDg4NCwtNzA0MjYyNjUzLC0xNz
+M0MTU4OTI4LC05Mjk0NzYxOTUsLTE2NTA3NjgwMzYsMTE5MTA0
+MDUzNiwxODI0MzY1ODU1LC0xOTU3NTk2NjY4LC01MjU0MTEzLD
+M0MzA5NzUyNSwxODY3MjYyMzcxLDExMzEyMDQ0NzYsMTY4Nzc0
+ODM0NiwtNTE0MTYyODM2LC0xNjE0MzQ3NTQzLDExNzU0MTA4OT
+QsMTQ1NDk0OTEzNSw1Njc4ODY5MzIsMTQxMzkwMTM1LC0xMDM1
+MTcwMzQxXX0=
 -->
