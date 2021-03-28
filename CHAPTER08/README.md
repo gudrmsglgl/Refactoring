@@ -5,7 +5,7 @@
 [문장을 함수로 옮기기](#id-section3)<br>
 [문장을 호출한 곳으로 옮기기](#id-section4)<br>
 [인라인 코드를 함수 호출로 바꾸기](#id-section5)<br>
-[문장 슬라이드(질의)](#id-section5)<br>
+[문장 슬라이드(명령-질의 원칙)](#id-section6)<br>
 
 
 - 옮기기는 문장 단위
@@ -183,11 +183,11 @@ lateinit var charge
 			      
 		- [x] 테스트해보자. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MjUxODQxNywtNzA0MjYyNjUzLC0xNz
-M0MTU4OTI4LC05Mjk0NzYxOTUsLTE2NTA3NjgwMzYsMTE5MTA0
-MDUzNiwxODI0MzY1ODU1LC0xOTU3NTk2NjY4LC01MjU0MTEzLD
-M0MzA5NzUyNSwxODY3MjYyMzcxLDExMzEyMDQ0NzYsMTY4Nzc0
-ODM0NiwtNTE0MTYyODM2LC0xNjE0MzQ3NTQzLDExNzU0MTA4OT
-QsMTQ1NDk0OTEzNSw1Njc4ODY5MzIsMTQxMzkwMTM1LC0xMDM1
-MTcwMzQxXX0=
+eyJoaXN0b3J5IjpbLTEzOTMzNzkyOTgsLTcwNDI2MjY1MywtMT
+czNDE1ODkyOCwtOTI5NDc2MTk1LC0xNjUwNzY4MDM2LDExOTEw
+NDA1MzYsMTgyNDM2NTg1NSwtMTk1NzU5NjY2OCwtNTI1NDExMy
+wzNDMwOTc1MjUsMTg2NzI2MjM3MSwxMTMxMjA0NDc2LDE2ODc3
+NDgzNDYsLTUxNDE2MjgzNiwtMTYxNDM0NzU0MywxMTc1NDEwOD
+k0LDE0NTQ5NDkxMzUsNTY3ODg2OTMyLDE0MTM5MDEzNSwtMTAz
+NTE3MDM0MV19
 -->
