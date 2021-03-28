@@ -5,6 +5,7 @@
 [문장을 함수로 옮기기](#id-section3)<br>
 [문장을 호출한 곳으로 옮기기](#id-section4)<br>
 [인라인 코드를 함수 호출로 바꾸기](#id-section5)<br>
+[문장 슬라이드(질의)](#id-section5)<br>
 
 
 - 옮기기는 문장 단위
@@ -178,10 +179,11 @@ lateinit var charge
 			> 🔥 명령 질의 분리 원칙
 			    - 명령은 어떤 데이터를 수정, 변환 등의 작업을 의미, 
 			    - 질의는 어떤 데이터를 가져오는 것을 의미
+			    - ref; https://webactually.com/2018/02/06/%EB%AA%85%ED%99%95%ED%95%9C-%EC%BD%94%EB%93%9C-%EC%9E%91%EC%84%B1%EB%B2%95/
 			      
 		- [x] 테스트해보자. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNDYxNTYzMSwtNzA0MjYyNjUzLC0xNz
+eyJoaXN0b3J5IjpbLTU3MjUxODQxNywtNzA0MjYyNjUzLC0xNz
 M0MTU4OTI4LC05Mjk0NzYxOTUsLTE2NTA3NjgwMzYsMTE5MTA0
 MDUzNiwxODI0MzY1ODU1LC0xOTU3NTk2NjY4LC01MjU0MTEzLD
 M0MzA5NzUyNSwxODY3MjYyMzcxLDExMzEyMDQ0NzYsMTY4Nzc0
