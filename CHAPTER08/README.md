@@ -176,13 +176,12 @@ lateinit var charge
 		- [x] 부수효과가 없는지 
 		- [x] 함수 추출 시 명령-질의 분리 원칙을 지키자.
 			> 🔥 명령 질의 분리 원칙
-			    :
 			    - 명령은 어떤 데이터를 수정, 변환 등의 작업을 의미, 
 			    - 질의는 어떤 데이터를 가져오는 것을 의미
 			      
 		- [x] 테스트해보자. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODc2NzIxMywtNzA0MjYyNjUzLC0xNz
+eyJoaXN0b3J5IjpbLTUzNDYxNTYzMSwtNzA0MjYyNjUzLC0xNz
 M0MTU4OTI4LC05Mjk0NzYxOTUsLTE2NTA3NjgwMzYsMTE5MTA0
 MDUzNiwxODI0MzY1ODU1LC0xOTU3NTk2NjY4LC01MjU0MTEzLD
 M0MzA5NzUyNSwxODY3MjYyMzcxLDExMzEyMDQ0NzYsMTY4Nzc0
