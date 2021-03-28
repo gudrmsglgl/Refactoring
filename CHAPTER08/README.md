@@ -179,15 +179,16 @@ lateinit var charge
 			> 🔥 명령 질의 분리 원칙
 			    - 명령은 어떤 데이터를 수정, 변환 등의 작업을 의미, 
 			    - 질의는 어떤 데이터를 가져오는 것을 의미
+			    - 이 원칙을 지킬 시 부수효과는 없으므로 함수 작성 시 반드시 지킬 것
 			    - ref; https://webactually.com/2018/02/06/%EB%AA%85%ED%99%95%ED%95%9C-%EC%BD%94%EB%93%9C-%EC%9E%91%EC%84%B1%EB%B2%95/
 			      
 		- [x] 테스트해보자. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTMzNzkyOTgsLTcwNDI2MjY1MywtMT
-czNDE1ODkyOCwtOTI5NDc2MTk1LC0xNjUwNzY4MDM2LDExOTEw
-NDA1MzYsMTgyNDM2NTg1NSwtMTk1NzU5NjY2OCwtNTI1NDExMy
-wzNDMwOTc1MjUsMTg2NzI2MjM3MSwxMTMxMjA0NDc2LDE2ODc3
-NDgzNDYsLTUxNDE2MjgzNiwtMTYxNDM0NzU0MywxMTc1NDEwOD
-k0LDE0NTQ5NDkxMzUsNTY3ODg2OTMyLDE0MTM5MDEzNSwtMTAz
-NTE3MDM0MV19
+eyJoaXN0b3J5IjpbLTQ4OTUzMTQ1MSwtNzA0MjYyNjUzLC0xNz
+M0MTU4OTI4LC05Mjk0NzYxOTUsLTE2NTA3NjgwMzYsMTE5MTA0
+MDUzNiwxODI0MzY1ODU1LC0xOTU3NTk2NjY4LC01MjU0MTEzLD
+M0MzA5NzUyNSwxODY3MjYyMzcxLDExMzEyMDQ0NzYsMTY4Nzc0
+ODM0NiwtNTE0MTYyODM2LC0xNjE0MzQ3NTQzLDExNzU0MTA4OT
+QsMTQ1NDk0OTEzNSw1Njc4ODY5MzIsMTQxMzkwMTM1LC0xMDM1
+MTcwMzQxXX0=
 -->
