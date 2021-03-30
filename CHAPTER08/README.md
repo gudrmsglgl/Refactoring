@@ -183,12 +183,32 @@ lateinit var charge
 		    - ref; https://webactually.com/2018/02/06/%EB%AA%85%ED%99%95%ED%95%9C-%EC%BD%94%EB%93%9C-%EC%9E%91%EC%84%B1%EB%B2%95/
 			      
 		- [x] 테스트해보자. 
+
+
+<br>
+<div id='id-section7'/>
+
+## 8.6 반복문 쪼개기 Split Loop
+```kotlin
+var averageAge = 0
+var order = retrieveOrder()
+lateinit var charge
+val chargePerUnit = pricingPlan.unit
+```
+**🔻 문장 슬라이드하기**
+```kotlin
+val pricingPlan = retrievePricingPlan()
+val chargePerUnit = pricingPlan.unit
+val order = retrieveOrder()
+lateinit var charge
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODI5MTc0NTAsLTExMjY0NTU5ODcsLT
-Q4OTUzMTQ1MSwtNzA0MjYyNjUzLC0xNzM0MTU4OTI4LC05Mjk0
-NzYxOTUsLTE2NTA3NjgwMzYsMTE5MTA0MDUzNiwxODI0MzY1OD
-U1LC0xOTU3NTk2NjY4LC01MjU0MTEzLDM0MzA5NzUyNSwxODY3
-MjYyMzcxLDExMzEyMDQ0NzYsMTY4Nzc0ODM0NiwtNTE0MTYyOD
-M2LC0xNjE0MzQ3NTQzLDExNzU0MTA4OTQsMTQ1NDk0OTEzNSw1
-Njc4ODY5MzJdfQ==
+eyJoaXN0b3J5IjpbMTA1OTgxMjg3OSwtMTE4MjkxNzQ1MCwtMT
+EyNjQ1NTk4NywtNDg5NTMxNDUxLC03MDQyNjI2NTMsLTE3MzQx
+NTg5MjgsLTkyOTQ3NjE5NSwtMTY1MDc2ODAzNiwxMTkxMDQwNT
+M2LDE4MjQzNjU4NTUsLTE5NTc1OTY2NjgsLTUyNTQxMTMsMzQz
+MDk3NTI1LDE4NjcyNjIzNzEsMTEzMTIwNDQ3NiwxNjg3NzQ4Mz
+Q2LC01MTQxNjI4MzYsLTE2MTQzNDc1NDMsMTE3NTQxMDg5NCwx
+NDU0OTQ5MTM1XX0=
 -->
