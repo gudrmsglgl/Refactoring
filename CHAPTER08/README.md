@@ -200,18 +200,23 @@ averageAge = averageAge / people.length
 ```
 **🔻 반복문 쪼개기**
 ```kotlin
-val pricingPlan = retrievePricingPlan()
-val chargePerUnit = pricingPlan.unit
-val order = retrieveOrder()
-lateinit var charge
+var totalSalaray = 0
+for (val p in people) {
+	totalSalary += p.salary
+}
+var averageAge = 0
+for (val p in people) {
+	averageAge += p.age
+}
+averageAge = averageAge / people.length
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU2MDc3OTQ5LC0xMTgyOTE3NDUwLC0xMT
-I2NDU1OTg3LC00ODk1MzE0NTEsLTcwNDI2MjY1MywtMTczNDE1
-ODkyOCwtOTI5NDc2MTk1LC0xNjUwNzY4MDM2LDExOTEwNDA1Mz
-YsMTgyNDM2NTg1NSwtMTk1NzU5NjY2OCwtNTI1NDExMywzNDMw
-OTc1MjUsMTg2NzI2MjM3MSwxMTMxMjA0NDc2LDE2ODc3NDgzND
-YsLTUxNDE2MjgzNiwtMTYxNDM0NzU0MywxMTc1NDEwODk0LDE0
-NTQ5NDkxMzVdfQ==
+eyJoaXN0b3J5IjpbLTExNzU3NzA0NjcsLTExODI5MTc0NTAsLT
+ExMjY0NTU5ODcsLTQ4OTUzMTQ1MSwtNzA0MjYyNjUzLC0xNzM0
+MTU4OTI4LC05Mjk0NzYxOTUsLTE2NTA3NjgwMzYsMTE5MTA0MD
+UzNiwxODI0MzY1ODU1LC0xOTU3NTk2NjY4LC01MjU0MTEzLDM0
+MzA5NzUyNSwxODY3MjYyMzcxLDExMzEyMDQ0NzYsMTY4Nzc0OD
+M0NiwtNTE0MTYyODM2LC0xNjE0MzQ3NTQzLDExNzU0MTA4OTQs
+MTQ1NDk0OTEzNV19
 -->
