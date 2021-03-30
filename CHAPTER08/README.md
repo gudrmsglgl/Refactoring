@@ -191,11 +191,14 @@ lateinit var charge
 ## 8.6 반복문 쪼개기 Split Loop
 ```kotlin
 var averageAge = 0
-var order = retrieveOrder()
-lateinit var charge
-val chargePerUnit = pricingPlan.unit
+var totalSalaray = 0
+for (val p in people) {
+	averageAge += p.age
+	totalSalary += p.salary
+}
+averageAge = averageAge / people.length
 ```
-**🔻 문장 슬라이드하기**
+**🔻 반복문 쪼개기**
 ```kotlin
 val pricingPlan = retrievePricingPlan()
 val chargePerUnit = pricingPlan.unit
@@ -204,11 +207,11 @@ lateinit var charge
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1OTgxMjg3OSwtMTE4MjkxNzQ1MCwtMT
-EyNjQ1NTk4NywtNDg5NTMxNDUxLC03MDQyNjI2NTMsLTE3MzQx
-NTg5MjgsLTkyOTQ3NjE5NSwtMTY1MDc2ODAzNiwxMTkxMDQwNT
-M2LDE4MjQzNjU4NTUsLTE5NTc1OTY2NjgsLTUyNTQxMTMsMzQz
-MDk3NTI1LDE4NjcyNjIzNzEsMTEzMTIwNDQ3NiwxNjg3NzQ4Mz
-Q2LC01MTQxNjI4MzYsLTE2MTQzNDc1NDMsMTE3NTQxMDg5NCwx
-NDU0OTQ5MTM1XX0=
+eyJoaXN0b3J5IjpbODU2MDc3OTQ5LC0xMTgyOTE3NDUwLC0xMT
+I2NDU1OTg3LC00ODk1MzE0NTEsLTcwNDI2MjY1MywtMTczNDE1
+ODkyOCwtOTI5NDc2MTk1LC0xNjUwNzY4MDM2LDExOTEwNDA1Mz
+YsMTgyNDM2NTg1NSwtMTk1NzU5NjY2OCwtNTI1NDExMywzNDMw
+OTc1MjUsMTg2NzI2MjM3MSwxMTMxMjA0NDc2LDE2ODc3NDgzND
+YsLTUxNDE2MjgzNiwtMTYxNDM0NzU0MywxMTc1NDEwODk0LDE0
+NTQ5NDkxMzVdfQ==
 -->
