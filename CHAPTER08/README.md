@@ -42,12 +42,12 @@ class AccountType{     👈 함수를 다른 클래스로 옮김
 - 높아진 이해를 반영하려면 요소들을 이리저리 옮겨야 할 수 있다. 
 - 모든 함수는 어떤 컨텍스트 안에 존재. 
 - 객체 지향 프로그래밍의 **핵심 모듈화 컨텍스트는 클래스**다.
-- 함수를 옮겨야 할 때
+- **함수를 옮겨야 할 때**
 	- [x] 어떤 함수가 자신이 속한 모듈 A의 요소들보다 다른 모듈 B의 요소들을 **더 많이 참조한다면** 모듈 B로 옮기자. ( 캡슐화가 좋아짐 -> 모듈 B의 세부사항에 덜 의존하게 된다. ) 
 	- [x] **호출자들의 현재 위치(호출자가 속한 모듈)나 다음 업데이트 때 바뀌리라 예상되는 위치**에 따라서도 함수를 옮겨야 할 수 있다. 
 	- [x] 다른 함수 안에서 **도우미 역할로 정의된 함수 중 독립적으로 고유한 가치가 있는 것**은 접근하기 더 쉬운 장소로 옮기는 게 낫다.
 	- [x] 다른 클래스로 옮겨두면 사용하기 더 편한 메소드도 있다.
-- 함수를 옮길 때 유무 정하는 법
+- **함수를 옮길 때 유무 정하는 법**
 	- [x] 대상 함수의 현재 컨텍스트와 후보 컨텍스트를 둘러보면 도움이 됨.
 	- [x] 대상 함수를 호출하는 함수들은 무엇인지, 대상 함수가 호출하는 함수들은 또 무엇이 있는지, 대상 함수가 사용하는 데이터는 무엇인지
 	- [x] 서로 관련된 여러 함수를 묶을 때는 -> 새로운 컨텍스트 필요 -> **클래스 묶기나 추출하기로 해결.**
@@ -212,11 +212,11 @@ averageAge = averageAge / people.length
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzU3NzA0NjcsLTExODI5MTc0NTAsLT
-ExMjY0NTU5ODcsLTQ4OTUzMTQ1MSwtNzA0MjYyNjUzLC0xNzM0
-MTU4OTI4LC05Mjk0NzYxOTUsLTE2NTA3NjgwMzYsMTE5MTA0MD
-UzNiwxODI0MzY1ODU1LC0xOTU3NTk2NjY4LC01MjU0MTEzLDM0
-MzA5NzUyNSwxODY3MjYyMzcxLDExMzEyMDQ0NzYsMTY4Nzc0OD
-M0NiwtNTE0MTYyODM2LC0xNjE0MzQ3NTQzLDExNzU0MTA4OTQs
-MTQ1NDk0OTEzNV19
+eyJoaXN0b3J5IjpbNDUxNTEwOTQxLC0xMTc1NzcwNDY3LC0xMT
+gyOTE3NDUwLC0xMTI2NDU1OTg3LC00ODk1MzE0NTEsLTcwNDI2
+MjY1MywtMTczNDE1ODkyOCwtOTI5NDc2MTk1LC0xNjUwNzY4MD
+M2LDExOTEwNDA1MzYsMTgyNDM2NTg1NSwtMTk1NzU5NjY2OCwt
+NTI1NDExMywzNDMwOTc1MjUsMTg2NzI2MjM3MSwxMTMxMjA0ND
+c2LDE2ODc3NDgzNDYsLTUxNDE2MjgzNiwtMTYxNDM0NzU0Mywx
+MTc1NDEwODk0XX0=
 -->
