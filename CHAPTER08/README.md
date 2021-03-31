@@ -212,9 +212,11 @@ averageAge = averageAge / people.length
 ```
 
 ### [ 🔪 반복문 분리 ]
-- 
+- 반복문을 수정해야 할 때마다 두 가지 일 모두 잘 이해하고 진행해야 한다.
+- 각각의 반복문으로 분리해두면 수정할 동작 하나만 이해하면 된다.
+- 여러 일을 수행하는 반복문이라면 구조체를 반환하거나 지역 변수를 활용해야 한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTM1ODE1MzgsMjE0MzI4NDg0MCwtMT
+eyJoaXN0b3J5IjpbLTE4MzU0MDQ0MjksMjE0MzI4NDg0MCwtMT
 E3NTc3MDQ2NywtMTE4MjkxNzQ1MCwtMTEyNjQ1NTk4NywtNDg5
 NTMxNDUxLC03MDQyNjI2NTMsLTE3MzQxNTg5MjgsLTkyOTQ3Nj
 E5NSwtMTY1MDc2ODAzNiwxMTkxMDQwNTM2LDE4MjQzNjU4NTUs
