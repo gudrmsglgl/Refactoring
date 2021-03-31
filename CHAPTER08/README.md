@@ -6,6 +6,8 @@
 [문장을 호출한 곳으로 옮기기](#id-section4)<br>
 [인라인 코드를 함수 호출로 바꾸기](#id-section5)<br>
 [문장 슬라이드(명령-질의 원칙)](#id-section6)<br>
+[반복문 쪼개기](#id-section7)<br>
+[반복문을 파이프라인으로 바꾸기](#id-section8)<br>
 
 
 - 옮기기는 문장 단위
@@ -223,11 +225,11 @@ averageAge = averageAge / people.length
 ## 8.8 반복문을 파이프라인으로 바꾸기 Replace Loop with Pipeline
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNzM3NDU5NCwtMTgzNTQwNDQyOSwyMT
-QzMjg0ODQwLC0xMTc1NzcwNDY3LC0xMTgyOTE3NDUwLC0xMTI2
-NDU1OTg3LC00ODk1MzE0NTEsLTcwNDI2MjY1MywtMTczNDE1OD
-kyOCwtOTI5NDc2MTk1LC0xNjUwNzY4MDM2LDExOTEwNDA1MzYs
-MTgyNDM2NTg1NSwtMTk1NzU5NjY2OCwtNTI1NDExMywzNDMwOT
-c1MjUsMTg2NzI2MjM3MSwxMTMxMjA0NDc2LDE2ODc3NDgzNDYs
-LTUxNDE2MjgzNl19
+eyJoaXN0b3J5IjpbMTA1NjAzMzE0NSwxMjE3Mzc0NTk0LC0xOD
+M1NDA0NDI5LDIxNDMyODQ4NDAsLTExNzU3NzA0NjcsLTExODI5
+MTc0NTAsLTExMjY0NTU5ODcsLTQ4OTUzMTQ1MSwtNzA0MjYyNj
+UzLC0xNzM0MTU4OTI4LC05Mjk0NzYxOTUsLTE2NTA3NjgwMzYs
+MTE5MTA0MDUzNiwxODI0MzY1ODU1LC0xOTU3NTk2NjY4LC01Mj
+U0MTEzLDM0MzA5NzUyNSwxODY3MjYyMzcxLDExMzEyMDQ0NzYs
+MTY4Nzc0ODM0Nl19
 -->
