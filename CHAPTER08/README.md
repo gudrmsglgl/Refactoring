@@ -215,12 +215,13 @@ averageAge = averageAge / people.length
 - 반복문을 수정해야 할 때마다 두 가지 일 모두 잘 이해하고 진행해야 한다.
 - 각각의 반복문으로 분리해두면 수정할 동작 하나만 이해하면 된다.
 - 여러 일을 수행하는 반복문이라면 구조체를 반환하거나 지역 변수를 활용해야 한다.
+- 반복문을 분리 시 함수 추출도 대부분 동시에 진행.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzU0MDQ0MjksMjE0MzI4NDg0MCwtMT
-E3NTc3MDQ2NywtMTE4MjkxNzQ1MCwtMTEyNjQ1NTk4NywtNDg5
-NTMxNDUxLC03MDQyNjI2NTMsLTE3MzQxNTg5MjgsLTkyOTQ3Nj
-E5NSwtMTY1MDc2ODAzNiwxMTkxMDQwNTM2LDE4MjQzNjU4NTUs
-LTE5NTc1OTY2NjgsLTUyNTQxMTMsMzQzMDk3NTI1LDE4NjcyNj
-IzNzEsMTEzMTIwNDQ3NiwxNjg3NzQ4MzQ2LC01MTQxNjI4MzYs
-LTE2MTQzNDc1NDNdfQ==
+eyJoaXN0b3J5IjpbMTM0ODcxMTE3MSwtMTgzNTQwNDQyOSwyMT
+QzMjg0ODQwLC0xMTc1NzcwNDY3LC0xMTgyOTE3NDUwLC0xMTI2
+NDU1OTg3LC00ODk1MzE0NTEsLTcwNDI2MjY1MywtMTczNDE1OD
+kyOCwtOTI5NDc2MTk1LC0xNjUwNzY4MDM2LDExOTEwNDA1MzYs
+MTgyNDM2NTg1NSwtMTk1NzU5NjY2OCwtNTI1NDExMywzNDMwOT
+c1MjUsMTg2NzI2MjM3MSwxMTMxMjA0NDc2LDE2ODc3NDgzNDYs
+LTUxNDE2MjgzNl19
 -->
