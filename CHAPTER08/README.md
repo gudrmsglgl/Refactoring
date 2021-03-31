@@ -188,7 +188,7 @@ lateinit var charge
 <br>
 <div id='id-section7'/>
 
-## 8.6 반복문 쪼개기 Split Loop
+## 8.7 반복문 쪼개기 Split Loop
 ```kotlin
 var averageAge = 0
 var totalSalaray = 0
@@ -216,8 +216,14 @@ averageAge = averageAge / people.length
 - 각각의 반복문으로 분리해두면 수정할 동작 하나만 이해하면 된다.
 - 여러 일을 수행하는 반복문이라면 구조체를 반환하거나 지역 변수를 활용해야 한다.
 - 반복문을 분리 시 함수 추출도 대부분 동시에 진행.
+
+<br>
+<div id='id-section8'/>
+
+## 8.8 반복문을 파이프라인으로 바꾸기 Replace Loop with Pipeline
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0ODcxMTE3MSwtMTgzNTQwNDQyOSwyMT
+eyJoaXN0b3J5IjpbMTIxNzM3NDU5NCwtMTgzNTQwNDQyOSwyMT
 QzMjg0ODQwLC0xMTc1NzcwNDY3LC0xMTgyOTE3NDUwLC0xMTI2
 NDU1OTg3LC00ODk1MzE0NTEsLTcwNDI2MjY1MywtMTczNDE1OD
 kyOCwtOTI5NDc2MTk1LC0xNjUwNzY4MDM2LDExOTEwNDA1MzYs
