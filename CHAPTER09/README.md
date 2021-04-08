@@ -51,8 +51,10 @@ class Organization {
 }
 ```
 
-- 구
+- 구조체의 필드 이름들은 특히 더 중요
+- 데이터 구조는 프로그램을 이해하는 데 큰 역할을 한다.
+- 게터와 세터 이름 바꾸기도 레코드 구조체의 필드 이름 바꾸기와 똑같이 중요
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTk4NjgyNTEsLTIwNDQ5Nzk2NjcsMT
-ExODA2Njk2LDQ3MjI3OTMxN119
+eyJoaXN0b3J5IjpbLTY3NzAzNDcxNywtMjA0NDk3OTY2NywxMT
+E4MDY2OTYsNDcyMjc5MzE3XX0=
 -->
