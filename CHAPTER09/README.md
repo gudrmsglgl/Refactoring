@@ -64,16 +64,15 @@ class Organization {
 fun discountedTotal() {return this._discountedTotal}
 fun discount(number: Int) {
 	val old = this._discount
-	this._dis
+	this._discount = number
+	this._discountedToal += old - number
 }
 ```
 **🔻 파생 변수를 질의 함수로 바꾸기**
 ```kotlin
-class Organization {
-	fun title() {...}
-}
+	fun discountedTotal() {return this._baseTotal - this._discount}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MTI5NDM4OCwtNjc3MDM0NzE3LC0yMD
-Q0OTc5NjY3LDExMTgwNjY5Niw0NzIyNzkzMTddfQ==
+eyJoaXN0b3J5IjpbLTExMjc3NDk0MDcsLTY3NzAzNDcxNywtMj
+A0NDk3OTY2NywxMTE4MDY2OTYsNDcyMjc5MzE3XX0=
 -->
