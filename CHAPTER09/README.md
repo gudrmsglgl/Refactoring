@@ -39,8 +39,20 @@ print(area)
 <div id='id-section2'/>
 
 ## 9.2 필드 이름 바꾸기 Rename Field
+```kotlin
+class Organization {
+	fun name() {...}
+}
+```
+**🔻 필드 이름 바꾸기**
+```kotlin
+class Organization {
+	fun title() {...}
+}
+```
 
+- 구
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQxNDU5MTg5LC0yMDQ0OTc5NjY3LDExMT
-gwNjY5Niw0NzIyNzkzMTddfQ==
+eyJoaXN0b3J5IjpbLTE4OTk4NjgyNTEsLTIwNDQ5Nzk2NjcsMT
+ExODA2Njk2LDQ3MjI3OTMxN119
 -->
