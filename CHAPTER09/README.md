@@ -1,6 +1,7 @@
 # 데이터 조직화
 [변수 쪼개기](#id-section1)<br>
 [필드 이름 바꾸기](#id-section2)<br>
+[파생 변수를 질의 함수로 바꾸기](#id-section3)<br>
 
 
 
@@ -54,7 +55,23 @@ class Organization {
 - 구조체의 필드 이름들은 특히 더 중요
 - 데이터 구조는 프로그램을 이해하는 데 큰 역할을 한다.
 - 게터와 세터 이름 바꾸기도 레코드 구조체의 필드 이름 바꾸기와 똑같이 중요
+
+<br>
+<div id='id-section3'/>
+
+## 9.3 파생 변수를 질의 함수로 바꾸기 Replace Derived Variable with Query
+```kotlin
+class Organization {
+	fun name() {...}
+}
+```
+**🔻 필드 이름 바꾸기**
+```kotlin
+class Organization {
+	fun title() {...}
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NzAzNDcxNywtMjA0NDk3OTY2NywxMT
-E4MDY2OTYsNDcyMjc5MzE3XX0=
+eyJoaXN0b3J5IjpbNTU1NTQ4ODQ1LC02NzcwMzQ3MTcsLTIwND
+Q5Nzk2NjcsMTExODA2Njk2LDQ3MjI3OTMxN119
 -->
