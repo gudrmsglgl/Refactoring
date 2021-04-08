@@ -17,14 +17,18 @@
 
 ```kotlin
 var temp = 2 * (height * width)
-
+print(temp)
+temp = height * width
+print(temp)
 ```
 **🔻 함수 옮기기**
 ```kotlin
-class AccountType{     👈 함수를 다른 클래스로 옮김
-   fun overdraftCharge(){...}
+val perimeter = 2 * (height * width)
+print(perimeter)
+val area = height * width
+print(temp)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzg0NzczMTgsMTExODA2Njk2LDQ3Mj
-I3OTMxN119
+eyJoaXN0b3J5IjpbLTc2NDQ0MDEzMCwxMTE4MDY2OTYsNDcyMj
+c5MzE3XX0=
 -->
