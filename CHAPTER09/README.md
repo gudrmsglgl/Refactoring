@@ -21,14 +21,16 @@ print(temp)
 temp = height * width
 print(temp)
 ```
-**🔻 함수 옮기기**
+**🔻 변수 쪼개기**
 ```kotlin
 val perimeter = 2 * (height * width)
 print(perimeter)
 val area = height * width
-print(temp)
+print(area)
 ```
+### 🔎 &nbsp;&nbsp; 변수 쪼개기
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NDQ0MDEzMCwxMTE4MDY2OTYsNDcyMj
-c5MzE3XX0=
+eyJoaXN0b3J5IjpbOTU0MjI1NDE3LDExMTgwNjY5Niw0NzIyNz
+kzMTddfQ==
 -->
