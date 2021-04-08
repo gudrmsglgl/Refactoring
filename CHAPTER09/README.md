@@ -61,17 +61,19 @@ class Organization {
 
 ## 9.3 파생 변수를 질의 함수로 바꾸기 Replace Derived Variable with Query
 ```kotlin
-class Organization {
-	fun name() {...}
+fun discountedTotal() {return this._discountedTotal}
+fun discount(number: Int) {
+	val old = this._discount
+	this._dis
 }
 ```
-**🔻 필드 이름 바꾸기**
+**🔻 파생 변수를 질의 함수로 바꾸기**
 ```kotlin
 class Organization {
 	fun title() {...}
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU1NTQ4ODQ1LC02NzcwMzQ3MTcsLTIwND
-Q5Nzk2NjcsMTExODA2Njk2LDQ3MjI3OTMxN119
+eyJoaXN0b3J5IjpbMjA3MTI5NDM4OCwtNjc3MDM0NzE3LC0yMD
+Q0OTc5NjY3LDExMTgwNjY5Niw0NzIyNzkzMTddfQ==
 -->
