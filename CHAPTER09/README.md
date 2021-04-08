@@ -1,5 +1,6 @@
 # 데이터 조직화
 [변수 쪼개기](#id-section1)<br>
+[필드 이름 바꾸기](#id-section2)<br>
 
 
 
@@ -34,7 +35,12 @@ print(area)
 - 역할 하나당 변수 하나
 
 
+<br>
+<div id='id-section2'/>
+
+## 9.2 필드 이름 바꾸기 Rename Field
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MDczNTM5MiwtMjA0NDk3OTY2NywxMT
-E4MDY2OTYsNDcyMjc5MzE3XX0=
+eyJoaXN0b3J5IjpbODQxNDU5MTg5LC0yMDQ0OTc5NjY3LDExMT
+gwNjY5Niw0NzIyNzkzMTddfQ==
 -->
