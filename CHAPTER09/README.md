@@ -32,9 +32,9 @@ print(area)
 - 대입이 두 번 이상 이뤄진다면 여러 가지 역할 수행한다는 신호 
 - 역할이 둘 이상인 변수가 있다면 쪼개야 함
 - 역할 하나당 변수 하나
-- 
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDQ5Nzk2NjcsMTExODA2Njk2LDQ3Mj
-I3OTMxN119
+eyJoaXN0b3J5IjpbMTg1MDczNTM5MiwtMjA0NDk3OTY2NywxMT
+E4MDY2OTYsNDcyMjc5MzE3XX0=
 -->
