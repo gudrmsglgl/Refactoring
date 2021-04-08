@@ -70,9 +70,15 @@ fun discount(number: Int) {
 ```
 **🔻 파생 변수를 질의 함수로 바꾸기**
 ```kotlin
-	fun discountedTotal() {return this._baseTotal - this._discount}
+fun discountedTotal() {
+	return this._baseTotal - this._discount
+}
+fun discount(number: Int) {this._discount = number}
 ```
+
+- 가변 데이터는 소프트웨어에 문제를 일으키는 가장 큰 골칫거리에 속함.
+- 가변 데이터는 서로 다른 두 코드를 이상한 방식
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjc3NDk0MDcsLTY3NzAzNDcxNywtMj
-A0NDk3OTY2NywxMTE4MDY2OTYsNDcyMjc5MzE3XX0=
+eyJoaXN0b3J5IjpbMjA0MTgzMTIwMiwtNjc3MDM0NzE3LC0yMD
+Q0OTc5NjY3LDExMTgwNjY5Niw0NzIyNzkzMTddfQ==
 -->
