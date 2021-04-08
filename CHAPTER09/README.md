@@ -79,8 +79,8 @@ fun discount(number: Int) {this._discount = number}
 ### 가변 데이터 사용 시 주의사항
 - 가변 데이터는 소프트웨어에 문제를 일으키는 가장 큰 골칫거리에 속함.
 - 가변 데이터는 수정한 값이 연쇄 효과를 일으켜 다른 쪽 코드에 원인을 찾기 어려운 문제를 야기함.
-- 가변 데이터를 완전히 배제하기한 현실적으로 불가
+- 가변 데이터를 완전히 배제하기한 현실적으로 불가능하지만, 가변 데이터의 유효 범위를 가능한 한 좁혀야 함.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgzNzQ0OTg0LC02NzcwMzQ3MTcsLTIwND
-Q5Nzk2NjcsMTExODA2Njk2LDQ3MjI3OTMxN119
+eyJoaXN0b3J5IjpbMTA4NDExODE0NSwtNjc3MDM0NzE3LC0yMD
+Q0OTc5NjY3LDExMTgwNjY5Niw0NzIyNzkzMTddfQ==
 -->
