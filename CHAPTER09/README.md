@@ -12,8 +12,19 @@
 
 <br>
 <div id='id-section1'/>
-## 9.1 변수 쪼개기 Split 
+
+## 9.1 변수 쪼개기 Split Variable
+
+```kotlin
+var temp = 2 * (height * width)
+
+```
+**🔻 함수 옮기기**
+```kotlin
+class AccountType{     👈 함수를 다른 클래스로 옮김
+   fun overdraftCharge(){...}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzAzNjQ2OTYsMTExODA2Njk2LDQ3Mj
+eyJoaXN0b3J5IjpbLTEzMzg0NzczMTgsMTExODA2Njk2LDQ3Mj
 I3OTMxN119
 -->
