@@ -110,10 +110,12 @@ class Product {
 	- 내부 객체는 그대로 둔 채 그 객체의 속성만 갱신
 - 값
 	- 새로운 속성을 담은 객체로 기존 내부 객체를 통째로 대체한다.
-- 필드를 값으로 다룬다면 내부 객체의 클래스를 수정하여 값 객체로 만들 수 있다. 
+- 필드를 값으로 다룬다면 내부 객체의 클래스를 수정하여 값 객체로 만들 수 있다.
+- 값 객체는 대체로 자유롭게 활용하기 좋음 -> 불변이기 때문
+- 불변 데이터 구조는 다루기 더 쉬움 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NzQ4NzQwNCwtNTIxNzgzNzIsMTI5MT
-Q0MTYwNywxNTYzMTg3NzkxLC0xNTU5MTc4NzE4LDEwODQxMTgx
-NDUsLTY3NzAzNDcxNywtMjA0NDk3OTY2NywxMTE4MDY2OTYsND
-cyMjc5MzE3XX0=
+eyJoaXN0b3J5IjpbNjEwMDc1OSwtNTIxNzgzNzIsMTI5MTQ0MT
+YwNywxNTYzMTg3NzkxLC0xNTU5MTc4NzE4LDEwODQxMTgxNDUs
+LTY3NzAzNDcxNywtMjA0NDk3OTY2NywxMTE4MDY2OTYsNDcyMj
+c5MzE3XX0=
 -->
