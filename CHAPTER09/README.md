@@ -92,18 +92,21 @@ fun discount(number: Int) {this._discount = number}
 
 ```kotlin
 class Product {
-	fun applyDiscount(arg){this._price.amou}
+	fun applyDiscount(arg){this._price.amount -= arg}
 }
 ```
-**🔻 파생 변수를 질의 함수로 바꾸기**
+**🔻 참조를 값으로 바꾸기**
 ```kotlin
-fun discountedTotal() {
-	return this._baseTotal - this._discount
+class Product {
+	fun applyDiscount(arg) {
+		this._price = Money(this._price.amount -arg, this._price.currency)
+	}
 }
-fun discount(number: Int) {this._discount = number}
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1OTE0NDM4NiwtMTU1OTE3ODcxOCwxMD
+eyJoaXN0b3J5IjpbMTU2MzE4Nzc5MSwtMTU1OTE3ODcxOCwxMD
 g0MTE4MTQ1LC02NzcwMzQ3MTcsLTIwNDQ5Nzk2NjcsMTExODA2
 Njk2LDQ3MjI3OTMxN119
 -->
