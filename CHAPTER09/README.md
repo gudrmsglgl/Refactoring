@@ -109,9 +109,11 @@ class Product {
 - 참조
 	- 내부 객체는 그대로 둔 채 그 객체의 속성만 갱신
 - 값
-	- 새로운 속성을 담은 객체로 기존 내부 객체를 통째로 대체한다. 
+	- 새로운 속성을 담은 객체로 기존 내부 객체를 통째로 대체한다.
+- 필드를 값으로 다룬다면 내부 객체의 클래스를 수정하여 값 객체로 만들 수 있다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMTc4MzcyLDEyOTE0NDE2MDcsMTU2Mz
-E4Nzc5MSwtMTU1OTE3ODcxOCwxMDg0MTE4MTQ1LC02NzcwMzQ3
-MTcsLTIwNDQ5Nzk2NjcsMTExODA2Njk2LDQ3MjI3OTMxN119
+eyJoaXN0b3J5IjpbMTY3NzQ4NzQwNCwtNTIxNzgzNzIsMTI5MT
+Q0MTYwNywxNTYzMTg3NzkxLC0xNTU5MTc4NzE4LDEwODQxMTgx
+NDUsLTY3NzAzNDcxNywtMjA0NDk3OTY2NywxMTE4MDY2OTYsND
+cyMjc5MzE3XX0=
 -->
