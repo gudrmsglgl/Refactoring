@@ -104,9 +104,11 @@ class Product {
 }
 ```
 
-
+- 객체를 다른 객체에 중첩하면 내부 객체를 참조 혹은 값으로 취급할 수 있다.
+- 참조냐 값이냐의 차이는 내부 객체의 속성을 갱신하는 방식에서 드러남
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MzE4Nzc5MSwtMTU1OTE3ODcxOCwxMD
-g0MTE4MTQ1LC02NzcwMzQ3MTcsLTIwNDQ5Nzk2NjcsMTExODA2
-Njk2LDQ3MjI3OTMxN119
+eyJoaXN0b3J5IjpbMTgyOTMwODk5OSwxNTYzMTg3NzkxLC0xNT
+U5MTc4NzE4LDEwODQxMTgxNDUsLTY3NzAzNDcxNywtMjA0NDk3
+OTY2NywxMTE4MDY2OTYsNDcyMjc5MzE3XX0=
 -->
