@@ -113,10 +113,15 @@ class Product {
 - 필드를 값으로 다룬다면 내부 객체의 클래스를 수정하여 값 객체로 만들 수 있다.
 - 값 객체는 대체로 자유롭게 활용하기 좋음 -> 불변이기 때문
 - 불변 데이터 구조는 다루기 더 쉬움
-- 값 객체는 분산 시스템과 동시성 시스템에서 특히 유용 
+- 값 객체는 분산 시스템과 동시성 시스템에서 특히 유용
+
+### **절차** 
+- 후보 클래스가 불변인지, 혹은 불변이 될 수 있는지 확인
+- 각각의 세터를 하나씩 제거
+- 이 값 객체의 필드들을 사용하는 동시성 비교 메서드를 만든다
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjc1MjM4MjksNjEwMDc1OSwtNTIxNz
-gzNzIsMTI5MTQ0MTYwNywxNTYzMTg3NzkxLC0xNTU5MTc4NzE4
-LDEwODQxMTgxNDUsLTY3NzAzNDcxNywtMjA0NDk3OTY2NywxMT
-E4MDY2OTYsNDcyMjc5MzE3XX0=
+eyJoaXN0b3J5IjpbMTIzOTQ0MDA0NiwtMjA2NzUyMzgyOSw2MT
+AwNzU5LC01MjE3ODM3MiwxMjkxNDQxNjA3LDE1NjMxODc3OTEs
+LTE1NTkxNzg3MTgsMTA4NDExODE0NSwtNjc3MDM0NzE3LC0yMD
+Q0OTc5NjY3LDExMTgwNjY5Niw0NzIyNzkzMTddfQ==
 -->
