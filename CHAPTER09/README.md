@@ -88,16 +88,11 @@ fun discount(number: Int) {this._discount = number}
 <br>
 <div id='id-section4'/>
 
-## 9.4 파생 변수를 질의 함수로 바꾸기 Replace Derived Variable with Query
-> 파생 변수란
-> 어떤 메소드의 결과를 담기 위한 멤버 변수를 말한다. 예를 들면 누적 값을 멤버 변수로 기록해둘 수 있을 것이다. 이때 누적값이 파생 변수다. 
-> 이를 질의 함수로 바꿔라. 누적값을 얻길 원한다면 질의 함수를 만들고 질의 함수가 누적 값을 계산해서 내려주도록 바꿔라. (함수형 프로그래밍)
+## 9.4 참조를 값으로 바꾸기
+
 ```kotlin
-fun discountedTotal() {return this._discountedTotal}
-fun discount(number: Int) {
-	val old = this._discount
-	this._discount = number
-	this._discountedToal += old - number
+class Product {
+	fun applyDiscount(arg){this._price.amou}
 }
 ```
 **🔻 파생 변수를 질의 함수로 바꾸기**
@@ -108,7 +103,7 @@ fun discountedTotal() {
 fun discount(number: Int) {this._discount = number}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNzMxNTY1MCwtMTU1OTE3ODcxOCwxMD
+eyJoaXN0b3J5IjpbMTY1OTE0NDM4NiwtMTU1OTE3ODcxOCwxMD
 g0MTE4MTQ1LC02NzcwMzQ3MTcsLTIwNDQ5Nzk2NjcsMTExODA2
 Njk2LDQ3MjI3OTMxN119
 -->
