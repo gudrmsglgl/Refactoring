@@ -130,32 +130,20 @@ val customer = Customer(customerData)
 ```
 **🔻 값을 참조로 바꾸기**
 ```kotlin
-class Product {
-	fun applyDiscount(arg) {
-		this._price = Money(this._price.amount -arg, this._price.currency)
-	}
-}
+val customer = customerRepository.get(customerData.id)
 ```
 
-- 객체를 다른 객체에 중첩하면 내부 객체를 참조 혹은 값으로 취급할 수 있다.
-- 참조냐 값이냐의 차이는 내부 **객체의 속성을 갱신하는 방식에서 드러남**
-- 참조
-	- 내부 객체는 그대로 둔 채 그 객체의 속성만 갱신
-- 값
-	- 새로운 속성을 담은 객체로 기존 내부 객체를 통째로 대체한다.
-- 필드를 값으로 다룬다면 내부 객체의 클래스를 수정하여 값 객체로 만들 수 있다.
-- 값 객체는 대체로 자유롭게 활용하기 좋음 -> 불변이기 때문
-- 불변 데이터 구조는 다루기 더 쉬움
-- 값 객체는 분산 시스템과 동시성 시스템에서 특히 유용
+- 주문 목록을 읽다 보면 **같은 고객이 요청한 주문이 여러 개 섞여 있을 때**
+- 
 
 ### **절차** 
 - 후보 클래스가 불변인지, 혹은 불변이 될 수 있는지 확인
 - 각각의 세터를 하나씩 제거
 - 이 값 객체의 필드들을 사용하는 동시성 비교 메서드를 만든다
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQwMDE4NTc5LDEyMzk0NDAwNDYsLTIwNj
-c1MjM4MjksNjEwMDc1OSwtNTIxNzgzNzIsMTI5MTQ0MTYwNywx
-NTYzMTg3NzkxLC0xNTU5MTc4NzE4LDEwODQxMTgxNDUsLTY3Nz
-AzNDcxNywtMjA0NDk3OTY2NywxMTE4MDY2OTYsNDcyMjc5MzE3
-XX0=
+eyJoaXN0b3J5IjpbLTYyNTY2NDAzMywxMjM5NDQwMDQ2LC0yMD
+Y3NTIzODI5LDYxMDA3NTksLTUyMTc4MzcyLDEyOTE0NDE2MDcs
+MTU2MzE4Nzc5MSwtMTU1OTE3ODcxOCwxMDg0MTE4MTQ1LC02Nz
+cwMzQ3MTcsLTIwNDQ5Nzk2NjcsMTExODA2Njk2LDQ3MjI3OTMx
+N119
 -->
