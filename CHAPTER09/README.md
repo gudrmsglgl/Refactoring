@@ -134,6 +134,7 @@ val customer = customerRepository.get(customerData.id)
 ```
 
 - 주문 목록을 읽다 보면 **같은 고객이 요청한 주문이 여러 개 섞여 있을 때**
+- 이 때 고객을 값으로도, 혹은 참조로도 다룰 수 있다.
 - 
 
 ### **절차** 
@@ -141,9 +142,9 @@ val customer = customerRepository.get(customerData.id)
 - 각각의 세터를 하나씩 제거
 - 이 값 객체의 필드들을 사용하는 동시성 비교 메서드를 만든다
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNTY2NDAzMywxMjM5NDQwMDQ2LC0yMD
-Y3NTIzODI5LDYxMDA3NTksLTUyMTc4MzcyLDEyOTE0NDE2MDcs
-MTU2MzE4Nzc5MSwtMTU1OTE3ODcxOCwxMDg0MTE4MTQ1LC02Nz
-cwMzQ3MTcsLTIwNDQ5Nzk2NjcsMTExODA2Njk2LDQ3MjI3OTMx
-N119
+eyJoaXN0b3J5IjpbLTE0MzM1NTI3MzYsMTIzOTQ0MDA0NiwtMj
+A2NzUyMzgyOSw2MTAwNzU5LC01MjE3ODM3MiwxMjkxNDQxNjA3
+LDE1NjMxODc3OTEsLTE1NTkxNzg3MTgsMTA4NDExODE0NSwtNj
+c3MDM0NzE3LC0yMDQ0OTc5NjY3LDExMTgwNjY5Niw0NzIyNzkz
+MTddfQ==
 -->
