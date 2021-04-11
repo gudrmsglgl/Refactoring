@@ -3,7 +3,7 @@
 [필드 이름 바꾸기](#id-section2)<br>
 [파생 변수를 질의 함수로 바꾸기](#id-section3)<br>
 [참조를 값으로 바꾸기](#id-section4)<br>
-
+[값을 참조로 바꾸기](#id-section5)<br>
 
 
 ### 📂  데이터 조직화
@@ -119,9 +119,43 @@ class Product {
 - 후보 클래스가 불변인지, 혹은 불변이 될 수 있는지 확인
 - 각각의 세터를 하나씩 제거
 - 이 값 객체의 필드들을 사용하는 동시성 비교 메서드를 만든다
+
+<br>
+<div id='id-section5'/>
+
+## 9.5 값을 참조로 바꾸기 Change Value to Reference
+
+```kotlin
+val customer = Customer(customerData)
+```
+**🔻 값을 참조로 바꾸기**
+```kotlin
+class Product {
+	fun applyDiscount(arg) {
+		this._price = Money(this._price.amount -arg, this._price.currency)
+	}
+}
+```
+
+- 객체를 다른 객체에 중첩하면 내부 객체를 참조 혹은 값으로 취급할 수 있다.
+- 참조냐 값이냐의 차이는 내부 **객체의 속성을 갱신하는 방식에서 드러남**
+- 참조
+	- 내부 객체는 그대로 둔 채 그 객체의 속성만 갱신
+- 값
+	- 새로운 속성을 담은 객체로 기존 내부 객체를 통째로 대체한다.
+- 필드를 값으로 다룬다면 내부 객체의 클래스를 수정하여 값 객체로 만들 수 있다.
+- 값 객체는 대체로 자유롭게 활용하기 좋음 -> 불변이기 때문
+- 불변 데이터 구조는 다루기 더 쉬움
+- 값 객체는 분산 시스템과 동시성 시스템에서 특히 유용
+
+### **절차** 
+- 후보 클래스가 불변인지, 혹은 불변이 될 수 있는지 확인
+- 각각의 세터를 하나씩 제거
+- 이 값 객체의 필드들을 사용하는 동시성 비교 메서드를 만든다
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzOTQ0MDA0NiwtMjA2NzUyMzgyOSw2MT
-AwNzU5LC01MjE3ODM3MiwxMjkxNDQxNjA3LDE1NjMxODc3OTEs
-LTE1NTkxNzg3MTgsMTA4NDExODE0NSwtNjc3MDM0NzE3LC0yMD
-Q0OTc5NjY3LDExMTgwNjY5Niw0NzIyNzkzMTddfQ==
+eyJoaXN0b3J5IjpbNzQwMDE4NTc5LDEyMzk0NDAwNDYsLTIwNj
+c1MjM4MjksNjEwMDc1OSwtNTIxNzgzNzIsMTI5MTQ0MTYwNywx
+NTYzMTg3NzkxLC0xNTU5MTc4NzE4LDEwODQxMTgxNDUsLTY3Nz
+AzNDcxNywtMjA0NDk3OTY2NywxMTE4MDY2OTYsNDcyMjc5MzE3
+XX0=
 -->
