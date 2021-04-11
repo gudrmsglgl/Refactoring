@@ -136,17 +136,19 @@ val customer = customerRepository.get(customerData.id)
 - 주문 목록을 읽다 보면 **같은 고객이 요청한 주문이 여러 개 섞여 있을 때**
 - 이 때 고객을 값으로도, 혹은 참조로도 다룰 수 있다.
 - 고객 데이터를 갱신할 일이 없다면 어느 방식이든 상관없다.
-- 값으로 다
+- 값으로 다룬다면 고객 데이터가 각 주문에 복사되고
+- 참조로 다룬다면 여러 주문이 단 하나의 데이터 구조를 참조하게 된다.
 
 ### **절차** 
+
 - 후보 클래스가 불변인지, 혹은 불변이 될 수 있는지 확인
 - 각각의 세터를 하나씩 제거
 - 이 값 객체의 필드들을 사용하는 동시성 비교 메서드를 만든다
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MzM3ODY2OCwtMTU4MTcyNzMxMSwtMT
-Y1ODI1NzE1OCw2NzExNjAwNjgsLTE0MzM1NTI3MzYsMTIzOTQ0
-MDA0NiwtMjA2NzUyMzgyOSw2MTAwNzU5LC01MjE3ODM3MiwxMj
-kxNDQxNjA3LDE1NjMxODc3OTEsLTE1NTkxNzg3MTgsMTA4NDEx
-ODE0NSwtNjc3MDM0NzE3LC0yMDQ0OTc5NjY3LDExMTgwNjY5Ni
-w0NzIyNzkzMTddfQ==
+eyJoaXN0b3J5IjpbMzUyNDM0OTQ0LC0xNTgxNzI3MzExLC0xNj
+U4MjU3MTU4LDY3MTE2MDA2OCwtMTQzMzU1MjczNiwxMjM5NDQw
+MDQ2LC0yMDY3NTIzODI5LDYxMDA3NTksLTUyMTc4MzcyLDEyOT
+E0NDE2MDcsMTU2MzE4Nzc5MSwtMTU1OTE3ODcxOCwxMDg0MTE4
+MTQ1LC02NzcwMzQ3MTcsLTIwNDQ5Nzk2NjcsMTExODA2Njk2LD
+Q3MjI3OTMxN119
 -->
