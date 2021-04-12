@@ -139,16 +139,17 @@ val customer = customerRepository.get(customerData.id)
 - 값으로 다룬다면 고객 데이터가 각 주문에 복사되고
 - 참조로 다룬다면 여러 주문이 단 하나의 데이터 구조를 참조하게 된다.
 - 값을 참조로 바꾸면 엔티티 하나당 객체도 단 하나만 존재하게 되는데, 그러면 보통 이런 객체들을 한데 모아놓고 클라이언트들의 접근을 관리해주는 저장소가 필요.
+
 ### **절차** 
 
 - 후보 클래스가 불변인지, 혹은 불변이 될 수 있는지 확인
 - 각각의 세터를 하나씩 제거
 - 이 값 객체의 필드들을 사용하는 동시성 비교 메서드를 만든다
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMDc2ODAsMzUyNDM0OTQ0LC0xNTgxNz
-I3MzExLC0xNjU4MjU3MTU4LDY3MTE2MDA2OCwtMTQzMzU1Mjcz
-NiwxMjM5NDQwMDQ2LC0yMDY3NTIzODI5LDYxMDA3NTksLTUyMT
-c4MzcyLDEyOTE0NDE2MDcsMTU2MzE4Nzc5MSwtMTU1OTE3ODcx
-OCwxMDg0MTE4MTQ1LC02NzcwMzQ3MTcsLTIwNDQ5Nzk2NjcsMT
-ExODA2Njk2LDQ3MjI3OTMxN119
+eyJoaXN0b3J5IjpbLTkyMDQ1NTQ3MCwxMzIwNzY4MCwzNTI0Mz
+Q5NDQsLTE1ODE3MjczMTEsLTE2NTgyNTcxNTgsNjcxMTYwMDY4
+LC0xNDMzNTUyNzM2LDEyMzk0NDAwNDYsLTIwNjc1MjM4MjksNj
+EwMDc1OSwtNTIxNzgzNzIsMTI5MTQ0MTYwNywxNTYzMTg3Nzkx
+LC0xNTU5MTc4NzE4LDEwODQxMTgxNDUsLTY3NzAzNDcxNywtMj
+A0NDk3OTY2NywxMTE4MDY2OTYsNDcyMjc5MzE3XX0=
 -->
