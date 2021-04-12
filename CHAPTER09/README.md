@@ -142,14 +142,14 @@ val customer = customerRepository.get(customerData.id)
 
 ### **절차** 
 
-- 후보 클래스가 불변인지, 혹은 불변이 될 수 있는지 확인
-- 각각의 세터를 하나씩 제거
-- 이 값 객체의 필드들을 사용하는 동시성 비교 메서드를 만든다
+- 같은 부류에 속하는 객체들을 보관할 저장소를 만든다
+- 생성자에서 이 부류의 객체들 중 특정 객체를 정확히 찾아내는 방법이 있는지 확인
+- 호스트 객체의 생성자들을 수정하여 필요한 객체를 이 저장소에서 찾도록 한다. 하나 수정할 때마다 테스트.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMDQ1NTQ3MCwxMzIwNzY4MCwzNTI0Mz
-Q5NDQsLTE1ODE3MjczMTEsLTE2NTgyNTcxNTgsNjcxMTYwMDY4
-LC0xNDMzNTUyNzM2LDEyMzk0NDAwNDYsLTIwNjc1MjM4MjksNj
-EwMDc1OSwtNTIxNzgzNzIsMTI5MTQ0MTYwNywxNTYzMTg3Nzkx
-LC0xNTU5MTc4NzE4LDEwODQxMTgxNDUsLTY3NzAzNDcxNywtMj
-A0NDk3OTY2NywxMTE4MDY2OTYsNDcyMjc5MzE3XX0=
+eyJoaXN0b3J5IjpbLTEwNDQzMzI5NzcsMTMyMDc2ODAsMzUyND
+M0OTQ0LC0xNTgxNzI3MzExLC0xNjU4MjU3MTU4LDY3MTE2MDA2
+OCwtMTQzMzU1MjczNiwxMjM5NDQwMDQ2LC0yMDY3NTIzODI5LD
+YxMDA3NTksLTUyMTc4MzcyLDEyOTE0NDE2MDcsMTU2MzE4Nzc5
+MSwtMTU1OTE3ODcxOCwxMDg0MTE4MTQ1LC02NzcwMzQ3MTcsLT
+IwNDQ5Nzk2NjcsMTExODA2Njk2LDQ3MjI3OTMxN119
 -->
