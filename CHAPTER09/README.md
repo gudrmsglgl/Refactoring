@@ -169,13 +169,15 @@ fun potentialEnerge(mass, height) {
 
 - 매직 리터럴
 	- 일반적인 리터럴 값
-	- 코드를 읽는 사람이 값의 의미
+	- 코드를 읽는 사람이 값의 의미를 모른다면 숫자 자체로 의미를 명확히 알려주지 못하므로 매직 리터럴 -> 코드 자체가 뜻을 분명하게 드러내자.
+	- 숫자 뿐만 아니라 다른 타입의 리터럴도 특별한 의미를 지닐 수 있음
+		- [x] "1ㅇ"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1ODQ0MzAyNiwtMTA0NDMzMjk3NywxMz
-IwNzY4MCwzNTI0MzQ5NDQsLTE1ODE3MjczMTEsLTE2NTgyNTcx
-NTgsNjcxMTYwMDY4LC0xNDMzNTUyNzM2LDEyMzk0NDAwNDYsLT
-IwNjc1MjM4MjksNjEwMDc1OSwtNTIxNzgzNzIsMTI5MTQ0MTYw
-NywxNTYzMTg3NzkxLC0xNTU5MTc4NzE4LDEwODQxMTgxNDUsLT
-Y3NzAzNDcxNywtMjA0NDk3OTY2NywxMTE4MDY2OTYsNDcyMjc5
-MzE3XX0=
+eyJoaXN0b3J5IjpbLTE3MDUxNTgxMzMsLTEwNDQzMzI5NzcsMT
+MyMDc2ODAsMzUyNDM0OTQ0LC0xNTgxNzI3MzExLC0xNjU4MjU3
+MTU4LDY3MTE2MDA2OCwtMTQzMzU1MjczNiwxMjM5NDQwMDQ2LC
+0yMDY3NTIzODI5LDYxMDA3NTksLTUyMTc4MzcyLDEyOTE0NDE2
+MDcsMTU2MzE4Nzc5MSwtMTU1OTE3ODcxOCwxMDg0MTE4MTQ1LC
+02NzcwMzQ3MTcsLTIwNDQ5Nzk2NjcsMTExODA2Njk2LDQ3MjI3
+OTMxN119
 -->
