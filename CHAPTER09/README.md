@@ -174,15 +174,22 @@ fun potentialEnerge(mass, height) {
 		- [x] "1월 1일" 새로운 해의 시작
 		- [x] "M" 은 남성
 		- [x] "서울" 는 본사를 
+	- 남발하지 말자
+		- 
 ```kotlin
 value == "M" or value == MALE_GENDER 
 ```
+🔻 
+```kotlin
+isMale(value)
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDI1NDc5NzQsLTEwNDQzMzI5NzcsMT
-MyMDc2ODAsMzUyNDM0OTQ0LC0xNTgxNzI3MzExLC0xNjU4MjU3
-MTU4LDY3MTE2MDA2OCwtMTQzMzU1MjczNiwxMjM5NDQwMDQ2LC
-0yMDY3NTIzODI5LDYxMDA3NTksLTUyMTc4MzcyLDEyOTE0NDE2
-MDcsMTU2MzE4Nzc5MSwtMTU1OTE3ODcxOCwxMDg0MTE4MTQ1LC
-02NzcwMzQ3MTcsLTIwNDQ5Nzk2NjcsMTExODA2Njk2LDQ3MjI3
-OTMxN119
+eyJoaXN0b3J5IjpbMjg1MjkzNTMwLC0xMDQ0MzMyOTc3LDEzMj
+A3NjgwLDM1MjQzNDk0NCwtMTU4MTcyNzMxMSwtMTY1ODI1NzE1
+OCw2NzExNjAwNjgsLTE0MzM1NTI3MzYsMTIzOTQ0MDA0NiwtMj
+A2NzUyMzgyOSw2MTAwNzU5LC01MjE3ODM3MiwxMjkxNDQxNjA3
+LDE1NjMxODc3OTEsLTE1NTkxNzg3MTgsMTA4NDExODE0NSwtNj
+c3MDM0NzE3LC0yMDQ0OTc5NjY3LDExMTgwNjY5Niw0NzIyNzkz
+MTddfQ==
 -->
