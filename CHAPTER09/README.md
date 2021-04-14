@@ -167,9 +167,11 @@ fun potentialEnerge(mass, height) {
 
 ```
 
-
+- 매직 리터럴
+	- 일반적인 리터럴 값
+	- 코드를 읽는 사람이 값의 의미
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MzI5MTY5MiwtMTA0NDMzMjk3NywxMz
+eyJoaXN0b3J5IjpbLTY1ODQ0MzAyNiwtMTA0NDMzMjk3NywxMz
 IwNzY4MCwzNTI0MzQ5NDQsLTE1ODE3MjczMTEsLTE2NTgyNTcx
 NTgsNjcxMTYwMDY4LC0xNDMzNTUyNzM2LDEyMzk0NDAwNDYsLT
 IwNjc1MjM4MjksNjEwMDc1OSwtNTIxNzgzNzIsMTI5MTQ0MTYw
