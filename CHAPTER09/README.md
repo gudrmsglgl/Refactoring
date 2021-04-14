@@ -171,9 +171,14 @@ fun potentialEnerge(mass, height) {
 	- 일반적인 리터럴 값
 	- 코드를 읽는 사람이 값의 의미를 모른다면 숫자 자체로 의미를 명확히 알려주지 못하므로 매직 리터럴 -> 코드 자체가 뜻을 분명하게 드러내자.
 	- 숫자 뿐만 아니라 다른 타입의 리터럴도 특별한 의미를 지닐 수 있음
-		- [x] "1ㅇ"
+		- [x] "1월 1일" 새로운 해의 시작
+		- [x] "M" 은 남성
+		- [x] "서울" 는 본사를 
+```kotlin
+value == "M" or value == MALE_GENDER 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDUxNTgxMzMsLTEwNDQzMzI5NzcsMT
+eyJoaXN0b3J5IjpbLTIwMDI1NDc5NzQsLTEwNDQzMzI5NzcsMT
 MyMDc2ODAsMzUyNDM0OTQ0LC0xNTgxNzI3MzExLC0xNjU4MjU3
 MTU4LDY3MTE2MDA2OCwtMTQzMzU1MjczNiwxMjM5NDQwMDQ2LC
 0yMDY3NTIzODI5LDYxMDA3NTksLTUyMTc4MzcyLDEyOTE0NDE2
