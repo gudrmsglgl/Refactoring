@@ -4,6 +4,7 @@
 [파생 변수를 질의 함수로 바꾸기](#id-section3)<br>
 [참조를 값으로 바꾸기](#id-section4)<br>
 [값을 참조로 바꾸기](#id-section5)<br>
+[매직 리터럴 바꾸기](#id-section6)<br>
 
 
 ### 📂  데이터 조직화
@@ -145,11 +146,28 @@ val customer = customerRepository.get(customerData.id)
 - 같은 부류에 속하는 객체들을 보관할 저장소를 만든다
 - 생성자에서 이 부류의 객체들 중 특정 객체를 정확히 찾아내는 방법이 있는지 확인
 - 호스트 객체의 생성자들을 수정하여 필요한 객체를 이 저장소에서 찾도록 한다. 하나 수정할 때마다 테스트.
+
+
+<br>
+<div id='id-section6'/>
+
+## 9.6 매직 리터럴 바꾸기 Replace Magic Literal
+
+```kotlin
+fun potentialEnerge(mass, height) {
+	return mass * 9.81 * height
+}
+```
+**🔻 값을 참조로 바꾸기**
+```kotlin
+val customer = customerRepository.get(customerData.id)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDQzMzI5NzcsMTMyMDc2ODAsMzUyND
-M0OTQ0LC0xNTgxNzI3MzExLC0xNjU4MjU3MTU4LDY3MTE2MDA2
-OCwtMTQzMzU1MjczNiwxMjM5NDQwMDQ2LC0yMDY3NTIzODI5LD
-YxMDA3NTksLTUyMTc4MzcyLDEyOTE0NDE2MDcsMTU2MzE4Nzc5
-MSwtMTU1OTE3ODcxOCwxMDg0MTE4MTQ1LC02NzcwMzQ3MTcsLT
-IwNDQ5Nzk2NjcsMTExODA2Njk2LDQ3MjI3OTMxN119
+eyJoaXN0b3J5IjpbLTEzNzIwMTgzMDAsLTEwNDQzMzI5NzcsMT
+MyMDc2ODAsMzUyNDM0OTQ0LC0xNTgxNzI3MzExLC0xNjU4MjU3
+MTU4LDY3MTE2MDA2OCwtMTQzMzU1MjczNiwxMjM5NDQwMDQ2LC
+0yMDY3NTIzODI5LDYxMDA3NTksLTUyMTc4MzcyLDEyOTE0NDE2
+MDcsMTU2MzE4Nzc5MSwtMTU1OTE3ODcxOCwxMDg0MTE4MTQ1LC
+02NzcwMzQ3MTcsLTIwNDQ5Nzk2NjcsMTExODA2Njk2LDQ3MjI3
+OTMxN119
 -->
