@@ -158,16 +158,22 @@ fun potentialEnerge(mass, height) {
 	return mass * 9.81 * height
 }
 ```
-**🔻 값을 참조로 바꾸기**
+**🔻 매직 리터럴 바꾸기**
 ```kotlin
-val customer = customerRepository.get(customerData.id)
+const val standardGravity = 9.81
+fun potentialEnerge(mass, height) {
+	return mass * standardGravity * height
+}
+
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzIwMTgzMDAsLTEwNDQzMzI5NzcsMT
-MyMDc2ODAsMzUyNDM0OTQ0LC0xNTgxNzI3MzExLC0xNjU4MjU3
-MTU4LDY3MTE2MDA2OCwtMTQzMzU1MjczNiwxMjM5NDQwMDQ2LC
-0yMDY3NTIzODI5LDYxMDA3NTksLTUyMTc4MzcyLDEyOTE0NDE2
-MDcsMTU2MzE4Nzc5MSwtMTU1OTE3ODcxOCwxMDg0MTE4MTQ1LC
-02NzcwMzQ3MTcsLTIwNDQ5Nzk2NjcsMTExODA2Njk2LDQ3MjI3
-OTMxN119
+eyJoaXN0b3J5IjpbLTI1MzI5MTY5MiwtMTA0NDMzMjk3NywxMz
+IwNzY4MCwzNTI0MzQ5NDQsLTE1ODE3MjczMTEsLTE2NTgyNTcx
+NTgsNjcxMTYwMDY4LC0xNDMzNTUyNzM2LDEyMzk0NDAwNDYsLT
+IwNjc1MjM4MjksNjEwMDc1OSwtNTIxNzgzNzIsMTI5MTQ0MTYw
+NywxNTYzMTg3NzkxLC0xNTU5MTc4NzE4LDEwODQxMTgxNDUsLT
+Y3NzAzNDcxNywtMjA0NDk3OTY2NywxMTE4MDY2OTYsNDcyMjc5
+MzE3XX0=
 -->
