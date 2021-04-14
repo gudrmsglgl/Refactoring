@@ -175,7 +175,8 @@ fun potentialEnerge(mass, height) {
 		- [x] "M" 은 남성
 		- [x] "서울" 는 본사를 
 	- 남발하지 말자
-		- 
+		- [x] 한 곳에서만 쓰이는 경우
+		- [x] 함수 하나에서만 쓰이고 그 함수가 맥락 정보를 충분히 제공할 때
 ```kotlin
 value == "M" or value == MALE_GENDER 
 ```
@@ -185,11 +186,11 @@ isMale(value)
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg1MjkzNTMwLC0xMDQ0MzMyOTc3LDEzMj
-A3NjgwLDM1MjQzNDk0NCwtMTU4MTcyNzMxMSwtMTY1ODI1NzE1
-OCw2NzExNjAwNjgsLTE0MzM1NTI3MzYsMTIzOTQ0MDA0NiwtMj
-A2NzUyMzgyOSw2MTAwNzU5LC01MjE3ODM3MiwxMjkxNDQxNjA3
-LDE1NjMxODc3OTEsLTE1NTkxNzg3MTgsMTA4NDExODE0NSwtNj
-c3MDM0NzE3LC0yMDQ0OTc5NjY3LDExMTgwNjY5Niw0NzIyNzkz
-MTddfQ==
+eyJoaXN0b3J5IjpbLTU4OTk2NjU0MCwtMTA0NDMzMjk3NywxMz
+IwNzY4MCwzNTI0MzQ5NDQsLTE1ODE3MjczMTEsLTE2NTgyNTcx
+NTgsNjcxMTYwMDY4LC0xNDMzNTUyNzM2LDEyMzk0NDAwNDYsLT
+IwNjc1MjM4MjksNjEwMDc1OSwtNTIxNzgzNzIsMTI5MTQ0MTYw
+NywxNTYzMTg3NzkxLC0xNTU5MTc4NzE4LDEwODQxMTgxNDUsLT
+Y3NzAzNDcxNywtMjA0NDk3OTY2NywxMTE4MDY2OTYsNDcyMjc5
+MzE3XX0=
 -->
