@@ -23,15 +23,15 @@
 if (!date.isBefore(plan.summerStart) && !date.isAfter(plan.summerEnd))
 	charge = quantity * plan.summerRate
 else
-	charge = quantity * plan.	
+	charge = quantity * plan.regularRate + plan.regualrServiceCharge	
 ```
-**🔻 변수 쪼개기**
+**🔻 조건문 분해하기**
 ```kotlin
-val perimeter = 2 * (height * width)
-print(perimeter)
-val area = height * width
-print(area)
+if (summer())
+	charge = summerCharge()
+else
+	charge = re	
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE3MjA2NjMxLDc4Mjc3ODc3MV19
+eyJoaXN0b3J5IjpbLTE1NDQ0MTE0OTksNzgyNzc4NzcxXX0=
 -->
