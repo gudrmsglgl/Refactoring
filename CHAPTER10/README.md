@@ -19,6 +19,19 @@
 
 ## 10.1 조건문 분해하기 Decompose Conditional
 
+```kotlin
+if (!date.isBefore(plan.summerStart) && !date.isAfter(plan.summerEnd))
+	charge = quantity * plan.summerRate
+else
+	charge = quantity * plan.	
+```
+**🔻 변수 쪼개기**
+```kotlin
+val perimeter = 2 * (height * width)
+print(perimeter)
+val area = height * width
+print(area)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ0MDI4MTU0LDc4Mjc3ODc3MV19
+eyJoaXN0b3J5IjpbNzE3MjA2NjMxLDc4Mjc3ODc3MV19
 -->
