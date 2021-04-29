@@ -1,5 +1,8 @@
 # 조건부 로직 간소화
 
+[조건문 분해하기](#id-section1)<br>
+
+
 조건문의 단점
 - 프로그램을 복잡하게 만드는 주요 원흉
 - 복잡한 조건문
@@ -11,6 +14,11 @@
 - null 처리 로직이 거의 똑같다면 
 	- **특이 케이스 추가하기**( 널 객체 추가하기 )
  
+ <br>
+<div id='id-section1'/>
+
+## 10.1 조건문 분해하기 Decompose Conditional
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgyNzc4NzcxXX0=
+eyJoaXN0b3J5IjpbNTQ0MDI4MTU0LDc4Mjc3ODc3MV19
 -->
