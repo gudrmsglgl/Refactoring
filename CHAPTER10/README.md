@@ -8,7 +8,9 @@
 	- **중첩 조건문을 보호 구문으로 바꾸기**
 - 똑같은 분기 로직 (주로 switch) 여러 곳 등장 
 	- **조건부 로직을 다형성으로 바꾸기**
-- null  
+- null 처리 로직이 거의 똑같다면 
+	- **특이 케이스 추가하기**( 널 객체 추가하기 )
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIwNzczNTU0XX0=
+eyJoaXN0b3J5IjpbNzgyNzc4NzcxXX0=
 -->
