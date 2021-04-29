@@ -4,7 +4,11 @@
 - 프로그램을 복잡하게 만드는 주요 원흉
 - 복잡한 조건문
 	- **조건문 분해하기**
-- 논리적 조합을 명확하게 다ㄷ
+- 논리적 조합을 명확하게 다듬을 때
+	- **중첩 조건문을 보호 구문으로 바꾸기**
+- 똑같은 분기 로직 (주로 switch) 여러 곳 등장 
+	- **조건부 로직을 다형성으로 바꾸기**
+- null  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI3Mzc4NjQ2XX0=
+eyJoaXN0b3J5IjpbOTIwNzczNTU0XX0=
 -->
