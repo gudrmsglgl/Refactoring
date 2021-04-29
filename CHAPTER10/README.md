@@ -30,8 +30,8 @@ else
 if (summer())
 	charge = summerCharge()
 else
-	charge = re	
+	charge = regularCharge()	
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDQ0MTE0OTksNzgyNzc4NzcxXX0=
+eyJoaXN0b3J5IjpbMTgxMzMxNTU3NSw3ODI3Nzg3NzFdfQ==
 -->
