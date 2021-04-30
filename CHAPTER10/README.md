@@ -33,8 +33,8 @@ else
    charge = regularCharge()	
 ```
 
-- 조건문에서 동작은 무슨일 
+- **조건문**에서 동작은 무슨 일이 일어나는지 말해주지만 **'왜' 일어나는지 제대로 말해주지 않을 때가 문제** 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwOTU3MDg0MiwxODEzMzE1NTc1LDc4Mj
+eyJoaXN0b3J5IjpbMTkwMTEzMTE5OCwxODEzMzE1NTc1LDc4Mj
 c3ODc3MV19
 -->
