@@ -2,6 +2,7 @@
 
 [조건문 분해하기](#id-section1)<br>
 [조건식 통합하기](#id-section2)<br>
+[중첩 조건문을 보호 구문으로 바꾸기](#id-section3)<br>
 
 
 조건문의 단점
@@ -63,12 +64,12 @@ fun isNotEligibleForDisability() {
 - 조건부 코드를 통합하는 이유
 	- [x] 여러 조각으로 나뉜 조건들을 통합함으로 명확해짐
 	- [x] 이 작업이 함수 추출하기로 이어질 가능성이 높아짐
- - 조건부 통합 방법
+ - ⚡ **조건부 통합 방법**
 	 - [x] or 사용하기
 		 - 똑같은 결과로 이어지는 조건 검사가 순차적으로 진행
 	- [x] and 사용하기
-		- if문이 중첩되어 나오면 and 를 사용 
+		- if문이 중첩되어 나오면 and를 사용
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTYxOTE1ODksMTgxMzMxNTU3NSw3OD
+eyJoaXN0b3J5IjpbLTEyNDY0NzMwODQsMTgxMzMxNTU3NSw3OD
 I3Nzg3NzFdfQ==
 -->
