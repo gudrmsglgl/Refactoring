@@ -34,7 +34,8 @@ else
 ```
 
 - **조건문**에서 동작은 무슨 일이 일어나는지 말해주지만 **'왜' 일어나는지 제대로 말해주지 않을 때가 문제** 
+- 조건문이 보이면 **조건식과 각 조건절에 의도를 살린 이름의 함수 호출**로 바꾸자.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMTEzMTE5OCwxODEzMzE1NTc1LDc4Mj
-c3ODc3MV19
+eyJoaXN0b3J5IjpbLTEwMDUyMDU5NzUsMTgxMzMxNTU3NSw3OD
+I3Nzg3NzFdfQ==
 -->
