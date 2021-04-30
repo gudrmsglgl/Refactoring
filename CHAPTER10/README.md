@@ -80,6 +80,17 @@ fun getPayAmount() {
    var result = 0
    if (isDead)
       result = deadAmount()
+   else {
+      if (isSeparated)
+         result = separatedAmount()
+      else {
+         if (isRetried)
+            result = retiredAmount()
+         else 
+            result = normalPayAmount()   
+      }   
+   }
+   return result   
 }
 ```
 **🔻 조건문 통합하기**
@@ -93,6 +104,6 @@ fun isNotEligibleForDisability() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU5MDM5MzI0LDE4MTMzMTU1NzUsNzgyNz
+eyJoaXN0b3J5IjpbNjM4ODE2Njg4LDE4MTMzMTU1NzUsNzgyNz
 c4NzcxXX0=
 -->
