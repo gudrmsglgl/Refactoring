@@ -99,10 +99,10 @@ fun getPayAmount() {
    if (isDead) return deadAmount()
    if (isSeparated) return separatedAmount()
    if (isRetried) return retiredAmount()
-   normalPayAmount()   
+   return normalPayAmount()   
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MzEwNDA3LDE4MTMzMTU1NzUsNzgyNz
-c4NzcxXX0=
+eyJoaXN0b3J5IjpbLTIxNTE5ODM4OSwxODEzMzE1NTc1LDc4Mj
+c3ODc3MV19
 -->
