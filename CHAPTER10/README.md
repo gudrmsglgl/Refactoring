@@ -69,7 +69,30 @@ fun isNotEligibleForDisability() {
 		 - 똑같은 결과로 이어지는 조건 검사가 순차적으로 진행
 	- [x] and 사용하기
 		- if문이 중첩되어 나오면 and를 사용
+
+<br>
+<div id='id-section3'/>
+
+## 10.3 중첩 조건문을 보호 구문으로 바꾸기 Replace Nested Conditional with Guard Clauses
+
+```kotlin
+fun getPayAmount() {
+   var result = 0
+   if (isDead)
+      result = deadAmount()
+}
+```
+**🔻 조건문 통합하기**
+```kotlin
+if (isNotEligibleForDisability()) return 0
+
+fun isNotEligibleForDisability() {
+   return ((anEmployee.seniority < 2)
+      || (anEmployee.monthsDisabled > 12)
+      || (anEmployee.isPartTime))
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDY0NzMwODQsMTgxMzMxNTU3NSw3OD
-I3Nzg3NzFdfQ==
+eyJoaXN0b3J5IjpbMzU5MDM5MzI0LDE4MTMzMTU1NzUsNzgyNz
+c4NzcxXX0=
 -->
