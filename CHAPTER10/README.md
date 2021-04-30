@@ -47,7 +47,7 @@ if (anEmployee.seniority < 2) return 0
 if (anEmployee.monthsDisabled > 12) return 0
 if (anEmployee.isPartTime) return 0
 ```
-**🔻 조건문 분해하기**
+**🔻 조건문 통합하기**
 ```kotlin
 if (summer())
    charge = summerCharge()
@@ -55,6 +55,6 @@ else
    charge = regularCharge()	
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MTA4NDMwOCwxODEzMzE1NTc1LDc4Mj
-c3ODc3MV19
+eyJoaXN0b3J5IjpbLTE3OTAzMzU4NjQsMTgxMzMxNTU3NSw3OD
+I3Nzg3NzFdfQ==
 -->
