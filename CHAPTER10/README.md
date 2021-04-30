@@ -112,7 +112,11 @@ fun getPayAmount() {
 
 ###  중첩 조건문 -> 보호 구문 리팩터링
 - 핵심은 의도를 부각하는 데 있다.
+- if-then-else 구조를 사용할 때
+	- 💬 if절과 else절에 똑같은 무게를 두어, 코드를 읽는 이에게 **양 갈래가 똑같이 중요하다는 뜻을 전달**
+- 보호 구문
+	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mjc2NjE0MDUsOTI0MzU2MjMwLDE4MT
-MzMTU1NzUsNzgyNzc4NzcxXX0=
+eyJoaXN0b3J5IjpbLTU0NDk0MjM4LDkyNDM1NjIzMCwxODEzMz
+E1NTc1LDc4Mjc3ODc3MV19
 -->
