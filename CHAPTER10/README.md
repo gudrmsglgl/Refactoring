@@ -21,17 +21,20 @@
 
 ```kotlin
 if (!date.isBefore(plan.summerStart) && !date.isAfter(plan.summerEnd))
-	charge = quantity * plan.summerRate
+   charge = quantity * plan.summerRate
 else
-	charge = quantity * plan.regularRate + plan.regualrServiceCharge	
+   charge = quantity * plan.regularRate + plan.regualrServiceCharge	
 ```
 **🔻 조건문 분해하기**
 ```kotlin
 if (summer())
-	charge = summerCharge()
+   charge = summerCharge()
 else
-	charge = regularCharge()	
+   charge = regularCharge()	
 ```
+
+- 조건문에서 동작은 무슨일 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMzMxNTU3NSw3ODI3Nzg3NzFdfQ==
+eyJoaXN0b3J5IjpbMTkwOTU3MDg0MiwxODEzMzE1NTc1LDc4Mj
+c3ODc3MV19
 -->
