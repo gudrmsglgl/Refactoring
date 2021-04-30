@@ -63,7 +63,9 @@ fun isNotEligibleForDisability() {
 - 조건부 코드를 통합하는 이유
 	- [x] 여러 조각으로 나뉜 조건들을 통합함으로 명확해짐
 	- [x] 이 작업이 함수 추출하기로 이어질 가능성이 높아짐
+ - 조건부 통합 방법
+	 - [x] asdf
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNTkxMzAzNSwxODEzMzE1NTc1LDc4Mj
-c3ODc3MV19
+eyJoaXN0b3J5IjpbLTE1MDA3ODUwNTcsMTgxMzMxNTU3NSw3OD
+I3Nzg3NzFdfQ==
 -->
