@@ -115,8 +115,8 @@ fun getPayAmount() {
 - if-then-else 구조를 사용할 때
 	- 💬 if절과 else절에 똑같은 무게를 두어, 코드를 읽는 이에게 **양 갈래가 똑같이 중요하다는 뜻을 전달**
 - 보호 구문
-	- 
+	- 💬 "이건 이 함수의 핵심이 아니다. **이 일이 일어나면 무언가 조치를 취한 후 함수에서 빠져나온다**" 전달.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NDk0MjM4LDkyNDM1NjIzMCwxODEzMz
-E1NTc1LDc4Mjc3ODc3MV19
+eyJoaXN0b3J5IjpbMTA0ODg4MjYxNiw5MjQzNTYyMzAsMTgxMz
+MxNTU3NSw3ODI3Nzg3NzFdfQ==
 -->
