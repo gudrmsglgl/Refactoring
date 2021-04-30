@@ -109,7 +109,10 @@ fun getPayAmount() {
 - [x] 한쪽만 정상인 형태
 	- 👌🏻 **비정상 조건을 if에서 검사한 다음**, 조건이 참이면 **(비정상이면) 함수에서 빠져나온다.** 
 	- 이와 같은 형태를 흔히 **보호 구문 (guard clause)**
+
+###  중첩 조건문 -> 보호 구문 리팩터링
+- 핵심은 의도를 부각하는 데 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI0MzU2MjMwLDE4MTMzMTU1NzUsNzgyNz
-c4NzcxXX0=
+eyJoaXN0b3J5IjpbLTE3Mjc2NjE0MDUsOTI0MzU2MjMwLDE4MT
+MzMTU1NzUsNzgyNzc4NzcxXX0=
 -->
