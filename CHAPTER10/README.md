@@ -52,10 +52,12 @@ if (anEmployee.isPartTime) return 0
 if (isNotEligibleForDisability()) return 0
 
 fun isNotEligibleForDisability() {
-   
+   return ((anEmployee.seniority < 2)
+      || (anEmployee.monthsDisabled > 12)
+      || (anEmployee.isPartTime))
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNTIyMzc3LDE4MTMzMTU1NzUsNzgyNz
+eyJoaXN0b3J5IjpbMjA4ODcyNjI4LDE4MTMzMTU1NzUsNzgyNz
 c4NzcxXX0=
 -->
