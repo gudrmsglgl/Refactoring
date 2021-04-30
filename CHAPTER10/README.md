@@ -57,7 +57,9 @@ fun isNotEligibleForDisability() {
       || (anEmployee.isPartTime))
 }
 ```
+
+조건식을 통합할 때
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4ODcyNjI4LDE4MTMzMTU1NzUsNzgyNz
-c4NzcxXX0=
+eyJoaXN0b3J5IjpbMTAyMzczNDY2OSwxODEzMzE1NTc1LDc4Mj
+c3ODc3MV19
 -->
