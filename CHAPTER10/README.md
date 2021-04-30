@@ -58,8 +58,11 @@ fun isNotEligibleForDisability() {
 }
 ```
 
-조건식을 통합할 때
+### 🔍 조건식을 통합할 때
+- **비교하는 조건은 다르**지만 그 결과로 **수행하는 동작은 같을 때**
+- 조건부 코드를 통합하는 이유
+	- [x] 여러 조각을
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMzczNDY2OSwxODEzMzE1NTc1LDc4Mj
-c3ODc3MV19
+eyJoaXN0b3J5IjpbLTEzOTUzMjY5MjQsMTgxMzMxNTU3NSw3OD
+I3Nzg3NzFdfQ==
 -->
