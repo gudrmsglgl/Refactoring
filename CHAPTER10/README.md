@@ -61,8 +61,9 @@ fun isNotEligibleForDisability() {
 ### 🔍 조건식을 통합할 때
 - **비교하는 조건은 다르**지만 그 결과로 **수행하는 동작은 같을 때**
 - 조건부 코드를 통합하는 이유
-	- [x] 여러 조각을
+	- [x] 여러 조각으로 나뉜 조건들을 통합함으로 명확해짐
+	- [x] 이 작업이 함수 추출하기로 이어질 가능성이 높아짐
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTUzMjY5MjQsMTgxMzMxNTU3NSw3OD
-I3Nzg3NzFdfQ==
+eyJoaXN0b3J5IjpbMTgwNTkxMzAzNSwxODEzMzE1NTc1LDc4Mj
+c3ODc3MV19
 -->
