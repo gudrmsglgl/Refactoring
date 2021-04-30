@@ -93,17 +93,16 @@ fun getPayAmount() {
    return result   
 }
 ```
-**🔻 조건문 통합하기**
+**🔻  중첩 조건문을 보호 구문으로 바꾸기**
 ```kotlin
-if (isNotEligibleForDisability()) return 0
-
-fun isNotEligibleForDisability() {
-   return ((anEmployee.seniority < 2)
-      || (anEmployee.monthsDisabled > 12)
-      || (anEmployee.isPartTime))
+fun getPayAmount() {
+   if (isDead) return deadAmount()
+   if (isSeparated) return separatedAmount()
+   if (isRetried) return retiredAmount()
+   normalPayAmount()   
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM4ODE2Njg4LDE4MTMzMTU1NzUsNzgyNz
+eyJoaXN0b3J5IjpbMTU0MzEwNDA3LDE4MTMzMTU1NzUsNzgyNz
 c4NzcxXX0=
 -->
