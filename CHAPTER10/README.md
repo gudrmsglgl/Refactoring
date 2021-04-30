@@ -49,12 +49,13 @@ if (anEmployee.isPartTime) return 0
 ```
 **🔻 조건문 통합하기**
 ```kotlin
-if (summer())
-   charge = summerCharge()
-else
-   charge = regularCharge()	
+if (isNotEligibleForDisability()) return 0
+
+fun isNotEligibleForDisability() {
+   
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTAzMzU4NjQsMTgxMzMxNTU3NSw3OD
-I3Nzg3NzFdfQ==
+eyJoaXN0b3J5IjpbMTEwNTIyMzc3LDE4MTMzMTU1NzUsNzgyNz
+c4NzcxXX0=
 -->
