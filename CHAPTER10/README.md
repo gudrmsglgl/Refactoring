@@ -102,7 +102,11 @@ fun getPayAmount() {
    return normalPayAmount()   
 }
 ```
+
+### 🔍 조건문의 작성 형태 
+- [x] 참인 경로와 거짓인 경로 모두 정상 동작으로 어이지는 형태 
+- [x] 한쪽만 정상인 형태
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNTE5ODM4OSwxODEzMzE1NTc1LDc4Mj
+eyJoaXN0b3J5IjpbMTk1MTk5NTY3NywxODEzMzE1NTc1LDc4Mj
 c3ODc3MV19
 -->
