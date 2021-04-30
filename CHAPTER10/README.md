@@ -36,7 +36,25 @@ else
 
 - **조건문**에서 동작은 무슨 일이 일어나는지 말해주지만 **'왜' 일어나는지 제대로 말해주지 않을 때가 문제** 
 - 조건문이 보이면 **조건식과 각 조건절에 의도를 살린 이름의 함수 호출**로 바꾸자.
+
+ <br>
+<div id='id-section2'/>
+
+## 10.2 조건식 통합하기 Consolidate Conditional Expression
+
+```kotlin
+if (anEmployee.seniority < 2) return 0
+if (anEmployee.monthsDisabled > 12) return 0
+if (anEmployee.isPartTime) return 0
+```
+**🔻 조건문 분해하기**
+```kotlin
+if (summer())
+   charge = summerCharge()
+else
+   charge = regularCharge()	
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxOTkyODM2NywxODEzMzE1NTc1LDc4Mj
+eyJoaXN0b3J5IjpbLTY1MTA4NDMwOCwxODEzMzE1NTc1LDc4Mj
 c3ODc3MV19
 -->
