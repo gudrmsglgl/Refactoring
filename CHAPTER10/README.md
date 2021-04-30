@@ -105,8 +105,10 @@ fun getPayAmount() {
 
 ### 🔍 조건문의 작성 형태 
 - [x] 참인 경로와 거짓인 경로 모두 정상 동작으로 어이지는 형태 
+	- 👌🏻 **if 와 else 절 사용**
 - [x] 한쪽만 정상인 형태
+	- 👌🏻 비정상 조건을 if에서 검사한 다음, 조건이 참이면 (비정상이면) 함수에서 빠져나온다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MTk5NTY3NywxODEzMzE1NTc1LDc4Mj
+eyJoaXN0b3J5IjpbMTAwMDk3OTkwNCwxODEzMzE1NTc1LDc4Mj
 c3ODc3MV19
 -->
