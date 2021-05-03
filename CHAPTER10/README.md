@@ -136,11 +136,11 @@ class UnknownCustomer {
 
 ### 🔍 특이 케이스 
 - 특수한 경우의 공통 동작을 요소 하나에 모아서 사용하는 특이 케이스 패턴
-	- 👌🏻 **if 와 else 절 사용**
-- [x] 한쪽만 정상인 형태
-	- 👌🏻 **비정상 조건을 if에서 검사한 다음**, 조건이 참이면 **(비정상이면) 함수에서 빠져나온다.** 
-	- 이와 같은 형태를 흔히 **보호 구문 (guard clause)**
+- 특이 케이스를 확인하는 코드 -> 단순한 함수 호출
+- 표현 방법
+	- [x] 특이 케이스 객체에서 단순히 데이터를 읽기 
+		- -> 반환할 값들을 담은 리터럴 객체 형태로 준비
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzc4NTg3MDgsMTA0ODg4MjYxNiw5Mj
-QzNTYyMzAsMTgxMzMxNTU3NSw3ODI3Nzg3NzFdfQ==
+eyJoaXN0b3J5IjpbOTkyMzUyNDMzLDEwNDg4ODI2MTYsOTI0Mz
+U2MjMwLDE4MTMzMTU1NzUsNzgyNzc4NzcxXX0=
 -->
