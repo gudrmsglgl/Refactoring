@@ -144,8 +144,11 @@ class UnknownCustomer {
 	- [x] 그 이상의 어떤 동작을 수행해야 한다면
 		> -> 필요한 메서드를 담은 객체 생성
 		-> 특이 케이스 객체는 이를 캡슐화한 클래스 반환 or 
-		-> 
+		-> 변환을 거쳐 데이터 구조에 추가시키는 형태
+	
+	- [x] 널은 특이 케이스로 처리해야할 때가 많음
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0ODgyMzQ3LDEwNDg4ODI2MTYsOTI0Mz
-U2MjMwLDE4MTMzMTU1NzUsNzgyNzc4NzcxXX0=
+eyJoaXN0b3J5IjpbLTE0ODU3NjkyMTAsMTA0ODg4MjYxNiw5Mj
+QzNTYyMzAsMTgxMzMxNTU3NSw3ODI3Nzg3NzFdfQ==
 -->
