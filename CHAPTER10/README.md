@@ -3,6 +3,7 @@
 [조건문 분해하기](#id-section1)<br>
 [조건식 통합하기](#id-section2)<br>
 [중첩 조건문을 보호 구문으로 바꾸기](#id-section3)<br>
+[특이 케이스 추가하기](#id-section5)<br>
 
 
 조건문의 단점
@@ -116,7 +117,26 @@ fun getPayAmount() {
 	- 💬 if절과 else절에 똑같은 무게를 두어, 코드를 읽는 이에게 **양 갈래가 똑같이 중요하다는 뜻을 전달**
 - 보호 구문
 	- 💬 "이건 이 함수의 핵심이 아니다. **이 일이 일어나면 무언가 조치를 취한 후 함수에서 빠져나온다**" 전달.
+
+
+<br>
+<div id='id-section5'/>
+
+## 10.5 특이 케이스 추가하기 Introduce Special Case
+
+```kotlin
+if (customer == "미확인 ")
+```
+**🔻  중첩 조건문을 보호 구문으로 바꾸기**
+```kotlin
+fun getPayAmount() {
+   if (isDead) return deadAmount()
+   if (isSeparated) return separatedAmount()
+   if (isRetried) return retiredAmount()
+   return normalPayAmount()   
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0ODg4MjYxNiw5MjQzNTYyMzAsMTgxMz
-MxNTU3NSw3ODI3Nzg3NzFdfQ==
+eyJoaXN0b3J5IjpbMTU2NzU0NTY4LDEwNDg4ODI2MTYsOTI0Mz
+U2MjMwLDE4MTMzMTU1NzUsNzgyNzc4NzcxXX0=
 -->
