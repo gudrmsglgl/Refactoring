@@ -125,18 +125,17 @@ fun getPayAmount() {
 ## 10.5 특이 케이스 추가하기 Introduce Special Case
 
 ```kotlin
-if (customer == "미확인 ")
+if (customer == "미확인 고객") customerName = "거주자"
 ```
-**🔻  중첩 조건문을 보호 구문으로 바꾸기**
+**🔻  특이 케이스 추가**
 ```kotlin
-fun getPayAmount() {
-   if (isDead) return deadAmount()
-   if (isSeparated) return separatedAmount()
-   if (isRetried) return retiredAmount()
-   return normalPayAmount()   
+class UnknownCustomer {
+   fun name() = "거주자" 
 }
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NzU0NTY4LDEwNDg4ODI2MTYsOTI0Mz
-U2MjMwLDE4MTMzMTU1NzUsNzgyNzc4NzcxXX0=
+eyJoaXN0b3J5IjpbLTE0Nzg3NzY2OSwxMDQ4ODgyNjE2LDkyND
+M1NjIzMCwxODEzMzE1NTc1LDc4Mjc3ODc3MV19
 -->
