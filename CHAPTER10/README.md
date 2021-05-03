@@ -139,11 +139,11 @@ class UnknownCustomer {
 - 특이 케이스를 확인하는 코드 -> 단순한 함수 호출
 - 표현 방법
 	- [x] 특이 케이스 객체에서 단순히 데이터를 읽기 
-		> 반환할 값들을 담은 리터럴 객체 형태로 준비
+		> -> 반환할 값들을 담은 리터럴 객체 형태로 준비
 
 	- [x] 그 이상의 어떤 동작을 수행해야 한다면
 		> -> 필요한 메서드를 담은 객체 생성
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MTUwODI2OCwxMDQ4ODgyNjE2LDkyND
-M1NjIzMCwxODEzMzE1NTc1LDc4Mjc3ODc3MV19
+eyJoaXN0b3J5IjpbNTEzMzcyNjksMTA0ODg4MjYxNiw5MjQzNT
+YyMzAsMTgxMzMxNTU3NSw3ODI3Nzg3NzFdfQ==
 -->
