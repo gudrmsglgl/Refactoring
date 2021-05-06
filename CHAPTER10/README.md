@@ -173,8 +173,11 @@ class Customer {
   fun paymentHistory() {...} // 납부 이력
 }
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MTA5OTM4Niw0ODU1ODkyMDYsLTE5Mj
-MwNjQ1NTEsLTE0ODU3NjkyMTAsMTA0ODg4MjYxNiw5MjQzNTYy
-MzAsMTgxMzMxNTU3NSw3ODI3Nzg3NzFdfQ==
+eyJoaXN0b3J5IjpbLTE2MTU5MTc3MzgsMTc0MTA5OTM4Niw0OD
+U1ODkyMDYsLTE5MjMwNjQ1NTEsLTE0ODU3NjkyMTAsMTA0ODg4
+MjYxNiw5MjQzNTYyMzAsMTgxMzMxNTU3NSw3ODI3Nzg3NzFdfQ
+==
 -->
