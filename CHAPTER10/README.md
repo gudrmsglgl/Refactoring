@@ -198,10 +198,10 @@ if (customer != "미확인 고객") customer.billingPlan = newPlan
 ```kotlin
 // 클라이언트 4...
 val weeksDelinquent = (customer == "미확인 고객") ? 0 : 
-	customer.paymentHistory.weeksDeli
+	customer.paymentHistory.weeksDeliquentInLastYear
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMjI5NTQxMCwxNzQxMDk5Mzg2LDQ4NT
-U4OTIwNiwtMTkyMzA2NDU1MSwtMTQ4NTc2OTIxMCwxMDQ4ODgy
-NjE2LDkyNDM1NjIzMCwxODEzMzE1NTc1LDc4Mjc3ODc3MV19
+eyJoaXN0b3J5IjpbNzQ5MzkwODIxLDE3NDEwOTkzODYsNDg1NT
+g5MjA2LC0xOTIzMDY0NTUxLC0xNDg1NzY5MjEwLDEwNDg4ODI2
+MTYsOTI0MzU2MjMwLDE4MTMzMTU1NzUsNzgyNzc4NzcxXX0=
 -->
