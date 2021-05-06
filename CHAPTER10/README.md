@@ -205,10 +205,16 @@ val weeksDelinquent = (customer == "미확인 고객") ? 0 :
 - 고객 이름으로는 "거주자", 기본 요금제(billingPlan)를 청구하고, 연체(delinquent) 기간은 0주로 분류 
 - 많은 곳에서 이뤄지는 이 특이 케이스 검사와 공통된 반응이 우리에게 특이 케이스 객체를 도립할 때임을 말해준다.
 
-&emsp;⓵ aj<br>
+&emsp;⓵ 먼저 미확인 고객인지를 나타내는 메서드를 고객 클래스에 추가<br>
+```kotlin
+class Customer {
+  fun isUnknown() {return false}
+}
+```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc4MDI5MTQ3LC0xOTIzMzg4NTMsMTc0MT
+eyJoaXN0b3J5IjpbLTQxMzI3NzU3LC0xOTIzMzg4NTMsMTc0MT
 A5OTM4Niw0ODU1ODkyMDYsLTE5MjMwNjQ1NTEsLTE0ODU3Njky
 MTAsMTA0ODg4MjYxNiw5MjQzNTYyMzAsMTgxMzMxNTU3NSw3OD
 I3Nzg3NzFdfQ==
