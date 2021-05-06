@@ -161,9 +161,13 @@ class UnknownCustomer {
 
 ### Ex. 현장 site 에 인프라를 설치해 서비스 제공
 
-
+```kotlin
+class Site {
+   fun customer() = this._
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg1NTg5MjA2LC0xOTIzMDY0NTUxLC0xND
-g1NzY5MjEwLDEwNDg4ODI2MTYsOTI0MzU2MjMwLDE4MTMzMTU1
-NzUsNzgyNzc4NzcxXX0=
+eyJoaXN0b3J5IjpbLTc4NjgwMTA2Miw0ODU1ODkyMDYsLTE5Mj
+MwNjQ1NTEsLTE0ODU3NjkyMTAsMTA0ODg4MjYxNiw5MjQzNTYy
+MzAsMTgxMzMxNTU3NSw3ODI3Nzg3NzFdfQ==
 -->
