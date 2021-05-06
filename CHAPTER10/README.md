@@ -214,16 +214,15 @@ class Customer {
 ```
 
 &emsp;⓶ 그런 다음 미확인 고객 전용 클래스를 만든다.
-
 ```kotlin
 class UnknownCustomer {
   fun isUnknown() {return true}
 }
 ```
-
+&emsp;⓶ 그런 다음 미확인 고객 전용 클래스를 만든다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5OTQ1NDg3MywtMTkyMzM4ODUzLDE3ND
+eyJoaXN0b3J5IjpbLTM0NTE4MjkzMCwtMTkyMzM4ODUzLDE3ND
 EwOTkzODYsNDg1NTg5MjA2LC0xOTIzMDY0NTUxLC0xNDg1NzY5
 MjEwLDEwNDg4ODI2MTYsOTI0MzU2MjMwLDE4MTMzMTU1NzUsNz
 gyNzc4NzcxXX0=
