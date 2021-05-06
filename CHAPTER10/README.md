@@ -207,18 +207,24 @@ val weeksDelinquent = (customer == "미확인 고객") ? 0 :
 
 
 &emsp;⓵ 먼저 미확인 고객인지를 나타내는 메서드를 고객 클래스에 추가<br>
-&emsp;⓶ 그런 다음 미확인 고객 전용 클래스를 만든다.
-
 ```kotlin
 class Customer {
   fun isUnknown() {return false}
 }
 ```
 
+&emsp;⓶ 그런 다음 미확인 고객 전용 클래스를 만든다.
+
+```kotlin
+class UnknownCustomer {
+  fun isUnknown() {return true}
+}
+```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY5ODQ3MDk4LC0xOTIzMzg4NTMsMTc0MT
-A5OTM4Niw0ODU1ODkyMDYsLTE5MjMwNjQ1NTEsLTE0ODU3Njky
-MTAsMTA0ODg4MjYxNiw5MjQzNTYyMzAsMTgxMzMxNTU3NSw3OD
-I3Nzg3NzFdfQ==
+eyJoaXN0b3J5IjpbMTE5OTQ1NDg3MywtMTkyMzM4ODUzLDE3ND
+EwOTkzODYsNDg1NTg5MjA2LC0xOTIzMDY0NTUxLC0xNDg1NzY5
+MjEwLDEwNDg4ODI2MTYsOTI0MzU2MjMwLDE4MTMzMTU1NzUsNz
+gyNzc4NzcxXX0=
 -->
