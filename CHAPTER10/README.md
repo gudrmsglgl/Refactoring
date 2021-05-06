@@ -163,11 +163,18 @@ class UnknownCustomer {
 
 ```kotlin
 class Site {
-   fun customer() = this._
+   fun customer() = this._customer
+}
+
+class Customer {
+  fun name() {...} // 고객 이름
+  fun billingPlan() {...} // 요금제
+  fun setBillingPlan(arg) {...} 
+  fun paymentHistory() {...} // 납부 이력
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NjgwMTA2Miw0ODU1ODkyMDYsLTE5Mj
+eyJoaXN0b3J5IjpbMTc0MTA5OTM4Niw0ODU1ODkyMDYsLTE5Mj
 MwNjQ1NTEsLTE0ODU3NjkyMTAsMTA0ODg4MjYxNiw5MjQzNTYy
 MzAsMTgxMzMxNTU3NSw3ODI3Nzg3NzFdfQ==
 -->
