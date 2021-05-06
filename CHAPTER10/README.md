@@ -149,7 +149,7 @@ class UnknownCustomer {
 	- [x] 널은 특이 케이스로 처리해야할 때가 많음
 
 ### 📍 절차
-7. 여러 함수를 클래스로 묶기나 여러 함수를 변환 함수로 묶기를 적용하여 특이 케이스를 처리하는 공통 동작을 새로운 요소로 옮긴다.
+7. 
 &emsp;⓵ 컨테이너에 특이 케이스인지를 검사하는 속성을 추가하고 , false를 반환하게 한다.<br>
 &emsp;⓶  특이 케이스 객체를 만든다. 이 객체는 특이 케이스인지를 검사하는 속성만 포함하며, 이 속성은 true를 반환하게 한다.<br>
 &emsp;⓷ 클라이언트에서 특이 케이스인지를 검사하는 코드를 함수로 추출한다.
@@ -157,9 +157,15 @@ class UnknownCustomer {
 &emsp;⓸ 코드에 새로운 특이 케이스 대상을 추가한다. 함수의 반환 값으로 받거나 변환 함수를 적용하면 된다.<br>
 &emsp;⓹ 특이 케이스를 검사하는 함수 본문을 수정하여 특이 케이스 객체의 속성을 사용하도록 한다.<br>
 &emsp;⓺ 테스트한다.
+&emsp;⓻ 여러 함수를 클래스로 묶기나 여러 함수를 변환 함수로 묶기를 적용하여 특이 케이스를 처리하는 공통 동작을 새로운 요소로 옮긴다.<br>
 
+ &emsp; 아직도 특이 케이스 검사 함수를 이용하는 곳이 남아 있다면 검사 함수를 인라인한다.⓼<br>
+
+ ⓽<br>
+
+ ⓾<br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTY5OTM4NTksLTE0ODU3NjkyMTAsMT
-A0ODg4MjYxNiw5MjQzNTYyMzAsMTgxMzMxNTU3NSw3ODI3Nzg3
-NzFdfQ==
+eyJoaXN0b3J5IjpbMjA4NDQzNTY4OCwtMTQ4NTc2OTIxMCwxMD
+Q4ODgyNjE2LDkyNDM1NjIzMCwxODEzMzE1NTc1LDc4Mjc3ODc3
+MV19
 -->
