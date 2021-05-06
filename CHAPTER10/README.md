@@ -183,8 +183,15 @@ if (customer == "미확인 고객") customerName = "거주자"
 else customerName = customer.name
 ```
 
+```kotlin
+// 클라이언트 2...
+val plan = (customer == "미확인 고객") ? 
+   registry.billingPlans.basic
+    : customer.billingPlan
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ1NTczMzIyLDE3NDEwOTkzODYsNDg1NT
+eyJoaXN0b3J5IjpbOTI0MDY1NDk4LDE3NDEwOTkzODYsNDg1NT
 g5MjA2LC0xOTIzMDY0NTUxLC0xNDg1NzY5MjEwLDEwNDg4ODI2
 MTYsOTI0MzU2MjMwLDE4MTMzMTU1NzUsNzgyNzc4NzcxXX0=
 -->
