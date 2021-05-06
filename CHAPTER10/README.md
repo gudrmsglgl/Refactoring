@@ -174,9 +174,15 @@ class Customer {
 }
 ```
 
+```kotlin
+// 클라이언트 1...
+val customer = site.customer
+// ... 수많은 코드 ...
+val cu
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTU5MTc3MzgsMTc0MTA5OTM4Niw0OD
+eyJoaXN0b3J5IjpbLTE5MDEzOTI1NTQsMTc0MTA5OTM4Niw0OD
 U1ODkyMDYsLTE5MjMwNjQ1NTEsLTE0ODU3NjkyMTAsMTA0ODg4
 MjYxNiw5MjQzNTYyMzAsMTgxMzMxNTU3NSw3ODI3Nzg3NzFdfQ
 ==
