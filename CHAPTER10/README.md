@@ -148,7 +148,11 @@ class UnknownCustomer {
 	
 	- [x] 널은 특이 케이스로 처리해야할 때가 많음
 
+### 📍 절차
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODU3NjkyMTAsMTA0ODg4MjYxNiw5Mj
-QzNTYyMzAsMTgxMzMxNTU3NSw3ODI3Nzg3NzFdfQ==
+eyJoaXN0b3J5IjpbLTkwNTkyMTU1OSwtMTQ4NTc2OTIxMCwxMD
+Q4ODgyNjE2LDkyNDM1NjIzMCwxODEzMzE1NTc1LDc4Mjc3ODc3
+MV19
 -->
