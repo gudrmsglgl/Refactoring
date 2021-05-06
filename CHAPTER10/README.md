@@ -202,10 +202,11 @@ val weeksDelinquent = (customer == "미확인 고객") ? 0 :
 ```
 
 - 미확인 고객을 처리해야 하는 클라리언트가 여러 개 발견 
-- 고객 이름으로는 "거주자", 기본 요금제billingplan를 
+- 고객 이름으로는 "거주자", 기본 요금제(billingPlan)를 청구하고, 연체(delinquent) 기간은 0주로 분류 
+- 많은 곳에서 이뤄지는 이 특이 케이스 검사와 공통된 반응이 우리에게 특이 케이스 객체를 도립할 때임을 말해준다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODEwNzUxMzAsLTE5MjMzODg1MywxNz
-QxMDk5Mzg2LDQ4NTU4OTIwNiwtMTkyMzA2NDU1MSwtMTQ4NTc2
-OTIxMCwxMDQ4ODgyNjE2LDkyNDM1NjIzMCwxODEzMzE1NTc1LD
-c4Mjc3ODc3MV19
+eyJoaXN0b3J5IjpbMTMzOTYzNjQ1NSwtMTkyMzM4ODUzLDE3ND
+EwOTkzODYsNDg1NTg5MjA2LC0xOTIzMDY0NTUxLC0xNDg1NzY5
+MjEwLDEwNDg4ODI2MTYsOTI0MzU2MjMwLDE4MTMzMTU1NzUsNz
+gyNzc4NzcxXX0=
 -->
