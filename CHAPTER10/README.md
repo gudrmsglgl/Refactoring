@@ -206,14 +206,14 @@ val weeksDelinquent = (customer == "미확인 고객") ? 0 :
 - 많은 곳에서 이뤄지는 이 특이 케이스 검사와 공통된 반응이 우리에게 특이 케이스 객체를 도립할 때임을 말해준다.
 
 
-&emsp;⓵ 먼저 미확인 고객인지를 나타내는 메서드를 고객 클래스에 추가<br>
+&emsp; **⓵ 먼저 미확인 고객인지를 나타내는 메서드를 고객 클래스에 추가<br>**
 ```kotlin
 class Customer {
   fun isUnknown() {return false}
 }
 ```
 
-&emsp;⓶ 그런 다음 미확인 고객 전용 클래스를 만든다.
+&emsp; **⓶ 그런 다음 미확인 고객 전용 클래스를 만든다.**
 ```kotlin
 class UnknownCustomer {
   fun isUnknown() {return true}
@@ -222,7 +222,7 @@ class UnknownCustomer {
 &emsp;⓶ 그런 다음 미확인 고객 전용 클래스를 만든다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NTE4MjkzMCwtMTkyMzM4ODUzLDE3ND
+eyJoaXN0b3J5IjpbMTI4NjgzNjM2NiwtMTkyMzM4ODUzLDE3ND
 EwOTkzODYsNDg1NTg5MjA2LC0xOTIzMDY0NTUxLC0xNDg1NzY5
 MjEwLDEwNDg4ODI2MTYsOTI0MzU2MjMwLDE4MTMzMTU1NzUsNz
 gyNzc4NzcxXX0=
