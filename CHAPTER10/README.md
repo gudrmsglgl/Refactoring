@@ -178,12 +178,13 @@ class Customer {
 // 클라이언트 1...
 val customer = site.customer
 // ... 수많은 코드 ...
-val cu
+var customerName = ""
+if (customer == "미확인 고객") customerName = "거주자"
+else customerName = customer.name
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDEzOTI1NTQsMTc0MTA5OTM4Niw0OD
-U1ODkyMDYsLTE5MjMwNjQ1NTEsLTE0ODU3NjkyMTAsMTA0ODg4
-MjYxNiw5MjQzNTYyMzAsMTgxMzMxNTU3NSw3ODI3Nzg3NzFdfQ
-==
+eyJoaXN0b3J5IjpbNzQ1NTczMzIyLDE3NDEwOTkzODYsNDg1NT
+g5MjA2LC0xOTIzMDY0NTUxLC0xNDg1NzY5MjEwLDEwNDg4ODI2
+MTYsOTI0MzU2MjMwLDE4MTMzMTU1NzUsNzgyNzc4NzcxXX0=
 -->
