@@ -158,8 +158,12 @@ class UnknownCustomer {
 &emsp;⓺ 테스트한다.
 &emsp;⓻ 여러 함수를 클래스로 묶기나 여러 함수를 변환 함수로 묶기를 적용하여 특이 케이스를 처리하는 공통 동작을 새로운 요소로 옮긴다.<br>
 &emsp;⓼ 아직도 특이 케이스 검사 함수를 이용하는 곳이 남아 있다면 검사 함수를 인라인한다.<br>
+
+### Ex. 현장 site 에 인프라를 설치해 서비스 제공
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjMwNjQ1NTEsLTE0ODU3NjkyMTAsMT
-A0ODg4MjYxNiw5MjQzNTYyMzAsMTgxMzMxNTU3NSw3ODI3Nzg3
-NzFdfQ==
+eyJoaXN0b3J5IjpbNDg1NTg5MjA2LC0xOTIzMDY0NTUxLC0xND
+g1NzY5MjEwLDEwNDg4ODI2MTYsOTI0MzU2MjMwLDE4MTMzMTU1
+NzUsNzgyNzc4NzcxXX0=
 -->
