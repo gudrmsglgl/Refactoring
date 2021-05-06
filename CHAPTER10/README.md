@@ -150,9 +150,11 @@ class UnknownCustomer {
 
 ### 📍 절차
 
-
+1. 컨테이너에 특이 케이스인지를 검사하는 속성을 추가하고 , false를 반환하게 한다.
+2. 특이 케이스 객체를 만든다. 이 객체는 특이 케이스인지를 검사하는 속성만 포함하며, 이 속성은 true를 반환하게 한다.
+3. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNTkyMTU1OSwtMTQ4NTc2OTIxMCwxMD
-Q4ODgyNjE2LDkyNDM1NjIzMCwxODEzMzE1NTc1LDc4Mjc3ODc3
-MV19
+eyJoaXN0b3J5IjpbLTYzOTUzMDk1LC0xNDg1NzY5MjEwLDEwND
+g4ODI2MTYsOTI0MzU2MjMwLDE4MTMzMTU1NzUsNzgyNzc4Nzcx
+XX0=
 -->
