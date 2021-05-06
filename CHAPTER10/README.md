@@ -200,8 +200,10 @@ if (customer != "미확인 고객") customer.billingPlan = newPlan
 val weeksDelinquent = (customer == "미확인 고객") ? 0 : 
 	customer.paymentHistory.weeksDeliquentInLastYear
 ```
+
+### 🔥 미확인 고객을 처리해야 하는 클라리언트가 여러 개 발견 -> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ5MzkwODIxLDE3NDEwOTkzODYsNDg1NT
-g5MjA2LC0xOTIzMDY0NTUxLC0xNDg1NzY5MjEwLDEwNDg4ODI2
-MTYsOTI0MzU2MjMwLDE4MTMzMTU1NzUsNzgyNzc4NzcxXX0=
+eyJoaXN0b3J5IjpbLTE5MjMzODg1MywxNzQxMDk5Mzg2LDQ4NT
+U4OTIwNiwtMTkyMzA2NDU1MSwtMTQ4NTc2OTIxMCwxMDQ4ODgy
+NjE2LDkyNDM1NjIzMCwxODEzMzE1NTc1LDc4Mjc3ODc3MV19
 -->
