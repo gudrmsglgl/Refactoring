@@ -155,7 +155,7 @@ class UnknownCustomer {
     모든 클라이언트가 값을 직접 비교하는 대신 방금 추출한 함수를 사용하도록 고친다.<br>
 &emsp;⓸ 코드에 새로운 특이 케이스 대상을 추가한다. 함수의 반환 값으로 받거나 변환 함수를 적용하면 된다.<br>
 &emsp;⓹ 특이 케이스를 검사하는 함수 본문을 수정하여 특이 케이스 객체의 속성을 사용하도록 한다.<br>
-&emsp;⓺ 테스트한다.
+&emsp;⓺ 테스트한다.<br>
 &emsp;⓻ 여러 함수를 클래스로 묶기나 여러 함수를 변환 함수로 묶기를 적용하여 특이 케이스를 처리하는 공통 동작을 새로운 요소로 옮긴다.<br>
 &emsp;⓼ 아직도 특이 케이스 검사 함수를 이용하는 곳이 남아 있다면 검사 함수를 인라인한다.<br>
 
@@ -203,7 +203,7 @@ val weeksDelinquent = (customer == "미확인 고객") ? 0 :
 
 - 미확인 고객을 처리해야 하는 클라리언트가 여러 개 발견 
 - 고객 이름으로는 "거주자", 기본 요금제(billingPlan)를 청구하고, 연체(delinquent) 기간은 0주로 분류 
-- 많은 곳에서 이뤄지는 이 특이 케이스 검사와 공통된 반응이 우리에게 특이 케이스 객체를 도립할 때임을 말해준다.
+- **⚡많은 곳에서 이뤄지는 이 특이 케이스 검사와 공통된 반응이⚡** 우리에게 특이 케이스 객체를 도립할 때임을 말해준다.
 
 
 &emsp; **⓵ 먼저 미확인 고객인지를 나타내는 메서드를 고객 클래스에 추가<br>**
@@ -222,8 +222,8 @@ class UnknownCustomer {
 &emsp;⓶ 그런 다음 미확인 고객 전용 클래스를 만든다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NjgzNjM2NiwtMTkyMzM4ODUzLDE3ND
-EwOTkzODYsNDg1NTg5MjA2LC0xOTIzMDY0NTUxLC0xNDg1NzY5
-MjEwLDEwNDg4ODI2MTYsOTI0MzU2MjMwLDE4MTMzMTU1NzUsNz
-gyNzc4NzcxXX0=
+eyJoaXN0b3J5IjpbNzU4NTczMzQ2LDEyODY4MzYzNjYsLTE5Mj
+MzODg1MywxNzQxMDk5Mzg2LDQ4NTU4OTIwNiwtMTkyMzA2NDU1
+MSwtMTQ4NTc2OTIxMCwxMDQ4ODgyNjE2LDkyNDM1NjIzMCwxOD
+EzMzE1NTc1LDc4Mjc3ODc3MV19
 -->
