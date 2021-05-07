@@ -226,10 +226,48 @@ class UnknownCustomer {
 
 &emsp; **⓷ "미확인 고객" 기대하는 곳 -> UnknownCustomer 를 반환, "미확인 고객" 인지를 검사하는 곳 모두에서 새로운 isUnknown() 메서드를 사용하도록 고쳐**
 
+
+```kotlin
+// weather.service
+
+const weatherData: Weather = this.http.get<Weather>(url);
+
+if (weatherData != null) {
+
+// show some weather data
+
+} else {
+
+weather.title = 'unknown';
+
+weather.state = 'At the moment there is no weather data';
+
+weather.temperature = 0;
+
+}
+
+// weather.component
+
+const weatherData: Weather = this.weatherService.weatherData;
+
+if (weatherData != null) {
+
+// show some weather data
+
+} else {
+
+weather.title = 'N/A';
+
+weather.state = 'No weather data available';
+
+weather.temperature = 0;
+
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzgyMjkwMjIsLTg5OTE4MTI5NSwyMz
-Q5NTgwNDMsMjAyMDE1NDY1MCwxMjg2ODM2MzY2LC0xOTIzMzg4
-NTMsMTc0MTA5OTM4Niw0ODU1ODkyMDYsLTE5MjMwNjQ1NTEsLT
-E0ODU3NjkyMTAsMTA0ODg4MjYxNiw5MjQzNTYyMzAsMTgxMzMx
-NTU3NSw3ODI3Nzg3NzFdfQ==
+eyJoaXN0b3J5IjpbLTQ3NTQ5OTAwMywtMTc3ODIyOTAyMiwtOD
+k5MTgxMjk1LDIzNDk1ODA0MywyMDIwMTU0NjUwLDEyODY4MzYz
+NjYsLTE5MjMzODg1MywxNzQxMDk5Mzg2LDQ4NTU4OTIwNiwtMT
+kyMzA2NDU1MSwtMTQ4NTc2OTIxMCwxMDQ4ODgyNjE2LDkyNDM1
+NjIzMCwxODEzMzE1NTc1LDc4Mjc3ODc3MV19
 -->
