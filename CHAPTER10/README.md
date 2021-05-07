@@ -219,11 +219,12 @@ class UnknownCustomer {
   fun isUnknown() {return true}
 }
 ```
-&emsp;⓶ 그런 다음 미확인 고객 전용 클래스를 만든다.
+
+&emsp; **⓷ "미확인 고객" 기대하는 곳 -> UnknownCustomer 를 반환**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU4NTczMzQ2LDEyODY4MzYzNjYsLTE5Mj
-MzODg1MywxNzQxMDk5Mzg2LDQ4NTU4OTIwNiwtMTkyMzA2NDU1
-MSwtMTQ4NTc2OTIxMCwxMDQ4ODgyNjE2LDkyNDM1NjIzMCwxOD
-EzMzE1NTc1LDc4Mjc3ODc3MV19
+eyJoaXN0b3J5IjpbLTI4NjU5NzUwNiwxMjg2ODM2MzY2LC0xOT
+IzMzg4NTMsMTc0MTA5OTM4Niw0ODU1ODkyMDYsLTE5MjMwNjQ1
+NTEsLTE0ODU3NjkyMTAsMTA0ODg4MjYxNiw5MjQzNTYyMzAsMT
+gxMzMxNTU3NSw3ODI3Nzg3NzFdfQ==
 -->
