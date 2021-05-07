@@ -136,7 +136,9 @@ class UnknownCustomer {
 
 ### 🔍 특이 케이스 
 - 특수한 경우의 **⚡ 공통 동작을 요소 하나에 모아서 사용하는 특이 케이스 패턴**
-	> if else 구문으로 특이 사항을 공ㅌ
+	> if else 구문으로 특이 사항을 공통적으로 처리할 것이 많다면
+	특이 케이스로 정상케이스 클래스와 특이 케이스 클래스를 나눠
+	
 - 특이 케이스를 확인하는 코드 -> 단순한 함수 호출
 - 표현 방법
 	- [x] 특이 케이스 객체에서 단순히 데이터를 읽기 
@@ -224,9 +226,9 @@ class UnknownCustomer {
 &emsp; **⓷ "미확인 고객" 기대하는 곳 -> UnknownCustomer 를 반환, "미확인 고객" 인지를 검사하는 곳 모두에서 새로운 isUnknown() 메서드를 사용하도록 고쳐**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM5MTcyNDU0LDIzNDk1ODA0MywyMDIwMT
-U0NjUwLDEyODY4MzYzNjYsLTE5MjMzODg1MywxNzQxMDk5Mzg2
-LDQ4NTU4OTIwNiwtMTkyMzA2NDU1MSwtMTQ4NTc2OTIxMCwxMD
-Q4ODgyNjE2LDkyNDM1NjIzMCwxODEzMzE1NTc1LDc4Mjc3ODc3
-MV19
+eyJoaXN0b3J5IjpbLTg5OTE4MTI5NSwyMzQ5NTgwNDMsMjAyMD
+E1NDY1MCwxMjg2ODM2MzY2LC0xOTIzMzg4NTMsMTc0MTA5OTM4
+Niw0ODU1ODkyMDYsLTE5MjMwNjQ1NTEsLTE0ODU3NjkyMTAsMT
+A0ODg4MjYxNiw5MjQzNTYyMzAsMTgxMzMxNTU3NSw3ODI3Nzg3
+NzFdfQ==
 -->
