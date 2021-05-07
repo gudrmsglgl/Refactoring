@@ -220,10 +220,10 @@ class UnknownCustomer {
 }
 ```
 
-&emsp; **⓷ "미확인 고객" 기대하는 곳 -> UnknownCustomer 를 반환**
+&emsp; **⓷ "미확인 고객" 기대하는 곳 -> UnknownCustomer 를 반환, "미확인 고객" 인지를 검사하는 곳 모두에서 새로운 isUnknown() 메서드를 사용하도록 고쳐**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NjU5NzUwNiwxMjg2ODM2MzY2LC0xOT
+eyJoaXN0b3J5IjpbMjAyMDE1NDY1MCwxMjg2ODM2MzY2LC0xOT
 IzMzg4NTMsMTc0MTA5OTM4Niw0ODU1ODkyMDYsLTE5MjMwNjQ1
 NTEsLTE0ODU3NjkyMTAsMTA0ODg4MjYxNiw5MjQzNTYyMzAsMT
 gxMzMxNTU3NSw3ODI3Nzg3NzFdfQ==
