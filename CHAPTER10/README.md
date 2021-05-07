@@ -135,7 +135,7 @@ class UnknownCustomer {
 ```
 
 ### 🔍 특이 케이스 
-- 특수한 경우의 공통 동작을 요소 하나에 모아서 사용하는 특이 케이스 패턴
+- 특수한 경우의 **⚡ 공통 동작을 요소 하나에 모아서 사용하는 특이 케이스 패턴**
 - 특이 케이스를 확인하는 코드 -> 단순한 함수 호출
 - 표현 방법
 	- [x] 특이 케이스 객체에서 단순히 데이터를 읽기 
@@ -223,8 +223,8 @@ class UnknownCustomer {
 &emsp; **⓷ "미확인 고객" 기대하는 곳 -> UnknownCustomer 를 반환, "미확인 고객" 인지를 검사하는 곳 모두에서 새로운 isUnknown() 메서드를 사용하도록 고쳐**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMDE1NDY1MCwxMjg2ODM2MzY2LC0xOT
-IzMzg4NTMsMTc0MTA5OTM4Niw0ODU1ODkyMDYsLTE5MjMwNjQ1
-NTEsLTE0ODU3NjkyMTAsMTA0ODg4MjYxNiw5MjQzNTYyMzAsMT
-gxMzMxNTU3NSw3ODI3Nzg3NzFdfQ==
+eyJoaXN0b3J5IjpbMjM0OTU4MDQzLDIwMjAxNTQ2NTAsMTI4Nj
+gzNjM2NiwtMTkyMzM4ODUzLDE3NDEwOTkzODYsNDg1NTg5MjA2
+LC0xOTIzMDY0NTUxLC0xNDg1NzY5MjEwLDEwNDg4ODI2MTYsOT
+I0MzU2MjMwLDE4MTMzMTU1NzUsNzgyNzc4NzcxXX0=
 -->
