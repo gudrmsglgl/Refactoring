@@ -226,7 +226,8 @@ class UnknownCustomer {
 
 &emsp; **⓷ "미확인 고객" 기대하는 곳 -> UnknownCustomer 를 반환, "미확인 고객" 인지를 검사하는 곳 모두에서 새로운 isUnknown() 메서드를 사용하도록 고쳐**
 
-### Ex. Weather 
+### Ex. Weather
+- ref: https://betterprogramming.pub/how-to-refactor-a-null-checking-condition-with-object-composition-in-typescript-6dd270e0096
 
 ```typescript
 // weather.service
@@ -349,8 +350,29 @@ return this._temperature;
 
 }
 ```
+
+```typescript
+// weather.service
+
+public get weatherData(): Weather {
+
+const weatherData: Weather = this.http.get<Weather>(url);
+
+if (weatherData != null) {
+
+return weatherData;
+
+} else {
+
+return new NullWeatherData();
+
+}
+
+}
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDY5MTQxNzksLTE3NzgyMjkwMjIsLT
+eyJoaXN0b3J5IjpbLTE1MzU3MjYxMzIsLTE3NzgyMjkwMjIsLT
 g5OTE4MTI5NSwyMzQ5NTgwNDMsMjAyMDE1NDY1MCwxMjg2ODM2
 MzY2LC0xOTIzMzg4NTMsMTc0MTA5OTM4Niw0ODU1ODkyMDYsLT
 E5MjMwNjQ1NTEsLTE0ODU3NjkyMTAsMTA0ODg4MjYxNiw5MjQz
