@@ -228,7 +228,7 @@ class UnknownCustomer {
 
 ### Ex. Weather 
 
-```typescrip
+```typescript
 // weather.service
 
 const weatherData: Weather = this.http.get<Weather>(url);
@@ -266,7 +266,7 @@ weather.temperature = 0;
 }
 ```
 
-```kotlin
+```typescript
 // interface
 
 export interface Weather {
@@ -350,9 +350,9 @@ return this._temperature;
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY0MDU2MjkxLC0xNzc4MjI5MDIyLC04OT
-kxODEyOTUsMjM0OTU4MDQzLDIwMjAxNTQ2NTAsMTI4NjgzNjM2
-NiwtMTkyMzM4ODUzLDE3NDEwOTkzODYsNDg1NTg5MjA2LC0xOT
-IzMDY0NTUxLC0xNDg1NzY5MjEwLDEwNDg4ODI2MTYsOTI0MzU2
-MjMwLDE4MTMzMTU1NzUsNzgyNzc4NzcxXX0=
+eyJoaXN0b3J5IjpbLTE3NDY5MTQxNzksLTE3NzgyMjkwMjIsLT
+g5OTE4MTI5NSwyMzQ5NTgwNDMsMjAyMDE1NDY1MCwxMjg2ODM2
+MzY2LC0xOTIzMzg4NTMsMTc0MTA5OTM4Niw0ODU1ODkyMDYsLT
+E5MjMwNjQ1NTEsLTE0ODU3NjkyMTAsMTA0ODg4MjYxNiw5MjQz
+NTYyMzAsMTgxMzMxNTU3NSw3ODI3Nzg3NzFdfQ==
 -->
