@@ -226,8 +226,9 @@ class UnknownCustomer {
 
 &emsp; **⓷ "미확인 고객" 기대하는 곳 -> UnknownCustomer 를 반환, "미확인 고객" 인지를 검사하는 곳 모두에서 새로운 isUnknown() 메서드를 사용하도록 고쳐**
 
+### Ex. Weather 
 
-```kotlin
+```typescrip
 // weather.service
 
 const weatherData: Weather = this.http.get<Weather>(url);
@@ -264,10 +265,94 @@ weather.temperature = 0;
 
 }
 ```
+
+```kotlin
+// interface
+
+export interface Weather {
+
+title: string;
+
+state: string;
+
+temperature: number;
+
+}
+
+// concrete weather-data class
+
+export class WeatherData implements Weather {
+
+private readonly _title: string;
+
+private readonly _state: string;
+
+private readonly _temperature: number;
+
+constructor(title: string, state: string, temp: number) {
+
+this._title = title;
+
+this._state = state;
+
+this._temperature = temp;
+
+}
+
+public get title(): string {
+
+return this._title;
+
+}
+
+public get state(): string {
+
+return this._state;
+
+}
+
+public get temperature(): number {
+
+return this._temperature;
+
+}
+
+}
+
+//// concrete null-weather-data class
+
+export class NullWeatherData implements Weather {
+
+private readonly _title: string = 'Unknown';
+
+private readonly _state: string = 'No weather data available';
+
+private readonly _temperature: number = 0;
+
+public get title(): string {
+
+return this._title;
+
+}
+
+public get state(): string {
+
+return this._state;
+
+}
+
+public get temperature(): number {
+
+return this._temperature;
+
+}
+
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NTQ5OTAwMywtMTc3ODIyOTAyMiwtOD
-k5MTgxMjk1LDIzNDk1ODA0MywyMDIwMTU0NjUwLDEyODY4MzYz
-NjYsLTE5MjMzODg1MywxNzQxMDk5Mzg2LDQ4NTU4OTIwNiwtMT
-kyMzA2NDU1MSwtMTQ4NTc2OTIxMCwxMDQ4ODgyNjE2LDkyNDM1
-NjIzMCwxODEzMzE1NTc1LDc4Mjc3ODc3MV19
+eyJoaXN0b3J5IjpbOTY0MDU2MjkxLC0xNzc4MjI5MDIyLC04OT
+kxODEyOTUsMjM0OTU4MDQzLDIwMjAxNTQ2NTAsMTI4NjgzNjM2
+NiwtMTkyMzM4ODUzLDE3NDEwOTkzODYsNDg1NTg5MjA2LC0xOT
+IzMDY0NTUxLC0xNDg1NzY5MjEwLDEwNDg4ODI2MTYsOTI0MzU2
+MjMwLDE4MTMzMTU1NzUsNzgyNzc4NzcxXX0=
 -->
