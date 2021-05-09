@@ -387,14 +387,17 @@ for (val p in people) {
    }
 }
 ```
-**🔻 제어 플래그를 탈*
+**🔻 제어 플래그를 탈출문으로 바꾸기**
 ```kotlin
-class UnknownCustomer {
-   fun name() = "거주자" 
+for (val p in people) {
+  if (p == "조커") {
+     sendAlert()
+     break
+  } 
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMjI4OTA3NywtMTUzNTcyNjEzMiwtMT
+eyJoaXN0b3J5IjpbMTE1NjI3MTYwOCwtMTUzNTcyNjEzMiwtMT
 c3ODIyOTAyMiwtODk5MTgxMjk1LDIzNDk1ODA0MywyMDIwMTU0
 NjUwLDEyODY4MzYzNjYsLTE5MjMzODg1MywxNzQxMDk5Mzg2LD
 Q4NTU4OTIwNiwtMTkyMzA2NDU1MSwtMTQ4NTc2OTIxMCwxMDQ4
