@@ -375,19 +375,26 @@ return new NullWeatherData();
 <br>
 <div id='id-section7'/>
 
-## 10.5 특이 케이스 추가하기 Introduce Special Case
+## 10.7 제어 플래그를 탈출문으로 바꾸기 Replace Control Flag with Break
 
 ```kotlin
-if (customer == "미확인 고객") customerName = "거주자"
+for (val p in people) {
+   if (!found) {
+      if (p == "조커") {
+         sendAlert()
+         found = true
+      }
+   }
+}
 ```
-**🔻  특이 케이스 추가**
+**🔻 제어 플래그를 탈*
 ```kotlin
 class UnknownCustomer {
    fun name() = "거주자" 
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNjUwMjMzNywtMTUzNTcyNjEzMiwtMT
+eyJoaXN0b3J5IjpbMTEzMjI4OTA3NywtMTUzNTcyNjEzMiwtMT
 c3ODIyOTAyMiwtODk5MTgxMjk1LDIzNDk1ODA0MywyMDIwMTU0
 NjUwLDEyODY4MzYzNjYsLTE5MjMzODg1MywxNzQxMDk5Mzg2LD
 Q4NTU4OTIwNiwtMTkyMzA2NDU1MSwtMTQ4NTc2OTIxMCwxMDQ4
