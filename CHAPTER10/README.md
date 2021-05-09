@@ -4,6 +4,7 @@
 [조건식 통합하기](#id-section2)<br>
 [중첩 조건문을 보호 구문으로 바꾸기](#id-section3)<br>
 [특이 케이스 추가하기](#id-section5)<br>
+[제어 플래그를 탈출문으로 바꾸기(#id-section7)<br>
 
 
 조건문의 단점
@@ -371,10 +372,25 @@ return new NullWeatherData();
 }
 ```
 
+<br>
+<div id='id-section7'/>
+
+## 10.5 특이 케이스 추가하기 Introduce Special Case
+
+```kotlin
+if (customer == "미확인 고객") customerName = "거주자"
+```
+**🔻  특이 케이스 추가**
+```kotlin
+class UnknownCustomer {
+   fun name() = "거주자" 
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzU3MjYxMzIsLTE3NzgyMjkwMjIsLT
-g5OTE4MTI5NSwyMzQ5NTgwNDMsMjAyMDE1NDY1MCwxMjg2ODM2
-MzY2LC0xOTIzMzg4NTMsMTc0MTA5OTM4Niw0ODU1ODkyMDYsLT
-E5MjMwNjQ1NTEsLTE0ODU3NjkyMTAsMTA0ODg4MjYxNiw5MjQz
-NTYyMzAsMTgxMzMxNTU3NSw3ODI3Nzg3NzFdfQ==
+eyJoaXN0b3J5IjpbLTYzNjUwMjMzNywtMTUzNTcyNjEzMiwtMT
+c3ODIyOTAyMiwtODk5MTgxMjk1LDIzNDk1ODA0MywyMDIwMTU0
+NjUwLDEyODY4MzYzNjYsLTE5MjMzODg1MywxNzQxMDk5Mzg2LD
+Q4NTU4OTIwNiwtMTkyMzA2NDU1MSwtMTQ4NTc2OTIxMCwxMDQ4
+ODgyNjE2LDkyNDM1NjIzMCwxODEzMzE1NTc1LDc4Mjc3ODc3MV
+19
 -->
