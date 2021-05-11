@@ -399,11 +399,16 @@ for (val p in people) {
 
 - 제어 플래그: 코드의 동작을 변경하는 데 사용되는 변수
 - 제어 플래그 -> 악취
+
+### 방법
+**&emsp;⓵ 제어 플래그를 사용하는 코드를 함수로 추출할지 고려**
+**&emsp;⓶  특이 케이스 객체를 만든다. 이 객체는 특이 케이스인지를 검사하는 속성만 포함하며, 이 속성은 true를 반환하게 한다.<br>**
+&emsp;⓷
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5Mzk4MjM1MiwxMTU2MjcxNjA4LC0xNT
-M1NzI2MTMyLC0xNzc4MjI5MDIyLC04OTkxODEyOTUsMjM0OTU4
-MDQzLDIwMjAxNTQ2NTAsMTI4NjgzNjM2NiwtMTkyMzM4ODUzLD
-E3NDEwOTkzODYsNDg1NTg5MjA2LC0xOTIzMDY0NTUxLC0xNDg1
-NzY5MjEwLDEwNDg4ODI2MTYsOTI0MzU2MjMwLDE4MTMzMTU1Nz
-UsNzgyNzc4NzcxXX0=
+eyJoaXN0b3J5IjpbLTE4NjM1OTY2NzIsLTc5Mzk4MjM1MiwxMT
+U2MjcxNjA4LC0xNTM1NzI2MTMyLC0xNzc4MjI5MDIyLC04OTkx
+ODEyOTUsMjM0OTU4MDQzLDIwMjAxNTQ2NTAsMTI4NjgzNjM2Ni
+wtMTkyMzM4ODUzLDE3NDEwOTkzODYsNDg1NTg5MjA2LC0xOTIz
+MDY0NTUxLC0xNDg1NzY5MjEwLDEwNDg4ODI2MTYsOTI0MzU2Mj
+MwLDE4MTMzMTU1NzUsNzgyNzc4NzcxXX0=
 -->
