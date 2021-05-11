@@ -402,14 +402,17 @@ for (val p in people) {
 
 ### 방법
 **&emsp;⓵ 제어 플래그를 사용하는 코드를 함수로 추출할지 고려**<br>
-**&emsp;⓶  제어 플래그를 갱신하는 코드 각각을 적절한 제어문으로 바꾼다. 하나 바꿀 때마다 테스트
-> 제어문으로는 주로 return, break, continue <br>**
-&emsp;⓷ 모두 수정했다면 제어 플래그를 제거한다. 
+**&emsp;⓶  제어 플래그를 갱신하는 코드 각각을 적절한 제어문으로 바꾼다. 하나 바꿀 때마다 테스트**
+>  ->  제어문으로는 주로 return, break, continue  
+
+
+**&emsp;⓷ 모두 수정했다면 제어 플래그를 제거한다.**
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc4OTM0MzE5LC03OTM5ODIzNTIsMTE1Nj
-I3MTYwOCwtMTUzNTcyNjEzMiwtMTc3ODIyOTAyMiwtODk5MTgx
-Mjk1LDIzNDk1ODA0MywyMDIwMTU0NjUwLDEyODY4MzYzNjYsLT
-E5MjMzODg1MywxNzQxMDk5Mzg2LDQ4NTU4OTIwNiwtMTkyMzA2
-NDU1MSwtMTQ4NTc2OTIxMCwxMDQ4ODgyNjE2LDkyNDM1NjIzMC
-wxODEzMzE1NTc1LDc4Mjc3ODc3MV19
+eyJoaXN0b3J5IjpbLTE2ODYzOTA0NTAsLTc5Mzk4MjM1MiwxMT
+U2MjcxNjA4LC0xNTM1NzI2MTMyLC0xNzc4MjI5MDIyLC04OTkx
+ODEyOTUsMjM0OTU4MDQzLDIwMjAxNTQ2NTAsMTI4NjgzNjM2Ni
+wtMTkyMzM4ODUzLDE3NDEwOTkzODYsNDg1NTg5MjA2LC0xOTIz
+MDY0NTUxLC0xNDg1NzY5MjEwLDEwNDg4ODI2MTYsOTI0MzU2Mj
+MwLDE4MTMzMTU1NzUsNzgyNzc4NzcxXX0=
 -->
