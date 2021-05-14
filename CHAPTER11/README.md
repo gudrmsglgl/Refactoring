@@ -5,8 +5,8 @@
 		> 이해하기 쉽고 사용하기 쉽게 만드는 일은 중요한 동시에 어려움
 
 - ### 좋은 API
-	- 
-	- 
+	- 데이터를 **-갱신 함수-**,  **-조회 함수-** 를 명확히 구분
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUyODc1NTEyXX0=
+eyJoaXN0b3J5IjpbLTM2NTI1NjEwOF19
 -->
