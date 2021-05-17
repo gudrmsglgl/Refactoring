@@ -6,7 +6,7 @@
 
 - ### 좋은 API
 	- 데이터를 **갱신 함수**,  **조회 함수**를 명확히 구분
-		> 섞여 있다면 질의 함수와 변경 함수 분리하기 
+		> 섞여 있다면 👉🏻 질의 함수와 변경 함수 분리하기 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MTU1NzA3NSwtMzY1MjU2MTA4XX0=
+eyJoaXN0b3J5IjpbMTYxMTQxNDk1MCwtMzY1MjU2MTA4XX0=
 -->
