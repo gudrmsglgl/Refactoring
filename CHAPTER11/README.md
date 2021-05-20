@@ -18,7 +18,11 @@
 	- 복잡한 함수 쪼개기
        > - 👉🏻 함수를 명령으로 바꾸기 : 함수를 객체로 변환 가능 -> 함수 추출 수월
        > - 명령 객체가 더는 필요 없어진다면 👉🏻 명령을 함수로 바꾸기
+       > - 데이터가 수정됐음을 확실히 알릴 때 👉🏻 수정된 값 반환하기
+       > - 오류 코드에 의존하는 과거 방식 코드 👉🏻 오류 코드를 예외로 바꾸기 
+       > - 문제가 되
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTg0MDY2ODYsMjEzNzAzMDI1NSwtMj
-E0MTM2ODY3NywxNjExNDE0OTUwLC0zNjUyNTYxMDhdfQ==
+eyJoaXN0b3J5IjpbMTIyMzA3MDcyMCwtMTMxODQwNjY4NiwyMT
+M3MDMwMjU1LC0yMTQxMzY4Njc3LDE2MTE0MTQ5NTAsLTM2NTI1
+NjEwOF19
 -->
