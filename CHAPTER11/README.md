@@ -47,11 +47,12 @@ fun sendBill() {
 ```
 
 ### 👁️ 겉보기 부수효과가 없이 값을 반환해주는 함수 추구
-- 어느 때건 원하는 만큼 호출해도 문제가 없다
-- 함수의 위치를 안 어디로든 옮겨도 되며 테스트하기 쉽다
-- 신경 쓸 거리가 매우 적다
+- [x] 어느 때건 원하는 만큼 호출해도 문제가 없다
+- [x] 함수의 위치를 안 어디로든 옮겨도 되며 테스트하기 쉽다
+- [x] 신경 쓸 거리가 매우 적다
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NDc3MDc1MSwtMTMxODQwNjY4NiwyMT
+eyJoaXN0b3J5IjpbMjA0ODc3NTc1NywtMTMxODQwNjY4NiwyMT
 M3MDMwMjU1LC0yMTQxMzY4Njc3LDE2MTE0MTQ5NTAsLTM2NTI1
 NjEwOF19
 -->
