@@ -1,5 +1,8 @@
 # API 리팩터링
 
+[질의 함수와 변경 함수 분리하기](#id-section1)<br>
+
+
 - 소프트웨어 구성 빌딩 블록 - 모듈, 함수
 	- 🧩 **블록들을 끼워 맞추는 연결부 - API**
 		> 이해하기 쉽고 사용하기 쉽게 만드는 일은 중요한 동시에 어려움
@@ -21,8 +24,13 @@
        > - 데이터가 수정됐음을 확실히 알릴 때 👉🏻 수정된 값 반환하기
        > - 오류 코드에 의존하는 과거 방식 코드 👉🏻 오류 코드를 예외로 바꾸기 
        > - 문제가 되는 조건을 함수 호출 전에 검사할 수 있다면 👉🏻 예외를 사전 확인으로 바꾸기
+
+<br>
+<div id='id-section1'/>
+
+## 11.1 질의 함수와 변경 함수
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NDE0MTY3OCwtMTMxODQwNjY4NiwyMT
+eyJoaXN0b3J5IjpbLTU0MjEzNDUyOSwtMTMxODQwNjY4NiwyMT
 M3MDMwMjU1LC0yMTQxMzY4Njc3LDE2MTE0MTQ5NTAsLTM2NTI1
 NjEwOF19
 -->
