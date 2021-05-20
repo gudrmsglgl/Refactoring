@@ -52,11 +52,12 @@ fun sendBill() {
 - [x] 신경 쓸 거리가 매우 적다
 
 ### 🤷🏻‍♂️ 부수효과가 있는 함수와 없는 함수 명확히 구분
-- 명령---질의 분리( command---query separation)
+- **명령---질의 분리( command---query separation)**
 	>'질의 함수 (읽기 함수)는 모두 부수효과가 없어야 한다' 규칙 따르자.
-- 값을 반환하면서 부수효과도 있는 함수를 발견하면 상태를 변경하는 부분
+- 값을 반환하면서 부수효과도 있는 함수를 발견 
+	- ⚡ **상태를 변경하는 부분과 질의하는 부분을 무조건 분리**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzODk4NTEyMSwyMDQ4Nzc1NzU3LC0xMz
-E4NDA2Njg2LDIxMzcwMzAyNTUsLTIxNDEzNjg2NzcsMTYxMTQx
-NDk1MCwtMzY1MjU2MTA4XX0=
+eyJoaXN0b3J5IjpbNzY1Nzk1NzcxLDIwNDg3NzU3NTcsLTEzMT
+g0MDY2ODYsMjEzNzAzMDI1NSwtMjE0MTM2ODY3NywxNjExNDE0
+OTUwLC0zNjUyNTYxMDhdfQ==
 -->
