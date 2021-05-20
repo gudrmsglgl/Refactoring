@@ -36,15 +36,17 @@ fun getTotalOutstandingAndSendBill() {
    return result
 }
 ```
-**🔻 변수 쪼개기**
+**🔻 질의 함수와 변경 함수 분리하기**
 ```kotlin
-val perimeter = 2 * (height * width)
-print(perimeter)
-val area = height * width
-print(area)
+fun totalOutstanding() {
+   return customer.invoices.reduce( (total, each) -> each.amount + total, 0)
+}
+fun sendBill() {
+   emailGateway.send(formatBill(customer))
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc0NDM2MTAyLC0xMzE4NDA2Njg2LDIxMz
-cwMzAyNTUsLTIxNDEzNjg2NzcsMTYxMTQxNDk1MCwtMzY1MjU2
-MTA4XX0=
+eyJoaXN0b3J5IjpbLTY5NDI3MDkzOSwtMTMxODQwNjY4NiwyMT
+M3MDMwMjU1LC0yMTQxMzY4Njc3LDE2MTE0MTQ5NTAsLTM2NTI1
+NjEwOF19
 -->
