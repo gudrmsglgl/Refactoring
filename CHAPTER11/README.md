@@ -17,8 +17,8 @@
 	   > - 호출자에 새로운 객체를 만들어 반환하려 할 때 👉🏻 생성자를 팩터리 함수로 바꾸기
 	- 복잡한 함수 쪼개기
        > - 👉🏻 함수를 명령으로 바꾸기 : 함수를 객체로 변환 가능 -> 함수 추출 수월
-       > - 명령 개
+       > - 명령 객체가 더는 필요 없어진다면 👉🏻 명령을 함수로 바꾸기
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU3MDQxMTIyLDIxMzcwMzAyNTUsLTIxND
-EzNjg2NzcsMTYxMTQxNDk1MCwtMzY1MjU2MTA4XX0=
+eyJoaXN0b3J5IjpbLTEzMTg0MDY2ODYsMjEzNzAzMDI1NSwtMj
+E0MTM2ODY3NywxNjExNDE0OTUwLC0zNjUyNTYxMDhdfQ==
 -->
