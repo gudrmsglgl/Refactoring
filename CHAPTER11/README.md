@@ -15,7 +15,9 @@
    - 클래스 대표적인 모듈
 	   > - 불변 👉🏻 세터 제거하기
 	   > - 호출자에 새로운 객체를 만들어 반환하려 할 때 👉🏻 생성자를 팩터리 함수로 바꾸기
+	- 복잡한 함수 쪼개기
+       > - 함수를 명령으로 바꾸기    
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MzI5NzQwNSwyMTM3MDMwMjU1LC0yMT
+eyJoaXN0b3J5IjpbLTk5MjgwMTU4NywyMTM3MDMwMjU1LC0yMT
 QxMzY4Njc3LDE2MTE0MTQ5NTAsLTM2NTI1NjEwOF19
 -->
