@@ -56,8 +56,10 @@ fun sendBill() {
 	>'질의 함수 (읽기 함수)는 모두 부수효과가 없어야 한다' 규칙 따르자.
 - 값을 반환하면서 부수효과도 있는 함수를 발견 
 	- ⚡ **상태를 변경하는 부분과 질의하는 부분을 무조건 분리**
+
+###
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY1Nzk1NzcxLDIwNDg3NzU3NTcsLTEzMT
-g0MDY2ODYsMjEzNzAzMDI1NSwtMjE0MTM2ODY3NywxNjExNDE0
-OTUwLC0zNjUyNTYxMDhdfQ==
+eyJoaXN0b3J5IjpbLTU0NjAxMDIsNzY1Nzk1NzcxLDIwNDg3Nz
+U3NTcsLTEzMTg0MDY2ODYsMjEzNzAzMDI1NSwtMjE0MTM2ODY3
+NywxNjExNDE0OTUwLC0zNjUyNTYxMDhdfQ==
 -->
