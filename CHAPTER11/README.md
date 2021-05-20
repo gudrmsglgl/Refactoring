@@ -63,14 +63,12 @@ fun sendBill() {
 
 &emsp;⓶ 새 질의 함수에서 부수효과를 모두 제거한다.<br>
 &emsp;⓷ 정적 검사를 수행한다.<br>
-&emsp;⓸ 원래 함수(변경 함수)를 호출하는 곳을 모두 찾아낸다. 호출하는 곳에서 반환 값을 사용한다면 인천광역시 남동구 구월로 78 극동아파트 7동 1202호
-
-<br>
-&emsp;⓹ 특이 케이스를 검사하는 함수 본문을 수정하여 특이 케이스 객체의 속성을 사용하도록 한다.<br>
+&emsp;⓸ 원래 함수(변경 함수)를 호출하는 곳을 모두 찾아낸다. 호출하는 곳에서 반환 값을 사용한다면 질의 함수를 호출하도록 바꾸고, 원래 함수를 호출하는 코드를 바로 아래 줄에 새로 추가한다. 하나 수정할 때마다 테스트한다.<br>
+&emsp;⓹ 원래 함수에서 질의 관련 코드를 제거한다.<br>
 &emsp;⓺ 테스트한다.<br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzE2OTU3MDMsNTMzMTczMTgxLDc2NT
-c5NTc3MSwyMDQ4Nzc1NzU3LC0xMzE4NDA2Njg2LDIxMzcwMzAy
-NTUsLTIxNDEzNjg2NzcsMTYxMTQxNDk1MCwtMzY1MjU2MTA4XX
-0=
+eyJoaXN0b3J5IjpbMTc0NDQzNjM1Niw1MzMxNzMxODEsNzY1Nz
+k1NzcxLDIwNDg3NzU3NTcsLTEzMTg0MDY2ODYsMjEzNzAzMDI1
+NSwtMjE0MTM2ODY3NywxNjExNDE0OTUwLC0zNjUyNTYxMDhdfQ
+==
 -->
