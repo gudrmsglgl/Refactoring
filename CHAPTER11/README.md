@@ -52,13 +52,15 @@ fun sendBill() {
 - [x] 신경 쓸 거리가 매우 적다
 
 ### 🤷🏻‍♂️ 부수효과가 있는 함수와 없는 함수 명확히 구분
-- **명령---질의 분리^{command---query separation}**
+- **명령---질의 분리 (command---query separation)**
 	>'질의 함수 (읽기 함수)는 모두 부수효과가 없어야 한다' 규칙 따르자.
 - 값을 반환하면서 부수효과도 있는 함수를 발견 
 	- ⚡ **상태를 변경하는 부분과 질의하는 부분을 무조건 분리**
 
 ### 📍 절차
-&emsp;⓵ 컨테이너에 특이 케이스인지를 검사하는 속성을 추가하고 , false를 반환하게 한다.<br>
+&emsp;⓵ 대상 함수를 복제하고 질의 목적에 충실한 이름을 짓는다.<br>
+ > -> 함수에서 무엇을 반환하는지 찾는다. 변수의 이름이 훌륭한 단초가 될 수 있음
+
 &emsp;⓶  특이 케이스 객체를 만든다. 이 객체는 특이 케이스인지를 검사하는 속성만 포함하며, 이 속성은 true를 반환하게 한다.<br>
 &emsp;⓷ 클라이언트에서 특이 케이스인지를 검사하는 코드를 함수로 추출한다.
     모든 클라이언트가 값을 직접 비교하는 대신 방금 추출한 함수를 사용하도록 고친다.<br>
@@ -66,7 +68,8 @@ fun sendBill() {
 &emsp;⓹ 특이 케이스를 검사하는 함수 본문을 수정하여 특이 케이스 객체의 속성을 사용하도록 한다.<br>
 &emsp;⓺ 테스트한다.<br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMzMTczMTgxLDc2NTc5NTc3MSwyMDQ4Nz
-c1NzU3LC0xMzE4NDA2Njg2LDIxMzcwMzAyNTUsLTIxNDEzNjg2
-NzcsMTYxMTQxNDk1MCwtMzY1MjU2MTA4XX0=
+eyJoaXN0b3J5IjpbLTEwMTM3MzQ0MjksNTMzMTczMTgxLDc2NT
+c5NTc3MSwyMDQ4Nzc1NzU3LC0xMzE4NDA2Njg2LDIxMzcwMzAy
+NTUsLTIxNDEzNjg2NzcsMTYxMTQxNDk1MCwtMzY1MjU2MTA4XX
+0=
 -->
