@@ -114,6 +114,10 @@ $$
 $$
 t^{z-1} e^{-t}dt
 
+$$
+	t^{z-1} e^{-t}dt
+$$
+
 > You can find more information about **LaTeX** mathematical expressions [here](http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
 
 
@@ -143,5 +147,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg4ODQ2MjYzXX0=
+eyJoaXN0b3J5IjpbMTc1MzUzNDI0M119
 -->
