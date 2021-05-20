@@ -57,9 +57,10 @@ fun sendBill() {
 - 값을 반환하면서 부수효과도 있는 함수를 발견 
 	- ⚡ **상태를 변경하는 부분과 질의하는 부분을 무조건 분리**
 
-###
+### 📍 절차
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NjAxMDIsNzY1Nzk1NzcxLDIwNDg3Nz
-U3NTcsLTEzMTg0MDY2ODYsMjEzNzAzMDI1NSwtMjE0MTM2ODY3
-NywxNjExNDE0OTUwLC0zNjUyNTYxMDhdfQ==
+eyJoaXN0b3J5IjpbOTUzNDU4MjMyLDc2NTc5NTc3MSwyMDQ4Nz
+c1NzU3LC0xMzE4NDA2Njg2LDIxMzcwMzAyNTUsLTIxNDEzNjg2
+NzcsMTYxMTQxNDk1MCwtMzY1MjU2MTA4XX0=
 -->
