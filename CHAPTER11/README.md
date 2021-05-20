@@ -13,8 +13,9 @@
 	   > - 함수 사이를 건너 다니면서 필요 이상으로 분해될 때 👉🏻 객체 통째로 넘기기 적용 
 	   > - 매개변수를 질의 함수로 바꾸기 와 질의 함수를 매개변수로 바꾸기로 균형점 옮기기		
    - 클래스 대표적인 모듈
-	   > - 불변 -> 
+	   > - 불변 👉🏻 세터 제거하기
+	   > - 호출자에 새로운 객체를 만들어 반환하려 할 때 👉🏻 생성자를 팩터리 함수로 바꾸기
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNTI4MjQ0NywyMTM3MDMwMjU1LC0yMT
+eyJoaXN0b3J5IjpbMTI2MzI5NzQwNSwyMTM3MDMwMjU1LC0yMT
 QxMzY4Njc3LDE2MTE0MTQ5NTAsLTM2NTI1NjEwOF19
 -->
