@@ -63,12 +63,13 @@ fun sendBill() {
 
 &emsp;⓶ 새 질의 함수에서 부수효과를 모두 제거한다.<br>
 &emsp;⓷ 정적 검사를 수행한다.<br>
-&emsp;⓸ 원래 함수(변경 함수)를 호출하는 곳을 모두 찾아낸다. 호출하는 곳에서 반환 값을 사용한다면 질의 함수를 호출하도록 바꾸고, 원래 함수를 호출하는 코드를 바로 아래 줄에 새로 추가한다. 하나 수정할 때마다 테스트한다.<br>
+&emsp;⓸ 원래 함수(변경 함수)를 호출하는 곳을 모두 찾아낸다. 호출하는 곳에서 반환 값을 사용한다면 질의 함수를 호출하도록 바꾸고, 
+원래 함수를 호출하는 코드를 바로 아래 줄에 새로 추가한다. 
+하나 수정할 때마다 테스트한다.<br>
 &emsp;⓹ 원래 함수에서 질의 관련 코드를 제거한다.<br>
 &emsp;⓺ 테스트한다.<br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NDQzNjM1Niw1MzMxNzMxODEsNzY1Nz
-k1NzcxLDIwNDg3NzU3NTcsLTEzMTg0MDY2ODYsMjEzNzAzMDI1
-NSwtMjE0MTM2ODY3NywxNjExNDE0OTUwLC0zNjUyNTYxMDhdfQ
-==
+eyJoaXN0b3J5IjpbMjkxNTYyMzM2LDUzMzE3MzE4MSw3NjU3OT
+U3NzEsMjA0ODc3NTc1NywtMTMxODQwNjY4NiwyMTM3MDMwMjU1
+LC0yMTQxMzY4Njc3LDE2MTE0MTQ5NTAsLTM2NTI1NjEwOF19
 -->
