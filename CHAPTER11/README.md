@@ -28,9 +28,23 @@
 <br>
 <div id='id-section1'/>
 
-## 11.1 질의 함수와 변경 함수
+## 11.1 질의 함수와 변경 함수 분리하기 Separate Query from Modifier
+```kotlin
+fun getTotalOutstandingAndSendBill() {
+   val result = customer.invoices.reduce( (total, each) -> each.amount + total, 0)
+   sendBill()
+   return result
+}
+```
+**🔻 변수 쪼개기**
+```kotlin
+val perimeter = 2 * (height * width)
+print(perimeter)
+val area = height * width
+print(area)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MjEzNDUyOSwtMTMxODQwNjY4NiwyMT
-M3MDMwMjU1LC0yMTQxMzY4Njc3LDE2MTE0MTQ5NTAsLTM2NTI1
-NjEwOF19
+eyJoaXN0b3J5IjpbODc0NDM2MTAyLC0xMzE4NDA2Njg2LDIxMz
+cwMzAyNTUsLTIxNDEzNjg2NzcsMTYxMTQxNDk1MCwtMzY1MjU2
+MTA4XX0=
 -->
