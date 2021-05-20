@@ -7,7 +7,7 @@
 [제어 플래그를 탈출문으로 바꾸기](#id-section7)<br>
 
 
-### 조건문의 단점
+### 🙌🏻 조건문의 단점
 - 프로그램을 복잡하게 만드는 주요 원흉
 - 복잡한 조건문
 	- **조건문 분해하기**
@@ -409,11 +409,11 @@ for (val p in people) {
 **&emsp;⓷ 모두 수정했다면 제어 플래그를 제거한다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MDk1NzM0OCwxMzQ1OTkwMTgzLC0xNj
-g2MzkwNDUwLC03OTM5ODIzNTIsMTE1NjI3MTYwOCwtMTUzNTcy
-NjEzMiwtMTc3ODIyOTAyMiwtODk5MTgxMjk1LDIzNDk1ODA0My
-wyMDIwMTU0NjUwLDEyODY4MzYzNjYsLTE5MjMzODg1MywxNzQx
-MDk5Mzg2LDQ4NTU4OTIwNiwtMTkyMzA2NDU1MSwtMTQ4NTc2OT
-IxMCwxMDQ4ODgyNjE2LDkyNDM1NjIzMCwxODEzMzE1NTc1LDc4
-Mjc3ODc3MV19
+eyJoaXN0b3J5IjpbLTE3MjY1NTI2MTgsMTM0NTk5MDE4MywtMT
+Y4NjM5MDQ1MCwtNzkzOTgyMzUyLDExNTYyNzE2MDgsLTE1MzU3
+MjYxMzIsLTE3NzgyMjkwMjIsLTg5OTE4MTI5NSwyMzQ5NTgwND
+MsMjAyMDE1NDY1MCwxMjg2ODM2MzY2LC0xOTIzMzg4NTMsMTc0
+MTA5OTM4Niw0ODU1ODkyMDYsLTE5MjMwNjQ1NTEsLTE0ODU3Nj
+kyMTAsMTA0ODg4MjYxNiw5MjQzNTYyMzAsMTgxMzMxNTU3NSw3
+ODI3Nzg3NzFdfQ==
 -->
