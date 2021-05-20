@@ -51,8 +51,11 @@ fun sendBill() {
 - [x] 함수의 위치를 안 어디로든 옮겨도 되며 테스트하기 쉽다
 - [x] 신경 쓸 거리가 매우 적다
 
+### 👁️ 부수효과가 있는 함수와 없는 함수 명확히 구분
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0ODc3NTc1NywtMTMxODQwNjY4NiwyMT
-M3MDMwMjU1LC0yMTQxMzY4Njc3LDE2MTE0MTQ5NTAsLTM2NTI1
-NjEwOF19
+eyJoaXN0b3J5IjpbLTYzOTQzODUxMSwyMDQ4Nzc1NzU3LC0xMz
+E4NDA2Njg2LDIxMzcwMzAyNTUsLTIxNDEzNjg2NzcsMTYxMTQx
+NDk1MCwtMzY1MjU2MTA4XX0=
 -->
