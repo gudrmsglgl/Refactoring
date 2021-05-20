@@ -10,9 +10,10 @@
 		> - 값 하나로 여러개로 나뉜 함수들 👉🏻 함수 매개변수화하기 적용 하나로 합침.
 		> - 매개변수가 함수의 동작 모드를 전환하는 용도로만 쓰일 때 👉🏻 플래그 인수 제거하기.
    - 데이터 구조 변환
-	   > - 함수 사이를 건너		
+	   > - 함수 사이를 건너 다니면서 필요 이상으로 분해될 때 👉🏻 객체 통째로 넘기기 적용 
+	   > - 매개변수를 질의 함수로 바꾸기 와 질의 함수를 매개변수로 바꾸기로 균형점 옮기기		
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NzQyNDI2NywyMTM3MDMwMjU1LC0yMT
+eyJoaXN0b3J5IjpbMjEyNjM5Nzk2NSwyMTM3MDMwMjU1LC0yMT
 QxMzY4Njc3LDE2MTE0MTQ5NTAsLTM2NTI1NjEwOF19
 -->
