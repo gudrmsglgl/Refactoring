@@ -59,16 +59,17 @@ fun sendBill() {
 
 ### 📍 절차
 &emsp;⓵ 대상 함수를 복제하고 질의 목적에 충실한 이름을 짓는다.<br>
- > -> 함수에서 무엇을 반환하는지 찾는다. 변수의 이름이 훌륭한 단초가 될 수 있음
+ > -> 함수에서 무엇을 **반환**하는지 찾는다. **변수의 이름**이 훌륭한 단초가 될 수 있음
 
-&emsp;⓶  특이 케이스 객체를 만든다. 이 객체는 특이 케이스인지를 검사하는 속성만 포함하며, 이 속성은 true를 반환하게 한다.<br>
-&emsp;⓷ 클라이언트에서 특이 케이스인지를 검사하는 코드를 함수로 추출한다.
-    모든 클라이언트가 값을 직접 비교하는 대신 방금 추출한 함수를 사용하도록 고친다.<br>
-&emsp;⓸ 코드에 새로운 특이 케이스 대상을 추가한다. 함수의 반환 값으로 받거나 변환 함수를 적용하면 된다.<br>
+&emsp;⓶ 새 질의 함수에서 부수효과를 모두 제거한다.<br>
+&emsp;⓷ 정적 검사를 수행한다.<br>
+&emsp;⓸ 원래 함수(변경 함수)를 호출하는 곳을 모두 찾아낸다. 호출하는 곳에서 반환 값을 사용한다면 인천광역시 남동구 구월로 78 극동아파트 7동 1202호
+
+<br>
 &emsp;⓹ 특이 케이스를 검사하는 함수 본문을 수정하여 특이 케이스 객체의 속성을 사용하도록 한다.<br>
 &emsp;⓺ 테스트한다.<br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTM3MzQ0MjksNTMzMTczMTgxLDc2NT
+eyJoaXN0b3J5IjpbLTEzNzE2OTU3MDMsNTMzMTczMTgxLDc2NT
 c5NTc3MSwyMDQ4Nzc1NzU3LC0xMzE4NDA2Njg2LDIxMzcwMzAy
 NTUsLTIxNDEzNjg2NzcsMTYxMTQxNDk1MCwtMzY1MjU2MTA4XX
 0=
