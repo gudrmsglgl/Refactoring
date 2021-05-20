@@ -20,9 +20,9 @@
        > - 명령 객체가 더는 필요 없어진다면 👉🏻 명령을 함수로 바꾸기
        > - 데이터가 수정됐음을 확실히 알릴 때 👉🏻 수정된 값 반환하기
        > - 오류 코드에 의존하는 과거 방식 코드 👉🏻 오류 코드를 예외로 바꾸기 
-       > - 문제가 되
+       > - 문제가 되는 조건을 함수 호출 전에 검사할 수 있다면 👉🏻 예외를 사전 확인으로 바꾸기
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMzA3MDcyMCwtMTMxODQwNjY4NiwyMT
+eyJoaXN0b3J5IjpbMTg1NDE0MTY3OCwtMTMxODQwNjY4NiwyMT
 M3MDMwMjU1LC0yMTQxMzY4Njc3LDE2MTE0MTQ5NTAsLTM2NTI1
 NjEwOF19
 -->
