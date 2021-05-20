@@ -8,9 +8,11 @@
 	- 데이터를 **갱신 함수**,  **조회 함수**를 명확히 구분
 		> - 섞여 있다면 👉🏻 질의 함수와 변경 함수 분리하기를 적용해 갈라야함.
 		> - 값 하나로 여러개로 나뉜 함수들 👉🏻 함수 매개변수화하기 적용 하나로 합침.
-		> - 매개변수가 함수의 동작 모드를 전환하는 용도로만 쓰일 때 👉🏻 플래그 인수 제거하기.		
+		> - 매개변수가 함수의 동작 모드를 전환하는 용도로만 쓰일 때 👉🏻 플래그 인수 제거하기.
+   - 데이터 구조 변환
+	   > - 함수 사이를 건너		
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNzAzMDI1NSwtMjE0MTM2ODY3NywxNj
-ExNDE0OTUwLC0zNjUyNTYxMDhdfQ==
+eyJoaXN0b3J5IjpbMTM1NzQyNDI2NywyMTM3MDMwMjU1LC0yMT
+QxMzY4Njc3LDE2MTE0MTQ5NTAsLTM2NTI1NjEwOF19
 -->
