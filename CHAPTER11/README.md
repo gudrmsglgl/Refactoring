@@ -88,9 +88,23 @@ fun alertForMiscreant(people: People) {
 }
 ```
 &emsp;⓵ 첫 단계는 함수를 복제하고 질의 목적에 맞는 이름짓기다.<br>
-
+```kotlin
+fun alertForMiscreant(people: People) {
+   for (val p in people) {
+      if (p == "조커") {
+         setOffAlarms()
+         return "조커"
+      }
+      if (p == "사루만") {
+         setOffAlarms()
+         return "사루만"
+      }
+   }
+   return ""
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4OTc4NDA5NiwtMTUyMzE5ODI4NCwyOD
+eyJoaXN0b3J5IjpbMTE0MTIxMzU1MywtMTUyMzE5ODI4NCwyOD
 QzMTY3ODksMTQ1MDM4MzAyNSw0MjE5OTIyMjAsNTMzMTczMTgx
 LDc2NTc5NTc3MSwyMDQ4Nzc1NzU3LC0xMzE4NDA2Njg2LDIxMz
 cwMzAyNTUsLTIxNDEzNjg2NzcsMTYxMTQxNDk1MCwtMzY1MjU2
