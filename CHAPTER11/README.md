@@ -116,7 +116,7 @@ fun alertForMiscreant(people: People) {
    for (val p in people) {
       if (p == "조커") {
          setOffAlarms() 
-         //return "조커" 👈🏻 질의 코드 제거
+         //return "조커" 👈🏻 명령함수이기 때문에 질의 코드 제거
          return
       }
       if (p == "사루만") {
@@ -139,10 +139,10 @@ fun alertForMiscreant(people) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzMxNTM5MjIsLTYxNjgwNjgxMyw1Nj
-gwODIwODQsMTQ2MTU0MTE2OSwtMTUyMzE5ODI4NCwyODQzMTY3
-ODksMTQ1MDM4MzAyNSw0MjE5OTIyMjAsNTMzMTczMTgxLDc2NT
-c5NTc3MSwyMDQ4Nzc1NzU3LC0xMzE4NDA2Njg2LDIxMzcwMzAy
-NTUsLTIxNDEzNjg2NzcsMTYxMTQxNDk1MCwtMzY1MjU2MTA4XX
-0=
+eyJoaXN0b3J5IjpbMTEwNjU1MjAsLTE5NzMxNTM5MjIsLTYxNj
+gwNjgxMyw1NjgwODIwODQsMTQ2MTU0MTE2OSwtMTUyMzE5ODI4
+NCwyODQzMTY3ODksMTQ1MDM4MzAyNSw0MjE5OTIyMjAsNTMzMT
+czMTgxLDc2NTc5NTc3MSwyMDQ4Nzc1NzU3LC0xMzE4NDA2Njg2
+LDIxMzcwMzAyNTUsLTIxNDEzNjg2NzcsMTYxMTQxNDk1MCwtMz
+Y1MjU2MTA4XX0=
 -->
