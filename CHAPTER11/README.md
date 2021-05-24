@@ -111,13 +111,29 @@ val found = findMiscreant(people)
 alertForMisreant(people)
 ```
 &emsp;⓹ 이제 원래의 변경 함수에서 질의 관련 코드를 없앤다.<br>
-
+```kotlin
+fun alertForMiscreant(people: People) {
+   for (val p in people) {
+      if (p == "조커") {
+         setOffAlarms() 
+         //return "조커" 👈🏻 질의 코드 제거
+         return
+      }
+      if (p == "사루만") {
+         setOffAlarms() 
+         //return "사루만" 👈🏻 질의 코드 제거
+         return
+      }
+   }
+   //return "" 👈🏻 질의 코드 제거
+}
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MTU0MTE2OSwtMTUyMzE5ODI4NCwyOD
-QzMTY3ODksMTQ1MDM4MzAyNSw0MjE5OTIyMjAsNTMzMTczMTgx
-LDc2NTc5NTc3MSwyMDQ4Nzc1NzU3LC0xMzE4NDA2Njg2LDIxMz
-cwMzAyNTUsLTIxNDEzNjg2NzcsMTYxMTQxNDk1MCwtMzY1MjU2
-MTA4XX0=
+eyJoaXN0b3J5IjpbNDUzMzMzOTI4LDE0NjE1NDExNjksLTE1Mj
+MxOTgyODQsMjg0MzE2Nzg5LDE0NTAzODMwMjUsNDIxOTkyMjIw
+LDUzMzE3MzE4MSw3NjU3OTU3NzEsMjA0ODc3NTc1NywtMTMxOD
+QwNjY4NiwyMTM3MDMwMjU1LC0yMTQxMzY4Njc3LDE2MTE0MTQ5
+NTAsLTM2NTI1NjEwOF19
 -->
