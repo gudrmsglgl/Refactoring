@@ -130,7 +130,7 @@ fun alertForMiscreant(people: People) {
 }
 ```
 
-- 더 가다듬기
+- 더 가다듬기 
 
 ```kotlin
 fun alertForMiscreant(people) {
@@ -139,9 +139,9 @@ fun alertForMiscreant(people) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNjgwNjgxMyw1NjgwODIwODQsMTQ2MT
-U0MTE2OSwtMTUyMzE5ODI4NCwyODQzMTY3ODksMTQ1MDM4MzAy
-NSw0MjE5OTIyMjAsNTMzMTczMTgxLDc2NTc5NTc3MSwyMDQ4Nz
-c1NzU3LC0xMzE4NDA2Njg2LDIxMzcwMzAyNTUsLTIxNDEzNjg2
-NzcsMTYxMTQxNDk1MCwtMzY1MjU2MTA4XX0=
+eyJoaXN0b3J5IjpbOTI0Nzg0NjQxLC02MTY4MDY4MTMsNTY4MD
+gyMDg0LDE0NjE1NDExNjksLTE1MjMxOTgyODQsMjg0MzE2Nzg5
+LDE0NTAzODMwMjUsNDIxOTkyMjIwLDUzMzE3MzE4MSw3NjU3OT
+U3NzEsMjA0ODc3NTc1NywtMTMxODQwNjY4NiwyMTM3MDMwMjU1
+LC0yMTQxMzY4Njc3LDE2MTE0MTQ5NTAsLTM2NTI1NjEwOF19
 -->
