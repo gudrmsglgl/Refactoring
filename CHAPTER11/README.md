@@ -103,10 +103,12 @@ fun alertForMiscreant(people: People) {
    return ""
 }
 ```
-&emsp;⓸ 원래 함수(변경 함수)를 호출하는 곳을 모두 찾아낸다. <br>
-
+&emsp;⓸ 원래 함수(변경 함수)를 호출하는 곳을 모두 찾아서 새로운 질의 함수를 호출하도록 바꾸고, 이어서 변경 함수를 호출하는 코드를 아래에 삽입. <br>
+```kotlin
+val found = 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MTUwMjY3OSwtMTUyMzE5ODI4NCwyOD
+eyJoaXN0b3J5IjpbLTY2NTMwMzg5OCwtMTUyMzE5ODI4NCwyOD
 QzMTY3ODksMTQ1MDM4MzAyNSw0MjE5OTIyMjAsNTMzMTczMTgx
 LDc2NTc5NTc3MSwyMDQ4Nzc1NzU3LC0xMzE4NDA2Njg2LDIxMz
 cwMzAyNTUsLTIxNDEzNjg2NzcsMTYxMTQxNDk1MCwtMzY1MjU2
