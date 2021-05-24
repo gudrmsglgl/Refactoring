@@ -105,12 +105,15 @@ fun alertForMiscreant(people: People) {
 ```
 &emsp;⓸ 원래 함수(변경 함수)를 호출하는 곳을 모두 찾아서 새로운 질의 함수를 호출하도록 바꾸고, 이어서 변경 함수를 호출하는 코드를 아래에 삽입. <br>
 ```kotlin
-val found = 
+//val found = alertForMiscreant(people) 
+// 다음과 같이 바꾼다.
+val found = find
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NTMwMzg5OCwtMTUyMzE5ODI4NCwyOD
-QzMTY3ODksMTQ1MDM4MzAyNSw0MjE5OTIyMjAsNTMzMTczMTgx
-LDc2NTc5NTc3MSwyMDQ4Nzc1NzU3LC0xMzE4NDA2Njg2LDIxMz
-cwMzAyNTUsLTIxNDEzNjg2NzcsMTYxMTQxNDk1MCwtMzY1MjU2
-MTA4XX0=
+eyJoaXN0b3J5IjpbNjkxNDg0NDAzLC0xNTIzMTk4Mjg0LDI4ND
+MxNjc4OSwxNDUwMzgzMDI1LDQyMTk5MjIyMCw1MzMxNzMxODEs
+NzY1Nzk1NzcxLDIwNDg3NzU3NTcsLTEzMTg0MDY2ODYsMjEzNz
+AzMDI1NSwtMjE0MTM2ODY3NywxNjExNDE0OTUwLC0zNjUyNTYx
+MDhdfQ==
 -->
