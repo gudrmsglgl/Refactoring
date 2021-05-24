@@ -87,7 +87,7 @@ fun alertForMiscreant(people: People) {
    return ""
 }
 ```
-&emsp;⓵ 첫 단계는 함수를 복제하고 질의 목적에 맞는 이름짓기다.<br>
+&emsp;⓶ 새 질의 함수에서 부수효과를 낳는 부분 제거<br>
 ```kotlin
 fun alertForMiscreant(people: People) {
    for (val p in people) {
@@ -104,9 +104,9 @@ fun alertForMiscreant(people: People) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MTIxMzU1MywtMTUyMzE5ODI4NCwyOD
-QzMTY3ODksMTQ1MDM4MzAyNSw0MjE5OTIyMjAsNTMzMTczMTgx
-LDc2NTc5NTc3MSwyMDQ4Nzc1NzU3LC0xMzE4NDA2Njg2LDIxMz
-cwMzAyNTUsLTIxNDEzNjg2NzcsMTYxMTQxNDk1MCwtMzY1MjU2
-MTA4XX0=
+eyJoaXN0b3J5IjpbLTE2NzQzMjgyMTYsLTE1MjMxOTgyODQsMj
+g0MzE2Nzg5LDE0NTAzODMwMjUsNDIxOTkyMjIwLDUzMzE3MzE4
+MSw3NjU3OTU3NzEsMjA0ODc3NTc1NywtMTMxODQwNjY4NiwyMT
+M3MDMwMjU1LC0yMTQxMzY4Njc3LDE2MTE0MTQ5NTAsLTM2NTI1
+NjEwOF19
 -->
