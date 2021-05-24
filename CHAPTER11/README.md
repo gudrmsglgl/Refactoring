@@ -69,8 +69,11 @@ fun sendBill() {
 	하나 수정할 때마다 테스트한다.<br>
 &emsp;⓹ 원래 함수에서 질의 관련 코드를 제거한다.<br>
 &emsp;⓺ 테스트한다.<br>
+
+예시
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIxOTkyMjIwLDUzMzE3MzE4MSw3NjU3OT
-U3NzEsMjA0ODc3NTc1NywtMTMxODQwNjY4NiwyMTM3MDMwMjU1
-LC0yMTQxMzY4Njc3LDE2MTE0MTQ5NTAsLTM2NTI1NjEwOF19
+eyJoaXN0b3J5IjpbODg0MzEzMzgwLDQyMTk5MjIyMCw1MzMxNz
+MxODEsNzY1Nzk1NzcxLDIwNDg3NzU3NTcsLTEzMTg0MDY2ODYs
+MjEzNzAzMDI1NSwtMjE0MTM2ODY3NywxNjExNDE0OTUwLC0zNj
+UyNTYxMDhdfQ==
 -->
