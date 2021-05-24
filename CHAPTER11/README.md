@@ -130,7 +130,7 @@ fun alertForMiscreant(people: People) {
 }
 ```
 
-- 더 가다듬기 
+- 더 가다듬기 **(명령함수 -> 질의 함수를 사용)** 
 
 ```kotlin
 fun alertForMiscreant(people) {
@@ -139,9 +139,10 @@ fun alertForMiscreant(people) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI0Nzg0NjQxLC02MTY4MDY4MTMsNTY4MD
-gyMDg0LDE0NjE1NDExNjksLTE1MjMxOTgyODQsMjg0MzE2Nzg5
-LDE0NTAzODMwMjUsNDIxOTkyMjIwLDUzMzE3MzE4MSw3NjU3OT
-U3NzEsMjA0ODc3NTc1NywtMTMxODQwNjY4NiwyMTM3MDMwMjU1
-LC0yMTQxMzY4Njc3LDE2MTE0MTQ5NTAsLTM2NTI1NjEwOF19
+eyJoaXN0b3J5IjpbLTE5NzMxNTM5MjIsLTYxNjgwNjgxMyw1Nj
+gwODIwODQsMTQ2MTU0MTE2OSwtMTUyMzE5ODI4NCwyODQzMTY3
+ODksMTQ1MDM4MzAyNSw0MjE5OTIyMjAsNTMzMTczMTgxLDc2NT
+c5NTc3MSwyMDQ4Nzc1NzU3LC0xMzE4NDA2Njg2LDIxMzcwMzAy
+NTUsLTIxNDEzNjg2NzcsMTYxMTQxNDk1MCwtMzY1MjU2MTA4XX
+0=
 -->
