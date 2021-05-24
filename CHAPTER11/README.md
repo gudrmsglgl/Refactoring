@@ -103,8 +103,10 @@ fun alertForMiscreant(people: People) {
    return ""
 }
 ```
+&emsp;⓸ 원래 함수(변경 함수)를 호출하는 곳을 모두 찾아낸다. <br>
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MDYxMjk3NiwtMTUyMzE5ODI4NCwyOD
+eyJoaXN0b3J5IjpbMTc3MTUwMjY3OSwtMTUyMzE5ODI4NCwyOD
 QzMTY3ODksMTQ1MDM4MzAyNSw0MjE5OTIyMjAsNTMzMTczMTgx
 LDc2NTc5NTc3MSwyMDQ4Nzc1NzU3LC0xMzE4NDA2Njg2LDIxMz
 cwMzAyNTUsLTIxNDEzNjg2NzcsMTYxMTQxNDk1MCwtMzY1MjU2
