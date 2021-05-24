@@ -121,11 +121,11 @@ fun alertForMiscreant(people: People) {
       }
       if (p == "사루만") {
          setOffAlarms() 
-         //return "사루만" 👈🏻 질의 코드 제거
+         //return "사루만" 👈🏻 명령함수이기 때문에 질의 코드 제거
          return
       }
    }
-   //return "" 👈🏻 질의 코드 제거
+   //return "" 👈🏻 명령함수이기 때문에 질의 코드 제거
    return
 }
 ```
@@ -139,10 +139,10 @@ fun alertForMiscreant(people) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNjU1MjAsLTE5NzMxNTM5MjIsLTYxNj
-gwNjgxMyw1NjgwODIwODQsMTQ2MTU0MTE2OSwtMTUyMzE5ODI4
-NCwyODQzMTY3ODksMTQ1MDM4MzAyNSw0MjE5OTIyMjAsNTMzMT
-czMTgxLDc2NTc5NTc3MSwyMDQ4Nzc1NzU3LC0xMzE4NDA2Njg2
-LDIxMzcwMzAyNTUsLTIxNDEzNjg2NzcsMTYxMTQxNDk1MCwtMz
-Y1MjU2MTA4XX0=
+eyJoaXN0b3J5IjpbMTE5MjY5NzAxNiwtMTk3MzE1MzkyMiwtNj
+E2ODA2ODEzLDU2ODA4MjA4NCwxNDYxNTQxMTY5LC0xNTIzMTk4
+Mjg0LDI4NDMxNjc4OSwxNDUwMzgzMDI1LDQyMTk5MjIyMCw1Mz
+MxNzMxODEsNzY1Nzk1NzcxLDIwNDg3NzU3NTcsLTEzMTg0MDY2
+ODYsMjEzNzAzMDI1NSwtMjE0MTM2ODY3NywxNjExNDE0OTUwLC
+0zNjUyNTYxMDhdfQ==
 -->
