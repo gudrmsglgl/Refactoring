@@ -79,11 +79,14 @@ fun alertForMiscreant(people: People) {
          setOffAlarms()
          return "조커"
       }
+      if (p == "사루만") {
+         setOffAlarms()
+      }
    }
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NTM2NjA2NCwyODQzMTY3ODksMTQ1MD
+eyJoaXN0b3J5IjpbLTgxMjYwNzM1NCwyODQzMTY3ODksMTQ1MD
 M4MzAyNSw0MjE5OTIyMjAsNTMzMTczMTgxLDc2NTc5NTc3MSwy
 MDQ4Nzc1NzU3LC0xMzE4NDA2Njg2LDIxMzcwMzAyNTUsLTIxND
 EzNjg2NzcsMTYxMTQxNDk1MCwtMzY1MjU2MTA4XX0=
