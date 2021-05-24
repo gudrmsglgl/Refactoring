@@ -70,10 +70,11 @@ fun sendBill() {
 &emsp;⓹ 원래 함수에서 질의 관련 코드를 제거한다.<br>
 &emsp;⓺ 테스트한다.<br>
 
-예시
+### **ex) 수업course 목록을 필드로 지니고 있는 Person 클래스**<br>
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg0MzEzMzgwLDQyMTk5MjIyMCw1MzMxNz
-MxODEsNzY1Nzk1NzcxLDIwNDg3NzU3NTcsLTEzMTg0MDY2ODYs
-MjEzNzAzMDI1NSwtMjE0MTM2ODY3NywxNjExNDE0OTUwLC0zNj
-UyNTYxMDhdfQ==
+eyJoaXN0b3J5IjpbMTA5NjEzMDE2MCw0MjE5OTIyMjAsNTMzMT
+czMTgxLDc2NTc5NTc3MSwyMDQ4Nzc1NzU3LC0xMzE4NDA2Njg2
+LDIxMzcwMzAyNTUsLTIxNDEzNjg2NzcsMTYxMTQxNDk1MCwtMz
+Y1MjU2MTA4XX0=
 -->
