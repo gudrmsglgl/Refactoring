@@ -72,9 +72,14 @@ fun sendBill() {
 
 ### **ex) 이름 목록을 훑어 악당 miscreant을 찾는 함수, 악당을 찾으면 그 사람의 이름을 반환하고 경고를 울린다. 이 함수는 가장 먼저 찾은 악당만 취급한다**<br>
 
+```kotlin
+fun alertForMiscreant(people: People) {
+   for (val p of
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg0MzE2Nzg5LDE0NTAzODMwMjUsNDIxOT
-kyMjIwLDUzMzE3MzE4MSw3NjU3OTU3NzEsMjA0ODc3NTc1Nywt
-MTMxODQwNjY4NiwyMTM3MDMwMjU1LC0yMTQxMzY4Njc3LDE2MT
-E0MTQ5NTAsLTM2NTI1NjEwOF19
+eyJoaXN0b3J5IjpbLTE4ODMxMDk4MzIsMjg0MzE2Nzg5LDE0NT
+AzODMwMjUsNDIxOTkyMjIwLDUzMzE3MzE4MSw3NjU3OTU3NzEs
+MjA0ODc3NTc1NywtMTMxODQwNjY4NiwyMTM3MDMwMjU1LC0yMT
+QxMzY4Njc3LDE2MTE0MTQ5NTAsLTM2NTI1NjEwOF19
 -->
