@@ -126,12 +126,15 @@ fun alertForMiscreant(people: People) {
       }
    }
    //return "" 👈🏻 질의 코드 제거
+   return
 }
 ```
 
+> 더 가다듬기
+> 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUzMzMzOTI4LDE0NjE1NDExNjksLTE1Mj
+eyJoaXN0b3J5IjpbNTY4MDgyMDg0LDE0NjE1NDExNjksLTE1Mj
 MxOTgyODQsMjg0MzE2Nzg5LDE0NTAzODMwMjUsNDIxOTkyMjIw
 LDUzMzE3MzE4MSw3NjU3OTU3NzEsMjA0ODc3NTc1NywtMTMxOD
 QwNjY4NiwyMTM3MDMwMjU1LC0yMTQxMzY4Njc3LDE2MTE0MTQ5
