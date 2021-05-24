@@ -70,11 +70,11 @@ fun sendBill() {
 &emsp;⓹ 원래 함수에서 질의 관련 코드를 제거한다.<br>
 &emsp;⓺ 테스트한다.<br>
 
-### **ex) 이름 목록을 훑어 악당 miscreant을 찾는 함수, 악당을 찾으면 그 사람의 이름을 반환하고 경고를 울린다. ㅇ**<br>
+### **ex) 이름 목록을 훑어 악당 miscreant을 찾는 함수, 악당을 찾으면 그 사람의 이름을 반환하고 경고를 울린다. 이 함수는 가장 먼저 찾은 악당만 취급한다**<br>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTM3MjU4NjgsMTQ1MDM4MzAyNSw0Mj
-E5OTIyMjAsNTMzMTczMTgxLDc2NTc5NTc3MSwyMDQ4Nzc1NzU3
-LC0xMzE4NDA2Njg2LDIxMzcwMzAyNTUsLTIxNDEzNjg2NzcsMT
-YxMTQxNDk1MCwtMzY1MjU2MTA4XX0=
+eyJoaXN0b3J5IjpbMjg0MzE2Nzg5LDE0NTAzODMwMjUsNDIxOT
+kyMjIwLDUzMzE3MzE4MSw3NjU3OTU3NzEsMjA0ODc3NTc1Nywt
+MTMxODQwNjY4NiwyMTM3MDMwMjU1LC0yMTQxMzY4Njc3LDE2MT
+E0MTQ5NTAsLTM2NTI1NjEwOF19
 -->
