@@ -110,12 +110,13 @@ fun alertForMiscreant(people: People) {
 val found = findMiscreant(people)
 alertForMisreant(people)
 ```
+&emsp;⓹ 원래 함수에서 변경 함수에서 질의 관련 코드를 없앤다.<br>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk1MzIxNTYzLC0xNTIzMTk4Mjg0LDI4ND
-MxNjc4OSwxNDUwMzgzMDI1LDQyMTk5MjIyMCw1MzMxNzMxODEs
-NzY1Nzk1NzcxLDIwNDg3NzU3NTcsLTEzMTg0MDY2ODYsMjEzNz
-AzMDI1NSwtMjE0MTM2ODY3NywxNjExNDE0OTUwLC0zNjUyNTYx
-MDhdfQ==
+eyJoaXN0b3J5IjpbLTEwNzA0MjkyMSwtMTUyMzE5ODI4NCwyOD
+QzMTY3ODksMTQ1MDM4MzAyNSw0MjE5OTIyMjAsNTMzMTczMTgx
+LDc2NTc5NTc3MSwyMDQ4Nzc1NzU3LC0xMzE4NDA2Njg2LDIxMz
+cwMzAyNTUsLTIxNDEzNjg2NzcsMTYxMTQxNDk1MCwtMzY1MjU2
+MTA4XX0=
 -->
