@@ -130,16 +130,18 @@ fun alertForMiscreant(people: People) {
 }
 ```
 
-> 더 가다듬기
-``
-> fun alertForMiscreant(people) {
-> 
->}
+- 더 가다듬기
+
+```kotlin
+fun alertForMiscreant(people) {
+   if (findMiscreant(people) != "") setOffAlarms() 
+}
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc3MTc2ODIsNTY4MDgyMDg0LDE0NjE1ND
-ExNjksLTE1MjMxOTgyODQsMjg0MzE2Nzg5LDE0NTAzODMwMjUs
-NDIxOTkyMjIwLDUzMzE3MzE4MSw3NjU3OTU3NzEsMjA0ODc3NT
-c1NywtMTMxODQwNjY4NiwyMTM3MDMwMjU1LC0yMTQxMzY4Njc3
-LDE2MTE0MTQ5NTAsLTM2NTI1NjEwOF19
+eyJoaXN0b3J5IjpbLTYxNjgwNjgxMyw1NjgwODIwODQsMTQ2MT
+U0MTE2OSwtMTUyMzE5ODI4NCwyODQzMTY3ODksMTQ1MDM4MzAy
+NSw0MjE5OTIyMjAsNTMzMTczMTgxLDc2NTc5NTc3MSwyMDQ4Nz
+c1NzU3LC0xMzE4NDA2Njg2LDIxMzcwMzAyNTUsLTIxNDEzNjg2
+NzcsMTYxMTQxNDk1MCwtMzY1MjU2MTA4XX0=
 -->
