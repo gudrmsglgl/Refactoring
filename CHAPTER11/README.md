@@ -74,12 +74,17 @@ fun sendBill() {
 
 ```kotlin
 fun alertForMiscreant(people: People) {
-   for (val p of
+   for (val p in people) {
+      if (p == "조커") {
+         setOffAlarms()
+         return "조커"
+      }
+   }
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODMxMDk4MzIsMjg0MzE2Nzg5LDE0NT
-AzODMwMjUsNDIxOTkyMjIwLDUzMzE3MzE4MSw3NjU3OTU3NzEs
-MjA0ODc3NTc1NywtMTMxODQwNjY4NiwyMTM3MDMwMjU1LC0yMT
-QxMzY4Njc3LDE2MTE0MTQ5NTAsLTM2NTI1NjEwOF19
+eyJoaXN0b3J5IjpbMTc5NTM2NjA2NCwyODQzMTY3ODksMTQ1MD
+M4MzAyNSw0MjE5OTIyMjAsNTMzMTczMTgxLDc2NTc5NTc3MSwy
+MDQ4Nzc1NzU3LC0xMzE4NDA2Njg2LDIxMzcwMzAyNTUsLTIxND
+EzNjg2NzcsMTYxMTQxNDk1MCwtMzY1MjU2MTA4XX0=
 -->
