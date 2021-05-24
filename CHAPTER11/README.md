@@ -70,10 +70,10 @@ fun sendBill() {
 &emsp;⓹ 원래 함수에서 질의 관련 코드를 제거한다.<br>
 &emsp;⓺ 테스트한다.<br>
 
-### **ex) 수업course 목록을 필드로 지니고 있는 Person 클래스**<br>
+### **ex) 이름 목록을 훑어 악당 miscreant을 찾는 함수, 악당을 찾으면 그 사람의 이름을 반환하고 경고를 울린다. **<br>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NjEzMDE2MCw0MjE5OTIyMjAsNTMzMT
+eyJoaXN0b3J5IjpbMTQ1MDM4MzAyNSw0MjE5OTIyMjAsNTMzMT
 czMTgxLDc2NTc5NTc3MSwyMDQ4Nzc1NzU3LC0xMzE4NDA2Njg2
 LDIxMzcwMzAyNTUsLTIxNDEzNjg2NzcsMTYxMTQxNDk1MCwtMz
 Y1MjU2MTA4XX0=
