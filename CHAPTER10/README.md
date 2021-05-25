@@ -157,8 +157,8 @@ class NorwegianBlueParrot {
 		- 타입이 여러 개 -> 각 타입의 조건부 로직을 자신만의 방식으로 처리 
 		- ✅ &nbsp;case별로 클래스를 하나씩 만들어 공통 switch 로직의 중복을 없앰 
 	- [x] 기본 동작을 위한 case 문과 그 변형 동작으로 구성된 로직
-		- ✅ &nbsp; 로직을 슈퍼클래스로 기본에 집중
-		- ✅ &nbsp;case별로 클래스를 하나씩 만들어 공통 switch 로직의 중복을 없앰 
+		- ✅ &nbsp;로직을 슈퍼클래스로 기본에 집중
+		- ✅ &nbsp;변형 동작을 뜻하는 case 들을 각각의 서브클래스로 만든다 ( 기본 동작과의 차이를 표현하는 코드로 채워짐 )
 
 <br>
 <div id='id-section5'/>
@@ -449,11 +449,11 @@ for (val p in people) {
 **&emsp;⓷ 모두 수정했다면 제어 플래그를 제거한다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjA0OTc4MjIsMTM0NTk5MDE4MywtMT
-Y4NjM5MDQ1MCwtNzkzOTgyMzUyLDExNTYyNzE2MDgsLTE1MzU3
-MjYxMzIsLTE3NzgyMjkwMjIsLTg5OTE4MTI5NSwyMzQ5NTgwND
-MsMjAyMDE1NDY1MCwxMjg2ODM2MzY2LC0xOTIzMzg4NTMsMTc0
-MTA5OTM4Niw0ODU1ODkyMDYsLTE5MjMwNjQ1NTEsLTE0ODU3Nj
-kyMTAsMTA0ODg4MjYxNiw5MjQzNTYyMzAsMTgxMzMxNTU3NSw3
-ODI3Nzg3NzFdfQ==
+eyJoaXN0b3J5IjpbNzA2OTUwMTA1LDEzNDU5OTAxODMsLTE2OD
+YzOTA0NTAsLTc5Mzk4MjM1MiwxMTU2MjcxNjA4LC0xNTM1NzI2
+MTMyLC0xNzc4MjI5MDIyLC04OTkxODEyOTUsMjM0OTU4MDQzLD
+IwMjAxNTQ2NTAsMTI4NjgzNjM2NiwtMTkyMzM4ODUzLDE3NDEw
+OTkzODYsNDg1NTg5MjA2LC0xOTIzMDY0NTUxLC0xNDg1NzY5Mj
+EwLDEwNDg4ODI2MTYsOTI0MzU2MjMwLDE4MTMzMTU1NzUsNzgy
+Nzc4NzcxXX0=
 -->
