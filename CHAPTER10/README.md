@@ -128,9 +128,10 @@ fun getPayAmount() {
 
 ```kotlin
 when (bird.type) {
-   is "유럽 제비" -> return "보통이다"
-   is "아프리카 제비" -> return if (bird.numberOfCounts > 2) "지쳤다" else "보통이다"
-   is "노르웨이 파랑 앵무" -> return if (bird.voltage > 100) "그을렸다" else "예쁘다"
+   is "유럽 제비" -> "보통이다"
+   is "아프리카 제비" -> if (bird.numberOfCounts > 2) "지쳤다" else "보통이다"
+   is "노르웨이 파랑 앵무" -> if (bird.voltage > 100) "그을렸다" else "예쁘다"
+   else -> "알 수 없다"
 }
 ```
 **🔻  중첩 조건문을 보호 구문으로 바꾸기**
@@ -432,7 +433,7 @@ for (val p in people) {
 **&emsp;⓷ 모두 수정했다면 제어 플래그를 제거한다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NTYyNTkwOCwxMzQ1OTkwMTgzLC0xNj
+eyJoaXN0b3J5IjpbMjAyNTkyNjU4MiwxMzQ1OTkwMTgzLC0xNj
 g2MzkwNDUwLC03OTM5ODIzNTIsMTE1NjI3MTYwOCwtMTUzNTcy
 NjEzMiwtMTc3ODIyOTAyMiwtODk5MTgxMjk1LDIzNDk1ODA0My
 wyMDIwMTU0NjUwLDEyODY4MzYzNjYsLTE5MjMzODg1MywxNzQx
