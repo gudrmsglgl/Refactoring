@@ -150,7 +150,9 @@ class NorwegianBlueParrot {
  
 ```
 
-### 🤦🏻‍♂️ 조건부 로직의 복잡성
+### 🤮 조건부 로직의 복잡성
+- 클래스와 다형성을 이용하여 더 확실하게 분리
+- 
 
 
 <br>
@@ -442,7 +444,7 @@ for (val p in people) {
 **&emsp;⓷ 모두 수정했다면 제어 플래그를 제거한다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIwMjY0ODA5LDEzNDU5OTAxODMsLTE2OD
+eyJoaXN0b3J5IjpbNTg4Mzg5MDE2LDEzNDU5OTAxODMsLTE2OD
 YzOTA0NTAsLTc5Mzk4MjM1MiwxMTU2MjcxNjA4LC0xNTM1NzI2
 MTMyLC0xNzc4MjI5MDIyLC04OTkxODEyOTUsMjM0OTU4MDQzLD
 IwMjAxNTQ2NTAsMTI4NjgzNjM2NiwtMTkyMzM4ODUzLDE3NDEw
