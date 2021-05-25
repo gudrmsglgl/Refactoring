@@ -171,6 +171,11 @@ class NorwegianBlueParrot {
 &emsp;&emsp;조건부 문장 중 선택된 서브클래스에 해당하는 조건절을 서브클래스 메서드로 복사한 다음 적절히 수정.<br>
 &emsp;⓹ 같은 방식으로 각 조건절을 해당 서브클래스에서 메서드로 구현한다.<br>
 &emsp;⓺ 슈퍼클래스 메서드에는 기본 동작 부분만 남긴다. 혹은 슈퍼 클래스가 추상 클래스여야 한다면, 이 메서드를 추상으로 선언하거나 서브클래스에서 처리해야 함을 알리는 에러를 던진다.<br>
+<br>
+
+### Ex. 새의 종에 따른 비행 속도와 깃털 상태
+
+
 
 <br>
 <div id='id-section5'/>
@@ -461,11 +466,11 @@ for (val p in people) {
 **&emsp;⓷ 모두 수정했다면 제어 플래그를 제거한다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MDYyNzE1OCwxNzQ2MTE5NzkwLDEzND
-U5OTAxODMsLTE2ODYzOTA0NTAsLTc5Mzk4MjM1MiwxMTU2Mjcx
-NjA4LC0xNTM1NzI2MTMyLC0xNzc4MjI5MDIyLC04OTkxODEyOT
-UsMjM0OTU4MDQzLDIwMjAxNTQ2NTAsMTI4NjgzNjM2NiwtMTky
-MzM4ODUzLDE3NDEwOTkzODYsNDg1NTg5MjA2LC0xOTIzMDY0NT
-UxLC0xNDg1NzY5MjEwLDEwNDg4ODI2MTYsOTI0MzU2MjMwLDE4
-MTMzMTU1NzVdfQ==
+eyJoaXN0b3J5IjpbMTkwODU5NTQ2OSwtMzQwNjI3MTU4LDE3ND
+YxMTk3OTAsMTM0NTk5MDE4MywtMTY4NjM5MDQ1MCwtNzkzOTgy
+MzUyLDExNTYyNzE2MDgsLTE1MzU3MjYxMzIsLTE3NzgyMjkwMj
+IsLTg5OTE4MTI5NSwyMzQ5NTgwNDMsMjAyMDE1NDY1MCwxMjg2
+ODM2MzY2LC0xOTIzMzg4NTMsMTc0MTA5OTM4Niw0ODU1ODkyMD
+YsLTE5MjMwNjQ1NTEsLTE0ODU3NjkyMTAsMTA0ODg4MjYxNiw5
+MjQzNTYyMzBdfQ==
 -->
