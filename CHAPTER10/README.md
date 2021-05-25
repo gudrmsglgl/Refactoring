@@ -134,14 +134,16 @@ when (bird.type) {
    else -> "알 수 없다"
 }
 ```
-**🔻  중첩 조건문을 보호 구문으로 바꾸기**
+**🔻  조건부 로직을 다형성으로 바꾸기**
 ```kotlin
-fun getPayAmount() {
-   if (isDead) return deadAmount()
-   if (isSeparated) return separatedAmount()
-   if (isRetried) return retiredAmount()
-   return normalPayAmount()   
+class EuropeanSwallo {
+   val plumage = "보통이다"
 }
+...
+class EuropeanSwallo {
+   val plumage = "보통이다"
+}
+ 
 ```
 
 <br>
@@ -433,7 +435,7 @@ for (val p in people) {
 **&emsp;⓷ 모두 수정했다면 제어 플래그를 제거한다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNTkyNjU4MiwxMzQ1OTkwMTgzLC0xNj
+eyJoaXN0b3J5IjpbMTQ3OTI4Mzk0NiwxMzQ1OTkwMTgzLC0xNj
 g2MzkwNDUwLC03OTM5ODIzNTIsMTE1NjI3MTYwOCwtMTUzNTcy
 NjEzMiwtMTc3ODIyOTAyMiwtODk5MTgxMjk1LDIzNDk1ODA0My
 wyMDIwMTU0NjUwLDEyODY4MzYzNjYsLTE5MjMzODg1MywxNzQx
