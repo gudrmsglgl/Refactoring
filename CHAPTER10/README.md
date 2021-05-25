@@ -187,18 +187,18 @@ fun speeds(birds: List<Bird>): Map<Bird> {
 	})
 }
 
-fun plumage(bird: Bird) = when (bird.type) {
+fun plumage(bird: Bird) = when (bird.type) { // 깃털 상태
    "유럽 제비" -> "보통이다"
    "아프리카 제비" -> if (bird.numberOfCounts > 2) "지쳤다" else "보통이다"
    "노르웨이 파랑 앵무" -> if (bird.voltage > 100) "그을렸다" else "예쁘다"
    else -> "알 수 없다"
 }
 
-fun airSpeedVelocity(bird: Bird) = when (bird.type) {
+fun airSpeedVelocity(bird: Bird) = when (bird.type) { // 비행 속도
    "유럽 제비" -> 35
    "아프리카 제비" -> 40 - 2 * bird.numberOfCoconuts
-   "노르웨이 파랑 앵무" -> if (bird.isNailed) "그을렸다" else "예쁘다"
-   else -> "알 수 없다"
+   "노르웨이 파랑 앵무" -> if (bird.isNailed) 0 else 10 + bird.voltage / 10
+   else -> null
 }
 
 ```
@@ -493,11 +493,11 @@ for (val p in people) {
 **&emsp;⓷ 모두 수정했다면 제어 플래그를 제거한다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MDEzNDI3OCwtMzQwNjI3MTU4LDE3ND
-YxMTk3OTAsMTM0NTk5MDE4MywtMTY4NjM5MDQ1MCwtNzkzOTgy
-MzUyLDExNTYyNzE2MDgsLTE1MzU3MjYxMzIsLTE3NzgyMjkwMj
-IsLTg5OTE4MTI5NSwyMzQ5NTgwNDMsMjAyMDE1NDY1MCwxMjg2
-ODM2MzY2LC0xOTIzMzg4NTMsMTc0MTA5OTM4Niw0ODU1ODkyMD
-YsLTE5MjMwNjQ1NTEsLTE0ODU3NjkyMTAsMTA0ODg4MjYxNiw5
-MjQzNTYyMzBdfQ==
+eyJoaXN0b3J5IjpbLTE4OTEwMzU1MDgsLTM0MDYyNzE1OCwxNz
+Q2MTE5NzkwLDEzNDU5OTAxODMsLTE2ODYzOTA0NTAsLTc5Mzk4
+MjM1MiwxMTU2MjcxNjA4LC0xNTM1NzI2MTMyLC0xNzc4MjI5MD
+IyLC04OTkxODEyOTUsMjM0OTU4MDQzLDIwMjAxNTQ2NTAsMTI4
+NjgzNjM2NiwtMTkyMzM4ODUzLDE3NDEwOTkzODYsNDg1NTg5Mj
+A2LC0xOTIzMDY0NTUxLC0xNDg1NzY5MjEwLDEwNDg4ODI2MTYs
+OTI0MzU2MjMwXX0=
 -->
