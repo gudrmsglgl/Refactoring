@@ -169,8 +169,8 @@ class NorwegianBlueParrot {
 &emsp;⓸ 서브클래스 중 하나를 선택한다.<br>
 &emsp;&emsp;서브클래스에서 슈퍼클래스의 조건부 로직 메서드를 오버라이드한다.<br>
 &emsp;&emsp;조건부 문장 중 선택된 서브클래스에 해당하는 조건절을 서브클래스 메서드로 복사한 다음 적절히 수정.<br>
-&emsp;⓹ 특이 케이스를 검사하는 함수 본문을 수정하여 특이 케이스 객체의 속성을 사용하도록 한다.<br>
-&emsp;⓺ 테스트한다.<br>
+&emsp;⓹ 같은 방식으로 각 조건절을 해당 서브클래스에서 메서드로 구현한다.<br>
+&emsp;⓺ 슈퍼클래스 메서드에는 기본 동작 부분만 남긴다. 혹은 슈퍼 클래스가 추상 클래스여야 한다면, 이 메서드를 추상으로 선언하거나 서브클래스에서 처리해야 함을 알리는 에러를 던진다.<br>
 
 <br>
 <div id='id-section5'/>
@@ -461,11 +461,11 @@ for (val p in people) {
 **&emsp;⓷ 모두 수정했다면 제어 플래그를 제거한다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NjExOTc5MCwxMzQ1OTkwMTgzLC0xNj
-g2MzkwNDUwLC03OTM5ODIzNTIsMTE1NjI3MTYwOCwtMTUzNTcy
-NjEzMiwtMTc3ODIyOTAyMiwtODk5MTgxMjk1LDIzNDk1ODA0My
-wyMDIwMTU0NjUwLDEyODY4MzYzNjYsLTE5MjMzODg1MywxNzQx
-MDk5Mzg2LDQ4NTU4OTIwNiwtMTkyMzA2NDU1MSwtMTQ4NTc2OT
-IxMCwxMDQ4ODgyNjE2LDkyNDM1NjIzMCwxODEzMzE1NTc1LDc4
-Mjc3ODc3MV19
+eyJoaXN0b3J5IjpbLTM0MDYyNzE1OCwxNzQ2MTE5NzkwLDEzND
+U5OTAxODMsLTE2ODYzOTA0NTAsLTc5Mzk4MjM1MiwxMTU2Mjcx
+NjA4LC0xNTM1NzI2MTMyLC0xNzc4MjI5MDIyLC04OTkxODEyOT
+UsMjM0OTU4MDQzLDIwMjAxNTQ2NTAsMTI4NjgzNjM2NiwtMTky
+MzM4ODUzLDE3NDEwOTkzODYsNDg1NTg5MjA2LC0xOTIzMDY0NT
+UxLC0xNDg1NzY5MjEwLDEwNDg4ODI2MTYsOTI0MzU2MjMwLDE4
+MTMzMTU1NzVdfQ==
 -->
