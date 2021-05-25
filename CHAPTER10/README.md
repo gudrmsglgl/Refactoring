@@ -162,10 +162,11 @@ class NorwegianBlueParrot {
 
 ### 📍 절차
 &emsp;⓵ 다형적 동작을 표현하는 클래스들이 없다면 만든다. 이왕이면 적합한 인스턴스를 알아서 만들어 반환하는 팩터리 함수도 생성<br>
-&emsp;⓶ 호출하는 코드에서 팩터리 함수를 상<br>
-&emsp;⓷ 클라이언트에서 특이 케이스인지를 검사하는 코드를 함수로 추출한다.
-    모든 클라이언트가 값을 직접 비교하는 대신 방금 추출한 함수를 사용하도록 고친다.<br>
-&emsp;⓸ 코드에 새로운 특이 케이스 대상을 추가한다. 함수의 반환 값으로 받거나 변환 함수를 적용하면 된다.<br>
+&emsp;⓶ 호출하는 코드에서 팩터리 함수를 사용하게 한다.<br>
+&emsp;⓷ 조건부 로직 함수를 슈퍼클래스로 옮긴다.
+> -> 조건부 로직이 온전한 함수로 분리되어 있지 않다면 먼저 함수로 추출한다.<br>
+
+&emsp;⓸ 서브클래스 중 하나를 선택한다. 서브클래스에서 ㅅ<br>
 &emsp;⓹ 특이 케이스를 검사하는 함수 본문을 수정하여 특이 케이스 객체의 속성을 사용하도록 한다.<br>
 &emsp;⓺ 테스트한다.<br>
 
@@ -458,7 +459,7 @@ for (val p in people) {
 **&emsp;⓷ 모두 수정했다면 제어 플래그를 제거한다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMzI4ODcwMCwxMzQ1OTkwMTgzLC0xNj
+eyJoaXN0b3J5IjpbLTg2Mjg1ODI5NywxMzQ1OTkwMTgzLC0xNj
 g2MzkwNDUwLC03OTM5ODIzNTIsMTE1NjI3MTYwOCwtMTUzNTcy
 NjEzMiwtMTc3ODIyOTAyMiwtODk5MTgxMjk1LDIzNDk1ODA0My
 wyMDIwMTU0NjUwLDEyODY4MzYzNjYsLTE5MjMzODg1MywxNzQx
