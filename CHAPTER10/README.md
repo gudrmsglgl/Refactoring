@@ -160,6 +160,15 @@ class NorwegianBlueParrot {
 		- ✅ &nbsp;로직을 슈퍼클래스로 기본에 집중
 		- ✅ &nbsp;변형 동작을 뜻하는 case 들을 각각의 서브클래스로 만든다 ( 기본 동작과의 차이를 표현하는 코드로 채워짐 )
 
+### 📍 절차
+&emsp;⓵ 다형적 동작을 표현하는 클래스들이 없다면 만든다. 이왕이면 적합한 인스턴스를 알아서 만들어 반환하는 팩터리 함수도 생성<br>
+&emsp;⓶ 호출하는 코드에서 팩터리 함수를 상<br>
+&emsp;⓷ 클라이언트에서 특이 케이스인지를 검사하는 코드를 함수로 추출한다.
+    모든 클라이언트가 값을 직접 비교하는 대신 방금 추출한 함수를 사용하도록 고친다.<br>
+&emsp;⓸ 코드에 새로운 특이 케이스 대상을 추가한다. 함수의 반환 값으로 받거나 변환 함수를 적용하면 된다.<br>
+&emsp;⓹ 특이 케이스를 검사하는 함수 본문을 수정하여 특이 케이스 객체의 속성을 사용하도록 한다.<br>
+&emsp;⓺ 테스트한다.<br>
+
 <br>
 <div id='id-section5'/>
 
@@ -449,11 +458,11 @@ for (val p in people) {
 **&emsp;⓷ 모두 수정했다면 제어 플래그를 제거한다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA2OTUwMTA1LDEzNDU5OTAxODMsLTE2OD
-YzOTA0NTAsLTc5Mzk4MjM1MiwxMTU2MjcxNjA4LC0xNTM1NzI2
-MTMyLC0xNzc4MjI5MDIyLC04OTkxODEyOTUsMjM0OTU4MDQzLD
-IwMjAxNTQ2NTAsMTI4NjgzNjM2NiwtMTkyMzM4ODUzLDE3NDEw
-OTkzODYsNDg1NTg5MjA2LC0xOTIzMDY0NTUxLC0xNDg1NzY5Mj
-EwLDEwNDg4ODI2MTYsOTI0MzU2MjMwLDE4MTMzMTU1NzUsNzgy
-Nzc4NzcxXX0=
+eyJoaXN0b3J5IjpbLTUwMzI4ODcwMCwxMzQ1OTkwMTgzLC0xNj
+g2MzkwNDUwLC03OTM5ODIzNTIsMTE1NjI3MTYwOCwtMTUzNTcy
+NjEzMiwtMTc3ODIyOTAyMiwtODk5MTgxMjk1LDIzNDk1ODA0My
+wyMDIwMTU0NjUwLDEyODY4MzYzNjYsLTE5MjMzODg1MywxNzQx
+MDk5Mzg2LDQ4NTU4OTIwNiwtMTkyMzA2NDU1MSwtMTQ4NTc2OT
+IxMCwxMDQ4ODgyNjE2LDkyNDM1NjIzMCwxODEzMzE1NTc1LDc4
+Mjc3ODc3MV19
 -->
