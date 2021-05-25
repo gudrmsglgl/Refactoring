@@ -187,7 +187,10 @@ fun speeds(birds: List<Bird>): Map<Bird> {
 	})
 }
 
-fun plumage(bird: Bird) {}
+fun plumage(bird: Bird) = when (bird.type) {
+   "유럽 제비" -> "보통이다"
+   
+}
 
 ```
 
@@ -481,7 +484,7 @@ for (val p in people) {
 **&emsp;⓷ 모두 수정했다면 제어 플래그를 제거한다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMzIwMTYzNiwtMzQwNjI3MTU4LDE3ND
+eyJoaXN0b3J5IjpbLTc4MzM4OTUzNCwtMzQwNjI3MTU4LDE3ND
 YxMTk3OTAsMTM0NTk5MDE4MywtMTY4NjM5MDQ1MCwtNzkzOTgy
 MzUyLDExNTYyNzE2MDgsLTE1MzU3MjYxMzIsLTE3NzgyMjkwMj
 IsLTg5OTE4MTI5NSwyMzQ5NTgwNDMsMjAyMDE1NDY1MCwxMjg2
