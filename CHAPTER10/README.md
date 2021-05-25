@@ -175,7 +175,11 @@ class NorwegianBlueParrot {
 
 ### Ex. 새의 종에 따른 비행 속도와 깃털 상태
 ```kotlin
-
+fun plumages(birds: List<Bird>): Map<Bird> {
+	return mapOf(birds.map { b ->
+	   
+	})
+}
 ```
 
 
@@ -468,11 +472,11 @@ for (val p in people) {
 **&emsp;⓷ 모두 수정했다면 제어 플래그를 제거한다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIwODU3MDc0LC0zNDA2MjcxNTgsMTc0Nj
-ExOTc5MCwxMzQ1OTkwMTgzLC0xNjg2MzkwNDUwLC03OTM5ODIz
-NTIsMTE1NjI3MTYwOCwtMTUzNTcyNjEzMiwtMTc3ODIyOTAyMi
-wtODk5MTgxMjk1LDIzNDk1ODA0MywyMDIwMTU0NjUwLDEyODY4
-MzYzNjYsLTE5MjMzODg1MywxNzQxMDk5Mzg2LDQ4NTU4OTIwNi
-wtMTkyMzA2NDU1MSwtMTQ4NTc2OTIxMCwxMDQ4ODgyNjE2LDky
-NDM1NjIzMF19
+eyJoaXN0b3J5IjpbLTE0Nzg0MzI1MjUsLTM0MDYyNzE1OCwxNz
+Q2MTE5NzkwLDEzNDU5OTAxODMsLTE2ODYzOTA0NTAsLTc5Mzk4
+MjM1MiwxMTU2MjcxNjA4LC0xNTM1NzI2MTMyLC0xNzc4MjI5MD
+IyLC04OTkxODEyOTUsMjM0OTU4MDQzLDIwMjAxNTQ2NTAsMTI4
+NjgzNjM2NiwtMTkyMzM4ODUzLDE3NDEwOTkzODYsNDg1NTg5Mj
+A2LC0xOTIzMDY0NTUxLC0xNDg1NzY5MjEwLDEwNDg4ODI2MTYs
+OTI0MzU2MjMwXX0=
 -->
