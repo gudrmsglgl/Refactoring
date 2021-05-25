@@ -145,10 +145,13 @@ class AficanSwallo {
 }
 ...
 class NorwegianBlueParrot {
-   val plumage = if (this.voltage > 100) "지쳤다" else "보통이다"
+   val plumage = if (this.voltage > 100) "그을렸다" else "예쁘다"
 }
  
 ```
+
+### 조건부 로직의 복잡성
+
 
 <br>
 <div id='id-section5'/>
@@ -439,7 +442,7 @@ for (val p in people) {
 **&emsp;⓷ 모두 수정했다면 제어 플래그를 제거한다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTMxMjMxODIsMTM0NTk5MDE4MywtMT
+eyJoaXN0b3J5IjpbLTE3MDI3NjMwNzYsMTM0NTk5MDE4MywtMT
 Y4NjM5MDQ1MCwtNzkzOTgyMzUyLDExNTYyNzE2MDgsLTE1MzU3
 MjYxMzIsLTE3NzgyMjkwMjIsLTg5OTE4MTI5NSwyMzQ5NTgwND
 MsMjAyMDE1NDY1MCwxMjg2ODM2MzY2LC0xOTIzMzg4NTMsMTc0
