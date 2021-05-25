@@ -152,7 +152,9 @@ class NorwegianBlueParrot {
 
 ### 🤮 조건부 로직의 복잡성
 - 클래스와 다형성을 이용하여 더 확실하게 분리
-- 
+- 대표적인 예
+	- [x] 타입 기준 switch 문 
+		>타입이 여러 개 -> 각 타입의 조건부 로직을 자신만의 방식으로 처리 
 
 
 <br>
@@ -444,11 +446,11 @@ for (val p in people) {
 **&emsp;⓷ 모두 수정했다면 제어 플래그를 제거한다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg4Mzg5MDE2LDEzNDU5OTAxODMsLTE2OD
-YzOTA0NTAsLTc5Mzk4MjM1MiwxMTU2MjcxNjA4LC0xNTM1NzI2
-MTMyLC0xNzc4MjI5MDIyLC04OTkxODEyOTUsMjM0OTU4MDQzLD
-IwMjAxNTQ2NTAsMTI4NjgzNjM2NiwtMTkyMzM4ODUzLDE3NDEw
-OTkzODYsNDg1NTg5MjA2LC0xOTIzMDY0NTUxLC0xNDg1NzY5Mj
-EwLDEwNDg4ODI2MTYsOTI0MzU2MjMwLDE4MTMzMTU1NzUsNzgy
-Nzc4NzcxXX0=
+eyJoaXN0b3J5IjpbLTIwMTg0ODIyNDYsMTM0NTk5MDE4MywtMT
+Y4NjM5MDQ1MCwtNzkzOTgyMzUyLDExNTYyNzE2MDgsLTE1MzU3
+MjYxMzIsLTE3NzgyMjkwMjIsLTg5OTE4MTI5NSwyMzQ5NTgwND
+MsMjAyMDE1NDY1MCwxMjg2ODM2MzY2LC0xOTIzMzg4NTMsMTc0
+MTA5OTM4Niw0ODU1ODkyMDYsLTE5MjMwNjQ1NTEsLTE0ODU3Nj
+kyMTAsMTA0ODg4MjYxNiw5MjQzNTYyMzAsMTgxMzMxNTU3NSw3
+ODI3Nzg3NzFdfQ==
 -->
