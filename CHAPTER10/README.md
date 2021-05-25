@@ -155,7 +155,9 @@ class NorwegianBlueParrot {
 - 대표적인 예
 	- [x] 타입 기준 switch 문 
 		- 타입이 여러 개 -> 각 타입의 조건부 로직을 자신만의 방식으로 처리 
-	- [x] 기본 동작을 위한 
+		- ✅  case별로 클래스를 하나씩 만들어 공통 switch 로직의 중복을 없앰 
+	- [x] 기본 동작을 위한 case 문과 그 변형 동작으로 구성된 로직
+	
 
 <br>
 <div id='id-section5'/>
@@ -446,11 +448,11 @@ for (val p in people) {
 **&emsp;⓷ 모두 수정했다면 제어 플래그를 제거한다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NjYxODgyNiwxMzQ1OTkwMTgzLC0xNj
-g2MzkwNDUwLC03OTM5ODIzNTIsMTE1NjI3MTYwOCwtMTUzNTcy
-NjEzMiwtMTc3ODIyOTAyMiwtODk5MTgxMjk1LDIzNDk1ODA0My
-wyMDIwMTU0NjUwLDEyODY4MzYzNjYsLTE5MjMzODg1MywxNzQx
-MDk5Mzg2LDQ4NTU4OTIwNiwtMTkyMzA2NDU1MSwtMTQ4NTc2OT
-IxMCwxMDQ4ODgyNjE2LDkyNDM1NjIzMCwxODEzMzE1NTc1LDc4
-Mjc3ODc3MV19
+eyJoaXN0b3J5IjpbLTE4ODM1NDg2NjUsMTM0NTk5MDE4MywtMT
+Y4NjM5MDQ1MCwtNzkzOTgyMzUyLDExNTYyNzE2MDgsLTE1MzU3
+MjYxMzIsLTE3NzgyMjkwMjIsLTg5OTE4MTI5NSwyMzQ5NTgwND
+MsMjAyMDE1NDY1MCwxMjg2ODM2MzY2LC0xOTIzMzg4NTMsMTc0
+MTA5OTM4Niw0ODU1ODkyMDYsLTE5MjMwNjQ1NTEsLTE0ODU3Nj
+kyMTAsMTA0ODg4MjYxNiw5MjQzNTYyMzAsMTgxMzMxNTU3NSw3
+ODI3Nzg3NzFdfQ==
 -->
