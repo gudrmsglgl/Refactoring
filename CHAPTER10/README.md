@@ -214,6 +214,14 @@ fun plumage(bird: Bird) { // 깃털 상태
 fun airSpeedVelocity(bird: Bird) { // 비행 속도
    return Bird(bird).airSpeedVelocity
 }
+
+class Bird(private val bird: Bird) {
+
+   val plumage
+
+}
+
+
 ```
 
 
@@ -508,7 +516,7 @@ for (val p in people) {
 **&emsp;⓷ 모두 수정했다면 제어 플래그를 제거한다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNDAzNzY1MCwtMzQwNjI3MTU4LDE3ND
+eyJoaXN0b3J5IjpbLTQ4ODg5NzI3OCwtMzQwNjI3MTU4LDE3ND
 YxMTk3OTAsMTM0NTk5MDE4MywtMTY4NjM5MDQ1MCwtNzkzOTgy
 MzUyLDExNTYyNzE2MDgsLTE1MzU3MjYxMzIsLTE3NzgyMjkwMj
 IsLTg5OTE4MTI5NSwyMzQ5NTgwNDMsMjAyMDE1NDY1MCwxMjg2
