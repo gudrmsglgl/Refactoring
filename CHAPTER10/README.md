@@ -3,6 +3,7 @@
 [조건문 분해하기](#id-section1)<br>
 [조건식 통합하기](#id-section2)<br>
 [중첩 조건문을 보호 구문으로 바꾸기](#id-section3)<br>
+[조건부 로직을 다형성으로 바꾸기](#id-section4)<br>
 [특이 케이스 추가하기](#id-section5)<br>
 [제어 플래그를 탈출문으로 바꾸기](#id-section7)<br>
 
@@ -119,6 +120,39 @@ fun getPayAmount() {
 - 보호 구문
 	- 💬 "이건 이 함수의 핵심이 아니다. **이 일이 일어나면 무언가 조치를 취한 후 함수에서 빠져나온다**" 전달.
 
+
+<br>
+<div id='id-section4'/>
+
+## 10.4 조건부 로직을 다형성으로 바꾸기 Replace Conditional with Polymo
+
+```kotlin
+fun getPayAmount() {
+   var result = 0
+   if (isDead)
+      result = deadAmount()
+   else {
+      if (isSeparated)
+         result = separatedAmount()
+      else {
+         if (isRetried)
+            result = retiredAmount()
+         else 
+            result = normalPayAmount()   
+      }   
+   }
+   return result   
+}
+```
+**🔻  중첩 조건문을 보호 구문으로 바꾸기**
+```kotlin
+fun getPayAmount() {
+   if (isDead) return deadAmount()
+   if (isSeparated) return separatedAmount()
+   if (isRetried) return retiredAmount()
+   return normalPayAmount()   
+}
+```
 
 <br>
 <div id='id-section5'/>
@@ -409,11 +443,11 @@ for (val p in people) {
 **&emsp;⓷ 모두 수정했다면 제어 플래그를 제거한다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjY1NTI2MTgsMTM0NTk5MDE4MywtMT
-Y4NjM5MDQ1MCwtNzkzOTgyMzUyLDExNTYyNzE2MDgsLTE1MzU3
-MjYxMzIsLTE3NzgyMjkwMjIsLTg5OTE4MTI5NSwyMzQ5NTgwND
-MsMjAyMDE1NDY1MCwxMjg2ODM2MzY2LC0xOTIzMzg4NTMsMTc0
-MTA5OTM4Niw0ODU1ODkyMDYsLTE5MjMwNjQ1NTEsLTE0ODU3Nj
-kyMTAsMTA0ODg4MjYxNiw5MjQzNTYyMzAsMTgxMzMxNTU3NSw3
-ODI3Nzg3NzFdfQ==
+eyJoaXN0b3J5IjpbNzYyNDQxMzg4LDEzNDU5OTAxODMsLTE2OD
+YzOTA0NTAsLTc5Mzk4MjM1MiwxMTU2MjcxNjA4LC0xNTM1NzI2
+MTMyLC0xNzc4MjI5MDIyLC04OTkxODEyOTUsMjM0OTU4MDQzLD
+IwMjAxNTQ2NTAsMTI4NjgzNjM2NiwtMTkyMzM4ODUzLDE3NDEw
+OTkzODYsNDg1NTg5MjA2LC0xOTIzMDY0NTUxLC0xNDg1NzY5Mj
+EwLDEwNDg4ODI2MTYsOTI0MzU2MjMwLDE4MTMzMTU1NzUsNzgy
+Nzc4NzcxXX0=
 -->
