@@ -201,6 +201,8 @@ fun airSpeedVelocity(bird: Bird) = when (bird.type) { // 비행 속도
    else -> null
 }
 ```
+**🔻  가장 먼저 airSpeedVelocity()와 plumage()를 Bird라는 클래스로 묶어보자( 여러 함수를 클래스로 묶기 )**
+
 
 
 
@@ -494,11 +496,11 @@ for (val p in people) {
 **&emsp;⓷ 모두 수정했다면 제어 플래그를 제거한다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0OTc5NDEzNCwtMzQwNjI3MTU4LDE3ND
-YxMTk3OTAsMTM0NTk5MDE4MywtMTY4NjM5MDQ1MCwtNzkzOTgy
-MzUyLDExNTYyNzE2MDgsLTE1MzU3MjYxMzIsLTE3NzgyMjkwMj
-IsLTg5OTE4MTI5NSwyMzQ5NTgwNDMsMjAyMDE1NDY1MCwxMjg2
-ODM2MzY2LC0xOTIzMzg4NTMsMTc0MTA5OTM4Niw0ODU1ODkyMD
-YsLTE5MjMwNjQ1NTEsLTE0ODU3NjkyMTAsMTA0ODg4MjYxNiw5
-MjQzNTYyMzBdfQ==
+eyJoaXN0b3J5IjpbLTEyOTg1NTQ0NTgsLTM0MDYyNzE1OCwxNz
+Q2MTE5NzkwLDEzNDU5OTAxODMsLTE2ODYzOTA0NTAsLTc5Mzk4
+MjM1MiwxMTU2MjcxNjA4LC0xNTM1NzI2MTMyLC0xNzc4MjI5MD
+IyLC04OTkxODEyOTUsMjM0OTU4MDQzLDIwMjAxNTQ2NTAsMTI4
+NjgzNjM2NiwtMTkyMzM4ODUzLDE3NDEwOTkzODYsNDg1NTg5Mj
+A2LC0xOTIzMDY0NTUxLC0xNDg1NzY5MjEwLDEwNDg4ODI2MTYs
+OTI0MzU2MjMwXX0=
 -->
