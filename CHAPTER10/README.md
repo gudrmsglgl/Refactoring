@@ -201,8 +201,38 @@ fun airSpeedVelocity(bird: Bird) = when (bird.type) { // 비행 속도
    else -> null
 }
 ```
+<br>
+
+- 새 종류에 따라 다르게 동작하는 함수가 보이니 종류별 클래스를 만들어서 각각에 맞는 동작 표현
 **🔻  가장 먼저 airSpeedVelocity()와 plumage()를 Bird라는 클래스로 묶어보자( 여러 함수를 클래스로 묶기 )**
 
+```kotlin
+fun plumages(birds: List<Bird>): Map<Bird> {
+	return mapOf(birds.map { b ->
+	   b.name to plumage(b)
+	})
+}
+
+fun speeds(birds: List<Bird>): Map<Bird> {
+	return mapOf(birds.map { b ->
+	   b.name to airSpeedVelocity(b)
+	})
+}
+
+fun plumage(bird: Bird) = when (bird.type) { // 깃털 상태
+   "유럽 제비" -> "보통이다"
+   "아프리카 제비" -> if (bird.numberOfCounts > 2) "지쳤다" else "보통이다"
+   "노르웨이 파랑 앵무" -> if (bird.voltage > 100) "그을렸다" else "예쁘다"
+   else -> "알 수 없다"
+}
+
+fun airSpeedVelocity(bird: Bird) = when (bird.type) { // 비행 속도
+   "유럽 제비" -> 35
+   "아프리카 제비" -> 40 - 2 * bird.numberOfCoconuts
+   "노르웨이 파랑 앵무" -> if (bird.isNailed) 0 else 10 + bird.voltage / 10
+   else -> null
+}
+```
 
 
 
@@ -496,7 +526,7 @@ for (val p in people) {
 **&emsp;⓷ 모두 수정했다면 제어 플래그를 제거한다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTg1NTQ0NTgsLTM0MDYyNzE1OCwxNz
+eyJoaXN0b3J5IjpbLTE1MjQzMDEzNjYsLTM0MDYyNzE1OCwxNz
 Q2MTE5NzkwLDEzNDU5OTAxODMsLTE2ODYzOTA0NTAsLTc5Mzk4
 MjM1MiwxMTU2MjcxNjA4LC0xNTM1NzI2MTMyLC0xNzc4MjI5MD
 IyLC04OTkxODEyOTUsMjM0OTU4MDQzLDIwMjAxNTQ2NTAsMTI4
