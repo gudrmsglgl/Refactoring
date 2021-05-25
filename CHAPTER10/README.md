@@ -204,7 +204,7 @@ fun airSpeedVelocity(bird: Bird) = when (bird.type) { // 비행 속도
 <br>
 
 - 새 종류에 따라 다르게 동작하는 함수가 보이니 종류별 클래스를 만들어서 각각에 맞는 동작 표현
-**🔻  가장 먼저 airSpeedVelocity()와 plumage()를 Bird라는 클래스로 묶어보자( 여러 함수를 클래스로 묶기 )**
+**🔻  ⓷ 가장 먼저 airSpeedVelocity()와 plumage()를 Bird라는 클래스로 묶어보자( 여러 함수를 클래스로 묶기 )**
 
 ```kotlin
 fun plumage(bird: Bird) { // 깃털 상태
@@ -224,16 +224,16 @@ class Bird(private val bird: Bird) {
       else -> "알 수 없다"
    }
    
-   val airSpeedVelocity = = when (bird.type) { // 비행 속도
-   "유럽 제비" -> 35
-   "아프리카 제비" -> 40 - 2 * bird.numberOfCoconuts
-   "노르웨이 파랑 앵무" -> if (bird.isNailed) 0 else 10 + bird.voltage / 10
-   else -> null
+   val airSpeedVelocity = when (bird.type) { // 비행 속도
+      "유럽 제비" -> 35
+      "아프리카 제비" -> 40 - 2 * bird.numberOfCoconuts
+      "노르웨이 파랑 앵무" -> if (bird.isNailed) 0 else 10 + bird.voltage / 10
+      else -> null
+   }
+   
 }
-}
-
-
 ```
+**🔻  ⓷ 가장 먼저 airSpeedVelocity()와 plumage()를 Bird라는 클래스로 묶어보자( 여러 함수를 클래스로 묶기 )**
 
 
 
@@ -527,7 +527,7 @@ for (val p in people) {
 **&emsp;⓷ 모두 수정했다면 제어 플래그를 제거한다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNjAyNjUzOCwtMzQwNjI3MTU4LDE3ND
+eyJoaXN0b3J5IjpbLTIzMDE3MjMyNywtMzQwNjI3MTU4LDE3ND
 YxMTk3OTAsMTM0NTk5MDE4MywtMTY4NjM5MDQ1MCwtNzkzOTgy
 MzUyLDExNTYyNzE2MDgsLTE1MzU3MjYxMzIsLTE3NzgyMjkwMj
 IsLTg5OTE4MTI5NSwyMzQ5NTgwNDMsMjAyMDE1NDY1MCwxMjg2
