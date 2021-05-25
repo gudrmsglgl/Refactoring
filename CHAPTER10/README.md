@@ -124,24 +124,12 @@ fun getPayAmount() {
 <br>
 <div id='id-section4'/>
 
-## 10.4 조건부 로직을 다형성으로 바꾸기 Replace Conditional with Polymo
+## 10.4 조건부 로직을 다형성으로 바꾸기 Replace Conditional with Polymorphism
 
 ```kotlin
-fun getPayAmount() {
-   var result = 0
-   if (isDead)
-      result = deadAmount()
-   else {
-      if (isSeparated)
-         result = separatedAmount()
-      else {
-         if (isRetried)
-            result = retiredAmount()
-         else 
-            result = normalPayAmount()   
-      }   
-   }
-   return result   
+when (bird.type) {
+   is "유럽 제비" -> return "보통이다"
+   is "아프리카 제비" -> return (bird.numberOfCounts > 2) "
 }
 ```
 **🔻  중첩 조건문을 보호 구문으로 바꾸기**
@@ -443,11 +431,11 @@ for (val p in people) {
 **&emsp;⓷ 모두 수정했다면 제어 플래그를 제거한다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYyNDQxMzg4LDEzNDU5OTAxODMsLTE2OD
-YzOTA0NTAsLTc5Mzk4MjM1MiwxMTU2MjcxNjA4LC0xNTM1NzI2
-MTMyLC0xNzc4MjI5MDIyLC04OTkxODEyOTUsMjM0OTU4MDQzLD
-IwMjAxNTQ2NTAsMTI4NjgzNjM2NiwtMTkyMzM4ODUzLDE3NDEw
-OTkzODYsNDg1NTg5MjA2LC0xOTIzMDY0NTUxLC0xNDg1NzY5Mj
-EwLDEwNDg4ODI2MTYsOTI0MzU2MjMwLDE4MTMzMTU1NzUsNzgy
-Nzc4NzcxXX0=
+eyJoaXN0b3J5IjpbMTM5MzA2MDQ4MSwxMzQ1OTkwMTgzLC0xNj
+g2MzkwNDUwLC03OTM5ODIzNTIsMTE1NjI3MTYwOCwtMTUzNTcy
+NjEzMiwtMTc3ODIyOTAyMiwtODk5MTgxMjk1LDIzNDk1ODA0My
+wyMDIwMTU0NjUwLDEyODY4MzYzNjYsLTE5MjMzODg1MywxNzQx
+MDk5Mzg2LDQ4NTU4OTIwNiwtMTkyMzA2NDU1MSwtMTQ4NTc2OT
+IxMCwxMDQ4ODgyNjE2LDkyNDM1NjIzMCwxODEzMzE1NTc1LDc4
+Mjc3ODc3MV19
 -->
