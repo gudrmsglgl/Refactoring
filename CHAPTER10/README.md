@@ -203,7 +203,7 @@ fun airSpeedVelocity(bird: Bird) = when (bird.type) { // 비행 속도
 ```
 <br>
 
-- 새 종류에 따라 다르게 동작하는 함수가 보이니 종류별 클래스를 만들어서 각각에 맞는 동작 표현
+- 새 종류에 따라 다르게 동작하는 함수가 보이니 종류별 클래스를 만들어서 각각에 맞는 동작 표현<br>
 **🔻  ⓷ 가장 먼저 airSpeedVelocity()와 plumage()를 Bird라는 클래스로 묶어보자( 여러 함수를 클래스로 묶기 )**
 
 ```kotlin
@@ -233,7 +233,7 @@ class Bird(private val bird: Bird) {
    
 }
 ```
-**🔻  ⓵ 종별 서브클래스를 만든다.
+**🔻  ⓵ 종별 서브클래스를 만든다.<br>
 &emsp; &emsp;&emsp;적합한 서브클래스의 인스턴스를 만들어줄 팩터리 함수도 잊지말자.**
 &emsp;&nbsp; **⓶그리고 나서 객체를 얻을 때 팩터리 함수를 사용하도록 수정**
 
@@ -555,7 +555,7 @@ for (val p in people) {
 **&emsp;⓷ 모두 수정했다면 제어 플래그를 제거한다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMzQzMDM0MSwxNzQ0ODgyMjAxLDYxND
+eyJoaXN0b3J5IjpbMTg1NTYwNDUxMSwxNzQ0ODgyMjAxLDYxND
 gyMjc3NywtMTc1MTQ0ODc4MywtMzQwNjI3MTU4LDE3NDYxMTk3
 OTAsMTM0NTk5MDE4MywtMTY4NjM5MDQ1MCwtNzkzOTgyMzUyLD
 ExNTYyNzE2MDgsLTE1MzU3MjYxMzIsLTE3NzgyMjkwMjIsLTg5
