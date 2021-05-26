@@ -280,6 +280,8 @@ class Bird(private val bird: Bird) {
 }   
 ```
 
+**🔻&nbsp;⓸ switch문의 절 하나를 선택해 해당 서브클래스에서 오버라이드한다.<br>**
+
 <br>
 <div id='id-section5'/>
 
@@ -569,11 +571,11 @@ for (val p in people) {
 **&emsp;⓷ 모두 수정했다면 제어 플래그를 제거한다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIxNTk1MzEsMTQyNzI4Njc0MywtMTkwOD
-E0NCwxNzQ0ODgyMjAxLDYxNDgyMjc3NywtMTc1MTQ0ODc4Mywt
-MzQwNjI3MTU4LDE3NDYxMTk3OTAsMTM0NTk5MDE4MywtMTY4Nj
-M5MDQ1MCwtNzkzOTgyMzUyLDExNTYyNzE2MDgsLTE1MzU3MjYx
-MzIsLTE3NzgyMjkwMjIsLTg5OTE4MTI5NSwyMzQ5NTgwNDMsMj
-AyMDE1NDY1MCwxMjg2ODM2MzY2LC0xOTIzMzg4NTMsMTc0MTA5
-OTM4Nl19
+eyJoaXN0b3J5IjpbLTU5MTM2MTUwOSwxNDI3Mjg2NzQzLC0xOT
+A4MTQ0LDE3NDQ4ODIyMDEsNjE0ODIyNzc3LC0xNzUxNDQ4Nzgz
+LC0zNDA2MjcxNTgsMTc0NjExOTc5MCwxMzQ1OTkwMTgzLC0xNj
+g2MzkwNDUwLC03OTM5ODIzNTIsMTE1NjI3MTYwOCwtMTUzNTcy
+NjEzMiwtMTc3ODIyOTAyMiwtODk5MTgxMjk1LDIzNDk1ODA0My
+wyMDIwMTU0NjUwLDEyODY4MzYzNjYsLTE5MjMzODg1MywxNzQx
+MDk5Mzg2XX0=
 -->
