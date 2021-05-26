@@ -245,7 +245,10 @@ fun airSpeedVelocity(bird: Bird) {
    return createBird(bird).airSpeedVelocity
 }
 
-fun createBird(
+fun createBird(bird: Bird) = when (bird.type) {
+   "유럽 제비" -> EuropeanSwallow(bird)
+   "아프리카 제비" -> 
+}
 ```
 
 
@@ -539,7 +542,7 @@ for (val p in people) {
 **&emsp;⓷ 모두 수정했다면 제어 플래그를 제거한다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyODI5Nzg2NCwtMTc1MTQ0ODc4MywtMz
+eyJoaXN0b3J5IjpbLTMyNDA0ODI5NSwtMTc1MTQ0ODc4MywtMz
 QwNjI3MTU4LDE3NDYxMTk3OTAsMTM0NTk5MDE4MywtMTY4NjM5
 MDQ1MCwtNzkzOTgyMzUyLDExNTYyNzE2MDgsLTE1MzU3MjYxMz
 IsLTE3NzgyMjkwMjIsLTg5OTE4MTI5NSwyMzQ5NTgwNDMsMjAy
