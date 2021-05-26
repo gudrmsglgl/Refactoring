@@ -292,17 +292,14 @@ class NorwegianBlueParrot: Bird {
 }
 ```
 
-**🔻&nbsp;⓹ 다음 조건절을 처리한다.<br>**
+**🔻&nbsp;⓺ 슈퍼클래스의 메서드는 기본 동작용으로 남겨놓는다.<br>**
 
 ```kotlin
-class AfricanSwallow: Bird {
-   val plumage = if (this.numberOfCounts > 2) "지쳤다" else "보통이다"
-}
+class Bird(private val bird: Bird) {
 
-class NorwegianBlueParrot: Bird {
-   val plumage = if (this.voltage > 100) "그을렸다" else "예쁘다"
-}
+   val plumage = "알 수 없다"
    
+}   
 ```
 
 <br>
@@ -594,7 +591,7 @@ for (val p in people) {
 **&emsp;⓷ 모두 수정했다면 제어 플래그를 제거한다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzQ1NDIyNzMsMTQyNzI4Njc0MywtMT
+eyJoaXN0b3J5IjpbLTEzMjMzMzE0MjIsMTQyNzI4Njc0MywtMT
 kwODE0NCwxNzQ0ODgyMjAxLDYxNDgyMjc3NywtMTc1MTQ0ODc4
 MywtMzQwNjI3MTU4LDE3NDYxMTk3OTAsMTM0NTk5MDE4MywtMT
 Y4NjM5MDQ1MCwtNzkzOTgyMzUyLDExNTYyNzE2MDgsLTE1MzU3
