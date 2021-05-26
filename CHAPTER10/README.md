@@ -267,13 +267,15 @@ class NorwegianBlueParrot: Bird {
 class EuropeanSwallow: Bird {
    val plumage = "보통이다"
 }
+class Bird(private val bird: Bird) {
 
-class AfricanSwallow: Bird {
-}
-
-class NorwegianBlueParrot: Bird {
-}
-
+   val plumage = when (bird.type) { // 깃털 상태
+      "유럽 제비" -> throw "오류 발생"
+      "아프리카 제비" -> if (bird.numberOfCounts > 2) "지쳤다" else "보통이다"
+      "노르웨이 파랑 앵무" -> if (bird.voltage > 100) "그을렸다" else "예쁘다"
+      else -> "알 수 없다"
+   }
+}   
 ```
 
 <br>
@@ -565,11 +567,11 @@ for (val p in people) {
 **&emsp;⓷ 모두 수정했다면 제어 플래그를 제거한다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDgxNDQsMTc0NDg4MjIwMSw2MTQ4Mj
-I3NzcsLTE3NTE0NDg3ODMsLTM0MDYyNzE1OCwxNzQ2MTE5Nzkw
-LDEzNDU5OTAxODMsLTE2ODYzOTA0NTAsLTc5Mzk4MjM1MiwxMT
-U2MjcxNjA4LC0xNTM1NzI2MTMyLC0xNzc4MjI5MDIyLC04OTkx
-ODEyOTUsMjM0OTU4MDQzLDIwMjAxNTQ2NTAsMTI4NjgzNjM2Ni
-wtMTkyMzM4ODUzLDE3NDEwOTkzODYsNDg1NTg5MjA2LC0xOTIz
-MDY0NTUxXX0=
+eyJoaXN0b3J5IjpbMTQyNzI4Njc0MywtMTkwODE0NCwxNzQ0OD
+gyMjAxLDYxNDgyMjc3NywtMTc1MTQ0ODc4MywtMzQwNjI3MTU4
+LDE3NDYxMTk3OTAsMTM0NTk5MDE4MywtMTY4NjM5MDQ1MCwtNz
+kzOTgyMzUyLDExNTYyNzE2MDgsLTE1MzU3MjYxMzIsLTE3Nzgy
+MjkwMjIsLTg5OTE4MTI5NSwyMzQ5NTgwNDMsMjAyMDE1NDY1MC
+wxMjg2ODM2MzY2LC0xOTIzMzg4NTMsMTc0MTA5OTM4Niw0ODU1
+ODkyMDZdfQ==
 -->
