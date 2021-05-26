@@ -282,6 +282,22 @@ class Bird(private val bird: Bird) {
 
 **🔻&nbsp;⓹ 다음 조건절을 처리한다.<br>**
 
+```kotlin
+class EuropeanSwallow: Bird {
+   val plumage = "보통이다"
+}
+
+class Bird(private val bird: Bird) {
+
+   val plumage = when (bird.type) { // 깃털 상태
+      "유럽 제비" -> throw "오류 발생"
+      "아프리카 제비" -> if (bird.numberOfCounts > 2) "지쳤다" else "보통이다"
+      "노르웨이 파랑 앵무" -> if (bird.voltage > 100) "그을렸다" else "예쁘다"
+      else -> "알 수 없다"
+   }
+   
+}   
+```
 
 <br>
 <div id='id-section5'/>
@@ -572,7 +588,7 @@ for (val p in people) {
 **&emsp;⓷ 모두 수정했다면 제어 플래그를 제거한다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MDc3NTU5NiwxNDI3Mjg2NzQzLC0xOT
+eyJoaXN0b3J5IjpbLTM1NDE2NjEzMCwxNDI3Mjg2NzQzLC0xOT
 A4MTQ0LDE3NDQ4ODIyMDEsNjE0ODIyNzc3LC0xNzUxNDQ4Nzgz
 LC0zNDA2MjcxNTgsMTc0NjExOTc5MCwxMzQ1OTkwMTgzLC0xNj
 g2MzkwNDUwLC03OTM5ODIzNTIsMTE1NjI3MTYwOCwtMTUzNTcy
