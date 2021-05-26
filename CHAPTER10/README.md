@@ -251,6 +251,16 @@ fun createBird(bird: Bird) = when (bird.type) {
    "노르웨이 파랑 무새" -> NorwegianBlueParrot(bird)
    else -> Bird(bird)
 }
+
+class EuropeanSwallow: Bird {
+}
+
+class EuropeanSwallow: Bird {
+}
+
+class EuropeanSwallow: Bird {
+}
+
 ```
 
 
@@ -544,11 +554,11 @@ for (val p in people) {
 **&emsp;⓷ 모두 수정했다면 제어 플래그를 제거한다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE0ODIyNzc3LC0xNzUxNDQ4NzgzLC0zND
-A2MjcxNTgsMTc0NjExOTc5MCwxMzQ1OTkwMTgzLC0xNjg2Mzkw
-NDUwLC03OTM5ODIzNTIsMTE1NjI3MTYwOCwtMTUzNTcyNjEzMi
-wtMTc3ODIyOTAyMiwtODk5MTgxMjk1LDIzNDk1ODA0MywyMDIw
-MTU0NjUwLDEyODY4MzYzNjYsLTE5MjMzODg1MywxNzQxMDk5Mz
-g2LDQ4NTU4OTIwNiwtMTkyMzA2NDU1MSwtMTQ4NTc2OTIxMCwx
-MDQ4ODgyNjE2XX0=
+eyJoaXN0b3J5IjpbMjE0MjQ3NjkyOCw2MTQ4MjI3NzcsLTE3NT
+E0NDg3ODMsLTM0MDYyNzE1OCwxNzQ2MTE5NzkwLDEzNDU5OTAx
+ODMsLTE2ODYzOTA0NTAsLTc5Mzk4MjM1MiwxMTU2MjcxNjA4LC
+0xNTM1NzI2MTMyLC0xNzc4MjI5MDIyLC04OTkxODEyOTUsMjM0
+OTU4MDQzLDIwMjAxNTQ2NTAsMTI4NjgzNjM2NiwtMTkyMzM4OD
+UzLDE3NDEwOTkzODYsNDg1NTg5MjA2LC0xOTIzMDY0NTUxLC0x
+NDg1NzY5MjEwXX0=
 -->
