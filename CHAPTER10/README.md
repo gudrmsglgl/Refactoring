@@ -303,7 +303,9 @@ class Bird(private val bird: Bird) {
 **🔻&nbsp; 코드 정리<br>**
 ```kotlin
 fun plumages(birds: List<Bird>) {
-   return mapOf(
+   return mapOf(birds
+		   .map { b -> createBird(b) }
+		   .map { bird -> bird.name to bird.plumage }
 }
 fun plumage(bird: Bird) {
    return createBird(bird).plumage
@@ -620,7 +622,7 @@ for (val p in people) {
 **&emsp;⓷ 모두 수정했다면 제어 플래그를 제거한다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNDI1Mzc4NSwzMDQxOTY2NDQsMTQyNz
+eyJoaXN0b3J5IjpbLTg1ODgzMDQ5MSwzMDQxOTY2NDQsMTQyNz
 I4Njc0MywtMTkwODE0NCwxNzQ0ODgyMjAxLDYxNDgyMjc3Nywt
 MTc1MTQ0ODc4MywtMzQwNjI3MTU4LDE3NDYxMTk3OTAsMTM0NT
 k5MDE4MywtMTY4NjM5MDQ1MCwtNzkzOTgyMzUyLDExNTYyNzE2
