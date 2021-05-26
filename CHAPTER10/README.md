@@ -263,9 +263,7 @@ class NorwegianBlueParrot: Bird {
 }
 
 ```
-**🔻  &emsp;⓸ switch<br>
-&emsp; &emsp;적합한 서브클래스의 인스턴스를 만들어줄 팩터리 함수도 잊지말자.**<br>
-&emsp; **⓶ 그리고 나서 객체를 얻을 때 팩터리 함수를 사용하도록 수정**
+**🔻⓸ switch문의 절 하나를 선택해 해당 서브클래스에서 오버라이드한다.<br>**
 
 
 <br>
@@ -557,7 +555,7 @@ for (val p in people) {
 **&emsp;⓷ 모두 수정했다면 제어 플래그를 제거한다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU5NTAyNzE2LDE3NDQ4ODIyMDEsNjE0OD
+eyJoaXN0b3J5IjpbNTU4NzEyNjIxLDE3NDQ4ODIyMDEsNjE0OD
 IyNzc3LC0xNzUxNDQ4NzgzLC0zNDA2MjcxNTgsMTc0NjExOTc5
 MCwxMzQ1OTkwMTgzLC0xNjg2MzkwNDUwLC03OTM5ODIzNTIsMT
 E1NjI3MTYwOCwtMTUzNTcyNjEzMiwtMTc3ODIyOTAyMiwtODk5
