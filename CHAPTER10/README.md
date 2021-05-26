@@ -235,7 +235,7 @@ class Bird(private val bird: Bird) {
 ```
 **🔻  ⓵ 종별 서브클래스를 만든다.<br>
 &emsp; &emsp;적합한 서브클래스의 인스턴스를 만들어줄 팩터리 함수도 잊지말자.**<br>
-&emsp;&nbsp; **⓶그리고 나서 객체를 얻을 때 팩터리 함수를 사용하도록 수정**
+&emsp;&nbsp; **⓶ 그리고 나서 객체를 얻을 때 팩터리 함수를 사용하도록 수정**
 
 ```kotlin
 fun plumage(bird: Bird) {
@@ -555,11 +555,11 @@ for (val p in people) {
 **&emsp;⓷ 모두 수정했다면 제어 플래그를 제거한다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODE2OTc2MDksMTc0NDg4MjIwMSw2MT
-Q4MjI3NzcsLTE3NTE0NDg3ODMsLTM0MDYyNzE1OCwxNzQ2MTE5
-NzkwLDEzNDU5OTAxODMsLTE2ODYzOTA0NTAsLTc5Mzk4MjM1Mi
-wxMTU2MjcxNjA4LC0xNTM1NzI2MTMyLC0xNzc4MjI5MDIyLC04
-OTkxODEyOTUsMjM0OTU4MDQzLDIwMjAxNTQ2NTAsMTI4NjgzNj
-M2NiwtMTkyMzM4ODUzLDE3NDEwOTkzODYsNDg1NTg5MjA2LC0x
-OTIzMDY0NTUxXX0=
+eyJoaXN0b3J5IjpbLTU1MjU0NjM1MSwxNzQ0ODgyMjAxLDYxND
+gyMjc3NywtMTc1MTQ0ODc4MywtMzQwNjI3MTU4LDE3NDYxMTk3
+OTAsMTM0NTk5MDE4MywtMTY4NjM5MDQ1MCwtNzkzOTgyMzUyLD
+ExNTYyNzE2MDgsLTE1MzU3MjYxMzIsLTE3NzgyMjkwMjIsLTg5
+OTE4MTI5NSwyMzQ5NTgwNDMsMjAyMDE1NDY1MCwxMjg2ODM2Mz
+Y2LC0xOTIzMzg4NTMsMTc0MTA5OTM4Niw0ODU1ODkyMDYsLTE5
+MjMwNjQ1NTFdfQ==
 -->
