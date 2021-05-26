@@ -261,9 +261,8 @@ class AfricanSwallow: Bird {
 
 class NorwegianBlueParrot: Bird {
 }
-
 ```
-**🔻&emsp;⓸ switch문의 절 하나를 선택해 해당 서브클래스에서 오버라이드한다.<br>**
+**🔻&nbsp;⓸ switch문의 절 하나를 선택해 해당 서브클래스에서 오버라이드한다.<br>**
 
 
 <br>
@@ -555,11 +554,11 @@ for (val p in people) {
 **&emsp;⓷ 모두 수정했다면 제어 플래그를 제거한다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTAxNjMyMDMsMTc0NDg4MjIwMSw2MT
-Q4MjI3NzcsLTE3NTE0NDg3ODMsLTM0MDYyNzE1OCwxNzQ2MTE5
-NzkwLDEzNDU5OTAxODMsLTE2ODYzOTA0NTAsLTc5Mzk4MjM1Mi
-wxMTU2MjcxNjA4LC0xNTM1NzI2MTMyLC0xNzc4MjI5MDIyLC04
-OTkxODEyOTUsMjM0OTU4MDQzLDIwMjAxNTQ2NTAsMTI4NjgzNj
-M2NiwtMTkyMzM4ODUzLDE3NDEwOTkzODYsNDg1NTg5MjA2LC0x
-OTIzMDY0NTUxXX0=
+eyJoaXN0b3J5IjpbLTQ1OTI2MTEyOSwxNzQ0ODgyMjAxLDYxND
+gyMjc3NywtMTc1MTQ0ODc4MywtMzQwNjI3MTU4LDE3NDYxMTk3
+OTAsMTM0NTk5MDE4MywtMTY4NjM5MDQ1MCwtNzkzOTgyMzUyLD
+ExNTYyNzE2MDgsLTE1MzU3MjYxMzIsLTE3NzgyMjkwMjIsLTg5
+OTE4MTI5NSwyMzQ5NTgwNDMsMjAyMDE1NDY1MCwxMjg2ODM2Mz
+Y2LC0xOTIzMzg4NTMsMTc0MTA5OTM4Niw0ODU1ODkyMDYsLTE5
+MjMwNjQ1NTFdfQ==
 -->
