@@ -247,7 +247,9 @@ fun airSpeedVelocity(bird: Bird) {
 
 fun createBird(bird: Bird) = when (bird.type) {
    "유럽 제비" -> EuropeanSwallow(bird)
-   "아프리카 제비" -> 
+   "아프리카 제비" -> AfricanSwallow(bird)
+   "노르웨이 파랑 무새" -> NorwegianBlueParrot(bird)
+   else -> Bird(bird)
 }
 ```
 
@@ -542,11 +544,11 @@ for (val p in people) {
 **&emsp;⓷ 모두 수정했다면 제어 플래그를 제거한다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNDA0ODI5NSwtMTc1MTQ0ODc4MywtMz
-QwNjI3MTU4LDE3NDYxMTk3OTAsMTM0NTk5MDE4MywtMTY4NjM5
-MDQ1MCwtNzkzOTgyMzUyLDExNTYyNzE2MDgsLTE1MzU3MjYxMz
-IsLTE3NzgyMjkwMjIsLTg5OTE4MTI5NSwyMzQ5NTgwNDMsMjAy
-MDE1NDY1MCwxMjg2ODM2MzY2LC0xOTIzMzg4NTMsMTc0MTA5OT
-M4Niw0ODU1ODkyMDYsLTE5MjMwNjQ1NTEsLTE0ODU3NjkyMTAs
-MTA0ODg4MjYxNl19
+eyJoaXN0b3J5IjpbNjE0ODIyNzc3LC0xNzUxNDQ4NzgzLC0zND
+A2MjcxNTgsMTc0NjExOTc5MCwxMzQ1OTkwMTgzLC0xNjg2Mzkw
+NDUwLC03OTM5ODIzNTIsMTE1NjI3MTYwOCwtMTUzNTcyNjEzMi
+wtMTc3ODIyOTAyMiwtODk5MTgxMjk1LDIzNDk1ODA0MywyMDIw
+MTU0NjUwLDEyODY4MzYzNjYsLTE5MjMzODg1MywxNzQxMDk5Mz
+g2LDQ4NTU4OTIwNiwtMTkyMzA2NDU1MSwtMTQ4NTc2OTIxMCwx
+MDQ4ODgyNjE2XX0=
 -->
