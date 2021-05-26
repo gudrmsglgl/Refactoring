@@ -302,6 +302,9 @@ class Bird(private val bird: Bird) {
 
 **🔻&nbsp; 코드 정리<br>**
 ```kotlin
+fun plumages(birds: List<Bird>) {
+   return mapOf(
+}
 fun plumage(bird: Bird) {
    return createBird(bird).plumage
 }
@@ -617,11 +620,11 @@ for (val p in people) {
 **&emsp;⓷ 모두 수정했다면 제어 플래그를 제거한다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTAyNzQzMTksMzA0MTk2NjQ0LDE0Mj
-cyODY3NDMsLTE5MDgxNDQsMTc0NDg4MjIwMSw2MTQ4MjI3Nzcs
-LTE3NTE0NDg3ODMsLTM0MDYyNzE1OCwxNzQ2MTE5NzkwLDEzND
-U5OTAxODMsLTE2ODYzOTA0NTAsLTc5Mzk4MjM1MiwxMTU2Mjcx
-NjA4LC0xNTM1NzI2MTMyLC0xNzc4MjI5MDIyLC04OTkxODEyOT
-UsMjM0OTU4MDQzLDIwMjAxNTQ2NTAsMTI4NjgzNjM2NiwtMTky
-MzM4ODUzXX0=
+eyJoaXN0b3J5IjpbLTYyNDI1Mzc4NSwzMDQxOTY2NDQsMTQyNz
+I4Njc0MywtMTkwODE0NCwxNzQ0ODgyMjAxLDYxNDgyMjc3Nywt
+MTc1MTQ0ODc4MywtMzQwNjI3MTU4LDE3NDYxMTk3OTAsMTM0NT
+k5MDE4MywtMTY4NjM5MDQ1MCwtNzkzOTgyMzUyLDExNTYyNzE2
+MDgsLTE1MzU3MjYxMzIsLTE3NzgyMjkwMjIsLTg5OTE4MTI5NS
+wyMzQ5NTgwNDMsMjAyMDE1NDY1MCwxMjg2ODM2MzY2LC0xOTIz
+Mzg4NTNdfQ==
 -->
