@@ -305,13 +305,13 @@ class Bird(private val bird: Bird) {
 fun plumages(birds: List<Bird>) {
    return mapOf(birds
 		   .map { b -> createBird(b) }
-		   .map { bird -> bird.name to bird.plumage }
+		   .map { bird -> bird.name to bird.plumage })
 }
 
 fun speeds(birds: List<Bird>) {
    return mapOf(birds
 		   .map { b -> createBird(b) }
-		   .map { bird -> bird.name to bird.airSpeedVelocity }
+		   .map { bird -> bird.name to bird.airSpeedVelocity })
 }
 
 fun createBird(bird: Bird) = when (bird.type) {
@@ -632,7 +632,7 @@ for (val p in people) {
 **&emsp;⓷ 모두 수정했다면 제어 플래그를 제거한다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1ODYzOTgyNywzMDQxOTY2NDQsMTQyNz
+eyJoaXN0b3J5IjpbMTMzOTM2ODI5MSwzMDQxOTY2NDQsMTQyNz
 I4Njc0MywtMTkwODE0NCwxNzQ0ODgyMjAxLDYxNDgyMjc3Nywt
 MTc1MTQ0ODc4MywtMzQwNjI3MTU4LDE3NDYxMTk3OTAsMTM0NT
 k5MDE4MywtMTY4NjM5MDQ1MCwtNzkzOTgyMzUyLDExNTYyNzE2
