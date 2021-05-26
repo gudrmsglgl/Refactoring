@@ -263,7 +263,18 @@ class NorwegianBlueParrot: Bird {
 }
 ```
 **🔻&nbsp;⓸ switch문의 절 하나를 선택해 해당 서브클래스에서 오버라이드한다.<br>**
+```kotlin
+class EuropeanSwallow: Bird {
+   val plumage = "보통이다"
+}
 
+class AfricanSwallow: Bird {
+}
+
+class NorwegianBlueParrot: Bird {
+}
+
+```
 
 <br>
 <div id='id-section5'/>
@@ -554,11 +565,11 @@ for (val p in people) {
 **&emsp;⓷ 모두 수정했다면 제어 플래그를 제거한다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1OTI2MTEyOSwxNzQ0ODgyMjAxLDYxND
-gyMjc3NywtMTc1MTQ0ODc4MywtMzQwNjI3MTU4LDE3NDYxMTk3
-OTAsMTM0NTk5MDE4MywtMTY4NjM5MDQ1MCwtNzkzOTgyMzUyLD
-ExNTYyNzE2MDgsLTE1MzU3MjYxMzIsLTE3NzgyMjkwMjIsLTg5
-OTE4MTI5NSwyMzQ5NTgwNDMsMjAyMDE1NDY1MCwxMjg2ODM2Mz
-Y2LC0xOTIzMzg4NTMsMTc0MTA5OTM4Niw0ODU1ODkyMDYsLTE5
-MjMwNjQ1NTFdfQ==
+eyJoaXN0b3J5IjpbLTE5MDgxNDQsMTc0NDg4MjIwMSw2MTQ4Mj
+I3NzcsLTE3NTE0NDg3ODMsLTM0MDYyNzE1OCwxNzQ2MTE5Nzkw
+LDEzNDU5OTAxODMsLTE2ODYzOTA0NTAsLTc5Mzk4MjM1MiwxMT
+U2MjcxNjA4LC0xNTM1NzI2MTMyLC0xNzc4MjI5MDIyLC04OTkx
+ODEyOTUsMjM0OTU4MDQzLDIwMjAxNTQ2NTAsMTI4NjgzNjM2Ni
+wtMTkyMzM4ODUzLDE3NDEwOTkzODYsNDg1NTg5MjA2LC0xOTIz
+MDY0NTUxXX0=
 -->
