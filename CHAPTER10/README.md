@@ -300,7 +300,32 @@ class Bird(private val bird: Bird) {
 }   
 ```
 
-**🔻&nbsp;⓺ 슈퍼클래스의 메서드는 기본 동작용으로 남겨놓는다.<br>**
+**🔻&nbsp; 코드 정리<br>**
+```kotlin
+fun plumage(bird: Bird) {
+   return createBird(bird).plumage
+}
+
+fun airSpeedVelocity(bird: Bird) {
+   return createBird(bird).airSpeedVelocity
+}
+
+fun createBird(bird: Bird) = when (bird.type) {
+   "유럽 제비" -> EuropeanSwallow(bird)
+   "아프리카 제비" -> AfricanSwallow(bird)
+   "노르웨이 파랑 무새" -> NorwegianBlueParrot(bird)
+   else -> Bird(bird)
+}
+
+class EuropeanSwallow: Bird {
+}
+
+class AfricanSwallow: Bird {
+}
+
+class NorwegianBlueParrot: Bird {
+}
+```
 
 
 <br>
@@ -592,11 +617,11 @@ for (val p in people) {
 **&emsp;⓷ 모두 수정했다면 제어 플래그를 제거한다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MzE5OTE5MCwzMDQxOTY2NDQsMTQyNz
-I4Njc0MywtMTkwODE0NCwxNzQ0ODgyMjAxLDYxNDgyMjc3Nywt
-MTc1MTQ0ODc4MywtMzQwNjI3MTU4LDE3NDYxMTk3OTAsMTM0NT
-k5MDE4MywtMTY4NjM5MDQ1MCwtNzkzOTgyMzUyLDExNTYyNzE2
-MDgsLTE1MzU3MjYxMzIsLTE3NzgyMjkwMjIsLTg5OTE4MTI5NS
-wyMzQ5NTgwNDMsMjAyMDE1NDY1MCwxMjg2ODM2MzY2LC0xOTIz
-Mzg4NTNdfQ==
+eyJoaXN0b3J5IjpbLTEyMTAyNzQzMTksMzA0MTk2NjQ0LDE0Mj
+cyODY3NDMsLTE5MDgxNDQsMTc0NDg4MjIwMSw2MTQ4MjI3Nzcs
+LTE3NTE0NDg3ODMsLTM0MDYyNzE1OCwxNzQ2MTE5NzkwLDEzND
+U5OTAxODMsLTE2ODYzOTA0NTAsLTc5Mzk4MjM1MiwxMTU2Mjcx
+NjA4LC0xNTM1NzI2MTMyLC0xNzc4MjI5MDIyLC04OTkxODEyOT
+UsMjM0OTU4MDQzLDIwMjAxNTQ2NTAsMTI4NjgzNjM2NiwtMTky
+MzM4ODUzXX0=
 -->
