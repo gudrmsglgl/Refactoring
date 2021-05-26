@@ -255,10 +255,10 @@ fun createBird(bird: Bird) = when (bird.type) {
 class EuropeanSwallow: Bird {
 }
 
-class EuropeanSwallow: Bird {
+class AfricanSwallow: Bird {
 }
 
-class EuropeanSwallow: Bird {
+class NorwegianBlueParrot: Bird {
 }
 
 ```
@@ -554,7 +554,7 @@ for (val p in people) {
 **&emsp;⓷ 모두 수정했다면 제어 플래그를 제거한다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MjQ3NjkyOCw2MTQ4MjI3NzcsLTE3NT
+eyJoaXN0b3J5IjpbMTc0NDg4MjIwMSw2MTQ4MjI3NzcsLTE3NT
 E0NDg3ODMsLTM0MDYyNzE1OCwxNzQ2MTE5NzkwLDEzNDU5OTAx
 ODMsLTE2ODYzOTA0NTAsLTc5Mzk4MjM1MiwxMTU2MjcxNjA4LC
 0xNTM1NzI2MTMyLC0xNzc4MjI5MDIyLC04OTkxODEyOTUsMjM0
