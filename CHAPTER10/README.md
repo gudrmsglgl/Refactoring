@@ -332,11 +332,13 @@ class EuropeanSwallow: Bird {
 }
 
 class AfricanSwallow: Bird {
-   val plumage = "알 수 없다"
-   val airSpeedVelocity = 40 - 2 * 
+   val plumage = if (this.numberOfCounts > 2) "지쳤다" else "보통이다"
+   val airSpeedVelocity = 40 - 2 * this.numberOfCoconuts
 }
 
 class NorwegianBlueParrot: Bird {
+   val plumage = if (this.numberOfCounts > 2) "지쳤다" else "보통이다"
+   val airSpeedVelocity = if (this.isNailed) 0 else 10 + this.voltage / 10
 }
 ```
 
@@ -630,7 +632,7 @@ for (val p in people) {
 **&emsp;⓷ 모두 수정했다면 제어 플래그를 제거한다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NjU3NDc5MCwzMDQxOTY2NDQsMTQyNz
+eyJoaXN0b3J5IjpbLTE0Nzc1NzE1MSwzMDQxOTY2NDQsMTQyNz
 I4Njc0MywtMTkwODE0NCwxNzQ0ODgyMjAxLDYxNDgyMjc3Nywt
 MTc1MTQ0ODc4MywtMzQwNjI3MTU4LDE3NDYxMTk3OTAsMTM0NT
 k5MDE4MywtMTY4NjM5MDQ1MCwtNzkzOTgyMzUyLDExNTYyNzE2
