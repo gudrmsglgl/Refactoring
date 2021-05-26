@@ -280,7 +280,8 @@ class Bird(private val bird: Bird) {
 }   
 ```
 
-**🔻&nbsp;⓸ switch문의 절 하나를 선택해 해당 서브클래스에서 오버라이드한다.<br>**
+**🔻&nbsp;⓹ 다음 조건절을 처리한다.<br>**
+
 
 <br>
 <div id='id-section5'/>
@@ -571,7 +572,7 @@ for (val p in people) {
 **&emsp;⓷ 모두 수정했다면 제어 플래그를 제거한다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MTM2MTUwOSwxNDI3Mjg2NzQzLC0xOT
+eyJoaXN0b3J5IjpbMTk4MDc3NTU5NiwxNDI3Mjg2NzQzLC0xOT
 A4MTQ0LDE3NDQ4ODIyMDEsNjE0ODIyNzc3LC0xNzUxNDQ4Nzgz
 LC0zNDA2MjcxNTgsMTc0NjExOTc5MCwxMzQ1OTkwMTgzLC0xNj
 g2MzkwNDUwLC03OTM5ODIzNTIsMTE1NjI3MTYwOCwtMTUzNTcy
