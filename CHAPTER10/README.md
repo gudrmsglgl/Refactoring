@@ -241,7 +241,11 @@ fun plumage(bird: Bird) {
    return createBird(bird).plumage
 }
 
-fun 
+fun airSpeedVelocity(bird: Bird) {
+   return createBird(bird).airSpeedVelocity
+}
+
+fun createBird(
 ```
 
 
@@ -535,11 +539,11 @@ for (val p in people) {
 **&emsp;⓷ 모두 수정했다면 제어 플래그를 제거한다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjMwNzM5MTAsLTE3NTE0NDg3ODMsLT
-M0MDYyNzE1OCwxNzQ2MTE5NzkwLDEzNDU5OTAxODMsLTE2ODYz
-OTA0NTAsLTc5Mzk4MjM1MiwxMTU2MjcxNjA4LC0xNTM1NzI2MT
-MyLC0xNzc4MjI5MDIyLC04OTkxODEyOTUsMjM0OTU4MDQzLDIw
-MjAxNTQ2NTAsMTI4NjgzNjM2NiwtMTkyMzM4ODUzLDE3NDEwOT
-kzODYsNDg1NTg5MjA2LC0xOTIzMDY0NTUxLC0xNDg1NzY5MjEw
-LDEwNDg4ODI2MTZdfQ==
+eyJoaXN0b3J5IjpbLTIyODI5Nzg2NCwtMTc1MTQ0ODc4MywtMz
+QwNjI3MTU4LDE3NDYxMTk3OTAsMTM0NTk5MDE4MywtMTY4NjM5
+MDQ1MCwtNzkzOTgyMzUyLDExNTYyNzE2MDgsLTE1MzU3MjYxMz
+IsLTE3NzgyMjkwMjIsLTg5OTE4MTI5NSwyMzQ5NTgwNDMsMjAy
+MDE1NDY1MCwxMjg2ODM2MzY2LC0xOTIzMzg4NTMsMTc0MTA5OT
+M4Niw0ODU1ODkyMDYsLTE5MjMwNjQ1NTEsLTE0ODU3NjkyMTAs
+MTA0ODg4MjYxNl19
 -->
