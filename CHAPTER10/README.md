@@ -263,7 +263,7 @@ class NorwegianBlueParrot: Bird {
 }
 
 ```
-**🔻⓸ switch문의 절 하나를 선택해 해당 서브클래스에서 오버라이드한다.<br>**
+**🔻&emsp;⓸ switch문의 절 하나를 선택해 해당 서브클래스에서 오버라이드한다.<br>**
 
 
 <br>
@@ -555,11 +555,11 @@ for (val p in people) {
 **&emsp;⓷ 모두 수정했다면 제어 플래그를 제거한다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU4NzEyNjIxLDE3NDQ4ODIyMDEsNjE0OD
-IyNzc3LC0xNzUxNDQ4NzgzLC0zNDA2MjcxNTgsMTc0NjExOTc5
-MCwxMzQ1OTkwMTgzLC0xNjg2MzkwNDUwLC03OTM5ODIzNTIsMT
-E1NjI3MTYwOCwtMTUzNTcyNjEzMiwtMTc3ODIyOTAyMiwtODk5
-MTgxMjk1LDIzNDk1ODA0MywyMDIwMTU0NjUwLDEyODY4MzYzNj
-YsLTE5MjMzODg1MywxNzQxMDk5Mzg2LDQ4NTU4OTIwNiwtMTky
-MzA2NDU1MV19
+eyJoaXN0b3J5IjpbLTIwMTAxNjMyMDMsMTc0NDg4MjIwMSw2MT
+Q4MjI3NzcsLTE3NTE0NDg3ODMsLTM0MDYyNzE1OCwxNzQ2MTE5
+NzkwLDEzNDU5OTAxODMsLTE2ODYzOTA0NTAsLTc5Mzk4MjM1Mi
+wxMTU2MjcxNjA4LC0xNTM1NzI2MTMyLC0xNzc4MjI5MDIyLC04
+OTkxODEyOTUsMjM0OTU4MDQzLDIwMjAxNTQ2NTAsMTI4NjgzNj
+M2NiwtMTkyMzM4ODUzLDE3NDEwOTkzODYsNDg1NTg5MjA2LC0x
+OTIzMDY0NTUxXX0=
 -->
