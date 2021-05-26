@@ -296,9 +296,7 @@ class NorwegianBlueParrot: Bird {
 
 ```kotlin
 class Bird(private val bird: Bird) {
-
    val plumage = "알 수 없다"
-   
 }   
 ```
 
@@ -591,11 +589,11 @@ for (val p in people) {
 **&emsp;⓷ 모두 수정했다면 제어 플래그를 제거한다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjMzMzE0MjIsMTQyNzI4Njc0MywtMT
-kwODE0NCwxNzQ0ODgyMjAxLDYxNDgyMjc3NywtMTc1MTQ0ODc4
-MywtMzQwNjI3MTU4LDE3NDYxMTk3OTAsMTM0NTk5MDE4MywtMT
-Y4NjM5MDQ1MCwtNzkzOTgyMzUyLDExNTYyNzE2MDgsLTE1MzU3
-MjYxMzIsLTE3NzgyMjkwMjIsLTg5OTE4MTI5NSwyMzQ5NTgwND
-MsMjAyMDE1NDY1MCwxMjg2ODM2MzY2LC0xOTIzMzg4NTMsMTc0
-MTA5OTM4Nl19
+eyJoaXN0b3J5IjpbMzA0MTk2NjQ0LDE0MjcyODY3NDMsLTE5MD
+gxNDQsMTc0NDg4MjIwMSw2MTQ4MjI3NzcsLTE3NTE0NDg3ODMs
+LTM0MDYyNzE1OCwxNzQ2MTE5NzkwLDEzNDU5OTAxODMsLTE2OD
+YzOTA0NTAsLTc5Mzk4MjM1MiwxMTU2MjcxNjA4LC0xNTM1NzI2
+MTMyLC0xNzc4MjI5MDIyLC04OTkxODEyOTUsMjM0OTU4MDQzLD
+IwMjAxNTQ2NTAsMTI4NjgzNjM2NiwtMTkyMzM4ODUzLDE3NDEw
+OTkzODZdfQ==
 -->
