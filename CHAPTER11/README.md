@@ -1,6 +1,7 @@
 # API 리팩터링
 
 [질의 함수와 변경 함수 분리하기](#id-section1)<br>
+[함수 매개변수화하기](#id-section2)<br>
 
 
 - ### 소프트웨어 구성 빌딩 블록 - 모듈, 함수
@@ -158,11 +159,17 @@ fun raise(person, factor) {
    person.salary = person.salary.multiply(1 + factor)
 }
 ```
+
+### 🔍 함수 매개변수화 
+- 두 함수의 로직이 아주 비슷하고 단지 리터럴 값만 다를 ㄷ
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDkzNTA5NCwxMTkyNjk3MDE2LC0xOT
-czMTUzOTIyLC02MTY4MDY4MTMsNTY4MDgyMDg0LDE0NjE1NDEx
-NjksLTE1MjMxOTgyODQsMjg0MzE2Nzg5LDE0NTAzODMwMjUsND
-IxOTkyMjIwLDUzMzE3MzE4MSw3NjU3OTU3NzEsMjA0ODc3NTc1
-NywtMTMxODQwNjY4NiwyMTM3MDMwMjU1LC0yMTQxMzY4Njc3LD
-E2MTE0MTQ5NTAsLTM2NTI1NjEwOF19
+eyJoaXN0b3J5IjpbLTE1MjczNzY0NDgsMTE5MjY5NzAxNiwtMT
+k3MzE1MzkyMiwtNjE2ODA2ODEzLDU2ODA4MjA4NCwxNDYxNTQx
+MTY5LC0xNTIzMTk4Mjg0LDI4NDMxNjc4OSwxNDUwMzgzMDI1LD
+QyMTk5MjIyMCw1MzMxNzMxODEsNzY1Nzk1NzcxLDIwNDg3NzU3
+NTcsLTEzMTg0MDY2ODYsMjEzNzAzMDI1NSwtMjE0MTM2ODY3Ny
+wxNjExNDE0OTUwLC0zNjUyNTYxMDhdfQ==
 -->
