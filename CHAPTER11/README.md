@@ -180,15 +180,28 @@ fun raise(person, factor) {
 ```kotlin
 fun baseCharge(usage: Float) {
    if (usage < 0) return usd(0)
-   val amount
+   val amount = 
+      bottomBand(usage) * 0.03
+      + middleBand(usage) * 0.05
+      + topBand(usage) * 0.07
+   return usd(amount)
 }
+
+fun bottomBand(usage: Float) {
+   return Math.min(usage, 100)
+}
+
+fun middleBand(usage: Float) {
+   return usage > 100
+}
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMjYyODI3OSwyMjE1MzQ4NywxODM5NT
-c5NDAyLDExOTI2OTcwMTYsLTE5NzMxNTM5MjIsLTYxNjgwNjgx
-Myw1NjgwODIwODQsMTQ2MTU0MTE2OSwtMTUyMzE5ODI4NCwyOD
-QzMTY3ODksMTQ1MDM4MzAyNSw0MjE5OTIyMjAsNTMzMTczMTgx
-LDc2NTc5NTc3MSwyMDQ4Nzc1NzU3LC0xMzE4NDA2Njg2LDIxMz
-cwMzAyNTUsLTIxNDEzNjg2NzcsMTYxMTQxNDk1MCwtMzY1MjU2
-MTA4XX0=
+eyJoaXN0b3J5IjpbLTEwNTM2NDIxNjksMjIxNTM0ODcsMTgzOT
+U3OTQwMiwxMTkyNjk3MDE2LC0xOTczMTUzOTIyLC02MTY4MDY4
+MTMsNTY4MDgyMDg0LDE0NjE1NDExNjksLTE1MjMxOTgyODQsMj
+g0MzE2Nzg5LDE0NTAzODMwMjUsNDIxOTkyMjIwLDUzMzE3MzE4
+MSw3NjU3OTU3NzEsMjA0ODc3NTc1NywtMTMxODQwNjY4NiwyMT
+M3MDMwMjU1LC0yMTQxMzY4Njc3LDE2MTE0MTQ5NTAsLTM2NTI1
+NjEwOF19
 -->
