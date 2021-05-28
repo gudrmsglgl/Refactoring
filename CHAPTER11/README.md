@@ -161,7 +161,7 @@ fun raise(person, factor) {
 ```
 
 ### 🔍 함수 매개변수화 
-- 두 함수의 로직이 <u>**아주 비슷하고 단지 리터럴 값만 다를 때**
+- 두 함수의 로직이 <u>**아주 비슷하고 단지 리터럴 값만 다를 때**</u>
 - 다른 값만 매개변수로 처리하여 중복 없앰
 
 ### 📍 절차
@@ -179,7 +179,7 @@ fun raise(person, factor) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY0NDMzMDcsMTgzOTU3OTQwMiwxMTkyNj
+eyJoaXN0b3J5IjpbMjIxNTM0ODcsMTgzOTU3OTQwMiwxMTkyNj
 k3MDE2LC0xOTczMTUzOTIyLC02MTY4MDY4MTMsNTY4MDgyMDg0
 LDE0NjE1NDExNjksLTE1MjMxOTgyODQsMjg0MzE2Nzg5LDE0NT
 AzODMwMjUsNDIxOTkyMjIwLDUzMzE3MzE4MSw3NjU3OTU3NzEs
