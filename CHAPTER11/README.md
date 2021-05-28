@@ -138,11 +138,30 @@ fun alertForMiscreant(people) {
 }
 ```
 
+
+<br>
+<div id='id-section2'/>
+
+## 11.2 함수 매개변수화하기 Parameterize Function
+```kotlin
+fun tenPercentRaise(person: Person) {
+   person.salary = person.salary.m
+}
+```
+**🔻 질의 함수와 변경 함수 분리하기**
+```kotlin
+fun totalOutstanding() {
+   return customer.invoices.reduce( (total, each) -> each.amount + total, 0)
+}
+fun sendBill() {
+   emailGateway.send(formatBill(customer))
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MjY5NzAxNiwtMTk3MzE1MzkyMiwtNj
-E2ODA2ODEzLDU2ODA4MjA4NCwxNDYxNTQxMTY5LC0xNTIzMTk4
-Mjg0LDI4NDMxNjc4OSwxNDUwMzgzMDI1LDQyMTk5MjIyMCw1Mz
-MxNzMxODEsNzY1Nzk1NzcxLDIwNDg3NzU3NTcsLTEzMTg0MDY2
-ODYsMjEzNzAzMDI1NSwtMjE0MTM2ODY3NywxNjExNDE0OTUwLC
-0zNjUyNTYxMDhdfQ==
+eyJoaXN0b3J5IjpbLTI2Mzk2MTcwMCwxMTkyNjk3MDE2LC0xOT
+czMTUzOTIyLC02MTY4MDY4MTMsNTY4MDgyMDg0LDE0NjE1NDEx
+NjksLTE1MjMxOTgyODQsMjg0MzE2Nzg5LDE0NTAzODMwMjUsND
+IxOTkyMjIwLDUzMzE3MzE4MSw3NjU3OTU3NzEsMjA0ODc3NTc1
+NywtMTMxODQwNjY4NiwyMTM3MDMwMjU1LC0yMTQxMzY4Njc3LD
+E2MTE0MTQ5NTAsLTM2NTI1NjEwOF19
 -->
