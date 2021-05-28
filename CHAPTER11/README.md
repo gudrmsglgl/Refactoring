@@ -164,12 +164,20 @@ fun raise(person, factor) {
 - 두 함수의 로직이 아주 비슷하고 단지 리터럴 값만 다를 때
 - 다른 값만 매개변수로 처리하여 중복 없앰
 
+### 📍 절차
+&emsp;⓵ 비슷한 함수 중 하나를 선택한다.<br>
+&emsp;⓶ 함수 선언 바꾸기로 리터럴들을 매개변수로 추가한다.<br>
+&emsp;⓷ 이 함수를 호출하는 곳 모두에 적절한 리터럴 값을 추가한다.<br>
+&emsp;⓸ 테스트한다.<br>
+&emsp;⓹ 매개변수로 받은 값을 사용하도록 함수 본문을 수정. 수정할 때마다 테스트<br>
+&emsp;⓺ 테스트한다.<br>
+
 
 ### **ex) 대역을 다루는 세 함수의 로직**<br>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNTYyMjQxNywxODM5NTc5NDAyLDExOT
+eyJoaXN0b3J5IjpbMTE0MjA3NjI1OSwxODM5NTc5NDAyLDExOT
 I2OTcwMTYsLTE5NzMxNTM5MjIsLTYxNjgwNjgxMyw1NjgwODIw
 ODQsMTQ2MTU0MTE2OSwtMTUyMzE5ODI4NCwyODQzMTY3ODksMT
 Q1MDM4MzAyNSw0MjE5OTIyMjAsNTMzMTczMTgxLDc2NTc5NTc3
