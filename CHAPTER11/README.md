@@ -145,20 +145,21 @@ fun alertForMiscreant(people) {
 ## 11.2 함수 매개변수화하기 Parameterize Function
 ```kotlin
 fun tenPercentRaise(person: Person) {
-   person.salary = person.salary.m
+   person.salary = person.salary.mutiply(1.1)
+}
+
+fun fivePercentRaise(person: Person) {
+   person.salary = person.salary.mutiply(1.05)
 }
 ```
-**🔻 질의 함수와 변경 함수 분리하기**
+**🔻 함수 매개변수화하기**
 ```kotlin
-fun totalOutstanding() {
-   return customer.invoices.reduce( (total, each) -> each.amount + total, 0)
-}
-fun sendBill() {
-   emailGateway.send(formatBill(customer))
+fun raise(person, factor) {
+   person.salary = person.salary.multiply(1 + factor)
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2Mzk2MTcwMCwxMTkyNjk3MDE2LC0xOT
+eyJoaXN0b3J5IjpbLTEyMDkzNTA5NCwxMTkyNjk3MDE2LC0xOT
 czMTUzOTIyLC02MTY4MDY4MTMsNTY4MDgyMDg0LDE0NjE1NDEx
 NjksLTE1MjMxOTgyODQsMjg0MzE2Nzg5LDE0NTAzODMwMjUsND
 IxOTkyMjIwLDUzMzE3MzE4MSw3NjU3OTU3NzEsMjA0ODc3NTc1
