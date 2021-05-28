@@ -170,14 +170,16 @@ fun raise(person, factor) {
 &emsp;⓷ 이 함수를 호출하는 곳 모두에 적절한 리터럴 값을 추가한다.<br>
 &emsp;⓸ 테스트한다.<br>
 &emsp;⓹ 매개변수로 받은 값을 사용하도록 함수 본문을 수정. 수정할 때마다 테스트<br>
-&emsp;⓺ 테스트한다.<br>
+&emsp;⓺ 비슷한 다른 함수를 호출하는 코드를 찾아<br>
+&emsp;&emsp;&nbsp;매개변수화된 함수를 호출하도록 하나씩 수정.<br>
+&emsp;&emsp;&nbsp;수정할 때마다 테스트한다.
 
 
 ### **ex) 대역을 다루는 세 함수의 로직**<br>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MjA3NjI1OSwxODM5NTc5NDAyLDExOT
+eyJoaXN0b3J5IjpbLTIzMDQ5MjQyMCwxODM5NTc5NDAyLDExOT
 I2OTcwMTYsLTE5NzMxNTM5MjIsLTYxNjgwNjgxMyw1NjgwODIw
 ODQsMTQ2MTU0MTE2OSwtMTUyMzE5ODI4NCwyODQzMTY3ODksMT
 Q1MDM4MzAyNSw0MjE5OTIyMjAsNTMzMTczMTgxLDc2NTc5NTc3
