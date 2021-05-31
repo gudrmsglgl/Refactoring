@@ -201,13 +201,16 @@ fun topBand(usage: Float) {
 
 ```
 
-&emsp;⓵ 비슷한 함수들을 매개변수화하여 통합할 때는 먼저 대상 함수 중 하나를 골라 매개변수를 추가. ( 단, 다른 함수 고려 선택 )
+&emsp;⓵ 비슷한 함수들을 매개변수화하여 통합할 때는 먼저 대상 함수 중 하나를 골라 매개변수를 추가. ( 단, 다른 함수 고려 선택 )<br>
+&emsp;⓶ 리터럴을 두개 (100과 200) 사용, 그 각각은 하한과 상한을 뜻함. 함수 선언 바꾸기 적용<br>
+&emsp;⓷ 리터럴들을 호출 시점에 입력하도록 바꾸<br>
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDI5NDIxNjMsMjI2OTU1OTEsMjIxNT
-M0ODcsMTgzOTU3OTQwMiwxMTkyNjk3MDE2LC0xOTczMTUzOTIy
-LC02MTY4MDY4MTMsNTY4MDgyMDg0LDE0NjE1NDExNjksLTE1Mj
-MxOTgyODQsMjg0MzE2Nzg5LDE0NTAzODMwMjUsNDIxOTkyMjIw
-LDUzMzE3MzE4MSw3NjU3OTU3NzEsMjA0ODc3NTc1NywtMTMxOD
-QwNjY4NiwyMTM3MDMwMjU1LC0yMTQxMzY4Njc3LDE2MTE0MTQ5
-NTBdfQ==
+eyJoaXN0b3J5IjpbLTI4Nzg3Mjg5MiwyMjY5NTU5MSwyMjE1Mz
+Q4NywxODM5NTc5NDAyLDExOTI2OTcwMTYsLTE5NzMxNTM5MjIs
+LTYxNjgwNjgxMyw1NjgwODIwODQsMTQ2MTU0MTE2OSwtMTUyMz
+E5ODI4NCwyODQzMTY3ODksMTQ1MDM4MzAyNSw0MjE5OTIyMjAs
+NTMzMTczMTgxLDc2NTc5NTc3MSwyMDQ4Nzc1NzU3LC0xMzE4ND
+A2Njg2LDIxMzcwMzAyNTUsLTIxNDEzNjg2NzcsMTYxMTQxNDk1
+MF19
 -->
