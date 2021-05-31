@@ -288,22 +288,27 @@ shipment.deliveryDate = deliveryDate(order, false)
 fun deliveryDate(order: Order, isRush: Boolean) {
    if (isRush) {
       val deliveryTime = 0
-      if (["MA", "NH"].includes(order.deliveryState)) deliveryTime = 1
+      if (["MA", "CT"].includes(order.deliveryState)) deliveryTime = 1
       else if (["NY", "NH"].includes(order.deliveryState)) deliveryTime = 2
-deliveryTime = 2      else 
+      else deliveryTime = 3
+      return order.placeOn.plusDays(1 + deliveryTime)
    }
    else {
-   
+      val deliveryTime = 0
+      if (["MA", "CT", "NY"].includes(order.deliveryState)) deliveryTime = 2
+      else if (["NY", "NH"].includes(order.deliveryState)) deliveryTime = 3
+      else deliveryTime = 4
+      return order.placeOn.plusDays(2 + deliveryTime)
    }
 }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTY4MjEzMzAsLTk1NzI3NjgyNCwyMD
-E3NjcyMTg4LDIyNjk1NTkxLDIyMTUzNDg3LDE4Mzk1Nzk0MDIs
-MTE5MjY5NzAxNiwtMTk3MzE1MzkyMiwtNjE2ODA2ODEzLDU2OD
-A4MjA4NCwxNDYxNTQxMTY5LC0xNTIzMTk4Mjg0LDI4NDMxNjc4
-OSwxNDUwMzgzMDI1LDQyMTk5MjIyMCw1MzMxNzMxODEsNzY1Nz
-k1NzcxLDIwNDg3NzU3NTcsLTEzMTg0MDY2ODYsMjEzNzAzMDI1
-NV19
+eyJoaXN0b3J5IjpbMTAwMjAyNjU3NiwtOTU3Mjc2ODI0LDIwMT
+c2NzIxODgsMjI2OTU1OTEsMjIxNTM0ODcsMTgzOTU3OTQwMiwx
+MTkyNjk3MDE2LC0xOTczMTUzOTIyLC02MTY4MDY4MTMsNTY4MD
+gyMDg0LDE0NjE1NDExNjksLTE1MjMxOTgyODQsMjg0MzE2Nzg5
+LDE0NTAzODMwMjUsNDIxOTkyMjIwLDUzMzE3MzE4MSw3NjU3OT
+U3NzEsMjA0ODc3NTc1NywtMTMxODQwNjY4NiwyMTM3MDMwMjU1
+XX0=
 -->
