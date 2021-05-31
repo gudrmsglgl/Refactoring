@@ -218,9 +218,9 @@ fun withinBand(    // 👈🏻 middleBand 리터럴을 매개변수로 함수 �
 fun baseCharge(usage: Float) {
    if (usage < 0) return usd(0)
    val amount = 
-      bottomBand(usage) * 0.03
+      withinBand(usage, 0, 100) * 0.03    // bottomBand(usage) * 0.03
       + withinBand(usage, 100, 200) * 0.05
-      + topBand(usage) * 0.07
+      + withinBand(usage, 200, Infinity) * 0.07 // + topBand(usage) * 0.07
    return usd(amount)
 }
 
@@ -238,11 +238,11 @@ fun topBand(usage: Float) {
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NjY4OTI2NiwyMjY5NTU5MSwyMjE1Mz
-Q4NywxODM5NTc5NDAyLDExOTI2OTcwMTYsLTE5NzMxNTM5MjIs
-LTYxNjgwNjgxMyw1NjgwODIwODQsMTQ2MTU0MTE2OSwtMTUyMz
-E5ODI4NCwyODQzMTY3ODksMTQ1MDM4MzAyNSw0MjE5OTIyMjAs
-NTMzMTczMTgxLDc2NTc5NTc3MSwyMDQ4Nzc1NzU3LC0xMzE4ND
-A2Njg2LDIxMzcwMzAyNTUsLTIxNDEzNjg2NzcsMTYxMTQxNDk1
-MF19
+eyJoaXN0b3J5IjpbNzgzNDE4MTQ0LDIyNjk1NTkxLDIyMTUzND
+g3LDE4Mzk1Nzk0MDIsMTE5MjY5NzAxNiwtMTk3MzE1MzkyMiwt
+NjE2ODA2ODEzLDU2ODA4MjA4NCwxNDYxNTQxMTY5LC0xNTIzMT
+k4Mjg0LDI4NDMxNjc4OSwxNDUwMzgzMDI1LDQyMTk5MjIyMCw1
+MzMxNzMxODEsNzY1Nzk1NzcxLDIwNDg3NzU3NTcsLTEzMTg0MD
+Y2ODYsMjEzNzAzMDI1NSwtMjE0MTM2ODY3NywxNjExNDE0OTUw
+XX0=
 -->
