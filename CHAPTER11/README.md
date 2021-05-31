@@ -233,26 +233,26 @@ fun baseCharge(usage: Float) {
 ```kotlin
 fun setDimension(name: String, value: Float) {
    if (name == "height") {
-      this.
+      this._height = value
+      return
+   }
+   if (name == "width") {
+      this._width = value
+      return
    }
 }
-
-fun fivePercentRaise(person: Person) {
-   person.salary = person.salary.mutiply(1.05)
-}
 ```
-**🔻 함수 매개변수화하기**
+**🔻 플래그 인수 제거**
 ```kotlin
-fun raise(person, factor) {
-   person.salary = person.salary.multiply(1 + factor)
-}
+fun setHeight(value: Float) { this._height = value }
+fun setWidth(value: Float) { this._width = value }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NjI2NzM1NCwyMjY5NTU5MSwyMjE1Mz
-Q4NywxODM5NTc5NDAyLDExOTI2OTcwMTYsLTE5NzMxNTM5MjIs
-LTYxNjgwNjgxMyw1NjgwODIwODQsMTQ2MTU0MTE2OSwtMTUyMz
-E5ODI4NCwyODQzMTY3ODksMTQ1MDM4MzAyNSw0MjE5OTIyMjAs
-NTMzMTczMTgxLDc2NTc5NTc3MSwyMDQ4Nzc1NzU3LC0xMzE4ND
-A2Njg2LDIxMzcwMzAyNTUsLTIxNDEzNjg2NzcsMTYxMTQxNDk1
-MF19
+eyJoaXN0b3J5IjpbLTM0OTQ1MzI2LDIyNjk1NTkxLDIyMTUzND
+g3LDE4Mzk1Nzk0MDIsMTE5MjY5NzAxNiwtMTk3MzE1MzkyMiwt
+NjE2ODA2ODEzLDU2ODA4MjA4NCwxNDYxNTQxMTY5LC0xNTIzMT
+k4Mjg0LDI4NDMxNjc4OSwxNDUwMzgzMDI1LDQyMTk5MjIyMCw1
+MzMxNzMxODEsNzY1Nzk1NzcxLDIwNDg3NzU3NTcsLTEzMTg0MD
+Y2ODYsMjEzNzAzMDI1NSwtMjE0MTM2ODY3NywxNjExNDE0OTUw
+XX0=
 -->
