@@ -2,7 +2,7 @@
 
 [질의 함수와 변경 함수 분리하기](#id-section1)<br>
 [함수 매개변수화하기](#id-section2)<br>
-[함수 매개변수화하기](#id-section2)<br>
+[플래그 인수 제거하기](#id-section3)<br>
 
 
 - ### 소프트웨어 구성 빌딩 블록 - 모듈, 함수
@@ -225,8 +225,30 @@ fun baseCharge(usage: Float) {
    return usd(amount)
 }
 ```
+
+<br>
+<div id='id-section3'/>
+
+## 11.3 플래그 인수 제거하기 Remove Flag Argument
+```kotlin
+fun setDimension(name: String, value: Float) {
+   if (name == "height") {
+      this.
+   }
+}
+
+fun fivePercentRaise(person: Person) {
+   person.salary = person.salary.mutiply(1.05)
+}
+```
+**🔻 함수 매개변수화하기**
+```kotlin
+fun raise(person, factor) {
+   person.salary = person.salary.multiply(1 + factor)
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMTQ0MjQ0MCwyMjY5NTU5MSwyMjE1Mz
+eyJoaXN0b3J5IjpbMjE0NjI2NzM1NCwyMjY5NTU5MSwyMjE1Mz
 Q4NywxODM5NTc5NDAyLDExOTI2OTcwMTYsLTE5NzMxNTM5MjIs
 LTYxNjgwNjgxMyw1NjgwODIwODQsMTQ2MTU0MTE2OSwtMTUyMz
 E5ODI4NCwyODQzMTY3ODksMTQ1MDM4MzAyNSw0MjE5OTIyMjAs
