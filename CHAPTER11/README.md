@@ -259,14 +259,19 @@ fun bookConcert(customer: Customer, isPremium: Boolean) {
    }
 }
 
-
+// 호출 시 사용되는 함수
+bookConsert(customer, true)
+bookConsert(customer, CustomerType.PREMIUM)
+bookConsert(customer, "premium")
 ```
+- 단점
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkxNTgxMjIxLDIyNjk1NTkxLDIyMTUzND
-g3LDE4Mzk1Nzk0MDIsMTE5MjY5NzAxNiwtMTk3MzE1MzkyMiwt
-NjE2ODA2ODEzLDU2ODA4MjA4NCwxNDYxNTQxMTY5LC0xNTIzMT
-k4Mjg0LDI4NDMxNjc4OSwxNDUwMzgzMDI1LDQyMTk5MjIyMCw1
-MzMxNzMxODEsNzY1Nzk1NzcxLDIwNDg3NzU3NTcsLTEzMTg0MD
-Y2ODYsMjEzNzAzMDI1NSwtMjE0MTM2ODY3NywxNjExNDE0OTUw
-XX0=
+eyJoaXN0b3J5IjpbMTYxNTI4MzEyNiwyMjY5NTU5MSwyMjE1Mz
+Q4NywxODM5NTc5NDAyLDExOTI2OTcwMTYsLTE5NzMxNTM5MjIs
+LTYxNjgwNjgxMyw1NjgwODIwODQsMTQ2MTU0MTE2OSwtMTUyMz
+E5ODI4NCwyODQzMTY3ODksMTQ1MDM4MzAyNSw0MjE5OTIyMjAs
+NTMzMTczMTgxLDc2NTc5NTc3MSwyMDQ4Nzc1NzU3LC0xMzE4ND
+A2Njg2LDIxMzcwMzAyNTUsLTIxNDEzNjg2NzcsMTYxMTQxNDk1
+MF19
 -->
