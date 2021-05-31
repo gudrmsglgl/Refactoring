@@ -283,15 +283,24 @@ shipment.deliveryDate = deliveryDate(order, true)
 // 다른 곳에서는 다음처럼 호출함
 shipment.deliveryDate = deliveryDate(order, false)
 
-// boolean 을 보
+// boolean 을 보면 뭘 의미하는지 의문..
+// deliveryDate() 함수 코드는 다음과 같다.
+fun deliveryDate(order: Order, isRush: Boolean) {
+   if (isRush) {
+      val deliveryTime = 0
+   }
+   else {
+   
+   }
+}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NjMxNjMyNiwtOTU3Mjc2ODI0LDIwMT
-c2NzIxODgsMjI2OTU1OTEsMjIxNTM0ODcsMTgzOTU3OTQwMiwx
-MTkyNjk3MDE2LC0xOTczMTUzOTIyLC02MTY4MDY4MTMsNTY4MD
-gyMDg0LDE0NjE1NDExNjksLTE1MjMxOTgyODQsMjg0MzE2Nzg5
-LDE0NTAzODMwMjUsNDIxOTkyMjIwLDUzMzE3MzE4MSw3NjU3OT
-U3NzEsMjA0ODc3NTc1NywtMTMxODQwNjY4NiwyMTM3MDMwMjU1
-XX0=
+eyJoaXN0b3J5IjpbLTE1OTU0MzY0NDIsLTk1NzI3NjgyNCwyMD
+E3NjcyMTg4LDIyNjk1NTkxLDIyMTUzNDg3LDE4Mzk1Nzk0MDIs
+MTE5MjY5NzAxNiwtMTk3MzE1MzkyMiwtNjE2ODA2ODEzLDU2OD
+A4MjA4NCwxNDYxNTQxMTY5LC0xNTIzMTk4Mjg0LDI4NDMxNjc4
+OSwxNDUwMzgzMDI1LDQyMTk5MjIyMCw1MzMxNzMxODEsNzY1Nz
+k1NzcxLDIwNDg3NzU3NTcsLTEzMTg0MDY2ODYsMjEzNzAzMDI1
+NV19
 -->
