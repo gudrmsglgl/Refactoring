@@ -288,6 +288,9 @@ shipment.deliveryDate = deliveryDate(order, false)
 fun deliveryDate(order: Order, isRush: Boolean) {
    if (isRush) {
       val deliveryTime = 0
+      if (["MA", "NH"].includes(order.deliveryState)) deliveryTime = 1
+      else if (["NY", "NH"].includes(order.deliveryState)) deliveryTime = 2
+deliveryTime = 2      else 
    }
    else {
    
@@ -296,7 +299,7 @@ fun deliveryDate(order: Order, isRush: Boolean) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTU0MzY0NDIsLTk1NzI3NjgyNCwyMD
+eyJoaXN0b3J5IjpbLTIwNTY4MjEzMzAsLTk1NzI3NjgyNCwyMD
 E3NjcyMTg4LDIyNjk1NTkxLDIyMTUzNDg3LDE4Mzk1Nzk0MDIs
 MTE5MjY5NzAxNiwtMTk3MzE1MzkyMiwtNjE2ODA2ODEzLDU2OD
 A4MjA4NCwxNDYxNTQxMTY5LC0xNTIzMTk4Mjg0LDI4NDMxNjc4
