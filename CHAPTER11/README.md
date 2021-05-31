@@ -276,9 +276,18 @@ bookConsert(customer, "premium")
 
 &emsp;⓶ 원래 함수를 호출하는 코드들을 모두 찾아서 각 리터럴 값에 대응되는 명시적 함수를 호출하도록 수정한다.<br>
 
+### Ex. 배송일자를 계산하는 호출 
+```kotlin
+shipment.deliveryDate = deliveryDate(order, true)
+
+// 다른 곳에서는 다음처럼 호출함
+shipment.deliveryDate = deliveryDate(order, false)
+
+// boolean 을 보
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMzU1OTE5MCwtOTU3Mjc2ODI0LDIwMT
+eyJoaXN0b3J5IjpbMTU1NjMxNjMyNiwtOTU3Mjc2ODI0LDIwMT
 c2NzIxODgsMjI2OTU1OTEsMjIxNTM0ODcsMTgzOTU3OTQwMiwx
 MTkyNjk3MDE2LC0xOTczMTUzOTIyLC02MTY4MDY4MTMsNTY4MD
 gyMDg0LDE0NjE1NDExNjksLTE1MjMxOTgyODQsMjg0MzE2Nzg5
