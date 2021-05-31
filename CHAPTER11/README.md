@@ -267,9 +267,10 @@ bookConsert(customer, "premium")
 - 단점
 	- [x] 호출할 수 있는 함수들이 무엇이고 어떻게 호출하는지 **🤮 이해의 어려움**
 	- [x] 플래그 인수가 있으면 **🤮 함수들의 기능 차이가 잘 드러나지 않음**
-	- [x] 사용할 함수를 선택한 후에도 플래그 인수로 어떤 값을 넘겨야 하는지 또 알아야하는 복작성
+	- [x] 사용할 함수를 선택한 후에도 **🤮 플래그 인수로 어떤 값을 넘겨야 하는지** 또 알아야하는 복작성
+	- [x] **🤮 불리언 플래그는 코드를 읽는 이에게 뜻을 온전히 전달하지 못하기** 때문에 더욱 좋지 않음
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNTgzMTAxNCwyMjY5NTU5MSwyMjE1Mz
+eyJoaXN0b3J5IjpbMjAxNzY3MjE4OCwyMjY5NTU5MSwyMjE1Mz
 Q4NywxODM5NTc5NDAyLDExOTI2OTcwMTYsLTE5NzMxNTM5MjIs
 LTYxNjgwNjgxMyw1NjgwODIwODQsMTQ2MTU0MTE2OSwtMTUyMz
 E5ODI4NCwyODQzMTY3ODksMTQ1MDM4MzAyNSw0MjE5OTIyMjAs
