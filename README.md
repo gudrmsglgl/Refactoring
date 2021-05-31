@@ -1,5 +1,6 @@
 # Refactoring
 - 마틴 파울러의 Refactoring 책을 읽으면서 Kotlin 으로 정리 하였습니다.
+- 코드를 작성할 때 
 - Github에 정리하여 위치와 클라이언트에 제약받지 않고 편하게 보기위해 정리 하였습니다. 
 - 정리에 편리성을 위해 StackEdit을 이용 하였습니다.
 - 바로가기
@@ -13,3 +14,6 @@
   - [Chapter11 API 리팩터링](https://github.com/gudrmsglgl/Refactoring/blob/master/CHAPTER11/README.md)
 
 ![refactoring](https://user-images.githubusercontent.com/16537977/119690969-22e08780-be85-11eb-9e0d-40c67b7f794c.png)
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNTEzNDY3Mjc2XX0=
+-->
