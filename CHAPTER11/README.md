@@ -269,12 +269,16 @@ bookConsert(customer, "premium")
 	- [x] 플래그 인수가 있으면 **🤮 함수들의 기능 차이가 잘 드러나지 않음**
 	- [x] 사용할 함수를 선택한 후에도 **🤮 플래그 인수로 어떤 값을 넘겨야 하는지** 또 알아야하는 복작성
 	- [x] **🤮 불리언 플래그는 코드를 읽는 이에게 뜻을 온전히 전달하지 못하기** 때문에 더욱 좋지 않음
+
+### 📍 절차
+&emsp;⓵ 매개변수로 주어질 수 있는 값 각각에 대으<br>
+&emsp;⓶ 함수 선언 바꾸기로 리터럴들을 매개변수로 추가한다.<br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNzY3MjE4OCwyMjY5NTU5MSwyMjE1Mz
-Q4NywxODM5NTc5NDAyLDExOTI2OTcwMTYsLTE5NzMxNTM5MjIs
-LTYxNjgwNjgxMyw1NjgwODIwODQsMTQ2MTU0MTE2OSwtMTUyMz
-E5ODI4NCwyODQzMTY3ODksMTQ1MDM4MzAyNSw0MjE5OTIyMjAs
-NTMzMTczMTgxLDc2NTc5NTc3MSwyMDQ4Nzc1NzU3LC0xMzE4ND
-A2Njg2LDIxMzcwMzAyNTUsLTIxNDEzNjg2NzcsMTYxMTQxNDk1
-MF19
+eyJoaXN0b3J5IjpbNTE1NzEyMDgsMjAxNzY3MjE4OCwyMjY5NT
+U5MSwyMjE1MzQ4NywxODM5NTc5NDAyLDExOTI2OTcwMTYsLTE5
+NzMxNTM5MjIsLTYxNjgwNjgxMyw1NjgwODIwODQsMTQ2MTU0MT
+E2OSwtMTUyMzE5ODI4NCwyODQzMTY3ODksMTQ1MDM4MzAyNSw0
+MjE5OTIyMjAsNTMzMTczMTgxLDc2NTc5NTc3MSwyMDQ4Nzc1Nz
+U3LC0xMzE4NDA2Njg2LDIxMzcwMzAyNTUsLTIxNDEzNjg2Nzdd
+fQ==
 -->
