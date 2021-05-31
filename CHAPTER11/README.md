@@ -211,14 +211,15 @@ fun withinBand(
    bottom: Float,
    top: Float
 ) {
-   return 
+   return if (usage > bottom) Math.min(usage, top) - 100 
+          else 0
 }
 
 fun baseCharge(usage: Float) {
    if (usage < 0) return usd(0)
    val amount = 
       bottomBand(usage) * 0.03
-      + middleBand(usage) * 0.05
+      + withinBand(usage, 100, 200) * 0.05
       + topBand(usage) * 0.07
    return usd(amount)
 }
@@ -237,7 +238,7 @@ fun topBand(usage: Float) {
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNjE3NTg2OSwyMjY5NTU5MSwyMjE1Mz
+eyJoaXN0b3J5IjpbMTM3MDcyNDY0MiwyMjY5NTU5MSwyMjE1Mz
 Q4NywxODM5NTc5NDAyLDExOTI2OTcwMTYsLTE5NzMxNTM5MjIs
 LTYxNjgwNjgxMyw1NjgwODIwODQsMTQ2MTU0MTE2OSwtMTUyMz
 E5ODI4NCwyODQzMTY3ODksMTQ1MDM4MzAyNSw0MjE5OTIyMjAs
