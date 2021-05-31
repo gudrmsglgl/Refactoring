@@ -271,14 +271,17 @@ bookConsert(customer, "premium")
 	- [x] **🤮 불리언 플래그는 코드를 읽는 이에게 뜻을 온전히 전달하지 못하기** 때문에 더욱 좋지 않음
 
 ### 📍 절차
-&emsp;⓵ 매개변수로 주어질 수 있는 값 각각에 대으<br>
-&emsp;⓶ 함수 선언 바꾸기로 리터럴들을 매개변수로 추가한다.<br>
+&emsp;⓵ 매개변수로 주어질 수 있는 값 각각에 대응하는 명시적 함수들을 생성<br>
+> 주가 되는 함수에 깔끔한 분배 조건문이 포함되어 있다면 조건문 분해하기로 명시적 함수들을 생성하자. 그렇지 않으면 래핑함수 형태로 만든다.
+
+&emsp;⓶ 원래 함수를 호출하는 코드들을 모두 찾아서 각 리터럴 값에 대응되는 명시적 함수를 호출하도록 수정한다.<br>
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE1NzEyMDgsMjAxNzY3MjE4OCwyMjY5NT
-U5MSwyMjE1MzQ4NywxODM5NTc5NDAyLDExOTI2OTcwMTYsLTE5
-NzMxNTM5MjIsLTYxNjgwNjgxMyw1NjgwODIwODQsMTQ2MTU0MT
-E2OSwtMTUyMzE5ODI4NCwyODQzMTY3ODksMTQ1MDM4MzAyNSw0
-MjE5OTIyMjAsNTMzMTczMTgxLDc2NTc5NTc3MSwyMDQ4Nzc1Nz
-U3LC0xMzE4NDA2Njg2LDIxMzcwMzAyNTUsLTIxNDEzNjg2Nzdd
-fQ==
+eyJoaXN0b3J5IjpbLTk1NzI3NjgyNCwyMDE3NjcyMTg4LDIyNj
+k1NTkxLDIyMTUzNDg3LDE4Mzk1Nzk0MDIsMTE5MjY5NzAxNiwt
+MTk3MzE1MzkyMiwtNjE2ODA2ODEzLDU2ODA4MjA4NCwxNDYxNT
+QxMTY5LC0xNTIzMTk4Mjg0LDI4NDMxNjc4OSwxNDUwMzgzMDI1
+LDQyMTk5MjIyMCw1MzMxNzMxODEsNzY1Nzk1NzcxLDIwNDg3Nz
+U3NTcsLTEzMTg0MDY2ODYsMjEzNzAzMDI1NSwtMjE0MTM2ODY3
+N119
 -->
