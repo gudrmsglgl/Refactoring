@@ -304,14 +304,18 @@ fun deliveryDate(order: Order, isRush: Boolean) {
 ```
 **🔻 명시적인 함수를 사용해 호출자의 의도를 분명히 밝히기**
 ```kotlin
+fun deliveryDate(order: Order, isRush: Boolean) {
+   if (isRush) rushDeliveryDate(order)
+   else regularDeliveryDate(order)
+}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA3NDgzNjU4LDEwMDIwMjY1NzYsLTk1Nz
-I3NjgyNCwyMDE3NjcyMTg4LDIyNjk1NTkxLDIyMTUzNDg3LDE4
-Mzk1Nzk0MDIsMTE5MjY5NzAxNiwtMTk3MzE1MzkyMiwtNjE2OD
-A2ODEzLDU2ODA4MjA4NCwxNDYxNTQxMTY5LC0xNTIzMTk4Mjg0
-LDI4NDMxNjc4OSwxNDUwMzgzMDI1LDQyMTk5MjIyMCw1MzMxNz
-MxODEsNzY1Nzk1NzcxLDIwNDg3NzU3NTcsLTEzMTg0MDY2ODZd
-fQ==
+eyJoaXN0b3J5IjpbLTE4ODEyMTg4MjcsMTAwMjAyNjU3NiwtOT
+U3Mjc2ODI0LDIwMTc2NzIxODgsMjI2OTU1OTEsMjIxNTM0ODcs
+MTgzOTU3OTQwMiwxMTkyNjk3MDE2LC0xOTczMTUzOTIyLC02MT
+Y4MDY4MTMsNTY4MDgyMDg0LDE0NjE1NDExNjksLTE1MjMxOTgy
+ODQsMjg0MzE2Nzg5LDE0NTAzODMwMjUsNDIxOTkyMjIwLDUzMz
+E3MzE4MSw3NjU3OTU3NzEsMjA0ODc3NTc1NywtMTMxODQwNjY4
+Nl19
 -->
