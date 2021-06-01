@@ -321,19 +321,19 @@ fun regularDeliveryDate(order: Order) {
    val deliveryTime = 0
    if (["MA", "CT", "NY"].includes(order.deliveryState)) deliveryTime = 2
    else if (["NY", "NH"].includes(order.deliveryState)) deliveryTime = 3
-      else deliveryTime = 4
-      return order.placeOn.plusDays(2 + deliveryTime)
+   else deliveryTime = 4
+   return order.placeOn.plusDays(2 + deliveryTime)
 }
 
 
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NDg0NzM5MCwtMTg4MTIxODgyNywxMD
-AyMDI2NTc2LC05NTcyNzY4MjQsMjAxNzY3MjE4OCwyMjY5NTU5
-MSwyMjE1MzQ4NywxODM5NTc5NDAyLDExOTI2OTcwMTYsLTE5Nz
-MxNTM5MjIsLTYxNjgwNjgxMyw1NjgwODIwODQsMTQ2MTU0MTE2
-OSwtMTUyMzE5ODI4NCwyODQzMTY3ODksMTQ1MDM4MzAyNSw0Mj
-E5OTIyMjAsNTMzMTczMTgxLDc2NTc5NTc3MSwyMDQ4Nzc1NzU3
-XX0=
+eyJoaXN0b3J5IjpbMjg4NzY2NzY0LC0xODgxMjE4ODI3LDEwMD
+IwMjY1NzYsLTk1NzI3NjgyNCwyMDE3NjcyMTg4LDIyNjk1NTkx
+LDIyMTUzNDg3LDE4Mzk1Nzk0MDIsMTE5MjY5NzAxNiwtMTk3Mz
+E1MzkyMiwtNjE2ODA2ODEzLDU2ODA4MjA4NCwxNDYxNTQxMTY5
+LC0xNTIzMTk4Mjg0LDI4NDMxNjc4OSwxNDUwMzgzMDI1LDQyMT
+k5MjIyMCw1MzMxNzMxODEsNzY1Nzk1NzcxLDIwNDg3NzU3NTdd
+fQ==
 -->
