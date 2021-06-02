@@ -337,24 +337,15 @@ val low = room.daysTempRange.low
 val high = room.daysTempRange.high
 if (plan.withinRange(low, high))
 ```
-**🔻 플래그 인수 제거**
+**🔻 객체 통째로 넘기기**
 ```kotlin
-fun setHeight(value: Float) { this._height = value }
-fun setWidth(value: Float) { this._width = value }
+if (plan.withinRange(room.daysTempRange))
 ```
 
-### 플래그 인수 함수
-- 호출되는 함수가 실행할 로직을 호출하는 쪽에서 선택하기 위해 전달하는 인수
-```kotlin
-fun bookConcert(customer: Customer, isPremium: Boolean) {
-   if (isPremium) {
-      // 프리미엄 예약 로직
-   } else {
-      // 일반 예약 로직
-   }
-}
+### 🔍 함수 매개변수화 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2OTcxNjc4OCwyODg3NjY3NjQsLTE4OD
+eyJoaXN0b3J5IjpbLTkzNzg2MTAxOSwyODg3NjY3NjQsLTE4OD
 EyMTg4MjcsMTAwMjAyNjU3NiwtOTU3Mjc2ODI0LDIwMTc2NzIx
 ODgsMjI2OTU1OTEsMjIxNTM0ODcsMTgzOTU3OTQwMiwxMTkyNj
 k3MDE2LC0xOTczMTUzOTIyLC02MTY4MDY4MTMsNTY4MDgyMDg0
