@@ -355,9 +355,11 @@ if (plan.withinRange(room.daysTempRange))
 		- -> 객체 안으로 집어넣어야 함을 알려주는 악취
 	- [x] 한 객체가 제공하는 기중 중 항상 똑같은 일부만을 사용하는 코드가 많다면 
 		- -> 그 기능만 묶어서 클래스 추출 신호
-	- [x] 
+	- [x] 다른 객체의 메서드를 호출하면서 
+			호출하는 객체 자신이 가지고 있는 데이터 여러 개 건낼 때
+			-> 객체 자신의 참조만 건네도록 수정
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNzc1NDU3MSwtMTM5NzQyMjk1MCwtNj
+eyJoaXN0b3J5IjpbLTk4Nzg1NjAyOSwtMTM5NzQyMjk1MCwtNj
 M4MjA5OTQ2LDI4ODc2Njc2NCwtMTg4MTIxODgyNywxMDAyMDI2
 NTc2LC05NTcyNzY4MjQsMjAxNzY3MjE4OCwyMjY5NTU5MSwyMj
 E1MzQ4NywxODM5NTc5NDAyLDExOTI2OTcwMTYsLTE5NzMxNTM5
