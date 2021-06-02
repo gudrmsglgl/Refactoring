@@ -368,8 +368,58 @@ if (plan.withinRange(room.daysTempRange))
 &emsp;⓸ 모든 호출자가 새 함수를 사용하게 수정한다. 하나씩 수명하며 테스트<br>
 &emsp;⓹ 호출자를 모두 수정했다면 원래 함수를 인라인한다.<br>
 &emsp;⓺ 새 함수의 이름을 적절히 수정하고 모든 호출자에 반영.<br>
+
+### Ex. 일일 최저-ㅊ
+```kotlin
+shipment.deliveryDate = deliveryDate(order, true)
+
+// 다른 곳에서는 다음처럼 호출함
+shipment.deliveryDate = deliveryDate(order, false)
+
+// boolean 을 보면 뭘 의미하는지 의문..
+// deliveryDate() 함수 코드는 다음과 같다.
+fun deliveryDate(order: Order, isRush: Boolean) {
+   if (isRush) {
+      val deliveryTime = 0
+      if (["MA", "CT"].includes(order.deliveryState)) deliveryTime = 1
+      else if (["NY", "NH"].includes(order.deliveryState)) deliveryTime = 2
+      else deliveryTime = 3
+      return order.placeOn.plusDays(1 + deliveryTime)
+   }
+   else {
+      val deliveryTime = 0
+      if (["MA", "CT", "NY"].includes(order.deliveryState)) deliveryTime = 2
+      else if (["NY", "NH"].includes(order.deliveryState)) deliveryTime = 3
+      else deliveryTime = 4
+      return order.placeOn.plusDays(2 + deliveryTime)
+   }
+}
+```
+**🔻 명시적인 함수를 사용해 호출자의 의도를 분명히 밝히기**
+```kotlin
+fun deliveryDate(order: Order, isRush: Boolean) {
+   if (isRush) rushDeliveryDate(order)
+   else regularDeliveryDate(order)
+}
+
+fun rushDeliveryDate(order: Order) {
+   val deliveryTime = 0
+   if (["MA", "CT"].includes(order.deliveryState)) deliveryTime = 1
+   else if (["NY", "NH"].includes(order.deliveryState)) deliveryTime = 2
+   else deliveryTime = 3
+   return order.placeOn.plusDays(1 + deliveryTime)
+}
+
+fun regularDeliveryDate(order: Order) {
+   val deliveryTime = 0
+   if (["MA", "CT", "NY"].includes(order.deliveryState)) deliveryTime = 2
+   else if (["NY", "NH"].includes(order.deliveryState)) deliveryTime = 3
+   else deliveryTime = 4
+   return order.placeOn.plusDays(2 + deliveryTime)
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc2OTI4NTY4LC0xMzk3NDIyOTUwLC02Mz
+eyJoaXN0b3J5IjpbMTIzMjE5MTI0LC0xMzk3NDIyOTUwLC02Mz
 gyMDk5NDYsMjg4NzY2NzY0LC0xODgxMjE4ODI3LDEwMDIwMjY1
 NzYsLTk1NzI3NjgyNCwyMDE3NjcyMTg4LDIyNjk1NTkxLDIyMT
 UzNDg3LDE4Mzk1Nzk0MDIsMTE5MjY5NzAxNiwtMTk3MzE1Mzky
