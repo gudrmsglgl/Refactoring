@@ -355,8 +355,8 @@ if (plan.withinRange(room.daysTempRange))
 		- -> 객체 안으로 집어넣어야 함을 알려주는 악취
 	- [x] 한 객체가 제공하는 기중 중 항상 똑같은 일부만을 사용하는 코드가 많다면 
 		- -> 그 기능만 묶어서 클래스 추출 신호
-	- [x] 다른 객체의 메서드를 호출하면서 
-			호출하는 객체 자신이 가지고 있는 데이터 여러 개 건낼 때
+	- [x] 다른 객체의 메서드를 호출하면서 <br>
+			호출하는 객체 자신이 가지고 있는 데이터 여러 개 건낼 때 <br>
 			-> 객체 자신의 참조만 건네도록 수정
 
 ### 📍 절차
@@ -369,11 +369,11 @@ if (plan.withinRange(room.daysTempRange))
 &emsp;⓹ 호출자를 모두 수정했다면 원래 함수를 인라인한다.<br>
 &emsp;⓺ 새 함수의 이름을 적절히 수정하고 모든 호출자에 반영.<br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MzA1ODcyMiwtMTM5NzQyMjk1MCwtNj
-M4MjA5OTQ2LDI4ODc2Njc2NCwtMTg4MTIxODgyNywxMDAyMDI2
-NTc2LC05NTcyNzY4MjQsMjAxNzY3MjE4OCwyMjY5NTU5MSwyMj
-E1MzQ4NywxODM5NTc5NDAyLDExOTI2OTcwMTYsLTE5NzMxNTM5
-MjIsLTYxNjgwNjgxMyw1NjgwODIwODQsMTQ2MTU0MTE2OSwtMT
-UyMzE5ODI4NCwyODQzMTY3ODksMTQ1MDM4MzAyNSw0MjE5OTIy
-MjBdfQ==
+eyJoaXN0b3J5IjpbNzc2OTI4NTY4LC0xMzk3NDIyOTUwLC02Mz
+gyMDk5NDYsMjg4NzY2NzY0LC0xODgxMjE4ODI3LDEwMDIwMjY1
+NzYsLTk1NzI3NjgyNCwyMDE3NjcyMTg4LDIyNjk1NTkxLDIyMT
+UzNDg3LDE4Mzk1Nzk0MDIsMTE5MjY5NzAxNiwtMTk3MzE1Mzky
+MiwtNjE2ODA2ODEzLDU2ODA4MjA4NCwxNDYxNTQxMTY5LC0xNT
+IzMTk4Mjg0LDI4NDMxNjc4OSwxNDUwMzgzMDI1LDQyMTk5MjIy
+MF19
 -->
