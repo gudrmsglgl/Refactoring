@@ -371,6 +371,7 @@ if (plan.withinRange(room.daysTempRange))
 
 ### Ex. 일일 최저-최고 기온이 난방 계획에서 정한 범위를 벗어나는지 확인 
 ```kotlin
+// 초출자 
 val low = room.daysTempRange.low
 val high = room.daysTempRange.high
 if (!plan.withinRange(low, high))
@@ -387,8 +388,8 @@ class HeatingPlan {
 ```kotlin
 class HeatingPlan {
    fun withinRnage(numberRange) {
-      return (bottom >= this._temperatureRange.low)
-         && (top <= this._temperatureRange.high)
+      return (numberRange.low >= this._temperatureRange.low)
+         && (numberRange.high <= this._temperatureRange.high)
    }
 }    
 
@@ -409,11 +410,11 @@ fun regularDeliveryDate(order: Order) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMjMzNjQ0NCwtMTM5NzQyMjk1MCwtNj
-M4MjA5OTQ2LDI4ODc2Njc2NCwtMTg4MTIxODgyNywxMDAyMDI2
-NTc2LC05NTcyNzY4MjQsMjAxNzY3MjE4OCwyMjY5NTU5MSwyMj
-E1MzQ4NywxODM5NTc5NDAyLDExOTI2OTcwMTYsLTE5NzMxNTM5
-MjIsLTYxNjgwNjgxMyw1NjgwODIwODQsMTQ2MTU0MTE2OSwtMT
-UyMzE5ODI4NCwyODQzMTY3ODksMTQ1MDM4MzAyNSw0MjE5OTIy
-MjBdfQ==
+eyJoaXN0b3J5IjpbNjE2MjkzNjQ4LC0xMzk3NDIyOTUwLC02Mz
+gyMDk5NDYsMjg4NzY2NzY0LC0xODgxMjE4ODI3LDEwMDIwMjY1
+NzYsLTk1NzI3NjgyNCwyMDE3NjcyMTg4LDIyNjk1NTkxLDIyMT
+UzNDg3LDE4Mzk1Nzk0MDIsMTE5MjY5NzAxNiwtMTk3MzE1Mzky
+MiwtNjE2ODA2ODEzLDU2ODA4MjA4NCwxNDYxNTQxMTY5LC0xNT
+IzMTk4Mjg0LDI4NDMxNjc4OSwxNDUwMzgzMDI1LDQyMTk5MjIy
+MF19
 -->
