@@ -375,7 +375,13 @@ val low = room.daysTempRange.low
 val high = room.daysTempRange.high
 if (!plan.withinRange(low, high))
    println("방 온도가 지정 범위를 벗어났습니다.")
-class     
+
+class HeatingPlan {
+   fun withinRnage(bottom, high) {
+      return (bottom >= this._temperatureRange.low)
+         && (top <= this._temperatureRange.high)
+   }
+}    
 ```
 **🔻 명시적인 함수를 사용해 호출자의 의도를 분명히 밝히기**
 ```kotlin
@@ -401,11 +407,11 @@ fun regularDeliveryDate(order: Order) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MzYwMzQ1OCwtMTM5NzQyMjk1MCwtNj
-M4MjA5OTQ2LDI4ODc2Njc2NCwtMTg4MTIxODgyNywxMDAyMDI2
-NTc2LC05NTcyNzY4MjQsMjAxNzY3MjE4OCwyMjY5NTU5MSwyMj
-E1MzQ4NywxODM5NTc5NDAyLDExOTI2OTcwMTYsLTE5NzMxNTM5
-MjIsLTYxNjgwNjgxMyw1NjgwODIwODQsMTQ2MTU0MTE2OSwtMT
-UyMzE5ODI4NCwyODQzMTY3ODksMTQ1MDM4MzAyNSw0MjE5OTIy
-MjBdfQ==
+eyJoaXN0b3J5IjpbMTgyMzk0NjI2LC0xMzk3NDIyOTUwLC02Mz
+gyMDk5NDYsMjg4NzY2NzY0LC0xODgxMjE4ODI3LDEwMDIwMjY1
+NzYsLTk1NzI3NjgyNCwyMDE3NjcyMTg4LDIyNjk1NTkxLDIyMT
+UzNDg3LDE4Mzk1Nzk0MDIsMTE5MjY5NzAxNiwtMTk3MzE1Mzky
+MiwtNjE2ODA2ODEzLDU2ODA4MjA4NCwxNDYxNTQxMTY5LC0xNT
+IzMTk4Mjg0LDI4NDMxNjc4OSwxNDUwMzgzMDI1LDQyMTk5MjIy
+MF19
 -->
