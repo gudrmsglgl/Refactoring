@@ -344,10 +344,12 @@ if (plan.withinRange(room.daysTempRange))
 
 ### 🔍  객체 넘기기
 - 객체를 통째로 넘기면 변화에 대응하기 쉽다
-- 함수가 더 다양한 데이터를 사용하
+- 함수가 더 다양한 데이터를 사용하도록 바뀌어도 매개변수 목록은 수정할 필요 없음
+- 매개변수 목록이 짧아져서 함수 사용법 이해도 좋아진다
+- 레코드를 통째로 넘기면 로직 중복 제거
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NzIyNjQ2NiwyODg3NjY3NjQsLTE4OD
+eyJoaXN0b3J5IjpbLTYzODIwOTk0NiwyODg3NjY3NjQsLTE4OD
 EyMTg4MjcsMTAwMjAyNjU3NiwtOTU3Mjc2ODI0LDIwMTc2NzIx
 ODgsMjI2OTU1OTEsMjIxNTM0ODcsMTgzOTU3OTQwMiwxMTkyNj
 k3MDE2LC0xOTczMTUzOTIyLC02MTY4MDY4MTMsNTY4MDgyMDg0
