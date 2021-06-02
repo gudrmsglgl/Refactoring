@@ -342,10 +342,12 @@ if (plan.withinRange(low, high))
 if (plan.withinRange(room.daysTempRange))
 ```
 
-### 🔍 함수 매개변수화 
+### 🔍  객체 넘기기
+- 객체를 통째로 넘기면 변화에 대응하기 쉽다
+- 함수가 더 다양한 데이터를 사용하
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNzg2MTAxOSwyODg3NjY3NjQsLTE4OD
+eyJoaXN0b3J5IjpbMjA5NzIyNjQ2NiwyODg3NjY3NjQsLTE4OD
 EyMTg4MjcsMTAwMjAyNjU3NiwtOTU3Mjc2ODI0LDIwMTc2NzIx
 ODgsMjI2OTU1OTEsMjIxNTM0ODcsMTgzOTU3OTQwMiwxMTkyNj
 k3MDE2LC0xOTczMTUzOTIyLC02MTY4MDY4MTMsNTY4MDgyMDg0
