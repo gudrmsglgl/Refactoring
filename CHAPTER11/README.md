@@ -369,31 +369,13 @@ if (plan.withinRange(room.daysTempRange))
 &emsp;⓹ 호출자를 모두 수정했다면 원래 함수를 인라인한다.<br>
 &emsp;⓺ 새 함수의 이름을 적절히 수정하고 모든 호출자에 반영.<br>
 
-### Ex. 일일 최저-ㅊ
+### Ex. 일일 최저-최고 기온이 난방 계획에서 정한 범위를 벗어나는지 확인 
 ```kotlin
-shipment.deliveryDate = deliveryDate(order, true)
-
-// 다른 곳에서는 다음처럼 호출함
-shipment.deliveryDate = deliveryDate(order, false)
-
-// boolean 을 보면 뭘 의미하는지 의문..
-// deliveryDate() 함수 코드는 다음과 같다.
-fun deliveryDate(order: Order, isRush: Boolean) {
-   if (isRush) {
-      val deliveryTime = 0
-      if (["MA", "CT"].includes(order.deliveryState)) deliveryTime = 1
-      else if (["NY", "NH"].includes(order.deliveryState)) deliveryTime = 2
-      else deliveryTime = 3
-      return order.placeOn.plusDays(1 + deliveryTime)
-   }
-   else {
-      val deliveryTime = 0
-      if (["MA", "CT", "NY"].includes(order.deliveryState)) deliveryTime = 2
-      else if (["NY", "NH"].includes(order.deliveryState)) deliveryTime = 3
-      else deliveryTime = 4
-      return order.placeOn.plusDays(2 + deliveryTime)
-   }
-}
+val low = room.daysTempRange.low
+val high = room.daysTempRange.high
+if (!plan.withinRange(low, high))
+   println("방 온도가 지정 범위를 벗어났습니다.")
+class     
 ```
 **🔻 명시적인 함수를 사용해 호출자의 의도를 분명히 밝히기**
 ```kotlin
@@ -419,11 +401,11 @@ fun regularDeliveryDate(order: Order) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMjE5MTI0LC0xMzk3NDIyOTUwLC02Mz
-gyMDk5NDYsMjg4NzY2NzY0LC0xODgxMjE4ODI3LDEwMDIwMjY1
-NzYsLTk1NzI3NjgyNCwyMDE3NjcyMTg4LDIyNjk1NTkxLDIyMT
-UzNDg3LDE4Mzk1Nzk0MDIsMTE5MjY5NzAxNiwtMTk3MzE1Mzky
-MiwtNjE2ODA2ODEzLDU2ODA4MjA4NCwxNDYxNTQxMTY5LC0xNT
-IzMTk4Mjg0LDI4NDMxNjc4OSwxNDUwMzgzMDI1LDQyMTk5MjIy
-MF19
+eyJoaXN0b3J5IjpbLTg0MzYwMzQ1OCwtMTM5NzQyMjk1MCwtNj
+M4MjA5OTQ2LDI4ODc2Njc2NCwtMTg4MTIxODgyNywxMDAyMDI2
+NTc2LC05NTcyNzY4MjQsMjAxNzY3MjE4OCwyMjY5NTU5MSwyMj
+E1MzQ4NywxODM5NTc5NDAyLDExOTI2OTcwMTYsLTE5NzMxNTM5
+MjIsLTYxNjgwNjgxMyw1NjgwODIwODQsMTQ2MTU0MTE2OSwtMT
+UyMzE5ODI4NCwyODQzMTY3ODksMTQ1MDM4MzAyNSw0MjE5OTIy
+MjBdfQ==
 -->
