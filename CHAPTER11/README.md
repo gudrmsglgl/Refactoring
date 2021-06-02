@@ -358,8 +358,16 @@ if (plan.withinRange(room.daysTempRange))
 	- [x] 다른 객체의 메서드를 호출하면서 
 			호출하는 객체 자신이 가지고 있는 데이터 여러 개 건낼 때
 			-> 객체 자신의 참조만 건네도록 수정
+
+### 📍 절차
+&emsp;⓵ 비슷한 함수 중 하나를 선택한다.<br>
+&emsp;⓶ 함수 선언 바꾸기로 리터럴들을 매개변수로 추가한다.<br>
+&emsp;⓷ 이 함수를 호출하는 곳 모두에 적절한 리터럴 값을 추가한다.<br>
+&emsp;⓸ 테스트한다.<br>
+&emsp;⓹ 매개변수로 받은 값을 사용하도록 함수 본문을 수정. 수정할 때마다 테스트<br>
+&emsp;⓺ 비슷한 다른 함수를 호출하는 코드를 찾아<br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4Nzg1NjAyOSwtMTM5NzQyMjk1MCwtNj
+eyJoaXN0b3J5IjpbLTY2NTk4MzMwOCwtMTM5NzQyMjk1MCwtNj
 M4MjA5OTQ2LDI4ODc2Njc2NCwtMTg4MTIxODgyNywxMDAyMDI2
 NTc2LC05NTcyNzY4MjQsMjAxNzY3MjE4OCwyMjY5NTU5MSwyMj
 E1MzQ4NywxODM5NTc5NDAyLDExOTI2OTcwMTYsLTE5NzMxNTM5
