@@ -360,14 +360,16 @@ if (plan.withinRange(room.daysTempRange))
 			-> 객체 자신의 참조만 건네도록 수정
 
 ### 📍 절차
-&emsp;⓵ 비슷한 함수 중 하나를 선택한다.<br>
-&emsp;⓶ 함수 선언 바꾸기로 리터럴들을 매개변수로 추가한다.<br>
-&emsp;⓷ 이 함수를 호출하는 곳 모두에 적절한 리터럴 값을 추가한다.<br>
-&emsp;⓸ 테스트한다.<br>
-&emsp;⓹ 매개변수로 받은 값을 사용하도록 함수 본문을 수정. 수정할 때마다 테스트<br>
-&emsp;⓺ 비슷한 다른 함수를 호출하는 코드를 찾아<br>
+&emsp;⓵ 매개변수들을 원하는 형태로 받는 빈 함수를 만든다.<br>
+> -> 마지막 단계에서 이 함수의 이름을 변경해야 하니 검색하기 쉬운 이름
+
+&emsp;⓶ 새 함수의 본문에서는 원래 함수를 호출하도록 하며, 새 매개변수와 원래 함수의 매개변수를 매핑한다.<br>
+&emsp;⓷ 정적 검사를 수행한다.<br>
+&emsp;⓸ 모든 호출자가 새 함수를 사용하게 수정한다. 하나씩 수명하며 테스트<br>
+&emsp;⓹ 호출자를 모두 수정했다면 원래 함수를 인라인한다.<br>
+&emsp;⓺ 새 함수ㅢ<br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NTk4MzMwOCwtMTM5NzQyMjk1MCwtNj
+eyJoaXN0b3J5IjpbLTE1NDE0MTU2NSwtMTM5NzQyMjk1MCwtNj
 M4MjA5OTQ2LDI4ODc2Njc2NCwtMTg4MTIxODgyNywxMDAyMDI2
 NTc2LC05NTcyNzY4MjQsMjAxNzY3MjE4OCwyMjY5NTU5MSwyMj
 E1MzQ4NywxODM5NTc5NDAyLDExOTI2OTcwMTYsLTE5NzMxNTM5
