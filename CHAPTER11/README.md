@@ -3,6 +3,7 @@
 [질의 함수와 변경 함수 분리하기](#id-section1)<br>
 [함수 매개변수화하기](#id-section2)<br>
 [플래그 인수 제거하기](#id-section3)<br>
+[객체 통째로 넘기기](#id-section4)<br>
 
 
 - ### 소프트웨어 구성 빌딩 블록 - 모듈, 함수
@@ -324,16 +325,40 @@ fun regularDeliveryDate(order: Order) {
    else deliveryTime = 4
    return order.placeOn.plusDays(2 + deliveryTime)
 }
-
-
 ```
 
+
+<br>
+<div id='id-section4'/>
+
+## 11.3 객체 통째로 넘기기
+```kotlin
+val low = room.daysTempRange.low
+val high = room.daysTempRange.high
+if (plan.withinRange(low, high))
+```
+**🔻 플래그 인수 제거**
+```kotlin
+fun setHeight(value: Float) { this._height = value }
+fun setWidth(value: Float) { this._width = value }
+```
+
+### 플래그 인수 함수
+- 호출되는 함수가 실행할 로직을 호출하는 쪽에서 선택하기 위해 전달하는 인수
+```kotlin
+fun bookConcert(customer: Customer, isPremium: Boolean) {
+   if (isPremium) {
+      // 프리미엄 예약 로직
+   } else {
+      // 일반 예약 로직
+   }
+}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg4NzY2NzY0LC0xODgxMjE4ODI3LDEwMD
-IwMjY1NzYsLTk1NzI3NjgyNCwyMDE3NjcyMTg4LDIyNjk1NTkx
-LDIyMTUzNDg3LDE4Mzk1Nzk0MDIsMTE5MjY5NzAxNiwtMTk3Mz
-E1MzkyMiwtNjE2ODA2ODEzLDU2ODA4MjA4NCwxNDYxNTQxMTY5
-LC0xNTIzMTk4Mjg0LDI4NDMxNjc4OSwxNDUwMzgzMDI1LDQyMT
-k5MjIyMCw1MzMxNzMxODEsNzY1Nzk1NzcxLDIwNDg3NzU3NTdd
+eyJoaXN0b3J5IjpbLTY2OTcxNjc4OCwyODg3NjY3NjQsLTE4OD
+EyMTg4MjcsMTAwMjAyNjU3NiwtOTU3Mjc2ODI0LDIwMTc2NzIx
+ODgsMjI2OTU1OTEsMjIxNTM0ODcsMTgzOTU3OTQwMiwxMTkyNj
+k3MDE2LC0xOTczMTUzOTIyLC02MTY4MDY4MTMsNTY4MDgyMDg0
+LDE0NjE1NDExNjksLTE1MjMxOTgyODQsMjg0MzE2Nzg5LDE0NT
+AzODMwMjUsNDIxOTkyMjIwLDUzMzE3MzE4MSw3NjU3OTU3NzFd
 fQ==
 -->
