@@ -347,13 +347,15 @@ if (plan.withinRange(room.daysTempRange))
 - 함수가 더 다양한 데이터를 사용하도록 바뀌어도 매개변수 목록은 수정할 필요 없음
 - 매개변수 목록이 짧아져서 함수 사용법 이해도 좋아진다
 - 레코드를 통째로 넘기면 로직 중복 제거
-
+- 넘기지 말아야할 때
+	- [x] 함수가 객체 자체에 의존하기를 원치 않을 때
+	- [x] 객체와 함수가 서로 다른 모듈에 속한 상황
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzODIwOTk0NiwyODg3NjY3NjQsLTE4OD
-EyMTg4MjcsMTAwMjAyNjU3NiwtOTU3Mjc2ODI0LDIwMTc2NzIx
-ODgsMjI2OTU1OTEsMjIxNTM0ODcsMTgzOTU3OTQwMiwxMTkyNj
-k3MDE2LC0xOTczMTUzOTIyLC02MTY4MDY4MTMsNTY4MDgyMDg0
-LDE0NjE1NDExNjksLTE1MjMxOTgyODQsMjg0MzE2Nzg5LDE0NT
-AzODMwMjUsNDIxOTkyMjIwLDUzMzE3MzE4MSw3NjU3OTU3NzFd
-fQ==
+eyJoaXN0b3J5IjpbLTEzOTc0MjI5NTAsLTYzODIwOTk0NiwyOD
+g3NjY3NjQsLTE4ODEyMTg4MjcsMTAwMjAyNjU3NiwtOTU3Mjc2
+ODI0LDIwMTc2NzIxODgsMjI2OTU1OTEsMjIxNTM0ODcsMTgzOT
+U3OTQwMiwxMTkyNjk3MDE2LC0xOTczMTUzOTIyLC02MTY4MDY4
+MTMsNTY4MDgyMDg0LDE0NjE1NDExNjksLTE1MjMxOTgyODQsMj
+g0MzE2Nzg5LDE0NTAzODMwMjUsNDIxOTkyMjIwLDUzMzE3MzE4
+MV19
 -->
