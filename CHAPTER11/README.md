@@ -351,13 +351,14 @@ if (plan.withinRange(room.daysTempRange))
 	- [x] 함수가 객체 자체에 의존하기를 원치 않을 때
 	- [x] 객체와 함수가 서로 다른 모듈에 속한 상황
 - 🧐 객체 넘기기 시 문제 발견
-	- [x] 
+	- [x] 어떤 객체로부터 값 몇개를 얻은 후 그 값들만으로 무언가를 하는 로직 -> 객체 안으로 집어넣어야 함을 알려주는 악취
+	- [x] 한 객체가 제공하는 기중 중 항상 똑같은 일부만을 사용하는 코드가 많다면 -> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMzQ5NzM1MSwtMTM5NzQyMjk1MCwtNj
-M4MjA5OTQ2LDI4ODc2Njc2NCwtMTg4MTIxODgyNywxMDAyMDI2
-NTc2LC05NTcyNzY4MjQsMjAxNzY3MjE4OCwyMjY5NTU5MSwyMj
-E1MzQ4NywxODM5NTc5NDAyLDExOTI2OTcwMTYsLTE5NzMxNTM5
-MjIsLTYxNjgwNjgxMyw1NjgwODIwODQsMTQ2MTU0MTE2OSwtMT
-UyMzE5ODI4NCwyODQzMTY3ODksMTQ1MDM4MzAyNSw0MjE5OTIy
-MjBdfQ==
+eyJoaXN0b3J5IjpbLTE1NDAxNDUyNzUsLTEzOTc0MjI5NTAsLT
+YzODIwOTk0NiwyODg3NjY3NjQsLTE4ODEyMTg4MjcsMTAwMjAy
+NjU3NiwtOTU3Mjc2ODI0LDIwMTc2NzIxODgsMjI2OTU1OTEsMj
+IxNTM0ODcsMTgzOTU3OTQwMiwxMTkyNjk3MDE2LC0xOTczMTUz
+OTIyLC02MTY4MDY4MTMsNTY4MDgyMDg0LDE0NjE1NDExNjksLT
+E1MjMxOTgyODQsMjg0MzE2Nzg5LDE0NTAzODMwMjUsNDIxOTky
+MjIwXX0=
 -->
