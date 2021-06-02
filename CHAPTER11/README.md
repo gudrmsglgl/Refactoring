@@ -367,9 +367,9 @@ if (plan.withinRange(room.daysTempRange))
 &emsp;⓷ 정적 검사를 수행한다.<br>
 &emsp;⓸ 모든 호출자가 새 함수를 사용하게 수정한다. 하나씩 수명하며 테스트<br>
 &emsp;⓹ 호출자를 모두 수정했다면 원래 함수를 인라인한다.<br>
-&emsp;⓺ 새 함수ㅢ<br>
+&emsp;⓺ 새 함수의 이름을 적절히 수정하고 모든 호출자에 반영.<br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDE0MTU2NSwtMTM5NzQyMjk1MCwtNj
+eyJoaXN0b3J5IjpbMTY1MzA1ODcyMiwtMTM5NzQyMjk1MCwtNj
 M4MjA5OTQ2LDI4ODc2Njc2NCwtMTg4MTIxODgyNywxMDAyMDI2
 NTc2LC05NTcyNzY4MjQsMjAxNzY3MjE4OCwyMjY5NTU5MSwyMj
 E1MzQ4NywxODM5NTc5NDAyLDExOTI2OTcwMTYsLTE5NzMxNTM5
