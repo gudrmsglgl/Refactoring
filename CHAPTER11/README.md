@@ -393,28 +393,16 @@ class HeatingPlan {
    }
 }    
 
-fun rushDeliveryDate(order: Order) {
-   val deliveryTime = 0
-   if (["MA", "CT"].includes(order.deliveryState)) deliveryTime = 1
-   else if (["NY", "NH"].includes(order.deliveryState)) deliveryTime = 2
-   else deliveryTime = 3
-   return order.placeOn.plusDays(1 + deliveryTime)
-}
-
-fun regularDeliveryDate(order: Order) {
-   val deliveryTime = 0
-   if (["MA", "CT", "NY"].includes(order.deliveryState)) deliveryTime = 2
-   else if (["NY", "NH"].includes(order.deliveryState)) deliveryTime = 3
-   else deliveryTime = 4
-   return order.placeOn.plusDays(2 + deliveryTime)
-}
+// 호출자
+if (!plan.withinRange(room.daysTempRange))
+   println("방 온도가 지정 범위를 벗어났습니다.")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE2MjkzNjQ4LC0xMzk3NDIyOTUwLC02Mz
-gyMDk5NDYsMjg4NzY2NzY0LC0xODgxMjE4ODI3LDEwMDIwMjY1
-NzYsLTk1NzI3NjgyNCwyMDE3NjcyMTg4LDIyNjk1NTkxLDIyMT
-UzNDg3LDE4Mzk1Nzk0MDIsMTE5MjY5NzAxNiwtMTk3MzE1Mzky
-MiwtNjE2ODA2ODEzLDU2ODA4MjA4NCwxNDYxNTQxMTY5LC0xNT
-IzMTk4Mjg0LDI4NDMxNjc4OSwxNDUwMzgzMDI1LDQyMTk5MjIy
-MF19
+eyJoaXN0b3J5IjpbLTI3Mjk4ODMxMywtMTM5NzQyMjk1MCwtNj
+M4MjA5OTQ2LDI4ODc2Njc2NCwtMTg4MTIxODgyNywxMDAyMDI2
+NTc2LC05NTcyNzY4MjQsMjAxNzY3MjE4OCwyMjY5NTU5MSwyMj
+E1MzQ4NywxODM5NTc5NDAyLDExOTI2OTcwMTYsLTE5NzMxNTM5
+MjIsLTYxNjgwNjgxMyw1NjgwODIwODQsMTQ2MTU0MTE2OSwtMT
+UyMzE5ODI4NCwyODQzMTY3ODksMTQ1MDM4MzAyNSw0MjE5OTIy
+MjBdfQ==
 -->
