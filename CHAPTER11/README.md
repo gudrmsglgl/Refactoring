@@ -529,9 +529,16 @@ fun targetTemperature(plan, thermostat.currentTemperature) {
 	- [x] 결국 호출자가 복잡 
 	- [x] 책임 소재를 프로그램의 어디에 배정하느냐에 문제로 귀결
 
+### 📍 절차
+&emsp;⓵ 변수 추출하기로 질의 코드를 함수 본문의 나머지 코드와 분리<br>
+&emsp;⓶ 함수 본문 중 해당 질의를 호출하지 않는 코드들을 별도 함수로 추출 <br>
+> -> 이 함수의 이름은 나중에 수정해야 하니 검색하기 쉬운 이름으로 짓는다.
 
+&emsp;⓷ 방금 만든 변수를 인라인하여 제거한다.<br>
+&emsp;⓸ 원래 함수도 인라인한다.<br>
+&emsp;⓹ 새 함수의 이름ㅇ<br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MzA0OTM2NSwxMDgwNDY3MDgyLDQ4MD
+eyJoaXN0b3J5IjpbLTM3MDUwMDEzOCwxMDgwNDY3MDgyLDQ4MD
 c0MTY2OCwxMzQwMjk5NzU5LC0yNzI5ODgzMTMsLTEzOTc0MjI5
 NTAsLTYzODIwOTk0NiwyODg3NjY3NjQsLTE4ODEyMTg4MjcsMT
 AwMjAyNjU3NiwtOTU3Mjc2ODI0LDIwMTc2NzIxODgsMjI2OTU1
