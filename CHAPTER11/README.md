@@ -425,15 +425,16 @@ fun availableVacation(employee: Employee) {
 - 매개변수 목록은 함수의 변동 요인
 - 함수의 동작에 변화를 줄 수 있는 일차적 수단
 - 중복은 피하는게 좋으며 짧을수록 이해하기 쉬움
+- 피호출 함수가 '쉽게' 결정할 수 있는 값을 매개변수로 건네는 것도 일종의 중복
 - 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNjE0MTA4OSwtMjcyOTg4MzEzLC0xMz
-k3NDIyOTUwLC02MzgyMDk5NDYsMjg4NzY2NzY0LC0xODgxMjE4
-ODI3LDEwMDIwMjY1NzYsLTk1NzI3NjgyNCwyMDE3NjcyMTg4LD
-IyNjk1NTkxLDIyMTUzNDg3LDE4Mzk1Nzk0MDIsMTE5MjY5NzAx
-NiwtMTk3MzE1MzkyMiwtNjE2ODA2ODEzLDU2ODA4MjA4NCwxND
-YxNTQxMTY5LC0xNTIzMTk4Mjg0LDI4NDMxNjc4OSwxNDUwMzgz
-MDI1XX0=
+eyJoaXN0b3J5IjpbODU5ODE2OTg4LC0yNzI5ODgzMTMsLTEzOT
+c0MjI5NTAsLTYzODIwOTk0NiwyODg3NjY3NjQsLTE4ODEyMTg4
+MjcsMTAwMjAyNjU3NiwtOTU3Mjc2ODI0LDIwMTc2NzIxODgsMj
+I2OTU1OTEsMjIxNTM0ODcsMTgzOTU3OTQwMiwxMTkyNjk3MDE2
+LC0xOTczMTUzOTIyLC02MTY4MDY4MTMsNTY4MDgyMDg0LDE0Nj
+E1NDExNjksLTE1MjMxOTgyODQsMjg0MzE2Nzg5LDE0NTAzODMw
+MjVdfQ==
 -->
