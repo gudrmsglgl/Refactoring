@@ -5,6 +5,7 @@
 [플래그 인수 제거하기](#id-section3)<br>
 [객체 통째로 넘기기](#id-section4)<br>
 [매개변수를 질의 함수로 바꾸기](#id-section5)<br>
+[질의 함수를 매개변수로 바꾸기](#id-section6)<br>
 
 
 
@@ -483,11 +484,11 @@ fun discountedPrice(basePrice) = when (this.descountLevel) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MDQ2NzA4Miw0ODA3NDE2NjgsMTM0MD
-I5OTc1OSwtMjcyOTg4MzEzLC0xMzk3NDIyOTUwLC02MzgyMDk5
-NDYsMjg4NzY2NzY0LC0xODgxMjE4ODI3LDEwMDIwMjY1NzYsLT
-k1NzI3NjgyNCwyMDE3NjcyMTg4LDIyNjk1NTkxLDIyMTUzNDg3
-LDE4Mzk1Nzk0MDIsMTE5MjY5NzAxNiwtMTk3MzE1MzkyMiwtNj
-E2ODA2ODEzLDU2ODA4MjA4NCwxNDYxNTQxMTY5LC0xNTIzMTk4
-Mjg0XX0=
+eyJoaXN0b3J5IjpbLTE3OTcwNTYwNzMsMTA4MDQ2NzA4Miw0OD
+A3NDE2NjgsMTM0MDI5OTc1OSwtMjcyOTg4MzEzLC0xMzk3NDIy
+OTUwLC02MzgyMDk5NDYsMjg4NzY2NzY0LC0xODgxMjE4ODI3LD
+EwMDIwMjY1NzYsLTk1NzI3NjgyNCwyMDE3NjcyMTg4LDIyNjk1
+NTkxLDIyMTUzNDg3LDE4Mzk1Nzk0MDIsMTE5MjY5NzAxNiwtMT
+k3MzE1MzkyMiwtNjE2ODA2ODEzLDU2ODA4MjA4NCwxNDYxNTQx
+MTY5XX0=
 -->
