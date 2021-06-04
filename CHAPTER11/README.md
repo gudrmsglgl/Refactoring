@@ -503,13 +503,18 @@ fun targetTemperature(plan, thermostat.currentTemperature) {
 }
 ```
 
-
+### 🔍 함수 안에 참조
+- 함수 안에 두기엔 거북한 참조를 발견할 때
+	 - [x] 전역 변수를 참조
+	 - [x] 
+ 
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NDA3OTg4NywxMDgwNDY3MDgyLDQ4MD
-c0MTY2OCwxMzQwMjk5NzU5LC0yNzI5ODgzMTMsLTEzOTc0MjI5
-NTAsLTYzODIwOTk0NiwyODg3NjY3NjQsLTE4ODEyMTg4MjcsMT
-AwMjAyNjU3NiwtOTU3Mjc2ODI0LDIwMTc2NzIxODgsMjI2OTU1
-OTEsMjIxNTM0ODcsMTgzOTU3OTQwMiwxMTkyNjk3MDE2LC0xOT
-czMTUzOTIyLC02MTY4MDY4MTMsNTY4MDgyMDg0LDE0NjE1NDEx
-NjldfQ==
+eyJoaXN0b3J5IjpbNzcwMTc5MjEsMTA4MDQ2NzA4Miw0ODA3ND
+E2NjgsMTM0MDI5OTc1OSwtMjcyOTg4MzEzLC0xMzk3NDIyOTUw
+LC02MzgyMDk5NDYsMjg4NzY2NzY0LC0xODgxMjE4ODI3LDEwMD
+IwMjY1NzYsLTk1NzI3NjgyNCwyMDE3NjcyMTg4LDIyNjk1NTkx
+LDIyMTUzNDg3LDE4Mzk1Nzk0MDIsMTE5MjY5NzAxNiwtMTk3Mz
+E1MzkyMiwtNjE2ODA2ODEzLDU2ODA4MjA4NCwxNDYxNTQxMTY5
+XX0=
 -->
