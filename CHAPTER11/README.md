@@ -399,13 +399,13 @@ if (!plan.withinRange(room.daysTempRange))
 ```
 
 <br>
-<div id='id-section'/>
+<div id='id-section5'/>
 
-## 11.4 객체 통째로 넘기기
+## 11.5 매개변수를 질의 함수로 바꾸기
 ```kotlin
-val low = room.daysTempRange.low
-val high = room.daysTempRange.high
-if (plan.withinRange(low, high))
+availableVaction(employee, employee.grade)
+
+fun a
 ```
 **🔻 객체 통째로 넘기기**
 ```kotlin
@@ -413,7 +413,7 @@ if (plan.withinRange(room.daysTempRange))
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNzkwNzEyNCwtMjcyOTg4MzEzLC0xMz
+eyJoaXN0b3J5IjpbMjA4Mzg3NjUzNSwtMjcyOTg4MzEzLC0xMz
 k3NDIyOTUwLC02MzgyMDk5NDYsMjg4NzY2NzY0LC0xODgxMjE4
 ODI3LDEwMDIwMjY1NzYsLTk1NzI3NjgyNCwyMDE3NjcyMTg4LD
 IyNjk1NTkxLDIyMTUzNDg3LDE4Mzk1Nzk0MDIsMTE5MjY5NzAx
