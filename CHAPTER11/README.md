@@ -331,7 +331,7 @@ fun regularDeliveryDate(order: Order) {
 <br>
 <div id='id-section4'/>
 
-## 11.3 객체 통째로 넘기기
+## 11.4 객체 통째로 넘기기
 ```kotlin
 val low = room.daysTempRange.low
 val high = room.daysTempRange.high
@@ -371,7 +371,7 @@ if (plan.withinRange(room.daysTempRange))
 
 ### Ex. 일일 최저-최고 기온이 난방 계획에서 정한 범위를 벗어나는지 확인 
 ```kotlin
-// 초출자 
+// 출자 
 val low = room.daysTempRange.low
 val high = room.daysTempRange.high
 if (!plan.withinRange(low, high))
@@ -397,12 +397,27 @@ class HeatingPlan {
 if (!plan.withinRange(room.daysTempRange))
    println("방 온도가 지정 범위를 벗어났습니다.")
 ```
+
+<br>
+<div id='id-section'/>
+
+## 11.4 객체 통째로 넘기기
+```kotlin
+val low = room.daysTempRange.low
+val high = room.daysTempRange.high
+if (plan.withinRange(low, high))
+```
+**🔻 객체 통째로 넘기기**
+```kotlin
+if (plan.withinRange(room.daysTempRange))
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3Mjk4ODMxMywtMTM5NzQyMjk1MCwtNj
-M4MjA5OTQ2LDI4ODc2Njc2NCwtMTg4MTIxODgyNywxMDAyMDI2
-NTc2LC05NTcyNzY4MjQsMjAxNzY3MjE4OCwyMjY5NTU5MSwyMj
-E1MzQ4NywxODM5NTc5NDAyLDExOTI2OTcwMTYsLTE5NzMxNTM5
-MjIsLTYxNjgwNjgxMyw1NjgwODIwODQsMTQ2MTU0MTE2OSwtMT
-UyMzE5ODI4NCwyODQzMTY3ODksMTQ1MDM4MzAyNSw0MjE5OTIy
-MjBdfQ==
+eyJoaXN0b3J5IjpbLTIxNzkwNzEyNCwtMjcyOTg4MzEzLC0xMz
+k3NDIyOTUwLC02MzgyMDk5NDYsMjg4NzY2NzY0LC0xODgxMjE4
+ODI3LDEwMDIwMjY1NzYsLTk1NzI3NjgyNCwyMDE3NjcyMTg4LD
+IyNjk1NTkxLDIyMTUzNDg3LDE4Mzk1Nzk0MDIsMTE5MjY5NzAx
+NiwtMTk3MzE1MzkyMiwtNjE2ODA2ODEzLDU2ODA4MjA4NCwxND
+YxNTQxMTY5LC0xNTIzMTk4Mjg0LDI4NDMxNjc4OSwxNDUwMzgz
+MDI1XX0=
 -->
