@@ -450,23 +450,18 @@ fun availableVacation(employee: Employee) {
 &emsp;&emsp;&nbsp;수정할 때마다 테스트<br>
 &emsp;⓷ 함수 선언 바꾸기로 대상 매개변수를 없앤다.<br>
 
-### Ex. 일일 최저-최고 기온이 난방 계획에서 정한 범위를 벗어나는지 확인 
+### Ex.  
 ```kotlin
-// 출자 
-val low = room.daysTempRange.low
-val high = room.daysTempRange.high
-if (!plan.withinRange(low, high))
-   println("방 온도가 지정 범위를 벗어났습니다.")
-
-class HeatingPlan {
-   fun withinRnage(bottom, high) {
-      return (bottom >= this._temperatureRange.low)
-         && (top <= this._temperatureRange.high)
-   }
+fun finalPrice() {
+   val basePrice = this.quantity * this.itemPrice
+   var discountLevel = 0
+   if (this.quantity > 100) discountLevel = 2
+   else discountLevel = 1 
+   return this.discountedPrice(basePrice, discountLeve
 }    
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5OTU3NjYxMCwxMzQwMjk5NzU5LC0yNz
+eyJoaXN0b3J5IjpbMjA2ODM5MzIxOCwxMzQwMjk5NzU5LC0yNz
 I5ODgzMTMsLTEzOTc0MjI5NTAsLTYzODIwOTk0NiwyODg3NjY3
 NjQsLTE4ODEyMTg4MjcsMTAwMjAyNjU3NiwtOTU3Mjc2ODI0LD
 IwMTc2NzIxODgsMjI2OTU1OTEsMjIxNTM0ODcsMTgzOTU3OTQw
