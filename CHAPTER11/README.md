@@ -403,17 +403,24 @@ if (!plan.withinRange(room.daysTempRange))
 
 ## 11.5 매개변수를 질의 함수로 바꾸기
 ```kotlin
-availableVaction(employee, employee.grade)
+availableVacation(employee, employee.grade)
 
-fun a
+fun availableVacation(employee: Employee, grade: String) {
+   // 연휴 계산...
+}
 ```
-**🔻 객체 통째로 넘기기**
+**🔻 매개변수를 질의 함수로 바꾸기**
 ```kotlin
-if (plan.withinRange(room.daysTempRange))
+availableVacation(employee)
+
+fun availableVacation(employee: Employee) {
+   ㅍㅁgrade: String
+   // 연휴 계산...
+}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4Mzg3NjUzNSwtMjcyOTg4MzEzLC0xMz
+eyJoaXN0b3J5IjpbLTkyNzQxODQzMiwtMjcyOTg4MzEzLC0xMz
 k3NDIyOTUwLC02MzgyMDk5NDYsMjg4NzY2NzY0LC0xODgxMjE4
 ODI3LDEwMDIwMjY1NzYsLTk1NzI3NjgyNCwyMDE3NjcyMTg4LD
 IyNjk1NTkxLDIyMTUzNDg3LDE4Mzk1Nzk0MDIsMTE5MjY5NzAx
