@@ -452,6 +452,7 @@ fun availableVacation(employee: Employee) {
 
 ### Ex.  
 ```kotlin
+// Order class
 fun finalPrice() {
    val basePrice = this.quantity * this.itemPrice
    var discountLevel = 0
@@ -465,12 +466,29 @@ fun discountedPrice(basePrice, discountLevel) = when (descountLevel) {
    2 -> basePrice * 0.9
 }    
 ```
+**🔻 매개변수 질의함수**
+```kotlin
+// Order class
+fun finalPrice() {
+   val basePrice = this.quantity * this.itemPrice
+   var discountLevel = 0
+   if (this.quantity > 100) discountLevel = 2
+   else discountLevel = 1 
+   return this.discountedPrice(basePrice, discountLevel)
+}
+
+fun discountedPrice(basePrice, discountLevel) = when (descountLevel) {
+   1 -> basePrice * 0.95
+   2 -> basePrice * 0.9
+}    
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgwNzQxNjY4LDEzNDAyOTk3NTksLTI3Mj
-k4ODMxMywtMTM5NzQyMjk1MCwtNjM4MjA5OTQ2LDI4ODc2Njc2
-NCwtMTg4MTIxODgyNywxMDAyMDI2NTc2LC05NTcyNzY4MjQsMj
-AxNzY3MjE4OCwyMjY5NTU5MSwyMjE1MzQ4NywxODM5NTc5NDAy
-LDExOTI2OTcwMTYsLTE5NzMxNTM5MjIsLTYxNjgwNjgxMyw1Nj
-gwODIwODQsMTQ2MTU0MTE2OSwtMTUyMzE5ODI4NCwyODQzMTY3
-ODldfQ==
+eyJoaXN0b3J5IjpbMTI0NDUyMjk3MCw0ODA3NDE2NjgsMTM0MD
+I5OTc1OSwtMjcyOTg4MzEzLC0xMzk3NDIyOTUwLC02MzgyMDk5
+NDYsMjg4NzY2NzY0LC0xODgxMjE4ODI3LDEwMDIwMjY1NzYsLT
+k1NzI3NjgyNCwyMDE3NjcyMTg4LDIyNjk1NTkxLDIyMTUzNDg3
+LDE4Mzk1Nzk0MDIsMTE5MjY5NzAxNiwtMTk3MzE1MzkyMiwtNj
+E2ODA2ODEzLDU2ODA4MjA4NCwxNDYxNTQxMTY5LC0xNTIzMTk4
+Mjg0XX0=
 -->
