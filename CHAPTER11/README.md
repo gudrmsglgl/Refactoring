@@ -4,6 +4,8 @@
 [함수 매개변수화하기](#id-section2)<br>
 [플래그 인수 제거하기](#id-section3)<br>
 [객체 통째로 넘기기](#id-section4)<br>
+[매개변수를 질의 함수로 바꾸기](#id-section5)<br>
+
 
 
 - ### 소프트웨어 구성 빌딩 블록 - 모듈, 함수
@@ -401,7 +403,7 @@ if (!plan.withinRange(room.daysTempRange))
 <br>
 <div id='id-section5'/>
 
-## 11.5 매개변수를 질의 함수로 바꾸기
+## 11.5 매개변수를 질의 함수로 바꾸기 Replace Parameter with Query
 ```kotlin
 availableVacation(employee, employee.grade)
 
@@ -414,17 +416,20 @@ fun availableVacation(employee: Employee, grade: String) {
 availableVacation(employee)
 
 fun availableVacation(employee: Employee) {
-   ㅍㅁgrade: String
+   val grade = employee.grade
    // 연휴 계산...
 }
 ```
 
+### 🔍  객체 넘기기
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNzQxODQzMiwtMjcyOTg4MzEzLC0xMz
-k3NDIyOTUwLC02MzgyMDk5NDYsMjg4NzY2NzY0LC0xODgxMjE4
-ODI3LDEwMDIwMjY1NzYsLTk1NzI3NjgyNCwyMDE3NjcyMTg4LD
-IyNjk1NTkxLDIyMTUzNDg3LDE4Mzk1Nzk0MDIsMTE5MjY5NzAx
-NiwtMTk3MzE1MzkyMiwtNjE2ODA2ODEzLDU2ODA4MjA4NCwxND
-YxNTQxMTY5LC0xNTIzMTk4Mjg0LDI4NDMxNjc4OSwxNDUwMzgz
-MDI1XX0=
+eyJoaXN0b3J5IjpbLTY5MzQyNjkxLC0yNzI5ODgzMTMsLTEzOT
+c0MjI5NTAsLTYzODIwOTk0NiwyODg3NjY3NjQsLTE4ODEyMTg4
+MjcsMTAwMjAyNjU3NiwtOTU3Mjc2ODI0LDIwMTc2NzIxODgsMj
+I2OTU1OTEsMjIxNTM0ODcsMTgzOTU3OTQwMiwxMTkyNjk3MDE2
+LC0xOTczMTUzOTIyLC02MTY4MDY4MTMsNTY4MDgyMDg0LDE0Nj
+E1NDExNjksLTE1MjMxOTgyODQsMjg0MzE2Nzg5LDE0NTAzODMw
+MjVdfQ==
 -->
