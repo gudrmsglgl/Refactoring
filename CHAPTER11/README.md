@@ -491,19 +491,21 @@ fun discountedPrice(basePrice) = when (this.descountLevel) {
 targetTemperature(plan)
 
 fun targetTemperature(plan) {
-
-```
-**🔻 매개변수를 질의 함수로 바꾸기**
-```kotlin
-availableVacation(employee)
-
-fun availableVacation(employee: Employee) {
-   val grade = employee.grade
-   // 연휴 계산...
+   currentTemperature = thermostat.currentTemperature
 }
 ```
+**🔻 질의 함수를 매개변수로 바꾸기**
+```kotlin
+targetTemperature(plan, thermostat.currentTemperature)
+
+fun targetTemperature(plan, thermostat.currentTemperature) {
+   
+}
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3OTU4MDEwMCwxMDgwNDY3MDgyLDQ4MD
+eyJoaXN0b3J5IjpbLTY2NDA3OTg4NywxMDgwNDY3MDgyLDQ4MD
 c0MTY2OCwxMzQwMjk5NzU5LC0yNzI5ODgzMTMsLTEzOTc0MjI5
 NTAsLTYzODIwOTk0NiwyODg3NjY3NjQsLTE4ODEyMTg4MjcsMT
 AwMjAyNjU3NiwtOTU3Mjc2ODI0LDIwMTc2NzIxODgsMjI2OTU1
