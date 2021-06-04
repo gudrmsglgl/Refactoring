@@ -510,14 +510,19 @@ fun targetTemperature(plan, thermostat.currentTemperature) {
 	 - [x] 참조를 풀어내는 책임을 호출자로 옮기는 것
 
 ### 매개변수 <> 참조
-- 두 
+- 두 사이 적절한 균형 찾아야 한다.
+- 한쪽 끝은 모든 것을 매개변수로 바꿔 아주 길고 반복적인 매개변수 목록 만드는 것
+- 다른 쪽 끝은 함수들끼리 많은 것을 공유하여 수많은 결합을 만들어내는 것
+
+### 참조 투명성
+- 똑같은 값을 건네면 매
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NDk1MTQ4LDEwODA0NjcwODIsNDgwNz
-QxNjY4LDEzNDAyOTk3NTksLTI3Mjk4ODMxMywtMTM5NzQyMjk1
-MCwtNjM4MjA5OTQ2LDI4ODc2Njc2NCwtMTg4MTIxODgyNywxMD
-AyMDI2NTc2LC05NTcyNzY4MjQsMjAxNzY3MjE4OCwyMjY5NTU5
-MSwyMjE1MzQ4NywxODM5NTc5NDAyLDExOTI2OTcwMTYsLTE5Nz
-MxNTM5MjIsLTYxNjgwNjgxMyw1NjgwODIwODQsMTQ2MTU0MTE2
-OV19
+eyJoaXN0b3J5IjpbMTk3MzgzMzI3NiwxMDgwNDY3MDgyLDQ4MD
+c0MTY2OCwxMzQwMjk5NzU5LC0yNzI5ODgzMTMsLTEzOTc0MjI5
+NTAsLTYzODIwOTk0NiwyODg3NjY3NjQsLTE4ODEyMTg4MjcsMT
+AwMjAyNjU3NiwtOTU3Mjc2ODI0LDIwMTc2NzIxODgsMjI2OTU1
+OTEsMjIxNTM0ODcsMTgzOTU3OTQwMiwxMTkyNjk3MDE2LC0xOT
+czMTUzOTIyLC02MTY4MDY4MTMsNTY4MDgyMDg0LDE0NjE1NDEx
+NjldfQ==
 -->
