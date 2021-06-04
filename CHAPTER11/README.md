@@ -434,10 +434,11 @@ fun availableVacation(employee: Employee) {
 	- [x] 매개변수를 제거하면 피호출 함수에 원치 않는 의존성이 생길 때
 	- [x] 즉, 해당 함수가 알지 못했으면 하는 프로그램 요소에 접근해야 하는 상황
 	- [x] 새로운 의존생이 생기거나 or 제거하고 싶은 기존 의존성을 강화하는 경우
+	- [x] -> 주로 문제의 외부 함수를 호출 or 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MTQ2MjMyMiwtMjcyOTg4MzEzLC0xMz
+eyJoaXN0b3J5IjpbMTg3NzQwMTQ3OSwtMjcyOTg4MzEzLC0xMz
 k3NDIyOTUwLC02MzgyMDk5NDYsMjg4NzY2NzY0LC0xODgxMjE4
 ODI3LDEwMDIwMjY1NzYsLTk1NzI3NjgyNCwyMDE3NjcyMTg4LD
 IyNjk1NTkxLDIyMTUzNDg3LDE4Mzk1Nzk0MDIsMTE5MjY5NzAx
