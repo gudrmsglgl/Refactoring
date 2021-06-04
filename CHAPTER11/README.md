@@ -439,14 +439,16 @@ fun availableVacation(employee: Employee) {
 	- [x] 새로운 의존생이 생기거나 or 제거하고 싶은 기존 의존성을 강화하는 경우
 	- [x] -> 주로 문제의 외부 함수를 호출 or 나중에 함수 밖으로 빼내길 원하는 수용 객체에 담긴 데이터를 사용해야할 때 일어남
 - 주의사항 
-	- 대상 함수가 참ㅈ
+	- 대상 함수가 **참조 투명**해야 함
+		> 참조투명: 함수에 똑같은 값을 건네 호출하면 항상 똑같이 동작한다
+	- 따라서 매개변수를 없애는 대신 가변 전역 변수를 이용하는 일은 하면 안됨.	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY4OTY1OTE4LDEzNDAyOTk3NTksLTI3Mj
-k4ODMxMywtMTM5NzQyMjk1MCwtNjM4MjA5OTQ2LDI4ODc2Njc2
-NCwtMTg4MTIxODgyNywxMDAyMDI2NTc2LC05NTcyNzY4MjQsMj
-AxNzY3MjE4OCwyMjY5NTU5MSwyMjE1MzQ4NywxODM5NTc5NDAy
-LDExOTI2OTcwMTYsLTE5NzMxNTM5MjIsLTYxNjgwNjgxMyw1Nj
-gwODIwODQsMTQ2MTU0MTE2OSwtMTUyMzE5ODI4NCwyODQzMTY3
-ODldfQ==
+eyJoaXN0b3J5IjpbLTE1MDgxMDcxOTEsMTM0MDI5OTc1OSwtMj
+cyOTg4MzEzLC0xMzk3NDIyOTUwLC02MzgyMDk5NDYsMjg4NzY2
+NzY0LC0xODgxMjE4ODI3LDEwMDIwMjY1NzYsLTk1NzI3NjgyNC
+wyMDE3NjcyMTg4LDIyNjk1NTkxLDIyMTUzNDg3LDE4Mzk1Nzk0
+MDIsMTE5MjY5NzAxNiwtMTk3MzE1MzkyMiwtNjE2ODA2ODEzLD
+U2ODA4MjA4NCwxNDYxNTQxMTY5LC0xNTIzMTk4Mjg0LDI4NDMx
+Njc4OV19
 -->
