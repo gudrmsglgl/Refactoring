@@ -543,11 +543,12 @@ fun targetTemperature(plan, thermostat.currentTemperature) {
 // HeatPlan class
 fun targetTemperature() {
    if (thermostat.selectedTemperature > this._max) return this._max
-   else if ( thermostat.selectedTemperature > this._m) return this._min
+   else if ( thermostat.selectedTemperature < this._min) return this._min
+   else return thermostat.selectedTemperature
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMTQzODM3MywxMDgwNDY3MDgyLDQ4MD
+eyJoaXN0b3J5IjpbLTM5MjE2MDIzNywxMDgwNDY3MDgyLDQ4MD
 c0MTY2OCwxMzQwMjk5NzU5LC0yNzI5ODgzMTMsLTEzOTc0MjI5
 NTAsLTYzODIwOTk0NiwyODg3NjY3NjQsLTE4ODEyMTg4MjcsMT
 AwMjAyNjU3NiwtOTU3Mjc2ODI0LDIwMTc2NzIxODgsMjI2OTU1
