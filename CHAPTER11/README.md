@@ -538,28 +538,20 @@ fun targetTemperature(plan, thermostat.currentTemperature) {
 &emsp;⓸ 원래 함수도 인라인한다.<br>
 &emsp;⓹ 새 함수의 이름을 원래 함수의 이름으로 고쳐준다.<br>
 
-### Ex.  실내온도 제어 시스템. 사용자는 온도 조절기(thermostat) 온도 설정할 수 있지만, 목표 온도는 난방 계획
+### Ex.  실내온도 제어 시스템. 사용자는 온도 조절기(thermostat) 온도 설정할 수 있지만, 목표 온도는 난방 계획에서 정한 범위에서만 선택할 수 있다.
 ```kotlin
-// Order class
-fun finalPrice() {
-   val basePrice = this.quantity * this.itemPrice
-   var discountLevel = 0
-   if (this.quantity > 100) discountLevel = 2
-   else discountLevel = 1 
-   return this.discountedPrice(basePrice, discountLevel)
+// HeatPlan class
+fun targetTemperature() {
+   if (thermostat.selectedTemperature > this._max) return this._max
+   else if ( thermostat.selectedTemperature > this._m) return this._min
 }
-
-fun discountedPrice(basePrice, discountLevel) = when (descountLevel) {
-   1 -> basePrice * 0.95
-   2 -> basePrice * 0.9
-}    
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTc1NjcwMDIsMTA4MDQ2NzA4Miw0OD
-A3NDE2NjgsMTM0MDI5OTc1OSwtMjcyOTg4MzEzLC0xMzk3NDIy
-OTUwLC02MzgyMDk5NDYsMjg4NzY2NzY0LC0xODgxMjE4ODI3LD
-EwMDIwMjY1NzYsLTk1NzI3NjgyNCwyMDE3NjcyMTg4LDIyNjk1
-NTkxLDIyMTUzNDg3LDE4Mzk1Nzk0MDIsMTE5MjY5NzAxNiwtMT
-k3MzE1MzkyMiwtNjE2ODA2ODEzLDU2ODA4MjA4NCwxNDYxNTQx
-MTY5XX0=
+eyJoaXN0b3J5IjpbMTkzMTQzODM3MywxMDgwNDY3MDgyLDQ4MD
+c0MTY2OCwxMzQwMjk5NzU5LC0yNzI5ODgzMTMsLTEzOTc0MjI5
+NTAsLTYzODIwOTk0NiwyODg3NjY3NjQsLTE4ODEyMTg4MjcsMT
+AwMjAyNjU3NiwtOTU3Mjc2ODI0LDIwMTc2NzIxODgsMjI2OTU1
+OTEsMjIxNTM0ODcsMTgzOTU3OTQwMiwxMTkyNjk3MDE2LC0xOT
+czMTUzOTIyLC02MTY4MDY4MTMsNTY4MDgyMDg0LDE0NjE1NDEx
+NjldfQ==
 -->
