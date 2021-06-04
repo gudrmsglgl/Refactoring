@@ -428,11 +428,13 @@ fun availableVacation(employee: Employee) {
 - 피호출 함수가 '쉽게' 결정할 수 있는 값을 매개변수로 건네는 것도 일종의 중복
 - 호출하는 쪽을 간소하게 만들자.
 	- [x] 책임 소재를 피호출 함수로 옮긴다. (피호출 함수가 그 역할을 수행하기에 적합할 때)
-- 
+- 매개변수를 질의 함수로 바꾸지 말아야 할 상황
+	- [x] 매개변수를 제거하면 피호출 함수에 원치 않는 의존성이 생길 때
+	- [x] 즉, 해당 함수가 알지 못했으면 하는 프로그램 요소에 접근해야 하는 상황
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NzM0ODY3MSwtMjcyOTg4MzEzLC0xMz
+eyJoaXN0b3J5IjpbLTI4NTE0MjQzOSwtMjcyOTg4MzEzLC0xMz
 k3NDIyOTUwLC02MzgyMDk5NDYsMjg4NzY2NzY0LC0xODgxMjE4
 ODI3LDEwMDIwMjY1NzYsLTk1NzI3NjgyNCwyMDE3NjcyMTg4LD
 IyNjk1NTkxLDIyMTUzNDg3LDE4Mzk1Nzk0MDIsMTE5MjY5NzAx
