@@ -449,12 +449,28 @@ fun availableVacation(employee: Employee) {
 &emsp;&emsp;&nbsp;그 매개변수의 값을 만들어주는 표현식을 참조하도록 바꾼다.<br> 
 &emsp;&emsp;&nbsp;수정할 때마다 테스트<br>
 &emsp;⓷ 함수 선언 바꾸기로 대상 매개변수를 없앤다.<br>
+
+### Ex. 일일 최저-최고 기온이 난방 계획에서 정한 범위를 벗어나는지 확인 
+```kotlin
+// 출자 
+val low = room.daysTempRange.low
+val high = room.daysTempRange.high
+if (!plan.withinRange(low, high))
+   println("방 온도가 지정 범위를 벗어났습니다.")
+
+class HeatingPlan {
+   fun withinRnage(bottom, high) {
+      return (bottom >= this._temperatureRange.low)
+         && (top <= this._temperatureRange.high)
+   }
+}    
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDU4NjQyNDIsMTM0MDI5OTc1OSwtMj
-cyOTg4MzEzLC0xMzk3NDIyOTUwLC02MzgyMDk5NDYsMjg4NzY2
-NzY0LC0xODgxMjE4ODI3LDEwMDIwMjY1NzYsLTk1NzI3NjgyNC
-wyMDE3NjcyMTg4LDIyNjk1NTkxLDIyMTUzNDg3LDE4Mzk1Nzk0
-MDIsMTE5MjY5NzAxNiwtMTk3MzE1MzkyMiwtNjE2ODA2ODEzLD
-U2ODA4MjA4NCwxNDYxNTQxMTY5LC0xNTIzMTk4Mjg0LDI4NDMx
-Njc4OV19
+eyJoaXN0b3J5IjpbMTA5OTU3NjYxMCwxMzQwMjk5NzU5LC0yNz
+I5ODgzMTMsLTEzOTc0MjI5NTAsLTYzODIwOTk0NiwyODg3NjY3
+NjQsLTE4ODEyMTg4MjcsMTAwMjAyNjU3NiwtOTU3Mjc2ODI0LD
+IwMTc2NzIxODgsMjI2OTU1OTEsMjIxNTM0ODcsMTgzOTU3OTQw
+MiwxMTkyNjk3MDE2LC0xOTczMTUzOTIyLC02MTY4MDY4MTMsNT
+Y4MDgyMDg0LDE0NjE1NDExNjksLTE1MjMxOTgyODQsMjg0MzE2
+Nzg5XX0=
 -->
