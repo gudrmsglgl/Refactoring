@@ -457,15 +457,20 @@ fun finalPrice() {
    var discountLevel = 0
    if (this.quantity > 100) discountLevel = 2
    else discountLevel = 1 
-   return this.discountedPrice(basePrice, discountLeve
+   return this.discountedPrice(basePrice, discountLevel)
+}
+
+fun discountedPrice(basePrice, discountLevel) = when (descountLevel) {
+   1 -> basePrice * 0.95
+   2 -> basePrice * 0.9
 }    
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2ODM5MzIxOCwxMzQwMjk5NzU5LC0yNz
-I5ODgzMTMsLTEzOTc0MjI5NTAsLTYzODIwOTk0NiwyODg3NjY3
-NjQsLTE4ODEyMTg4MjcsMTAwMjAyNjU3NiwtOTU3Mjc2ODI0LD
-IwMTc2NzIxODgsMjI2OTU1OTEsMjIxNTM0ODcsMTgzOTU3OTQw
-MiwxMTkyNjk3MDE2LC0xOTczMTUzOTIyLC02MTY4MDY4MTMsNT
-Y4MDgyMDg0LDE0NjE1NDExNjksLTE1MjMxOTgyODQsMjg0MzE2
-Nzg5XX0=
+eyJoaXN0b3J5IjpbNDgwNzQxNjY4LDEzNDAyOTk3NTksLTI3Mj
+k4ODMxMywtMTM5NzQyMjk1MCwtNjM4MjA5OTQ2LDI4ODc2Njc2
+NCwtMTg4MTIxODgyNywxMDAyMDI2NTc2LC05NTcyNzY4MjQsMj
+AxNzY3MjE4OCwyMjY5NTU5MSwyMjE1MzQ4NywxODM5NTc5NDAy
+LDExOTI2OTcwMTYsLTE5NzMxNTM5MjIsLTYxNjgwNjgxMyw1Nj
+gwODIwODQsMTQ2MTU0MTE2OSwtMTUyMzE5ODI4NCwyODQzMTY3
+ODldfQ==
 -->
