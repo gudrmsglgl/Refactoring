@@ -473,21 +473,21 @@ val discountLevel = if (this.quantity > 100) 2 else 1
 
 fun finalPrice() {
    val basePrice = this.quantity * this.itemPrice
-   return this.discountedPrice(basePrice, this.discountLevel)
+   return this.discountedPrice(basePrice)
 }
 
-fun discountedPrice(basePrice, discountLevel) = when (descountLevel) {
+fun discountedPrice(basePrice) = when (this.descountLevel) {
    1 -> basePrice * 0.95
    2 -> basePrice * 0.9
 }    
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzczNzQ0MjQsNDgwNzQxNjY4LDEzND
-AyOTk3NTksLTI3Mjk4ODMxMywtMTM5NzQyMjk1MCwtNjM4MjA5
-OTQ2LDI4ODc2Njc2NCwtMTg4MTIxODgyNywxMDAyMDI2NTc2LC
-05NTcyNzY4MjQsMjAxNzY3MjE4OCwyMjY5NTU5MSwyMjE1MzQ4
-NywxODM5NTc5NDAyLDExOTI2OTcwMTYsLTE5NzMxNTM5MjIsLT
-YxNjgwNjgxMyw1NjgwODIwODQsMTQ2MTU0MTE2OSwtMTUyMzE5
-ODI4NF19
+eyJoaXN0b3J5IjpbMTA4MDQ2NzA4Miw0ODA3NDE2NjgsMTM0MD
+I5OTc1OSwtMjcyOTg4MzEzLC0xMzk3NDIyOTUwLC02MzgyMDk5
+NDYsMjg4NzY2NzY0LC0xODgxMjE4ODI3LDEwMDIwMjY1NzYsLT
+k1NzI3NjgyNCwyMDE3NjcyMTg4LDIyNjk1NTkxLDIyMTUzNDg3
+LDE4Mzk1Nzk0MDIsMTE5MjY5NzAxNiwtMTk3MzE1MzkyMiwtNj
+E2ODA2ODEzLDU2ODA4MjA4NCwxNDYxNTQxMTY5LC0xNTIzMTk4
+Mjg0XX0=
 -->
