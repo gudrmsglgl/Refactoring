@@ -426,24 +426,27 @@ fun availableVacation(employee: Employee) {
 	- 매개변수 목록은 함수의 변동 요인
 	- 함수의 동작에 변화를 줄 수 있는 일차적 수단
 	- 중복은 피하는게 좋으며 짧을수록 이해하기 쉬움
-	- 제거하려는 매개변수의 값을 다른 매개변수에 질의해서(ex.object.grade) 얻을 수 있다면 질의 함
 - 매개변수 처리 방향
 	- 피호출 함수가 '쉽게' 결정할 수 있는 값을 매개변수로 건네는 것도 일종의 중복
 	- 호출하는 쪽을 간소하게 만들자.
 		- [x] 책임 소재를 피호출 함수로 옮긴다. (피호출 함수가 그 역할을 수행하기에 적합할 때)
+	- 제거하려는 매개변수의 값을 다른 매개변수에 질의해서(ex.object.grade) 얻을 수 있다면 질의 함수로 바꾸자
+		> -> 다른 매개변수에서 얻을 수 있는 값을 별도 매개변수로 전달하는 것은 의미 없음
+		
 - 매개변수를 질의 함수로 바꾸지 말아야 할 상황
 	- [x] 매개변수를 제거하면 피호출 함수에 원치 않는 의존성이 생길 때
 	- [x] 즉, 해당 함수가 알지 못했으면 하는 프로그램 요소에 접근해야 하는 상황
 	- [x] 새로운 의존생이 생기거나 or 제거하고 싶은 기존 의존성을 강화하는 경우
 	- [x] -> 주로 문제의 외부 함수를 호출 or 나중에 함수 밖으로 빼내길 원하는 수용 객체에 담긴 데이터를 사용해야할 때 일어남
-
+- 주의사항 
+	- 대상 함수가 참ㅈ
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MTA5MDA3MywxMzQwMjk5NzU5LC0yNz
-I5ODgzMTMsLTEzOTc0MjI5NTAsLTYzODIwOTk0NiwyODg3NjY3
-NjQsLTE4ODEyMTg4MjcsMTAwMjAyNjU3NiwtOTU3Mjc2ODI0LD
-IwMTc2NzIxODgsMjI2OTU1OTEsMjIxNTM0ODcsMTgzOTU3OTQw
-MiwxMTkyNjk3MDE2LC0xOTczMTUzOTIyLC02MTY4MDY4MTMsNT
-Y4MDgyMDg0LDE0NjE1NDExNjksLTE1MjMxOTgyODQsMjg0MzE2
-Nzg5XX0=
+eyJoaXN0b3J5IjpbNjY4OTY1OTE4LDEzNDAyOTk3NTksLTI3Mj
+k4ODMxMywtMTM5NzQyMjk1MCwtNjM4MjA5OTQ2LDI4ODc2Njc2
+NCwtMTg4MTIxODgyNywxMDAyMDI2NTc2LC05NTcyNzY4MjQsMj
+AxNzY3MjE4OCwyMjY5NTU5MSwyMjE1MzQ4NywxODM5NTc5NDAy
+LDExOTI2OTcwMTYsLTE5NzMxNTM5MjIsLTYxNjgwNjgxMyw1Nj
+gwODIwODQsMTQ2MTU0MTE2OSwtMTUyMzE5ODI4NCwyODQzMTY3
+ODldfQ==
 -->
