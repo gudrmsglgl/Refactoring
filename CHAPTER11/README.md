@@ -483,12 +483,31 @@ fun discountedPrice(basePrice) = when (this.descountLevel) {
 }    
 ```
 
+<br>
+<div id='id-section6'/>
+
+## 11.6 질의 함수를 매개변수로 바꾸기 Replace Query with Parameter
+```kotlin
+targetTemperature(plan)
+
+fun targetTemperature(plan) {
+
+```
+**🔻 매개변수를 질의 함수로 바꾸기**
+```kotlin
+availableVacation(employee)
+
+fun availableVacation(employee: Employee) {
+   val grade = employee.grade
+   // 연휴 계산...
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTcwNTYwNzMsMTA4MDQ2NzA4Miw0OD
-A3NDE2NjgsMTM0MDI5OTc1OSwtMjcyOTg4MzEzLC0xMzk3NDIy
-OTUwLC02MzgyMDk5NDYsMjg4NzY2NzY0LC0xODgxMjE4ODI3LD
-EwMDIwMjY1NzYsLTk1NzI3NjgyNCwyMDE3NjcyMTg4LDIyNjk1
-NTkxLDIyMTUzNDg3LDE4Mzk1Nzk0MDIsMTE5MjY5NzAxNiwtMT
-k3MzE1MzkyMiwtNjE2ODA2ODEzLDU2ODA4MjA4NCwxNDYxNTQx
-MTY5XX0=
+eyJoaXN0b3J5IjpbMTU3OTU4MDEwMCwxMDgwNDY3MDgyLDQ4MD
+c0MTY2OCwxMzQwMjk5NzU5LC0yNzI5ODgzMTMsLTEzOTc0MjI5
+NTAsLTYzODIwOTk0NiwyODg3NjY3NjQsLTE4ODEyMTg4MjcsMT
+AwMjAyNjU3NiwtOTU3Mjc2ODI0LDIwMTc2NzIxODgsMjI2OTU1
+OTEsMjIxNTM0ODcsMTgzOTU3OTQwMiwxMTkyNjk3MDE2LC0xOT
+czMTUzOTIyLC02MTY4MDY4MTMsNTY4MDgyMDg0LDE0NjE1NDEx
+NjldfQ==
 -->
