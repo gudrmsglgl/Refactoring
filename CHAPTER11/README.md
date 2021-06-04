@@ -524,8 +524,14 @@ fun targetTemperature(plan, thermostat.currentTemperature) {
 	- [x] 모듈을 개발할 때 순수 함수들을 따로 구분
 	- [x] 프로그램의 입출력과 기타 가변 원소들을 다루는 로직으로 순수 함수들을 겉을 감싸는 패턴 활용
 	- [x] 이 리팩터링을 활용하면 프로그램의 일부를 순수 함수로 바꿀 수 있으며, 결과적으로 테스트 및 다루기 쉬워짐	
+- 단점
+	- [x] 어떤 값을 제공할지를 호출자가 알아내야 한다.
+	- [x] 결국 호출자가 복잡 
+	- [x] 책임 소재를 프로그램의 어디에 배정하느냐에 문제로 귀결
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MDcwODcwMSwxMDgwNDY3MDgyLDQ4MD
+eyJoaXN0b3J5IjpbLTM2MzA0OTM2NSwxMDgwNDY3MDgyLDQ4MD
 c0MTY2OCwxMzQwMjk5NzU5LC0yNzI5ODgzMTMsLTEzOTc0MjI5
 NTAsLTYzODIwOTk0NiwyODg3NjY3NjQsLTE4ODEyMTg4MjcsMT
 AwMjAyNjU3NiwtOTU3Mjc2ODI0LDIwMTc2NzIxODgsMjI2OTU1
