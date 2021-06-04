@@ -443,12 +443,16 @@ fun availableVacation(employee: Employee) {
 		> 참조투명: 함수에 똑같은 값을 건네 호출하면 항상 똑같이 동작한다
 	- 따라서 매개변수를 없애는 대신 가변 전역 변수를 이용하는 일은 하면 안됨.	
 
+### 📍 절차
+&emsp;⓵ 필요하다면 대상 매개변수의 값을 계산하는 코드를 별도 함수로 추출<br>
+&emsp;⓶ 함수 본문에서 대상 매개변수로의 참조를 모두 찾아서 그 매개변수의 값을 만들어주는 표현식을 참조하도록 바꾼다. 수정할 때마다 테스트<br>
+&emsp;⓷ 정적 검사를 수행한다.<br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDgxMDcxOTEsMTM0MDI5OTc1OSwtMj
-cyOTg4MzEzLC0xMzk3NDIyOTUwLC02MzgyMDk5NDYsMjg4NzY2
-NzY0LC0xODgxMjE4ODI3LDEwMDIwMjY1NzYsLTk1NzI3NjgyNC
-wyMDE3NjcyMTg4LDIyNjk1NTkxLDIyMTUzNDg3LDE4Mzk1Nzk0
-MDIsMTE5MjY5NzAxNiwtMTk3MzE1MzkyMiwtNjE2ODA2ODEzLD
-U2ODA4MjA4NCwxNDYxNTQxMTY5LC0xNTIzMTk4Mjg0LDI4NDMx
-Njc4OV19
+eyJoaXN0b3J5IjpbMTg3NzkzNTMzMiwxMzQwMjk5NzU5LC0yNz
+I5ODgzMTMsLTEzOTc0MjI5NTAsLTYzODIwOTk0NiwyODg3NjY3
+NjQsLTE4ODEyMTg4MjcsMTAwMjAyNjU3NiwtOTU3Mjc2ODI0LD
+IwMTc2NzIxODgsMjI2OTU1OTEsMjIxNTM0ODcsMTgzOTU3OTQw
+MiwxMTkyNjk3MDE2LC0xOTczMTUzOTIyLC02MTY4MDY4MTMsNT
+Y4MDgyMDg0LDE0NjE1NDExNjksLTE1MjMxOTgyODQsMjg0MzE2
+Nzg5XX0=
 -->
