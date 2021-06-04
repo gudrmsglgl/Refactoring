@@ -515,10 +515,14 @@ fun targetTemperature(plan, thermostat.currentTemperature) {
 - 다른 쪽 끝은 함수들끼리 많은 것을 공유하여 수많은 결합을 만들어내는 것
 
 ### 참조 투명성
-- 똑같은 값을 건네면 매
-	
+- 똑같은 값을 건네면 매번 똑같은 결과를 내는 함수
+- 참조 투명하지 않은 원소에 접근하는 모든 함수는 참조 투명성을 잃게 됨.
+	> -> 해당 원소를 매개변수로 바꾸면 해결
+	> -> 책임이 호출자로 옮겨진다 
+- 장점
+	- [x]	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MzgzMzI3NiwxMDgwNDY3MDgyLDQ4MD
+eyJoaXN0b3J5IjpbLTQzNzQwODM0OSwxMDgwNDY3MDgyLDQ4MD
 c0MTY2OCwxMzQwMjk5NzU5LC0yNzI5ODgzMTMsLTEzOTc0MjI5
 NTAsLTYzODIwOTk0NiwyODg3NjY3NjQsLTE4ODEyMTg4MjcsMT
 AwMjAyNjU3NiwtOTU3Mjc2ODI0LDIwMTc2NzIxODgsMjI2OTU1
