@@ -576,10 +576,14 @@ val targetTemperature =
 	  return this.xxNEWtargetTemperature(selectedTemperature)
    }
    
-fun xxNEWtargetTemperature(se)
+fun xxNEWtargetTemperature(selectedTemperature) {
+   return if (selectedTemperature > this._max) this._max
+          else if (selectedTemperature < this._min) this._min
+          else selectedTemperature   
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAxOTcwMDM0LC0zOTIxNjAyMzcsMTA4MD
+eyJoaXN0b3J5IjpbMjQ2MjY2MTY0LC0zOTIxNjAyMzcsMTA4MD
 Q2NzA4Miw0ODA3NDE2NjgsMTM0MDI5OTc1OSwtMjcyOTg4MzEz
 LC0xMzk3NDIyOTUwLC02MzgyMDk5NDYsMjg4NzY2NzY0LC0xOD
 gxMjE4ODI3LDEwMDIwMjY1NzYsLTk1NzI3NjgyNCwyMDE3Njcy
