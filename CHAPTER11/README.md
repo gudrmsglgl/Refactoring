@@ -546,13 +546,17 @@ fun targetTemperature() {
    else if ( thermostat.selectedTemperature < this._min) return this._min
    else return thermostat.selectedTemperature
 }
+
+// 호출자
+if (this.targetTemperature > thermostat.currentTemperature) setToHeat()
+else if (thi)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MjE2MDIzNywxMDgwNDY3MDgyLDQ4MD
-c0MTY2OCwxMzQwMjk5NzU5LC0yNzI5ODgzMTMsLTEzOTc0MjI5
-NTAsLTYzODIwOTk0NiwyODg3NjY3NjQsLTE4ODEyMTg4MjcsMT
-AwMjAyNjU3NiwtOTU3Mjc2ODI0LDIwMTc2NzIxODgsMjI2OTU1
-OTEsMjIxNTM0ODcsMTgzOTU3OTQwMiwxMTkyNjk3MDE2LC0xOT
-czMTUzOTIyLC02MTY4MDY4MTMsNTY4MDgyMDg0LDE0NjE1NDEx
-NjldfQ==
+eyJoaXN0b3J5IjpbMTc0OTg3NTczMiwtMzkyMTYwMjM3LDEwOD
+A0NjcwODIsNDgwNzQxNjY4LDEzNDAyOTk3NTksLTI3Mjk4ODMx
+MywtMTM5NzQyMjk1MCwtNjM4MjA5OTQ2LDI4ODc2Njc2NCwtMT
+g4MTIxODgyNywxMDAyMDI2NTc2LC05NTcyNzY4MjQsMjAxNzY3
+MjE4OCwyMjY5NTU5MSwyMjE1MzQ4NywxODM5NTc5NDAyLDExOT
+I2OTcwMTYsLTE5NzMxNTM5MjIsLTYxNjgwNjgxMyw1NjgwODIw
+ODRdfQ==
 -->
