@@ -552,9 +552,18 @@ else if (plan.targetTemperature < thermostat.currentTemperature) setToCool()
 else setOff()
 ```
 
-### 🤮 targetTemperature() 메서드가 전역 객체인 thermostat에 의존하는데 신경 쓰임 
+### 🤮 targetTemperature() 메서드가 전역 객체인 thermostat에 의존하는데 신경 쓰임 -> 전역 객체에 건네는 질의 메서드를 매개변수로 옮겨서 의존성 끊기
+
+&emsp;⓵ 변수 추출하기를 이용하여 이 메서드에서 사용할 매개변수를 준비하는 것.
+```kotlin
+// HeatPlan class
+val targetTemperature = if (thermostat.selectedTemperature > this._max) this._max
+   else if ( thermostat.selectedTemperature < this._min) this._min
+   else thermostat.selectedTemperature
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwOTE2NjE0NywtMzkyMTYwMjM3LDEwOD
+eyJoaXN0b3J5IjpbMjA1ODc3ODY5OCwtMzkyMTYwMjM3LDEwOD
 A0NjcwODIsNDgwNzQxNjY4LDEzNDAyOTk3NTksLTI3Mjk4ODMx
 MywtMTM5NzQyMjk1MCwtNjM4MjA5OTQ2LDI4ODc2Njc2NCwtMT
 g4MTIxODgyNywxMDAyMDI2NTc2LC05NTcyNzY4MjQsMjAxNzY3
