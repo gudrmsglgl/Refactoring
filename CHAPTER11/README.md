@@ -541,22 +541,24 @@ fun targetTemperature(plan, thermostat.currentTemperature) {
 ### Ex.  실내온도 제어 시스템. 사용자는 온도 조절기(thermostat) 온도 설정할 수 있지만, 목표 온도는 난방 계획에서 정한 범위에서만 선택할 수 있다.
 ```kotlin
 // HeatPlan class
-val targetTemperature = if (thermostat.selectedTemperature > this._max) return this._max
-   else if ( thermostat.selectedTemperature < this._min) return this._min
-   else return thermostat.selectedTemperature
-}
+val targetTemperature = if (thermostat.selectedTemperature > this._max) this._max
+   else if ( thermostat.selectedTemperature < this._min) this._min
+   else thermostat.selectedTemperature
+
 
 // 호출자
 if (plan.targetTemperature > thermostat.currentTemperature) setToHeat()
 else if (plan.targetTemperature < thermostat.currentTemperature) setToCool()
 else setOff()
 ```
+
+### 🤮 targetTempera
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMDQ5NTQ1MSwtMzkyMTYwMjM3LDEwOD
-A0NjcwODIsNDgwNzQxNjY4LDEzNDAyOTk3NTksLTI3Mjk4ODMx
-MywtMTM5NzQyMjk1MCwtNjM4MjA5OTQ2LDI4ODc2Njc2NCwtMT
-g4MTIxODgyNywxMDAyMDI2NTc2LC05NTcyNzY4MjQsMjAxNzY3
-MjE4OCwyMjY5NTU5MSwyMjE1MzQ4NywxODM5NTc5NDAyLDExOT
-I2OTcwMTYsLTE5NzMxNTM5MjIsLTYxNjgwNjgxMyw1NjgwODIw
-ODRdfQ==
+eyJoaXN0b3J5IjpbLTE1ODg4NjEzMzIsLTM5MjE2MDIzNywxMD
+gwNDY3MDgyLDQ4MDc0MTY2OCwxMzQwMjk5NzU5LC0yNzI5ODgz
+MTMsLTEzOTc0MjI5NTAsLTYzODIwOTk0NiwyODg3NjY3NjQsLT
+E4ODEyMTg4MjcsMTAwMjAyNjU3NiwtOTU3Mjc2ODI0LDIwMTc2
+NzIxODgsMjI2OTU1OTEsMjIxNTM0ODcsMTgzOTU3OTQwMiwxMT
+kyNjk3MDE2LC0xOTczMTUzOTIyLC02MTY4MDY4MTMsNTY4MDgy
+MDg0XX0=
 -->
