@@ -552,13 +552,13 @@ else if (plan.targetTemperature < thermostat.currentTemperature) setToCool()
 else setOff()
 ```
 
-### 🤮 targetTempera
+### 🤮 targetTemperature() 메서드가 전역 객체인 thermostat에 의존하는데 신경 쓰임 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODg4NjEzMzIsLTM5MjE2MDIzNywxMD
-gwNDY3MDgyLDQ4MDc0MTY2OCwxMzQwMjk5NzU5LC0yNzI5ODgz
-MTMsLTEzOTc0MjI5NTAsLTYzODIwOTk0NiwyODg3NjY3NjQsLT
-E4ODEyMTg4MjcsMTAwMjAyNjU3NiwtOTU3Mjc2ODI0LDIwMTc2
-NzIxODgsMjI2OTU1OTEsMjIxNTM0ODcsMTgzOTU3OTQwMiwxMT
-kyNjk3MDE2LC0xOTczMTUzOTIyLC02MTY4MDY4MTMsNTY4MDgy
-MDg0XX0=
+eyJoaXN0b3J5IjpbMjAwOTE2NjE0NywtMzkyMTYwMjM3LDEwOD
+A0NjcwODIsNDgwNzQxNjY4LDEzNDAyOTk3NTksLTI3Mjk4ODMx
+MywtMTM5NzQyMjk1MCwtNjM4MjA5OTQ2LDI4ODc2Njc2NCwtMT
+g4MTIxODgyNywxMDAyMDI2NTc2LC05NTcyNzY4MjQsMjAxNzY3
+MjE4OCwyMjY5NTU5MSwyMjE1MzQ4NywxODM5NTc5NDAyLDExOT
+I2OTcwMTYsLTE5NzMxNTM5MjIsLTYxNjgwNjgxMyw1NjgwODIw
+ODRdfQ==
 -->
