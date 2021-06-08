@@ -557,17 +557,22 @@ else setOff()
 &emsp;⓵ 변수 추출하기를 이용하여 이 메서드에서 사용할 매개변수를 준비하는 것.
 ```kotlin
 // HeatPlan class
-val targetTemperature = if (thermostat.selectedTemperature > this._max) this._max
-   else if ( thermostat.selectedTemperature < this._min) this._min
-   else thermostat.selectedTemperature
+val targetTemperature = 
+   get() {
+      val selectedTemperature = thermostat.selectedTemperature
+	  return if (selectedTemperature > this._max) this._max
+             else if (selectedTemperature < this._min) this._min
+             else selectedTemperature   
+   }
+   
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1ODc3ODY5OCwtMzkyMTYwMjM3LDEwOD
-A0NjcwODIsNDgwNzQxNjY4LDEzNDAyOTk3NTksLTI3Mjk4ODMx
-MywtMTM5NzQyMjk1MCwtNjM4MjA5OTQ2LDI4ODc2Njc2NCwtMT
-g4MTIxODgyNywxMDAyMDI2NTc2LC05NTcyNzY4MjQsMjAxNzY3
-MjE4OCwyMjY5NTU5MSwyMjE1MzQ4NywxODM5NTc5NDAyLDExOT
-I2OTcwMTYsLTE5NzMxNTM5MjIsLTYxNjgwNjgxMyw1NjgwODIw
-ODRdfQ==
+eyJoaXN0b3J5IjpbMjY1ODMwODE5LC0zOTIxNjAyMzcsMTA4MD
+Q2NzA4Miw0ODA3NDE2NjgsMTM0MDI5OTc1OSwtMjcyOTg4MzEz
+LC0xMzk3NDIyOTUwLC02MzgyMDk5NDYsMjg4NzY2NzY0LC0xOD
+gxMjE4ODI3LDEwMDIwMjY1NzYsLTk1NzI3NjgyNCwyMDE3Njcy
+MTg4LDIyNjk1NTkxLDIyMTUzNDg3LDE4Mzk1Nzk0MDIsMTE5Mj
+Y5NzAxNiwtMTk3MzE1MzkyMiwtNjE2ODA2ODEzLDU2ODA4MjA4
+NF19
 -->
