@@ -566,9 +566,20 @@ val targetTemperature =
    }
    
 ```
+&emsp;⓶ 매개변수의 값을 구하는 코드를 제외한 나머지를 메서드로 추출하기가 수월
 
+```kotlin
+// HeatPlan class
+val targetTemperature = 
+   get() {
+      val selectedTemperature = thermostat.selectedTemperature
+	  return this.xxNEWtargetTemperature(selectedTemperature)
+   }
+   
+fun xxNEWtargetTemperature(se)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY1ODMwODE5LC0zOTIxNjAyMzcsMTA4MD
+eyJoaXN0b3J5IjpbNjAxOTcwMDM0LC0zOTIxNjAyMzcsMTA4MD
 Q2NzA4Miw0ODA3NDE2NjgsMTM0MDI5OTc1OSwtMjcyOTg4MzEz
 LC0xMzk3NDIyOTUwLC02MzgyMDk5NDYsMjg4NzY2NzY0LC0xOD
 gxMjE4ODI3LDEwMDIwMjY1NzYsLTk1NzI3NjgyNCwyMDE3Njcy
