@@ -594,15 +594,25 @@ val targetTemperature =
 ```kotlin
 // 호출자
 if (plan.xxNEWtargetTemperature(thermostat.selectedTemperature) > thermostat.currentTemperature) setToHeat()
-else if (plan.targetTemperature < thermostat.currentTemperature) setToCool()
+else if (plan.xxNEWtargetTemperature(thermostat.selectedTemperature) < thermostat.currentTemperature) setToCool()
 else setOff()
 ```
+&emsp;⓹ 이제 새 메서드의 이름을 원래 메서드의 이름으로 바꿀 차례
+
+```kotlin
+// 호출자
+if (plan.targetTemperature(thermostat.selectedTemperature) > thermostat.currentTemperature) setToHeat()
+else if (plan.targetTemperature(thermostat.selectedTemperature) < thermostat.currentTemperature) setToCool()
+else setOff()
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3OTM1MTIwNywyNDYyNjYxNjQsLTM5Mj
-E2MDIzNywxMDgwNDY3MDgyLDQ4MDc0MTY2OCwxMzQwMjk5NzU5
-LC0yNzI5ODgzMTMsLTEzOTc0MjI5NTAsLTYzODIwOTk0NiwyOD
-g3NjY3NjQsLTE4ODEyMTg4MjcsMTAwMjAyNjU3NiwtOTU3Mjc2
-ODI0LDIwMTc2NzIxODgsMjI2OTU1OTEsMjIxNTM0ODcsMTgzOT
-U3OTQwMiwxMTkyNjk3MDE2LC0xOTczMTUzOTIyLC02MTY4MDY4
-MTNdfQ==
+eyJoaXN0b3J5IjpbOTkxNDAxNDQ1LDI0NjI2NjE2NCwtMzkyMT
+YwMjM3LDEwODA0NjcwODIsNDgwNzQxNjY4LDEzNDAyOTk3NTks
+LTI3Mjk4ODMxMywtMTM5NzQyMjk1MCwtNjM4MjA5OTQ2LDI4OD
+c2Njc2NCwtMTg4MTIxODgyNywxMDAyMDI2NTc2LC05NTcyNzY4
+MjQsMjAxNzY3MjE4OCwyMjY5NTU5MSwyMjE1MzQ4NywxODM5NT
+c5NDAyLDExOTI2OTcwMTYsLTE5NzMxNTM5MjIsLTYxNjgwNjgx
+M119
 -->
