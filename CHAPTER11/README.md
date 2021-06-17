@@ -583,14 +583,21 @@ fun xxNEWtargetTemperature(selectedTemperature) {
 }
 ```
 &emsp;⓷ 다음으로 방금 추출한 변수를 인라인하여 원래 메서드에는 한순한 호출만 남게 된다.br>
-
+```kotlin
+// HeatPlan class
+val targetTemperature = 
+   get() {
+	  return this.xxNEWtargetTemperature(thermostat.selectedTemperature)
+   }
+```
+&emsp;⓸ 이어서 이 메서드까지  인라인한다<br>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NDE3MjUyNCwyNDYyNjYxNjQsLTM5Mj
-E2MDIzNywxMDgwNDY3MDgyLDQ4MDc0MTY2OCwxMzQwMjk5NzU5
-LC0yNzI5ODgzMTMsLTEzOTc0MjI5NTAsLTYzODIwOTk0NiwyOD
-g3NjY3NjQsLTE4ODEyMTg4MjcsMTAwMjAyNjU3NiwtOTU3Mjc2
-ODI0LDIwMTc2NzIxODgsMjI2OTU1OTEsMjIxNTM0ODcsMTgzOT
-U3OTQwMiwxMTkyNjk3MDE2LC0xOTczMTUzOTIyLC02MTY4MDY4
-MTNdfQ==
+eyJoaXN0b3J5IjpbNjU5MDg5NzI0LDI0NjI2NjE2NCwtMzkyMT
+YwMjM3LDEwODA0NjcwODIsNDgwNzQxNjY4LDEzNDAyOTk3NTks
+LTI3Mjk4ODMxMywtMTM5NzQyMjk1MCwtNjM4MjA5OTQ2LDI4OD
+c2Njc2NCwtMTg4MTIxODgyNywxMDAyMDI2NTc2LC05NTcyNzY4
+MjQsMjAxNzY3MjE4OCwyMjY5NTU5MSwyMjE1MzQ4NywxODM5NT
+c5NDAyLDExOTI2OTcwMTYsLTE5NzMxNTM5MjIsLTYxNjgwNjgx
+M119
 -->
