@@ -582,11 +582,11 @@ fun xxNEWtargetTemperature(selectedTemperature) {
           else selectedTemperature   
 }
 ```
+&emsp;⓷ 다음으로 방금 추출한 변수를 인라인하여 원래 메서드에는 한순한 호출만 남게 된다.br>
 
-&emsp;⓷ 방금 만든 변수를 인라인하여 제거한다.<br>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NTc3MjI1MCwyNDYyNjYxNjQsLTM5Mj
+eyJoaXN0b3J5IjpbLTY2NDE3MjUyNCwyNDYyNjYxNjQsLTM5Mj
 E2MDIzNywxMDgwNDY3MDgyLDQ4MDc0MTY2OCwxMzQwMjk5NzU5
 LC0yNzI5ODgzMTMsLTEzOTc0MjI5NTAsLTYzODIwOTk0NiwyOD
 g3NjY3NjQsLTE4ODEyMTg4MjcsMTAwMjAyNjU3NiwtOTU3Mjc2
