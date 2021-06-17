@@ -606,16 +606,17 @@ else if (plan.targetTemperature(thermostat.selectedTemperature) < thermostat.cur
 else setOff()
 
 // HeatPlan class
-val targetTemperature = 
-   get(selectedTemperature) {
-	  return this.xxNEWtargetTemperature(thermostat.selectedTemperature)
-   }
+fun targetTemperature(selectedTemperature) {
+	return if (selectedTemperature > this._max) this._max
+           else if (selectedTemperature < this._min) this._min
+           else selectedTemperature 
+}
    
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMDE5NDgzMywyNDYyNjYxNjQsLTM5Mj
+eyJoaXN0b3J5IjpbMTQ5MTc0ODA3MSwyNDYyNjYxNjQsLTM5Mj
 E2MDIzNywxMDgwNDY3MDgyLDQ4MDc0MTY2OCwxMzQwMjk5NzU5
 LC0yNzI5ODgzMTMsLTEzOTc0MjI5NTAsLTYzODIwOTk0NiwyOD
 g3NjY3NjQsLTE4ODEyMTg4MjcsMTAwMjAyNjU3NiwtOTU3Mjc2
