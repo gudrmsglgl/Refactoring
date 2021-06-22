@@ -616,14 +616,20 @@ fun targetTemperature(selectedTemperature) {
 <br>
 <div id='id-section7'/>
 
-## 11.7 셑
+## 11.7 세터 제거하기 Remove Setting Method
+
+```kotlin
+class Person {
+   val name: String
+      get() = {}
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjUyNDIyMTksMTQ5MTc0ODA3MSwyND
-YyNjYxNjQsLTM5MjE2MDIzNywxMDgwNDY3MDgyLDQ4MDc0MTY2
-OCwxMzQwMjk5NzU5LC0yNzI5ODgzMTMsLTEzOTc0MjI5NTAsLT
-YzODIwOTk0NiwyODg3NjY3NjQsLTE4ODEyMTg4MjcsMTAwMjAy
-NjU3NiwtOTU3Mjc2ODI0LDIwMTc2NzIxODgsMjI2OTU1OTEsMj
-IxNTM0ODcsMTgzOTU3OTQwMiwxMTkyNjk3MDE2LC0xOTczMTUz
-OTIyXX0=
+eyJoaXN0b3J5IjpbMTc0ODEzMDE4MSwxNDkxNzQ4MDcxLDI0Nj
+I2NjE2NCwtMzkyMTYwMjM3LDEwODA0NjcwODIsNDgwNzQxNjY4
+LDEzNDAyOTk3NTksLTI3Mjk4ODMxMywtMTM5NzQyMjk1MCwtNj
+M4MjA5OTQ2LDI4ODc2Njc2NCwtMTg4MTIxODgyNywxMDAyMDI2
+NTc2LC05NTcyNzY4MjQsMjAxNzY3MjE4OCwyMjY5NTU5MSwyMj
+E1MzQ4NywxODM5NTc5NDAyLDExOTI2OTcwMTYsLTE5NzMxNTM5
+MjJdfQ==
 -->
