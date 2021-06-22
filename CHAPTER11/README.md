@@ -6,7 +6,7 @@
 [객체 통째로 넘기기](#id-section4)<br>
 [매개변수를 질의 함수로 바꾸기](#id-section5)<br>
 [질의 함수를 매개변수로 바꾸기](#id-section6)<br>
-
+[세터 제거하기](#id-section7)<br>
 
 
 - ### 소프트웨어 구성 빌딩 블록 - 모듈, 함수
@@ -611,16 +611,19 @@ fun targetTemperature(selectedTemperature) {
            else if (selectedTemperature < this._min) this._min
            else selectedTemperature 
 }
-   
 ```
 
+<br>
+<div id='id-section7'/>
+
+## 11.7 셑
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MTc0ODA3MSwyNDYyNjYxNjQsLTM5Mj
-E2MDIzNywxMDgwNDY3MDgyLDQ4MDc0MTY2OCwxMzQwMjk5NzU5
-LC0yNzI5ODgzMTMsLTEzOTc0MjI5NTAsLTYzODIwOTk0NiwyOD
-g3NjY3NjQsLTE4ODEyMTg4MjcsMTAwMjAyNjU3NiwtOTU3Mjc2
-ODI0LDIwMTc2NzIxODgsMjI2OTU1OTEsMjIxNTM0ODcsMTgzOT
-U3OTQwMiwxMTkyNjk3MDE2LC0xOTczMTUzOTIyLC02MTY4MDY4
-MTNdfQ==
+eyJoaXN0b3J5IjpbLTE5MjUyNDIyMTksMTQ5MTc0ODA3MSwyND
+YyNjYxNjQsLTM5MjE2MDIzNywxMDgwNDY3MDgyLDQ4MDc0MTY2
+OCwxMzQwMjk5NzU5LC0yNzI5ODgzMTMsLTEzOTc0MjI5NTAsLT
+YzODIwOTk0NiwyODg3NjY3NjQsLTE4ODEyMTg4MjcsMTAwMjAy
+NjU3NiwtOTU3Mjc2ODI0LDIwMTc2NzIxODgsMjI2OTU1OTEsMj
+IxNTM0ODcsMTgzOTU3OTQwMiwxMTkyNjk3MDE2LC0xOTczMTUz
+OTIyXX0=
 -->
