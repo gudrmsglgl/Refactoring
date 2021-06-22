@@ -626,13 +626,21 @@ class Person {
          field = name
       }
 ```
+**🔻 세터 제거하기**
+
+```kotlin
+class Person {
+   val name: String
+      get() = {...}
+```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTUwNzgzNjksMTQ5MTc0ODA3MSwyND
-YyNjYxNjQsLTM5MjE2MDIzNywxMDgwNDY3MDgyLDQ4MDc0MTY2
-OCwxMzQwMjk5NzU5LC0yNzI5ODgzMTMsLTEzOTc0MjI5NTAsLT
-YzODIwOTk0NiwyODg3NjY3NjQsLTE4ODEyMTg4MjcsMTAwMjAy
-NjU3NiwtOTU3Mjc2ODI0LDIwMTc2NzIxODgsMjI2OTU1OTEsMj
-IxNTM0ODcsMTgzOTU3OTQwMiwxMTkyNjk3MDE2LC0xOTczMTUz
-OTIyXX0=
+eyJoaXN0b3J5IjpbLTE3Njc4MjAyMjUsLTE2NTUwNzgzNjksMT
+Q5MTc0ODA3MSwyNDYyNjYxNjQsLTM5MjE2MDIzNywxMDgwNDY3
+MDgyLDQ4MDc0MTY2OCwxMzQwMjk5NzU5LC0yNzI5ODgzMTMsLT
+EzOTc0MjI5NTAsLTYzODIwOTk0NiwyODg3NjY3NjQsLTE4ODEy
+MTg4MjcsMTAwMjAyNjU3NiwtOTU3Mjc2ODI0LDIwMTc2NzIxOD
+gsMjI2OTU1OTEsMjIxNTM0ODcsMTgzOTU3OTQwMiwxMTkyNjk3
+MDE2XX0=
 -->
