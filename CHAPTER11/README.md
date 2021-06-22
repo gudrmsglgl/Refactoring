@@ -636,13 +636,15 @@ class Person {
 
 ### 🔍  세터 제거하기
 - 세터 메서드 존재 -> 변경 및 수정될 수 있다는 뜻
-- 
+- 필요한 상황
+	- [x] 첫째, 사람들이 무조건 접근자 메서드를 통해서만 필드를 다루려 할 때.
+	- [x] 두 번째, 클라리언트에서 생성 스크립트를 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MTkxMTcyOSwtMTY1NTA3ODM2OSwxND
-kxNzQ4MDcxLDI0NjI2NjE2NCwtMzkyMTYwMjM3LDEwODA0Njcw
-ODIsNDgwNzQxNjY4LDEzNDAyOTk3NTksLTI3Mjk4ODMxMywtMT
-M5NzQyMjk1MCwtNjM4MjA5OTQ2LDI4ODc2Njc2NCwtMTg4MTIx
-ODgyNywxMDAyMDI2NTc2LC05NTcyNzY4MjQsMjAxNzY3MjE4OC
-wyMjY5NTU5MSwyMjE1MzQ4NywxODM5NTc5NDAyLDExOTI2OTcw
-MTZdfQ==
+eyJoaXN0b3J5IjpbLTE1MTM1MzM0MjUsLTE2NTUwNzgzNjksMT
+Q5MTc0ODA3MSwyNDYyNjYxNjQsLTM5MjE2MDIzNywxMDgwNDY3
+MDgyLDQ4MDc0MTY2OCwxMzQwMjk5NzU5LC0yNzI5ODgzMTMsLT
+EzOTc0MjI5NTAsLTYzODIwOTk0NiwyODg3NjY3NjQsLTE4ODEy
+MTg4MjcsMTAwMjAyNjU3NiwtOTU3Mjc2ODI0LDIwMTc2NzIxOD
+gsMjI2OTU1OTEsMjIxNTM0ODcsMTgzOTU3OTQwMiwxMTkyNjk3
+MDE2XX0=
 -->
