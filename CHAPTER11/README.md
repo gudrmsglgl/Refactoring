@@ -620,16 +620,15 @@ fun targetTemperature(selectedTemperature) {
 
 ```kotlin
 class Person {
-   val name: String
+   var name: String
       get() = {...}
       set(name){
-         field = 
-      
+         field = name
       }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTM0OTkyNzgsMTQ5MTc0ODA3MSwyND
+eyJoaXN0b3J5IjpbLTE2NTUwNzgzNjksMTQ5MTc0ODA3MSwyND
 YyNjYxNjQsLTM5MjE2MDIzNywxMDgwNDY3MDgyLDQ4MDc0MTY2
 OCwxMzQwMjk5NzU5LC0yNzI5ODgzMTMsLTEzOTc0MjI5NTAsLT
 YzODIwOTk0NiwyODg3NjY3NjQsLTE4ODEyMTg4MjcsMTAwMjAy
