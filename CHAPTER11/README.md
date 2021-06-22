@@ -622,13 +622,14 @@ fun targetTemperature(selectedTemperature) {
 class Person {
    val name: String
       get() = {...}
-      set(){
+      set(name){
+         field = 
       
       }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODM2NDIxMzYsMTQ5MTc0ODA3MSwyND
+eyJoaXN0b3J5IjpbLTEzMTM0OTkyNzgsMTQ5MTc0ODA3MSwyND
 YyNjYxNjQsLTM5MjE2MDIzNywxMDgwNDY3MDgyLDQ4MDc0MTY2
 OCwxMzQwMjk5NzU5LC0yNzI5ODgzMTMsLTEzOTc0MjI5NTAsLT
 YzODIwOTk0NiwyODg3NjY3NjQsLTE4ODEyMTg4MjcsMTAwMjAy
