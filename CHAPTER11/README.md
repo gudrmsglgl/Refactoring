@@ -656,8 +656,10 @@ val leadEngineer = Employee(document.loadEngineer, 'E')
 // 문자열 리터럴은 악취로 파라미터 넘겨주기 지양
 val leadEngineer = createEngineer(document.loadEngineer)
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzU4Nzc5ODYsMjE0NzQxNzg1LDE3Nz
+eyJoaXN0b3J5IjpbLTEzOTMyMzU4NDYsMjE0NzQxNzg1LDE3Nz
 Q5ODEzMDksLTE2NTUwNzgzNjksMTQ5MTc0ODA3MSwyNDYyNjYx
 NjQsLTM5MjE2MDIzNywxMDgwNDY3MDgyLDQ4MDc0MTY2OCwxMz
 QwMjk5NzU5LC0yNzI5ODgzMTMsLTEzOTc0MjI5NTAsLTYzODIw
