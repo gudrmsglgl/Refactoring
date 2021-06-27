@@ -642,13 +642,27 @@ class Person {
 		> 생성 스크립트란
 		: 생성자를 호출한 후 일련의 세터를 호출하여 객체를 완성하는 형태의 코드
 
+<br>
+<div id='id-section7'/>
 
+## 11.8 생성자를 팩터리 함수로 바꾸기 Replace Constructor with Factory Function
+
+```kotlin
+leadEngineer = Employee(document.loadEngineer, ')
+```
+**🔻 세터 제거하기**
+
+```kotlin
+class Person {
+   val name: String
+      get() = {...}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NzQxNzg1LDE3NzQ5ODEzMDksLTE2NT
-UwNzgzNjksMTQ5MTc0ODA3MSwyNDYyNjYxNjQsLTM5MjE2MDIz
-NywxMDgwNDY3MDgyLDQ4MDc0MTY2OCwxMzQwMjk5NzU5LC0yNz
-I5ODgzMTMsLTEzOTc0MjI5NTAsLTYzODIwOTk0NiwyODg3NjY3
-NjQsLTE4ODEyMTg4MjcsMTAwMjAyNjU3NiwtOTU3Mjc2ODI0LD
-IwMTc2NzIxODgsMjI2OTU1OTEsMjIxNTM0ODcsMTgzOTU3OTQw
-Ml19
+eyJoaXN0b3J5IjpbMTUzNTEwNjM4OSwyMTQ3NDE3ODUsMTc3ND
+k4MTMwOSwtMTY1NTA3ODM2OSwxNDkxNzQ4MDcxLDI0NjI2NjE2
+NCwtMzkyMTYwMjM3LDEwODA0NjcwODIsNDgwNzQxNjY4LDEzND
+AyOTk3NTksLTI3Mjk4ODMxMywtMTM5NzQyMjk1MCwtNjM4MjA5
+OTQ2LDI4ODc2Njc2NCwtMTg4MTIxODgyNywxMDAyMDI2NTc2LC
+05NTcyNzY4MjQsMjAxNzY3MjE4OCwyMjY5NTU5MSwyMjE1MzQ4
+N119
 -->
