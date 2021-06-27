@@ -648,21 +648,20 @@ class Person {
 ## 11.8 생성자를 팩터리 함수로 바꾸기 Replace Constructor with Factory Function
 
 ```kotlin
-leadEngineer = Employee(document.loadEngineer, ')
+val leadEngineer = Employee(document.loadEngineer, 'E')
 ```
 **🔻 세터 제거하기**
 
 ```kotlin
-class Person {
-   val name: String
-      get() = {...}
+// 문자열 리터럴은 악취로 파라미터 넘겨주기 지양
+val leadEngineer = createEngineer(document.loadEngineer)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNTEwNjM4OSwyMTQ3NDE3ODUsMTc3ND
-k4MTMwOSwtMTY1NTA3ODM2OSwxNDkxNzQ4MDcxLDI0NjI2NjE2
-NCwtMzkyMTYwMjM3LDEwODA0NjcwODIsNDgwNzQxNjY4LDEzND
-AyOTk3NTksLTI3Mjk4ODMxMywtMTM5NzQyMjk1MCwtNjM4MjA5
-OTQ2LDI4ODc2Njc2NCwtMTg4MTIxODgyNywxMDAyMDI2NTc2LC
-05NTcyNzY4MjQsMjAxNzY3MjE4OCwyMjY5NTU5MSwyMjE1MzQ4
-N119
+eyJoaXN0b3J5IjpbLTEzMzU4Nzc5ODYsMjE0NzQxNzg1LDE3Nz
+Q5ODEzMDksLTE2NTUwNzgzNjksMTQ5MTc0ODA3MSwyNDYyNjYx
+NjQsLTM5MjE2MDIzNywxMDgwNDY3MDgyLDQ4MDc0MTY2OCwxMz
+QwMjk5NzU5LC0yNzI5ODgzMTMsLTEzOTc0MjI5NTAsLTYzODIw
+OTk0NiwyODg3NjY3NjQsLTE4ODEyMTg4MjcsMTAwMjAyNjU3Ni
+wtOTU3Mjc2ODI0LDIwMTc2NzIxODgsMjI2OTU1OTEsMjIxNTM0
+ODddfQ==
 -->
