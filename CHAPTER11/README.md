@@ -7,7 +7,9 @@
 [매개변수를 질의 함수로 바꾸기](#id-section5)<br>
 [질의 함수를 매개변수로 바꾸기](#id-section6)<br>
 [세터 제거하기](#id-section7)<br>
-[생성자를 함수로 바꾸기(#id-section7)<br>
+[생성자를 팩토링 함수로 바꾸기](#id-section8)<br>
+[함수를 명령으로 바꾸기](#id-section9)<br>
+[함수를 명령으로 바꾸기](#id-section10)<br>
 
 
 - ### 소프트웨어 구성 빌딩 블록 - 모듈, 함수
@@ -674,11 +676,11 @@ val leadEngineer = createEngineer(document.loadEngineer)
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg1NDI4MTgzLC0xMzkzMjM1ODQ2LDIxND
-c0MTc4NSwxNzc0OTgxMzA5LC0xNjU1MDc4MzY5LDE0OTE3NDgw
-NzEsMjQ2MjY2MTY0LC0zOTIxNjAyMzcsMTA4MDQ2NzA4Miw0OD
-A3NDE2NjgsMTM0MDI5OTc1OSwtMjcyOTg4MzEzLC0xMzk3NDIy
-OTUwLC02MzgyMDk5NDYsMjg4NzY2NzY0LC0xODgxMjE4ODI3LD
-EwMDIwMjY1NzYsLTk1NzI3NjgyNCwyMDE3NjcyMTg4LDIyNjk1
-NTkxXX0=
+eyJoaXN0b3J5IjpbLTM5MDI5OTM3NywtMTM5MzIzNTg0NiwyMT
+Q3NDE3ODUsMTc3NDk4MTMwOSwtMTY1NTA3ODM2OSwxNDkxNzQ4
+MDcxLDI0NjI2NjE2NCwtMzkyMTYwMjM3LDEwODA0NjcwODIsND
+gwNzQxNjY4LDEzNDAyOTk3NTksLTI3Mjk4ODMxMywtMTM5NzQy
+Mjk1MCwtNjM4MjA5OTQ2LDI4ODc2Njc2NCwtMTg4MTIxODgyNy
+wxMDAyMDI2NTc2LC05NTcyNzY4MjQsMjAxNzY3MjE4OCwyMjY5
+NTU5MV19
 -->
