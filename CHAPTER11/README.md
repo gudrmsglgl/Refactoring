@@ -693,13 +693,17 @@ class Scorer(
 ### 🔍  함수 -> 명령 객체 (명령)
 - 🚀 **명령객체 (명령)**
 	- [x] 함수만을 위한 객체 안으로 캡슐화하면 더 유용해지는 상황 
-	- [x] 명령 객체는 대부분 메서드 하나로 구성, 메서들
+	- [x] 명령 객체는 대부분 메서드 하나로 구성, 메서드를 요청해 실행하는 것이 객체의 목적
+	- [x] 평범한 함수 메커니즘 보다 훨씬 유연 -> 함수 제어 및 표현
+	- [x] 되돌리기 (undo) 같은 보조 연산을 제공
+	- [x] 생명주기를 더 정밀하게 제어하는 데 필요한 매개변수를 만들어주는 메서드도 제공할 수 있다.
+	- [x] 상속과 훅을 이용해 사용자 맞춤형으로 만들 수도 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODQzMzU2NDYsLTEwMTM3NTg5MCwtMT
-M5MzIzNTg0NiwyMTQ3NDE3ODUsMTc3NDk4MTMwOSwtMTY1NTA3
-ODM2OSwxNDkxNzQ4MDcxLDI0NjI2NjE2NCwtMzkyMTYwMjM3LD
-EwODA0NjcwODIsNDgwNzQxNjY4LDEzNDAyOTk3NTksLTI3Mjk4
-ODMxMywtMTM5NzQyMjk1MCwtNjM4MjA5OTQ2LDI4ODc2Njc2NC
-wtMTg4MTIxODgyNywxMDAyMDI2NTc2LC05NTcyNzY4MjQsMjAx
-NzY3MjE4OF19
+eyJoaXN0b3J5IjpbLTI1ODk4Njg1MCwtMTAxMzc1ODkwLC0xMz
+kzMjM1ODQ2LDIxNDc0MTc4NSwxNzc0OTgxMzA5LC0xNjU1MDc4
+MzY5LDE0OTE3NDgwNzEsMjQ2MjY2MTY0LC0zOTIxNjAyMzcsMT
+A4MDQ2NzA4Miw0ODA3NDE2NjgsMTM0MDI5OTc1OSwtMjcyOTg4
+MzEzLC0xMzk3NDIyOTUwLC02MzgyMDk5NDYsMjg4NzY2NzY0LC
+0xODgxMjE4ODI3LDEwMDIwMjY1NzYsLTk1NzI3NjgyNCwyMDE3
+NjcyMTg4XX0=
 -->
