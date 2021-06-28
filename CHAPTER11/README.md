@@ -679,16 +679,25 @@ fun score(
 
 ```kotlin
 class Scorer(
-   private val candidate
+   private val candidate: Candidate,
+   private val medicalExam: MedicalExam,
+   private val scoringGuide: ScroingGuid
+} {
+   fun execute() {
+      this._result = 0
+      this._healthLevel = 0
+   }
 }
 ```
 
+### 🔍  함수 -> 명령 객체 (명령)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDc3MDE1NzUsLTEzOTMyMzU4NDYsMj
-E0NzQxNzg1LDE3NzQ5ODEzMDksLTE2NTUwNzgzNjksMTQ5MTc0
-ODA3MSwyNDYyNjYxNjQsLTM5MjE2MDIzNywxMDgwNDY3MDgyLD
-Q4MDc0MTY2OCwxMzQwMjk5NzU5LC0yNzI5ODgzMTMsLTEzOTc0
-MjI5NTAsLTYzODIwOTk0NiwyODg3NjY3NjQsLTE4ODEyMTg4Mj
-csMTAwMjAyNjU3NiwtOTU3Mjc2ODI0LDIwMTc2NzIxODgsMjI2
-OTU1OTFdfQ==
+eyJoaXN0b3J5IjpbMTUwNTA2Njk5OSwtMTM5MzIzNTg0NiwyMT
+Q3NDE3ODUsMTc3NDk4MTMwOSwtMTY1NTA3ODM2OSwxNDkxNzQ4
+MDcxLDI0NjI2NjE2NCwtMzkyMTYwMjM3LDEwODA0NjcwODIsND
+gwNzQxNjY4LDEzNDAyOTk3NTksLTI3Mjk4ODMxMywtMTM5NzQy
+Mjk1MCwtNjM4MjA5OTQ2LDI4ODc2Njc2NCwtMTg4MTIxODgyNy
+wxMDAyMDI2NTc2LC05NTcyNzY4MjQsMjAxNzY3MjE4OCwyMjY5
+NTU5MV19
 -->
