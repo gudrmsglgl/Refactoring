@@ -691,9 +691,9 @@ class Scorer(
 ```
 
 ### 🔍  함수 -> 명령 객체 (명령)
-
+- 명령객체 (명령)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNTA2Njk5OSwtMTM5MzIzNTg0NiwyMT
+eyJoaXN0b3J5IjpbLTEwMTM3NTg5MCwtMTM5MzIzNTg0NiwyMT
 Q3NDE3ODUsMTc3NDk4MTMwOSwtMTY1NTA3ODM2OSwxNDkxNzQ4
 MDcxLDI0NjI2NjE2NCwtMzkyMTYwMjM3LDEwODA0NjcwODIsND
 gwNzQxNjY4LDEzNDAyOTk3NTksLTI3Mjk4ODMxMywtMTM5NzQy
