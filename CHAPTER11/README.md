@@ -9,7 +9,7 @@
 [세터 제거하기](#id-section7)<br>
 [생성자를 팩토링 함수로 바꾸기](#id-section8)<br>
 [함수를 명령으로 바꾸기](#id-section9)<br>
-[함수를 명령으로 바꾸기](#id-section10)<br>
+[명령을 함수로 바꾸기](#id-section10)<br>
 
 
 - ### 소프트웨어 구성 빌딩 블록 - 모듈, 함수
@@ -663,10 +663,17 @@ val leadEngineer = createEngineer(document.loadEngineer)
 <br>
 <div id='id-section9'/>
 
-## 11.8 생성자를 팩터리 함수로 바꾸기 Replace Constructor with Factory Function
+## 11.9 함수를 명령으로 바꾸기 Replace Function with Command
 
 ```kotlin
-val leadEngineer = Employee(document.loadEngineer, 'E')
+fun score(
+   candidate: Candidate,
+   medicalExam: MedicalExam,
+   scoringGuide: ScroingGuid
+) {
+   var result = 0
+   va
+}   
 ```
 **🔻 생성자를 팩터리 함수로 바꾸기**
 
@@ -676,11 +683,11 @@ val leadEngineer = createEngineer(document.loadEngineer)
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MDI5OTM3NywtMTM5MzIzNTg0NiwyMT
-Q3NDE3ODUsMTc3NDk4MTMwOSwtMTY1NTA3ODM2OSwxNDkxNzQ4
-MDcxLDI0NjI2NjE2NCwtMzkyMTYwMjM3LDEwODA0NjcwODIsND
-gwNzQxNjY4LDEzNDAyOTk3NTksLTI3Mjk4ODMxMywtMTM5NzQy
-Mjk1MCwtNjM4MjA5OTQ2LDI4ODc2Njc2NCwtMTg4MTIxODgyNy
-wxMDAyMDI2NTc2LC05NTcyNzY4MjQsMjAxNzY3MjE4OCwyMjY5
-NTU5MV19
+eyJoaXN0b3J5IjpbLTE5OTYwNzU2NDQsLTEzOTMyMzU4NDYsMj
+E0NzQxNzg1LDE3NzQ5ODEzMDksLTE2NTUwNzgzNjksMTQ5MTc0
+ODA3MSwyNDYyNjYxNjQsLTM5MjE2MDIzNywxMDgwNDY3MDgyLD
+Q4MDc0MTY2OCwxMzQwMjk5NzU5LC0yNzI5ODgzMTMsLTEzOTc0
+MjI5NTAsLTYzODIwOTk0NiwyODg3NjY3NjQsLTE4ODEyMTg4Mj
+csMTAwMjAyNjU3NiwtOTU3Mjc2ODI0LDIwMTc2NzIxODgsMjI2
+OTU1OTFdfQ==
 -->
