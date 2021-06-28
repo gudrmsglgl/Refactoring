@@ -7,6 +7,7 @@
 [매개변수를 질의 함수로 바꾸기](#id-section5)<br>
 [질의 함수를 매개변수로 바꾸기](#id-section6)<br>
 [세터 제거하기](#id-section7)<br>
+[생성자를 함수로 바꾸기(#id-section7)<br>
 
 
 - ### 소프트웨어 구성 빌딩 블록 - 모듈, 함수
@@ -643,27 +644,41 @@ class Person {
 		: 생성자를 호출한 후 일련의 세터를 호출하여 객체를 완성하는 형태의 코드
 
 <br>
-<div id='id-section7'/>
+<div id='id-section8'/>
 
 ## 11.8 생성자를 팩터리 함수로 바꾸기 Replace Constructor with Factory Function
 
 ```kotlin
 val leadEngineer = Employee(document.loadEngineer, 'E')
 ```
-**🔻 세터 제거하기**
+**🔻 생성자를 팩터리 함수로 바꾸기**
 
 ```kotlin
 // 문자열 리터럴은 악취로 파라미터 넘겨주기 지양
 val leadEngineer = createEngineer(document.loadEngineer)
 ```
 
+<br>
+<div id='id-section9'/>
+
+## 11.8 생성자를 팩터리 함수로 바꾸기 Replace Constructor with Factory Function
+
+```kotlin
+val leadEngineer = Employee(document.loadEngineer, 'E')
+```
+**🔻 생성자를 팩터리 함수로 바꾸기**
+
+```kotlin
+// 문자열 리터럴은 악취로 파라미터 넘겨주기 지양
+val leadEngineer = createEngineer(document.loadEngineer)
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTMyMzU4NDYsMjE0NzQxNzg1LDE3Nz
-Q5ODEzMDksLTE2NTUwNzgzNjksMTQ5MTc0ODA3MSwyNDYyNjYx
-NjQsLTM5MjE2MDIzNywxMDgwNDY3MDgyLDQ4MDc0MTY2OCwxMz
-QwMjk5NzU5LC0yNzI5ODgzMTMsLTEzOTc0MjI5NTAsLTYzODIw
-OTk0NiwyODg3NjY3NjQsLTE4ODEyMTg4MjcsMTAwMjAyNjU3Ni
-wtOTU3Mjc2ODI0LDIwMTc2NzIxODgsMjI2OTU1OTEsMjIxNTM0
-ODddfQ==
+eyJoaXN0b3J5IjpbOTg1NDI4MTgzLC0xMzkzMjM1ODQ2LDIxND
+c0MTc4NSwxNzc0OTgxMzA5LC0xNjU1MDc4MzY5LDE0OTE3NDgw
+NzEsMjQ2MjY2MTY0LC0zOTIxNjAyMzcsMTA4MDQ2NzA4Miw0OD
+A3NDE2NjgsMTM0MDI5OTc1OSwtMjcyOTg4MzEzLC0xMzk3NDIy
+OTUwLC02MzgyMDk5NDYsMjg4NzY2NzY0LC0xODgxMjE4ODI3LD
+EwMDIwMjY1NzYsLTk1NzI3NjgyNCwyMDE3NjcyMTg4LDIyNjk1
+NTkxXX0=
 -->
