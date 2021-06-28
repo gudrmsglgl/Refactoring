@@ -672,18 +672,19 @@ fun score(
    scoringGuide: ScroingGuid
 ) {
    var result = 0
-   va
+   var healthLevel = 0
 }   
 ```
-**🔻 생성자를 팩터리 함수로 바꾸기**
+**🔻 함수를 명령으로 바꾸기**
 
 ```kotlin
-// 문자열 리터럴은 악취로 파라미터 넘겨주기 지양
-val leadEngineer = createEngineer(document.loadEngineer)
+class Scorer(
+   private val candidate
+}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTYwNzU2NDQsLTEzOTMyMzU4NDYsMj
+eyJoaXN0b3J5IjpbLTE0NDc3MDE1NzUsLTEzOTMyMzU4NDYsMj
 E0NzQxNzg1LDE3NzQ5ODEzMDksLTE2NTUwNzgzNjksMTQ5MTc0
 ODA3MSwyNDYyNjYxNjQsLTM5MjE2MDIzNywxMDgwNDY3MDgyLD
 Q4MDc0MTY2OCwxMzQwMjk5NzU5LC0yNzI5ODgzMTMsLTEzOTc0
