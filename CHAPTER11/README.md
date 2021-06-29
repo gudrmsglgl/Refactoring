@@ -735,7 +735,7 @@ fun charge(customer: Customer, usage: Usage) {
 var totalAscent = 0
 calculateAscent()
 
-fun calculateAscent() {
+fun calculateAscent(): Int {
    (1 until points.size).forEach {
       val verticalChange = points[it].elevation - points[it-1].elevation
       totalAscent += if (verticalChange > 0) verticalChange else 0
@@ -745,16 +745,25 @@ fun calculateAscent() {
 **🔻 수정된 값 반환하기**
 
 ```kotlin
-fun charge(customer: Customer, usage: Usage) {
-   return customer.rate * usage
+var totalAscent = calculateAscent()
+
+fun calculateAscent(): Int {
+   var result = 0
+   (1 until points.size).forEach {
+      val verticalChange = points[it].elevation - points[it-1].elevation
+      result += if (verticalChange > 0) verticalChange else 0
+   }
+   return result
 }
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMyMjMxOTI3LC01MjMwMTM0MjgsLTI1OD
-k4Njg1MCwtMTAxMzc1ODkwLC0xMzkzMjM1ODQ2LDIxNDc0MTc4
-NSwxNzc0OTgxMzA5LC0xNjU1MDc4MzY5LDE0OTE3NDgwNzEsMj
-Q2MjY2MTY0LC0zOTIxNjAyMzcsMTA4MDQ2NzA4Miw0ODA3NDE2
-NjgsMTM0MDI5OTc1OSwtMjcyOTg4MzEzLC0xMzk3NDIyOTUwLC
-02MzgyMDk5NDYsMjg4NzY2NzY0LC0xODgxMjE4ODI3LDEwMDIw
-MjY1NzZdfQ==
+eyJoaXN0b3J5IjpbLTExMjA3OTYyODAsLTUyMzAxMzQyOCwtMj
+U4OTg2ODUwLC0xMDEzNzU4OTAsLTEzOTMyMzU4NDYsMjE0NzQx
+Nzg1LDE3NzQ5ODEzMDksLTE2NTUwNzgzNjksMTQ5MTc0ODA3MS
+wyNDYyNjYxNjQsLTM5MjE2MDIzNywxMDgwNDY3MDgyLDQ4MDc0
+MTY2OCwxMzQwMjk5NzU5LC0yNzI5ODgzMTMsLTEzOTc0MjI5NT
+AsLTYzODIwOTk0NiwyODg3NjY3NjQsLTE4ODEyMTg4MjcsMTAw
+MjAyNjU3Nl19
 -->
