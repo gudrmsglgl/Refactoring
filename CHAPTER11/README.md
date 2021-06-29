@@ -760,9 +760,10 @@ fun calculateAscent(): Int {
 ### 🤔 수정된 값 반환하기 이유
 - 데이터가 **어떻게 수정되는지를 추적하는 일**은
   코드에서 이해하기 **가장 어려운 부분 중 하나.**
-- 특히 같은 데이터 블록을 읽고 수정하는 코드가 여러 곳이라면 데이터가 수정되는 흐름과 코드의 흐름을 일치시키기가 상당히 어려움.
+- 특히 같은 데이터 블록을 읽고 **수정하는 코드가 여러 곳이라면** 
+   데이터가 **수정되는 흐름과 코드의 흐름을 일치시키기가 상당히 어려움.**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNDgxMDE4NiwtNTIzMDEzNDI4LC0yNT
+eyJoaXN0b3J5IjpbLTQ4MjMwNTA5MCwtNTIzMDEzNDI4LC0yNT
 g5ODY4NTAsLTEwMTM3NTg5MCwtMTM5MzIzNTg0NiwyMTQ3NDE3
 ODUsMTc3NDk4MTMwOSwtMTY1NTA3ODM2OSwxNDkxNzQ4MDcxLD
 I0NjI2NjE2NCwtMzkyMTYwMjM3LDEwODA0NjcwODIsNDgwNzQx
