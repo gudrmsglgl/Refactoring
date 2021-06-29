@@ -765,14 +765,14 @@ fun calculateAscent(): Int {
 - 그래서 데이터가 수정된다면 그 사실을 명확히 알려주어서, 
 **어느 함수가 무슨 일을 하는지 쉽게 알 수 있게 하는 일이 대단히 중요.**
 - 🙆🏻‍♂️ 데이터 수정됨을 알려주는 좋은 방법
-	- [x] 
+	- [x] 변수를 갱신하는 함수라면 수정된 값을 반환하여 호출자가 그 값을 변수
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODA5NjExNjIsLTQ4MjMwNTA5MCwtNT
-IzMDEzNDI4LC0yNTg5ODY4NTAsLTEwMTM3NTg5MCwtMTM5MzIz
-NTg0NiwyMTQ3NDE3ODUsMTc3NDk4MTMwOSwtMTY1NTA3ODM2OS
-wxNDkxNzQ4MDcxLDI0NjI2NjE2NCwtMzkyMTYwMjM3LDEwODA0
-NjcwODIsNDgwNzQxNjY4LDEzNDAyOTk3NTksLTI3Mjk4ODMxMy
-wtMTM5NzQyMjk1MCwtNjM4MjA5OTQ2LDI4ODc2Njc2NCwtMTg4
-MTIxODgyN119
+eyJoaXN0b3J5IjpbLTUwNjIwOTgxOCwtNDgyMzA1MDkwLC01Mj
+MwMTM0MjgsLTI1ODk4Njg1MCwtMTAxMzc1ODkwLC0xMzkzMjM1
+ODQ2LDIxNDc0MTc4NSwxNzc0OTgxMzA5LC0xNjU1MDc4MzY5LD
+E0OTE3NDgwNzEsMjQ2MjY2MTY0LC0zOTIxNjAyMzcsMTA4MDQ2
+NzA4Miw0ODA3NDE2NjgsMTM0MDI5OTc1OSwtMjcyOTg4MzEzLC
+0xMzk3NDIyOTUwLC02MzgyMDk5NDYsMjg4NzY2NzY0LC0xODgx
+MjE4ODI3XX0=
 -->
