@@ -709,25 +709,18 @@ class ChargeCalculator(
    private customer: Customer,
    private usage: Usage
 ) {
-   fun execute() {}
-}
-```
-**🔻 함수를 명령으로 바꾸기**
-
-```kotlin
-class Scorer(
-   private val candidate: Candidate,
-   private val medicalExam: MedicalExam,
-   private val scoringGuide: ScroingGuid
-} {
    fun execute() {
-      this._result = 0
-      this._healthLevel = 0
+      return this.customer.rate * this.usage
    }
 }
 ```
+**🔻 명령을 함수로 바꾸기**
+
+```kotlin
+fun charge(cu
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxODAzMzk5OCwtMjU4OTg2ODUwLC0xMD
+eyJoaXN0b3J5IjpbLTIxNTE3ODQ5MiwtMjU4OTg2ODUwLC0xMD
 EzNzU4OTAsLTEzOTMyMzU4NDYsMjE0NzQxNzg1LDE3NzQ5ODEz
 MDksLTE2NTUwNzgzNjksMTQ5MTc0ODA3MSwyNDYyNjYxNjQsLT
 M5MjE2MDIzNywxMDgwNDY3MDgyLDQ4MDc0MTY2OCwxMzQwMjk5
