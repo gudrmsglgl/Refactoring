@@ -700,7 +700,7 @@ class Scorer(
 	- [x] 상속과 훅을 이용해 사용자 맞춤형으로 만들 수도 있다.
 
 <br>
-<div id='id-section9'/>
+<div id='id-section10'/>
 
 ## 11.10 명령을 함수로 바꾸기 Replace Command with Function
 
@@ -724,12 +724,30 @@ fun charge(customer: Customer, usage: Usage) {
 
 - 명령은 그저 함수를 하나 호출해 정해진 일을 수행하는 용도로 주로 쓰인다.
 - 로직이 크게 복잡하지 않다면 명령 객체는 장점보다 단점이 크니 평범한 함수로 바꿔주는 게 낫다.
+
+
+<br>
+<div id='id-section11'/>
+
+## 11.11 수정된 값 반환하기 Return Modified Value
+
+```kotlin
+var totalAscent = 0
+calculateAs
+```
+**🔻 명령을 함수로 바꾸기**
+
+```kotlin
+fun charge(customer: Customer, usage: Usage) {
+   return customer.rate * usage
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzE5Mjk4MTIsLTUyMzAxMzQyOCwtMj
-U4OTg2ODUwLC0xMDEzNzU4OTAsLTEzOTMyMzU4NDYsMjE0NzQx
-Nzg1LDE3NzQ5ODEzMDksLTE2NTUwNzgzNjksMTQ5MTc0ODA3MS
-wyNDYyNjYxNjQsLTM5MjE2MDIzNywxMDgwNDY3MDgyLDQ4MDc0
-MTY2OCwxMzQwMjk5NzU5LC0yNzI5ODgzMTMsLTEzOTc0MjI5NT
-AsLTYzODIwOTk0NiwyODg3NjY3NjQsLTE4ODEyMTg4MjcsMTAw
-MjAyNjU3Nl19
+eyJoaXN0b3J5IjpbNzM4ODA0NDUxLC01MjMwMTM0MjgsLTI1OD
+k4Njg1MCwtMTAxMzc1ODkwLC0xMzkzMjM1ODQ2LDIxNDc0MTc4
+NSwxNzc0OTgxMzA5LC0xNjU1MDc4MzY5LDE0OTE3NDgwNzEsMj
+Q2MjY2MTY0LC0zOTIxNjAyMzcsMTA4MDQ2NzA4Miw0ODA3NDE2
+NjgsMTM0MDI5OTc1OSwtMjcyOTg4MzEzLC0xMzk3NDIyOTUwLC
+02MzgyMDk5NDYsMjg4NzY2NzY0LC0xODgxMjE4ODI3LDEwMDIw
+MjY1NzZdfQ==
 -->
