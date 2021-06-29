@@ -717,10 +717,12 @@ class ChargeCalculator(
 **🔻 명령을 함수로 바꾸기**
 
 ```kotlin
-fun charge(cu
+fun charge(customer: Customer, usage: Usage) {
+   return customer.rate * usage
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNTE3ODQ5MiwtMjU4OTg2ODUwLC0xMD
+eyJoaXN0b3J5IjpbLTUyMzAxMzQyOCwtMjU4OTg2ODUwLC0xMD
 EzNzU4OTAsLTEzOTMyMzU4NDYsMjE0NzQxNzg1LDE3NzQ5ODEz
 MDksLTE2NTUwNzgzNjksMTQ5MTc0ODA3MSwyNDYyNjYxNjQsLT
 M5MjE2MDIzNywxMDgwNDY3MDgyLDQ4MDc0MTY2OCwxMzQwMjk5
