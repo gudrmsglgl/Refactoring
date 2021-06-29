@@ -702,17 +702,15 @@ class Scorer(
 <br>
 <div id='id-section9'/>
 
-## 11.10 함수를 명령으로 바꾸기 Replace Function with Command
+## 11.10 명령을 함수로 바꾸기 Replace Command with Function
 
 ```kotlin
-fun score(
-   candidate: Candidate,
-   medicalExam: MedicalExam,
-   scoringGuide: ScroingGuid
+class ChargeCalculator(
+   private customer: Customer,
+   private usage: Usage
 ) {
-   var result = 0
-   var healthLevel = 0
-}   
+   fun execute() {}
+}
 ```
 **🔻 함수를 명령으로 바꾸기**
 
@@ -729,11 +727,11 @@ class Scorer(
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEyODYyOTk4LC0yNTg5ODY4NTAsLTEwMT
-M3NTg5MCwtMTM5MzIzNTg0NiwyMTQ3NDE3ODUsMTc3NDk4MTMw
-OSwtMTY1NTA3ODM2OSwxNDkxNzQ4MDcxLDI0NjI2NjE2NCwtMz
-kyMTYwMjM3LDEwODA0NjcwODIsNDgwNzQxNjY4LDEzNDAyOTk3
-NTksLTI3Mjk4ODMxMywtMTM5NzQyMjk1MCwtNjM4MjA5OTQ2LD
-I4ODc2Njc2NCwtMTg4MTIxODgyNywxMDAyMDI2NTc2LC05NTcy
-NzY4MjRdfQ==
+eyJoaXN0b3J5IjpbLTYxODAzMzk5OCwtMjU4OTg2ODUwLC0xMD
+EzNzU4OTAsLTEzOTMyMzU4NDYsMjE0NzQxNzg1LDE3NzQ5ODEz
+MDksLTE2NTUwNzgzNjksMTQ5MTc0ODA3MSwyNDYyNjYxNjQsLT
+M5MjE2MDIzNywxMDgwNDY3MDgyLDQ4MDc0MTY2OCwxMzQwMjk5
+NzU5LC0yNzI5ODgzMTMsLTEzOTc0MjI5NTAsLTYzODIwOTk0Ni
+wyODg3NjY3NjQsLTE4ODEyMTg4MjcsMTAwMjAyNjU3NiwtOTU3
+Mjc2ODI0XX0=
 -->
