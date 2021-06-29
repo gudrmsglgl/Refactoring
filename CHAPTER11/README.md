@@ -733,7 +733,13 @@ fun charge(customer: Customer, usage: Usage) {
 
 ```kotlin
 var totalAscent = 0
-calculateAs
+calculateAscent()
+
+fun calculateAscent() {
+   (1 until points.size).forEach {
+      val verticalChange = points[it].elevation - points[it].elevation - 
+   }
+}
 ```
 **🔻 명령을 함수로 바꾸기**
 
@@ -743,11 +749,11 @@ fun charge(customer: Customer, usage: Usage) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM4ODA0NDUxLC01MjMwMTM0MjgsLTI1OD
-k4Njg1MCwtMTAxMzc1ODkwLC0xMzkzMjM1ODQ2LDIxNDc0MTc4
-NSwxNzc0OTgxMzA5LC0xNjU1MDc4MzY5LDE0OTE3NDgwNzEsMj
-Q2MjY2MTY0LC0zOTIxNjAyMzcsMTA4MDQ2NzA4Miw0ODA3NDE2
-NjgsMTM0MDI5OTc1OSwtMjcyOTg4MzEzLC0xMzk3NDIyOTUwLC
-02MzgyMDk5NDYsMjg4NzY2NzY0LC0xODgxMjE4ODI3LDEwMDIw
-MjY1NzZdfQ==
+eyJoaXN0b3J5IjpbLTY5MDYxNTc2NiwtNTIzMDEzNDI4LC0yNT
+g5ODY4NTAsLTEwMTM3NTg5MCwtMTM5MzIzNTg0NiwyMTQ3NDE3
+ODUsMTc3NDk4MTMwOSwtMTY1NTA3ODM2OSwxNDkxNzQ4MDcxLD
+I0NjI2NjE2NCwtMzkyMTYwMjM3LDEwODA0NjcwODIsNDgwNzQx
+NjY4LDEzNDAyOTk3NTksLTI3Mjk4ODMxMywtMTM5NzQyMjk1MC
+wtNjM4MjA5OTQ2LDI4ODc2Njc2NCwtMTg4MTIxODgyNywxMDAy
+MDI2NTc2XX0=
 -->
