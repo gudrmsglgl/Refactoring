@@ -698,12 +698,42 @@ class Scorer(
 	- [x] 되돌리기 (undo) 같은 보조 연산을 제공
 	- [x] 생명주기를 더 정밀하게 제어하는 데 필요한 매개변수를 만들어주는 메서드도 제공할 수 있다.
 	- [x] 상속과 훅을 이용해 사용자 맞춤형으로 만들 수도 있다.
+
+<br>
+<div id='id-section9'/>
+
+## 11.10 함수를 명령으로 바꾸기 Replace Function with Command
+
+```kotlin
+fun score(
+   candidate: Candidate,
+   medicalExam: MedicalExam,
+   scoringGuide: ScroingGuid
+) {
+   var result = 0
+   var healthLevel = 0
+}   
+```
+**🔻 함수를 명령으로 바꾸기**
+
+```kotlin
+class Scorer(
+   private val candidate: Candidate,
+   private val medicalExam: MedicalExam,
+   private val scoringGuide: ScroingGuid
+} {
+   fun execute() {
+      this._result = 0
+      this._healthLevel = 0
+   }
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1ODk4Njg1MCwtMTAxMzc1ODkwLC0xMz
-kzMjM1ODQ2LDIxNDc0MTc4NSwxNzc0OTgxMzA5LC0xNjU1MDc4
-MzY5LDE0OTE3NDgwNzEsMjQ2MjY2MTY0LC0zOTIxNjAyMzcsMT
-A4MDQ2NzA4Miw0ODA3NDE2NjgsMTM0MDI5OTc1OSwtMjcyOTg4
-MzEzLC0xMzk3NDIyOTUwLC02MzgyMDk5NDYsMjg4NzY2NzY0LC
-0xODgxMjE4ODI3LDEwMDIwMjY1NzYsLTk1NzI3NjgyNCwyMDE3
-NjcyMTg4XX0=
+eyJoaXN0b3J5IjpbNjEyODYyOTk4LC0yNTg5ODY4NTAsLTEwMT
+M3NTg5MCwtMTM5MzIzNTg0NiwyMTQ3NDE3ODUsMTc3NDk4MTMw
+OSwtMTY1NTA3ODM2OSwxNDkxNzQ4MDcxLDI0NjI2NjE2NCwtMz
+kyMTYwMjM3LDEwODA0NjcwODIsNDgwNzQxNjY4LDEzNDAyOTk3
+NTksLTI3Mjk4ODMxMywtMTM5NzQyMjk1MCwtNjM4MjA5OTQ2LD
+I4ODc2Njc2NCwtMTg4MTIxODgyNywxMDAyMDI2NTc2LC05NTcy
+NzY4MjRdfQ==
 -->
