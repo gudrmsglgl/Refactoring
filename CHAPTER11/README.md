@@ -721,12 +721,15 @@ fun charge(customer: Customer, usage: Usage) {
    return customer.rate * usage
 }
 ```
+
+- 명령은 그저 함수를 하나 호출해 정해진 일을 수행하는 용도로 주로 쓰인다.
+- 로직이 크게 복잡하지 않다면 명령 객체는 장점보다 단점이 크니 평범한 함수로 바꿔주는 게 낫다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMzAxMzQyOCwtMjU4OTg2ODUwLC0xMD
-EzNzU4OTAsLTEzOTMyMzU4NDYsMjE0NzQxNzg1LDE3NzQ5ODEz
-MDksLTE2NTUwNzgzNjksMTQ5MTc0ODA3MSwyNDYyNjYxNjQsLT
-M5MjE2MDIzNywxMDgwNDY3MDgyLDQ4MDc0MTY2OCwxMzQwMjk5
-NzU5LC0yNzI5ODgzMTMsLTEzOTc0MjI5NTAsLTYzODIwOTk0Ni
-wyODg3NjY3NjQsLTE4ODEyMTg4MjcsMTAwMjAyNjU3NiwtOTU3
-Mjc2ODI0XX0=
+eyJoaXN0b3J5IjpbLTEwMzE5Mjk4MTIsLTUyMzAxMzQyOCwtMj
+U4OTg2ODUwLC0xMDEzNzU4OTAsLTEzOTMyMzU4NDYsMjE0NzQx
+Nzg1LDE3NzQ5ODEzMDksLTE2NTUwNzgzNjksMTQ5MTc0ODA3MS
+wyNDYyNjYxNjQsLTM5MjE2MDIzNywxMDgwNDY3MDgyLDQ4MDc0
+MTY2OCwxMzQwMjk5NzU5LC0yNzI5ODgzMTMsLTEzOTc0MjI5NT
+AsLTYzODIwOTk0NiwyODg3NjY3NjQsLTE4ODEyMTg4MjcsMTAw
+MjAyNjU3Nl19
 -->
