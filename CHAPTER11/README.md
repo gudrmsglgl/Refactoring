@@ -764,14 +764,15 @@ fun calculateAscent(): Int {
    데이터가 **수정되는 흐름과 코드의 흐름을 일치시키기가 상당히 어려움.**
 - 그래서 데이터가 수정된다면 그 사실을 명확히 알려주어서, 
 **어느 함수가 무슨 일을 하는지 쉽게 알 수 있게 하는 일이 대단히 중요.**
-- 🙆🏻‍♂️데이터 수정됨을 알려주는 좋은 방법
-- 
+- 🙆🏻‍♂️ 데이터 수정됨을 알려주는 좋은 방법
+	- [x] 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc3MDg3NzAyLC00ODIzMDUwOTAsLTUyMz
-AxMzQyOCwtMjU4OTg2ODUwLC0xMDEzNzU4OTAsLTEzOTMyMzU4
-NDYsMjE0NzQxNzg1LDE3NzQ5ODEzMDksLTE2NTUwNzgzNjksMT
-Q5MTc0ODA3MSwyNDYyNjYxNjQsLTM5MjE2MDIzNywxMDgwNDY3
-MDgyLDQ4MDc0MTY2OCwxMzQwMjk5NzU5LC0yNzI5ODgzMTMsLT
-EzOTc0MjI5NTAsLTYzODIwOTk0NiwyODg3NjY3NjQsLTE4ODEy
-MTg4MjddfQ==
+eyJoaXN0b3J5IjpbLTE0ODA5NjExNjIsLTQ4MjMwNTA5MCwtNT
+IzMDEzNDI4LC0yNTg5ODY4NTAsLTEwMTM3NTg5MCwtMTM5MzIz
+NTg0NiwyMTQ3NDE3ODUsMTc3NDk4MTMwOSwtMTY1NTA3ODM2OS
+wxNDkxNzQ4MDcxLDI0NjI2NjE2NCwtMzkyMTYwMjM3LDEwODA0
+NjcwODIsNDgwNzQxNjY4LDEzNDAyOTk3NTksLTI3Mjk4ODMxMy
+wtMTM5NzQyMjk1MCwtNjM4MjA5OTQ2LDI4ODc2Njc2NCwtMTg4
+MTIxODgyN119
 -->
