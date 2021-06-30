@@ -797,16 +797,16 @@ else
 - 예외에는 독자적인 흐름이 있어서 프로그램의 나머지에서는 오류 발생에 따른 복잡한 상황에 대처하는 코드를 작성하거나 읽을 일이 없게 해준다.
 - 예외는 정교한 메커니즘이지만 정확하게 사용할 때만 최고의 효과.
 - 예외는 정확히 예상 밖에 동작일 때만 쓰여야 한다.
-- 예외를 던지는 코드를 -> 종료 코드로 바꾼다 -> 여전히 정상 동작할지 따져본다
-- 정상 동작하지 않을 것 같다면 예외를 사용하지 말라는 신호.
+- 🚀 예외를 던지는 코드를 -> 종료 코드로 바꾼다 -> 여전히 정상 동작할지 따져본다
+- 💬  정상 동작하지 않을 것 같다면 예외를 사용하지 말라는 신호.
 - 예외 대신 오류를 검출하여 프로그램을 정상 흐름으로 되돌리게끔 처리
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyOTM4ODI2MCwtMTMwMDc2NjI1NywxMD
-UzMDY5ODEsLTQ4MjMwNTA5MCwtNTIzMDEzNDI4LC0yNTg5ODY4
-NTAsLTEwMTM3NTg5MCwtMTM5MzIzNTg0NiwyMTQ3NDE3ODUsMT
-c3NDk4MTMwOSwtMTY1NTA3ODM2OSwxNDkxNzQ4MDcxLDI0NjI2
-NjE2NCwtMzkyMTYwMjM3LDEwODA0NjcwODIsNDgwNzQxNjY4LD
-EzNDAyOTk3NTksLTI3Mjk4ODMxMywtMTM5NzQyMjk1MCwtNjM4
-MjA5OTQ2XX0=
+eyJoaXN0b3J5IjpbLTk0MjMyNjcwLC0xMzAwNzY2MjU3LDEwNT
+MwNjk4MSwtNDgyMzA1MDkwLC01MjMwMTM0MjgsLTI1ODk4Njg1
+MCwtMTAxMzc1ODkwLC0xMzkzMjM1ODQ2LDIxNDc0MTc4NSwxNz
+c0OTgxMzA5LC0xNjU1MDc4MzY5LDE0OTE3NDgwNzEsMjQ2MjY2
+MTY0LC0zOTIxNjAyMzcsMTA4MDQ2NzA4Miw0ODA3NDE2NjgsMT
+M0MDI5OTc1OSwtMjcyOTg4MzEzLC0xMzk3NDIyOTUwLC02Mzgy
+MDk5NDZdfQ==
 -->
