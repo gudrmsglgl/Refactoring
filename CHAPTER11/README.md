@@ -791,10 +791,13 @@ else
 
 ### 🤔 예외 프로그래밍
 - 예외는 프로그래밍 언어에서 제공하는 독립적인 오류 처리 메커니즘
-- 
+- 오류가 발견되면 예외를 던진다.
+- 그러면 적절한 예외 핸들러를 찾을 때까지 콜스택을 타고 위로 전파된다
+- 예외를 사용하면 오류 코드를 일일이 검사하거나 오류를 식별해 콜스택 위로 던지는 일을 신경 쓰지 않아도 된다.
+- 예외에는 독자적인 흐름이 있어서 프로그램의 나머지에서는 오류 발생에 따른 복잡한 상황에 대처하는 코드를 작성하거나 읽을 일이 없게 해준다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIyMjk5MDY3LC0xMzAwNzY2MjU3LDEwNT
+eyJoaXN0b3J5IjpbODM1NTI5MTQ2LC0xMzAwNzY2MjU3LDEwNT
 MwNjk4MSwtNDgyMzA1MDkwLC01MjMwMTM0MjgsLTI1ODk4Njg1
 MCwtMTAxMzc1ODkwLC0xMzkzMjM1ODQ2LDIxNDc0MTc4NSwxNz
 c0OTgxMzA5LC0xNjU1MDc4MzY5LDE0OTE3NDgwNzEsMjQ2MjY2
