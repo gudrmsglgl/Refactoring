@@ -778,28 +778,27 @@ fun calculateAscent(): Int {
 if (data)
    return ShippingRules(data)
 else
-  
+   return -23
 ```
-**🔻 수정된 값 반환하기**
+**🔻 오류 코드를 예외로 바꾸기**
 
 ```kotlin
-var totalAscent = calculateAscent()
-
-fun calculateAscent(): Int {
-   var result = 0
-   (1 until points.size).forEach {
-      val verticalChange = points[it].elevation - points[it-1].elevation
-      result += if (verticalChange > 0) verticalChange else 0
-   }
-   return result
-}
+if (data)
+   return ShippingRules(data)
+else
+   return OrderProcessingError(-23)
 ```
+
+### 🤔 예외 프로그래밍
+- 예외는 프로그래밍 언어에서 제공하는 독립적인 오류 처리 메커니즘
+- 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NDg1OTEsLTEzMDA3NjYyNTcsMTA1Mz
-A2OTgxLC00ODIzMDUwOTAsLTUyMzAxMzQyOCwtMjU4OTg2ODUw
-LC0xMDEzNzU4OTAsLTEzOTMyMzU4NDYsMjE0NzQxNzg1LDE3Nz
-Q5ODEzMDksLTE2NTUwNzgzNjksMTQ5MTc0ODA3MSwyNDYyNjYx
-NjQsLTM5MjE2MDIzNywxMDgwNDY3MDgyLDQ4MDc0MTY2OCwxMz
-QwMjk5NzU5LC0yNzI5ODgzMTMsLTEzOTc0MjI5NTAsLTYzODIw
-OTk0Nl19
+eyJoaXN0b3J5IjpbODIyMjk5MDY3LC0xMzAwNzY2MjU3LDEwNT
+MwNjk4MSwtNDgyMzA1MDkwLC01MjMwMTM0MjgsLTI1ODk4Njg1
+MCwtMTAxMzc1ODkwLC0xMzkzMjM1ODQ2LDIxNDc0MTc4NSwxNz
+c0OTgxMzA5LC0xNjU1MDc4MzY5LDE0OTE3NDgwNzEsMjQ2MjY2
+MTY0LC0zOTIxNjAyMzcsMTA4MDQ2NzA4Miw0ODA3NDE2NjgsMT
+M0MDI5OTc1OSwtMjcyOTg4MzEzLC0xMzk3NDIyOTUwLC02Mzgy
+MDk5NDZdfQ==
 -->
