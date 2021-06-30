@@ -769,12 +769,37 @@ fun calculateAscent(): Int {
             호출자가 그 값을 변수에 담아두도록 하는 것. <br>
             **-> 해당 변수의 값을 단 한 번만 정하면 될 때 특히 유용**
 
+<br>
+<div id='id-section12'/>
+
+## 11.12 오류 코드를 예외로 바꾸기 Replace Error Code with Exception
+
+```kotlin
+if (data)
+   return ShippingRules(data)
+else
+  
+```
+**🔻 수정된 값 반환하기**
+
+```kotlin
+var totalAscent = calculateAscent()
+
+fun calculateAscent(): Int {
+   var result = 0
+   (1 until points.size).forEach {
+      val verticalChange = points[it].elevation - points[it-1].elevation
+      result += if (verticalChange > 0) verticalChange else 0
+   }
+   return result
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDA3NjYyNTcsMTA1MzA2OTgxLC00OD
-IzMDUwOTAsLTUyMzAxMzQyOCwtMjU4OTg2ODUwLC0xMDEzNzU4
-OTAsLTEzOTMyMzU4NDYsMjE0NzQxNzg1LDE3NzQ5ODEzMDksLT
-E2NTUwNzgzNjksMTQ5MTc0ODA3MSwyNDYyNjYxNjQsLTM5MjE2
-MDIzNywxMDgwNDY3MDgyLDQ4MDc0MTY2OCwxMzQwMjk5NzU5LC
-0yNzI5ODgzMTMsLTEzOTc0MjI5NTAsLTYzODIwOTk0NiwyODg3
-NjY3NjRdfQ==
+eyJoaXN0b3J5IjpbMTI2NDg1OTEsLTEzMDA3NjYyNTcsMTA1Mz
+A2OTgxLC00ODIzMDUwOTAsLTUyMzAxMzQyOCwtMjU4OTg2ODUw
+LC0xMDEzNzU4OTAsLTEzOTMyMzU4NDYsMjE0NzQxNzg1LDE3Nz
+Q5ODEzMDksLTE2NTUwNzgzNjksMTQ5MTc0ODA3MSwyNDYyNjYx
+NjQsLTM5MjE2MDIzNywxMDgwNDY3MDgyLDQ4MDc0MTY2OCwxMz
+QwMjk5NzU5LC0yNzI5ODgzMTMsLTEzOTc0MjI5NTAsLTYzODIw
+OTk0Nl19
 -->
