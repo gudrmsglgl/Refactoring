@@ -827,15 +827,17 @@ fun localShippingRules(country: Country) {
 
 ```kotlin
 fun calculateShippingCosts(order: Order) {
-
+   // 관련 없는 코드
+   val shippingRules = localShippingRules(order.country)
+   if (shippingRules < 0) return shippingRules // 오류 전파
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDk1NzA0NTMsMTcxNDkzODEyOCw4ND
-Y3ODk5NTYsLTk0MjMyNjcwLC0xMzAwNzY2MjU3LDEwNTMwNjk4
-MSwtNDgyMzA1MDkwLC01MjMwMTM0MjgsLTI1ODk4Njg1MCwtMT
-AxMzc1ODkwLC0xMzkzMjM1ODQ2LDIxNDc0MTc4NSwxNzc0OTgx
-MzA5LC0xNjU1MDc4MzY5LDE0OTE3NDgwNzEsMjQ2MjY2MTY0LC
-0zOTIxNjAyMzcsMTA4MDQ2NzA4Miw0ODA3NDE2NjgsMTM0MDI5
-OTc1OV19
+eyJoaXN0b3J5IjpbMTU2MzE4MzQ0OSwxNzE0OTM4MTI4LDg0Nj
+c4OTk1NiwtOTQyMzI2NzAsLTEzMDA3NjYyNTcsMTA1MzA2OTgx
+LC00ODIzMDUwOTAsLTUyMzAxMzQyOCwtMjU4OTg2ODUwLC0xMD
+EzNzU4OTAsLTEzOTMyMzU4NDYsMjE0NzQxNzg1LDE3NzQ5ODEz
+MDksLTE2NTUwNzgzNjksMTQ5MTc0ODA3MSwyNDYyNjYxNjQsLT
+M5MjE2MDIzNywxMDgwNDY3MDgyLDQ4MDc0MTY2OCwxMzQwMjk5
+NzU5XX0=
 -->
