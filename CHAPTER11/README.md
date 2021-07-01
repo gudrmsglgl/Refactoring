@@ -10,6 +10,8 @@
 [생성자를 팩토링 함수로 바꾸기](#id-section8)<br>
 [함수를 명령으로 바꾸기](#id-section9)<br>
 [명령을 함수로 바꾸기](#id-section10)<br>
+[수정된 값 반환하기](#id-section11)<br>
+[오류 코드를 예외로 바꾸기](#id-section12)<br>
 
 
 - ### 소프트웨어 구성 빌딩 블록 - 모듈, 함수
@@ -833,7 +835,7 @@ fun calculateShippingCosts(order: Order) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MzE4MzQ0OSwxNzE0OTM4MTI4LDg0Nj
+eyJoaXN0b3J5IjpbLTQwNDg3Njg0NywxNzE0OTM4MTI4LDg0Nj
 c4OTk1NiwtOTQyMzI2NzAsLTEzMDA3NjYyNTcsMTA1MzA2OTgx
 LC00ODIzMDUwOTAsLTUyMzAxMzQyOCwtMjU4OTg2ODUwLC0xMD
 EzNzU4OTAsLTEzOTMyMzU4NDYsMjE0NzQxNzg1LDE3NzQ5ODEz
