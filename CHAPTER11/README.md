@@ -815,12 +815,28 @@ else
 &emsp;⓺ 테스트한다. <br>
 &emsp;⓻ 오류 코드를 반환하는 곳 모두에서 예외를 던지도록 수정한다. 하나씩 수정할 때마다 테스트한다.<br>
 &emsp;⓼모두 수정 했다면 그 오류 코드를 콜스택 위로 전달하는 코드를 모두 제거한다. 하나씩 수정할 때마다 테스트한다.<br>
+
+### Ex. 전역 테이블에서 배송지의 배송 규칙을 알아내는 코드
+```kotlin
+// 출자 
+val low = room.daysTempRange.low
+val high = room.daysTempRange.high
+if (!plan.withinRange(low, high))
+   println("방 온도가 지정 범위를 벗어났습니다.")
+
+class HeatingPlan {
+   fun withinRnage(bottom, high) {
+      return (bottom >= this._temperatureRange.low)
+         && (top <= this._temperatureRange.high)
+   }
+}    
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Nzc2ODkwODYsODQ2Nzg5OTU2LC05ND
-IzMjY3MCwtMTMwMDc2NjI1NywxMDUzMDY5ODEsLTQ4MjMwNTA5
-MCwtNTIzMDEzNDI4LC0yNTg5ODY4NTAsLTEwMTM3NTg5MCwtMT
-M5MzIzNTg0NiwyMTQ3NDE3ODUsMTc3NDk4MTMwOSwtMTY1NTA3
-ODM2OSwxNDkxNzQ4MDcxLDI0NjI2NjE2NCwtMzkyMTYwMjM3LD
-EwODA0NjcwODIsNDgwNzQxNjY4LDEzNDAyOTk3NTksLTI3Mjk4
-ODMxM119
+eyJoaXN0b3J5IjpbOTUyMTI3ODMyLDg0Njc4OTk1NiwtOTQyMz
+I2NzAsLTEzMDA3NjYyNTcsMTA1MzA2OTgxLC00ODIzMDUwOTAs
+LTUyMzAxMzQyOCwtMjU4OTg2ODUwLC0xMDEzNzU4OTAsLTEzOT
+MyMzU4NDYsMjE0NzQxNzg1LDE3NzQ5ODEzMDksLTE2NTUwNzgz
+NjksMTQ5MTc0ODA3MSwyNDYyNjYxNjQsLTM5MjE2MDIzNywxMD
+gwNDY3MDgyLDQ4MDc0MTY2OCwxMzQwMjk5NzU5LC0yNzI5ODgz
+MTNdfQ==
 -->
