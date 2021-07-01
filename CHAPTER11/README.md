@@ -803,20 +803,23 @@ else
 
 ### 📍 절차
 &emsp;⓵ 콜스택 상위에 해당 예외를 처리할 예외 핸들러를 작성한다.br>
-> -> 이 핸들러는 처음에는 모든 예외를 다시 던게 해주
+> -> 이 핸들러는 처음에는 모든 예외를 다시 던게 해둔다.
+> -> 적절한 처리를 해주는 핸들러가 이미 있다면 지금의 콜스택도 처리할 수 있도록 확장한다.
 
-&emsp;⓶ 새 함수의 본문에서는 원래 함수를 호출하도록 하며, 새 매개변수와 원래 함수의 매개변수를 매핑한다.<br>
-&emsp;⓷ 정적 검사를 수행한다.<br>
-&emsp;⓸ 모든 호출자가 새 함수를 사용하게 수정한다. 하나씩 수명하며 테스트<br>
+&emsp;⓶ 테스트한다.<br>
+&emsp;⓷ 해당 오류 코드를 대체할 예외와 그 밖에 예외를 구분할 식별 방법을 찾는다.<br>
+> -> 사용하는 프로그밍 언어에 맞게 선택하면 된다. 대부분 언어에서는 서브클래스를 사용하면 됨.
+
+&emsp;⓸ 정적 검사를 수행한다.<br>
 &emsp;⓹ 호출자를 모두 수정했다면 원래 함수를 인라인한다.<br>
 &emsp;⓺ 새 함수의 이름을 적절히 수정하고 모든 호출자에 반영.<br>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NDA5Njk3MSwtOTQyMzI2NzAsLTEzMD
-A3NjYyNTcsMTA1MzA2OTgxLC00ODIzMDUwOTAsLTUyMzAxMzQy
-OCwtMjU4OTg2ODUwLC0xMDEzNzU4OTAsLTEzOTMyMzU4NDYsMj
-E0NzQxNzg1LDE3NzQ5ODEzMDksLTE2NTUwNzgzNjksMTQ5MTc0
-ODA3MSwyNDYyNjYxNjQsLTM5MjE2MDIzNywxMDgwNDY3MDgyLD
-Q4MDc0MTY2OCwxMzQwMjk5NzU5LC0yNzI5ODgzMTMsLTEzOTc0
-MjI5NTBdfQ==
+eyJoaXN0b3J5IjpbODQ2Nzg5OTU2LC05NDIzMjY3MCwtMTMwMD
+c2NjI1NywxMDUzMDY5ODEsLTQ4MjMwNTA5MCwtNTIzMDEzNDI4
+LC0yNTg5ODY4NTAsLTEwMTM3NTg5MCwtMTM5MzIzNTg0NiwyMT
+Q3NDE3ODUsMTc3NDk4MTMwOSwtMTY1NTA3ODM2OSwxNDkxNzQ4
+MDcxLDI0NjI2NjE2NCwtMzkyMTYwMjM3LDEwODA0NjcwODIsND
+gwNzQxNjY4LDEzNDAyOTk3NTksLTI3Mjk4ODMxMywtMTM5NzQy
+Mjk1MF19
 -->
