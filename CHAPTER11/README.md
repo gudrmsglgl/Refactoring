@@ -801,12 +801,22 @@ else
 - 💬  정상 동작하지 않을 것 같다면 예외를 사용하지 말라는 신호.
 - 예외 대신 오류를 검출하여 프로그램을 정상 흐름으로 되돌리게끔 처리
 
+### 📍 절차
+&emsp;⓵ 콜스택 상위에 해당 예외를 처리할 예외 핸들러를 작성한다.br>
+> -> 이 핸들러는 처음에는 모든 예외를 다시 던게 해주
+
+&emsp;⓶ 새 함수의 본문에서는 원래 함수를 호출하도록 하며, 새 매개변수와 원래 함수의 매개변수를 매핑한다.<br>
+&emsp;⓷ 정적 검사를 수행한다.<br>
+&emsp;⓸ 모든 호출자가 새 함수를 사용하게 수정한다. 하나씩 수명하며 테스트<br>
+&emsp;⓹ 호출자를 모두 수정했다면 원래 함수를 인라인한다.<br>
+&emsp;⓺ 새 함수의 이름을 적절히 수정하고 모든 호출자에 반영.<br>
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MjMyNjcwLC0xMzAwNzY2MjU3LDEwNT
-MwNjk4MSwtNDgyMzA1MDkwLC01MjMwMTM0MjgsLTI1ODk4Njg1
-MCwtMTAxMzc1ODkwLC0xMzkzMjM1ODQ2LDIxNDc0MTc4NSwxNz
-c0OTgxMzA5LC0xNjU1MDc4MzY5LDE0OTE3NDgwNzEsMjQ2MjY2
-MTY0LC0zOTIxNjAyMzcsMTA4MDQ2NzA4Miw0ODA3NDE2NjgsMT
-M0MDI5OTc1OSwtMjcyOTg4MzEzLC0xMzk3NDIyOTUwLC02Mzgy
-MDk5NDZdfQ==
+eyJoaXN0b3J5IjpbMTk5NDA5Njk3MSwtOTQyMzI2NzAsLTEzMD
+A3NjYyNTcsMTA1MzA2OTgxLC00ODIzMDUwOTAsLTUyMzAxMzQy
+OCwtMjU4OTg2ODUwLC0xMDEzNzU4OTAsLTEzOTMyMzU4NDYsMj
+E0NzQxNzg1LDE3NzQ5ODEzMDksLTE2NTUwNzgzNjksMTQ5MTc0
+ODA3MSwyNDYyNjYxNjQsLTM5MjE2MDIzNywxMDgwNDY3MDgyLD
+Q4MDc0MTY2OCwxMzQwMjk5NzU5LC0yNzI5ODgzMTMsLTEzOTc0
+MjI5NTBdfQ==
 -->
