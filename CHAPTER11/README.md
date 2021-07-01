@@ -818,25 +818,18 @@ else
 
 ### Ex. 전역 테이블에서 배송지의 배송 규칙을 알아내는 코드
 ```kotlin
-// 출자 
-val low = room.daysTempRange.low
-val high = room.daysTempRange.high
-if (!plan.withinRange(low, high))
-   println("방 온도가 지정 범위를 벗어났습니다.")
-
-class HeatingPlan {
-   fun withinRnage(bottom, high) {
-      return (bottom >= this._temperatureRange.low)
-         && (top <= this._temperatureRange.high)
-   }
-}    
+fun localShippingRules(country: Country) {
+   val data = countryData.shippingRules[contry]
+   if (data) return ShippingRules(data)
+   else return -23
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUyMTI3ODMyLDg0Njc4OTk1NiwtOTQyMz
-I2NzAsLTEzMDA3NjYyNTcsMTA1MzA2OTgxLC00ODIzMDUwOTAs
-LTUyMzAxMzQyOCwtMjU4OTg2ODUwLC0xMDEzNzU4OTAsLTEzOT
-MyMzU4NDYsMjE0NzQxNzg1LDE3NzQ5ODEzMDksLTE2NTUwNzgz
-NjksMTQ5MTc0ODA3MSwyNDYyNjYxNjQsLTM5MjE2MDIzNywxMD
-gwNDY3MDgyLDQ4MDc0MTY2OCwxMzQwMjk5NzU5LC0yNzI5ODgz
-MTNdfQ==
+eyJoaXN0b3J5IjpbMTcxNDkzODEyOCw4NDY3ODk5NTYsLTk0Mj
+MyNjcwLC0xMzAwNzY2MjU3LDEwNTMwNjk4MSwtNDgyMzA1MDkw
+LC01MjMwMTM0MjgsLTI1ODk4Njg1MCwtMTAxMzc1ODkwLC0xMz
+kzMjM1ODQ2LDIxNDc0MTc4NSwxNzc0OTgxMzA5LC0xNjU1MDc4
+MzY5LDE0OTE3NDgwNzEsMjQ2MjY2MTY0LC0zOTIxNjAyMzcsMT
+A4MDQ2NzA4Miw0ODA3NDE2NjgsMTM0MDI5OTc1OSwtMjcyOTg4
+MzEzXX0=
 -->
