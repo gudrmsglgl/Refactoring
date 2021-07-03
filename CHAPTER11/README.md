@@ -872,8 +872,11 @@ try {
 }
 if (status < 0) errorList.push(mapOf(order to orderData, errorCode to status))
 ```
+
+⓷ 이번 리팩터링으로 추가된 예외만을 처리하고자 한다면 다른 예외와 구별할 방법이 필요하다.<br>
+&emsp; qufe
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzQ2NTczNDksOTYyMzYxNzQ2LC00MD
+eyJoaXN0b3J5IjpbLTE5NTAwOTgwMDksOTYyMzYxNzQ2LC00MD
 Q4NzY4NDcsMTcxNDkzODEyOCw4NDY3ODk5NTYsLTk0MjMyNjcw
 LC0xMzAwNzY2MjU3LDEwNTMwNjk4MSwtNDgyMzA1MDkwLC01Mj
 MwMTM0MjgsLTI1ODk4Njg1MCwtMTAxMzc1ODkwLC0xMzkzMjM1
