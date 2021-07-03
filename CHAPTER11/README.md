@@ -903,13 +903,20 @@ try {
 if (status < 0) errorList.push(mapOf(order to orderData, errorCode to status))
 ```
 
-⓻ 오류 코드를 반환하는 곳 모두에서 예외를 던지도록 수정한다. 하나씩 수정할 때마다 테스트한다.<br>
+⓻ 그런 다음 오류 검출 코드를 수정하여 오류 코드 대신 이 예외를 던지도록 한다.<br>
+```kotlin
+fun localShippingRules(country: Country) {
+   val data = countryData.shippingRules[country]
+   if (data) return ShippingRules(data)
+   
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MDEyNDg4NSw5NjIzNjE3NDYsLTQwND
-g3Njg0NywxNzE0OTM4MTI4LDg0Njc4OTk1NiwtOTQyMzI2NzAs
-LTEzMDA3NjYyNTcsMTA1MzA2OTgxLC00ODIzMDUwOTAsLTUyMz
-AxMzQyOCwtMjU4OTg2ODUwLC0xMDEzNzU4OTAsLTEzOTMyMzU4
-NDYsMjE0NzQxNzg1LDE3NzQ5ODEzMDksLTE2NTUwNzgzNjksMT
-Q5MTc0ODA3MSwyNDYyNjYxNjQsLTM5MjE2MDIzNywxMDgwNDY3
-MDgyXX0=
+eyJoaXN0b3J5IjpbMTk2NTUzOTkwLDk2MjM2MTc0NiwtNDA0OD
+c2ODQ3LDE3MTQ5MzgxMjgsODQ2Nzg5OTU2LC05NDIzMjY3MCwt
+MTMwMDc2NjI1NywxMDUzMDY5ODEsLTQ4MjMwNTA5MCwtNTIzMD
+EzNDI4LC0yNTg5ODY4NTAsLTEwMTM3NTg5MCwtMTM5MzIzNTg0
+NiwyMTQ3NDE3ODUsMTc3NDk4MTMwOSwtMTY1NTA3ODM2OSwxND
+kxNzQ4MDcxLDI0NjI2NjE2NCwtMzkyMTYwMjM3LDEwODA0Njcw
+ODJdfQ==
 -->
