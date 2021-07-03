@@ -890,8 +890,22 @@ class OrderProcessingError : Error {
 ```
 
 ⓹ 이 클래스가 준비되면 오류 코드를 처리할 때와 같은 방식으로 이 예외 클래스를 처리하는 로직을 추가할 수 있다.<br>
+```kotlin
+lateinit var status
+try {
+   status = calculateShippingCosts(orderData)
+} catch (e) {
+   if (e is OrderProcessingError)
+      errorList.push(mapOf(order to orderData, errorCode to status))
+   else 
+      throw e
+}
+if (status < 0) errorList.push(mapOf(order to orderData, errorCode to status))
+```
+
+⓻ 오류 코드를 반환하는 곳 모두에서 예외를 던지도록 수정한다. 하나씩 수정할 때마다 테스트한다.<br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MDQyNjQwNyw5NjIzNjE3NDYsLTQwND
+eyJoaXN0b3J5IjpbLTY4MDEyNDg4NSw5NjIzNjE3NDYsLTQwND
 g3Njg0NywxNzE0OTM4MTI4LDg0Njc4OTk1NiwtOTQyMzI2NzAs
 LTEzMDA3NjYyNTcsMTA1MzA2OTgxLC00ODIzMDUwOTAsLTUyMz
 AxMzQyOCwtMjU4OTg2ODUwLC0xMDEzNzU4OTAsLTEzOTMyMzU4
