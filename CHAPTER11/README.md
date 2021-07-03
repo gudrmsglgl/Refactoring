@@ -846,15 +846,17 @@ if (status < 0) errorList.push(mapOf(order to orderData, errorCode to status))
 - 이 질문들의 답이 긍정적 (즉, 예상할 수 있는 정상 동작 범주에 든다면) 오류 코드를 예외로 바꾸는 리팩터링 적용할 준비가 된 것.
 
 
-&emsp;⓵ 가장 먼저 최상위에 예외 핸들러를 갖춘다. <br>
-&emsp;&emsp;&nbsp;local
+⓵ 가장 먼저 최상위에 예외 핸들러를 갖춘다. <br>
+&emsp;&nbsp;localShippingRules() 호출을 try 블록으로 감싸려 하지만 <br>
+&emsp;&nbsp;처리로직은 포함하고 싶지 않다.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNTMwODg4MywtNDA0ODc2ODQ3LDE3MT
-Q5MzgxMjgsODQ2Nzg5OTU2LC05NDIzMjY3MCwtMTMwMDc2NjI1
-NywxMDUzMDY5ODEsLTQ4MjMwNTA5MCwtNTIzMDEzNDI4LC0yNT
-g5ODY4NTAsLTEwMTM3NTg5MCwtMTM5MzIzNTg0NiwyMTQ3NDE3
-ODUsMTc3NDk4MTMwOSwtMTY1NTA3ODM2OSwxNDkxNzQ4MDcxLD
-I0NjI2NjE2NCwtMzkyMTYwMjM3LDEwODA0NjcwODIsNDgwNzQx
-NjY4XX0=
+eyJoaXN0b3J5IjpbNDUwOTYyNDg0LC00MDQ4NzY4NDcsMTcxND
+kzODEyOCw4NDY3ODk5NTYsLTk0MjMyNjcwLC0xMzAwNzY2MjU3
+LDEwNTMwNjk4MSwtNDgyMzA1MDkwLC01MjMwMTM0MjgsLTI1OD
+k4Njg1MCwtMTAxMzc1ODkwLC0xMzkzMjM1ODQ2LDIxNDc0MTc4
+NSwxNzc0OTgxMzA5LC0xNjU1MDc4MzY5LDE0OTE3NDgwNzEsMj
+Q2MjY2MTY0LC0zOTIxNjAyMzcsMTA4MDQ2NzA4Miw0ODA3NDE2
+NjhdfQ==
 -->
