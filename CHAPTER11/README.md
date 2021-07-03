@@ -839,9 +839,13 @@ fun calculateShippingCosts(order: Order) {
 val status = calculateShippingCosts(orderData)
 if (status < 0) errorList.push(mapOf(order to orderData, errorCode to status))
 ```
+### 고려할 것
+- 이 오류가 '예상된 것이냐'
+- localShippingRules() 는 배송 
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzY5MDYzNTAsLTQwNDg3Njg0NywxNz
+eyJoaXN0b3J5IjpbLTE4ODkxOTY0MTQsLTQwNDg3Njg0NywxNz
 E0OTM4MTI4LDg0Njc4OTk1NiwtOTQyMzI2NzAsLTEzMDA3NjYy
 NTcsMTA1MzA2OTgxLC00ODIzMDUwOTAsLTUyMzAxMzQyOCwtMj
 U4OTg2ODUwLC0xMDEzNzU4OTAsLTEzOTMyMzU4NDYsMjE0NzQx
