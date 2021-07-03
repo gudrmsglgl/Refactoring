@@ -848,7 +848,8 @@ if (status < 0) errorList.push(mapOf(order to orderData, errorCode to status))
 
 ⓵ 가장 먼저 최상위에 예외 핸들러를 갖춘다. <br>
 &emsp;&nbsp;localShippingRules() 호출을 try 블록으로 감싸려 하지만 <br>
-&emsp;&nbsp;처리로직은 포함하고 싶지 않다.
+&emsp;&nbsp;처리로직은 포함하고 싶지 않다.<br>
+&emsp;&nbsp;그런데 다음처럼 할 수는 없다.
 
 ```kotlin
 // 최상위
@@ -861,12 +862,22 @@ try {
 }
 if (status < 0) errorList.push(mapOf(order to orderData, errorCode to status))
 ```
+
+```kotlin
+lateinit var status
+try {
+   status = calculateShippingCosts(orderData)
+} catch (e) {
+   throw e
+}
+if (status < 0) errorList.push(mapOf(order to orderData, errorCode to status))
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYyMzYxNzQ2LC00MDQ4NzY4NDcsMTcxND
-kzODEyOCw4NDY3ODk5NTYsLTk0MjMyNjcwLC0xMzAwNzY2MjU3
-LDEwNTMwNjk4MSwtNDgyMzA1MDkwLC01MjMwMTM0MjgsLTI1OD
-k4Njg1MCwtMTAxMzc1ODkwLC0xMzkzMjM1ODQ2LDIxNDc0MTc4
-NSwxNzc0OTgxMzA5LC0xNjU1MDc4MzY5LDE0OTE3NDgwNzEsMj
-Q2MjY2MTY0LC0zOTIxNjAyMzcsMTA4MDQ2NzA4Miw0ODA3NDE2
-NjhdfQ==
+eyJoaXN0b3J5IjpbLTEzNzQ2NTczNDksOTYyMzYxNzQ2LC00MD
+Q4NzY4NDcsMTcxNDkzODEyOCw4NDY3ODk5NTYsLTk0MjMyNjcw
+LC0xMzAwNzY2MjU3LDEwNTMwNjk4MSwtNDgyMzA1MDkwLC01Mj
+MwMTM0MjgsLTI1ODk4Njg1MCwtMTAxMzc1ODkwLC0xMzkzMjM1
+ODQ2LDIxNDc0MTc4NSwxNzc0OTgxMzA5LC0xNjU1MDc4MzY5LD
+E0OTE3NDgwNzEsMjQ2MjY2MTY0LC0zOTIxNjAyMzcsMTA4MDQ2
+NzA4Ml19
 -->
