@@ -874,13 +874,16 @@ if (status < 0) errorList.push(mapOf(order to orderData, errorCode to status))
 ```
 
 ⓷ 이번 리팩터링으로 추가된 예외만을 처리하고자 한다면 다른 예외와 구별할 방법이 필요하다.<br>
-&emsp; qufe
+&emsp; 별도의 클래스를 만들어서 할 수 도 있고<br>
+&emsp; 특별한 값을 부여하는 방법도 있다.<br>
+&emsp; 예외를 클래스 기반으로 처리하는 프로그래밍 언어가 많은데,<br>
+&emsp; 이런 경우라면 서브클래스를 만드는게 가장 자연스럽다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTAwOTgwMDksOTYyMzYxNzQ2LC00MD
-Q4NzY4NDcsMTcxNDkzODEyOCw4NDY3ODk5NTYsLTk0MjMyNjcw
-LC0xMzAwNzY2MjU3LDEwNTMwNjk4MSwtNDgyMzA1MDkwLC01Mj
-MwMTM0MjgsLTI1ODk4Njg1MCwtMTAxMzc1ODkwLC0xMzkzMjM1
-ODQ2LDIxNDc0MTc4NSwxNzc0OTgxMzA5LC0xNjU1MDc4MzY5LD
-E0OTE3NDgwNzEsMjQ2MjY2MTY0LC0zOTIxNjAyMzcsMTA4MDQ2
-NzA4Ml19
+eyJoaXN0b3J5IjpbMTA0MjkyODY3Nyw5NjIzNjE3NDYsLTQwND
+g3Njg0NywxNzE0OTM4MTI4LDg0Njc4OTk1NiwtOTQyMzI2NzAs
+LTEzMDA3NjYyNTcsMTA1MzA2OTgxLC00ODIzMDUwOTAsLTUyMz
+AxMzQyOCwtMjU4OTg2ODUwLC0xMDEzNzU4OTAsLTEzOTMyMzU4
+NDYsMjE0NzQxNzg1LDE3NzQ5ODEzMDksLTE2NTUwNzgzNjksMT
+Q5MTc0ODA3MSwyNDYyNjYxNjQsLTM5MjE2MDIzNywxMDgwNDY3
+MDgyXX0=
 -->
