@@ -908,11 +908,11 @@ if (status < 0) errorList.push(mapOf(order to orderData, errorCode to status))
 fun localShippingRules(country: Country) {
    val data = countryData.shippingRules[country]
    if (data) return ShippingRules(data)
-   
+   else throw OrderProcessingError(-23)
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NTUzOTkwLDk2MjM2MTc0NiwtNDA0OD
+eyJoaXN0b3J5IjpbODgxMTU3NDgzLDk2MjM2MTc0NiwtNDA0OD
 c2ODQ3LDE3MTQ5MzgxMjgsODQ2Nzg5OTU2LC05NDIzMjY3MCwt
 MTMwMDc2NjI1NywxMDUzMDY5ODEsLTQ4MjMwNTA5MCwtNTIzMD
 EzNDI4LC0yNTg5ODY4NTAsLTEwMTM3NTg5MCwtMTM5MzIzNTg0
