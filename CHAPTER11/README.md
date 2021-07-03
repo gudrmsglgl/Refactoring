@@ -850,13 +850,21 @@ if (status < 0) errorList.push(mapOf(order to orderData, errorCode to status))
 &emsp;&nbsp;localShippingRules() 호출을 try 블록으로 감싸려 하지만 <br>
 &emsp;&nbsp;처리로직은 포함하고 싶지 않다.
 
-
+```kotlin
+// 최상위
+try {
+   val status = calculateShippingCosts(orderData)
+} catch (e) {
+   // 예외 처리 로직
+}
+if (status < 0) errorList.push(mapOf(order to orderData, errorCode to status))
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUwOTYyNDg0LC00MDQ4NzY4NDcsMTcxND
-kzODEyOCw4NDY3ODk5NTYsLTk0MjMyNjcwLC0xMzAwNzY2MjU3
-LDEwNTMwNjk4MSwtNDgyMzA1MDkwLC01MjMwMTM0MjgsLTI1OD
-k4Njg1MCwtMTAxMzc1ODkwLC0xMzkzMjM1ODQ2LDIxNDc0MTc4
-NSwxNzc0OTgxMzA5LC0xNjU1MDc4MzY5LDE0OTE3NDgwNzEsMj
-Q2MjY2MTY0LC0zOTIxNjAyMzcsMTA4MDQ2NzA4Miw0ODA3NDE2
-NjhdfQ==
+eyJoaXN0b3J5IjpbLTE4MTU1NjY5MDYsLTQwNDg3Njg0NywxNz
+E0OTM4MTI4LDg0Njc4OTk1NiwtOTQyMzI2NzAsLTEzMDA3NjYy
+NTcsMTA1MzA2OTgxLC00ODIzMDUwOTAsLTUyMzAxMzQyOCwtMj
+U4OTg2ODUwLC0xMDEzNzU4OTAsLTEzOTMyMzU4NDYsMjE0NzQx
+Nzg1LDE3NzQ5ODEzMDksLTE2NTUwNzgzNjksMTQ5MTc0ODA3MS
+wyNDYyNjYxNjQsLTM5MjE2MDIzNywxMDgwNDY3MDgyLDQ4MDc0
+MTY2OF19
 -->
