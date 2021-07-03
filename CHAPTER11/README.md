@@ -878,8 +878,17 @@ if (status < 0) errorList.push(mapOf(order to orderData, errorCode to status))
 &emsp; 특별한 값을 부여하는 방법도 있다.<br>
 &emsp; 예외를 클래스 기반으로 처리하는 프로그래밍 언어가 많은데,<br>
 &emsp; 이런 경우라면 서브클래스를 만드는게 가장 자연스럽다.
+
+```kotlin
+class OrderProcessingError : Error {
+   constructor(errorCode: Int) {
+      super("주문 처리 오류 ${errorCode}")
+      this.code = errorCode
+   }
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MjkyODY3Nyw5NjIzNjE3NDYsLTQwND
+eyJoaXN0b3J5IjpbLTM0MTg0ODMxMCw5NjIzNjE3NDYsLTQwND
 g3Njg0NywxNzE0OTM4MTI4LDg0Njc4OTk1NiwtOTQyMzI2NzAs
 LTEzMDA3NjYyNTcsMTA1MzA2OTgxLC00ODIzMDUwOTAsLTUyMz
 AxMzQyOCwtMjU4OTg2ODUwLC0xMDEzNzU4OTAsLTEzOTMyMzU4
