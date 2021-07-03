@@ -841,11 +841,13 @@ if (status < 0) errorList.push(mapOf(order to orderData, errorCode to status))
 ```
 ### 고려할 것
 - 이 오류가 '예상된 것이냐'
-- localShippingRules() 는 배송 
+- localShippingRules() 는 배송 규칙들이 countryData에 제대로 반영되어 있다고 가정해도 되냐?
+- country 인수가 전역 데이터에 저장된 키들과 일치하는 곳에서 가져온 것인가. 아니면 앞서 검증을 받았나?
+- 이 질문들의 답이 긍정적 (즉, 예상할 수 있는 정상 동작 범주에 든다면) 오류 코드를 예외로 바꾸는 리팩터링 적용할 준비가 된 것.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODkxOTY0MTQsLTQwNDg3Njg0NywxNz
+eyJoaXN0b3J5IjpbLTEwNzQ0MzIwMjEsLTQwNDg3Njg0NywxNz
 E0OTM4MTI4LDg0Njc4OTk1NiwtOTQyMzI2NzAsLTEzMDA3NjYy
 NTcsMTA1MzA2OTgxLC00ODIzMDUwOTAsLTUyMzAxMzQyOCwtMj
 U4OTg2ODUwLC0xMDEzNzU4OTAsLTEzOTMyMzU4NDYsMjE0NzQx
