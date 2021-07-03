@@ -885,10 +885,13 @@ class OrderProcessingError : Error {
       super("주문 처리 오류 ${errorCode}")
       this.code = errorCode
    }
+   override fun toString() = "OrderProcessingError"
 }
 ```
+
+⓹ 이 클래스가 준비되면 오류 코드를 처리할 때와 같은 방식으로 이 예외 클래스를 처리하는 로직을 추가할 수 있다.<br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MTg0ODMxMCw5NjIzNjE3NDYsLTQwND
+eyJoaXN0b3J5IjpbLTk2MDQyNjQwNyw5NjIzNjE3NDYsLTQwND
 g3Njg0NywxNzE0OTM4MTI4LDg0Njc4OTk1NiwtOTQyMzI2NzAs
 LTEzMDA3NjYyNTcsMTA1MzA2OTgxLC00ODIzMDUwOTAsLTUyMz
 AxMzQyOCwtMjU4OTg2ODUwLC0xMDEzNzU4OTAsLTEzOTMyMzU4
