@@ -852,6 +852,8 @@ if (status < 0) errorList.push(mapOf(order to orderData, errorCode to status))
 
 ```kotlin
 // 최상위
+// 이렇게 하면 status 유효 범위가 try 블록으로 국한되어 조건문에서 검사할 수 없기 때문
+// 그래서 status 선언과 초기화를 분리해야 한다.
 try {
    val status = calculateShippingCosts(orderData)
 } catch (e) {
@@ -860,11 +862,11 @@ try {
 if (status < 0) errorList.push(mapOf(order to orderData, errorCode to status))
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTU1NjY5MDYsLTQwNDg3Njg0NywxNz
-E0OTM4MTI4LDg0Njc4OTk1NiwtOTQyMzI2NzAsLTEzMDA3NjYy
-NTcsMTA1MzA2OTgxLC00ODIzMDUwOTAsLTUyMzAxMzQyOCwtMj
-U4OTg2ODUwLC0xMDEzNzU4OTAsLTEzOTMyMzU4NDYsMjE0NzQx
-Nzg1LDE3NzQ5ODEzMDksLTE2NTUwNzgzNjksMTQ5MTc0ODA3MS
-wyNDYyNjYxNjQsLTM5MjE2MDIzNywxMDgwNDY3MDgyLDQ4MDc0
-MTY2OF19
+eyJoaXN0b3J5IjpbOTYyMzYxNzQ2LC00MDQ4NzY4NDcsMTcxND
+kzODEyOCw4NDY3ODk5NTYsLTk0MjMyNjcwLC0xMzAwNzY2MjU3
+LDEwNTMwNjk4MSwtNDgyMzA1MDkwLC01MjMwMTM0MjgsLTI1OD
+k4Njg1MCwtMTAxMzc1ODkwLC0xMzkzMjM1ODQ2LDIxNDc0MTc4
+NSwxNzc0OTgxMzA5LC0xNjU1MDc4MzY5LDE0OTE3NDgwNzEsMj
+Q2MjY2MTY0LC0zOTIxNjAyMzcsMTA4MDQ2NzA4Miw0ODA3NDE2
+NjhdfQ==
 -->
