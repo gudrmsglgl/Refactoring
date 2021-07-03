@@ -846,12 +846,15 @@ if (status < 0) errorList.push(mapOf(order to orderData, errorCode to status))
 - 이 질문들의 답이 긍정적 (즉, 예상할 수 있는 정상 동작 범주에 든다면) 오류 코드를 예외로 바꾸는 리팩터링 적용할 준비가 된 것.
 
 
+&emsp;⓵ 가장 먼저 최상위에 예외 핸들러를 갖춘다. <br>
+&emsp;&emsp;&nbsp;local
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzQ0MzIwMjEsLTQwNDg3Njg0NywxNz
-E0OTM4MTI4LDg0Njc4OTk1NiwtOTQyMzI2NzAsLTEzMDA3NjYy
-NTcsMTA1MzA2OTgxLC00ODIzMDUwOTAsLTUyMzAxMzQyOCwtMj
-U4OTg2ODUwLC0xMDEzNzU4OTAsLTEzOTMyMzU4NDYsMjE0NzQx
-Nzg1LDE3NzQ5ODEzMDksLTE2NTUwNzgzNjksMTQ5MTc0ODA3MS
-wyNDYyNjYxNjQsLTM5MjE2MDIzNywxMDgwNDY3MDgyLDQ4MDc0
-MTY2OF19
+eyJoaXN0b3J5IjpbMjExNTMwODg4MywtNDA0ODc2ODQ3LDE3MT
+Q5MzgxMjgsODQ2Nzg5OTU2LC05NDIzMjY3MCwtMTMwMDc2NjI1
+NywxMDUzMDY5ODEsLTQ4MjMwNTA5MCwtNTIzMDEzNDI4LC0yNT
+g5ODY4NTAsLTEwMTM3NTg5MCwtMTM5MzIzNTg0NiwyMTQ3NDE3
+ODUsMTc3NDk4MTMwOSwtMTY1NTA3ODM2OSwxNDkxNzQ4MDcxLD
+I0NjI2NjE2NCwtMzkyMTYwMjM3LDEwODA0NjcwODIsNDgwNzQx
+NjY4XX0=
 -->
