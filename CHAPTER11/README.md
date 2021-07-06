@@ -971,10 +971,14 @@ fun getValueForPeriod(periodNumber: Int): Float {
 ```
 
 ### 🤔 예외 프로그래밍
-- 오류 코드를 연쇄적으로 전파하던 긴 코드를 예외로 바꿔 깔끔히 제거할 수 있게 
+- 오류 코드를 연쇄적으로 전파하던 긴 코드를 예외로 바꿔 깔끔히 제거할 수 있게 되어서 언어 발전에 의미 있는 한걸음.
+- 예외도 (더 이상 좋지 않을 정도까지) 과용되곤 한다.
+- 예외는 '뜻밖의 오류'라는, 말 그대로 예외적으로 동작할 때만 쓰여야 한다.
+- 함수 수행 시 문제
+- 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NDk5Mzk1NSwxNTY0OTM4Mjk3LDg4MT
+eyJoaXN0b3J5IjpbMjA3NDQ3NDU3MSwxNTY0OTM4Mjk3LDg4MT
 E1NzQ4Myw5NjIzNjE3NDYsLTQwNDg3Njg0NywxNzE0OTM4MTI4
 LDg0Njc4OTk1NiwtOTQyMzI2NzAsLTEzMDA3NjYyNTcsMTA1Mz
 A2OTgxLC00ODIzMDUwOTAsLTUyMzAxMzQyOCwtMjU4OTg2ODUw
