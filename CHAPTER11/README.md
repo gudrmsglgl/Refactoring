@@ -911,12 +911,21 @@ fun localShippingRules(country: Country) {
    else throw OrderProcessingError(-23)
 }
 ```
+⓼ 코드를 다 작성했고 테스트도 통과했다면 오류 코드를 전파하는 임시 코드를 제거할 수 있다. 하지만 저자는 먼저 다음처럼 함정을 추가한 후 테스트 해볼 것이다.
+
+```kotlin
+fun localShippingRules(country: Country) {
+   val data = countryData.shippingRules[country]
+   if (data) return ShippingRules(data)
+   else throw OrderProcessingError(-23)
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgxMTU3NDgzLDk2MjM2MTc0NiwtNDA0OD
-c2ODQ3LDE3MTQ5MzgxMjgsODQ2Nzg5OTU2LC05NDIzMjY3MCwt
-MTMwMDc2NjI1NywxMDUzMDY5ODEsLTQ4MjMwNTA5MCwtNTIzMD
-EzNDI4LC0yNTg5ODY4NTAsLTEwMTM3NTg5MCwtMTM5MzIzNTg0
-NiwyMTQ3NDE3ODUsMTc3NDk4MTMwOSwtMTY1NTA3ODM2OSwxND
-kxNzQ4MDcxLDI0NjI2NjE2NCwtMzkyMTYwMjM3LDEwODA0Njcw
-ODJdfQ==
+eyJoaXN0b3J5IjpbLTEzMDExMDc4MjEsODgxMTU3NDgzLDk2Mj
+M2MTc0NiwtNDA0ODc2ODQ3LDE3MTQ5MzgxMjgsODQ2Nzg5OTU2
+LC05NDIzMjY3MCwtMTMwMDc2NjI1NywxMDUzMDY5ODEsLTQ4Mj
+MwNTA5MCwtNTIzMDEzNDI4LC0yNTg5ODY4NTAsLTEwMTM3NTg5
+MCwtMTM5MzIzNTg0NiwyMTQ3NDE3ODUsMTc3NDk4MTMwOSwtMT
+Y1NTA3ODM2OSwxNDkxNzQ4MDcxLDI0NjI2NjE2NCwtMzkyMTYw
+MjM3XX0=
 -->
