@@ -930,12 +930,25 @@ fun calculateShippingCosts(order: Order) {
    // if (shippingRules < 0) throw Error("오류 코드가 다 사라지지 않았습니다.")
 }
 ```
+
+```kotlin
+lateinit var status
+try {
+   status = calculateShippingCosts(orderData)
+} catch (e) {
+   if (e is OrderProcessingError)
+      errorList.push(mapOf(order to orderData, errorCode to status))
+   else 
+      throw e
+}
+// if (status < 0) errorList.push(mapOf(order to orderData, errorCode to status))
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTE2MjUzMzksODgxMTU3NDgzLDk2Mj
-M2MTc0NiwtNDA0ODc2ODQ3LDE3MTQ5MzgxMjgsODQ2Nzg5OTU2
-LC05NDIzMjY3MCwtMTMwMDc2NjI1NywxMDUzMDY5ODEsLTQ4Mj
-MwNTA5MCwtNTIzMDEzNDI4LC0yNTg5ODY4NTAsLTEwMTM3NTg5
-MCwtMTM5MzIzNTg0NiwyMTQ3NDE3ODUsMTc3NDk4MTMwOSwtMT
-Y1NTA3ODM2OSwxNDkxNzQ4MDcxLDI0NjI2NjE2NCwtMzkyMTYw
-MjM3XX0=
+eyJoaXN0b3J5IjpbMTQwMjQyNzk5LDg4MTE1NzQ4Myw5NjIzNj
+E3NDYsLTQwNDg3Njg0NywxNzE0OTM4MTI4LDg0Njc4OTk1Niwt
+OTQyMzI2NzAsLTEzMDA3NjYyNTcsMTA1MzA2OTgxLC00ODIzMD
+UwOTAsLTUyMzAxMzQyOCwtMjU4OTg2ODUwLC0xMDEzNzU4OTAs
+LTEzOTMyMzU4NDYsMjE0NzQxNzg1LDE3NzQ5ODEzMDksLTE2NT
+UwNzgzNjksMTQ5MTc0ODA3MSwyNDYyNjYxNjQsLTM5MjE2MDIz
+N119
 -->
