@@ -921,13 +921,21 @@ fun calculateShippingCosts(order: Order) {
 }
 ```
 - 이 함정에 걸려들지 않는다면 이 줄 전체를 제거해도 안전하다.
-- 오류를 콜스택 위로 전달하는 일은 예외 메커니즘이 대신 처리해줄 것이기 때
+- 오류를 콜스택 위로 전달하는 일은 예외 메커니즘이 대신 처리해줄 것이기 때문이다.
+
+```kotlin
+fun calculateShippingCosts(order: Order) {
+   // 관련 없는 코드
+   val shippingRules = localShippingRules(order.country)
+   // if (shippingRules < 0) throw Error("오류 코드가 다 사라지지 않았습니다.")
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2OTA5MTgwOSw4ODExNTc0ODMsOTYyMz
-YxNzQ2LC00MDQ4NzY4NDcsMTcxNDkzODEyOCw4NDY3ODk5NTYs
-LTk0MjMyNjcwLC0xMzAwNzY2MjU3LDEwNTMwNjk4MSwtNDgyMz
-A1MDkwLC01MjMwMTM0MjgsLTI1ODk4Njg1MCwtMTAxMzc1ODkw
-LC0xMzkzMjM1ODQ2LDIxNDc0MTc4NSwxNzc0OTgxMzA5LC0xNj
-U1MDc4MzY5LDE0OTE3NDgwNzEsMjQ2MjY2MTY0LC0zOTIxNjAy
-MzddfQ==
+eyJoaXN0b3J5IjpbLTEwOTE2MjUzMzksODgxMTU3NDgzLDk2Mj
+M2MTc0NiwtNDA0ODc2ODQ3LDE3MTQ5MzgxMjgsODQ2Nzg5OTU2
+LC05NDIzMjY3MCwtMTMwMDc2NjI1NywxMDUzMDY5ODEsLTQ4Mj
+MwNTA5MCwtNTIzMDEzNDI4LC0yNTg5ODY4NTAsLTEwMTM3NTg5
+MCwtMTM5MzIzNTg0NiwyMTQ3NDE3ODUsMTc3NDk4MTMwOSwtMT
+Y1NTA3ODM2OSwxNDkxNzQ4MDcxLDI0NjI2NjE2NCwtMzkyMTYw
+MjM3XX0=
 -->
