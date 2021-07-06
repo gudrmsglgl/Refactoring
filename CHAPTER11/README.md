@@ -956,15 +956,22 @@ try {
 fun getValueForPeriod(periodNumber: Int): Float {
    try {
       return values[periodNumber]
-   } catch (e: ArrayIndexOutOfBounds
+   } catch (e: ArrayIndexOutOfBoundsException) {
+      return 0
+   }
 }
 ```
+
+**🔻 예외를 사전확인으로 바꾸기**
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MDkwNDcwOCwxNTY0OTM4Mjk3LDg4MT
-E1NzQ4Myw5NjIzNjE3NDYsLTQwNDg3Njg0NywxNzE0OTM4MTI4
-LDg0Njc4OTk1NiwtOTQyMzI2NzAsLTEzMDA3NjYyNTcsMTA1Mz
-A2OTgxLC00ODIzMDUwOTAsLTUyMzAxMzQyOCwtMjU4OTg2ODUw
-LC0xMDEzNzU4OTAsLTEzOTMyMzU4NDYsMjE0NzQxNzg1LDE3Nz
-Q5ODEzMDksLTE2NTUwNzgzNjksMTQ5MTc0ODA3MSwyNDYyNjYx
-NjRdfQ==
+eyJoaXN0b3J5IjpbLTE1NzM2MzYxMjksMTU2NDkzODI5Nyw4OD
+ExNTc0ODMsOTYyMzYxNzQ2LC00MDQ4NzY4NDcsMTcxNDkzODEy
+OCw4NDY3ODk5NTYsLTk0MjMyNjcwLC0xMzAwNzY2MjU3LDEwNT
+MwNjk4MSwtNDgyMzA1MDkwLC01MjMwMTM0MjgsLTI1ODk4Njg1
+MCwtMTAxMzc1ODkwLC0xMzkzMjM1ODQ2LDIxNDc0MTc4NSwxNz
+c0OTgxMzA5LC0xNjU1MDc4MzY5LDE0OTE3NDgwNzEsMjQ2MjY2
+MTY0XX0=
 -->
