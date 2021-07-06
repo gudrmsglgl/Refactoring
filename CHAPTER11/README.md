@@ -932,9 +932,10 @@ fun calculateShippingCosts(order: Order) {
 ```
 
 ```kotlin
-lateinit var status
+// lateinit var status 이제는 필요 없어진 status 변수 역시 제거할 수 있다.
 try {
-   status = calculateShippingCosts(orderData)
+   // status = calculateShippingCosts(orderData)
+   calculateShippingCosts(orderData)
 } catch (e) {
    if (e is OrderProcessingError)
       errorList.push(mapOf(order to orderData, errorCode to status))
@@ -944,11 +945,11 @@ try {
 // if (status < 0) errorList.push(mapOf(order to orderData, errorCode to status))
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMjQyNzk5LDg4MTE1NzQ4Myw5NjIzNj
-E3NDYsLTQwNDg3Njg0NywxNzE0OTM4MTI4LDg0Njc4OTk1Niwt
-OTQyMzI2NzAsLTEzMDA3NjYyNTcsMTA1MzA2OTgxLC00ODIzMD
-UwOTAsLTUyMzAxMzQyOCwtMjU4OTg2ODUwLC0xMDEzNzU4OTAs
-LTEzOTMyMzU4NDYsMjE0NzQxNzg1LDE3NzQ5ODEzMDksLTE2NT
-UwNzgzNjksMTQ5MTc0ODA3MSwyNDYyNjYxNjQsLTM5MjE2MDIz
-N119
+eyJoaXN0b3J5IjpbMTU2NDkzODI5Nyw4ODExNTc0ODMsOTYyMz
+YxNzQ2LC00MDQ4NzY4NDcsMTcxNDkzODEyOCw4NDY3ODk5NTYs
+LTk0MjMyNjcwLC0xMzAwNzY2MjU3LDEwNTMwNjk4MSwtNDgyMz
+A1MDkwLC01MjMwMTM0MjgsLTI1ODk4Njg1MCwtMTAxMzc1ODkw
+LC0xMzkzMjM1ODQ2LDIxNDc0MTc4NSwxNzc0OTgxMzA5LC0xNj
+U1MDc4MzY5LDE0OTE3NDgwNzEsMjQ2MjY2MTY0LC0zOTIxNjAy
+MzddfQ==
 -->
