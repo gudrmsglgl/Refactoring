@@ -964,10 +964,15 @@ fun getValueForPeriod(periodNumber: Int): Float {
 
 **🔻 예외를 사전확인으로 바꾸기**
 
+```kotlin
+fun getValueForPeriod(periodNumber: Int): Float {
+   return (periodNumber >= values.length) ? 0 : values[periodNumber]
+}
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzM2MzYxMjksMTU2NDkzODI5Nyw4OD
+eyJoaXN0b3J5IjpbLTExNjU2Mjc1MTMsMTU2NDkzODI5Nyw4OD
 ExNTc0ODMsOTYyMzYxNzQ2LC00MDQ4NzY4NDcsMTcxNDkzODEy
 OCw4NDY3ODk5NTYsLTk0MjMyNjcwLC0xMzAwNzY2MjU3LDEwNT
 MwNjk4MSwtNDgyMzA1MDkwLC01MjMwMTM0MjgsLTI1ODk4Njg1
