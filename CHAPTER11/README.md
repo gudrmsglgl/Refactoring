@@ -12,6 +12,8 @@
 [명령을 함수로 바꾸기](#id-section10)<br>
 [수정된 값 반환하기](#id-section11)<br>
 [오류 코드를 예외로 바꾸기](#id-section12)<br>
+[예외를 사전확인으로 바꾸기](#id-section13)<br>
+
 
 
 - ### 소프트웨어 구성 빌딩 블록 - 모듈, 함수
@@ -944,12 +946,18 @@ try {
 }
 // if (status < 0) errorList.push(mapOf(order to orderData, errorCode to status))
 ```
+
+<br>
+<div id='id-section13'/>
+
+## 11.12 오류 코드를 예외로 바꾸기 Replace Error Code with Exception
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NDkzODI5Nyw4ODExNTc0ODMsOTYyMz
-YxNzQ2LC00MDQ4NzY4NDcsMTcxNDkzODEyOCw4NDY3ODk5NTYs
-LTk0MjMyNjcwLC0xMzAwNzY2MjU3LDEwNTMwNjk4MSwtNDgyMz
-A1MDkwLC01MjMwMTM0MjgsLTI1ODk4Njg1MCwtMTAxMzc1ODkw
-LC0xMzkzMjM1ODQ2LDIxNDc0MTc4NSwxNzc0OTgxMzA5LC0xNj
-U1MDc4MzY5LDE0OTE3NDgwNzEsMjQ2MjY2MTY0LC0zOTIxNjAy
-MzddfQ==
+eyJoaXN0b3J5IjpbLTEwMzA1OTU3NDMsMTU2NDkzODI5Nyw4OD
+ExNTc0ODMsOTYyMzYxNzQ2LC00MDQ4NzY4NDcsMTcxNDkzODEy
+OCw4NDY3ODk5NTYsLTk0MjMyNjcwLC0xMzAwNzY2MjU3LDEwNT
+MwNjk4MSwtNDgyMzA1MDkwLC01MjMwMTM0MjgsLTI1ODk4Njg1
+MCwtMTAxMzc1ODkwLC0xMzkzMjM1ODQ2LDIxNDc0MTc4NSwxNz
+c0OTgxMzA5LC0xNjU1MDc4MzY5LDE0OTE3NDgwNzEsMjQ2MjY2
+MTY0XX0=
 -->
