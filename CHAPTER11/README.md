@@ -1021,7 +1021,7 @@ class ResourcePool {
          }
          else {
             try {
-               result = avail
+               result = available.pop()
             }
          }
          try {
@@ -1036,11 +1036,11 @@ class ResourcePool {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mzk1ODMxNDUsMTIxNTM3Njk5MywtMT
-g3MDg3OTM5MCwtMjA3Njk0NjAzMSwtMTM0NTExNTcyNSwxNTY0
-OTM4Mjk3LDg4MTE1NzQ4Myw5NjIzNjE3NDYsLTQwNDg3Njg0Ny
-wxNzE0OTM4MTI4LDg0Njc4OTk1NiwtOTQyMzI2NzAsLTEzMDA3
-NjYyNTcsMTA1MzA2OTgxLC00ODIzMDUwOTAsLTUyMzAxMzQyOC
-wtMjU4OTg2ODUwLC0xMDEzNzU4OTAsLTEzOTMyMzU4NDYsMjE0
-NzQxNzg1XX0=
+eyJoaXN0b3J5IjpbNjY2MDg2MDEsMTIxNTM3Njk5MywtMTg3MD
+g3OTM5MCwtMjA3Njk0NjAzMSwtMTM0NTExNTcyNSwxNTY0OTM4
+Mjk3LDg4MTE1NzQ4Myw5NjIzNjE3NDYsLTQwNDg3Njg0NywxNz
+E0OTM4MTI4LDg0Njc4OTk1NiwtOTQyMzI2NzAsLTEzMDA3NjYy
+NTcsMTA1MzA2OTgxLC00ODIzMDUwOTAsLTUyMzAxMzQyOCwtMj
+U4OTg2ODUwLC0xMDEzNzU4OTAsLTEzOTMyMzU4NDYsMjE0NzQx
+Nzg1XX0=
 -->
