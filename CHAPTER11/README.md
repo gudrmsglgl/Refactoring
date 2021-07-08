@@ -984,18 +984,26 @@ fun getValueForPeriod(periodNumber: Int): Float {
 &emsp;⓸ 테스트한다.<br>
 
 ```kotlin
-// ResourcePool 클래스
-class ResourcePo get() {
-   val 
+class ResourcePool {
+   val resource: Resource
+      get(){
+         var result: Resource
+         try {
+            result = available.pop()
+            allocated.add(result)
+         } catch (e: NosuchElementException) {
+            result = 
+         }
+      }
 }
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MjM3MjAwNywtMjA3Njk0NjAzMSwtMT
-M0NTExNTcyNSwxNTY0OTM4Mjk3LDg4MTE1NzQ4Myw5NjIzNjE3
-NDYsLTQwNDg3Njg0NywxNzE0OTM4MTI4LDg0Njc4OTk1NiwtOT
-QyMzI2NzAsLTEzMDA3NjYyNTcsMTA1MzA2OTgxLC00ODIzMDUw
-OTAsLTUyMzAxMzQyOCwtMjU4OTg2ODUwLC0xMDEzNzU4OTAsLT
-EzOTMyMzU4NDYsMjE0NzQxNzg1LDE3NzQ5ODEzMDksLTE2NTUw
-NzgzNjldfQ==
+eyJoaXN0b3J5IjpbNDg3MTE1Mjc2LC0yMDc2OTQ2MDMxLC0xMz
+Q1MTE1NzI1LDE1NjQ5MzgyOTcsODgxMTU3NDgzLDk2MjM2MTc0
+NiwtNDA0ODc2ODQ3LDE3MTQ5MzgxMjgsODQ2Nzg5OTU2LC05ND
+IzMjY3MCwtMTMwMDc2NjI1NywxMDUzMDY5ODEsLTQ4MjMwNTA5
+MCwtNTIzMDEzNDI4LC0yNTg5ODY4NTAsLTEwMTM3NTg5MCwtMT
+M5MzIzNTg0NiwyMTQ3NDE3ODUsMTc3NDk4MTMwOSwtMTY1NTA3
+ODM2OV19
 -->
