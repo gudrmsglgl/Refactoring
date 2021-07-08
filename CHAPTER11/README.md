@@ -1022,25 +1022,22 @@ class ResourcePool {
          else {
             try {
                result = available.pop()
-            }
+               allocated.add(result)
+            } catch (e: NosuchElementException) {
+               throw AssertionError("도달 불가")
+            } 
          }
-         try {
-            result = available.pop()
-            allocated.add(result)
-         } catch (e: NosuchElementException) {
-            result = Resource.create()
-            allocated.add(result)
-         }
+      
          return result
       }
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY2MDg2MDEsMTIxNTM3Njk5MywtMTg3MD
-g3OTM5MCwtMjA3Njk0NjAzMSwtMTM0NTExNTcyNSwxNTY0OTM4
-Mjk3LDg4MTE1NzQ4Myw5NjIzNjE3NDYsLTQwNDg3Njg0NywxNz
-E0OTM4MTI4LDg0Njc4OTk1NiwtOTQyMzI2NzAsLTEzMDA3NjYy
-NTcsMTA1MzA2OTgxLC00ODIzMDUwOTAsLTUyMzAxMzQyOCwtMj
-U4OTg2ODUwLC0xMDEzNzU4OTAsLTEzOTMyMzU4NDYsMjE0NzQx
-Nzg1XX0=
+eyJoaXN0b3J5IjpbMTYyMDk1MTgxLDY2NjA4NjAxLDEyMTUzNz
+Y5OTMsLTE4NzA4NzkzOTAsLTIwNzY5NDYwMzEsLTEzNDUxMTU3
+MjUsMTU2NDkzODI5Nyw4ODExNTc0ODMsOTYyMzYxNzQ2LC00MD
+Q4NzY4NDcsMTcxNDkzODEyOCw4NDY3ODk5NTYsLTk0MjMyNjcw
+LC0xMzAwNzY2MjU3LDEwNTMwNjk4MSwtNDgyMzA1MDkwLC01Mj
+MwMTM0MjgsLTI1ODk4Njg1MCwtMTAxMzc1ODkwLC0xMzkzMjM1
+ODQ2XX0=
 -->
