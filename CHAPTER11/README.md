@@ -992,14 +992,16 @@ class ResourcePool {
             result = available.pop()
             allocated.add(result)
          } catch (e: NosuchElementException) {
-            result = 
+            result = Resource.create()
+            allocated.add(result)
          }
+         return result
       }
 }
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg3MTE1Mjc2LC0yMDc2OTQ2MDMxLC0xMz
+eyJoaXN0b3J5IjpbNjIxMjMxMTk0LC0yMDc2OTQ2MDMxLC0xMz
 Q1MTE1NzI1LDE1NjQ5MzgyOTcsODgxMTU3NDgzLDk2MjM2MTc0
 NiwtNDA0ODc2ODQ3LDE3MTQ5MzgxMjgsODQ2Nzg5OTU2LC05ND
 IzMjY3MCwtMTMwMDc2NjI1NywxMDUzMDY5ODEsLTQ4MjMwNTA5
