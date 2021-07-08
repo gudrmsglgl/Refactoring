@@ -1006,12 +1006,33 @@ class ResourcePool {
 #### 🙅🏻‍♂️ 풀에서 자원이 고갈되는 건 예상치 못한 조건이 아니므로 예외 처리로 대응하는 건 옳지 않다.
 #### 사용하기 전에 allocated 컬렉션의 상태를 확인하기란 아주 쉬운 일이며, 예상 범주에 있는 동작임을 더 뚜렷하게 드러내는 방식.
 ⓵ 조건을 검사하는 코드를 추가하고, catch 블록의 코드를 조건문의 조건절로 옮기고, 남은 try 블록 코드를 다른 조건절로 옮겨보자.
+
+```kotlin
+class ResourcePool {
+   private val available = Dequq<Resource>()
+   private val allocated = List<Resource>()
+
+   val resource: Resource
+      get(){
+         var result: Resource
+         ㅑㄹ
+         try {
+            result = available.pop()
+            allocated.add(result)
+         } catch (e: NosuchElementException) {
+            result = Resource.create()
+            allocated.add(result)
+         }
+         return result
+      }
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNTM3Njk5MywtMTg3MDg3OTM5MCwtMj
-A3Njk0NjAzMSwtMTM0NTExNTcyNSwxNTY0OTM4Mjk3LDg4MTE1
-NzQ4Myw5NjIzNjE3NDYsLTQwNDg3Njg0NywxNzE0OTM4MTI4LD
-g0Njc4OTk1NiwtOTQyMzI2NzAsLTEzMDA3NjYyNTcsMTA1MzA2
-OTgxLC00ODIzMDUwOTAsLTUyMzAxMzQyOCwtMjU4OTg2ODUwLC
-0xMDEzNzU4OTAsLTEzOTMyMzU4NDYsMjE0NzQxNzg1LDE3NzQ5
-ODEzMDldfQ==
+eyJoaXN0b3J5IjpbLTExMzUxODQ2LDEyMTUzNzY5OTMsLTE4Nz
+A4NzkzOTAsLTIwNzY5NDYwMzEsLTEzNDUxMTU3MjUsMTU2NDkz
+ODI5Nyw4ODExNTc0ODMsOTYyMzYxNzQ2LC00MDQ4NzY4NDcsMT
+cxNDkzODEyOCw4NDY3ODk5NTYsLTk0MjMyNjcwLC0xMzAwNzY2
+MjU3LDEwNTMwNjk4MSwtNDgyMzA1MDkwLC01MjMwMTM0MjgsLT
+I1ODk4Njg1MCwtMTAxMzc1ODkwLC0xMzkzMjM1ODQ2LDIxNDc0
+MTc4NV19
 -->
