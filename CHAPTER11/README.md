@@ -982,8 +982,13 @@ fun getValueForPeriod(periodNumber: Int): Float {
 &emsp;⓶ catch 블록에 어셔선을 추가하고 테스트한다.<br>
 &emsp;⓷ try문과 catch 블록을 제거한다. <br>
 &emsp;⓸ 테스트한다.<br>
+
+```kotlin
+ 
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjkyNTc5OTksLTIwNzY5NDYwMzEsLT
+eyJoaXN0b3J5IjpbLTE4ODg1NzA4ODgsLTIwNzY5NDYwMzEsLT
 EzNDUxMTU3MjUsMTU2NDkzODI5Nyw4ODExNTc0ODMsOTYyMzYx
 NzQ2LC00MDQ4NzY4NDcsMTcxNDkzODEyOCw4NDY3ODk5NTYsLT
 k0MjMyNjcwLC0xMzAwNzY2MjU3LDEwNTMwNjk4MSwtNDgyMzA1
