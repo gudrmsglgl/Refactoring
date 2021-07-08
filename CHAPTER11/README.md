@@ -1003,13 +1003,14 @@ class ResourcePool {
 }
 ```
 
-#### 🤔 풀에서 자원이 고갈되는 건 예상치 못한 조건이 아니므로 예외 처리로 대응하는 건 옳지 않다.
+#### 🙅🏻‍♂️ 풀에서 자원이 고갈되는 건 예상치 못한 조건이 아니므로 예외 처리로 대응하는 건 옳지 않다.
+#### 사용하기 전에 allocated 컬렉션의 상태를 확인하기란 아주 쉬운 일이며, 예상 범주에 있는 동작임을 더 뚜렷하게 드러내는 방식.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MzA2NzIwMCwtMTg3MDg3OTM5MCwtMj
-A3Njk0NjAzMSwtMTM0NTExNTcyNSwxNTY0OTM4Mjk3LDg4MTE1
-NzQ4Myw5NjIzNjE3NDYsLTQwNDg3Njg0NywxNzE0OTM4MTI4LD
-g0Njc4OTk1NiwtOTQyMzI2NzAsLTEzMDA3NjYyNTcsMTA1MzA2
-OTgxLC00ODIzMDUwOTAsLTUyMzAxMzQyOCwtMjU4OTg2ODUwLC
-0xMDEzNzU4OTAsLTEzOTMyMzU4NDYsMjE0NzQxNzg1LDE3NzQ5
-ODEzMDldfQ==
+eyJoaXN0b3J5IjpbLTEzNjE2MjY0OTQsLTE4NzA4NzkzOTAsLT
+IwNzY5NDYwMzEsLTEzNDUxMTU3MjUsMTU2NDkzODI5Nyw4ODEx
+NTc0ODMsOTYyMzYxNzQ2LC00MDQ4NzY4NDcsMTcxNDkzODEyOC
+w4NDY3ODk5NTYsLTk0MjMyNjcwLC0xMzAwNzY2MjU3LDEwNTMw
+Njk4MSwtNDgyMzA1MDkwLC01MjMwMTM0MjgsLTI1ODk4Njg1MC
+wtMTAxMzc1ODkwLC0xMzkzMjM1ODQ2LDIxNDc0MTc4NSwxNzc0
+OTgxMzA5XX0=
 -->
