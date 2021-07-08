@@ -979,15 +979,15 @@ fun getValueForPeriod(periodNumber: Int): Float {
 ### 📍 절차
 &emsp;⓵ 예외를 유발하는 상황을 검사할 수 있는 조건문을 추가한다. catch 블록의 코드를 조건문의 조건절 중 하나로 옮기고, 남은 try 블록의 코드를 다른 조건절로 옮긴다. <br>
 
-&emsp;⓶ <br>
-&emsp;⓷ <br>
+&emsp;⓶ catch 블록에 어셔선을 추가하고 테스트한다.<br>
+&emsp;⓷ try문과 catch 블록을 제거한다. <br>
 &emsp;⓸ 테스트한다.<br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3ODk1NzQ2LC0yMDc2OTQ2MDMxLC0xMz
-Q1MTE1NzI1LDE1NjQ5MzgyOTcsODgxMTU3NDgzLDk2MjM2MTc0
-NiwtNDA0ODc2ODQ3LDE3MTQ5MzgxMjgsODQ2Nzg5OTU2LC05ND
-IzMjY3MCwtMTMwMDc2NjI1NywxMDUzMDY5ODEsLTQ4MjMwNTA5
-MCwtNTIzMDEzNDI4LC0yNTg5ODY4NTAsLTEwMTM3NTg5MCwtMT
-M5MzIzNTg0NiwyMTQ3NDE3ODUsMTc3NDk4MTMwOSwtMTY1NTA3
-ODM2OV19
+eyJoaXN0b3J5IjpbLTEyMjkyNTc5OTksLTIwNzY5NDYwMzEsLT
+EzNDUxMTU3MjUsMTU2NDkzODI5Nyw4ODExNTc0ODMsOTYyMzYx
+NzQ2LC00MDQ4NzY4NDcsMTcxNDkzODEyOCw4NDY3ODk5NTYsLT
+k0MjMyNjcwLC0xMzAwNzY2MjU3LDEwNTMwNjk4MSwtNDgyMzA1
+MDkwLC01MjMwMTM0MjgsLTI1ODk4Njg1MCwtMTAxMzc1ODkwLC
+0xMzkzMjM1ODQ2LDIxNDc0MTc4NSwxNzc0OTgxMzA5LC0xNjU1
+MDc4MzY5XX0=
 -->
