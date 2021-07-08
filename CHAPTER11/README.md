@@ -985,7 +985,9 @@ fun getValueForPeriod(periodNumber: Int): Float {
 
 ```kotlin
 class ResourcePool {
-   private 
+   private val available = Dequq<Resource>()
+   private val allocated = List<Resource>()
+
    val resource: Resource
       get(){
          var result: Resource
@@ -1002,7 +1004,7 @@ class ResourcePool {
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTU2ODgwMDEsLTIwNzY5NDYwMzEsLT
+eyJoaXN0b3J5IjpbLTE4NzA4NzkzOTAsLTIwNzY5NDYwMzEsLT
 EzNDUxMTU3MjUsMTU2NDkzODI5Nyw4ODExNTc0ODMsOTYyMzYx
 NzQ2LC00MDQ4NzY4NDcsMTcxNDkzODEyOCw4NDY3ODk5NTYsLT
 k0MjMyNjcwLC0xMzAwNzY2MjU3LDEwNTMwNjk4MSwtNDgyMzA1
