@@ -977,17 +977,17 @@ fun getValueForPeriod(periodNumber: Int): Float {
 - 함수 수행 시 문제가 될 수 있는 조건을 함수 호출 전에 검사할 수 있다면, 예외를 던지는 대신 호출하는 곳에서 조건을 검사하도록 해야 한다.
 
 ### 📍 절차
-&emsp;⓵ 예외를 유발하는 상황을 검사할 수 있는 조건문을 추가한다. <br>
+&emsp;⓵ 예외를 유발하는 상황을 검사할 수 있는 조건문을 추가한다. catch 블록의 코드를 조건문의 조건절 중 하나로 옮기고, 남은 try 블록의 코드를 다른 조건절로 옮긴다. <br>
 
 &emsp;⓶ <br>
 &emsp;⓷ <br>
 &emsp;⓸ 테스트한다.<br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzY5NDYwMzEsLTEzNDUxMTU3MjUsMT
-U2NDkzODI5Nyw4ODExNTc0ODMsOTYyMzYxNzQ2LC00MDQ4NzY4
-NDcsMTcxNDkzODEyOCw4NDY3ODk5NTYsLTk0MjMyNjcwLC0xMz
-AwNzY2MjU3LDEwNTMwNjk4MSwtNDgyMzA1MDkwLC01MjMwMTM0
-MjgsLTI1ODk4Njg1MCwtMTAxMzc1ODkwLC0xMzkzMjM1ODQ2LD
-IxNDc0MTc4NSwxNzc0OTgxMzA5LC0xNjU1MDc4MzY5LDE0OTE3
-NDgwNzFdfQ==
+eyJoaXN0b3J5IjpbLTQ3ODk1NzQ2LC0yMDc2OTQ2MDMxLC0xMz
+Q1MTE1NzI1LDE1NjQ5MzgyOTcsODgxMTU3NDgzLDk2MjM2MTc0
+NiwtNDA0ODc2ODQ3LDE3MTQ5MzgxMjgsODQ2Nzg5OTU2LC05ND
+IzMjY3MCwtMTMwMDc2NjI1NywxMDUzMDY5ODEsLTQ4MjMwNTA5
+MCwtNTIzMDEzNDI4LC0yNTg5ODY4NTAsLTEwMTM3NTg5MCwtMT
+M5MzIzNTg0NiwyMTQ3NDE3ODUsMTc3NDk4MTMwOSwtMTY1NTA3
+ODM2OV19
 -->
