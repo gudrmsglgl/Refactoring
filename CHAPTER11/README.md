@@ -1015,7 +1015,15 @@ class ResourcePool {
    val resource: Resource
       get(){
          var result: Resource
-         ㅑㄹ
+         if (avaiable.isEmpty()) {
+            result = Resource.create()
+            allocated.add(result)
+         }
+         else {
+            try {
+               result = avail
+            }
+         }
          try {
             result = available.pop()
             allocated.add(result)
@@ -1028,11 +1036,11 @@ class ResourcePool {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzUxODQ2LDEyMTUzNzY5OTMsLTE4Nz
-A4NzkzOTAsLTIwNzY5NDYwMzEsLTEzNDUxMTU3MjUsMTU2NDkz
-ODI5Nyw4ODExNTc0ODMsOTYyMzYxNzQ2LC00MDQ4NzY4NDcsMT
-cxNDkzODEyOCw4NDY3ODk5NTYsLTk0MjMyNjcwLC0xMzAwNzY2
-MjU3LDEwNTMwNjk4MSwtNDgyMzA1MDkwLC01MjMwMTM0MjgsLT
-I1ODk4Njg1MCwtMTAxMzc1ODkwLC0xMzkzMjM1ODQ2LDIxNDc0
-MTc4NV19
+eyJoaXN0b3J5IjpbLTE1Mzk1ODMxNDUsMTIxNTM3Njk5MywtMT
+g3MDg3OTM5MCwtMjA3Njk0NjAzMSwtMTM0NTExNTcyNSwxNTY0
+OTM4Mjk3LDg4MTE1NzQ4Myw5NjIzNjE3NDYsLTQwNDg3Njg0Ny
+wxNzE0OTM4MTI4LDg0Njc4OTk1NiwtOTQyMzI2NzAsLTEzMDA3
+NjYyNTcsMTA1MzA2OTgxLC00ODIzMDUwOTAsLTUyMzAxMzQyOC
+wtMjU4OTg2ODUwLC0xMDEzNzU4OTAsLTEzOTMyMzU4NDYsMjE0
+NzQxNzg1XX0=
 -->
