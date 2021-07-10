@@ -12,7 +12,9 @@
 	- [x] 슈퍼클래스 추출하기
 	- [x] 서브클래스 제거하기
 	- [x] 계층 합치기
+	- [x] 필드 값에 따라 동작이 달라지는 코드 
+		- 타입 코드를 서브클래스로 바꾸기
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjE1MjUxNjksNjU3MjQ5MDk5LDI2OD
-c5OTYwM119
+eyJoaXN0b3J5IjpbLTkyMzAxOTMyNiw2NTcyNDkwOTksMjY4Nz
+k5NjAzXX0=
 -->
