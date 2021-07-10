@@ -51,8 +51,12 @@
    class Engineer : Employee {...}
 ```
 
+### 🔍 메서드 올리기
+- 적용하기 가장 쉬운 상황은 메서드들의 본문 코드가 똑같을 때다.
+- 테스트에 의존성이 크다 -> 차이점을 찾는 방법이 효과고 좋음
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNDkyOTUyNiwyMDE2OTAxOTExLDE3OD
-Q4MDAyMjYsLTkyMzAxOTMyNiw2NTcyNDkwOTksMjY4Nzk5NjAz
-XX0=
+eyJoaXN0b3J5IjpbLTE4MjY5NzY4MjYsMjAxNjkwMTkxMSwxNz
+g0ODAwMjI2LC05MjMwMTkzMjYsNjU3MjQ5MDk5LDI2ODc5OTYw
+M119
 -->
