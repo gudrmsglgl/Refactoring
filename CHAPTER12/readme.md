@@ -1,6 +1,15 @@
 # 상속 다루기
 
-
+- 상속은 객체 지향 프로그래밍에서 가장 유명한 특성
+- 아주 유용한 동시에 오용하기 쉽다.
+- 관련 리팩터링
+	- [x] 메서드 올리기
+	- [x] 필드 올리기
+	- [x] 생성자 본문 올리기
+	- [x] 메서드 내리기
+	- [x] 필드 내리기
+- 계층 사이에 클래스를 추가하거나 제거하는 리팩터링
+	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY4Nzk5NjAzXX0=
+eyJoaXN0b3J5IjpbMTYwNDc5MzE5NSwyNjg3OTk2MDNdfQ==
 -->
