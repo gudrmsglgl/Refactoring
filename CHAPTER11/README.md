@@ -1032,12 +1032,37 @@ class ResourcePool {
       }
 }
 ```
+어서션까지 추가한 후 테스트에 통과하면 ⓷ try문과 catch 블록을 제거한다.<br>
+```kotlin
+class ResourcePool {
+   private val available = Dequq<Resource>()
+   private val allocated = List<Resource>()
+
+   val resource: Resource
+      get(){
+         var result: Resource
+         if (avaiable.isEmpty()) {
+            result = Resource.create()
+            allocated.add(result)
+         }
+         else {
+           result = available.pop()
+               allocated.add(result)
+           
+         }
+      
+         return result
+      }
+}
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMDk1MTgxLDY2NjA4NjAxLDEyMTUzNz
-Y5OTMsLTE4NzA4NzkzOTAsLTIwNzY5NDYwMzEsLTEzNDUxMTU3
-MjUsMTU2NDkzODI5Nyw4ODExNTc0ODMsOTYyMzYxNzQ2LC00MD
-Q4NzY4NDcsMTcxNDkzODEyOCw4NDY3ODk5NTYsLTk0MjMyNjcw
-LC0xMzAwNzY2MjU3LDEwNTMwNjk4MSwtNDgyMzA1MDkwLC01Mj
-MwMTM0MjgsLTI1ODk4Njg1MCwtMTAxMzc1ODkwLC0xMzkzMjM1
-ODQ2XX0=
+eyJoaXN0b3J5IjpbMTY0NDUwNTMzMiwxNjIwOTUxODEsNjY2MD
+g2MDEsMTIxNTM3Njk5MywtMTg3MDg3OTM5MCwtMjA3Njk0NjAz
+MSwtMTM0NTExNTcyNSwxNTY0OTM4Mjk3LDg4MTE1NzQ4Myw5Nj
+IzNjE3NDYsLTQwNDg3Njg0NywxNzE0OTM4MTI4LDg0Njc4OTk1
+NiwtOTQyMzI2NzAsLTEzMDA3NjYyNTcsMTA1MzA2OTgxLC00OD
+IzMDUwOTAsLTUyMzAxMzQyOCwtMjU4OTg2ODUwLC0xMDEzNzU4
+OTBdfQ==
 -->
