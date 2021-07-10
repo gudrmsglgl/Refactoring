@@ -35,10 +35,22 @@
       val name() {...}
    }
 
-   class Engineer : P
+   class Engineer : Employee {
+      val name() {...}
+   }
 ```
+**🔻 질의 함수와 변경 함수 분리하기**
+```kotlin
+fun totalOutstanding() {
+   return customer.invoices.reduce( (total, each) -> each.amount + total, 0)
+}
+fun sendBill() {
+   emailGateway.send(formatBill(customer))
+}
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMTkxMTk1NSwyMDE2OTAxOTExLDE3OD
+eyJoaXN0b3J5IjpbLTc1MzI0NDAzMywyMDE2OTAxOTExLDE3OD
 Q4MDAyMjYsLTkyMzAxOTMyNiw2NTcyNDkwOTksMjY4Nzk5NjAz
 XX0=
 -->
