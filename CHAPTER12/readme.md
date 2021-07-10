@@ -17,8 +17,8 @@
 - 상속을 잘못된 곳에서 사용하거나 혹은 환경이 변해 문제가 생겼을 때
 	- [x] 서브클래스를 위임으로 바꾸기
 	- [x] 슈퍼클래스를 위임으로 바꾸기
-	- [x] 상속을 위임으로 바꾸는 것
+	- [x] 상속을 위임으로 바꾸는 것이 핵심
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMDUwNzk2MywtOTIzMDE5MzI2LDY1Nz
+eyJoaXN0b3J5IjpbMTc4NDgwMDIyNiwtOTIzMDE5MzI2LDY1Nz
 I0OTA5OSwyNjg3OTk2MDNdfQ==
 -->
