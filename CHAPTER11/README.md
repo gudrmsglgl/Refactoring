@@ -1046,11 +1046,9 @@ class ResourcePool {
             allocated.add(result)
          }
          else {
-           result = available.pop()
-               allocated.add(result)
-           
+            result = available.pop()
+            allocated.add(result)
          }
-      
          return result
       }
 }
@@ -1058,11 +1056,11 @@ class ResourcePool {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NDUwNTMzMiwxNjIwOTUxODEsNjY2MD
-g2MDEsMTIxNTM3Njk5MywtMTg3MDg3OTM5MCwtMjA3Njk0NjAz
-MSwtMTM0NTExNTcyNSwxNTY0OTM4Mjk3LDg4MTE1NzQ4Myw5Nj
-IzNjE3NDYsLTQwNDg3Njg0NywxNzE0OTM4MTI4LDg0Njc4OTk1
-NiwtOTQyMzI2NzAsLTEzMDA3NjYyNTcsMTA1MzA2OTgxLC00OD
-IzMDUwOTAsLTUyMzAxMzQyOCwtMjU4OTg2ODUwLC0xMDEzNzU4
-OTBdfQ==
+eyJoaXN0b3J5IjpbLTEwNjY1MDk5MTQsMTYyMDk1MTgxLDY2Nj
+A4NjAxLDEyMTUzNzY5OTMsLTE4NzA4NzkzOTAsLTIwNzY5NDYw
+MzEsLTEzNDUxMTU3MjUsMTU2NDkzODI5Nyw4ODExNTc0ODMsOT
+YyMzYxNzQ2LC00MDQ4NzY4NDcsMTcxNDkzODEyOCw4NDY3ODk5
+NTYsLTk0MjMyNjcwLC0xMzAwNzY2MjU3LDEwNTMwNjk4MSwtND
+gyMzA1MDkwLC01MjMwMTM0MjgsLTI1ODk4Njg1MCwtMTAxMzc1
+ODkwXX0=
 -->
