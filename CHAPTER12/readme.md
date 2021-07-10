@@ -71,10 +71,10 @@
 &emsp;⓸ 슈퍼클래스에 새로운 메서드를 생성하고, 대상 메서드의 코드를 복사해넣는다.<br>
 &emsp;⓹ 정적 검사를 수행한다.<br>
 &emsp;⓺ 서브클래스 중 하나의 메서드를 제거한다.<br>
-&emsp;⓻ 오류 코드를 반환하는 곳 모두에서 예외를 던지도록 수정한다. 하나씩 수정할 때마다 테스트한다.<br>
-&emsp;⓼모두 수정 했다면 그 오류 코드를 콜스택 위로 전달하는 코드를 모두 제거한다. 하나씩 수정할 때마다 테스트한다.<br>
+&emsp;⓻ 테스트한다.<br>
+&emsp;⓼ 모든 서브클래스의 메서드가 없어질 때까지 다른 서브클래스의 메서드를 하나식 제거한다.<br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA1MDEzMjQ0LDIwMTY5MDE5MTEsMTc4ND
-gwMDIyNiwtOTIzMDE5MzI2LDY1NzI0OTA5OSwyNjg3OTk2MDNd
-fQ==
+eyJoaXN0b3J5IjpbNDc4NTUzNDQ0LDkwNTAxMzI0NCwyMDE2OT
+AxOTExLDE3ODQ4MDAyMjYsLTkyMzAxOTMyNiw2NTcyNDkwOTks
+MjY4Nzk5NjAzXX0=
 -->
