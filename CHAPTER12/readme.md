@@ -28,7 +28,17 @@
 
 ## 12.1 메서드 올리기 Pull Up Method
 
+```kotlin
+   class Employee{...}
+
+   class Salesperson : Employee {
+      val name() {...}
+   }
+
+   class Engineer : P
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNjkwMTkxMSwxNzg0ODAwMjI2LC05Mj
-MwMTkzMjYsNjU3MjQ5MDk5LDI2ODc5OTYwM119
+eyJoaXN0b3J5IjpbMTEwMTkxMTk1NSwyMDE2OTAxOTExLDE3OD
+Q4MDAyMjYsLTkyMzAxOTMyNiw2NTcyNDkwOTksMjY4Nzk5NjAz
+XX0=
 -->
