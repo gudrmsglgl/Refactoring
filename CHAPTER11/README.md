@@ -1063,15 +1063,8 @@ class ResourcePool {
    val resource: Resource
       get(){
          var result: Resource = 
-         
-         if (avaiable.isEmpty()) {
-            result = Resource.create()
-            allocated.add(result)
-         }
-         else {
-            result = available.pop()
-            allocated.add(result)
-         }
+            if (available.isEmpty()) Resource.create() else available.pop()
+         allocated.add(result)   
          return result
       }
 }
@@ -1079,7 +1072,7 @@ class ResourcePool {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NjYyNTYxOCwxNjIwOTUxODEsNjY2MD
+eyJoaXN0b3J5IjpbMTQxNjUyNjA0MiwxNjIwOTUxODEsNjY2MD
 g2MDEsMTIxNTM3Njk5MywtMTg3MDg3OTM5MCwtMjA3Njk0NjAz
 MSwtMTM0NTExNTcyNSwxNTY0OTM4Mjk3LDg4MTE1NzQ4Myw5Nj
 IzNjE3NDYsLTQwNDg3Njg0NywxNzE0OTM4MTI4LDg0Njc4OTk1
