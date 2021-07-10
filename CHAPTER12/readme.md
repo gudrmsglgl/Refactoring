@@ -68,13 +68,13 @@
 
 &emsp;⓶ 메서드 안에서 호출하는 다른 메서드와 참조하는 필드들을 슈퍼클래스에서도 호출하고 참조할 수 있는지 확인.<br>
 &emsp;⓷ 메서드 시그니처가 다르다면 함수 선언 바꾸기로 슈퍼클래스에서 사용하고 싶은 형태로 통일.<br>
-&emsp;⓸ 슈퍼클ㄹ<br>
-&emsp;⓹ catch절을 수정하여 직접 처리할 수 있는 예외는 적절히 대처하고 그렇지 않은 예외는 다시 던진다.<br>
-&emsp;⓺ 테스트한다. <br>
+&emsp;⓸ 슈퍼클래스에 새로운 메서드를 생성하고, 대상 메서드의 코드를 복사해넣는다.<br>
+&emsp;⓹ 정적 검사를 수행한다.<br>
+&emsp;⓺ 서브클래스 중 하나의 메서드를 제거한다.<br>
 &emsp;⓻ 오류 코드를 반환하는 곳 모두에서 예외를 던지도록 수정한다. 하나씩 수정할 때마다 테스트한다.<br>
 &emsp;⓼모두 수정 했다면 그 오류 코드를 콜스택 위로 전달하는 코드를 모두 제거한다. 하나씩 수정할 때마다 테스트한다.<br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NzA3NjE5MiwyMDE2OTAxOTExLDE3OD
-Q4MDAyMjYsLTkyMzAxOTMyNiw2NTcyNDkwOTksMjY4Nzk5NjAz
-XX0=
+eyJoaXN0b3J5IjpbOTA1MDEzMjQ0LDIwMTY5MDE5MTEsMTc4ND
+gwMDIyNiwtOTIzMDE5MzI2LDY1NzI0OTA5OSwyNjg3OTk2MDNd
+fQ==
 -->
