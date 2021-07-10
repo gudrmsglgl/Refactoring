@@ -14,7 +14,8 @@
 	- [x] 계층 합치기
 	- [x] 필드 값에 따라 동작이 달라지는 코드 
 		- 타입 코드를 서브클래스로 바꾸기
+- 상속을 잘못된 곳에
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMzAxOTMyNiw2NTcyNDkwOTksMjY4Nz
-k5NjAzXX0=
+eyJoaXN0b3J5IjpbLTE4OTgxNzk1MDMsLTkyMzAxOTMyNiw2NT
+cyNDkwOTksMjY4Nzk5NjAzXX0=
 -->
