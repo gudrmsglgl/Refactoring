@@ -9,7 +9,10 @@
 	- [x] 메서드 내리기
 	- [x] 필드 내리기
 - 계층 사이에 클래스를 추가하거나 제거하는 리팩터링
-	- [x] 
+	- [x] 슈퍼클래스 추출하기
+	- [x] 서브클래스 제거하기
+	- [x] 계층 합치기
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU3MjQ5MDk5LDI2ODc5OTYwM119
+eyJoaXN0b3J5IjpbLTEyMjE1MjUxNjksNjU3MjQ5MDk5LDI2OD
+c5OTYwM119
 -->
