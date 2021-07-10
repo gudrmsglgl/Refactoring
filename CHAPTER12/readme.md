@@ -14,8 +14,11 @@
 	- [x] 계층 합치기
 	- [x] 필드 값에 따라 동작이 달라지는 코드 
 		- 타입 코드를 서브클래스로 바꾸기
-- 상속을 잘못된 곳에
+- 상속을 잘못된 곳에서 사용하거나 혹은 환경이 변해 문제가 생겼을 때
+	- [x] 서브클래스를 위임으로 바꾸기
+	- [x] 슈퍼클래스를 위임으로 바꾸기
+	- [x] 상속을 위임으로 바꾸는 것
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTgxNzk1MDMsLTkyMzAxOTMyNiw2NT
-cyNDkwOTksMjY4Nzk5NjAzXX0=
+eyJoaXN0b3J5IjpbLTkyMDUwNzk2MywtOTIzMDE5MzI2LDY1Nz
+I0OTA5OSwyNjg3OTk2MDNdfQ==
 -->
