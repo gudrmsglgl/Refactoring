@@ -1,5 +1,8 @@
 # 상속 다루기
 
+[메서드 올리기](#id-section1)<br>
+
+
 - 상속은 객체 지향 프로그래밍에서 가장 유명한 특성
 - 아주 유용한 동시에 오용하기 쉽다.
 - 관련 리팩터링
@@ -18,7 +21,9 @@
 	- [x] 서브클래스를 위임으로 바꾸기
 	- [x] 슈퍼클래스를 위임으로 바꾸기
 	- [x] 상속을 위임으로 바꾸는 것이 핵심
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NDgwMDIyNiwtOTIzMDE5MzI2LDY1Nz
-I0OTA5OSwyNjg3OTk2MDNdfQ==
+eyJoaXN0b3J5IjpbLTg4NTcwMzE4LDE3ODQ4MDAyMjYsLTkyMz
+AxOTMyNiw2NTcyNDkwOTksMjY4Nzk5NjAzXX0=
 -->
