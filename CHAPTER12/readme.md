@@ -59,8 +59,10 @@
 - 반면 이상하고 복잡한 상황
 	- [x] 해당 메서드의 본문에서 참조하는 필드들이 서브클래스에만 있는 경우.
 	- [x] 이런 경우 필드들 먼저 슈퍼클래스로 올린 후에 메서드를 올리자.
+- 두 메서드의 전체 흐름은 비슷하지만 -> 세부 내용이 다르다면 템플릿 메서드 만들기 고려
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODk1OTM0MTQsMjAxNjkwMTkxMSwxNz
-g0ODAwMjI2LC05MjMwMTkzMjYsNjU3MjQ5MDk5LDI2ODc5OTYw
-M119
+eyJoaXN0b3J5IjpbLTY5MTAwOTY3NSwyMDE2OTAxOTExLDE3OD
+Q4MDAyMjYsLTkyMzAxOTMyNiw2NTcyNDkwOTksMjY4Nzk5NjAz
+XX0=
 -->
