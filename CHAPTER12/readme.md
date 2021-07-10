@@ -9,7 +9,7 @@
 	- [x] 메서드 내리기
 	- [x] 필드 내리기
 - 계층 사이에 클래스를 추가하거나 제거하는 리팩터링
-	- 
+	- [x] 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNDc5MzE5NSwyNjg3OTk2MDNdfQ==
+eyJoaXN0b3J5IjpbNjU3MjQ5MDk5LDI2ODc5OTYwM119
 -->
