@@ -23,7 +23,12 @@
 	- [x] 상속을 위임으로 바꾸는 것이 핵심
 
 
+<br>
+<div id='id-section1'/>
+
+## 12.1 메서드 올리기 Pull Up Method
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NTcwMzE4LDE3ODQ4MDAyMjYsLTkyMz
-AxOTMyNiw2NTcyNDkwOTksMjY4Nzk5NjAzXX0=
+eyJoaXN0b3J5IjpbMjAxNjkwMTkxMSwxNzg0ODAwMjI2LC05Mj
+MwMTkzMjYsNjU3MjQ5MDk5LDI2ODc5OTYwM119
 -->
