@@ -129,7 +129,7 @@
    
    }
 ```
-**🔻 필드 올리기**
+**🔻 생성자 본문 올리기**
 
 ```kotlin
    class Employee{
@@ -141,7 +141,8 @@
    class Engineer : Employee {...}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDIyNDQ2ODksLTQxNDg1Mjg0Niw0Nz
-g1NTM0NDQsOTA1MDEzMjQ0LDIwMTY5MDE5MTEsMTc4NDgwMDIy
-NiwtOTIzMDE5MzI2LDY1NzI0OTA5OSwyNjg3OTk2MDNdfQ==
+eyJoaXN0b3J5IjpbLTY4MjE4Mjc3LC0yMTAyMjQ0Njg5LC00MT
+Q4NTI4NDYsNDc4NTUzNDQ0LDkwNTAxMzI0NCwyMDE2OTAxOTEx
+LDE3ODQ4MDAyMjYsLTkyMzAxOTMyNiw2NTcyNDkwOTksMjY4Nz
+k5NjAzXX0=
 -->
