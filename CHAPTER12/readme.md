@@ -114,8 +114,33 @@
 	- [x] 첫째, 데이터 중복 선언을 없앨 수 있다.
 	- [x] 둘째, 해당 필드를 사용하는 동작을 서브클래스에서 슈퍼클래스로 옮길 수 있다.
 
+
+<br>
+<div id='id-section3'/>
+
+## 12.3 생성자 본문 올리기 Pull Up Constructor Body
+```kotlin
+   class Party {...}
+
+   class Emp
+
+   class Engineer : Employee {
+      private var name: String? = null
+   }
+```
+**🔻 필드 올리기**
+
+```kotlin
+   class Employee{
+      protected var name: String? = null
+   }
+
+   class Salesperson : Employee {...}
+
+   class Engineer : Employee {...}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4ODY1MDczOCwtNDE0ODUyODQ2LDQ3OD
-U1MzQ0NCw5MDUwMTMyNDQsMjAxNjkwMTkxMSwxNzg0ODAwMjI2
-LC05MjMwMTkzMjYsNjU3MjQ5MDk5LDI2ODc5OTYwM119
+eyJoaXN0b3J5IjpbOTA0ODYxODc2LC00MTQ4NTI4NDYsNDc4NT
+UzNDQ0LDkwNTAxMzI0NCwyMDE2OTAxOTExLDE3ODQ4MDAyMjYs
+LTkyMzAxOTMyNiw2NTcyNDkwOTksMjY4Nzk5NjAzXX0=
 -->
