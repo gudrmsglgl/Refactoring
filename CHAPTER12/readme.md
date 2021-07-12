@@ -132,16 +132,18 @@
 **🔻 생성자 본문 올리기**
 
 ```kotlin
-   class Employee{
-      protected var name: String? = null
+   class Party(private name: String) {
+ 
    }
 
-   class Salesperson : Employee {...}
+   class Employee(
+      private val name: String,
+      private val id: String,
+      private val monthlyCost: String) : Party(name) {...}
 
-   class Engineer : Employee {...}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MjE4Mjc3LC0yMTAyMjQ0Njg5LC00MT
+eyJoaXN0b3J5IjpbODIzNTQyMTg5LC0yMTAyMjQ0Njg5LC00MT
 Q4NTI4NDYsNDc4NTUzNDQ0LDkwNTAxMzI0NCwyMDE2OTAxOTEx
 LDE3ODQ4MDAyMjYsLTkyMzAxOTMyNiw2NTcyNDkwOTksMjY4Nz
 k5NjAzXX0=
