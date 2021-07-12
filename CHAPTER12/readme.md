@@ -73,8 +73,37 @@
 &emsp;⓺ 서브클래스 중 하나의 메서드를 제거한다.<br>
 &emsp;⓻ 테스트한다.<br>
 &emsp;⓼ 모든 서브클래스의 메서드가 없어질 때까지 다른 서브클래스의 메서드를 하나식 제거한다.<br>
+
+
+
+<br>
+<div id='id-section2'/>
+
+## 12.2 필드 올리기 Pull Up Field
+```kotlin
+   class Employee{...}
+
+   class Salesperson : Employee {
+      private var name: String? = null
+   }
+
+   class Engineer : Employee {
+      private var name: String? = null
+   }
+```
+**🔻 메서드 올리기**
+
+```kotlin
+   class Employee{
+      protected var name: String? = null
+   }
+
+   class Salesperson : Employee {...}
+
+   class Engineer : Employee {...}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc4NTUzNDQ0LDkwNTAxMzI0NCwyMDE2OT
-AxOTExLDE3ODQ4MDAyMjYsLTkyMzAxOTMyNiw2NTcyNDkwOTks
-MjY4Nzk5NjAzXX0=
+eyJoaXN0b3J5IjpbLTE5NzE1ODM0MDgsNDc4NTUzNDQ0LDkwNT
+AxMzI0NCwyMDE2OTAxOTExLDE3ODQ4MDAyMjYsLTkyMzAxOTMy
+Niw2NTcyNDkwOTksMjY4Nzk5NjAzXX0=
 -->
