@@ -1,6 +1,9 @@
 # 상속 다루기
 
 [메서드 올리기](#id-section1)<br>
+[필드 올리기](#id-section2)<br>
+[생성자 본문 올리기](#id-section3)<br>
+
 
 
 - 상속은 객체 지향 프로그래밍에서 가장 유명한 특성
@@ -109,9 +112,10 @@
 - 분석 결과 필드들이 비슷한 방식으로 쓰인다고 판단되면 슈퍼클래스로 끌어올리자.
 - 두 가지 중복을 줄일 수 있다.
 	- [x] 첫째, 데이터 중복 선언을 없앨 수 있다.
-	- [x] 둘째, 해당 필드를 사용하는 동작을 서브클래스에
+	- [x] 둘째, 해당 필드를 사용하는 동작을 서브클래스에서 슈퍼클래스로 옮길 수 있다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzODE3NDQzMSwtNDE0ODUyODQ2LDQ3OD
+eyJoaXN0b3J5IjpbLTc4ODY1MDczOCwtNDE0ODUyODQ2LDQ3OD
 U1MzQ0NCw5MDUwMTMyNDQsMjAxNjkwMTkxMSwxNzg0ODAwMjI2
 LC05MjMwMTkzMjYsNjU3MjQ5MDk5LDI2ODc5OTYwM119
 -->
