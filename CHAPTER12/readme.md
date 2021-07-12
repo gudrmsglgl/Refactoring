@@ -142,9 +142,12 @@
       private val monthlyCost: String) : Party(name) {...}
 
 ```
+
+- 생성자는 할 수 있는 일과 호출 순서에 제약이 있기 때문에 조금 다른 식으로 접근
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIzNTQyMTg5LC0yMTAyMjQ0Njg5LC00MT
-Q4NTI4NDYsNDc4NTUzNDQ0LDkwNTAxMzI0NCwyMDE2OTAxOTEx
-LDE3ODQ4MDAyMjYsLTkyMzAxOTMyNiw2NTcyNDkwOTksMjY4Nz
-k5NjAzXX0=
+eyJoaXN0b3J5IjpbLTMxOTI5Njg5MywtMjEwMjI0NDY4OSwtND
+E0ODUyODQ2LDQ3ODU1MzQ0NCw5MDUwMTMyNDQsMjAxNjkwMTkx
+MSwxNzg0ODAwMjI2LC05MjMwMTkzMjYsNjU3MjQ5MDk5LDI2OD
+c5OTYwM119
 -->
