@@ -91,7 +91,7 @@
       private var name: String? = null
    }
 ```
-**🔻 메서드 올리기**
+**🔻 필드 올리기**
 
 ```kotlin
    class Employee{
@@ -103,7 +103,7 @@
    class Engineer : Employee {...}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzE1ODM0MDgsNDc4NTUzNDQ0LDkwNT
-AxMzI0NCwyMDE2OTAxOTExLDE3ODQ4MDAyMjYsLTkyMzAxOTMy
-Niw2NTcyNDkwOTksMjY4Nzk5NjAzXX0=
+eyJoaXN0b3J5IjpbLTQxNDg1Mjg0Niw0Nzg1NTM0NDQsOTA1MD
+EzMjQ0LDIwMTY5MDE5MTEsMTc4NDgwMDIyNiwtOTIzMDE5MzI2
+LDY1NzI0OTA5OSwyNjg3OTk2MDNdfQ==
 -->
