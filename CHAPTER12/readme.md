@@ -106,8 +106,12 @@
 - 서브클래스들이 독립적으로 개발되었거나 뒤늦게 하나의 계층구조로 리팩터링된 경우라면 일부 기능이 중복되어 있을 때가 있다.
 - 특히 필드가 중복되기 쉽다.
 - 어떤 일이 벌어지는지를 알아내려면 필드들이 어떻게 이용되는지 분석해봐야 한다.
+- 분석 결과 필드들이 비슷한 방식으로 쓰인다고 판단되면 슈퍼클래스로 끌어올리자.
+- 두 가지 중복을 줄일 수 있다.
+	- [x] 첫째, 데이터 중복 선언을 없앨 수 있다.
+	- [x] 둘째, 해당 필드를 사용하는 동작을 서브클래스에
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDQyNTc2ODQsLTQxNDg1Mjg0Niw0Nz
-g1NTM0NDQsOTA1MDEzMjQ0LDIwMTY5MDE5MTEsMTc4NDgwMDIy
-NiwtOTIzMDE5MzI2LDY1NzI0OTA5OSwyNjg3OTk2MDNdfQ==
+eyJoaXN0b3J5IjpbMjAzODE3NDQzMSwtNDE0ODUyODQ2LDQ3OD
+U1MzQ0NCw5MDUwMTMyNDQsMjAxNjkwMTkxMSwxNzg0ODAwMjI2
+LC05MjMwMTkzMjYsNjU3MjQ5MDk5LDI2ODc5OTYwM119
 -->
