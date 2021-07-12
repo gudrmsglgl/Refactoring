@@ -122,7 +122,12 @@
 ```kotlin
    class Party {...}
 
-   class Emp
+   class Employee(
+      private val name: String,
+      private val id: String,
+      private val monthlyCost: String) : Party() {
+   
+   }
 
    class Engineer : Employee {
       private var name: String? = null
@@ -140,7 +145,7 @@
    class Engineer : Employee {...}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA0ODYxODc2LC00MTQ4NTI4NDYsNDc4NT
-UzNDQ0LDkwNTAxMzI0NCwyMDE2OTAxOTExLDE3ODQ4MDAyMjYs
-LTkyMzAxOTMyNiw2NTcyNDkwOTksMjY4Nzk5NjAzXX0=
+eyJoaXN0b3J5IjpbMTg2NTQ2MzExOSwtNDE0ODUyODQ2LDQ3OD
+U1MzQ0NCw5MDUwMTMyNDQsMjAxNjkwMTkxMSwxNzg0ODAwMjI2
+LC05MjMwMTkzMjYsNjU3MjQ5MDk5LDI2ODc5OTYwM119
 -->
