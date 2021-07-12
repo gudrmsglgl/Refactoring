@@ -128,10 +128,6 @@
       private val monthlyCost: String) : Party() {
    
    }
-
-   class Engineer : Employee {
-      private var name: String? = null
-   }
 ```
 **🔻 필드 올리기**
 
@@ -145,7 +141,7 @@
    class Engineer : Employee {...}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NTQ2MzExOSwtNDE0ODUyODQ2LDQ3OD
-U1MzQ0NCw5MDUwMTMyNDQsMjAxNjkwMTkxMSwxNzg0ODAwMjI2
-LC05MjMwMTkzMjYsNjU3MjQ5MDk5LDI2ODc5OTYwM119
+eyJoaXN0b3J5IjpbLTIxMDIyNDQ2ODksLTQxNDg1Mjg0Niw0Nz
+g1NTM0NDQsOTA1MDEzMjQ0LDIwMTY5MDE5MTEsMTc4NDgwMDIy
+NiwtOTIzMDE5MzI2LDY1NzI0OTA5OSwyNjg3OTk2MDNdfQ==
 -->
