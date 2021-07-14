@@ -244,16 +244,18 @@ fun createEmployee(name: String, type: String){
 &emsp;⓵ 타입 코드 필드를 자가 캡슐화한다.<br>
 &emsp;⓶ 타입 코드 값 하나를 선택하여 그 값에 해당하는 서브클래스를 만든다. 타입 코드 게터 메서드를 오버라이드하여 해당 타입 코드의 리터럴 값을 반환하게 한다.<br>
 &emsp;⓷ 매개변수로 받은 타입 코드와 방금 만든 서브클래스를 매핑하는 선택 로직을 만든다.<br>
-> 직접 상속일 때는 생성자를 팩터리 함수로 바꾸기를 적용하고 선택 로직을 팩터리에 넣는다. 간접 상속일 때는 선택 로직ㅇ
-&emsp;⓸ 슈퍼클래스에 새로운 메서드를 생성하고, 대상 메서드의 코드를 복사해넣는다.<br>
-&emsp;⓹ 정적 검사를 수행한다.<br>
-&emsp;⓺ 서브클래스 중 하나의 메서드를 제거한다.<br>
+> 직접 상속일 때는 생성자를 팩터리 함수로 바꾸기를 적용하고 선택 로직을 팩터리에 넣는다. <br>
+> 간접 상속일 때는 선택 로직을 생성자에 두면 될 것. 
+
+&emsp;⓸ 테스트한다.<br>
+&emsp;⓹ 타입 코드 값 각각에 대해 서브클래스 생성과 선택 로직 추가를 반복한다. 클래스 하나가 완성될 때마다 테스트한다. <br>
+&emsp;⓺ 타입 코드 필드를 제거한다. <br>
 &emsp;⓻ 테스트한다.<br>
-&emsp;⓼ 모든 서브클래스의 메서드가 없어질 때까지 다른 서브클래스의 메서드를 하나식 제거한다.<br>
+&emsp;⓼ 타입 코드 접근자를 이용하는 메서드 모두에 메서드 내리기와 조건부 로직을 다형성으로 바꾸기를 적용한다.<br>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMzEzMzk3MiwtNDUyMDc4Mjk2LC03OT
+eyJoaXN0b3J5IjpbLTY1NzkxMzk1MiwtNDUyMDc4Mjk2LC03OT
 M0NDk0NjMsLTIxMDIyNDQ2ODksLTQxNDg1Mjg0Niw0Nzg1NTM0
 NDQsOTA1MDEzMjQ0LDIwMTY5MDE5MTEsMTc4NDgwMDIyNiwtOT
 IzMDE5MzI2LDY1NzI0OTA5OSwyNjg3OTk2MDNdfQ==
