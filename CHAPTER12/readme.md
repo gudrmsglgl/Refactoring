@@ -206,10 +206,27 @@
 <br>
 <div id='id-section6'/>
 
-## 12.6 타입 코드를 서브클래스로 바꾸기 Replace Type Code with Subclass
+## 12.6 타입 코드를 서브클래스로 바꾸기 Replace Type Code with Subclasses
+
+```kotlin
+fun createEmployee(name: String, type: String){
+   return Employee(name, type)
+}
+```
+**🔻 타입 코드를 서브클래스로 바꾸기**
+
+```kotlin
+   class Employee {...}
+
+   class Salesperson : Employee {...}
+
+   class Engineer : Employee {
+      protected val quota: String = ""
+   }
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjI5NDIxNTcsLTc5MzQ0OTQ2MywtMj
-EwMjI0NDY4OSwtNDE0ODUyODQ2LDQ3ODU1MzQ0NCw5MDUwMTMy
-NDQsMjAxNjkwMTkxMSwxNzg0ODAwMjI2LC05MjMwMTkzMjYsNj
-U3MjQ5MDk5LDI2ODc5OTYwM119
+eyJoaXN0b3J5IjpbMTQwMDEwOTgwLC03OTM0NDk0NjMsLTIxMD
+IyNDQ2ODksLTQxNDg1Mjg0Niw0Nzg1NTM0NDQsOTA1MDEzMjQ0
+LDIwMTY5MDE5MTEsMTc4NDgwMDIyNiwtOTIzMDE5MzI2LDY1Nz
+I0OTA5OSwyNjg3OTk2MDNdfQ==
 -->
