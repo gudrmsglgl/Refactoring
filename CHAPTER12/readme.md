@@ -151,27 +151,29 @@
 
 ```kotlin
    class Employee {
-      fun quota(){}
+      fun quota(){...}
    }
 
    class Salesperson : Employee {...}
 
    class Engineer : Employee {...}
 ```
-**🔻 필드 올리기**
+**🔻 메서드 내리기**
 
 ```kotlin
-   class Employee {
-      protected var name: String? = null
-   }
+   class Employee {...}
 
    class Salesperson : Employee {...}
 
-   class Engineer : Employee {...}
+   class Engineer : Employee {
+      fun quota(){...}
+   }
 ```
+
+- 특정 서브클래스 한
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MzM4MTk5NSwtNzkzNDQ5NDYzLC0yMT
-AyMjQ0Njg5LC00MTQ4NTI4NDYsNDc4NTUzNDQ0LDkwNTAxMzI0
-NCwyMDE2OTAxOTExLDE3ODQ4MDAyMjYsLTkyMzAxOTMyNiw2NT
-cyNDkwOTksMjY4Nzk5NjAzXX0=
+eyJoaXN0b3J5IjpbLTIwMzI4MDcwODYsLTc5MzQ0OTQ2MywtMj
+EwMjI0NDY4OSwtNDE0ODUyODQ2LDQ3ODU1MzQ0NCw5MDUwMTMy
+NDQsMjAxNjkwMTkxMSwxNzg0ODAwMjI2LC05MjMwMTkzMjYsNj
+U3MjQ5MDk5LDI2ODc5OTYwM119
 -->
