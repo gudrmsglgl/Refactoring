@@ -241,11 +241,10 @@ fun createEmployee(name: String, type: String){
 - 반면 후자는 직우너에게 직원 유형 '속성'을 부여하고, 이 속성을 클래스로 정의해 엔지니어 속성과 관리자 속성 같은 서브클래스를 만드는 식.
  
  ### 📍 절차
-&emsp;⓵ 타입 코드 필드를 자가 캡슐화한<br>
-> 실질적으로 하는 일은 같지만 코드가 다르다면 본문 코드가 똑같이질 때까지 리팩터링.
-
-&emsp;⓶ 메서드 안에서 호출하는 다른 메서드와 참조하는 필드들을 슈퍼클래스에서도 호출하고 참조할 수 있는지 확인.<br>
-&emsp;⓷ 메서드 시그니처가 다르다면 함수 선언 바꾸기로 슈퍼클래스에서 사용하고 싶은 형태로 통일.<br>
+&emsp;⓵ 타입 코드 필드를 자가 캡슐화한다.<br>
+&emsp;⓶ 타입 코드 값 하나를 선택하여 그 값에 해당하는 서브클래스를 만든다. 타입 코드 게터 메서드를 오버라이드하여 해당 타입 코드의 리터럴 값을 반환하게 한다.<br>
+&emsp;⓷ 매개변수로 받은 타입 코드와 방금 만든 서브클래스를 매핑하는 선택 로직을 만든다.<br>
+> 직접 상속일 때는 생성자를 팩터리 함수로 바꾸기를 적용하고 선택 로직을 팩터리에 넣는다. 간접 상속일 때는 선택 로직ㅇ
 &emsp;⓸ 슈퍼클래스에 새로운 메서드를 생성하고, 대상 메서드의 코드를 복사해넣는다.<br>
 &emsp;⓹ 정적 검사를 수행한다.<br>
 &emsp;⓺ 서브클래스 중 하나의 메서드를 제거한다.<br>
@@ -254,7 +253,7 @@ fun createEmployee(name: String, type: String){
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNzE5NDIwMywtNDUyMDc4Mjk2LC03OT
+eyJoaXN0b3J5IjpbMTYxMzEzMzk3MiwtNDUyMDc4Mjk2LC03OT
 M0NDk0NjMsLTIxMDIyNDQ2ODksLTQxNDg1Mjg0Niw0Nzg1NTM0
 NDQsOTA1MDEzMjQ0LDIwMTY5MDE5MTEsMTc4NDgwMDIyNiwtOT
 IzMDE5MzI2LDY1NzI0OTA5OSwyNjg3OTk2MDNdfQ==
