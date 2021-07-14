@@ -4,7 +4,7 @@
 [필드 올리기](#id-section2)<br>
 [생성자 본문 올리기](#id-section3)<br>
 [메서드 내리기](#id-section4)<br>
-[메서드 내리기](#id-section4)<br>
+[필드 내리기](#id-section5)<br>
 
 
 
@@ -174,9 +174,36 @@
 - 특정 서브클래스 하나(혹은 소수)와만 관련된 메서드는 슈퍼클래스에서 제거하고 해당 서브클래스(들)에 추가하는 편이 깔끔.
 - 해당 기능을 제공하는 서브클래스가 정확히 무엇인지를 호출자가 알고 있을 때만 적용
 - 그렇지 못한 상황이라면 서브클래스에 따라 다르게 동작하는 슈퍼클래스의 기만적인 조건부 로직을 다형성으로 바꿔야 한다.
+
+
+<br>
+<div id='id-section5'/>
+
+## 12.5 필드 내리기 Push Down Field
+
+```kotlin
+   class Employee {
+      private val quota: String = ""
+   }
+
+   class Salesperson : Employee {...}
+
+   class Engineer : Employee {...}
+```
+**🔻 메서드 내리기**
+
+```kotlin
+   class Employee {...}
+
+   class Salesperson : Employee {...}
+
+   class Engineer : Employee {
+      fun quota(){...}
+   }
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDI1NTEzNjEsLTc5MzQ0OTQ2MywtMj
-EwMjI0NDY4OSwtNDE0ODUyODQ2LDQ3ODU1MzQ0NCw5MDUwMTMy
-NDQsMjAxNjkwMTkxMSwxNzg0ODAwMjI2LC05MjMwMTkzMjYsNj
-U3MjQ5MDk5LDI2ODc5OTYwM119
+eyJoaXN0b3J5IjpbMTQyMTQ3Nzc4OCwtNzkzNDQ5NDYzLC0yMT
+AyMjQ0Njg5LC00MTQ4NTI4NDYsNDc4NTUzNDQ0LDkwNTAxMzI0
+NCwyMDE2OTAxOTExLDE3ODQ4MDAyMjYsLTkyMzAxOTMyNiw2NT
+cyNDkwOTksMjY4Nzk5NjAzXX0=
 -->
