@@ -219,13 +219,21 @@ fun createEmployee(name: String, type: String){
 fun createEmployee(name: String, type: String){
    return when (type) {
       "engineer" -> Engineer(name)
-      "salesperson" -> 
+      "salesperson" -> Salesperson(name)
+      else -> Manager(name)
    }
 }
 ```
+
+### 🔍 타입 코드
+- 타입 코드는 프로그래밍 언어에 따라 열거형이나 심볼, 문자열, 숫자 등으로 표현
+- 외부 서비스가 제공하는 데이터를 다루려 할 때 딸려오는 일이 흔하다
+- 타입 코드 ㅇ
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NjYwMTIsLTc5MzQ0OTQ2MywtMjEwMj
-I0NDY4OSwtNDE0ODUyODQ2LDQ3ODU1MzQ0NCw5MDUwMTMyNDQs
-MjAxNjkwMTkxMSwxNzg0ODAwMjI2LC05MjMwMTkzMjYsNjU3Mj
-Q5MDk5LDI2ODc5OTYwM119
+eyJoaXN0b3J5IjpbLTM4OTgwMjYzNywtNzkzNDQ5NDYzLC0yMT
+AyMjQ0Njg5LC00MTQ4NTI4NDYsNDc4NTUzNDQ0LDkwNTAxMzI0
+NCwyMDE2OTAxOTExLDE3ODQ4MDAyMjYsLTkyMzAxOTMyNiw2NT
+cyNDkwOTksMjY4Nzk5NjAzXX0=
 -->
