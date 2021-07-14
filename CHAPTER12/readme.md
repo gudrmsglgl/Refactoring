@@ -228,12 +228,16 @@ fun createEmployee(name: String, type: String){
 ### 🔍 타입 코드
 - 타입 코드는 프로그래밍 언어에 따라 열거형이나 심볼, 문자열, 숫자 등으로 표현
 - 외부 서비스가 제공하는 데이터를 다루려 할 때 딸려오는 일이 흔하다
-- 타입 코드 ㅇ
+- 타입 코드 이상(-> 서브클래스) 의 무언가가 필요할 때
+- 서브 클래스 매력적인 점
+	- [x] 첫째, 조건에 따라 다르게 동작하도록 해주는 다형성 제공.<br>
+			동작이 달라져야 하는 함수가 여러 개일 때 특히 유용
+		
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4OTgwMjYzNywtNzkzNDQ5NDYzLC0yMT
-AyMjQ0Njg5LC00MTQ4NTI4NDYsNDc4NTUzNDQ0LDkwNTAxMzI0
-NCwyMDE2OTAxOTExLDE3ODQ4MDAyMjYsLTkyMzAxOTMyNiw2NT
-cyNDkwOTksMjY4Nzk5NjAzXX0=
+eyJoaXN0b3J5IjpbLTE4ODA1MDAxMDYsLTc5MzQ0OTQ2MywtMj
+EwMjI0NDY4OSwtNDE0ODUyODQ2LDQ3ODU1MzQ0NCw5MDUwMTMy
+NDQsMjAxNjkwMTkxMSwxNzg0ODAwMjI2LC05MjMwMTkzMjYsNj
+U3MjQ5MDk5LDI2ODc5OTYwM119
 -->
