@@ -3,6 +3,7 @@
 [메서드 올리기](#id-section1)<br>
 [필드 올리기](#id-section2)<br>
 [생성자 본문 올리기](#id-section3)<br>
+[메서드 내리기](#id-section4)<br>
 
 
 
@@ -143,10 +144,13 @@
 
 ```
 
+<br>
+<div id='id-section4'/>
 
+## 12.4 메서드 래
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MzQ0OTQ2MywtMjEwMjI0NDY4OSwtND
-E0ODUyODQ2LDQ3ODU1MzQ0NCw5MDUwMTMyNDQsMjAxNjkwMTkx
-MSwxNzg0ODAwMjI2LC05MjMwMTkzMjYsNjU3MjQ5MDk5LDI2OD
-c5OTYwM119
+eyJoaXN0b3J5IjpbLTE3MzE1NTAxMzYsLTc5MzQ0OTQ2MywtMj
+EwMjI0NDY4OSwtNDE0ODUyODQ2LDQ3ODU1MzQ0NCw5MDUwMTMy
+NDQsMjAxNjkwMTkxMSwxNzg0ODAwMjI2LC05MjMwMTkzMjYsNj
+U3MjQ5MDk5LDI2ODc5OTYwM119
 -->
