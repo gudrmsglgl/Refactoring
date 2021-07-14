@@ -4,6 +4,7 @@
 [필드 올리기](#id-section2)<br>
 [생성자 본문 올리기](#id-section3)<br>
 [메서드 내리기](#id-section4)<br>
+[메서드 내리기](#id-section4)<br>
 
 
 
@@ -170,9 +171,11 @@
    }
 ```
 
-- 특정 서브클래스 한
+- 특정 서브클래스 하나(혹은 소수)와만 관련된 메서드는 슈퍼클래스에서 제거하고 해당 서브클래스(들)에 추가하는 편이 깔끔.
+- 해당 기능을 제공하는 서브클래스가 정확히 무엇인지를 호출자가 알고 있을 때만 적용
+- 그렇지 못한 상황이라면 서브클래스에 따라 다르게 동작하는 슈퍼클래스의 기만적인 조건부 로직을 다형성으로 바꿔야 한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzI4MDcwODYsLTc5MzQ0OTQ2MywtMj
+eyJoaXN0b3J5IjpbLTE5MDI1NTEzNjEsLTc5MzQ0OTQ2MywtMj
 EwMjI0NDY4OSwtNDE0ODUyODQ2LDQ3ODU1MzQ0NCw5MDUwMTMy
 NDQsMjAxNjkwMTkxMSwxNzg0ODAwMjI2LC05MjMwMTkzMjYsNj
 U3MjQ5MDk5LDI2ODc5OTYwM119
