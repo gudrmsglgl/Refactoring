@@ -231,13 +231,15 @@ fun createEmployee(name: String, type: String){
 - 타입 코드 이상(-> 서브클래스) 의 무언가가 필요할 때
 - 서브 클래스 매력적인 점
 	- [x] 첫째, 조건에 따라 다르게 동작하도록 해주는 다형성 제공.<br>
-			동작이 달라져야 하는 함수가 여러 개일 때 특히 유용
+			동작이 달라져야 하는 함수가 여러 개일 때 특히 유용<br>
+			서브클래스를 이용하면 이런 함수들에 조건부 로직을 다형성으로 바꾸기를 적용할 수 있다.
+	- [x] ad
 		
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODA1MDAxMDYsLTc5MzQ0OTQ2MywtMj
-EwMjI0NDY4OSwtNDE0ODUyODQ2LDQ3ODU1MzQ0NCw5MDUwMTMy
-NDQsMjAxNjkwMTkxMSwxNzg0ODAwMjI2LC05MjMwMTkzMjYsNj
-U3MjQ5MDk5LDI2ODc5OTYwM119
+eyJoaXN0b3J5IjpbNzM1NTEzMDgwLC03OTM0NDk0NjMsLTIxMD
+IyNDQ2ODksLTQxNDg1Mjg0Niw0Nzg1NTM0NDQsOTA1MDEzMjQ0
+LDIwMTY5MDE5MTEsMTc4NDgwMDIyNiwtOTIzMDE5MzI2LDY1Nz
+I0OTA5OSwyNjg3OTk2MDNdfQ==
 -->
