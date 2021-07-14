@@ -5,7 +5,7 @@
 [생성자 본문 올리기](#id-section3)<br>
 [메서드 내리기](#id-section4)<br>
 [필드 내리기](#id-section5)<br>
-
+[타입 코드를 서브클래스로 바꾸기](#id-section6)<br>
 
 
 - 상속은 객체 지향 프로그래밍에서 가장 유명한 특성
@@ -190,7 +190,7 @@
 
    class Engineer : Employee {...}
 ```
-**🔻 메서드 내리기**
+**🔻 필드 내리기**
 
 ```kotlin
    class Employee {...}
@@ -198,12 +198,18 @@
    class Salesperson : Employee {...}
 
    class Engineer : Employee {
-      fun quota(){...}
+      protected val quota: String = ""
    }
 ```
+
+
+<br>
+<div id='id-section6'/>
+
+## 12.6 타입 코드를 서브클래스로 바꾸기 Replace Type Code with Subclass
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMTQ3Nzc4OCwtNzkzNDQ5NDYzLC0yMT
-AyMjQ0Njg5LC00MTQ4NTI4NDYsNDc4NTUzNDQ0LDkwNTAxMzI0
-NCwyMDE2OTAxOTExLDE3ODQ4MDAyMjYsLTkyMzAxOTMyNiw2NT
-cyNDkwOTksMjY4Nzk5NjAzXX0=
+eyJoaXN0b3J5IjpbLTE0MjI5NDIxNTcsLTc5MzQ0OTQ2MywtMj
+EwMjI0NDY4OSwtNDE0ODUyODQ2LDQ3ODU1MzQ0NCw5MDUwMTMy
+NDQsMjAxNjkwMTkxMSwxNzg0ODAwMjI2LC05MjMwMTkzMjYsNj
+U3MjQ5MDk5LDI2ODc5OTYwM119
 -->
