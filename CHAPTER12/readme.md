@@ -237,14 +237,15 @@ fun createEmployee(name: String, type: String){
 		- 예를 들어 '판매 목표'는 '영업자' 유형일 때만 의미가 있다. 이런 상황이라면 서브 클래스를 만들고 필요한 서브클래스만 필드를 갖도록 정리 (필드 내리기)
 
 - 대상 클래스에 직접 적용할지 , 타입 코드 자체에 적용할지 고민
--  
+- 전자 방식이라면 직원의 하위 타입인 엔지니어를 만들 것.
+- 반면 후자는 직우너에 
 	
 		
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MjA3ODI5NiwtNzkzNDQ5NDYzLC0yMT
-AyMjQ0Njg5LC00MTQ4NTI4NDYsNDc4NTUzNDQ0LDkwNTAxMzI0
-NCwyMDE2OTAxOTExLDE3ODQ4MDAyMjYsLTkyMzAxOTMyNiw2NT
-cyNDkwOTksMjY4Nzk5NjAzXX0=
+eyJoaXN0b3J5IjpbLTEyMDE4NDEyNjcsLTQ1MjA3ODI5NiwtNz
+kzNDQ5NDYzLC0yMTAyMjQ0Njg5LC00MTQ4NTI4NDYsNDc4NTUz
+NDQ0LDkwNTAxMzI0NCwyMDE2OTAxOTExLDE3ODQ4MDAyMjYsLT
+kyMzAxOTMyNiw2NTcyNDkwOTksMjY4Nzk5NjAzXX0=
 -->
