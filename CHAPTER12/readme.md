@@ -340,15 +340,34 @@ fun createEmployee(name: String, type: String){
 	     "engineer" -> Engineer(name, type)
 	     "salesperson" -> SalesPerson(name, type)
 	     "manager" -> Manager(name, type)
-	     else -> Error(
+	     else -> Error("$type라는 직업 유형은 없습니다.")
+      }
+   }
+```
+
+- 생성자 건네는 타입 제거
+```kotlin
+    // Empolyee
+    constructor(name: String) {
+      this.validateType(type)
+      this._name = name
+   }
+   
+   fun createEmployee(name: String, type: String) {
+      when (type) {
+	     "engineer" -> Engineer(name)
+	     "salesperson" -> SalesPerson(name)
+	     "manager" -> Manager(name)
+	     else -> Error("$type라는 직업 유형은 없습니다.")
       }
    }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIzNDQ4Mjc1LDE2MDQ0NDYyNDAsMjU2ND
-AxODEyLC0xOTAxOTg1NDQ5LC02NTc5MTM5NTIsLTQ1MjA3ODI5
-NiwtNzkzNDQ5NDYzLC0yMTAyMjQ0Njg5LC00MTQ4NTI4NDYsND
-c4NTUzNDQ0LDkwNTAxMzI0NCwyMDE2OTAxOTExLDE3ODQ4MDAy
-MjYsLTkyMzAxOTMyNiw2NTcyNDkwOTksMjY4Nzk5NjAzXX0=
+eyJoaXN0b3J5IjpbLTEwNDQ5NTE0NjEsMTYwNDQ0NjI0MCwyNT
+Y0MDE4MTIsLTE5MDE5ODU0NDksLTY1NzkxMzk1MiwtNDUyMDc4
+Mjk2LC03OTM0NDk0NjMsLTIxMDIyNDQ2ODksLTQxNDg1Mjg0Ni
+w0Nzg1NTM0NDQsOTA1MDEzMjQ0LDIwMTY5MDE5MTEsMTc4NDgw
+MDIyNiwtOTIzMDE5MzI2LDY1NzI0OTA5OSwyNjg3OTk2MDNdfQ
+==
 -->
