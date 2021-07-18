@@ -282,13 +282,16 @@ fun createEmployee(name: String, type: String){
 
 &emsp;⓶ 타입 코드 중 하나, 여기서는 엔지니어engineer를 선택. 이번에는 직접 상속 방식으로 구현. 즉, 직원 클래스 자체를 서브클래싱한다. 타입 코드 게터를 오버라이드하여 적절한 리터럴 값을 반환하기만 하면 되므로 아주 간단하게 처리할 수 있다.<br>
 ```kotlin 
-   class En
+   class Engineer : Employee {
+      override val type
+         get() = "engineer"
+   }
 ```
-
+&emsp;⓷ 생성자를 팩터리 함수로 바꿔서 선택 로직을 담을 별<br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjI4NjcxODIsLTE5MDE5ODU0NDksLT
-Y1NzkxMzk1MiwtNDUyMDc4Mjk2LC03OTM0NDk0NjMsLTIxMDIy
-NDQ2ODksLTQxNDg1Mjg0Niw0Nzg1NTM0NDQsOTA1MDEzMjQ0LD
-IwMTY5MDE5MTEsMTc4NDgwMDIyNiwtOTIzMDE5MzI2LDY1NzI0
-OTA5OSwyNjg3OTk2MDNdfQ==
+eyJoaXN0b3J5IjpbNjExOTQ2MDg0LC0xOTAxOTg1NDQ5LC02NT
+c5MTM5NTIsLTQ1MjA3ODI5NiwtNzkzNDQ5NDYzLC0yMTAyMjQ0
+Njg5LC00MTQ4NTI4NDYsNDc4NTUzNDQ0LDkwNTAxMzI0NCwyMD
+E2OTAxOTExLDE3ODQ4MDAyMjYsLTkyMzAxOTMyNiw2NTcyNDkw
+OTksMjY4Nzk5NjAzXX0=
 -->
