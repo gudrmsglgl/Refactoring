@@ -287,11 +287,19 @@ fun createEmployee(name: String, type: String){
          get() = "engineer"
    }
 ```
-&emsp;⓷ 생성자를 팩터리 함수로 바꿔서 선택 로직을 담을 별<br>
+&emsp;⓷ 생성자를 팩터리 함수로 바꿔서 선택 로직을 담을 별도 장소를 마련한다.<br>
+
+```kotlin 
+   fun createEmployee(name: String, type: String) {
+      return Employee(name, type)
+   }
+```
+
+- 새로 만든 서브클래스
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjExOTQ2MDg0LC0xOTAxOTg1NDQ5LC02NT
-c5MTM5NTIsLTQ1MjA3ODI5NiwtNzkzNDQ5NDYzLC0yMTAyMjQ0
-Njg5LC00MTQ4NTI4NDYsNDc4NTUzNDQ0LDkwNTAxMzI0NCwyMD
-E2OTAxOTExLDE3ODQ4MDAyMjYsLTkyMzAxOTMyNiw2NTcyNDkw
-OTksMjY4Nzk5NjAzXX0=
+eyJoaXN0b3J5IjpbLTEwMjY1MTQwMDYsLTE5MDE5ODU0NDksLT
+Y1NzkxMzk1MiwtNDUyMDc4Mjk2LC03OTM0NDk0NjMsLTIxMDIy
+NDQ2ODksLTQxNDg1Mjg0Niw0Nzg1NTM0NDQsOTA1MDEzMjQ0LD
+IwMTY5MDE5MTEsMTc4NDgwMDIyNiwtOTIzMDE5MzI2LDY1NzI0
+OTA5OSwyNjg3OTk2MDNdfQ==
 -->
