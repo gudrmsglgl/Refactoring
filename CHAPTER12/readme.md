@@ -265,13 +265,18 @@ fun createEmployee(name: String, type: String){
 
    fun validateType(arg) {
       if (!["engineer","manager", "salesperson"].includes(arg))
-         throw Error()
+         throw Error("$arg라는 직원 유형은 없습니다.")
    }
+   override fun toString() = "${this._name} (${this._type})"
 ```
+
+⓵ 타입 코드 필드를 자가 캡슐화한다.<br>
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MjIzODExMCwtNjU3OTEzOTUyLC00NT
-IwNzgyOTYsLTc5MzQ0OTQ2MywtMjEwMjI0NDY4OSwtNDE0ODUy
-ODQ2LDQ3ODU1MzQ0NCw5MDUwMTMyNDQsMjAxNjkwMTkxMSwxNz
-g0ODAwMjI2LC05MjMwMTkzMjYsNjU3MjQ5MDk5LDI2ODc5OTYw
-M119
+eyJoaXN0b3J5IjpbLTE4NTc4ODkxNzEsLTY1NzkxMzk1MiwtND
+UyMDc4Mjk2LC03OTM0NDk0NjMsLTIxMDIyNDQ2ODksLTQxNDg1
+Mjg0Niw0Nzg1NTM0NDQsOTA1MDEzMjQ0LDIwMTY5MDE5MTEsMT
+c4NDgwMDIyNiwtOTIzMDE5MzI2LDY1NzI0OTA5OSwyNjg3OTk2
+MDNdfQ==
 -->
