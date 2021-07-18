@@ -332,14 +332,23 @@ fun createEmployee(name: String, type: String){
       this._name = name
       // this._type = type
    }
-   val type
-       get() = this._type
+   /* val type
+       get() = this._type */
+   
+   fun createEmployee(name: String, type: String) {
+      when (type) {
+	     "engineer" -> Engineer(name, type)
+	     "salesperson" -> SalesPerson(name, type)
+	     "manager" -> Manager(name, type)
+	     else -> Error(
+      }
+   }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNDQ0NjI0MCwyNTY0MDE4MTIsLTE5MD
-E5ODU0NDksLTY1NzkxMzk1MiwtNDUyMDc4Mjk2LC03OTM0NDk0
-NjMsLTIxMDIyNDQ2ODksLTQxNDg1Mjg0Niw0Nzg1NTM0NDQsOT
-A1MDEzMjQ0LDIwMTY5MDE5MTEsMTc4NDgwMDIyNiwtOTIzMDE5
-MzI2LDY1NzI0OTA5OSwyNjg3OTk2MDNdfQ==
+eyJoaXN0b3J5IjpbNjIzNDQ4Mjc1LDE2MDQ0NDYyNDAsMjU2ND
+AxODEyLC0xOTAxOTg1NDQ5LC02NTc5MTM5NTIsLTQ1MjA3ODI5
+NiwtNzkzNDQ5NDYzLC0yMTAyMjQ0Njg5LC00MTQ4NTI4NDYsND
+c4NTUzNDQ0LDkwNTAxMzI0NCwyMDE2OTAxOTExLDE3ODQ4MDAy
+MjYsLTkyMzAxOTMyNiw2NTcyNDkwOTksMjY4Nzk5NjAzXX0=
 -->
