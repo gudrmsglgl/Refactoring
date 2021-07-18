@@ -306,16 +306,18 @@ fun createEmployee(name: String, type: String){
 ```
 
 ```kotlin 
-   fun createEmployee(name, type) {
-      when (type) {
-	     "engineer" -> Engineer(name, type)
-	     else -> Employee(name, type)
-      }
+   class Salesperson : Employee {
+      override val type
+         get() = "salesperson"
+   }
+   class Manager : Employee {
+      override val type
+         get() = "manager"
    }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NzIwNDQ1NCwyNTY0MDE4MTIsLTE5MD
+eyJoaXN0b3J5IjpbLTY3NjI0MzgzNywyNTY0MDE4MTIsLTE5MD
 E5ODU0NDksLTY1NzkxMzk1MiwtNDUyMDc4Mjk2LC03OTM0NDk0
 NjMsLTIxMDIyNDQ2ODksLTQxNDg1Mjg0Niw0Nzg1NTM0NDQsOT
 A1MDEzMjQ0LDIwMTY5MDE5MTEsMTc4NDgwMDIyNiwtOTIzMDE5
