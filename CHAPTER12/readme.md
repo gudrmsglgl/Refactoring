@@ -295,11 +295,20 @@ fun createEmployee(name: String, type: String){
    }
 ```
 
-- 새로 만든 서브클래스
+- 새로 만든 서브클래스를 사용하기 위한 선택 로직을 팩터리에 추가한다.
+```kotlin 
+   fun createEmployee(name, type) {
+      when (type) {
+	     "engineer" -> Engineer(name, type)
+	     else -> Employee(name, type)
+      }
+   }
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjY1MTQwMDYsLTE5MDE5ODU0NDksLT
-Y1NzkxMzk1MiwtNDUyMDc4Mjk2LC03OTM0NDk0NjMsLTIxMDIy
-NDQ2ODksLTQxNDg1Mjg0Niw0Nzg1NTM0NDQsOTA1MDEzMjQ0LD
-IwMTY5MDE5MTEsMTc4NDgwMDIyNiwtOTIzMDE5MzI2LDY1NzI0
-OTA5OSwyNjg3OTk2MDNdfQ==
+eyJoaXN0b3J5IjpbMjU2NDAxODEyLC0xOTAxOTg1NDQ5LC02NT
+c5MTM5NTIsLTQ1MjA3ODI5NiwtNzkzNDQ5NDYzLC0yMTAyMjQ0
+Njg5LC00MTQ4NTI4NDYsNDc4NTUzNDQ0LDkwNTAxMzI0NCwyMD
+E2OTAxOTExLDE3ODQ4MDAyMjYsLTkyMzAxOTMyNiw2NTcyNDkw
+OTksMjY4Nzk5NjAzXX0=
 -->
