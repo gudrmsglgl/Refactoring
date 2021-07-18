@@ -257,12 +257,21 @@ fun createEmployee(name: String, type: String){
 ### 예시: 직접 상속할 때
 ```kotlin 
    // Employee 클래스
-   constructor
+   constructor(name: String, type: String) {
+      this.validateType(type)
+      this._name = name
+      this._type = type
+   }
+
+   fun validateType(arg) {
+      if (!["engineer","manager", "salesperson"].includes(arg))
+         throw Error()
+   }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzgwNDc3ODAsLTY1NzkxMzk1MiwtND
-UyMDc4Mjk2LC03OTM0NDk0NjMsLTIxMDIyNDQ2ODksLTQxNDg1
-Mjg0Niw0Nzg1NTM0NDQsOTA1MDEzMjQ0LDIwMTY5MDE5MTEsMT
-c4NDgwMDIyNiwtOTIzMDE5MzI2LDY1NzI0OTA5OSwyNjg3OTk2
-MDNdfQ==
+eyJoaXN0b3J5IjpbMTc3MjIzODExMCwtNjU3OTEzOTUyLC00NT
+IwNzgyOTYsLTc5MzQ0OTQ2MywtMjEwMjI0NDY4OSwtNDE0ODUy
+ODQ2LDQ3ODU1MzQ0NCw5MDUwMTMyNDQsMjAxNjkwMTkxMSwxNz
+g0ODAwMjI2LC05MjMwMTkzMjYsNjU3MjQ5MDk5LDI2ODc5OTYw
+M119
 -->
