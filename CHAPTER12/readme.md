@@ -254,9 +254,15 @@ fun createEmployee(name: String, type: String){
 &emsp;⓼ 타입 코드 접근자를 이용하는 메서드 모두에 메서드 내리기와 조건부 로직을 다형성으로 바꾸기를 적용한다.<br>
 
 
+### 예시: 직접 상속할 때
+```kotlin 
+   // Employee 클래스
+   constructor
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NzkxMzk1MiwtNDUyMDc4Mjk2LC03OT
-M0NDk0NjMsLTIxMDIyNDQ2ODksLTQxNDg1Mjg0Niw0Nzg1NTM0
-NDQsOTA1MDEzMjQ0LDIwMTY5MDE5MTEsMTc4NDgwMDIyNiwtOT
-IzMDE5MzI2LDY1NzI0OTA5OSwyNjg3OTk2MDNdfQ==
+eyJoaXN0b3J5IjpbLTE2MzgwNDc3ODAsLTY1NzkxMzk1MiwtND
+UyMDc4Mjk2LC03OTM0NDk0NjMsLTIxMDIyNDQ2ODksLTQxNDg1
+Mjg0Niw0Nzg1NTM0NDQsOTA1MDEzMjQ0LDIwMTY5MDE5MTEsMT
+c4NDgwMDIyNiwtOTIzMDE5MzI2LDY1NzI0OTA5OSwyNjg3OTk2
+MDNdfQ==
 -->
