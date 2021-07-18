@@ -279,10 +279,16 @@ fun createEmployee(name: String, type: String){
       
    override fun toString() = "${this._name} (${this.type})"
 ```
+
+&emsp;⓶ 타입 코드 중 하나, 여기서는 엔지니어engineer를 선택. 이번에는 직접 상속 방식으로 구현. 즉, 직원 클래스 자체를 서브클래싱한다. 타입 코드 게터를 오버라이드하여 적절한 리터럴 값을 반환하기만 하면 되므로 아주 간단하게 처리할 수 있다.<br>
+```kotlin 
+   class En
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDE5ODU0NDksLTY1NzkxMzk1MiwtND
-UyMDc4Mjk2LC03OTM0NDk0NjMsLTIxMDIyNDQ2ODksLTQxNDg1
-Mjg0Niw0Nzg1NTM0NDQsOTA1MDEzMjQ0LDIwMTY5MDE5MTEsMT
-c4NDgwMDIyNiwtOTIzMDE5MzI2LDY1NzI0OTA5OSwyNjg3OTk2
-MDNdfQ==
+eyJoaXN0b3J5IjpbLTE5MjI4NjcxODIsLTE5MDE5ODU0NDksLT
+Y1NzkxMzk1MiwtNDUyMDc4Mjk2LC03OTM0NDk0NjMsLTIxMDIy
+NDQ2ODksLTQxNDg1Mjg0Niw0Nzg1NTM0NDQsOTA1MDEzMjQ0LD
+IwMTY5MDE5MTEsMTc4NDgwMDIyNiwtOTIzMDE5MzI2LDY1NzI0
+OTA5OSwyNjg3OTk2MDNdfQ==
 -->
