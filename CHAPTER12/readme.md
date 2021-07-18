@@ -314,10 +314,18 @@ fun createEmployee(name: String, type: String){
       override val type
          get() = "manager"
    }
+   fun createEmployee(name: String, type: String) {
+      when (type) {
+	     "engineer" -> Engineer(name, type)
+	     "salesperson" -> SalesPerson(name, type)
+	     "manager" -> Manager(name, type)
+	     else -> Employee(name, type)
+      }
+   }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NjI0MzgzNywyNTY0MDE4MTIsLTE5MD
+eyJoaXN0b3J5IjpbLTU2NjA1MjczMCwyNTY0MDE4MTIsLTE5MD
 E5ODU0NDksLTY1NzkxMzk1MiwtNDUyMDc4Mjk2LC03OTM0NDk0
 NjMsLTIxMDIyNDQ2ODksLTQxNDg1Mjg0Niw0Nzg1NTM0NDQsOT
 A1MDEzMjQ0LDIwMTY5MDE5MTEsMTc4NDgwMDIyNiwtOTIzMDE5
