@@ -325,9 +325,16 @@ fun createEmployee(name: String, type: String){
 ```
 
 ⓺ 모든 유형에 적용했다면 타입 코드 필드와 슈퍼클래스의 게터(서브클래스들에서 재정의한 메서드) 제거한다. <br>
+```kotlin
+    constructor(name: String, type: String) {
+      this.validateType(type)
+      this._name = name
+      // this._type = type
+   }
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE4ODc2MTk4LDI1NjQwMTgxMiwtMTkwMT
+eyJoaXN0b3J5IjpbODU1MjUwNTQwLDI1NjQwMTgxMiwtMTkwMT
 k4NTQ0OSwtNjU3OTEzOTUyLC00NTIwNzgyOTYsLTc5MzQ0OTQ2
 MywtMjEwMjI0NDY4OSwtNDE0ODUyODQ2LDQ3ODU1MzQ0NCw5MD
 UwMTMyNDQsMjAxNjkwMTkxMSwxNzg0ODAwMjI2LC05MjMwMTkz
