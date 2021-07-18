@@ -272,9 +272,15 @@ fun createEmployee(name: String, type: String){
 
 ⓵ 타입 코드 필드를 자가 캡슐화한다.<br>
 
-
+```kotlin 
+   // Employee 클래스
+   val type: String
+      get() = _type
+      
+   override fun toString() = "${this._name} (${this.type})"
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTc4ODkxNzEsLTY1NzkxMzk1MiwtND
+eyJoaXN0b3J5IjpbLTE5MDE5ODU0NDksLTY1NzkxMzk1MiwtND
 UyMDc4Mjk2LC03OTM0NDk0NjMsLTIxMDIyNDQ2ODksLTQxNDg1
 Mjg0Niw0Nzg1NTM0NDQsOTA1MDEzMjQ0LDIwMTY5MDE5MTEsMT
 c4NDgwMDIyNiwtOTIzMDE5MzI2LDY1NzI0OTA5OSwyNjg3OTk2
