@@ -406,8 +406,10 @@ fun createEmployee(name: String, type: String){
       set(value) = value
 
    val typeString
+      get() = this._type.toString()
+      
 	val capitalizedType
-	   get() = this._type.charAt(0).toUpperCase() + this._type.substr(1).toLowerCase()
+	   get() = this.typeString.charAt(0).toUpperCase() + this.typeString.substr(1).toLowerCase()
 
     constructor(name: String, type: String) {
       this.validateType(type)
@@ -423,11 +425,11 @@ fun createEmployee(name: String, type: String){
    override fun toString() = "${this._name} (${this.capitalizedType})"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDUyODc1NDUsLTE3Njk1NTcwNzcsMT
-YyMTIyNDk3NiwtMTA0OTM2MzQ4NiwtMTA0NDk1MTQ2MSwxNjA0
-NDQ2MjQwLDI1NjQwMTgxMiwtMTkwMTk4NTQ0OSwtNjU3OTEzOT
-UyLC00NTIwNzgyOTYsLTc5MzQ0OTQ2MywtMjEwMjI0NDY4OSwt
-NDE0ODUyODQ2LDQ3ODU1MzQ0NCw5MDUwMTMyNDQsMjAxNjkwMT
-kxMSwxNzg0ODAwMjI2LC05MjMwMTkzMjYsNjU3MjQ5MDk5LDI2
-ODc5OTYwM119
+eyJoaXN0b3J5IjpbNzE1NTcwNTE3LC0xNzY5NTU3MDc3LDE2Mj
+EyMjQ5NzYsLTEwNDkzNjM0ODYsLTEwNDQ5NTE0NjEsMTYwNDQ0
+NjI0MCwyNTY0MDE4MTIsLTE5MDE5ODU0NDksLTY1NzkxMzk1Mi
+wtNDUyMDc4Mjk2LC03OTM0NDk0NjMsLTIxMDIyNDQ2ODksLTQx
+NDg1Mjg0Niw0Nzg1NTM0NDQsOTA1MDEzMjQ0LDIwMTY5MDE5MT
+EsMTc4NDgwMDIyNiwtOTIzMDE5MzI2LDY1NzI0OTA5OSwyNjg3
+OTk2MDNdfQ==
 -->
