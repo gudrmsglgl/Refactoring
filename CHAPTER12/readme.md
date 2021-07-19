@@ -370,7 +370,7 @@ fun createEmployee(name: String, type: String){
     // Empolyee
     val type
        get() = _type
-       
+    val 
 
     constructor(name: String, type: String) {
       this.validateType(type)
@@ -393,10 +393,10 @@ fun createEmployee(name: String, type: String){
    }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNjAwNjMsLTEwNDkzNjM0ODYsLTEwND
-Q5NTE0NjEsMTYwNDQ0NjI0MCwyNTY0MDE4MTIsLTE5MDE5ODU0
-NDksLTY1NzkxMzk1MiwtNDUyMDc4Mjk2LC03OTM0NDk0NjMsLT
-IxMDIyNDQ2ODksLTQxNDg1Mjg0Niw0Nzg1NTM0NDQsOTA1MDEz
-MjQ0LDIwMTY5MDE5MTEsMTc4NDgwMDIyNiwtOTIzMDE5MzI2LD
-Y1NzI0OTA5OSwyNjg3OTk2MDNdfQ==
+eyJoaXN0b3J5IjpbMTYyMTIyNDk3NiwtMTA0OTM2MzQ4NiwtMT
+A0NDk1MTQ2MSwxNjA0NDQ2MjQwLDI1NjQwMTgxMiwtMTkwMTk4
+NTQ0OSwtNjU3OTEzOTUyLC00NTIwNzgyOTYsLTc5MzQ0OTQ2My
+wtMjEwMjI0NDY4OSwtNDE0ODUyODQ2LDQ3ODU1MzQ0NCw5MDUw
+MTMyNDQsMjAxNjkwMTkxMSwxNzg0ODAwMjI2LC05MjMwMTkzMj
+YsNjU3MjQ5MDk5LDI2ODc5OTYwM119
 -->
