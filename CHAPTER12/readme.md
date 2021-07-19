@@ -364,13 +364,29 @@ fun createEmployee(name: String, type: String){
 ```
 
 ### 예시: 간접 상속할 때
-- 직원의 서브클래스
+- 직원의 서브클래스로 '아르바이트'와 '정직원'이라는 클래스가 이미 있어서 Employee를 직접 상속하는 방식으로 타입 코드 문제에 대처할 수 없다고 해보자. 직원 유형을 변경하는 기능을 유지하고 싶다는 점도 직접 상속을 사용하지 않는 이유.
 
+```kotlin
+    // Empolyee
+    constructor(name: String) {
+      this.validateType(type)
+      this._name = name
+   }
+   
+   fun createEmployee(name: String, type: String) {
+      when (type) {
+	     "engineer" -> Engineer(name)
+	     "salesperson" -> SalesPerson(name)
+	     "manager" -> Manager(name)
+	     else -> Error("$type라는 직업 유형은 없습니다.")
+      }
+   }
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc4MTQyNjk3LC0xMDQ0OTUxNDYxLDE2MD
-Q0NDYyNDAsMjU2NDAxODEyLC0xOTAxOTg1NDQ5LC02NTc5MTM5
-NTIsLTQ1MjA3ODI5NiwtNzkzNDQ5NDYzLC0yMTAyMjQ0Njg5LC
-00MTQ4NTI4NDYsNDc4NTUzNDQ0LDkwNTAxMzI0NCwyMDE2OTAx
-OTExLDE3ODQ4MDAyMjYsLTkyMzAxOTMyNiw2NTcyNDkwOTksMj
-Y4Nzk5NjAzXX0=
+eyJoaXN0b3J5IjpbLTEwNDkzNjM0ODYsLTEwNDQ5NTE0NjEsMT
+YwNDQ0NjI0MCwyNTY0MDE4MTIsLTE5MDE5ODU0NDksLTY1Nzkx
+Mzk1MiwtNDUyMDc4Mjk2LC03OTM0NDk0NjMsLTIxMDIyNDQ2OD
+ksLTQxNDg1Mjg0Niw0Nzg1NTM0NDQsOTA1MDEzMjQ0LDIwMTY5
+MDE5MTEsMTc4NDgwMDIyNiwtOTIzMDE5MzI2LDY1NzI0OTA5OS
+wyNjg3OTk2MDNdfQ==
 -->
