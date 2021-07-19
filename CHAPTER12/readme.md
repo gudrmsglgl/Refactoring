@@ -368,7 +368,7 @@ fun createEmployee(name: String, type: String){
 
 ```kotlin
     // Empolyee
-    constructor(name: String) {
+    constructor(name: String, 쇼) {
       this.validateType(type)
       this._name = name
    }
@@ -383,10 +383,10 @@ fun createEmployee(name: String, type: String){
    }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDkzNjM0ODYsLTEwNDQ5NTE0NjEsMT
-YwNDQ0NjI0MCwyNTY0MDE4MTIsLTE5MDE5ODU0NDksLTY1Nzkx
-Mzk1MiwtNDUyMDc4Mjk2LC03OTM0NDk0NjMsLTIxMDIyNDQ2OD
-ksLTQxNDg1Mjg0Niw0Nzg1NTM0NDQsOTA1MDEzMjQ0LDIwMTY5
-MDE5MTEsMTc4NDgwMDIyNiwtOTIzMDE5MzI2LDY1NzI0OTA5OS
-wyNjg3OTk2MDNdfQ==
+eyJoaXN0b3J5IjpbMTAwMTkyNjM4MiwtMTA0OTM2MzQ4NiwtMT
+A0NDk1MTQ2MSwxNjA0NDQ2MjQwLDI1NjQwMTgxMiwtMTkwMTk4
+NTQ0OSwtNjU3OTEzOTUyLC00NTIwNzgyOTYsLTc5MzQ0OTQ2My
+wtMjEwMjI0NDY4OSwtNDE0ODUyODQ2LDQ3ODU1MzQ0NCw5MDUw
+MTMyNDQsMjAxNjkwMTkxMSwxNzg0ODAwMjI2LC05MjMwMTkzMj
+YsNjU3MjQ5MDk5LDI2ODc5OTYwM119
 -->
