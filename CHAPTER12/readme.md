@@ -395,9 +395,11 @@ fun createEmployee(name: String, type: String){
     
    class EmployeeType {
       constructor(str: String){
-         this_
+         this._value = str
       }
+      override fun toString() = this._value
    }
+   
     val type
        get() = _type
        set(value) = value
@@ -419,11 +421,11 @@ fun createEmployee(name: String, type: String){
    override fun toString() = "${this._name} (${this.capitalizedType})"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MDM1MDc2NywtMTc2OTU1NzA3NywxNj
-IxMjI0OTc2LC0xMDQ5MzYzNDg2LC0xMDQ0OTUxNDYxLDE2MDQ0
-NDYyNDAsMjU2NDAxODEyLC0xOTAxOTg1NDQ5LC02NTc5MTM5NT
-IsLTQ1MjA3ODI5NiwtNzkzNDQ5NDYzLC0yMTAyMjQ0Njg5LC00
-MTQ4NTI4NDYsNDc4NTUzNDQ0LDkwNTAxMzI0NCwyMDE2OTAxOT
-ExLDE3ODQ4MDAyMjYsLTkyMzAxOTMyNiw2NTcyNDkwOTksMjY4
-Nzk5NjAzXX0=
+eyJoaXN0b3J5IjpbLTEyNzAxNTg2NTksLTE3Njk1NTcwNzcsMT
+YyMTIyNDk3NiwtMTA0OTM2MzQ4NiwtMTA0NDk1MTQ2MSwxNjA0
+NDQ2MjQwLDI1NjQwMTgxMiwtMTkwMTk4NTQ0OSwtNjU3OTEzOT
+UyLC00NTIwNzgyOTYsLTc5MzQ0OTQ2MywtMjEwMjI0NDY4OSwt
+NDE0ODUyODQ2LDQ3ODU1MzQ0NCw5MDUwMTMyNDQsMjAxNjkwMT
+kxMSwxNzg0ODAwMjI2LC05MjMwMTkzMjYsNjU3MjQ5MDk5LDI2
+ODc5OTYwM119
 -->
