@@ -373,7 +373,7 @@ fun createEmployee(name: String, type: String){
        set(value) = value
 
 	val capitalizedType
-	   get() = this._type.charAt(0).toUpperCa
+	   get() = this._type.charAt(0).toUpperCase() + this._type.substr(1).toLowerCase()
 
     constructor(name: String, type: String) {
       this.validateType(type)
@@ -386,17 +386,10 @@ fun createEmployee(name: String, type: String){
          throw Error("$arg라는 직원 유형은 없습니다.")
    }
    
-   fun createEmployee(name: String, type: String) {
-      when (type) {
-	     "engineer" -> Engineer(name)
-	     "salesperson" -> SalesPerson(name)
-	     "manager" -> Manager(name)
-	     else -> Error("$type라는 직업 유형은 없습니다.")
-      }
-   }
+   override fun toString() = "${this._name} (${this.capitalizedType})"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjQ1Mjk1MDYsMTYyMTIyNDk3NiwtMT
+eyJoaXN0b3J5IjpbLTE3Njk1NTcwNzcsMTYyMTIyNDk3NiwtMT
 A0OTM2MzQ4NiwtMTA0NDk1MTQ2MSwxNjA0NDQ2MjQwLDI1NjQw
 MTgxMiwtMTkwMTk4NTQ0OSwtNjU3OTEzOTUyLC00NTIwNzgyOT
 YsLTc5MzQ0OTQ2MywtMjEwMjI0NDY4OSwtNDE0ODUyODQ2LDQ3
