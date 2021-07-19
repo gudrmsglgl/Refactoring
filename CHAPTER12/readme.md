@@ -388,11 +388,42 @@ fun createEmployee(name: String, type: String){
    
    override fun toString() = "${this._name} (${this.capitalizedType})"
 ```
+
+⓵ 첫 번째로 할 일은 타입 코드를 객체로 바꾸기<br>
+
+```kotlin
+    
+   class EmployeeType {
+      constructor(str: String){
+         this_
+      }
+   }
+    val type
+       get() = _type
+       set(value) = value
+
+	val capitalizedType
+	   get() = this._type.charAt(0).toUpperCase() + this._type.substr(1).toLowerCase()
+
+    constructor(name: String, type: String) {
+      this.validateType(type)
+      this._name = name
+      this._type = type
+   }
+	
+   fun validateType(arg) {
+      if (!["engineer","manager", "salesperson"].includes(arg))
+         throw Error("$arg라는 직원 유형은 없습니다.")
+   }
+   
+   override fun toString() = "${this._name} (${this.capitalizedType})"
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Njk1NTcwNzcsMTYyMTIyNDk3NiwtMT
-A0OTM2MzQ4NiwtMTA0NDk1MTQ2MSwxNjA0NDQ2MjQwLDI1NjQw
-MTgxMiwtMTkwMTk4NTQ0OSwtNjU3OTEzOTUyLC00NTIwNzgyOT
-YsLTc5MzQ0OTQ2MywtMjEwMjI0NDY4OSwtNDE0ODUyODQ2LDQ3
-ODU1MzQ0NCw5MDUwMTMyNDQsMjAxNjkwMTkxMSwxNzg0ODAwMj
-I2LC05MjMwMTkzMjYsNjU3MjQ5MDk5LDI2ODc5OTYwM119
+eyJoaXN0b3J5IjpbMTc5MDM1MDc2NywtMTc2OTU1NzA3NywxNj
+IxMjI0OTc2LC0xMDQ5MzYzNDg2LC0xMDQ0OTUxNDYxLDE2MDQ0
+NDYyNDAsMjU2NDAxODEyLC0xOTAxOTg1NDQ5LC02NTc5MTM5NT
+IsLTQ1MjA3ODI5NiwtNzkzNDQ5NDYzLC0yMTAyMjQ0Njg5LC00
+MTQ4NTI4NDYsNDc4NTUzNDQ0LDkwNTAxMzI0NCwyMDE2OTAxOT
+ExLDE3ODQ4MDAyMjYsLTkyMzAxOTMyNiw2NTcyNDkwOTksMjY4
+Nzk5NjAzXX0=
 -->
