@@ -372,6 +372,9 @@ fun createEmployee(name: String, type: String){
        get() = _type
        set(value) = value
 
+	val capitalizedType
+	   get() = this._type.charAt(0).toUpperCa
+
     constructor(name: String, type: String) {
       this.validateType(type)
       this._name = name
@@ -393,10 +396,10 @@ fun createEmployee(name: String, type: String){
    }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NTMwNTkwMSwxNjIxMjI0OTc2LC0xMD
-Q5MzYzNDg2LC0xMDQ0OTUxNDYxLDE2MDQ0NDYyNDAsMjU2NDAx
-ODEyLC0xOTAxOTg1NDQ5LC02NTc5MTM5NTIsLTQ1MjA3ODI5Ni
-wtNzkzNDQ5NDYzLC0yMTAyMjQ0Njg5LC00MTQ4NTI4NDYsNDc4
-NTUzNDQ0LDkwNTAxMzI0NCwyMDE2OTAxOTExLDE3ODQ4MDAyMj
-YsLTkyMzAxOTMyNiw2NTcyNDkwOTksMjY4Nzk5NjAzXX0=
+eyJoaXN0b3J5IjpbLTE4NjQ1Mjk1MDYsMTYyMTIyNDk3NiwtMT
+A0OTM2MzQ4NiwtMTA0NDk1MTQ2MSwxNjA0NDQ2MjQwLDI1NjQw
+MTgxMiwtMTkwMTk4NTQ0OSwtNjU3OTEzOTUyLC00NTIwNzgyOT
+YsLTc5MzQ0OTQ2MywtMjEwMjI0NDY4OSwtNDE0ODUyODQ2LDQ3
+ODU1MzQ0NCw5MDUwMTMyNDQsMjAxNjkwMTkxMSwxNzg0ODAwMj
+I2LC05MjMwMTkzMjYsNjU3MjQ5MDk5LDI2ODc5OTYwM119
 -->
