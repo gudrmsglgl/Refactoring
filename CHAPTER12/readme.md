@@ -428,10 +428,15 @@ fun createEmployee(name: String, type: String){
 - 이제 바로 앞 예시와 같은 방식으로 직원 유형을 차분히 리팩터링.
 
 ```kotlin
-   // 
+   //Employee 클래스..
+   val type
+      get() = _type
+      set(value) = createEmployeeType(value)
+   
+   fun createEmployeeType(
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc5NDMyMjA0LDcxNTU3MDUxNywtMTc2OT
+eyJoaXN0b3J5IjpbNjQ2Njg5NTA4LDcxNTU3MDUxNywtMTc2OT
 U1NzA3NywxNjIxMjI0OTc2LC0xMDQ5MzYzNDg2LC0xMDQ0OTUx
 NDYxLDE2MDQ0NDYyNDAsMjU2NDAxODEyLC0xOTAxOTg1NDQ5LC
 02NTc5MTM5NTIsLTQ1MjA3ODI5NiwtNzkzNDQ5NDYzLC0yMTAy
