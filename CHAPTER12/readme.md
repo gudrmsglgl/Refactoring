@@ -456,14 +456,20 @@ fun createEmployee(name: String, type: String){
 - 이 예에서는 이름의 첫 문자만 대문자로 변환해주는 로직을 이 클래스로 옮길 수 있을 것이다.
 ```kotlin
    // Employee 클래스
-   override fun toString() = "${this._name} ("
+   override fun toString() = "${this._name} (${this.type.capitalizedName})"
+
+   // EmployeeType 클래스
+   fun capitalizedName() {
+      return this.toString().charAt(0).toUpperCase()
+      
+   }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTEzODkyNDcsMTY2OTM1NjQzMCw3MT
-U1NzA1MTcsLTE3Njk1NTcwNzcsMTYyMTIyNDk3NiwtMTA0OTM2
-MzQ4NiwtMTA0NDk1MTQ2MSwxNjA0NDQ2MjQwLDI1NjQwMTgxMi
-wtMTkwMTk4NTQ0OSwtNjU3OTEzOTUyLC00NTIwNzgyOTYsLTc5
-MzQ0OTQ2MywtMjEwMjI0NDY4OSwtNDE0ODUyODQ2LDQ3ODU1Mz
-Q0NCw5MDUwMTMyNDQsMjAxNjkwMTkxMSwxNzg0ODAwMjI2LC05
-MjMwMTkzMjZdfQ==
+eyJoaXN0b3J5IjpbMTE1MzQ2NjM0MywtMTU1MTM4OTI0NywxNj
+Y5MzU2NDMwLDcxNTU3MDUxNywtMTc2OTU1NzA3NywxNjIxMjI0
+OTc2LC0xMDQ5MzYzNDg2LC0xMDQ0OTUxNDYxLDE2MDQ0NDYyND
+AsMjU2NDAxODEyLC0xOTAxOTg1NDQ5LC02NTc5MTM5NTIsLTQ1
+MjA3ODI5NiwtNzkzNDQ5NDYzLC0yMTAyMjQ0Njg5LC00MTQ4NT
+I4NDYsNDc4NTUzNDQ0LDkwNTAxMzI0NCwyMDE2OTAxOTExLDE3
+ODQ4MDAyMjZdfQ==
 -->
