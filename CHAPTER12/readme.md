@@ -433,14 +433,19 @@ fun createEmployee(name: String, type: String){
       get() = _type
       set(value) = createEmployeeType(value)
    
-   fun createEmployeeType(
+   fun createEmployeeType(str: String) = when(str) {
+      "engineer" -> Engineer()
+      "manager" -> Manager()
+      "salesperson" -> Salesperson()
+      else -> Error("$str라는 직원 유형은 없습니다."
+   }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ2Njg5NTA4LDcxNTU3MDUxNywtMTc2OT
-U1NzA3NywxNjIxMjI0OTc2LC0xMDQ5MzYzNDg2LC0xMDQ0OTUx
-NDYxLDE2MDQ0NDYyNDAsMjU2NDAxODEyLC0xOTAxOTg1NDQ5LC
-02NTc5MTM5NTIsLTQ1MjA3ODI5NiwtNzkzNDQ5NDYzLC0yMTAy
-MjQ0Njg5LC00MTQ4NTI4NDYsNDc4NTUzNDQ0LDkwNTAxMzI0NC
-wyMDE2OTAxOTExLDE3ODQ4MDAyMjYsLTkyMzAxOTMyNiw2NTcy
-NDkwOTldfQ==
+eyJoaXN0b3J5IjpbMTY2OTM1NjQzMCw3MTU1NzA1MTcsLTE3Nj
+k1NTcwNzcsMTYyMTIyNDk3NiwtMTA0OTM2MzQ4NiwtMTA0NDk1
+MTQ2MSwxNjA0NDQ2MjQwLDI1NjQwMTgxMiwtMTkwMTk4NTQ0OS
+wtNjU3OTEzOTUyLC00NTIwNzgyOTYsLTc5MzQ0OTQ2MywtMjEw
+MjI0NDY4OSwtNDE0ODUyODQ2LDQ3ODU1MzQ0NCw5MDUwMTMyND
+QsMjAxNjkwMTkxMSwxNzg0ODAwMjI2LC05MjMwMTkzMjYsNjU3
+MjQ5MDk5XX0=
 -->
