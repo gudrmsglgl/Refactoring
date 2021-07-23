@@ -439,13 +439,25 @@ fun createEmployee(name: String, type: String){
       "salesperson" -> Salesperson()
       else -> Error("$str라는 직원 유형은 없습니다."
    }
+ 
+   class EmployeeType {}
+   class Engineer : EmployeeType {
+      override fun toString() = "engineer"
+   }
+   class Manager : EmployeeType {
+      override fun toString() = "manager"
+   }
+   class Salesperson : EmployeeType {
+      override fun toString() = ""
+   }
+   
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2OTM1NjQzMCw3MTU1NzA1MTcsLTE3Nj
-k1NTcwNzcsMTYyMTIyNDk3NiwtMTA0OTM2MzQ4NiwtMTA0NDk1
-MTQ2MSwxNjA0NDQ2MjQwLDI1NjQwMTgxMiwtMTkwMTk4NTQ0OS
-wtNjU3OTEzOTUyLC00NTIwNzgyOTYsLTc5MzQ0OTQ2MywtMjEw
-MjI0NDY4OSwtNDE0ODUyODQ2LDQ3ODU1MzQ0NCw5MDUwMTMyND
-QsMjAxNjkwMTkxMSwxNzg0ODAwMjI2LC05MjMwMTkzMjYsNjU3
-MjQ5MDk5XX0=
+eyJoaXN0b3J5IjpbMTQyNjY3MjE1MCwxNjY5MzU2NDMwLDcxNT
+U3MDUxNywtMTc2OTU1NzA3NywxNjIxMjI0OTc2LC0xMDQ5MzYz
+NDg2LC0xMDQ0OTUxNDYxLDE2MDQ0NDYyNDAsMjU2NDAxODEyLC
+0xOTAxOTg1NDQ5LC02NTc5MTM5NTIsLTQ1MjA3ODI5NiwtNzkz
+NDQ5NDYzLC0yMTAyMjQ0Njg5LC00MTQ4NTI4NDYsNDc4NTUzND
+Q0LDkwNTAxMzI0NCwyMDE2OTAxOTExLDE3ODQ4MDAyMjYsLTky
+MzAxOTMyNl19
 -->
