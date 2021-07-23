@@ -448,12 +448,12 @@ fun createEmployee(name: String, type: String){
       override fun toString() = "manager"
    }
    class Salesperson : EmployeeType {
-      override fun toString() = ""
+      override fun toString() = "salesperson"
    }
    
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNjY3MjE1MCwxNjY5MzU2NDMwLDcxNT
+eyJoaXN0b3J5IjpbLTIyMjk2MjI1MywxNjY5MzU2NDMwLDcxNT
 U3MDUxNywtMTc2OTU1NzA3NywxNjIxMjI0OTc2LC0xMDQ5MzYz
 NDg2LC0xMDQ0OTUxNDYxLDE2MDQ0NDYyNDAsMjU2NDAxODEyLC
 0xOTAxOTg1NDQ5LC02NTc5MTM5NTIsLTQ1MjA3ODI5NiwtNzkz
