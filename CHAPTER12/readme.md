@@ -452,8 +452,10 @@ fun createEmployee(name: String, type: String){
    }
    
 ```
+
+- 이 예에서는 이름의 첫 문자만 대문자로 변환해주는 로직
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMjk2MjI1MywxNjY5MzU2NDMwLDcxNT
+eyJoaXN0b3J5IjpbMTExNDQwMDIyMCwxNjY5MzU2NDMwLDcxNT
 U3MDUxNywtMTc2OTU1NzA3NywxNjIxMjI0OTc2LC0xMDQ5MzYz
 NDg2LC0xMDQ0OTUxNDYxLDE2MDQ0NDYyNDAsMjU2NDAxODEyLC
 0xOTAxOTg1NDQ5LC02NTc5MTM5NTIsLTQ1MjA3ODI5NiwtNzkz
