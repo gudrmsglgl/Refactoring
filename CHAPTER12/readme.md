@@ -424,12 +424,47 @@ fun createEmployee(name: String, type: String){
    
    override fun toString() = "${this._name} (${this.capitalizedType})"
 ```
+
+- 이제 바로 앞 예시와 같은 방식으로 직원 유형을 차분히 리팩터링.
+```kotlin
+    
+   class EmployeeType {
+      constructor(str: String){
+         this._value = str
+      }
+      override fun toString() = this._value
+   }
+
+   // Employee class 
+   val type
+      get() = _type
+      set(value) = value
+
+   val typeString
+      get() = this._type.toString()
+      
+	val capitalizedType
+	   get() = this.typeString.charAt(0).toUpperCase() + this.typeString.substr(1).toLowerCase()
+
+    constructor(name: String, type: String) {
+      this.validateType(type)
+      this._name = name
+      this._type = type
+   }
+	
+   fun validateType(arg) {
+      if (!["engineer","manager", "salesperson"].includes(arg))
+         throw Error("$arg라는 직원 유형은 없습니다.")
+   }
+   
+   override fun toString() = "${this._name} (${this.capitalizedType})"
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE1NTcwNTE3LC0xNzY5NTU3MDc3LDE2Mj
-EyMjQ5NzYsLTEwNDkzNjM0ODYsLTEwNDQ5NTE0NjEsMTYwNDQ0
-NjI0MCwyNTY0MDE4MTIsLTE5MDE5ODU0NDksLTY1NzkxMzk1Mi
-wtNDUyMDc4Mjk2LC03OTM0NDk0NjMsLTIxMDIyNDQ2ODksLTQx
-NDg1Mjg0Niw0Nzg1NTM0NDQsOTA1MDEzMjQ0LDIwMTY5MDE5MT
-EsMTc4NDgwMDIyNiwtOTIzMDE5MzI2LDY1NzI0OTA5OSwyNjg3
-OTk2MDNdfQ==
+eyJoaXN0b3J5IjpbMjQ3NjUzNDUsNzE1NTcwNTE3LC0xNzY5NT
+U3MDc3LDE2MjEyMjQ5NzYsLTEwNDkzNjM0ODYsLTEwNDQ5NTE0
+NjEsMTYwNDQ0NjI0MCwyNTY0MDE4MTIsLTE5MDE5ODU0NDksLT
+Y1NzkxMzk1MiwtNDUyMDc4Mjk2LC03OTM0NDk0NjMsLTIxMDIy
+NDQ2ODksLTQxNDg1Mjg0Niw0Nzg1NTM0NDQsOTA1MDEzMjQ0LD
+IwMTY5MDE5MTEsMTc4NDgwMDIyNiwtOTIzMDE5MzI2LDY1NzI0
+OTA5OV19
 -->
