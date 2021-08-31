@@ -6,27 +6,26 @@
 [메서드 내리기](#id-section4)<br>
 [필드 내리기](#id-section5)<br>
 [타입 코드를 서브클래스로 바꾸기](#id-section6)<br>
-
+[서브클래스 제거하기](#id-section7)<br>
 
 - 상속은 객체 지향 프로그래밍에서 가장 유명한 특성
 - 아주 유용한 동시에 오용하기 쉽다.
 - 관련 리팩터링
-	- [x] 메서드 올리기
-	- [x] 필드 올리기
-	- [x] 생성자 본문 올리기
-	- [x] 메서드 내리기
-	- [x] 필드 내리기
+  - [x] 메서드 올리기
+  - [x] 필드 올리기
+  - [x] 생성자 본문 올리기
+  - [x] 메서드 내리기
+  - [x] 필드 내리기
 - 계층 사이에 클래스를 추가하거나 제거하는 리팩터링
-	- [x] 슈퍼클래스 추출하기
-	- [x] 서브클래스 제거하기
-	- [x] 계층 합치기
-	- [x] 필드 값에 따라 동작이 달라지는 코드 
-		- 타입 코드를 서브클래스로 바꾸기
+  - [x] 슈퍼클래스 추출하기
+  - [x] 서브클래스 제거하기
+  - [x] 계층 합치기
+  - [x] 필드 값에 따라 동작이 달라지는 코드
+    - 타입 코드를 서브클래스로 바꾸기
 - 상속을 잘못된 곳에서 사용하거나 혹은 환경이 변해 문제가 생겼을 때
-	- [x] 서브클래스를 위임으로 바꾸기
-	- [x] 슈퍼클래스를 위임으로 바꾸기
-	- [x] 상속을 위임으로 바꾸는 것이 핵심
-
+  - [x] 서브클래스를 위임으로 바꾸기
+  - [x] 슈퍼클래스를 위임으로 바꾸기
+  - [x] 상속을 위임으로 바꾸는 것이 핵심
 
 <br>
 <div id='id-section1'/>
@@ -44,6 +43,7 @@
       val name() {...}
    }
 ```
+
 **🔻 메서드 올리기**
 
 ```kotlin
@@ -57,18 +57,20 @@
 ```
 
 ### 🔍 메서드 올리기
+
 - 적용하기 가장 쉬운 상황은 메서드들의 본문 코드가 똑같을 때다.
 - 테스트에 의존성이 크다 -> 차이점을 찾는 방법이 효과고 좋음
 - 서로 다른 두 클래스의 두 메서드를 각각 매개변수화하면 긍정적으로 같은 메서드가 되기도 함.
 - 이런 경우 가장 적은 단계를 거쳐 리팩터링하면 각각의 함수를 매개변수화한 다음 메서드를 상속 계층의 위로 올리면 된다.
 - 반면 이상하고 복잡한 상황
-	- [x] 해당 메서드의 본문에서 참조하는 필드들이 서브클래스에만 있는 경우.
-	- [x] 이런 경우 필드들 먼저 슈퍼클래스로 올린 후에 메서드를 올리자.
+  - [x] 해당 메서드의 본문에서 참조하는 필드들이 서브클래스에만 있는 경우.
+  - [x] 이런 경우 필드들 먼저 슈퍼클래스로 올린 후에 메서드를 올리자.
 - 두 메서드의 전체 흐름은 비슷하지만 -> 세부 내용이 다르다면 템플릿 메서드 만들기 고려
 
-
 ### 📍 절차
+
 &emsp;⓵ 똑같이 동작하는 메서드인지 면멸히 살핀다.<br>
+
 > 실질적으로 하는 일은 같지만 코드가 다르다면 본문 코드가 똑같이질 때까지 리팩터링.
 
 &emsp;⓶ 메서드 안에서 호출하는 다른 메서드와 참조하는 필드들을 슈퍼클래스에서도 호출하고 참조할 수 있는지 확인.<br>
@@ -79,12 +81,11 @@
 &emsp;⓻ 테스트한다.<br>
 &emsp;⓼ 모든 서브클래스의 메서드가 없어질 때까지 다른 서브클래스의 메서드를 하나식 제거한다.<br>
 
-
-
 <br>
 <div id='id-section2'/>
 
 ## 12.2 필드 올리기 Pull Up Field
+
 ```kotlin
    class Employee{...}
 
@@ -96,6 +97,7 @@
       private var name: String? = null
    }
 ```
+
 **🔻 필드 올리기**
 
 ```kotlin
@@ -113,14 +115,14 @@
 - 어떤 일이 벌어지는지를 알아내려면 필드들이 어떻게 이용되는지 분석해봐야 한다.
 - 분석 결과 필드들이 비슷한 방식으로 쓰인다고 판단되면 슈퍼클래스로 끌어올리자.
 - 두 가지 중복을 줄일 수 있다.
-	- [x] 첫째, 데이터 중복 선언을 없앨 수 있다.
-	- [x] 둘째, 해당 필드를 사용하는 동작을 서브클래스에서 슈퍼클래스로 옮길 수 있다.
-
+  - [x] 첫째, 데이터 중복 선언을 없앨 수 있다.
+  - [x] 둘째, 해당 필드를 사용하는 동작을 서브클래스에서 슈퍼클래스로 옮길 수 있다.
 
 <br>
 <div id='id-section3'/>
 
 ## 12.3 생성자 본문 올리기 Pull Up Constructor Body
+
 ```kotlin
    class Party {...}
 
@@ -128,14 +130,15 @@
       private val name: String,
       private val id: String,
       private val monthlyCost: String) : Party() {
-   
+
    }
 ```
+
 **🔻 생성자 본문 올리기**
 
 ```kotlin
    class Party(private name: String) {
- 
+
    }
 
    class Employee(
@@ -159,6 +162,7 @@
 
    class Engineer : Employee {...}
 ```
+
 **🔻 메서드 내리기**
 
 ```kotlin
@@ -175,7 +179,6 @@
 - 해당 기능을 제공하는 서브클래스가 정확히 무엇인지를 호출자가 알고 있을 때만 적용
 - 그렇지 못한 상황이라면 서브클래스에 따라 다르게 동작하는 슈퍼클래스의 기만적인 조건부 로직을 다형성으로 바꿔야 한다.
 
-
 <br>
 <div id='id-section5'/>
 
@@ -190,6 +193,7 @@
 
    class Engineer : Employee {...}
 ```
+
 **🔻 필드 내리기**
 
 ```kotlin
@@ -202,7 +206,6 @@
    }
 ```
 
-
 <br>
 <div id='id-section6'/>
 
@@ -213,6 +216,7 @@ fun createEmployee(name: String, type: String){
    return Employee(name, type)
 }
 ```
+
 **🔻 타입 코드를 서브클래스로 바꾸기**
 
 ```kotlin
@@ -226,26 +230,30 @@ fun createEmployee(name: String, type: String){
 ```
 
 ### 🔍 타입 코드
+
 - 타입 코드는 프로그래밍 언어에 따라 열거형이나 심볼, 문자열, 숫자 등으로 표현
 - 외부 서비스가 제공하는 데이터를 다루려 할 때 딸려오는 일이 흔하다
 - 타입 코드 이상(-> 서브클래스) 의 무언가가 필요할 때
 - 서브 클래스 매력적인 점
-	- [x] 첫째, 조건에 따라 다르게 동작하도록 해주는 다형성 제공.<br>
-			동작이 달라져야 하는 함수가 여러 개일 때 특히 유용<br>
-			서브클래스를 이용하면 이런 함수들에 조건부 로직을 다형성으로 바꾸기를 적용할 수 있다.
-	- [x] 두 번째 매력은 특정 타입에서만 의미가 있는 값을 사용하는 필드나 메서드가 있을 때 발현된다.
-		- 예를 들어 '판매 목표'는 '영업자' 유형일 때만 의미가 있다. 이런 상황이라면 서브 클래스를 만들고 필요한 서브클래스만 필드를 갖도록 정리 (필드 내리기)
+
+  - [x] 첫째, 조건에 따라 다르게 동작하도록 해주는 다형성 제공.<br>
+        동작이 달라져야 하는 함수가 여러 개일 때 특히 유용<br>
+        서브클래스를 이용하면 이런 함수들에 조건부 로직을 다형성으로 바꾸기를 적용할 수 있다.
+  - [x] 두 번째 매력은 특정 타입에서만 의미가 있는 값을 사용하는 필드나 메서드가 있을 때 발현된다.
+    - 예를 들어 '판매 목표'는 '영업자' 유형일 때만 의미가 있다. 이런 상황이라면 서브 클래스를 만들고 필요한 서브클래스만 필드를 갖도록 정리 (필드 내리기)
 
 - 대상 클래스에 직접 적용할지 , 타입 코드 자체에 적용할지 고민
 - 전자 방식이라면 직원의 하위 타입인 엔지니어를 만들 것.
 - 반면 후자는 직우너에게 직원 유형 '속성'을 부여하고, 이 속성을 클래스로 정의해 엔지니어 속성과 관리자 속성 같은 서브클래스를 만드는 식.
- 
- ### 📍 절차
+
+### 📍 절차
+
 &emsp;⓵ 타입 코드 필드를 자가 캡슐화한다.<br>
 &emsp;⓶ 타입 코드 값 하나를 선택하여 그 값에 해당하는 서브클래스를 만든다. 타입 코드 게터 메서드를 오버라이드하여 해당 타입 코드의 리터럴 값을 반환하게 한다.<br>
 &emsp;⓷ 매개변수로 받은 타입 코드와 방금 만든 서브클래스를 매핑하는 선택 로직을 만든다.<br>
+
 > 직접 상속일 때는 생성자를 팩터리 함수로 바꾸기를 적용하고 선택 로직을 팩터리에 넣는다. <br>
-> 간접 상속일 때는 선택 로직을 생성자에 두면 될 것. 
+> 간접 상속일 때는 선택 로직을 생성자에 두면 될 것.
 
 &emsp;⓸ 테스트한다.<br>
 &emsp;⓹ 타입 코드 값 각각에 대해 서브클래스 생성과 선택 로직 추가를 반복한다. 클래스 하나가 완성될 때마다 테스트한다. <br>
@@ -253,9 +261,9 @@ fun createEmployee(name: String, type: String){
 &emsp;⓻ 테스트한다.<br>
 &emsp;⓼ 타입 코드 접근자를 이용하는 메서드 모두에 메서드 내리기와 조건부 로직을 다형성으로 바꾸기를 적용한다.<br>
 
-
 ### 예시: 직접 상속할 때
-```kotlin 
+
+```kotlin
    // Employee 클래스
    constructor(name: String, type: String) {
       this.validateType(type)
@@ -272,31 +280,34 @@ fun createEmployee(name: String, type: String){
 
 ⓵ 타입 코드 필드를 자가 캡슐화한다.<br>
 
-```kotlin 
+```kotlin
    // Employee 클래스
    val type: String
       get() = _type
-      
+
    override fun toString() = "${this._name} (${this.type})"
 ```
 
 &emsp;⓶ 타입 코드 중 하나, 여기서는 엔지니어engineer를 선택. 이번에는 직접 상속 방식으로 구현. 즉, 직원 클래스 자체를 서브클래싱한다. 타입 코드 게터를 오버라이드하여 적절한 리터럴 값을 반환하기만 하면 되므로 아주 간단하게 처리할 수 있다.<br>
-```kotlin 
+
+```kotlin
    class Engineer : Employee {
       override val type
          get() = "engineer"
    }
 ```
+
 &emsp;⓷ 생성자를 팩터리 함수로 바꿔서 선택 로직을 담을 별도 장소를 마련한다.<br>
 
-```kotlin 
+```kotlin
    fun createEmployee(name: String, type: String) {
       return Employee(name, type)
    }
 ```
 
 - 새로 만든 서브클래스를 사용하기 위한 선택 로직을 팩터리에 추가한다.
-```kotlin 
+
+```kotlin
    fun createEmployee(name, type) {
       when (type) {
 	     "engineer" -> Engineer(name, type)
@@ -305,7 +316,7 @@ fun createEmployee(name: String, type: String){
    }
 ```
 
-```kotlin 
+```kotlin
    class Salesperson : Employee {
       override val type
          get() = "salesperson"
@@ -325,6 +336,7 @@ fun createEmployee(name: String, type: String){
 ```
 
 ⓺ 모든 유형에 적용했다면 타입 코드 필드와 슈퍼클래스의 게터(서브클래스들에서 재정의한 메서드) 제거한다. <br>
+
 ```kotlin
     // Empolyee
     constructor(name: String, type: String) {
@@ -334,7 +346,7 @@ fun createEmployee(name: String, type: String){
    }
    /* val type
        get() = this._type */
-   
+
    fun createEmployee(name: String, type: String) {
       when (type) {
 	     "engineer" -> Engineer(name, type)
@@ -346,13 +358,14 @@ fun createEmployee(name: String, type: String){
 ```
 
 - 생성자 건네는 타입 제거
+
 ```kotlin
     // Empolyee
     constructor(name: String) {
       this.validateType(type)
       this._name = name
    }
-   
+
    fun createEmployee(name: String, type: String) {
       when (type) {
 	     "engineer" -> Engineer(name)
@@ -364,6 +377,7 @@ fun createEmployee(name: String, type: String){
 ```
 
 ### 예시: 간접 상속할 때
+
 - 직원의 서브클래스로 '아르바이트'와 '정직원'이라는 클래스가 이미 있어서 Employee를 직접 상속하는 방식으로 타입 코드 문제에 대처할 수 없다고 해보자. 직원 유형을 변경하는 기능을 유지하고 싶다는 점도 직접 상속을 사용하지 않는 이유.
 
 ```kotlin
@@ -380,19 +394,19 @@ fun createEmployee(name: String, type: String){
       this._name = name
       this._type = type
    }
-	
+
    fun validateType(arg) {
       if (!["engineer","manager", "salesperson"].includes(arg))
          throw Error("$arg라는 직원 유형은 없습니다.")
    }
-   
+
    override fun toString() = "${this._name} (${this.capitalizedType})"
 ```
 
 ⓵ 첫 번째로 할 일은 타입 코드를 객체로 바꾸기<br>
 
 ```kotlin
-    
+
    class EmployeeType {
       constructor(str: String){
          this._value = str
@@ -400,14 +414,14 @@ fun createEmployee(name: String, type: String){
       override fun toString() = this._value
    }
 
-   // Employee class 
+   // Employee class
    val type
       get() = _type
       set(value) = value
 
    val typeString
       get() = this._type.toString()
-      
+
 	val capitalizedType
 	   get() = this.typeString.charAt(0).toUpperCase() + this.typeString.substr(1).toLowerCase()
 
@@ -416,12 +430,12 @@ fun createEmployee(name: String, type: String){
       this._name = name
       this._type = type
    }
-	
+
    fun validateType(arg) {
       if (!["engineer","manager", "salesperson"].includes(arg))
          throw Error("$arg라는 직원 유형은 없습니다.")
    }
-   
+
    override fun toString() = "${this._name} (${this.capitalizedType})"
 ```
 
@@ -432,14 +446,14 @@ fun createEmployee(name: String, type: String){
    val type
       get() = _type
       set(value) = createEmployeeType(value)
-   
+
    fun createEmployeeType(str: String) = when(str) {
       "engineer" -> Engineer()
       "manager" -> Manager()
       "salesperson" -> Salesperson()
       else -> Error("$str라는 직원 유형은 없습니다."
    }
- 
+
    class EmployeeType {}
    class Engineer : EmployeeType {
       override fun toString() = "engineer"
@@ -450,10 +464,11 @@ fun createEmployee(name: String, type: String){
    class Salesperson : EmployeeType {
       override fun toString() = "salesperson"
    }
-   
+
 ```
 
 - 이 예에서는 이름의 첫 문자만 대문자로 변환해주는 로직을 이 클래스로 옮길 수 있을 것이다.
+
 ```kotlin
    // Employee 클래스
    override fun toString() = "${this._name} (${this.type.capitalizedName})"
@@ -464,12 +479,79 @@ fun createEmployee(name: String, type: String){
         + this.toString().subvstr(1).toLowerCase()
    }
 ```
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk0NTIzMjI3LC0xNTUxMzg5MjQ3LDE2Nj
-kzNTY0MzAsNzE1NTcwNTE3LC0xNzY5NTU3MDc3LDE2MjEyMjQ5
-NzYsLTEwNDkzNjM0ODYsLTEwNDQ5NTE0NjEsMTYwNDQ0NjI0MC
-wyNTY0MDE4MTIsLTE5MDE5ODU0NDksLTY1NzkxMzk1MiwtNDUy
-MDc4Mjk2LC03OTM0NDk0NjMsLTIxMDIyNDQ2ODksLTQxNDg1Mj
-g0Niw0Nzg1NTM0NDQsOTA1MDEzMjQ0LDIwMTY5MDE5MTEsMTc4
-NDgwMDIyNl19
--->
+
+<br>
+<div id='id-section7'/>
+
+## 12.7 서브클래스 제거하기 Remove Subclass
+
+```kotlin
+   class Person {
+      val genderCode: String
+         get() = "X"
+   }
+   class Male : Person {
+      override val genderCode: String
+         get() = "M"
+   }
+   class Female : Person {
+      override val genderCode: String
+         get() = "F"
+   }
+```
+
+**🔻 서브클래스 제거하기**
+
+```kotlin
+   class Person {
+      val genderCode: String
+         get() = "X"
+   }
+```
+
+### 🔍 서브 클래스 제거
+
+- 서브클래싱
+  - 원래 **데이터 구조와는 다른 변종**을 만들거나 종류에 따라 **동작**이 달라지게 할 수 있는 메커니즘.
+- 서브 클래스를 슈퍼클래스의 필드로 대체
+  - [x] 한 번도 활용되지 않을 때
+  - [x] 서브클래스를 필요로 하지 않는 방식으로 만들어진 기능에서만 쓰이는 경우.
+- 팩토리 패턴으로 만든 후 필드로 대체
+
+<br>
+<div id='id-section8'/>
+
+## 12.8 슈퍼클래스 추출하기 Extract Superclass
+
+```kotlin
+   class Department {
+      val totalAnnualCost() {...}
+      val name() {...}
+      val headCount() {...}
+   }
+
+   class Employee {
+      val annualCost() {...}
+      val name() {...}
+      val id() {...}
+   }
+```
+
+**🔻 슈퍼클래스 추출하기**
+
+```kotlin
+   class Party {
+      val name() {...}
+      val annualCost() {...}
+   }
+
+   class Department : Party {
+      override val annualCost() {...}
+      val headCount() {...}
+   }
+
+   class Employee : Party {
+      val annualCost() {...}
+      val id() {...}
+   }
+```
