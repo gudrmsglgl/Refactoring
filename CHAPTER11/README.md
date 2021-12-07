@@ -14,34 +14,34 @@
 [오류 코드를 예외로 바꾸기](#id-section12)<br>
 [예외를 사전확인으로 바꾸기](#id-section13)<br>
 
-
-
 - ### 소프트웨어 구성 빌딩 블록 - 모듈, 함수
-	- 🧩 **블록들을 끼워 맞추는 연결부 - API**
-		> 이해하기 쉽고 사용하기 쉽게 만드는 일은 중요한 동시에 어려움
+
+  - 🧩 **블록들을 끼워 맞추는 연결부 - API**
+    > 이해하기 쉽고 사용하기 쉽게 만드는 일은 중요한 동시에 어려움
 
 - ### 좋은 API
-	- 데이터를 **갱신 함수**,  **조회 함수**를 명확히 구분
-		> - 섞여 있다면 👉🏻 질의 함수와 변경 함수 분리하기를 적용해 갈라야함.
-		> - 값 하나로 여러개로 나뉜 함수들 👉🏻 함수 매개변수화하기 적용 하나로 합침.
-		> - 매개변수가 함수의 동작 모드를 전환하는 용도로만 쓰일 때 👉🏻 플래그 인수 제거하기.
-   - 데이터 구조 변환
-	   > - 함수 사이를 건너 다니면서 필요 이상으로 분해될 때 👉🏻 객체 통째로 넘기기 적용 
-	   > - 매개변수를 질의 함수로 바꾸기 와 질의 함수를 매개변수로 바꾸기로 균형점 옮기기		
-   - 클래스 대표적인 모듈
-	   > - 불변 👉🏻 세터 제거하기
-	   > - 호출자에 새로운 객체를 만들어 반환하려 할 때 👉🏻 생성자를 팩터리 함수로 바꾸기
-	- 복잡한 함수 쪼개기
-       > - 👉🏻 함수를 명령으로 바꾸기 : 함수를 객체로 변환 가능 -> 함수 추출 수월
-       > - 명령 객체가 더는 필요 없어진다면 👉🏻 명령을 함수로 바꾸기
-       > - 데이터가 수정됐음을 확실히 알릴 때 👉🏻 수정된 값 반환하기
-       > - 오류 코드에 의존하는 과거 방식 코드 👉🏻 오류 코드를 예외로 바꾸기 
-       > - 문제가 되는 조건을 함수 호출 전에 검사할 수 있다면 👉🏻 예외를 사전 확인으로 바꾸기
+  - 데이터를 **갱신 함수**, **조회 함수**를 명확히 구분
+    > - 섞여 있다면 👉🏻 질의 함수와 변경 함수 분리하기를 적용해 갈라야함.
+    > - 값 하나로 여러개로 나뉜 함수들 👉🏻 함수 매개변수화하기 적용 하나로 합침.
+    > - 매개변수가 함수의 동작 모드를 전환하는 용도로만 쓰일 때 👉🏻 플래그 인수 제거하기.
+  - 데이터 구조 변환
+    > - 함수 사이를 건너 다니면서 필요 이상으로 분해될 때 👉🏻 객체 통째로 넘기기 적용
+    > - 매개변수를 질의 함수로 바꾸기 와 질의 함수를 매개변수로 바꾸기로 균형점 옮기기
+  - 클래스 대표적인 모듈
+    > - 불변 👉🏻 세터 제거하기
+    > - 호출자에 새로운 객체를 만들어 반환하려 할 때 👉🏻 생성자를 팩터리 함수로 바꾸기
+  - 복잡한 함수 쪼개기
+    > - 👉🏻 함수를 명령으로 바꾸기 : 함수를 객체로 변환 가능 -> 함수 추출 수월
+    > - 명령 객체가 더는 필요 없어진다면 👉🏻 명령을 함수로 바꾸기
+    > - 데이터가 수정됐음을 확실히 알릴 때 👉🏻 수정된 값 반환하기
+    > - 오류 코드에 의존하는 과거 방식 코드 👉🏻 오류 코드를 예외로 바꾸기
+    > - 문제가 되는 조건을 함수 호출 전에 검사할 수 있다면 👉🏻 예외를 사전 확인으로 바꾸기
 
 <br>
 <div id='id-section1'/>
 
 ## 11.1 질의 함수와 변경 함수 분리하기 Separate Query from Modifier
+
 ```kotlin
 fun getTotalOutstandingAndSendBill() {
    val result = customer.invoices.reduce( (total, each) -> each.amount + total, 0)
@@ -49,7 +49,9 @@ fun getTotalOutstandingAndSendBill() {
    return result
 }
 ```
+
 **🔻 질의 함수와 변경 함수 분리하기**
+
 ```kotlin
 fun totalOutstanding() {
    return customer.invoices.reduce( (total, each) -> each.amount + total, 0)
@@ -60,26 +62,30 @@ fun sendBill() {
 ```
 
 ### 👁️ 겉보기 부수효과가 없이 값을 반환해주는 함수 추구
+
 - [x] 어느 때건 원하는 만큼 호출해도 문제가 없다
 - [x] 함수의 위치를 안 어디로든 옮겨도 되며 테스트하기 쉽다
 - [x] 신경 쓸 거리가 매우 적다
 
 ### 🤷🏻‍♂️ 부수효과가 있는 함수와 없는 함수 명확히 구분
+
 - **명령---질의 분리 (command---query separation)**
-	>'질의 함수 (읽기 함수)는 모두 부수효과가 없어야 한다' 규칙 따르자.
-- 값을 반환하면서 부수효과도 있는 함수를 발견 
-	- ⚡ **상태를 변경하는 부분과 질의하는 부분을 무조건 분리**
+  > '질의 함수 (읽기 함수)는 모두 부수효과가 없어야 한다' 규칙 따르자.
+- 값을 반환하면서 부수효과도 있는 함수를 발견
+  - ⚡ **상태를 변경하는 부분과 질의하는 부분을 무조건 분리**
 
 ### 📍 절차
+
 &emsp;⓵ 대상 함수를 복제하고 질의 목적에 충실한 이름을 짓는다.<br>
- > -> 함수에서 무엇을 **반환**하는지 찾는다. **변수의 이름**이 훌륭한 단초가 될 수 있음
+
+> -> 함수에서 무엇을 **반환**하는지 찾는다. **변수의 이름**이 훌륭한 단초가 될 수 있음
 
 &emsp;⓶ 새 질의 함수에서 부수효과를 모두 제거한다.<br>
 &emsp;⓷ 정적 검사를 수행한다.<br>
 &emsp;⓸ 원래 함수(변경 함수)를 호출하는 곳을 모두 찾아낸다. <br>
-	호출하는 곳에서 반환 값을 사용한다면 질의 함수를 호출하도록 바꾸고,<br>
-	원래 함수를 호출하는 코드를 바로 아래 줄에 새로 추가한다. <br>
-	하나 수정할 때마다 테스트한다.<br>
+호출하는 곳에서 반환 값을 사용한다면 질의 함수를 호출하도록 바꾸고,<br>
+원래 함수를 호출하는 코드를 바로 아래 줄에 새로 추가한다. <br>
+하나 수정할 때마다 테스트한다.<br>
 &emsp;⓹ 원래 함수에서 질의 관련 코드를 제거한다.<br>
 &emsp;⓺ 테스트한다.<br>
 
@@ -100,40 +106,46 @@ fun alertForMiscreant(people: People) {
    return ""
 }
 ```
+
 &emsp;⓶ 새 질의 함수에서 부수효과를 낳는 부분 제거<br>
+
 ```kotlin
 fun alertForMiscreant(people: People) {
    for (val p in people) {
       if (p == "조커") {
-         //setOffAlarms() 👈🏻 제거 
+         //setOffAlarms() 👈🏻 제거
          return "조커"
       }
       if (p == "사루만") {
-         //setOffAlarms() 👈🏻 제거 
+         //setOffAlarms() 👈🏻 제거
          return "사루만"
       }
    }
    return ""
 }
 ```
+
 &emsp;⓸ 원래 함수(변경 함수)를 호출하는 곳을 모두 찾아서 새로운 질의 함수를 호출하도록 바꾸고, 이어서 변경 함수를 호출하는 코드를 아래에 삽입. <br>
+
 ```kotlin
-//val found = alertForMiscreant(people) 
+//val found = alertForMiscreant(people)
 // 다음과 같이 바꾼다.
 val found = findMiscreant(people)
 alertForMisreant(people)
 ```
+
 &emsp;⓹ 이제 원래의 변경 함수에서 질의 관련 코드를 없앤다.<br>
+
 ```kotlin
 fun alertForMiscreant(people: People) {
    for (val p in people) {
       if (p == "조커") {
-         setOffAlarms() 
+         setOffAlarms()
          //return "조커" 👈🏻 명령함수이기 때문에 질의 코드 제거
          return
       }
       if (p == "사루만") {
-         setOffAlarms() 
+         setOffAlarms()
          //return "사루만" 👈🏻 명령함수이기 때문에 질의 코드 제거
          return
       }
@@ -143,19 +155,19 @@ fun alertForMiscreant(people: People) {
 }
 ```
 
-- 더 가다듬기 **(명령함수 -> 질의 함수를 사용)** 
+- 더 가다듬기 **(명령함수 -> 질의 함수를 사용)**
 
 ```kotlin
 fun alertForMiscreant(people) {
-   if (findMiscreant(people) != "") setOffAlarms() 
+   if (findMiscreant(people) != "") setOffAlarms()
 }
 ```
-
 
 <br>
 <div id='id-section2'/>
 
 ## 11.2 함수 매개변수화하기 Parameterize Function
+
 ```kotlin
 fun tenPercentRaise(person: Person) {
    person.salary = person.salary.mutiply(1.1)
@@ -165,18 +177,22 @@ fun fivePercentRaise(person: Person) {
    person.salary = person.salary.mutiply(1.05)
 }
 ```
+
 **🔻 함수 매개변수화하기**
+
 ```kotlin
 fun raise(person, factor) {
    person.salary = person.salary.multiply(1 + factor)
 }
 ```
 
-### 🔍 함수 매개변수화 
+### 🔍 함수 매개변수화
+
 - 두 함수의 로직이 <u>**아주 비슷하고 단지 리터럴 값만 다를 때**</u>
 - 다른 값만 매개변수로 처리하여 중복 없앰
 
 ### 📍 절차
+
 &emsp;⓵ 비슷한 함수 중 하나를 선택한다.<br>
 &emsp;⓶ 함수 선언 바꾸기로 리터럴들을 매개변수로 추가한다.<br>
 &emsp;⓷ 이 함수를 호출하는 곳 모두에 적절한 리터럴 값을 추가한다.<br>
@@ -186,13 +202,12 @@ fun raise(person, factor) {
 &emsp;&emsp;&nbsp;매개변수화된 함수를 호출하도록 하나씩 수정.<br>
 &emsp;&emsp;&nbsp;수정할 때마다 테스트한다.
 
-
 ### **ex) 대역을 다루는 세 함수의 로직**<br>
 
 ```kotlin
 fun baseCharge(usage: Float) {
    if (usage < 0) return usd(0)
-   val amount = 
+   val amount =
       bottomBand(usage) * 0.03
       + middleBand(usage) * 0.05
       + topBand(usage) * 0.07
@@ -223,13 +238,13 @@ fun withinBand(    // 👈🏻 middleBand 리터럴을 매개변수로 함수 �
    bottom: Float,
    top: Float
 ) {
-   return if (usage > bottom) Math.min(usage, top) - bottom 
+   return if (usage > bottom) Math.min(usage, top) - bottom
           else 0
 }
 
 fun baseCharge(usage: Float) {
    if (usage < 0) return usd(0)
-   val amount = 
+   val amount =
       withinBand(usage, 0, 100) * 0.03    // bottomBand(usage) * 0.03
       + withinBand(usage, 100, 200) * 0.05
       + withinBand(usage, 200, Infinity) * 0.07 // + topBand(usage) * 0.07
@@ -241,6 +256,7 @@ fun baseCharge(usage: Float) {
 <div id='id-section3'/>
 
 ## 11.3 플래그 인수 제거하기 Remove Flag Argument
+
 ```kotlin
 fun setDimension(name: String, value: Float) {
    if (name == "height") {
@@ -253,14 +269,18 @@ fun setDimension(name: String, value: Float) {
    }
 }
 ```
+
 **🔻 플래그 인수 제거**
+
 ```kotlin
 fun setHeight(value: Float) { this._height = value }
 fun setWidth(value: Float) { this._width = value }
 ```
 
 ### 플래그 인수 함수
+
 - 호출되는 함수가 실행할 로직을 호출하는 쪽에서 선택하기 위해 전달하는 인수
+
 ```kotlin
 fun bookConcert(customer: Customer, isPremium: Boolean) {
    if (isPremium) {
@@ -275,19 +295,23 @@ bookConsert(customer, true)
 bookConsert(customer, CustomerType.PREMIUM)
 bookConsert(customer, "premium")
 ```
+
 - 단점
-	- [x] 호출할 수 있는 함수들이 무엇이고 어떻게 호출하는지 **🤮 이해의 어려움**
-	- [x] 플래그 인수가 있으면 **🤮 함수들의 기능 차이가 잘 드러나지 않음**
-	- [x] 사용할 함수를 선택한 후에도 **🤮 플래그 인수로 어떤 값을 넘겨야 하는지** 또 알아야하는 복작성
-	- [x] **🤮 불리언 플래그는 코드를 읽는 이에게 뜻을 온전히 전달하지 못하기** 때문에 더욱 좋지 않음
+  - [x] 호출할 수 있는 함수들이 무엇이고 어떻게 호출하는지 **🤮 이해의 어려움**
+  - [x] 플래그 인수가 있으면 **🤮 함수들의 기능 차이가 잘 드러나지 않음**
+  - [x] 사용할 함수를 선택한 후에도 **🤮 플래그 인수로 어떤 값을 넘겨야 하는지** 또 알아야하는 복작성
+  - [x] **🤮 불리언 플래그는 코드를 읽는 이에게 뜻을 온전히 전달하지 못하기** 때문에 더욱 좋지 않음
 
 ### 📍 절차
+
 &emsp;⓵ 매개변수로 주어질 수 있는 값 각각에 대응하는 명시적 함수들을 생성<br>
+
 > 주가 되는 함수에 깔끔한 분배 조건문이 포함되어 있다면 조건문 분해하기로 명시적 함수들을 생성하자. 그렇지 않으면 래핑함수 형태로 만든다.
 
 &emsp;⓶ 원래 함수를 호출하는 코드들을 모두 찾아서 각 리터럴 값에 대응되는 명시적 함수를 호출하도록 수정한다.<br>
 
-### Ex. 배송일자를 계산하는 호출 
+### Ex. 배송일자를 계산하는 호출
+
 ```kotlin
 shipment.deliveryDate = deliveryDate(order, true)
 
@@ -313,7 +337,9 @@ fun deliveryDate(order: Order, isRush: Boolean) {
    }
 }
 ```
+
 **🔻 명시적인 함수를 사용해 호출자의 의도를 분명히 밝히기**
+
 ```kotlin
 fun deliveryDate(order: Order, isRush: Boolean) {
    if (isRush) rushDeliveryDate(order)
@@ -337,40 +363,45 @@ fun regularDeliveryDate(order: Order) {
 }
 ```
 
-
 <br>
 <div id='id-section4'/>
 
 ## 11.4 객체 통째로 넘기기
+
 ```kotlin
 val low = room.daysTempRange.low
 val high = room.daysTempRange.high
 if (plan.withinRange(low, high))
 ```
+
 **🔻 객체 통째로 넘기기**
+
 ```kotlin
 if (plan.withinRange(room.daysTempRange))
 ```
 
-### 🔍  객체 넘기기
+### 🔍 객체 넘기기
+
 - 객체를 통째로 넘기면 변화에 대응하기 쉽다
 - 함수가 더 다양한 데이터를 사용하도록 바뀌어도 매개변수 목록은 수정할 필요 없음
 - 매개변수 목록이 짧아져서 함수 사용법 이해도 좋아진다
 - 레코드를 통째로 넘기면 로직 중복 제거
 - 🙌🏻 넘기지 말아야할 때
-	- [x] 함수가 객체 자체에 의존하기를 원치 않을 때
-	- [x] 객체와 함수가 서로 다른 모듈에 속한 상황
+  - [x] 함수가 객체 자체에 의존하기를 원치 않을 때
+  - [x] 객체와 함수가 서로 다른 모듈에 속한 상황
 - 🧐 객체 넘기기 시 문제 발견
-	- [x] 어떤 객체로부터 값 몇개를 얻은 후 그 값들만으로 무언가를 하는 로직 
-		- -> 객체 안으로 집어넣어야 함을 알려주는 악취
-	- [x] 한 객체가 제공하는 기중 중 항상 똑같은 일부만을 사용하는 코드가 많다면 
-		- -> 그 기능만 묶어서 클래스 추출 신호
-	- [x] 다른 객체의 메서드를 호출하면서 <br>
-			호출하는 객체 자신이 가지고 있는 데이터 여러 개 건낼 때 <br>
-			-> 객체 자신의 참조만 건네도록 수정
+  - [x] 어떤 객체로부터 값 몇개를 얻은 후 그 값들만으로 무언가를 하는 로직
+    - -> 객체 안으로 집어넣어야 함을 알려주는 악취
+  - [x] 한 객체가 제공하는 기중 중 항상 똑같은 일부만을 사용하는 코드가 많다면
+    - -> 그 기능만 묶어서 클래스 추출 신호
+  - [x] 다른 객체의 메서드를 호출하면서 <br>
+        호출하는 객체 자신이 가지고 있는 데이터 여러 개 건낼 때 <br>
+        -> 객체 자신의 참조만 건네도록 수정
 
 ### 📍 절차
+
 &emsp;⓵ 매개변수들을 원하는 형태로 받는 빈 함수를 만든다.<br>
+
 > -> 마지막 단계에서 이 함수의 이름을 변경해야 하니 검색하기 쉬운 이름
 
 &emsp;⓶ 새 함수의 본문에서는 원래 함수를 호출하도록 하며, 새 매개변수와 원래 함수의 매개변수를 매핑한다.<br>
@@ -379,9 +410,10 @@ if (plan.withinRange(room.daysTempRange))
 &emsp;⓹ 호출자를 모두 수정했다면 원래 함수를 인라인한다.<br>
 &emsp;⓺ 새 함수의 이름을 적절히 수정하고 모든 호출자에 반영.<br>
 
-### Ex. 일일 최저-최고 기온이 난방 계획에서 정한 범위를 벗어나는지 확인 
+### Ex. 일일 최저-최고 기온이 난방 계획에서 정한 범위를 벗어나는지 확인
+
 ```kotlin
-// 출자 
+// 출자
 val low = room.daysTempRange.low
 val high = room.daysTempRange.high
 if (!plan.withinRange(low, high))
@@ -392,16 +424,18 @@ class HeatingPlan {
       return (bottom >= this._temperatureRange.low)
          && (top <= this._temperatureRange.high)
    }
-}    
+}
 ```
+
 **🔻 통째로 넘기기**
+
 ```kotlin
 class HeatingPlan {
    fun withinRnage(numberRange) {
       return (numberRange.low >= this._temperatureRange.low)
          && (numberRange.high <= this._temperatureRange.high)
    }
-}    
+}
 
 // 호출자
 if (!plan.withinRange(room.daysTempRange))
@@ -412,6 +446,7 @@ if (!plan.withinRange(room.daysTempRange))
 <div id='id-section5'/>
 
 ## 11.5 매개변수를 질의 함수로 바꾸기 Replace Parameter with Query
+
 ```kotlin
 availableVacation(employee, employee.grade)
 
@@ -419,7 +454,9 @@ fun availableVacation(employee: Employee, grade: String) {
    // 연휴 계산...
 }
 ```
+
 **🔻 매개변수를 질의 함수로 바꾸기**
+
 ```kotlin
 availableVacation(employee)
 
@@ -429,52 +466,56 @@ fun availableVacation(employee: Employee) {
 }
 ```
 
-### 🔍  함수에서 매개변수
+### 🔍 함수에서 매개변수
+
 - 매개변수
-	- 매개변수 목록은 함수의 변동 요인
-	- 함수의 동작에 변화를 줄 수 있는 일차적 수단
-	- 중복은 피하는게 좋으며 짧을수록 이해하기 쉬움
+  - 매개변수 목록은 함수의 변동 요인
+  - 함수의 동작에 변화를 줄 수 있는 일차적 수단
+  - 중복은 피하는게 좋으며 짧을수록 이해하기 쉬움
 - 매개변수 처리 방향
-	- 피호출 함수가 '쉽게' 결정할 수 있는 값을 매개변수로 건네는 것도 일종의 중복
-	- 호출하는 쪽을 간소하게 만들자.
-		- [x] 책임 소재를 피호출 함수로 옮긴다. (피호출 함수가 그 역할을 수행하기에 적합할 때)
-	- 제거하려는 매개변수의 값을 다른 매개변수에 질의해서(ex.object.grade) 얻을 수 있다면 질의 함수로 바꾸자
-		> -> 다른 매개변수에서 얻을 수 있는 값을 별도 매개변수로 전달하는 것은 의미 없음
-		
+  - 피호출 함수가 '쉽게' 결정할 수 있는 값을 매개변수로 건네는 것도 일종의 중복
+  - 호출하는 쪽을 간소하게 만들자.
+    - [x] 책임 소재를 피호출 함수로 옮긴다. (피호출 함수가 그 역할을 수행하기에 적합할 때)
+  - 제거하려는 매개변수의 값을 다른 매개변수에 질의해서(ex.object.grade) 얻을 수 있다면 질의 함수로 바꾸자
+    > -> 다른 매개변수에서 얻을 수 있는 값을 별도 매개변수로 전달하는 것은 의미 없음
 - 매개변수를 질의 함수로 바꾸지 말아야 할 상황
-	- [x] 매개변수를 제거하면 피호출 함수에 원치 않는 의존성이 생길 때
-	- [x] 즉, 해당 함수가 알지 못했으면 하는 프로그램 요소에 접근해야 하는 상황
-	- [x] 새로운 의존생이 생기거나 or 제거하고 싶은 기존 의존성을 강화하는 경우
-	- [x] -> 주로 문제의 외부 함수를 호출 or 나중에 함수 밖으로 빼내길 원하는 수용 객체에 담긴 데이터를 사용해야할 때 일어남
-- 주의사항 
-	- 대상 함수가 **참조 투명**해야 함
-		> 참조투명: 함수에 똑같은 값을 건네 호출하면 항상 똑같이 동작한다
-	- 따라서 매개변수를 없애는 대신 가변 전역 변수를 이용하는 일은 하면 안됨.	
+  - [x] 매개변수를 제거하면 피호출 함수에 원치 않는 의존성이 생길 때
+  - [x] 즉, 해당 함수가 알지 못했으면 하는 프로그램 요소에 접근해야 하는 상황
+  - [x] 새로운 의존생이 생기거나 or 제거하고 싶은 기존 의존성을 강화하는 경우
+  - [x] -> 주로 문제의 외부 함수를 호출 or 나중에 함수 밖으로 빼내길 원하는 수용 객체에 담긴 데이터를 사용해야할 때 일어남
+- 주의사항
+  - 대상 함수가 **참조 투명**해야 함
+    > 참조투명: 함수에 똑같은 값을 건네 호출하면 항상 똑같이 동작한다
+  - 따라서 매개변수를 없애는 대신 가변 전역 변수를 이용하는 일은 하면 안됨.
 
 ### 📍 절차
+
 &emsp;⓵ 필요하다면 대상 매개변수의 값을 계산하는 코드를 별도 함수로 추출<br>
 &emsp;⓶ 함수 본문에서 대상 매개변수로의 참조를 모두 찾아서 <br>
-&emsp;&emsp;&nbsp;그 매개변수의 값을 만들어주는 표현식을 참조하도록 바꾼다.<br> 
+&emsp;&emsp;&nbsp;그 매개변수의 값을 만들어주는 표현식을 참조하도록 바꾼다.<br>
 &emsp;&emsp;&nbsp;수정할 때마다 테스트<br>
 &emsp;⓷ 함수 선언 바꾸기로 대상 매개변수를 없앤다.<br>
 
-### Ex.  
+### Ex.
+
 ```kotlin
 // Order class
 fun finalPrice() {
    val basePrice = this.quantity * this.itemPrice
    var discountLevel = 0
    if (this.quantity > 100) discountLevel = 2
-   else discountLevel = 1 
+   else discountLevel = 1
    return this.discountedPrice(basePrice, discountLevel)
 }
 
 fun discountedPrice(basePrice, discountLevel) = when (descountLevel) {
    1 -> basePrice * 0.95
    2 -> basePrice * 0.9
-}    
+}
 ```
+
 **🔻 매개변수 질의함수**
+
 ```kotlin
 // Order class
 val discountLevel = if (this.quantity > 100) 2 else 1
@@ -487,13 +528,14 @@ fun finalPrice() {
 fun discountedPrice(basePrice) = when (this.descountLevel) {
    1 -> basePrice * 0.95
    2 -> basePrice * 0.9
-}    
+}
 ```
 
 <br>
 <div id='id-section6'/>
 
 ## 11.6 질의 함수를 매개변수로 바꾸기 Replace Query with Parameter
+
 ```kotlin
 targetTemperature(plan)
 
@@ -501,51 +543,60 @@ fun targetTemperature(plan) {
    currentTemperature = thermostat.currentTemperature
 }
 ```
+
 **🔻 질의 함수를 매개변수로 바꾸기**
+
 ```kotlin
 targetTemperature(plan, thermostat.currentTemperature)
 
 fun targetTemperature(plan, thermostat.currentTemperature) {
-   
+
 }
 ```
 
 ### 🔍 함수 안에 참조
+
 - 함수 안에 두기엔 거북한 참조를 발견할 때
-	 - [x] 전역 변수를 참조
-	 - [x] 제거하길 원하는 원소를 참조
-	 - [x] 참조를 풀어내는 책임을 호출자로 옮기는 것
+  - [x] 전역 변수를 참조
+  - [x] 제거하길 원하는 원소를 참조
+  - [x] 참조를 풀어내는 책임을 호출자로 옮기는 것
 
 ### 매개변수 <> 참조
+
 - 두 사이 적절한 균형 찾아야 한다.
 - 한쪽 끝은 모든 것을 매개변수로 바꿔 아주 길고 반복적인 매개변수 목록 만드는 것
 - 다른 쪽 끝은 함수들끼리 많은 것을 공유하여 수많은 결합을 만들어내는 것
 
 ### 참조 투명성
+
 - 똑같은 값을 건네면 매번 똑같은 결과를 내는 함수
 - 참조 투명하지 않은 원소에 접근하는 모든 함수는 참조 투명성을 잃게 됨.
-	> -> 해당 원소를 매개변수로 바꾸면 해결
-	> -> 책임이 호출자로 옮겨진다 
+
+  > -> 해당 원소를 매개변수로 바꾸면 해결
+  > -> 책임이 호출자로 옮겨진다
 
 - 장점이 크다.
-	- [x] 모듈을 개발할 때 순수 함수들을 따로 구분
-	- [x] 프로그램의 입출력과 기타 가변 원소들을 다루는 로직으로 순수 함수들을 겉을 감싸는 패턴 활용
-	- [x] 이 리팩터링을 활용하면 프로그램의 일부를 순수 함수로 바꿀 수 있으며, 결과적으로 테스트 및 다루기 쉬워짐	
+  - [x] 모듈을 개발할 때 순수 함수들을 따로 구분
+  - [x] 프로그램의 입출력과 기타 가변 원소들을 다루는 로직으로 순수 함수들을 겉을 감싸는 패턴 활용
+  - [x] 이 리팩터링을 활용하면 프로그램의 일부를 순수 함수로 바꿀 수 있으며, 결과적으로 테스트 및 다루기 쉬워짐
 - 단점
-	- [x] 어떤 값을 제공할지를 호출자가 알아내야 한다.
-	- [x] 결국 호출자가 복잡 
-	- [x] 책임 소재를 프로그램의 어디에 배정하느냐에 문제로 귀결
+  - [x] 어떤 값을 제공할지를 호출자가 알아내야 한다.
+  - [x] 결국 호출자가 복잡
+  - [x] 책임 소재를 프로그램의 어디에 배정하느냐에 문제로 귀결
 
 ### 📍 절차
+
 &emsp;⓵ 변수 추출하기로 질의 코드를 함수 본문의 나머지 코드와 분리<br>
 &emsp;⓶ 함수 본문 중 해당 질의를 호출하지 않는 코드들을 별도 함수로 추출 <br>
+
 > -> 이 함수의 이름은 나중에 수정해야 하니 검색하기 쉬운 이름으로 짓는다.
 
 &emsp;⓷ 방금 만든 변수를 인라인하여 제거한다.<br>
 &emsp;⓸ 원래 함수도 인라인한다.<br>
 &emsp;⓹ 새 함수의 이름을 원래 함수의 이름으로 고쳐준다.<br>
 
-### Ex.  실내온도 제어 시스템. 사용자는 온도 조절기(thermostat) 온도 설정할 수 있지만, 목표 온도는 난방 계획에서 정한 범위에서만 선택할 수 있다.
+### Ex. 실내온도 제어 시스템. 사용자는 온도 조절기(thermostat) 온도 설정할 수 있지만, 목표 온도는 난방 계획에서 정한 범위에서만 선택할 수 있다.
+
 ```kotlin
 // HeatPlan class
 val targetTemperature = if (thermostat.selectedTemperature > this._max) this._max
@@ -562,48 +613,55 @@ else setOff()
 ### 🤮 targetTemperature() 메서드가 전역 객체인 thermostat에 의존하는데 신경 쓰임 -> 전역 객체에 건네는 질의 메서드를 매개변수로 옮겨서 의존성 끊기
 
 &emsp;⓵ 변수 추출하기를 이용하여 이 메서드에서 사용할 매개변수를 준비하는 것.
+
 ```kotlin
 // HeatPlan class
-val targetTemperature = 
+val targetTemperature =
    get() {
       val selectedTemperature = thermostat.selectedTemperature
 	  return if (selectedTemperature > this._max) this._max
              else if (selectedTemperature < this._min) this._min
-             else selectedTemperature   
+             else selectedTemperature
    }
-   
+
 ```
+
 &emsp;⓶ 매개변수의 값을 구하는 코드를 제외한 나머지를 메서드로 추출하기가 수월
 
 ```kotlin
 // HeatPlan class
-val targetTemperature = 
+val targetTemperature =
    get() {
       val selectedTemperature = thermostat.selectedTemperature
 	  return this.xxNEWtargetTemperature(selectedTemperature)
    }
-   
+
 fun xxNEWtargetTemperature(selectedTemperature) {
    return if (selectedTemperature > this._max) this._max
           else if (selectedTemperature < this._min) this._min
-          else selectedTemperature   
+          else selectedTemperature
 }
 ```
+
 &emsp;⓷ 다음으로 방금 추출한 변수를 인라인하여 원래 메서드에는 한순한 호출만 남게 된다.br>
+
 ```kotlin
 // HeatPlan class
-val targetTemperature = 
+val targetTemperature =
    get() {
 	  return this.xxNEWtargetTemperature(thermostat.selectedTemperature)
    }
 ```
-&emsp;⓸ 이어서 이 메서드까지  인라인한다.<br>
+
+&emsp;⓸ 이어서 이 메서드까지 인라인한다.<br>
+
 ```kotlin
 // 호출자
 if (plan.xxNEWtargetTemperature(thermostat.selectedTemperature) > thermostat.currentTemperature) setToHeat()
 else if (plan.xxNEWtargetTemperature(thermostat.selectedTemperature) < thermostat.currentTemperature) setToCool()
 else setOff()
 ```
+
 &emsp;⓹ 이제 새 메서드의 이름을 원래 메서드의 이름으로 바꿀 차례
 
 ```kotlin
@@ -616,7 +674,7 @@ else setOff()
 fun targetTemperature(selectedTemperature) {
 	return if (selectedTemperature > this._max) this._max
            else if (selectedTemperature < this._min) this._min
-           else selectedTemperature 
+           else selectedTemperature
 }
 ```
 
@@ -633,6 +691,7 @@ class Person {
          field = name
       }
 ```
+
 **🔻 세터 제거하기**
 
 ```kotlin
@@ -641,13 +700,14 @@ class Person {
       get() = {...}
 ```
 
-### 🔍  세터 제거하기
+### 🔍 세터 제거하기
+
 - 세터 메서드 존재 -> 변경 및 수정될 수 있다는 뜻
 - 필요한 상황
-	- [x] 첫째, 사람들이 무조건 접근자 메서드를 통해서만 필드를 다루려 할 때.
-	- [x] 두 번째, 클라리언트에서 생성 스크립트를 사용해 객체를 생성할 때.
-		> 생성 스크립트란
-		: 생성자를 호출한 후 일련의 세터를 호출하여 객체를 완성하는 형태의 코드
+  - [x] 첫째, 사람들이 무조건 접근자 메서드를 통해서만 필드를 다루려 할 때.
+  - [x] 두 번째, 클라리언트에서 생성 스크립트를 사용해 객체를 생성할 때.
+    > 생성 스크립트란
+    > : 생성자를 호출한 후 일련의 세터를 호출하여 객체를 완성하는 형태의 코드
 
 <br>
 <div id='id-section8'/>
@@ -657,6 +717,7 @@ class Person {
 ```kotlin
 val leadEngineer = Employee(document.loadEngineer, 'E')
 ```
+
 **🔻 생성자를 팩터리 함수로 바꾸기**
 
 ```kotlin
@@ -677,8 +738,9 @@ fun score(
 ) {
    var result = 0
    var healthLevel = 0
-}   
+}
 ```
+
 **🔻 함수를 명령으로 바꾸기**
 
 ```kotlin
@@ -694,14 +756,15 @@ class Scorer(
 }
 ```
 
-### 🔍  함수 -> 명령 객체 (명령)
+### 🔍 함수 -> 명령 객체 (명령)
+
 - 🚀 **명령객체 (명령)**
-	- [x] 함수만을 위한 객체 안으로 캡슐화하면 더 유용해지는 상황 
-	- [x] 명령 객체는 대부분 메서드 하나로 구성, 메서드를 요청해 실행하는 것이 객체의 목적
-	- [x] 평범한 함수 메커니즘 보다 훨씬 유연 -> 함수 제어 및 표현
-	- [x] 되돌리기 (undo) 같은 보조 연산을 제공
-	- [x] 생명주기를 더 정밀하게 제어하는 데 필요한 매개변수를 만들어주는 메서드도 제공할 수 있다.
-	- [x] 상속과 훅을 이용해 사용자 맞춤형으로 만들 수도 있다.
+  - [x] 함수만을 위한 객체 안으로 캡슐화하면 더 유용해지는 상황
+  - [x] 명령 객체는 대부분 메서드 하나로 구성, 메서드를 요청해 실행하는 것이 객체의 목적
+  - [x] 평범한 함수 메커니즘 보다 훨씬 유연 -> 함수 제어 및 표현
+  - [x] 되돌리기 (undo) 같은 보조 연산을 제공
+  - [x] 생명주기를 더 정밀하게 제어하는 데 필요한 매개변수를 만들어주는 메서드도 제공할 수 있다.
+  - [x] 상속과 훅을 이용해 사용자 맞춤형으로 만들 수도 있다.
 
 <br>
 <div id='id-section10'/>
@@ -718,6 +781,7 @@ class ChargeCalculator(
    }
 }
 ```
+
 **🔻 명령을 함수로 바꾸기**
 
 ```kotlin
@@ -728,7 +792,6 @@ fun charge(customer: Customer, usage: Usage) {
 
 - 명령은 그저 함수를 하나 호출해 정해진 일을 수행하는 용도로 주로 쓰인다.
 - 로직이 크게 복잡하지 않다면 명령 객체는 장점보다 단점이 크니 평범한 함수로 바꿔주는 게 낫다.
-
 
 <br>
 <div id='id-section11'/>
@@ -746,6 +809,7 @@ fun calculateAscent(): Int {
    }
 }
 ```
+
 **🔻 수정된 값 반환하기**
 
 ```kotlin
@@ -762,16 +826,17 @@ fun calculateAscent(): Int {
 ```
 
 ### 🤔 수정된 값 반환하기 이유
+
 - 데이터가 **어떻게 수정되는지를 추적하는 일**은<br>
   코드에서 이해하기 **가장 어려운 부분 중 하나.**
 - 특히 같은 데이터 블록을 읽고 **수정하는 코드가 여러 곳이라면** <br>
-   데이터가 **수정되는 흐름과 코드의 흐름을 일치시키기가 상당히 어려움.**
+  데이터가 **수정되는 흐름과 코드의 흐름을 일치시키기가 상당히 어려움.**
 - 그래서 데이터가 수정된다면 그 사실을 명확히 알려주어서, <br>
-**어느 함수가 무슨 일을 하는지 쉽게 알 수 있게 하는 일이 대단히 중요.**
+  **어느 함수가 무슨 일을 하는지 쉽게 알 수 있게 하는 일이 대단히 중요.**
 - 🙆🏻‍♂️ 데이터 수정됨을 알려주는 좋은 방법
-	- [x] 변수를 갱신하는 함수라면 수정된 값을 반환하여 <br>
-            호출자가 그 값을 변수에 담아두도록 하는 것. <br>
-            **-> 해당 변수의 값을 단 한 번만 정하면 될 때 특히 유용**
+  - [x] 변수를 갱신하는 함수라면 수정된 값을 반환하여 <br>
+        호출자가 그 값을 변수에 담아두도록 하는 것. <br>
+        **-> 해당 변수의 값을 단 한 번만 정하면 될 때 특히 유용**
 
 <br>
 <div id='id-section12'/>
@@ -784,6 +849,7 @@ if (data)
 else
    return -23
 ```
+
 **🔻 오류 코드를 예외로 바꾸기**
 
 ```kotlin
@@ -794,6 +860,7 @@ else
 ```
 
 ### 🤔 예외 프로그래밍
+
 - 예외는 프로그래밍 언어에서 제공하는 독립적인 오류 처리 메커니즘
 - 오류가 발견되면 예외를 던진다.
 - 그러면 적절한 예외 핸들러를 찾을 때까지 콜스택을 타고 위로 전파된다
@@ -802,16 +869,19 @@ else
 - 예외는 정교한 메커니즘이지만 정확하게 사용할 때만 최고의 효과.
 - 예외는 정확히 예상 밖에 동작일 때만 쓰여야 한다.
 - 🚀 예외를 던지는 코드를 -> 종료 코드로 바꾼다 -> 여전히 정상 동작할지 따져본다
-- 💬  정상 동작하지 않을 것 같다면 예외를 사용하지 말라는 신호.
+- 💬 정상 동작하지 않을 것 같다면 예외를 사용하지 말라는 신호.
 - 예외 대신 오류를 검출하여 프로그램을 정상 흐름으로 되돌리게끔 처리
 
 ### 📍 절차
+
 &emsp;⓵ 콜스택 상위에 해당 예외를 처리할 예외 핸들러를 작성한다.br>
+
 > -> 이 핸들러는 처음에는 모든 예외를 다시 던게 해둔다.
 > -> 적절한 처리를 해주는 핸들러가 이미 있다면 지금의 콜스택도 처리할 수 있도록 확장한다.
 
 &emsp;⓶ 테스트한다.<br>
 &emsp;⓷ 해당 오류 코드를 대체할 예외와 그 밖에 예외를 구분할 식별 방법을 찾는다.<br>
+
 > -> 사용하는 프로그밍 언어에 맞게 선택하면 된다. 대부분 언어에서는 서브클래스를 사용하면 됨.
 
 &emsp;⓸ 정적 검사를 수행한다.<br>
@@ -821,6 +891,7 @@ else
 &emsp;⓼모두 수정 했다면 그 오류 코드를 콜스택 위로 전달하는 코드를 모두 제거한다. 하나씩 수정할 때마다 테스트한다.<br>
 
 ### Ex. 전역 테이블에서 배송지의 배송 규칙을 알아내는 코드
+
 ```kotlin
 fun localShippingRules(country: Country) {
    val data = countryData.shippingRules[contry]
@@ -836,17 +907,20 @@ fun calculateShippingCosts(order: Order) {
    if (shippingRules < 0) return shippingRules // 오류 전파
 }
 ```
+
 더 윗단 함수는 오류를 낸 주문을 오류 목록에 (errorList)에 넣는다.
+
 ```kotlin
 val status = calculateShippingCosts(orderData)
 if (status < 0) errorList.push(mapOf(order to orderData, errorCode to status))
 ```
+
 ### 고려할 것
+
 - 이 오류가 '예상된 것이냐'
 - localShippingRules() 는 배송 규칙들이 countryData에 제대로 반영되어 있다고 가정해도 되냐?
 - country 인수가 전역 데이터에 저장된 키들과 일치하는 곳에서 가져온 것인가. 아니면 앞서 검증을 받았나?
 - 이 질문들의 답이 긍정적 (즉, 예상할 수 있는 정상 동작 범주에 든다면) 오류 코드를 예외로 바꾸는 리팩터링 적용할 준비가 된 것.
-
 
 ⓵ 가장 먼저 최상위에 예외 핸들러를 갖춘다. <br>
 &emsp;&nbsp;localShippingRules() 호출을 try 블록으로 감싸려 하지만 <br>
@@ -892,6 +966,7 @@ class OrderProcessingError : Error {
 ```
 
 ⓹ 이 클래스가 준비되면 오류 코드를 처리할 때와 같은 방식으로 이 예외 클래스를 처리하는 로직을 추가할 수 있다.<br>
+
 ```kotlin
 lateinit var status
 try {
@@ -899,13 +974,14 @@ try {
 } catch (e) {
    if (e is OrderProcessingError)
       errorList.push(mapOf(order to orderData, errorCode to status))
-   else 
+   else
       throw e
 }
 if (status < 0) errorList.push(mapOf(order to orderData, errorCode to status))
 ```
 
 ⓻ 그런 다음 오류 검출 코드를 수정하여 오류 코드 대신 이 예외를 던지도록 한다.<br>
+
 ```kotlin
 fun localShippingRules(country: Country) {
    val data = countryData.shippingRules[country]
@@ -913,6 +989,7 @@ fun localShippingRules(country: Country) {
    else throw OrderProcessingError(-23)
 }
 ```
+
 ⓼ 코드를 다 작성했고 테스트도 통과했다면 오류 코드를 전파하는 임시 코드를 제거할 수 있다. 하지만 저자는 먼저 다음처럼 함정을 추가한 후 테스트 해볼 것이다.
 
 ```kotlin
@@ -922,6 +999,7 @@ fun calculateShippingCosts(order: Order) {
    if (shippingRules < 0) throw Error("오류 코드가 다 사라지지 않았습니다.")
 }
 ```
+
 - 이 함정에 걸려들지 않는다면 이 줄 전체를 제거해도 안전하다.
 - 오류를 콜스택 위로 전달하는 일은 예외 메커니즘이 대신 처리해줄 것이기 때문이다.
 
@@ -941,7 +1019,7 @@ try {
 } catch (e) {
    if (e is OrderProcessingError)
       errorList.push(mapOf(order to orderData, errorCode to status))
-   else 
+   else
       throw e
 }
 // if (status < 0) errorList.push(mapOf(order to orderData, errorCode to status))
@@ -971,12 +1049,14 @@ fun getValueForPeriod(periodNumber: Int): Float {
 ```
 
 ### 🤔 예외 프로그래밍
+
 - 오류 코드를 연쇄적으로 전파하던 긴 코드를 예외로 바꿔 깔끔히 제거할 수 있게 되어서 언어 발전에 의미 있는 한걸음.
 - 예외도 (더 이상 좋지 않을 정도까지) 과용되곤 한다.
 - 예외는 '뜻밖의 오류'라는, 말 그대로 예외적으로 동작할 때만 쓰여야 한다.
 - 함수 수행 시 문제가 될 수 있는 조건을 함수 호출 전에 검사할 수 있다면, 예외를 던지는 대신 호출하는 곳에서 조건을 검사하도록 해야 한다.
 
 ### 📍 절차
+
 &emsp;⓵ 예외를 유발하는 상황을 검사할 수 있는 조건문을 추가한다. catch 블록의 코드를 조건문의 조건절 중 하나로 옮기고, 남은 try 블록의 코드를 다른 조건절로 옮긴다. <br>
 
 &emsp;⓶ catch 블록에 어셔선을 추가하고 테스트한다.<br>
@@ -1004,7 +1084,9 @@ class ResourcePool {
 ```
 
 #### 🙅🏻‍♂️ 풀에서 자원이 고갈되는 건 예상치 못한 조건이 아니므로 예외 처리로 대응하는 건 옳지 않다.
+
 #### 사용하기 전에 allocated 컬렉션의 상태를 확인하기란 아주 쉬운 일이며, 예상 범주에 있는 동작임을 더 뚜렷하게 드러내는 방식.
+
 ⓵ 조건을 검사하는 코드를 추가하고, catch 블록의 코드를 조건문의 조건절로 옮기고, 남은 try 블록 코드를 다른 조건절로 옮겨보자.
 
 ```kotlin
@@ -1025,14 +1107,16 @@ class ResourcePool {
                allocated.add(result)
             } catch (e: NosuchElementException) {
                throw AssertionError("도달 불가")
-            } 
+            }
          }
-      
+
          return result
       }
 }
 ```
+
 어서션까지 추가한 후 테스트에 통과하면 ⓷ try문과 catch 블록을 제거한다.<br>
+
 ```kotlin
 class ResourcePool {
    private val available = Dequq<Resource>()
@@ -1055,6 +1139,7 @@ class ResourcePool {
 ```
 
 ### 더 가다듬기
+
 ```kotlin
 class ResourcePool {
    private val available = Dequq<Resource>()
@@ -1062,14 +1147,39 @@ class ResourcePool {
 
    val resource: Resource
       get(){
-         var result: Resource = 
+         var result: Resource =
             if (available.isEmpty()) Resource.create() else available.pop()
-         allocated.add(result)   
+         allocated.add(result)
          return result
       }
 }
 ```
 
+&emsp;⓵ 생성자를 호출하는 곳이 많다면 생성자를 팩터리 함수로 바꾼다.<br>
+
+&emsp;⓶ 위임으로 활용할 빈 클래스를 만든다. 이 클래스의 생성자는 서브클래스의 특화된 데이터를 전부 받아야 하며, 보통은 슈퍼클래스를 가리키는 역참조도 필요하다.<br>
+
+&emsp;⓷ 위임을 저장할 필드를 슈퍼클래스에 추가한다.<br>
+
+&emsp;⓸ 서브클래스 생성 코드를 수정하여 위임 인스턴스를 생성하고 위임 필드에 대입해 초기화한다.<br>
+
+> 이 작업은 팩터리 함수가 수행한다. 혹은 생성자가 정확한 위임 인스턴스를 생성할 수 있는 게 확실하다면 생성자에서 수행할 수도 있다.
+
+&emsp;⓹ 서브클래스의 메서드 중 위임 클래스로 이동할 것을 고른다.<br>
+
+&emsp;⓺ 함수 옮기기를 적용해 위임 클래스로 옮긴다. 원래 메서드에서 위임하는 코드는 지우지 않는다.<br>
+
+> 이 메서드가 사용하는 원소 중 위임으로 옮겨야 하는 게 있다면 함께 옮긴다. 슈퍼클래스에 유지해야 할 원소를 참조한다면 슈퍼클래스를 참조하는 필드를 위임에 추가한다.
+
+&emsp;⓻ 서브클래스 외부에도 원래 메서드를 호출하는 코드가 있다면 서브클래스의 위임 코드를 슈퍼클래스로 옮긴다. 이 때 위임이 존재하는지를 검사하는 보호 코드로 감싸야 한다. 호출하는 외부 코드가 없다면 원래 메서드는 죽은 코드가 되므로 제거한다,<br>
+
+> 서브 클래스가 둘 이상이고 서브클래스들에서 중복이 생겨나기 시작했다면 슈퍼클래스를 추출한다. 이렇게 하여 기본 동작이 위임 슈퍼클래스로 옮겨졌다면 슈퍼클래스의 위임 메서드들에는 보호 코드가 필요 없다.
+
+&emsp;⓼ 서브클래스의 모든 메서드가 옮겨질 때까지 5-8 과정 반복<br>
+
+&emsp;⓽ 서브클래스들의 생성자를 호출하는 코드를 찾아서 슈퍼클래스의 생성자를 사용하도록 수정<br>
+
+&emsp;⓾ 서브클래스를 삭제한다 (죽은 코드 제거하기)<br>
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMTQxNjUyNjA0MiwxNjIwOTUxODEsNjY2MD
